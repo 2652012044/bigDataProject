@@ -15,7 +15,12 @@ sys.path.insert(0, str(Path(__file__).parent))
 from core.app_controller import AppController
 from core.device import DeviceManager
 from core.logger import setup_logger
-from core.wait_utils import ui_signature, wait_for_any_selector, wait_for_ui_change
+from core.wait_utils import (
+    ui_signature,
+    wait_for_any_selector,
+    wait_for_text_in_any_selector,
+    wait_for_ui_change,
+)
 
 
 SEARCH_BUTTON_X = 1517
@@ -25,6 +30,13 @@ STABLE_THRESHOLD = 4
 CHARLES_CLEAR_URL = "http://control.charles/session/clear"
 CHARLES_EXPORT_URL = "http://control.charles/session/export-json"
 CHARLES_TIMEOUT_SECONDS = 10
+SEARCH_INPUT_SELECTORS = [
+    {"resourceId": "com.dragon.read:id/search_input"},
+    {"resourceId": "com.dragon.read:id/edt_search"},
+    {"resourceId": "com.dragon.read:id/search_src_text"},
+    {"className": "android.widget.EditText", "focused": True},
+    {"className": "android.widget.EditText"},
+]
 
 
 def parse_args() -> argparse.Namespace:
@@ -328,7 +340,25 @@ def main(book_type: str, scroll_timeout_seconds: int) -> bool:
         if not wait_for_ui_change(controller.device, before_search_click, timeout=8):
             time.sleep(1)
         controller.device.send_keys(book_type)
-        logger.info("✓ 输入完成")
+        if not wait_for_text_in_any_selector(
+            controller.device,
+            SEARCH_INPUT_SELECTORS,
+            expected_text=book_type,
+            timeout=5,
+        ):
+            logger.warning("首次输入未校验通过，重试输入一次...")
+            controller.device.send_keys(book_type)
+
+        if not wait_for_text_in_any_selector(
+            controller.device,
+            SEARCH_INPUT_SELECTORS,
+            expected_text=book_type,
+            timeout=5,
+        ):
+            logger.error("✗ 搜索框内容校验失败，终止点击搜索")
+            return False
+
+        logger.info("✓ 输入并校验完成")
 
         logger.info("\n--- 操作 3: 点击搜索按钮 ---")
         time.sleep(0.3)

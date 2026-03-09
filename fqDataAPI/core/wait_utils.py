@@ -48,3 +48,48 @@ def wait_for_any_selector(
                 continue
         time.sleep(interval)
     return None
+
+
+def wait_for_text_in_any_selector(
+    device,
+    selectors: List[Dict[str, str]],
+    expected_text: str,
+    timeout: float = 8.0,
+    interval: float = 0.2,
+) -> Optional[Dict[str, str]]:
+    """Wait until one selector's displayed text equals expected_text."""
+    target = (expected_text or "").strip()
+    if not target:
+        return None
+
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        for selector in selectors:
+            try:
+                obj = device(**selector)
+                if not obj.exists(timeout=0):
+                    continue
+
+                current_text = None
+                try:
+                    current_text = obj.get_text()
+                except Exception:
+                    pass
+
+                if not isinstance(current_text, str) or not current_text.strip():
+                    try:
+                        info = obj.info
+                        if isinstance(info, dict):
+                            raw = info.get("text")
+                            if isinstance(raw, str):
+                                current_text = raw
+                    except Exception:
+                        pass
+
+                if isinstance(current_text, str) and current_text.strip() == target:
+                    return selector
+            except Exception:
+                continue
+        time.sleep(interval)
+
+    return None
