@@ -8,7 +8,7 @@ skinparam entity {
   BorderColor #2B5D8A
 }
 
-entity "Type" as Type {
+entity "Category" as Category {
   * category_id : BIGINT <<PK>>
   --
   tab_name : VARCHAR(20)
@@ -76,11 +76,11 @@ entity "Tag" as Tag {
   * category_id : BIGINT <<PK, FK>>
 }
 
-Type ||--o{ Book : category_id
+Category ||--o{ Book : category_id
 User ||--o{ Book : author_id
 User ||--o{ Comment : user_id
 Book ||--o{ Comment : book_id
 Book ||--o{ Tag : book_id
-Type ||--o{ Tag : category_id
+Category ||--o{ Tag : category_id
 
 @enduml
