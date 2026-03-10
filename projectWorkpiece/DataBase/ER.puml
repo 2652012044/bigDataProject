@@ -71,9 +71,16 @@ entity "Comment" as Comment {
   status : TINYINT
 }
 
+entity "Tag" as Tag {
+  * book_id : BIGINT <<PK, FK>>
+  * category_id : BIGINT <<PK, FK>>
+}
+
 Type ||--o{ Book : category_id
 User ||--o{ Book : author_id
 User ||--o{ Comment : user_id
 Book ||--o{ Comment : book_id
+Book ||--o{ Tag : book_id
+Type ||--o{ Tag : category_id
 
 @enduml
