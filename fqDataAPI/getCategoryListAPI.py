@@ -253,7 +253,7 @@ def main() -> int:
             logger.info("Latest response body parsed and saved: %s", latest_body_path)
 
             type_list = extract_type_list(body_json)
-            type_list_path = output_dir / "TypeList.json"
+            type_list_path = output_dir / "CategoryList.json"
             save_json(type_list_path, type_list)
             logger.info("Extracted %d tags and saved: %s", len(type_list), type_list_path)
         except Exception:
