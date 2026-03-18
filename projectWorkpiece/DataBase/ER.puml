@@ -1,0 +1,86 @@
+@startuml
+' MySQL ER diagram based on extracted fqDataAPI/data fields
+
+hide circle
+skinparam linetype ortho
+skinparam entity {
+  BackgroundColor #F9FBFF
+  BorderColor #2B5D8A
+}
+
+entity "Category" as Category {
+  * category_id : BIGINT <<PK>>
+  --
+  tab_name : VARCHAR(20)
+  category_tab : TINYINT
+  cell_name : VARCHAR(30)
+  name : VARCHAR(64)
+  show_type : TINYINT
+  style : TINYINT
+  category_landpage_url : VARCHAR(512)
+  pic_url : VARCHAR(512)
+}
+
+entity "User" as User {
+  * user_id : BIGINT <<PK>>
+  --
+  user_name : VARCHAR(128)
+  user_type : TINYINT
+  gender : TINYINT
+  description : VARCHAR(512)
+  is_author : TINYINT
+  author_type : TINYINT
+  read_book_time : BIGINT
+  read_book_num : INT
+  recv_digg_num : INT
+  fans_num : INT
+  follow_user_num : INT
+  author_book_num : INT
+  is_vip : TINYINT
+  is_official_cert : TINYINT
+  has_medal : TINYINT
+  is_cancelled : TINYINT
+}
+
+entity "Book" as Book {
+  * book_id : BIGINT <<PK>>
+  --
+  book_name : VARCHAR(255)
+  author : VARCHAR(128)
+  author_id : BIGINT <<FK>>
+  score : DECIMAL(3,1)
+  word_number : INT
+  creation_status : TINYINT
+  update_status : TINYINT
+  read_count : INT
+  chapter_number : INT NULL
+  category_id : BIGINT <<FK>>
+}
+
+entity "Comment" as Comment {
+  * comment_id : BIGINT <<PK>>
+  --
+  book_id : BIGINT <<FK>>
+  content : TEXT
+  content_type : TINYINT
+  create_timestamp : BIGINT
+  user_id : BIGINT <<FK>>
+  user_name : VARCHAR(128)
+  digg_count : INT
+  reply_count : INT
+  status : TINYINT
+}
+
+entity "Tag" as Tag {
+  * book_id : BIGINT <<PK, FK>>
+  * category_id : BIGINT <<PK, FK>>
+}
+
+Category ||--o{ Book : category_id
+User ||--o{ Book : author_id
+User ||--o{ Comment : user_id
+Book ||--o{ Comment : book_id
+Book ||--o{ Tag : book_id
+Category ||--o{ Tag : category_id
+
+@enduml
