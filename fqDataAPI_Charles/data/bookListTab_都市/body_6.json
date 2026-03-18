@@ -1,0 +1,2681 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@20260305160032EA5084D122414C83DB4F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@20260305160032EA5084D122414C83DB4F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@20260305160032EA5084D122414C83DB4F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@20260305160032EA5084D122414C83DB4F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@20260305160032EA5084D122414C83DB4F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@20260305160032EA5084D122414C83DB4F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1030,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7036279635419597858",
+          "search_result_id": "7036279635419597858",
+          "search_high_light": {
+            "title": {
+              "text": "神级强者在都市",
+              "rich_text": "神级强者在<em>都市</em>",
+              "high_light_position": [
+                [
+                  5,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【他，站在了一个世界的顶端】【无敌文+反套路+搞笑】 星河神国的国主李辉夜游历地球，竟让女总裁怀上龙种！ 为照顾宝贝出生，他过上了没羞没臊的软饭生活。 在老婆眼里，他是平平无奇的家庭主夫，但在无数招惹过他的敌人眼里，他是这个世界上最可怕的存在。 战神，修罗，医婿，龙王，有的为他跳芭蕾，有的帮他做保洁。 龙组组长请他出山，仙盟魔疆请他收徒。 而在老婆眼里，他始终是个凡人，直到那一天，天下绝望，这个男人站了出来，只出了一拳。",
+              "rich_text": "【无敌文+反套路+搞笑】\n星河神国的国主李辉夜游历地球，竟让女总裁怀上龙种！\n为照顾宝贝出生，他过上了没羞没臊的软饭生活。\n在老婆眼里，他是平平无奇的家庭主夫，但在无数招惹过他的敌人眼里，他是这个世界上最可怕的存在。\n战神，修罗，医婿，龙王，有的为他跳芭蕾，有的帮他做保洁。\n龙组组长请他出山，仙盟魔疆请他收徒。\n而在老婆眼里，他始终是个凡人，直到那一天，天下绝望，这个男人站了出来，只出了一拳。",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【无敌文+反套路+搞笑】\n星河神国的国主李辉夜游历地球，竟让女总裁怀上龙种！\n为照顾宝贝出生，他过上了没羞没臊的软饭生活。\n在老婆眼里，他是平平无奇的家庭主夫，但在无数招惹过他的敌人眼里，他是这个世界上最可怕的存在。\n战神，修罗，医婿，龙王，有的为他跳芭蕾，有的帮他做保洁。\n龙组组长请他出山，仙盟魔疆请他收徒。\n而在老婆眼里，他始终是个凡人，直到那一天，天下绝望，这个男人站了出来，只出了一拳。",
+              "author": "忆鱼",
+              "book_id": "7036279635419597858",
+              "book_name": "神级强者在都市",
+              "category": "战神赘婿",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2021-11-30T16:38:36+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7036286295617831455",
+              "first_chapter_item_id": "7036286295617831455",
+              "first_chapter_title": "第1章 战神归来，为女儿搭建精美狗窝",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7072311957650735623",
+              "last_chapter_item_id": "7072311957650735623",
+              "last_chapter_title": "第84章 大结局",
+              "last_chapter_update_time": "1646650945",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "19",
+              "recommend_group_id": "7036279635419597858",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260305160104E37DC2B8CDEB99A8AC22\",\"rank\":\"1\",\"normal_session_id\":\"f7346e63-529e-4dc1-a61c-f09a3c67937f\",\"cold_start_session_id\":\"2eaa37ad-8f79-494e-a81c-90cda1033dbb\"}",
+              "read_progress": "0",
+              "serial_count": "84",
+              "source": "番茄小说",
+              "tags": "战神赘婿,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c352c28accb2ab4d98d236d095e13282~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=f%2FNbFtdyuUfxn%2B3h%2Boa2Y%2B8Pz%2Bc%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "181276",
+              "score": "0",
+              "exclusive": "1",
+              "role": "李辉夜",
+              "category_schema": "[{\"category_id\":27,\"name\":\"战神赘婿\",\"schema\":\"dragon1967://newCategoryDetail?id=27&name=战神赘婿&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":25,\"name\":\"赘婿\",\"schema\":\"dragon1967://newCategoryDetail?id=25&name=赘婿&genre_type=0&gender=1&source=detail\"},{\"category_id\":124,\"name\":\"都市修真\",\"schema\":\"dragon1967://newCategoryDetail?id=124&name=都市修真&genre_type=0&gender=1&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":384,\"name\":\"无敌\",\"schema\":\"dragon1967://newCategoryDetail?id=384&name=无敌&genre_type=0&gender=1&source=detail\"},{\"category_id\":778,\"name\":\"搞笑轻松\",\"schema\":\"dragon1967://newCategoryDetail?id=778&name=搞笑轻松&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "2",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1646651038",
+              "authorize_type": "1",
+              "media_id": "1646104053730311",
+              "original_book_name": "神级强者在都市",
+              "length_type": "1",
+              "op_tag": "871,241,536,535",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/c352c28accb2ab4d98d236d095e13282",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c352c28accb2ab4d98d236d095e13282~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1777881664&x-signature=ipf9F1OJP2u1X20KN3JoUZ%2FZ9dY%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "战神赘婿,搞笑轻松",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#201828",
+              "read_count_all": "24448",
+              "shelf_cnt_history": "1112",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507427\":1744967148,\"8703\":1744967148,\"507386\":1744967148,\"596084\":1715071000,\"1967\":1638262741,\"3040\":1645185881,\"8661\":1681446683,\"8704\":1747914285,\"510893\":1689746965,\"426946\":1736165419,\"638505\":1724840346,\"1112\":1693464405}",
+              "category_v2_map": {
+                "778": true,
+                "27": true,
+                "25": true,
+                "384": true,
+                "1": true,
+                "91": true,
+                "124": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c352c28accb2ab4d98d236d095e13282~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=f%2FNbFtdyuUfxn%2B3h%2Boa2Y%2B8Pz%2Bc%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7036279636107466019,
+                  "AuthorName": "忆鱼"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c352c28accb2ab4d98d236d095e13282~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1777881664&x-signature=n4rmL29BEDAM4ZopvKze%2FbhrJxc%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【无敌文+反套路+搞笑】\n星河神国的国主李辉夜游历地球，竟让女总裁怀上龙种！\n为照顾宝贝出生，他过上了没羞没臊的软饭生活。\n在老婆眼里，他是平平无奇的家庭主夫，但在无数招惹过他的敌人眼里，他是这个世界上最可怕的存在。\n战神，修罗，医婿，龙王，有的为他跳芭蕾，有的帮他做保洁。\n龙组组长请他出山，仙盟魔疆请他收徒。\n而在老婆眼里，他始终是个凡人，直到那一天，天下绝望，这个男人站了出来，只出了一拳。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c352c28accb2ab4d98d236d095e13282~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=qx4Q3hYZywR7xsdwPpekiCjR6aY%3D",
+              "raw_book_name": "神级强者在都市",
+              "color_audio_dominate": "#3C2B38"
+            }
+          ],
+          "search_attached_info": "14182676721884323315:30:0:3368948512:clks####3@20260305160032EA5084D122414C83DB4F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "18.1万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "19人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "战神赘婿",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：忆鱼",
+                "rich_text": "作者：忆鱼",
+                "high_light_position": []
+              },
+              {
+                "text": "【他，站在了一个世界的顶端】【无敌文+反套路+搞笑】 星河神国的国主李辉夜游历地球，竟让女总裁怀上龙种！ 为照顾宝贝出生，他过上了没羞没臊的软饭生活。 在老婆眼里，他是平平无奇的家庭主夫，但在无数招惹过他的敌人眼里，他是这个世界上最可怕的存在。 战神，修罗，医婿，龙王，有的为他跳芭蕾，有的帮他做保洁。 龙组组长请他出山，仙盟魔疆请他收徒。 而在老婆眼里，他始终是个凡人，直到那一天，天下绝望，这个男人站了出来，只出了一拳。",
+                "rich_text": "【无敌文+反套路+搞笑】\n星河神国的国主李辉夜游历地球，竟让女总裁怀上龙种！\n为照顾宝贝出生，他过上了没羞没臊的软饭生活。\n在老婆眼里，他是平平无奇的家庭主夫，但在无数招惹过他的敌人眼里，他是这个世界上最可怕的存在。\n战神，修罗，医婿，龙王，有的为他跳芭蕾，有的帮他做保洁。\n龙组组长请他出山，仙盟魔疆请他收徒。\n而在老婆眼里，他始终是个凡人，直到那一天，天下绝望，这个男人站了出来，只出了一拳。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1031,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7187032388248013882",
+          "search_result_id": "7187032388248013882",
+          "search_high_light": {
+            "title": {
+              "text": "都市最强潜龙",
+              "rich_text": "<em>都市</em>最强潜龙",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【最强杀手，竟然是我师傅】一个普通的男生，遇到了最强杀手，经过最强杀手的调教后，终于得以下山，自此，犹如龙入大海，自由翱翔。",
+              "rich_text": "一个普通的男生，遇到了最强杀手，经过最强杀手的调教后，终于得以下山，自此，犹如龙入大海，自由翱翔。",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "一个普通的男生，遇到了最强杀手，经过最强杀手的调教后，终于得以下山，自此，犹如龙入大海，自由翱翔。",
+              "author": "带玉",
+              "book_id": "7187032388248013882",
+              "book_name": "都市最强潜龙",
+              "category": "战神赘婿",
+              "copyright_info": "版权信息：本书的数字版权由 3G书城 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-01-12T22:35:32+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7187802903586079293",
+              "first_chapter_item_id": "7187802903586079293",
+              "first_chapter_title": "第1章 你是谁",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7589784762533825560",
+              "last_chapter_item_id": "7589784762533825560",
+              "last_chapter_title": "第6159章 修炼",
+              "last_chapter_update_time": "1767134795",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "3725",
+              "recommend_group_id": "7187032388248013882",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260305160104E37DC2B8CDEB99A8AC22\",\"rank\":\"1\",\"normal_session_id\":\"f7346e63-529e-4dc1-a61c-f09a3c67937f\",\"cold_start_session_id\":\"2eaa37ad-8f79-494e-a81c-90cda1033dbb\"}",
+              "read_progress": "0",
+              "serial_count": "6158",
+              "source": "3G书城",
+              "tags": "战神赘婿,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d88ebcaf1d0a5c2a367c85b6052b0464~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=0pJtVcyD9L2t610I2ZaT1rf9PW8%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "14139036",
+              "score": "7.4",
+              "role": "唐宇,夏诗涵",
+              "category_schema": "[{\"category_id\":27,\"name\":\"战神赘婿\",\"schema\":\"dragon1967://newCategoryDetail?id=27&name=战神赘婿&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":385,\"name\":\"校花\",\"schema\":\"dragon1967://newCategoryDetail?id=385&name=校花&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7530561696524405785,7452568468131417112]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1085",
+              "sub_info": "3725人在读",
+              "last_publish_time": "1767134806",
+              "authorize_type": "0",
+              "media_id": "6210483966",
+              "original_book_name": "都市最强潜龙",
+              "length_type": "0",
+              "op_tag": "535,865,873,537,339,466,1019,1095,1097",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/d88ebcaf1d0a5c2a367c85b6052b0464",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d88ebcaf1d0a5c2a367c85b6052b0464~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1777881664&x-signature=5kCD1CXnV5lOKDEJouOXwSpVKEw%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "729",
+              "pure_category_tags": "战神赘婿,打脸",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e0d0c8",
+              "read_count_all": "146731",
+              "shelf_cnt_history": "38591",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2329\":1674094907,\"1505\":1674094907,\"507386\":1692793169,\"2503\":1680170467,\"1112\":1693469964,\"596084\":1732533818,\"8661\":1680602509,\"510893\":1692096530,\"1967\":1674094907,\"6589\":1674094907,\"1918\":1674094907,\"1319\":1674094907,\"1128\":1674094907,\"35\":1674094907,\"3040\":1680602509,\"13\":1674094907,\"507427\":1692793169,\"8662\":1692793230}",
+              "category_v2_map": {
+                "91": true,
+                "522": true,
+                "27": true,
+                "1": true,
+                "385": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d88ebcaf1d0a5c2a367c85b6052b0464~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=0pJtVcyD9L2t610I2ZaT1rf9PW8%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6903766063343736072,
+                  "AuthorName": "带玉"
+                }
+              ],
+              "platform_book_id": "594240",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d88ebcaf1d0a5c2a367c85b6052b0464~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1777881664&x-signature=%2BzV25%2F8Ib8%2BoURiK6s9Eubld3U0%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "一个普通的男生，遇到了最强杀手，经过最强杀手的调教后，终于得以下山，自此，犹如龙入大海，自由翱翔。",
+              "read_page_progress": "0",
+              "read_cnt_text": "3725人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d88ebcaf1d0a5c2a367c85b6052b0464~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=%2FP%2FDlKId%2BwCVlv9DQe6YeZQ97gg%3D",
+              "raw_book_name": "都市最强潜龙",
+              "color_audio_dominate": "#E6DDD6"
+            }
+          ],
+          "search_attached_info": "14182676721884323315:31:0:2408923852:clks####3@20260305160032EA5084D122414C83DB4F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "1413.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3725人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "战神赘婿",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：带玉",
+                "rich_text": "作者：带玉",
+                "high_light_position": []
+              },
+              {
+                "text": "【最强杀手，竟然是我师傅】一个普通的男生，遇到了最强杀手，经过最强杀手的调教后，终于得以下山，自此，犹如龙入大海，自由翱翔。",
+                "rich_text": "一个普通的男生，遇到了最强杀手，经过最强杀手的调教后，终于得以下山，自此，犹如龙入大海，自由翱翔。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1032,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7206245419314056253",
+          "search_result_id": "7206245419314056253",
+          "search_high_light": {
+            "abstract": {
+              "text": "凭借着一身的神器，以及无上功法，他在现实社会中嫉恶如仇的整治贪官、恶少，维持人间正义……最终聚齐了五大神兽，成为了宇宙之神！",
+              "rich_text": "凭借着一身的神器，以及无上功法，他在现实社会中嫉恶如仇的整治贪官、恶少，维持人间正义……最终聚齐了五大神兽，成为了宇宙之神！",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "巅峰都市",
+              "rich_text": "巅峰<em>都市</em>",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "凭借着一身的神器，以及无上功法，他在现实社会中嫉恶如仇的整治贪官、恶少，维持人间正义……最终聚齐了五大神兽，成为了宇宙之神！",
+              "author": "qizi11",
+              "book_id": "7206245419314056253",
+              "book_name": "巅峰都市",
+              "category": "都市修真",
+              "copyright_info": "版权信息：本书的数字版权由 溪水文学 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-03-06T19:13:23+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7208141203206832695",
+              "first_chapter_item_id": "7208141203206832695",
+              "first_chapter_title": "第01章山林祖孙",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7208141216687817253",
+              "last_chapter_item_id": "7208141216687817253",
+              "last_chapter_title": "第148章（大结局）",
+              "last_chapter_update_time": "1678622552",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "3",
+              "recommend_group_id": "7206245419314056253",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260305160104E37DC2B8CDEB99A8AC22\",\"rank\":\"1\",\"normal_session_id\":\"f7346e63-529e-4dc1-a61c-f09a3c67937f\",\"cold_start_session_id\":\"2eaa37ad-8f79-494e-a81c-90cda1033dbb\"}",
+              "read_progress": "0",
+              "serial_count": "148",
+              "source": "溪水文学",
+              "tags": "都市修真,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/102aee7733c7aac0b8b36890af235cac~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=Gw8bfVIngisuKh6hD3RKYpU3xco%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "377200",
+              "score": "0",
+              "role": "小龙,欧阳萍",
+              "category_schema": "[{\"category_id\":124,\"name\":\"都市修真\",\"schema\":\"dragon1967://newCategoryDetail?id=124&name=都市修真&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1680184668",
+              "authorize_type": "0",
+              "media_id": "6693793930",
+              "original_book_name": "巅峰都市",
+              "length_type": "1",
+              "op_tag": "537,535,870",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/102aee7733c7aac0b8b36890af235cac",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/102aee7733c7aac0b8b36890af235cac~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1777881664&x-signature=2DRUMzPmUpzQj13QDR7VmKVZ3Pc%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市修真,打脸",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#402018",
+              "read_count_all": "218",
+              "shelf_cnt_history": "980",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1967\":1680184670,\"13\":1680184670,\"8704\":1747724352,\"2503\":1680184730,\"596084\":1723461389,\"6589\":1680184670,\"507427\":1745494289,\"1918\":1680184670,\"1112\":1693469366,\"1128\":1680184670,\"1319\":1680184670,\"1505\":1680184670,\"507386\":1745494289,\"3040\":1680851903,\"8662\":1680184670,\"510893\":1689598028,\"8661\":1680851903,\"2329\":1680184670,\"8703\":1745912710,\"638505\":1724935823,\"35\":1680184670}",
+              "category_v2_map": {
+                "522": true,
+                "124": true,
+                "1": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/102aee7733c7aac0b8b36890af235cac~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=Gw8bfVIngisuKh6hD3RKYpU3xco%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7207389787412501815,
+                  "AuthorName": "qizi11"
+                }
+              ],
+              "platform_book_id": "5950",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/102aee7733c7aac0b8b36890af235cac~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1777881664&x-signature=02eOcifB28gOKrzP32zDQ1SWIt4%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "凭借着一身的神器，以及无上功法，他在现实社会中嫉恶如仇的整治贪官、恶少，维持人间正义……最终聚齐了五大神兽，成为了宇宙之神！",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/102aee7733c7aac0b8b36890af235cac~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=loostHiexPba5k%2FRSXtQEHLziw4%3D",
+              "raw_book_name": "巅峰都市"
+            }
+          ],
+          "search_attached_info": "14182676721884323315:32:0:1162788372:clks####3@20260305160032EA5084D122414C83DB4F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "37.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市修真",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：qizi11",
+                "rich_text": "作者：qizi11",
+                "high_light_position": []
+              },
+              {
+                "text": "凭借着一身的神器，以及无上功法，他在现实社会中嫉恶如仇的整治贪官、恶少，维持人间正义……最终聚齐了五大神兽，成为了宇宙之神！",
+                "rich_text": "凭借着一身的神器，以及无上功法，他在现实社会中嫉恶如仇的整治贪官、恶少，维持人间正义……最终聚齐了五大神兽，成为了宇宙之神！",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1033,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7594302297895603224",
+          "search_result_id": "7594302297895603224",
+          "search_high_light": {
+            "title": {
+              "text": "化神修为回都市，我绝对无敌",
+              "rich_text": "化神修为回<em>都市</em>，我绝对无敌",
+              "high_light_position": [
+                [
+                  5,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "[都市无敌+修为不减+不隐藏身份+杀伐果断+极致爽文] 他曾是地球上一名普通人，因一场意外穿越至修仙界。 历千辛万险，踏无尽枯骨，终成化神老祖，俯瞰一方大陆！ 一次偶然的机会，他得到了一张破界符，终于回到地球！ 手捏核弹，弹指覆灭万军！ 剑斩倭岛，千里血浪滔天！ 这繁华都市，他便是唯一的天！ 不圣母，不磨磨唧唧，能动手解决的事，绝对不多说一个字！ 且看化神大佬回归都市，横行无忌，快意恩仇，缔造一段无人能挡的无敌传说！",
+              "rich_text": "[<em>都市</em>无敌+修为不减+不隐藏身份+杀伐果断+极致爽文]\n他曾是地球上一名普通人，因一场意外穿越至修仙界。\n历千辛万险，踏无尽枯骨，终成化神老祖，俯瞰一方大陆！\n一次偶然的机会，他得到了一张破界符，终于回到地球！\n手捏核弹，弹指覆灭万军！\n剑斩倭岛，千里血浪滔天！\n这繁华<em>都市</em>，他便是唯一的天！\n不圣母，不磨磨唧唧，能动手解决的事，绝对不多说一个字！\n且看化神大佬回归<em>都市</em>，横行无忌，快意恩仇，缔造一段无人能挡的无敌传说！",
+              "high_light_position": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  135,
+                  2
+                ],
+                [
+                  183,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "[都市无敌+修为不减+不隐藏身份+杀伐果断+极致爽文]\n他曾是地球上一名普通人，因一场意外穿越至修仙界。\n历千辛万险，踏无尽枯骨，终成化神老祖，俯瞰一方大陆！\n一次偶然的机会，他得到了一张破界符，终于回到地球！\n手捏核弹，弹指覆灭万军！\n剑斩倭岛，千里血浪滔天！\n这繁华都市，他便是唯一的天！\n不圣母，不磨磨唧唧，能动手解决的事，绝对不多说一个字！\n且看化神大佬回归都市，横行无忌，快意恩仇，缔造一段无人能挡的无敌传说！",
+              "author": "爱吃老冰棒",
+              "book_id": "7594302297895603224",
+              "book_name": "化神修为回都市，我绝对无敌",
+              "category": "都市修真",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-12T10:51:32+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7594302488237310488",
+              "first_chapter_item_id": "7594302488237310488",
+              "first_chapter_title": "第1章 回家",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7613379849117254168",
+              "last_chapter_item_id": "7613379849117254168",
+              "last_chapter_title": "第83章 辣眼睛",
+              "last_chapter_update_time": "1772628532",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "207714",
+              "recommend_group_id": "7594302297895603224",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260305160104E37DC2B8CDEB99A8AC22\",\"rank\":\"1\",\"normal_session_id\":\"f7346e63-529e-4dc1-a61c-f09a3c67937f\",\"cold_start_session_id\":\"2eaa37ad-8f79-494e-a81c-90cda1033dbb\"}",
+              "read_progress": "0",
+              "serial_count": "83",
+              "source": "番茄小说",
+              "tags": "都市修真,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/242644d0b3e7bc836b9c60994768fa79~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=gZWH%2Fd%2FknD18t2hqMTq3puww0Qc%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "187332",
+              "score": "7.3",
+              "exclusive": "1",
+              "role": "陆离",
+              "category_schema": "[{\"category_id\":124,\"name\":\"都市修真\",\"schema\":\"dragon1967://newCategoryDetail?id=124&name=都市修真&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":42,\"name\":\"奶爸\",\"schema\":\"dragon1967://newCategoryDetail?id=42&name=奶爸&genre_type=0&gender=1&source=detail\"},{\"category_id\":384,\"name\":\"无敌\",\"schema\":\"dragon1967://newCategoryDetail?id=384&name=无敌&genre_type=0&gender=1&source=detail\"},{\"category_id\":520,\"name\":\"大佬\",\"schema\":\"dragon1967://newCategoryDetail?id=520&name=大佬&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "36064",
+              "sub_info": "20.8万人在读",
+              "last_publish_time": "1772628553",
+              "authorize_type": "1",
+              "media_id": "1840662616914955",
+              "original_book_name": "化神修为回都市，我绝对无敌",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "42",
+              "thumb_uri": "novel-pic/242644d0b3e7bc836b9c60994768fa79",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/3912ab13c2afe6dcb147d9a9291a3977",
+              "data_rate": "",
+              "all_bookshelf_count": "30606",
+              "pure_category_tags": "都市修真,大佬",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#282018",
+              "read_count_all": "269418",
+              "shelf_cnt_history": "41017",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"638505\":1768564177,\"1967\":1768186726,\"2503\":1768186726,\"596084\":1768564177,\"35\":1768186726,\"8662\":1768186726,\"13\":1768186726,\"8704\":1768186726,\"510893\":1768186726,\"6589\":1768564177,\"507427\":1768186785,\"2329\":1768186726,\"1128\":1768186726,\"8703\":1768186726,\"507386\":1768186785,\"3040\":1768564177,\"8661\":1768564177}",
+              "category_v2_map": {
+                "1": true,
+                "37": true,
+                "42": true,
+                "384": true,
+                "520": true,
+                "124": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/242644d0b3e7bc836b9c60994768fa79~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=gZWH%2Fd%2FknD18t2hqMTq3puww0Qc%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7539547127890859288,
+                  "AuthorName": "爱吃老冰棒"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/3912ab13c2afe6dcb147d9a9291a3977~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1777881664&x-signature=iGEH9vvRjuJC%2BdIT1lPxoItVajg%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "[都市无敌+修为不减+不隐藏身份+杀伐果断+极致爽文]\n他曾是地球上一名普通人，因一场意外穿越至修仙界。\n历千辛万险，踏无尽枯骨，终成化神老祖，俯瞰一方大陆！\n一次偶然的机会，他得到了一张破界符，终于回到地球！\n手捏核弹，弹指覆灭万军！\n剑斩倭岛，千里血浪滔天！\n这繁华都市，他便是唯一的天！\n不圣母，不磨磨唧唧，能动手解决的事，绝对不多说一个字！\n且看化神大佬回归都市，横行无忌，快意恩仇，缔造一段无人能挡的无敌传说！",
+              "read_page_progress": "0",
+              "read_cnt_text": "20.8万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/242644d0b3e7bc836b9c60994768fa79~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=Afn7O06oZZaakcGgKZk4nEacCHE%3D",
+              "raw_book_name": "化神修为回都市，我绝对无敌",
+              "color_audio_dominate": "#343125",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "14182676721884323315:33:0:1299673512:clks####3@20260305160032EA5084D122414C83DB4F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "18.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "20万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市修真",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：爱吃老冰棒",
+                "rich_text": "作者：爱吃老冰棒",
+                "high_light_position": []
+              },
+              {
+                "text": "[都市无敌+修为不减+不隐藏身份+杀伐果断+极致爽文] 他曾是地球上一名普通人，因一场意外穿越至修仙界。 历千辛万险，踏无尽枯骨，终成化神老祖，俯瞰一方大陆！ 一次偶然的机会，他得到了一张破界符，终于回到地球！ 手捏核弹，弹指覆灭万军！ 剑斩倭岛，千里血浪滔天！ 这繁华都市，他便是唯一的天！ 不圣母，不磨磨唧唧，能动手解决的事，绝对不多说一个字！ 且看化神大佬回归都市，横行无忌，快意恩仇，缔造一段无人能挡的无敌传说！",
+                "rich_text": "[<em>都市</em>无敌+修为不减+不隐藏身份+杀伐果断+极致爽文]\n他曾是地球上一名普通人，因一场意外穿越至修仙界。\n历千辛万险，踏无尽枯骨，终成化神老祖，俯瞰一方大陆！\n一次偶然的机会，他得到了一张破界符，终于回到地球！\n手捏核弹，弹指覆灭万军！\n剑斩倭岛，千里血浪滔天！\n这繁华<em>都市</em>，他便是唯一的天！\n不圣母，不磨磨唧唧，能动手解决的事，绝对不多说一个字！\n且看化神大佬回归<em>都市</em>，横行无忌，快意恩仇，缔造一段无人能挡的无敌传说！",
+                "high_light_position": [
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    135,
+                    2
+                  ],
+                  [
+                    183,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1034,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7187624101328981048",
+          "search_result_id": "7187624101328981048",
+          "search_high_light": {
+            "title": {
+              "text": "都市修仙：从金丹期开始无敌",
+              "rich_text": "<em>都市</em>修仙：从金丹期开始无敌",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...我身怀逆天的本领重回都市，发现自己早已经是无敌般的存在。  这一次，我要登顶宇宙之巅，俯瞰万界，睥睨天下！  我要让那些曾经欺负过我的人，全都付出惨痛的代价！  我要快意泯恩仇，斩尽世间一切敌！  我要让整个世界都在我的脚下疯狂颤抖…",
+              "rich_text": "我叫王凡，被人陷害入狱，机缘巧合下，狱中修仙十年。\n\n十年后，我身怀逆天的本领重回<em>都市</em>，发现自己早已经是无敌般的存在。\n\n这一次，我要登顶宇宙之巅，俯瞰万界，睥睨天下！\n\n我要让那些曾经欺负过我的人，全<em>都</em>付出惨痛的代价！\n\n我要快意泯恩仇，斩尽世间一切敌！\n\n我要让整个世界<em>都</em>在我的脚下疯狂颤抖…",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "我叫王凡，被人陷害入狱，机缘巧合下，狱中修仙十年。\n\n十年后，我身怀逆天的本领重回都市，发现自己早已经是无敌般的存在。\n\n这一次，我要登顶宇宙之巅，俯瞰万界，睥睨天下！\n\n我要让那些曾经欺负过我的人，全都付出惨痛的代价！\n\n我要快意泯恩仇，斩尽世间一切敌！\n\n我要让整个世界都在我的脚下疯狂颤抖…",
+              "author": "我英语不好",
+              "book_id": "7187624101328981048",
+              "book_name": "都市修仙：从金丹期开始无敌",
+              "category": "都市修真",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-01-12T12:52:25+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7187626982891487804",
+              "first_chapter_item_id": "7187626982891487804",
+              "first_chapter_title": "第1章 修仙十年",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7613430196342882841",
+              "last_chapter_item_id": "7613430196342882841",
+              "last_chapter_title": "第1396章 功成身退！",
+              "last_chapter_update_time": "1772639910",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "18023",
+              "recommend_group_id": "7187624101328981048",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260305160104E37DC2B8CDEB99A8AC22\",\"rank\":\"1\",\"normal_session_id\":\"f7346e63-529e-4dc1-a61c-f09a3c67937f\",\"cold_start_session_id\":\"2eaa37ad-8f79-494e-a81c-90cda1033dbb\"}",
+              "read_progress": "0",
+              "serial_count": "1396",
+              "source": "番茄小说",
+              "tags": "都市修真,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c96ab2101f44fda02a994ad06558d48b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=eOBbJk7gz74shhgFYcDKKVUrYd4%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "3560396",
+              "score": "7.9",
+              "exclusive": "1",
+              "role": "王凡,李佳凝",
+              "category_schema": "[{\"category_id\":124,\"name\":\"都市修真\",\"schema\":\"dragon1967://newCategoryDetail?id=124&name=都市修真&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":26,\"name\":\"神医\",\"schema\":\"dragon1967://newCategoryDetail?id=26&name=神医&genre_type=0&gender=1&source=detail\"},{\"category_id\":384,\"name\":\"无敌\",\"schema\":\"dragon1967://newCategoryDetail?id=384&name=无敌&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7535498167236709401]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "12125",
+              "sub_info": "1.9万人在读",
+              "last_publish_time": "1772639924",
+              "authorize_type": "1",
+              "media_id": "1724095120047111",
+              "original_book_name": "修仙十年，重回都市我无敌",
+              "length_type": "0",
+              "op_tag": "871,856,864,1097,1586,888,535,1022,1095,531,536,873",
+              "keep_publish_days": "88",
+              "thumb_uri": "novel-pic/c96ab2101f44fda02a994ad06558d48b",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/ff85abe1d3457514f97ed7706a437173",
+              "data_rate": "",
+              "all_bookshelf_count": "2009",
+              "pure_category_tags": "都市修真,无敌",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#182028",
+              "read_count_all": "760228",
+              "shelf_cnt_history": "106307",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"6589\":1677064568,\"638505\":1724770707,\"596084\":1715093857,\"1112\":1693464753,\"3040\":1681185578,\"510893\":1689823815,\"8704\":1747151944,\"8661\":1681185578,\"2503\":1673499150,\"507386\":1741773452,\"1128\":1673499150,\"1967\":1673499150,\"13\":1673499150,\"35\":1673499150,\"2329\":1673499150,\"8662\":1673499150,\"507427\":1741773452,\"8703\":1744955647}",
+              "category_v2_map": {
+                "1": true,
+                "26": true,
+                "384": true,
+                "124": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c96ab2101f44fda02a994ad06558d48b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=eOBbJk7gz74shhgFYcDKKVUrYd4%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7126755560807994638,
+                  "AuthorName": "我英语不好"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/ff85abe1d3457514f97ed7706a437173~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1777881664&x-signature=T60UpzULx95t0CSoAh8vSGjY900%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "我叫王凡，被人陷害入狱，机缘巧合下，狱中修仙十年。\n\n十年后，我身怀逆天的本领重回都市，发现自己早已经是无敌般的存在。\n\n这一次，我要登顶宇宙之巅，俯瞰万界，睥睨天下！\n\n我要让那些曾经欺负过我的人，全都付出惨痛的代价！\n\n我要快意泯恩仇，斩尽世间一切敌！\n\n我要让整个世界都在我的脚下疯狂颤抖…",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.9万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c96ab2101f44fda02a994ad06558d48b~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=pZaGIRA%2FnPwrB0pEWyBfIvJkHP0%3D",
+              "raw_book_name": "都市修仙：从金丹期开始无敌",
+              "color_audio_dominate": "#C0C1C2"
+            }
+          ],
+          "search_attached_info": "14182676721884323315:34:0:957850103:clks####3@20260305160032EA5084D122414C83DB4F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "356.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市修真",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：我英语不好",
+                "rich_text": "作者：我英语不好",
+                "high_light_position": []
+              },
+              {
+                "text": "...我身怀逆天的本领重回都市，发现自己早已经是无敌般的存在。  这一次，我要登顶宇宙之巅，俯瞰万界，睥睨天下！  我要让那些曾经欺负过我的人，全都付出惨痛的代价！  我要快意泯恩仇，斩尽世间一切敌！  我要让整个世界都在我的脚下疯狂颤抖…",
+                "rich_text": "我叫王凡，被人陷害入狱，机缘巧合下，狱中修仙十年。\n\n十年后，我身怀逆天的本领重回<em>都市</em>，发现自己早已经是无敌般的存在。\n\n这一次，我要登顶宇宙之巅，俯瞰万界，睥睨天下！\n\n我要让那些曾经欺负过我的人，全<em>都</em>付出惨痛的代价！\n\n我要快意泯恩仇，斩尽世间一切敌！\n\n我要让整个世界<em>都</em>在我的脚下疯狂颤抖…",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1035,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7208454824847739938",
+          "search_result_id": "7208454824847739938",
+          "search_high_light": {
+            "abstract": {
+              "text": "【系统，我无敌了】【神豪】+【系统】+【异能】+【无敌】+【装逼打脸】+【无脑爽文】 大一新生秦川，获得超级神豪系统，随机触发任务，获得奖励！ 【恭喜挑战者】 【完成支线任务】 【任务奖励：限量超跑兰博基尼雷文顿】 【任务奖励：楼王别墅】 【任务奖励：10亿现金】 【任务奖励：湾流G650私人飞机】 【任务奖励：人物属性提升至武道巅峰】 【任务奖励：全球语言技能包】 支线任务都这么丰厚奖励，那完成主线任务岂不是世界无敌！ 比我有钱的...没有！ 比我能打的...也没有！",
+              "rich_text": "【神豪】+【系统】+【异能】+【无敌】+【装逼打脸】+【无脑爽文】\n大一新生秦川，获得超级神豪系统，随机触发任务，获得奖励！\n【恭喜挑战者】\n【完成支线任务】\n【任务奖励：限量超跑兰博基尼雷文顿】\n【任务奖励：楼王别墅】\n【任务奖励：10亿现金】\n【任务奖励：湾流G650私人飞机】\n【任务奖励：人物属性提升至武道巅峰】\n【任务奖励：全球语言技能包】\n支线任务<em>都</em>这么丰厚奖励，那完成主线任务岂不是世界无敌！\n比我有钱的...没有！\n比我能打的...也没有！",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "开局激活神豪系统，获得无限黑卡",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【神豪】+【系统】+【异能】+【无敌】+【装逼打脸】+【无脑爽文】\n大一新生秦川，获得超级神豪系统，随机触发任务，获得奖励！\n【恭喜挑战者】\n【完成支线任务】\n【任务奖励：限量超跑兰博基尼雷文顿】\n【任务奖励：楼王别墅】\n【任务奖励：10亿现金】\n【任务奖励：湾流G650私人飞机】\n【任务奖励：人物属性提升至武道巅峰】\n【任务奖励：全球语言技能包】\n支线任务都这么丰厚奖励，那完成主线任务岂不是世界无敌！\n比我有钱的...没有！\n比我能打的...也没有！",
+              "author": "怒目金刚",
+              "book_id": "7208454824847739938",
+              "book_name": "开局激活神豪系统，获得无限黑卡",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-03-09T16:06:16+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7208456691589841412",
+              "first_chapter_item_id": "7208456691589841412",
+              "first_chapter_title": "第1章 报到第一天，奖励兰博基尼雷文顿",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7613435107692511768",
+              "last_chapter_item_id": "7613435107692511768",
+              "last_chapter_title": "第2141章 是不是你们的资料库搞错了！他怎么可能是...",
+              "last_chapter_update_time": "1772641380",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "36277",
+              "recommend_group_id": "7208454824847739938",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260305160104E37DC2B8CDEB99A8AC22\",\"rank\":\"1\",\"normal_session_id\":\"f7346e63-529e-4dc1-a61c-f09a3c67937f\",\"cold_start_session_id\":\"2eaa37ad-8f79-494e-a81c-90cda1033dbb\"}",
+              "read_progress": "0",
+              "serial_count": "2141",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/469e9cc155166718ed8bb5014c50ae8a~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=58nRtI6aq%2BxVnvavjNT7Rl9A8y4%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "4446406",
+              "score": "8.5",
+              "exclusive": "1",
+              "role": "秦川,苏小妍",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":20,\"name\":\"神豪\",\"schema\":\"dragon1967://newCategoryDetail?id=20&name=神豪&genre_type=0&gender=1&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":69,\"name\":\"直播\",\"schema\":\"dragon1967://newCategoryDetail?id=69&name=直播&genre_type=0&gender=1&source=detail\"},{\"category_id\":384,\"name\":\"无敌\",\"schema\":\"dragon1967://newCategoryDetail?id=384&name=无敌&genre_type=0&gender=1&source=detail\"},{\"category_id\":385,\"name\":\"校花\",\"schema\":\"dragon1967://newCategoryDetail?id=385&name=校花&genre_type=0&gender=1&source=detail\"},{\"category_id\":453,\"name\":\"开局\",\"schema\":\"dragon1967://newCategoryDetail?id=453&name=开局&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"},{\"category_id\":850,\"name\":\"无脑爽\",\"schema\":\"dragon1967://newCategoryDetail?id=850&name=无脑爽&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7528291986323819545]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "5969",
+              "sub_info": "3.7万人在读",
+              "last_publish_time": "1772662211",
+              "authorize_type": "1",
+              "media_id": "1577124242409485",
+              "original_book_name": "开局神豪系统，不好意思我无敌了",
+              "length_type": "0",
+              "op_tag": "292,1032,1030,873,346,536,535,1167,1162,853,500,1586,245,531",
+              "keep_publish_days": "5",
+              "thumb_uri": "novel-pic/469e9cc155166718ed8bb5014c50ae8a",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/1c76f5b2f02559d510f8316a249af13a",
+              "data_rate": "",
+              "all_bookshelf_count": "4073",
+              "pure_category_tags": "都市脑洞,无脑爽",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#281820",
+              "read_count_all": "2050691",
+              "shelf_cnt_history": "337240",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1128\":1678349245,\"8704\":1747153838,\"8661\":1681185289,\"35\":1678349245,\"507386\":1741795623,\"8662\":1678349245,\"3040\":1681185289,\"2329\":1678349245,\"596084\":1715077471,\"2503\":1678349245,\"510893\":1689692241,\"6589\":1678948892,\"13\":1678349245,\"507427\":1741795623,\"1112\":1693461124,\"8703\":1744958570,\"638505\":1724768982,\"1967\":1678349245}",
+              "category_v2_map": {
+                "522": true,
+                "69": true,
+                "91": true,
+                "384": true,
+                "453": true,
+                "20": true,
+                "1": true,
+                "19": true,
+                "385": true,
+                "850": true,
+                "262": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/469e9cc155166718ed8bb5014c50ae8a~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=58nRtI6aq%2BxVnvavjNT7Rl9A8y4%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7081297025022563598,
+                  "AuthorName": "怒目金刚"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "我的财富帝国",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/1c76f5b2f02559d510f8316a249af13a~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1777881664&x-signature=pwt7rmwn5j7rirnxVlk%2FPkj8BgY%3D",
+              "reputation_thumb_uri": "novel-pic-r/e9bff21c5423d8f59da4e0b12432e8d0",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【神豪】+【系统】+【异能】+【无敌】+【装逼打脸】+【无脑爽文】\n大一新生秦川，获得超级神豪系统，随机触发任务，获得奖励！\n【恭喜挑战者】\n【完成支线任务】\n【任务奖励：限量超跑兰博基尼雷文顿】\n【任务奖励：楼王别墅】\n【任务奖励：10亿现金】\n【任务奖励：湾流G650私人飞机】\n【任务奖励：人物属性提升至武道巅峰】\n【任务奖励：全球语言技能包】\n支线任务都这么丰厚奖励，那完成主线任务岂不是世界无敌！\n比我有钱的...没有！\n比我能打的...也没有！",
+              "read_page_progress": "0",
+              "read_cnt_text": "3.7万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/469e9cc155166718ed8bb5014c50ae8a~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=XghSVqmmBDkulpZ4LM7a0F3gIK0%3D",
+              "raw_book_name": "开局激活神豪系统，获得无限黑卡",
+              "related_bookids": "{\"1967\":{\"0\":[],\"205\":[7585518296342989886,7584304533350648856,7608889441096043544]},\"507386\":{\"205\":[7585518296342989886,7584304533350648856,7608889441096043544],\"0\":[]},\"507427\":{\"205\":[7585518296342989886,7584304533350648856,7608889441096043544],\"0\":[]},\"8662\":{\"205\":[7585518296342989886,7584304533350648856,7608889441096043544],\"0\":[]},\"3040\":{\"205\":[7585518296342989886,7584304533350648856,7608889441096043544],\"0\":[]}}",
+              "color_audio_dominate": "#1D1D29"
+            }
+          ],
+          "search_attached_info": "14182676721884323315:35:0:3357366989:clks####3@20260305160032EA5084D122414C83DB4F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短剧原著",
+              "Priority": 15,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "444.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：怒目金刚",
+                "rich_text": "作者：怒目金刚",
+                "high_light_position": []
+              },
+              {
+                "text": "【系统，我无敌了】【神豪】+【系统】+【异能】+【无敌】+【装逼打脸】+【无脑爽文】 大一新生秦川，获得超级神豪系统，随机触发任务，获得奖励！ 【恭喜挑战者】 【完成支线任务】 【任务奖励：限量超跑兰博基尼雷文顿】 【任务奖励：楼王别墅】 【任务奖励：10亿现金】 【任务奖励：湾流G650私人飞机】 【任务奖励：人物属性提升至武道巅峰】 【任务奖励：全球语言技能包】 支线任务都这么丰厚奖励，那完成主线任务岂不是世界无敌！ 比我有钱的...没有！ 比我能打的...也没有！",
+                "rich_text": "【神豪】+【系统】+【异能】+【无敌】+【装逼打脸】+【无脑爽文】\n大一新生秦川，获得超级神豪系统，随机触发任务，获得奖励！\n【恭喜挑战者】\n【完成支线任务】\n【任务奖励：限量超跑兰博基尼雷文顿】\n【任务奖励：楼王别墅】\n【任务奖励：10亿现金】\n【任务奖励：湾流G650私人飞机】\n【任务奖励：人物属性提升至武道巅峰】\n【任务奖励：全球语言技能包】\n支线任务<em>都</em>这么丰厚奖励，那完成主线任务岂不是世界无敌！\n比我有钱的...没有！\n比我能打的...也没有！",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1036,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7565393238551448600",
+          "search_result_id": "7565393238551448600",
+          "search_high_light": {
+            "title": {
+              "text": "20元起步到都市巅峰",
+              "rich_text": "20元起步到<em>都市</em>巅峰",
+              "high_light_position": [
+                [
+                  6,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...喧嚣、物欲横流的现代都市，平凡青年陈凡如蝼蚁般挣扎求生。家庭的破碎、旁人的欺辱，让他的生活暗无天日。一次意外，他获得神秘戒指，开启逆天改命之旅。 凭借戒指赋予的神奇医术，他在医界声名鹊起，治愈无数疑难杂症，甚至让死人复生，成为人们口中的 “医神”。涉足商业，他精准把握市场脉搏，在商界翻云覆雨，打造出庞大商业帝国。然而，高处不胜寒，他的成功引来了各方黑暗势力的觊觎与陷害。 爱情路上，陈凡与千金小姐苏瑶、高冷警花林婉儿、神秘女神秦雪等多位佳人邂逅，演绎出一段段缠绵悱恻、刻骨铭心的爱情故事。同时，他还卷入家族纷争，身世之谜逐渐浮出水面，背后隐藏着跨越数十年的恩怨情仇。",
+              "rich_text": "在繁华喧嚣、物欲横流的现代<em>都市</em>，平凡青年陈凡如蝼蚁般挣扎求生。家庭的破碎、旁人的欺辱，让他的生活暗无天日。一次意外，他获得神秘戒指，开启逆天改命之旅。\n凭借戒指赋予的神奇医术，他在医界声名鹊起，治愈无数疑难杂症，甚至让死人复生，成为人们口中的 “医神”。涉足商业，他精准把握<em>市</em>场脉搏，在商界翻云覆雨，打造出庞大商业帝国。然而，高处不胜寒，他的成功引来了各方黑暗势力的觊觎与陷害。\n爱情路上，陈凡与千金小姐苏瑶、高冷警花林婉儿、神秘女神秦雪等多位佳人邂逅，演绎出一段段缠绵悱恻、刻骨铭心的爱情故事。同时，他还卷入家族纷争，身世之谜逐渐浮出水面，背后隐藏着跨越数十年的恩怨情仇。",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "在繁华喧嚣、物欲横流的现代都市，平凡青年陈凡如蝼蚁般挣扎求生。家庭的破碎、旁人的欺辱，让他的生活暗无天日。一次意外，他获得神秘戒指，开启逆天改命之旅。\n凭借戒指赋予的神奇医术，他在医界声名鹊起，治愈无数疑难杂症，甚至让死人复生，成为人们口中的 “医神”。涉足商业，他精准把握市场脉搏，在商界翻云覆雨，打造出庞大商业帝国。然而，高处不胜寒，他的成功引来了各方黑暗势力的觊觎与陷害。\n爱情路上，陈凡与千金小姐苏瑶、高冷警花林婉儿、神秘女神秦雪等多位佳人邂逅，演绎出一段段缠绵悱恻、刻骨铭心的爱情故事。同时，他还卷入家族纷争，身世之谜逐渐浮出水面，背后隐藏着跨越数十年的恩怨情仇。",
+              "author": "大铁锅哥",
+              "book_id": "7565393238551448600",
+              "book_name": "20元起步到都市巅峰",
+              "category": "都市修真",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-10-26T13:09:37+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7565393369820561944",
+              "first_chapter_item_id": "7565393369820561944",
+              "first_chapter_title": "第1章 都市弃儿",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7567384049044439577",
+              "last_chapter_item_id": "7567384049044439577",
+              "last_chapter_title": "第30章 合作推进与新的挑战",
+              "last_chapter_update_time": "1761918931",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "0",
+              "recommend_group_id": "7565393238551448600",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260305160104E37DC2B8CDEB99A8AC22\",\"rank\":\"1\",\"normal_session_id\":\"f7346e63-529e-4dc1-a61c-f09a3c67937f\",\"cold_start_session_id\":\"2eaa37ad-8f79-494e-a81c-90cda1033dbb\"}",
+              "read_progress": "0",
+              "serial_count": "30",
+              "source": "番茄小说",
+              "tags": "都市修真,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o952729c9d3803e6de24cb0c6730cfdf0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=zaUis8J48pmAo1g40MjWXpQDxuw%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "141889",
+              "score": "0",
+              "exclusive": "1",
+              "role": "陈凡,苏瑶",
+              "category_schema": "[{\"category_id\":124,\"name\":\"都市修真\",\"schema\":\"dragon1967://newCategoryDetail?id=124&name=都市修真&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":26,\"name\":\"神医\",\"schema\":\"dragon1967://newCategoryDetail?id=26&name=神医&genre_type=0&gender=1&source=detail\"},{\"category_id\":20,\"name\":\"神豪\",\"schema\":\"dragon1967://newCategoryDetail?id=20&name=神豪&genre_type=0&gender=1&source=detail\"},{\"category_id\":44,\"name\":\"空间\",\"schema\":\"dragon1967://newCategoryDetail?id=44&name=空间&genre_type=0&gender=1&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=1&source=detail\"},{\"category_id\":840,\"name\":\"发家致富\",\"schema\":\"dragon1967://newCategoryDetail?id=840&name=发家致富&genre_type=0&gender=1&source=detail\"},{\"category_id\":834,\"name\":\"1v1\",\"schema\":\"dragon1967://newCategoryDetail?id=834&name=1v1&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1761918949",
+              "authorize_type": "1",
+              "media_id": "1727370848614411",
+              "original_book_name": "20元起步到都市巅峰",
+              "length_type": "1",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2o952729c9d3803e6de24cb0c6730cfdf0",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o952729c9d3803e6de24cb0c6730cfdf0~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1777881664&x-signature=3wke4Dj6ektdBq5x4tkFVWr%2B%2FEw%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市修真,1v1",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e8e8e8",
+              "read_count_all": "7",
+              "shelf_cnt_history": "1008",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8704\":1761456122,\"2503\":1761456122,\"8662\":1761456122,\"3040\":1761479309,\"638505\":1761479309,\"8661\":1761479309,\"507427\":1761456185,\"35\":1761456122,\"1128\":1761456122,\"2329\":1761456122,\"6589\":1761479309,\"8703\":1761456122,\"1967\":1761456122,\"507386\":1761456185,\"13\":1761456122,\"510893\":1761456122,\"596084\":1761479309}",
+              "category_v2_map": {
+                "840": true,
+                "834": true,
+                "26": true,
+                "44": true,
+                "124": true,
+                "91": true,
+                "1": true,
+                "516": true,
+                "20": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o952729c9d3803e6de24cb0c6730cfdf0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=zaUis8J48pmAo1g40MjWXpQDxuw%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7557597758677341465,
+                  "AuthorName": "大铁锅哥"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o952729c9d3803e6de24cb0c6730cfdf0~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1777881664&x-signature=ZIdAseoSbMyBk2I68iCP0cMEESo%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "在繁华喧嚣、物欲横流的现代都市，平凡青年陈凡如蝼蚁般挣扎求生。家庭的破碎、旁人的欺辱，让他的生活暗无天日。一次意外，他获得神秘戒指，开启逆天改命之旅。\n凭借戒指赋予的神奇医术，他在医界声名鹊起，治愈无数疑难杂症，甚至让死人复生，成为人们口中的 “医神”。涉足商业，他精准把握市场脉搏，在商界翻云覆雨，打造出庞大商业帝国。然而，高处不胜寒，他的成功引来了各方黑暗势力的觊觎与陷害。\n爱情路上，陈凡与千金小姐苏瑶、高冷警花林婉儿、神秘女神秦雪等多位佳人邂逅，演绎出一段段缠绵悱恻、刻骨铭心的爱情故事。同时，他还卷入家族纷争，身世之谜逐渐浮出水面，背后隐藏着跨越数十年的恩怨情仇。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o952729c9d3803e6de24cb0c6730cfdf0~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=udeC0KSMpGTLuH3iRn6hGRk%2FVjk%3D",
+              "raw_book_name": "20元起步到都市巅峰",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "14182676721884323315:36:0:4206527039:clks####3@20260305160032EA5084D122414C83DB4F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "14.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "都市修真",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：大铁锅哥",
+                "rich_text": "作者：大铁锅哥",
+                "high_light_position": []
+              },
+              {
+                "text": "...喧嚣、物欲横流的现代都市，平凡青年陈凡如蝼蚁般挣扎求生。家庭的破碎、旁人的欺辱，让他的生活暗无天日。一次意外，他获得神秘戒指，开启逆天改命之旅。 凭借戒指赋予的神奇医术，他在医界声名鹊起，治愈无数疑难杂症，甚至让死人复生，成为人们口中的 “医神”。涉足商业，他精准把握市场脉搏，在商界翻云覆雨，打造出庞大商业帝国。然而，高处不胜寒，他的成功引来了各方黑暗势力的觊觎与陷害。 爱情路上，陈凡与千金小姐苏瑶、高冷警花林婉儿、神秘女神秦雪等多位佳人邂逅，演绎出一段段缠绵悱恻、刻骨铭心的爱情故事。同时，他还卷入家族纷争，身世之谜逐渐浮出水面，背后隐藏着跨越数十年的恩怨情仇。",
+                "rich_text": "在繁华喧嚣、物欲横流的现代<em>都市</em>，平凡青年陈凡如蝼蚁般挣扎求生。家庭的破碎、旁人的欺辱，让他的生活暗无天日。一次意外，他获得神秘戒指，开启逆天改命之旅。\n凭借戒指赋予的神奇医术，他在医界声名鹊起，治愈无数疑难杂症，甚至让死人复生，成为人们口中的 “医神”。涉足商业，他精准把握<em>市</em>场脉搏，在商界翻云覆雨，打造出庞大商业帝国。然而，高处不胜寒，他的成功引来了各方黑暗势力的觊觎与陷害。\n爱情路上，陈凡与千金小姐苏瑶、高冷警花林婉儿、神秘女神秦雪等多位佳人邂逅，演绎出一段段缠绵悱恻、刻骨铭心的爱情故事。同时，他还卷入家族纷争，身世之谜逐渐浮出水面，背后隐藏着跨越数十年的恩怨情仇。",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1037,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "6876996916542966792",
+          "search_result_id": "6876996916542966792",
+          "search_high_light": {
+            "abstract": {
+              "text": "【系统，看我怎么风生水起】偶然的机会，邂逅霸道女总裁。 面对冷艳总裁，秦力表示自己一直活的很有压力。 还好身怀绝世系统，看秦力如何风生水起，抱得美人归。",
+              "rich_text": "偶然的机会，邂逅霸道女总裁。 面对冷艳总裁，秦力表示自己一直活的很有压力。 还好身怀绝世系统，看秦力如何风生水起，抱得美人归。",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "刚准备上班，完美人生系统来了",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "偶然的机会，邂逅霸道女总裁。 面对冷艳总裁，秦力表示自己一直活的很有压力。 还好身怀绝世系统，看秦力如何风生水起，抱得美人归。",
+              "author": "水养鱼",
+              "book_id": "6876996916542966792",
+              "book_name": "刚准备上班，完美人生系统来了",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2020-09-27T11:00:19+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "6876997235607863822",
+              "first_chapter_item_id": "6876997235607863822",
+              "first_chapter_title": "第1章 完美人生系统",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "6945477641235333639",
+              "last_chapter_item_id": "6945477641235333639",
+              "last_chapter_title": "第473章 米亚蓝王国（大结局）",
+              "last_chapter_update_time": "1617120031",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "96149",
+              "recommend_group_id": "6876996916542966792",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260305160104E37DC2B8CDEB99A8AC22\",\"rank\":\"1\",\"normal_session_id\":\"f7346e63-529e-4dc1-a61c-f09a3c67937f\",\"cold_start_session_id\":\"2eaa37ad-8f79-494e-a81c-90cda1033dbb\"}",
+              "read_progress": "0",
+              "serial_count": "473",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6923370610aa3bf8ac1263e96c551431~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=Vvs95Q%2BL8QjnTx1hfl3XNp5vqsg%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1058975",
+              "score": "9.1",
+              "exclusive": "1",
+              "role": "秦力,唐舒寒",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":20,\"name\":\"神豪\",\"schema\":\"dragon1967://newCategoryDetail?id=20&name=神豪&genre_type=0&gender=1&source=detail\"},{\"category_id\":384,\"name\":\"无敌\",\"schema\":\"dragon1967://newCategoryDetail?id=384&name=无敌&genre_type=0&gender=1&source=detail\"},{\"category_id\":850,\"name\":\"无脑爽\",\"schema\":\"dragon1967://newCategoryDetail?id=850&name=无脑爽&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "22422",
+              "sub_info": "9.7万人在读",
+              "chapter_number": "473",
+              "last_publish_time": "1617120552",
+              "authorize_type": "1",
+              "media_id": "1665040949314567",
+              "original_book_name": "神豪的完美人生",
+              "length_type": "0",
+              "op_tag": "293,535,536,873,1035,1164,502,870,347,216,234,183,245,984,856,184,1030,1167,900",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/6923370610aa3bf8ac1263e96c551431",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-images/ce99497aad32b6b10a1bd261a7f1663e",
+              "data_rate": "",
+              "all_bookshelf_count": "14753",
+              "pure_category_tags": "都市脑洞,无脑爽",
+              "related_comic_bookids": "",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#302828",
+              "read_count_all": "7586289",
+              "shelf_cnt_history": "1325705",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8661\":1681446649,\"507386\":1744884601,\"507427\":1744884601,\"8704\":1747729054,\"596084\":1715158304,\"510893\":1689690766,\"638505\":1724900578,\"426946\":1736165410,\"8703\":1744884601,\"1967\":1618447591,\"3040\":1618447591,\"1112\":1693469922}",
+              "category_v2_map": {
+                "262": true,
+                "384": true,
+                "19": true,
+                "1": true,
+                "850": true,
+                "20": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6923370610aa3bf8ac1263e96c551431~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=Vvs95Q%2BL8QjnTx1hfl3XNp5vqsg%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6914860781741806862,
+                  "AuthorName": "水养鱼"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "完美型神豪",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-images/ce99497aad32b6b10a1bd261a7f1663e~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1777881664&x-signature=jcvDX2g9Zl9G1QP5X2g6EiDMzJM%3D",
+              "reputation_thumb_uri": "novel-pic-r/8506c316d37c0c35c296dcbac8ebbb32",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "偶然的机会，邂逅霸道女总裁。 面对冷艳总裁，秦力表示自己一直活的很有压力。 还好身怀绝世系统，看秦力如何风生水起，抱得美人归。",
+              "read_page_progress": "0",
+              "read_cnt_text": "9.7万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6923370610aa3bf8ac1263e96c551431~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=YKiufks2mSTkiRGH8KXmATHyLZw%3D",
+              "raw_book_name": "刚准备上班，完美人生系统来了",
+              "related_bookids": "{\"507427\":{\"261\":[7598444198764760126,7612923334417730622]},\"8662\":{\"261\":[7598444198764760126,7612923334417730622]},\"3040\":{\"261\":[7598444198764760126,7612923334417730622]},\"1967\":{\"261\":[7598444198764760126,7612923334417730622]},\"507386\":{\"261\":[7598444198764760126,7612923334417730622]}}",
+              "color_audio_dominate": "#3D2B25"
+            }
+          ],
+          "search_attached_info": "14182676721884323315:37:0:47020733:clks####3@20260305160032EA5084D122414C83DB4F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "19人二刷",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "105.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "9万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：水养鱼",
+                "rich_text": "作者：水养鱼",
+                "high_light_position": []
+              },
+              {
+                "text": "【系统，看我怎么风生水起】偶然的机会，邂逅霸道女总裁。 面对冷艳总裁，秦力表示自己一直活的很有压力。 还好身怀绝世系统，看秦力如何风生水起，抱得美人归。",
+                "rich_text": "偶然的机会，邂逅霸道女总裁。 面对冷艳总裁，秦力表示自己一直活的很有压力。 还好身怀绝世系统，看秦力如何风生水起，抱得美人归。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1038,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7296827380629244967",
+          "search_result_id": "7296827380629244967",
+          "search_high_light": {
+            "title": {
+              "text": "我在都市开启逆袭人生",
+              "rich_text": "我在<em>都市</em>开启逆袭人生",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【逆袭系统】＋【多女】＋【日常】＋【修真】 三年之期已到，恭迎龙王回归。 叶辰邪魅一笑，这工不打也罢。 叶辰在系统的指引下， 邂逅各位极品美女，身材高挑的美女御姐，俏皮可爱的萝莉，富家豪门的姐妹花， 从此叶辰踏上了人生巅峰的道路。 重活一世的叶辰碰到系统，将会擦出怎样的火花。",
+              "rich_text": "【逆袭系统】＋【多女】＋【日常】＋【修真】\n三年之期已到，恭迎龙王回归。\n叶辰邪魅一笑，这工不打也罢。\n叶辰在系统的指引下，\n邂逅各位极品美女，身材高挑的美女御姐，俏皮可爱的萝莉，富家豪门的姐妹花，\n从此叶辰踏上了人生巅峰的道路。\n重活一世的叶辰碰到系统，将会擦出怎样的火花。",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【逆袭系统】＋【多女】＋【日常】＋【修真】\n三年之期已到，恭迎龙王回归。\n叶辰邪魅一笑，这工不打也罢。\n叶辰在系统的指引下，\n邂逅各位极品美女，身材高挑的美女御姐，俏皮可爱的萝莉，富家豪门的姐妹花，\n从此叶辰踏上了人生巅峰的道路。\n重活一世的叶辰碰到系统，将会擦出怎样的火花。",
+              "author": "活泼的胖头鱼",
+              "book_id": "7296827380629244967",
+              "book_name": "我在都市开启逆袭人生",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-11-02T19:36:55+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7299047858513281575",
+              "first_chapter_item_id": "7299047858513281575",
+              "first_chapter_title": "第1章 打工两年半才激活系统",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7310225623296049700",
+              "last_chapter_item_id": "7310225623296049700",
+              "last_chapter_title": "第58章 梦境",
+              "last_chapter_update_time": "1702044622",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "5",
+              "recommend_group_id": "7296827380629244967",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260305160104E37DC2B8CDEB99A8AC22\",\"rank\":\"1\",\"normal_session_id\":\"f7346e63-529e-4dc1-a61c-f09a3c67937f\",\"cold_start_session_id\":\"2eaa37ad-8f79-494e-a81c-90cda1033dbb\"}",
+              "read_progress": "0",
+              "serial_count": "58",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od599836e4760970dcf451615120dd790~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=y3bPCSo5L7%2FO0rXvR%2BLUVGQMYYM%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "120114",
+              "score": "0",
+              "exclusive": "1",
+              "role": "叶辰",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":124,\"name\":\"都市修真\",\"schema\":\"dragon1967://newCategoryDetail?id=124&name=都市修真&genre_type=0&gender=1&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "2",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1702044629",
+              "authorize_type": "1",
+              "media_id": "1781003498450956",
+              "original_book_name": "我在都市开启逆袭人生",
+              "length_type": "1",
+              "op_tag": "536,535",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2od599836e4760970dcf451615120dd790",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od599836e4760970dcf451615120dd790~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1777881664&x-signature=%2F%2F9Pw%2Fc%2FXj3LyY1o6pZzNxgCEAY%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市脑洞,多女主",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#181828",
+              "read_count_all": "1235",
+              "shelf_cnt_history": "1013",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"3040\":1699765862,\"507427\":1744953707,\"6589\":1699765862,\"13\":1699452231,\"35\":1699452231,\"638505\":1724914752,\"8704\":1747913503,\"507386\":1744953707,\"8662\":1699452231,\"8703\":1744953707,\"1967\":1699452231,\"2329\":1699452231,\"1128\":1699452231,\"596084\":1715162170,\"8661\":1699765862,\"510893\":1699452231,\"2503\":1699452231}",
+              "category_v2_map": {
+                "91": true,
+                "19": true,
+                "262": true,
+                "1": true,
+                "124": true,
+                "37": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od599836e4760970dcf451615120dd790~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=y3bPCSo5L7%2FO0rXvR%2BLUVGQMYYM%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7296827381371639103,
+                  "AuthorName": "活泼的胖头鱼"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od599836e4760970dcf451615120dd790~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1777881664&x-signature=Yd7q9Va7PP%2Bc1IxdvcAY2iF3pJQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【逆袭系统】＋【多女】＋【日常】＋【修真】\n三年之期已到，恭迎龙王回归。\n叶辰邪魅一笑，这工不打也罢。\n叶辰在系统的指引下，\n邂逅各位极品美女，身材高挑的美女御姐，俏皮可爱的萝莉，富家豪门的姐妹花，\n从此叶辰踏上了人生巅峰的道路。\n重活一世的叶辰碰到系统，将会擦出怎样的火花。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od599836e4760970dcf451615120dd790~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=q9NT2amG03ayeVGPe9pRAgzZfn4%3D",
+              "raw_book_name": "我在都市开启逆袭人生",
+              "color_audio_dominate": "#1E1725"
+            }
+          ],
+          "search_attached_info": "14182676721884323315:38:0:616414869:clks####3@20260305160032EA5084D122414C83DB4F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "12.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "5人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：活泼的胖头鱼",
+                "rich_text": "作者：活泼的胖头鱼",
+                "high_light_position": []
+              },
+              {
+                "text": "【逆袭系统】＋【多女】＋【日常】＋【修真】 三年之期已到，恭迎龙王回归。 叶辰邪魅一笑，这工不打也罢。 叶辰在系统的指引下， 邂逅各位极品美女，身材高挑的美女御姐，俏皮可爱的萝莉，富家豪门的姐妹花， 从此叶辰踏上了人生巅峰的道路。 重活一世的叶辰碰到系统，将会擦出怎样的火花。",
+                "rich_text": "【逆袭系统】＋【多女】＋【日常】＋【修真】\n三年之期已到，恭迎龙王回归。\n叶辰邪魅一笑，这工不打也罢。\n叶辰在系统的指引下，\n邂逅各位极品美女，身材高挑的美女御姐，俏皮可爱的萝莉，富家豪门的姐妹花，\n从此叶辰踏上了人生巅峰的道路。\n重活一世的叶辰碰到系统，将会擦出怎样的火花。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1039,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7467946904312089625",
+          "search_result_id": "7467946904312089625",
+          "search_high_light": {
+            "abstract": {
+              "text": "...0点上线，红果短剧《都市江湖之权势滔天》 陈毅从来没见过自己的亲生父亲，直到有一天被请家长，他眼睁睁看着老师被打进医院……",
+              "rich_text": "同名短剧2026年1月4号上午10点上线，红果短剧《<em>都市</em>江湖之权势滔天》\n陈毅从来没见过自己的亲生父亲，直到有一天被请家长，他眼睁睁看着老师被打进医院……",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "alias": {
+              "text": "狂风都市",
+              "rich_text": "狂风<em>都市</em>",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "狂风都市（别名：你疯了敢惹他，他可是黑二代）",
+              "rich_text": "狂风<em>都市</em>（别名：你疯了敢惹他，他可是黑二代）",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "同名短剧2026年1月4号上午10点上线，红果短剧《都市江湖之权势滔天》\n陈毅从来没见过自己的亲生父亲，直到有一天被请家长，他眼睁睁看着老师被打进医院……",
+              "author": "家有童心",
+              "book_id": "7467946904312089625",
+              "book_name": "你疯了敢惹他，他可是黑二代",
+              "category": "都市种田",
+              "copyright_info": "版权信息：本书的数字版权由 酷匠小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-02-05T22:49:45+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7467963692265524249",
+              "first_chapter_item_id": "7467963692265524249",
+              "first_chapter_title": "第1章 你告诉我为什么",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7613385302689729560",
+              "last_chapter_item_id": "7613385302689729560",
+              "last_chapter_title": "第718章 是谁？",
+              "last_chapter_update_time": "1772629820",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "70309",
+              "recommend_group_id": "7467946904312089625",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260305160104E37DC2B8CDEB99A8AC22\",\"rank\":\"1\",\"normal_session_id\":\"f7346e63-529e-4dc1-a61c-f09a3c67937f\",\"cold_start_session_id\":\"2eaa37ad-8f79-494e-a81c-90cda1033dbb\"}",
+              "read_progress": "0",
+              "serial_count": "718",
+              "source": "酷匠小说",
+              "tags": "都市种田,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b146264802b929446d469106ca54004d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=sqSFw1IU9ZLPmsfTAxmiSoj46yI%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1498833",
+              "score": "8.9",
+              "role": "陈毅",
+              "category_schema": "[{\"category_id\":263,\"name\":\"都市种田\",\"schema\":\"dragon1967://newCategoryDetail?id=263&name=都市种田&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":826,\"name\":\"黑道\",\"schema\":\"dragon1967://newCategoryDetail?id=826&name=黑道&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7538761889866583102]",
+              "book_type": "0",
+              "alias_name": "狂风都市",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "7499",
+              "sub_info": "7.1万人在读",
+              "last_publish_time": "1772629832",
+              "authorize_type": "0",
+              "media_id": "1585551339039757",
+              "original_book_name": "都市江湖：权势滔天",
+              "length_type": "0",
+              "op_tag": "531,1104,1100",
+              "keep_publish_days": "14",
+              "thumb_uri": "novel-pic/b146264802b929446d469106ca54004d",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/f9c94f8d119cab39674a9d3e995694e7",
+              "data_rate": "",
+              "all_bookshelf_count": "3906",
+              "pure_category_tags": "都市种田,黑道",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#182020",
+              "read_count_all": "2703987",
+              "shelf_cnt_history": "425907",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"638505\":1738856431,\"2503\":1738856431,\"510893\":1738856431,\"507427\":1741785812,\"1319\":1738856431,\"507386\":1741785812,\"596084\":1738856431,\"6589\":1738856431,\"13\":1738856431,\"8661\":1738856431,\"8703\":1745912364,\"1128\":1738856431,\"1967\":1738856431,\"2329\":1738856431,\"3040\":1738856431,\"35\":1738856431,\"8662\":1738856431}",
+              "category_v2_map": {
+                "826": true,
+                "1": true,
+                "263": true
+              },
+              "expand_thumb_url": "https://p9-reading-sign.fqnovelpic.com/novel-pic/b146264802b929446d469106ca54004d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=aN2VVrAlzZ%2Fc%2BZnT%2Bwroo11HtDU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7090519303019042056,
+                  "AuthorName": "家有童心"
+                }
+              ],
+              "platform_book_id": "98442",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/f9c94f8d119cab39674a9d3e995694e7~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1777881664&x-signature=Njd2OaieVNeMWYL6yWcT4kvGvAg%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "tts_type": "",
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "同名短剧2026年1月4号上午10点上线，红果短剧《都市江湖之权势滔天》\n陈毅从来没见过自己的亲生父亲，直到有一天被请家长，他眼睁睁看着老师被打进医院……",
+              "read_page_progress": "0",
+              "read_cnt_text": "7.1万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b146264802b929446d469106ca54004d~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1777881664&x-signature=jh%2F88rdMOiX0fTIf222z70DDirw%3D",
+              "cell_content_raw_alias": "狂风都市",
+              "raw_book_name": "你疯了敢惹他，他可是黑二代",
+              "related_bookids": "{\"507386\":{\"203\":[7590573022763813912,7605651967179770905],\"261\":[7604332941702859838],\"205\":[]},\"507427\":{\"203\":[7590573022763813912,7605651967179770905],\"205\":[],\"261\":[7604332941702859838]},\"8662\":{\"261\":[7604332941702859838],\"205\":[],\"203\":[7590573022763813912,7605651967179770905]},\"3040\":{\"205\":[],\"203\":[7590573022763813912,7605651967179770905],\"261\":[7604332941702859838]},\"1967\":{\"205\":[],\"203\":[7590573022763813912,7605651967179770905],\"261\":[7604332941702859838]}}",
+              "color_audio_dominate": "#25241F"
+            }
+          ],
+          "search_attached_info": "14182676721884323315:39:0:2903951099:clks####3@20260305160032EA5084D122414C83DB4F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短剧原著",
+              "Priority": 15,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "149.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "7万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市种田",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：家有童心",
+                "rich_text": "作者：家有童心",
+                "high_light_position": []
+              },
+              {
+                "text": "...0点上线，红果短剧《都市江湖之权势滔天》 陈毅从来没见过自己的亲生父亲，直到有一天被请家长，他眼睁睁看着老师被打进医院……",
+                "rich_text": "同名短剧2026年1月4号上午10点上线，红果短剧《<em>都市</em>江湖之权势滔天》\n陈毅从来没见过自己的亲生父亲，直到有一天被请家长，他眼睁睁看着老师被打进医院……",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "40",
+      "search_id": "clks####3@20260305160032EA5084D122414C83DB4F",
+      "query": "都市",
+      "next_offset": 40,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@20260305160032EA5084D122414C83DB4F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"20260305160104E37DC2B8CDEB99A8AC22\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@20260305160032EA5084D122414C83DB4F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@20260305160032EA5084D122414C83DB4F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "20260305160104E37DC2B8CDEB99A8AC22"
+}
