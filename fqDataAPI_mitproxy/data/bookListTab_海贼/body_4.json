@@ -1,0 +1,2834 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@202603191023433DF69731394F9F01BC0A",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@202603191023433DF69731394F9F01BC0A",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@202603191023433DF69731394F9F01BC0A",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@202603191023433DF69731394F9F01BC0A",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@202603191023433DF69731394F9F01BC0A",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@202603191023433DF69731394F9F01BC0A",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1010,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7615251535013874750",
+          "search_result_id": "7615251535013874750",
+          "search_high_light": {
+            "title": {
+              "text": "天幕降临：我在海贼世界直播真相",
+              "rich_text": "天幕降临：我在<em>海贼</em>世界直播真相",
+              "high_light_position": [
+                [
+                  7,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...幕横跨四海，强制播放海贼王秘史。罗杰自首真相、卡普真实战力、赤犬奥哈拉暴行、龙的身世一一曝光。答题奖励横跨诸天，强者纷纷崛起，旧时代秩序崩塌，新时代在直播中彻底改写。",
+              "rich_text": "神秘天幕横跨四<em>海</em>，强制播放<em>海贼</em>王秘史。罗杰自首真相、卡普真实战力、赤犬奥哈拉暴行、龙的身世一一曝光。答题奖励横跨诸天，强者纷纷崛起，旧时代秩序崩塌，新时代在直播中彻底改写。",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "神秘天幕横跨四海，强制播放海贼王秘史。罗杰自首真相、卡普真实战力、赤犬奥哈拉暴行、龙的身世一一曝光。答题奖励横跨诸天，强者纷纷崛起，旧时代秩序崩塌，新时代在直播中彻底改写。",
+              "author": "拉单于",
+              "book_id": "7615251535013874750",
+              "book_name": "天幕降临：我在海贼世界直播真相",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-03-09T21:45:16+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7615597174163767870",
+              "first_chapter_item_id": "7615597174163767870",
+              "first_chapter_title": "第1章 第1章",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7616719900244984382",
+              "last_chapter_item_id": "7616719900244984382",
+              "last_chapter_title": "第319章 第319章",
+              "last_chapter_update_time": "1773405814",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "10437",
+              "recommend_group_id": "7615251535013874750",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319102357BA221A6E74D877C45462\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "319",
+              "source": "番茄小说",
+              "tags": "动漫衍生,系统",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ef8b18e235b2b9ed0d500d39c14e73ce~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=LSGISjF1xcnDTpkDkVpzhte9qic%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1049953",
+              "score": "0",
+              "exclusive": "1",
+              "role": "天幕",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":71,\"name\":\"诸天万界\",\"schema\":\"dragon1967://newCategoryDetail?id=71&name=诸天万界&genre_type=0&gender=1&source=detail\"},{\"category_id\":69,\"name\":\"直播\",\"schema\":\"dragon1967://newCategoryDetail?id=69&name=直播&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=1&source=detail\"},{\"category_id\":370,\"name\":\"海贼\",\"schema\":\"dragon1967://newCategoryDetail?id=370&name=海贼&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "635",
+              "sub_info": "1.1万人在读",
+              "last_publish_time": "1773874867",
+              "authorize_type": "1",
+              "media_id": "1849390927610889",
+              "original_book_name": "天幕直播：我在海贼世界曝光秘闻",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "11",
+              "thumb_uri": "novel-pic/ef8b18e235b2b9ed0d500d39c14e73ce",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2ddc864be93fd6a0eaa226ab39b239ff~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071037&x-signature=h%2BcHRLvM97pu8l%2FALAQp%2B9cEo24%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "569",
+              "pure_category_tags": "动漫衍生,海贼",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#5080a8",
+              "read_count_all": "10437",
+              "shelf_cnt_history": "976",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8662\":1773064761,\"8703\":1773064761,\"2503\":1773064761,\"2329\":1773064761,\"3040\":1773294399,\"510893\":1773064761,\"507427\":1773064824,\"638505\":1773294399,\"6589\":1773294399,\"13\":1773064761,\"507386\":1773064824,\"1967\":1773064761,\"8661\":1773294399,\"596084\":1773294399,\"8704\":1773064761,\"35\":1773064761,\"1128\":1773064761}",
+              "category_v2_map": {
+                "19": true,
+                "370": true,
+                "718": true,
+                "538": true,
+                "71": true,
+                "1079": true,
+                "69": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ef8b18e235b2b9ed0d500d39c14e73ce~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=LSGISjF1xcnDTpkDkVpzhte9qic%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7576920935656068414,
+                  "AuthorName": "拉单于"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2ddc864be93fd6a0eaa226ab39b239ff~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071037&x-signature=g6ASZSBd6%2B0OV%2FdhCK1Kv6YVGyQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "神秘天幕横跨四海，强制播放海贼王秘史。罗杰自首真相、卡普真实战力、赤犬奥哈拉暴行、龙的身世一一曝光。答题奖励横跨诸天，强者纷纷崛起，旧时代秩序崩塌，新时代在直播中彻底改写。",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.1万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ef8b18e235b2b9ed0d500d39c14e73ce~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=o0BhiLoIMzOyZoPd3icRqjgw9LM%3D",
+              "raw_book_name": "天幕降临：我在海贼世界直播真相",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "11082008978572576342:10:0:630836523:clks####3@202603191023433DF69731394F9F01BC0A",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "105.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：拉单于",
+                "rich_text": "作者：拉单于",
+                "high_light_position": []
+              },
+              {
+                "text": "...幕横跨四海，强制播放海贼王秘史。罗杰自首真相、卡普真实战力、赤犬奥哈拉暴行、龙的身世一一曝光。答题奖励横跨诸天，强者纷纷崛起，旧时代秩序崩塌，新时代在直播中彻底改写。",
+                "rich_text": "神秘天幕横跨四<em>海</em>，强制播放<em>海贼</em>王秘史。罗杰自首真相、卡普真实战力、赤犬奥哈拉暴行、龙的身世一一曝光。答题奖励横跨诸天，强者纷纷崛起，旧时代秩序崩塌，新时代在直播中彻底改写。",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1011,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7526234239931517977",
+          "search_result_id": "7526234239931517977",
+          "search_high_light": {
+            "title": {
+              "text": "海贼：顶上摇人！你管这叫绝境？",
+              "rich_text": "<em>海贼</em>：顶上摇人！你管这叫绝境？",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...神级召唤】   穿越海贼世界，辰叶开局就被追杀，偶遇莫比迪克号，激活【神级时空召唤系统】！本以为能召唤神兵天降，却发现能量为零。绝境之下，他凭借影帝级演技“碰瓷”白胡子，成为其“傻儿子”，并激活核心功能【神之解析】！     只要接触传奇人物，就能解析其巅峰数据，构筑专属卡池！当解析度达到100%，更能融合其巅峰时期一半的实力！     【叮！白胡子解析100%，融合50%震震果实与无上霸王色！】     【叮！雷利解析100%，融合50%冥王剑术与顶级三色霸气！】     顶上战争，当全世界都以为白胡子海贼团陷入绝境，辰叶站在船头，身后是召唤出的巅峰白胡子、巅峰雷利还有巅峰尼卡路飞？ 战国“怎么会有两个白胡子？” 辰叶微微一道：到底谁包围谁？     从弥补顶上战争的遗憾开始，到逆转英雄卡普的落幕，再到亲历神之谷的终极一战……辰叶一步步收集着传说时代的力量，将所有传说的力量集于一身。     当他最终踏上圣地玛丽乔亚，面对虚空王座上的最终黑手时，他的身后，站着的是来自过去、现在、未来的所有传说！“伊姆，你的八百年伪神统治，到此为止了！”",
+              "rich_text": "【穿越】+【系统】+【无敌】+【穿越各个大事件】+【神级召唤】\n  穿越<em>海贼</em>世界，辰叶开局就被追杀，偶遇莫比迪克号，激活【神级时空召唤系统】！本以为能召唤神兵天降，却发现能量为零。绝境之下，他凭借影帝级演技“碰瓷”白胡子，成为其“傻儿子”，并激活核心功能【神之解析】！\n    只要接触传奇人物，就能解析其巅峰数据，构筑专属卡池！当解析度达到100%，更能融合其巅峰时期一半的实力！\n    【叮！白胡子解析100%，融合50%震震果实与无上霸王色！】\n    【叮！雷利解析100%，融合50%冥王剑术与顶级三色霸气！】\n    顶上战争，当全世界都以为白胡子<em>海贼</em>团陷入绝境，辰叶站在船头，身后是召唤出的巅峰白胡子、巅峰雷利还有巅峰尼卡路飞？\n战国“怎么会有两个白胡子？”\n辰叶微微一道：到底谁包围谁？\n    从弥补顶上战争的遗憾开始，到逆转英雄卡普的落幕，再到亲历神之谷的终极一战……辰叶一步步收集着传说时代的力量，将所有传说的力量集于一身。\n    当他最终踏上圣地玛丽乔亚，面对虚空王座上的最终黑手时，他的身后，站着的是来自过去、现在、未来的所有传说！“伊姆，你的八百年伪神统治，到此为止了！”",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  258,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【穿越】+【系统】+【无敌】+【穿越各个大事件】+【神级召唤】\n  穿越海贼世界，辰叶开局就被追杀，偶遇莫比迪克号，激活【神级时空召唤系统】！本以为能召唤神兵天降，却发现能量为零。绝境之下，他凭借影帝级演技“碰瓷”白胡子，成为其“傻儿子”，并激活核心功能【神之解析】！\n    只要接触传奇人物，就能解析其巅峰数据，构筑专属卡池！当解析度达到100%，更能融合其巅峰时期一半的实力！\n    【叮！白胡子解析100%，融合50%震震果实与无上霸王色！】\n    【叮！雷利解析100%，融合50%冥王剑术与顶级三色霸气！】\n    顶上战争，当全世界都以为白胡子海贼团陷入绝境，辰叶站在船头，身后是召唤出的巅峰白胡子、巅峰雷利还有巅峰尼卡路飞？\n战国“怎么会有两个白胡子？”\n辰叶微微一道：到底谁包围谁？\n    从弥补顶上战争的遗憾开始，到逆转英雄卡普的落幕，再到亲历神之谷的终极一战……辰叶一步步收集着传说时代的力量，将所有传说的力量集于一身。\n    当他最终踏上圣地玛丽乔亚，面对虚空王座上的最终黑手时，他的身后，站着的是来自过去、现在、未来的所有传说！“伊姆，你的八百年伪神统治，到此为止了！”",
+              "author": "阿溪仁德",
+              "book_id": "7526234239931517977",
+              "book_name": "海贼：顶上摇人！你管这叫绝境？",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-07-13T00:32:42+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7530303457186546200",
+              "first_chapter_item_id": "7530303457186546200",
+              "first_chapter_title": "第一章 开局地狱模式，被追杀！",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618497206231761470",
+              "last_chapter_item_id": "7618497206231761470",
+              "last_chapter_title": "第四百七十三章：霸道绝伦的插旗宣言！",
+              "last_chapter_update_time": "1773849233",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "23735",
+              "recommend_group_id": "7526234239931517977",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319102357BA221A6E74D877C45462\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "472",
+              "source": "番茄小说",
+              "tags": "动漫衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0d1c212bc4e15ee8c672666378f58a2b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=uUycihmy2hcF%2BxlMWiU1wvth5ac%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1061010",
+              "score": "7.0",
+              "exclusive": "1",
+              "role": "辰叶",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":39,\"name\":\"二次元\",\"schema\":\"dragon1967://newCategoryDetail?id=39&name=二次元&genre_type=0&gender=1&source=detail\"},{\"category_id\":830,\"name\":\"升级流\",\"schema\":\"dragon1967://newCategoryDetail?id=830&name=升级流&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "2664",
+              "sub_info": "2.4万人在读",
+              "last_publish_time": "1773849269",
+              "authorize_type": "1",
+              "media_id": "1762264260582413",
+              "original_book_name": "海贼：顶上被包围？逗逗你的了",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "18",
+              "thumb_uri": "novel-pic/0d1c212bc4e15ee8c672666378f58a2b",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/6a04adf7864ba4f57b8efcaedf6fad15",
+              "data_rate": "",
+              "all_bookshelf_count": "2442",
+              "pure_category_tags": "动漫衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#302020",
+              "read_count_all": "403228",
+              "shelf_cnt_history": "51937",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8662\":1755189656,\"8703\":1755189656,\"1967\":1755189656,\"8704\":1755189656,\"507427\":1755189718,\"2329\":1755189656,\"638505\":1755491022,\"1128\":1755189656,\"510893\":1755189656,\"13\":1755189656,\"2503\":1755189656,\"507386\":1755189718,\"6589\":1755491022,\"3040\":1755491022,\"35\":1755189656,\"8661\":1755491022,\"596084\":1755491022}",
+              "category_v2_map": {
+                "1079": true,
+                "718": true,
+                "37": true,
+                "39": true,
+                "19": true,
+                "830": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0d1c212bc4e15ee8c672666378f58a2b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=uUycihmy2hcF%2BxlMWiU1wvth5ac%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7220614361553835319,
+                  "AuthorName": "阿溪仁德"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/6a04adf7864ba4f57b8efcaedf6fad15~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071037&x-signature=OzHZlYamjgRgxAvNuA3lUh5SW0E%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【穿越】+【系统】+【无敌】+【穿越各个大事件】+【神级召唤】\n  穿越海贼世界，辰叶开局就被追杀，偶遇莫比迪克号，激活【神级时空召唤系统】！本以为能召唤神兵天降，却发现能量为零。绝境之下，他凭借影帝级演技“碰瓷”白胡子，成为其“傻儿子”，并激活核心功能【神之解析】！\n    只要接触传奇人物，就能解析其巅峰数据，构筑专属卡池！当解析度达到100%，更能融合其巅峰时期一半的实力！\n    【叮！白胡子解析100%，融合50%震震果实与无上霸王色！】\n    【叮！雷利解析100%，融合50%冥王剑术与顶级三色霸气！】\n    顶上战争，当全世界都以为白胡子海贼团陷入绝境，辰叶站在船头，身后是召唤出的巅峰白胡子、巅峰雷利还有巅峰尼卡路飞？\n战国“怎么会有两个白胡子？”\n辰叶微微一道：到底谁包围谁？\n    从弥补顶上战争的遗憾开始，到逆转英雄卡普的落幕，再到亲历神之谷的终极一战……辰叶一步步收集着传说时代的力量，将所有传说的力量集于一身。\n    当他最终踏上圣地玛丽乔亚，面对虚空王座上的最终黑手时，他的身后，站着的是来自过去、现在、未来的所有传说！“伊姆，你的八百年伪神统治，到此为止了！”",
+              "read_page_progress": "0",
+              "read_cnt_text": "2.4万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0d1c212bc4e15ee8c672666378f58a2b~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=zaidz%2BYe5EmB7UWraOrVBHx7hcs%3D",
+              "raw_book_name": "海贼：顶上摇人！你管这叫绝境？",
+              "color_audio_dominate": "#3A291E",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "11082008978572576342:11:0:521723936:clks####3@202603191023433DF69731394F9F01BC0A",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "106.1万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：阿溪仁德",
+                "rich_text": "作者：阿溪仁德",
+                "high_light_position": []
+              },
+              {
+                "text": "...神级召唤】   穿越海贼世界，辰叶开局就被追杀，偶遇莫比迪克号，激活【神级时空召唤系统】！本以为能召唤神兵天降，却发现能量为零。绝境之下，他凭借影帝级演技“碰瓷”白胡子，成为其“傻儿子”，并激活核心功能【神之解析】！     只要接触传奇人物，就能解析其巅峰数据，构筑专属卡池！当解析度达到100%，更能融合其巅峰时期一半的实力！     【叮！白胡子解析100%，融合50%震震果实与无上霸王色！】     【叮！雷利解析100%，融合50%冥王剑术与顶级三色霸气！】     顶上战争，当全世界都以为白胡子海贼团陷入绝境，辰叶站在船头，身后是召唤出的巅峰白胡子、巅峰雷利还有巅峰尼卡路飞？ 战国“怎么会有两个白胡子？” 辰叶微微一道：到底谁包围谁？     从弥补顶上战争的遗憾开始，到逆转英雄卡普的落幕，再到亲历神之谷的终极一战……辰叶一步步收集着传说时代的力量，将所有传说的力量集于一身。     当他最终踏上圣地玛丽乔亚，面对虚空王座上的最终黑手时，他的身后，站着的是来自过去、现在、未来的所有传说！“伊姆，你的八百年伪神统治，到此为止了！”",
+                "rich_text": "【穿越】+【系统】+【无敌】+【穿越各个大事件】+【神级召唤】\n  穿越<em>海贼</em>世界，辰叶开局就被追杀，偶遇莫比迪克号，激活【神级时空召唤系统】！本以为能召唤神兵天降，却发现能量为零。绝境之下，他凭借影帝级演技“碰瓷”白胡子，成为其“傻儿子”，并激活核心功能【神之解析】！\n    只要接触传奇人物，就能解析其巅峰数据，构筑专属卡池！当解析度达到100%，更能融合其巅峰时期一半的实力！\n    【叮！白胡子解析100%，融合50%震震果实与无上霸王色！】\n    【叮！雷利解析100%，融合50%冥王剑术与顶级三色霸气！】\n    顶上战争，当全世界都以为白胡子<em>海贼</em>团陷入绝境，辰叶站在船头，身后是召唤出的巅峰白胡子、巅峰雷利还有巅峰尼卡路飞？\n战国“怎么会有两个白胡子？”\n辰叶微微一道：到底谁包围谁？\n    从弥补顶上战争的遗憾开始，到逆转英雄卡普的落幕，再到亲历神之谷的终极一战……辰叶一步步收集着传说时代的力量，将所有传说的力量集于一身。\n    当他最终踏上圣地玛丽乔亚，面对虚空王座上的最终黑手时，他的身后，站着的是来自过去、现在、未来的所有传说！“伊姆，你的八百年伪神统治，到此为止了！”",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    258,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1012,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7306829394985618494",
+          "search_result_id": "7306829394985618494",
+          "search_high_light": {
+            "abstract": {
+              "text": "加入海军第一年。 “忠诚，正义，勇敢！” 加入海军第五年。 “你不拿，我不拿，战国大将怎么拿？战国大将不拿，我们还怎么进步啊？” 加入海军第十年。 “战国元帅，你咋就不敢玛丽乔亚上的五老星们真刀真枪的干一架呢？” 那一年，奥尔托伦加入海军，还是个新人，满脑子都是如何走上高层，看看这世界的风景。 后几年，奥尔托伦成了G-5的基地长，他手握七八万海军一线精锐，只能忠诚！ 再然后，奥尔托伦成为了海军本部大将，负责总督新世界，他手握几十万海军，靠的就是一句‘五老星夸我忠义勇猛，战国元帅待我如亲子’！ 最后，奥尔托伦手握天下兵马，麾下何止百万，一声令下，大海都要抖三抖。 那一天，他走在海军本部，突然冒出来了几个海军将领，将身为大海最强的他，一把就制伏了，并且还把一件黄袍披在了他的身上，告诉他，天冷了，大将您要多添件衣服。 看着那一众用殷切目光注视着自己的海军将领们。 奥尔托伦只能无奈的长叹一句道：“我忠诚了这么多年，名声一朝散尽，你们这可是害苦了朕啊！”",
+              "rich_text": "加入<em>海</em>军第一年。\n“忠诚，正义，勇敢！”\n加入<em>海</em>军第五年。\n“你不拿，我不拿，战国大将怎么拿？战国大将不拿，我们还怎么进步啊？”\n加入<em>海</em>军第十年。\n“战国元帅，你咋就不敢玛丽乔亚上的五老星们真刀真枪的干一架呢？”\n那一年，奥尔托伦加入<em>海</em>军，还是个新人，满脑子都是如何走上高层，看看这世界的风景。\n后几年，奥尔托伦成了G-5的基地长，他手握七八万<em>海</em>军一线精锐，只能忠诚！\n再然后，奥尔托伦成为了<em>海</em>军本部大将，负责总督新世界，他手握几十万<em>海</em>军，靠的就是一句‘五老星夸我忠义勇猛，战国元帅待我如亲子’！\n最后，奥尔托伦手握天下兵马，麾下何止百万，一声令下，大<em>海</em>都要抖三抖。\n那一天，他走在<em>海</em>军本部，突然冒出来了几个<em>海</em>军将领，将身为大<em>海</em>最强的他，一把就制伏了，并且还把一件黄袍披在了他的身上，告诉他，天冷了，大将您要多添件衣服。\n看着那一众用殷切目光注视着自己的<em>海</em>军将领们。\n奥尔托伦只能无奈的长叹一句道：“我忠诚了这么多年，名声一朝散尽，你们这可是害苦了朕啊！”",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "海军：忠诚大大滴有！",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "加入海军第一年。\n“忠诚，正义，勇敢！”\n加入海军第五年。\n“你不拿，我不拿，战国大将怎么拿？战国大将不拿，我们还怎么进步啊？”\n加入海军第十年。\n“战国元帅，你咋就不敢玛丽乔亚上的五老星们真刀真枪的干一架呢？”\n那一年，奥尔托伦加入海军，还是个新人，满脑子都是如何走上高层，看看这世界的风景。\n后几年，奥尔托伦成了G-5的基地长，他手握七八万海军一线精锐，只能忠诚！\n再然后，奥尔托伦成为了海军本部大将，负责总督新世界，他手握几十万海军，靠的就是一句‘五老星夸我忠义勇猛，战国元帅待我如亲子’！\n最后，奥尔托伦手握天下兵马，麾下何止百万，一声令下，大海都要抖三抖。\n那一天，他走在海军本部，突然冒出来了几个海军将领，将身为大海最强的他，一把就制伏了，并且还把一件黄袍披在了他的身上，告诉他，天冷了，大将您要多添件衣服。\n看着那一众用殷切目光注视着自己的海军将领们。\n奥尔托伦只能无奈的长叹一句道：“我忠诚了这么多年，名声一朝散尽，你们这可是害苦了朕啊！”",
+              "author": "橘子与大海",
+              "book_id": "7306829394985618494",
+              "book_name": "海军：忠诚大大滴有！",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-11-29T18:29:51+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7306830947666641470",
+              "first_chapter_item_id": "7306830947666641470",
+              "first_chapter_title": "第1章 卡塔库栗与猛将兄。",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7371777104548987454",
+              "last_chapter_item_id": "7371777104548987454",
+              "last_chapter_title": "终章·你们可真是害苦了朕啊！",
+              "last_chapter_update_time": "1716437080",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "45783",
+              "recommend_group_id": "7306829394985618494",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319102357BA221A6E74D877C45462\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "455",
+              "source": "番茄小说",
+              "tags": "动漫衍生,二次元",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/41c0e54a4597930d9fa9aa6e2dda5118~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=%2BReNzEFcCz3dMyPvgXLP6TU5tHk%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1297442",
+              "score": "9.2",
+              "exclusive": "1",
+              "role": "奥尔托伦",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":39,\"name\":\"二次元\",\"schema\":\"dragon1967://newCategoryDetail?id=39&name=二次元&genre_type=0&gender=1&source=detail\"},{\"category_id\":370,\"name\":\"海贼\",\"schema\":\"dragon1967://newCategoryDetail?id=370&name=海贼&genre_type=0&gender=1&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=1&source=detail\"},{\"category_id\":833,\"name\":\"海贼王\",\"schema\":\"dragon1967://newCategoryDetail?id=833&name=海贼王&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "5061",
+              "sub_info": "4.6万人在读",
+              "last_publish_time": "1716437491",
+              "authorize_type": "1",
+              "media_id": "1783878100997130",
+              "original_book_name": "海贼：害怕世界不够暴力！",
+              "length_type": "0",
+              "op_tag": "871,873,531,536,535,855,245,1079,1078",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/41c0e54a4597930d9fa9aa6e2dda5118",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/641b8f3e2a77c1afb57f511a1e8bf4b0",
+              "data_rate": "",
+              "all_bookshelf_count": "4290",
+              "pure_category_tags": "动漫衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#3070b8",
+              "read_count_all": "1955742",
+              "shelf_cnt_history": "272686",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8662\":1701323007,\"596084\":1714026510,\"426946\":1736155300,\"1128\":1701323007,\"507427\":1742445607,\"8703\":1744950936,\"13\":1701323007,\"1967\":1701323007,\"8661\":1701670766,\"510893\":1701323007,\"2329\":1701323007,\"2503\":1701323007,\"35\":1701323007,\"6589\":1701670766,\"507386\":1742445607,\"3040\":1701670766,\"638505\":1724850410,\"8704\":1747726599}",
+              "category_v2_map": {
+                "833": true,
+                "1079": true,
+                "718": true,
+                "39": true,
+                "370": true,
+                "538": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/41c0e54a4597930d9fa9aa6e2dda5118~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=%2BReNzEFcCz3dMyPvgXLP6TU5tHk%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7306765650171532606,
+                  "AuthorName": "橘子与大海"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/641b8f3e2a77c1afb57f511a1e8bf4b0~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071037&x-signature=hHqE9l05qLDsInCg%2F1wFr8%2BQhOo%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "加入海军第一年。\n“忠诚，正义，勇敢！”\n加入海军第五年。\n“你不拿，我不拿，战国大将怎么拿？战国大将不拿，我们还怎么进步啊？”\n加入海军第十年。\n“战国元帅，你咋就不敢玛丽乔亚上的五老星们真刀真枪的干一架呢？”\n那一年，奥尔托伦加入海军，还是个新人，满脑子都是如何走上高层，看看这世界的风景。\n后几年，奥尔托伦成了G-5的基地长，他手握七八万海军一线精锐，只能忠诚！\n再然后，奥尔托伦成为了海军本部大将，负责总督新世界，他手握几十万海军，靠的就是一句‘五老星夸我忠义勇猛，战国元帅待我如亲子’！\n最后，奥尔托伦手握天下兵马，麾下何止百万，一声令下，大海都要抖三抖。\n那一天，他走在海军本部，突然冒出来了几个海军将领，将身为大海最强的他，一把就制伏了，并且还把一件黄袍披在了他的身上，告诉他，天冷了，大将您要多添件衣服。\n看着那一众用殷切目光注视着自己的海军将领们。\n奥尔托伦只能无奈的长叹一句道：“我忠诚了这么多年，名声一朝散尽，你们这可是害苦了朕啊！”",
+              "read_page_progress": "0",
+              "read_cnt_text": "4.6万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/41c0e54a4597930d9fa9aa6e2dda5118~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=Vt%2BrswQEB37S6pn3rzlfoiNGbe8%3D",
+              "raw_book_name": "海军：忠诚大大滴有！",
+              "color_audio_dominate": "#2F1414"
+            }
+          ],
+          "search_attached_info": "11082008978572576342:12:0:1970752879:clks####3@202603191023433DF69731394F9F01BC0A",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "129.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：橘子与大海",
+                "rich_text": "作者：橘子与大<em>海</em>",
+                "high_light_position": [
+                  [
+                    7,
+                    1
+                  ]
+                ]
+              },
+              {
+                "text": "加入海军第一年。 “忠诚，正义，勇敢！” 加入海军第五年。 “你不拿，我不拿，战国大将怎么拿？战国大将不拿，我们还怎么进步啊？” 加入海军第十年。 “战国元帅，你咋就不敢玛丽乔亚上的五老星们真刀真枪的干一架呢？” 那一年，奥尔托伦加入海军，还是个新人，满脑子都是如何走上高层，看看这世界的风景。 后几年，奥尔托伦成了G-5的基地长，他手握七八万海军一线精锐，只能忠诚！ 再然后，奥尔托伦成为了海军本部大将，负责总督新世界，他手握几十万海军，靠的就是一句‘五老星夸我忠义勇猛，战国元帅待我如亲子’！ 最后，奥尔托伦手握天下兵马，麾下何止百万，一声令下，大海都要抖三抖。 那一天，他走在海军本部，突然冒出来了几个海军将领，将身为大海最强的他，一把就制伏了，并且还把一件黄袍披在了他的身上，告诉他，天冷了，大将您要多添件衣服。 看着那一众用殷切目光注视着自己的海军将领们。 奥尔托伦只能无奈的长叹一句道：“我忠诚了这么多年，名声一朝散尽，你们这可是害苦了朕啊！”",
+                "rich_text": "加入<em>海</em>军第一年。\n“忠诚，正义，勇敢！”\n加入<em>海</em>军第五年。\n“你不拿，我不拿，战国大将怎么拿？战国大将不拿，我们还怎么进步啊？”\n加入<em>海</em>军第十年。\n“战国元帅，你咋就不敢玛丽乔亚上的五老星们真刀真枪的干一架呢？”\n那一年，奥尔托伦加入<em>海</em>军，还是个新人，满脑子都是如何走上高层，看看这世界的风景。\n后几年，奥尔托伦成了G-5的基地长，他手握七八万<em>海</em>军一线精锐，只能忠诚！\n再然后，奥尔托伦成为了<em>海</em>军本部大将，负责总督新世界，他手握几十万<em>海</em>军，靠的就是一句‘五老星夸我忠义勇猛，战国元帅待我如亲子’！\n最后，奥尔托伦手握天下兵马，麾下何止百万，一声令下，大<em>海</em>都要抖三抖。\n那一天，他走在<em>海</em>军本部，突然冒出来了几个<em>海</em>军将领，将身为大<em>海</em>最强的他，一把就制伏了，并且还把一件黄袍披在了他的身上，告诉他，天冷了，大将您要多添件衣服。\n看着那一众用殷切目光注视着自己的<em>海</em>军将领们。\n奥尔托伦只能无奈的长叹一句道：“我忠诚了这么多年，名声一朝散尽，你们这可是害苦了朕啊！”",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1013,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7526097680460696600",
+          "search_result_id": "7526097680460696600",
+          "search_high_light": {
+            "abstract": {
+              "text": "...团工号002】【百兽海贼团副船长】【凯多心中白月光般的男人】【幻兽种】【和之国的终焉噩梦】 一朝穿越到海贼王世界，雷洛对什么四皇大将，什么海贼王海军元帅，什么one plece，什么维护正义，什么推翻天龙人，推翻伊姆的通通不感兴趣。 他有且唯一感兴趣的就是…… 统治和之国，奴役和之国！！！ 让他们通通去种土豆！！！",
+              "rich_text": "【凯多之公台】【百兽集团工号002】【百兽<em>海贼</em>团副船长】【凯多心中白月光般的男人】【幻兽种】【和之国的终焉噩梦】\n一朝穿越到<em>海贼</em>王世界，雷洛对什么四皇大将，什么<em>海贼</em>王<em>海</em>军元帅，什么one plece，什么维护正义，什么推翻天龙人，推翻伊姆的通通不感兴趣。\n他有且唯一感兴趣的就是……\n统治和之国，奴役和之国！！！\n让他们通通去种土豆！！！",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  54,
+                  2
+                ],
+                [
+                  72,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "海贼：杀到和之国亡族灭种！",
+              "rich_text": "<em>海贼</em>：杀到和之国亡族灭种！",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【凯多之公台】【百兽集团工号002】【百兽海贼团副船长】【凯多心中白月光般的男人】【幻兽种】【和之国的终焉噩梦】\n一朝穿越到海贼王世界，雷洛对什么四皇大将，什么海贼王海军元帅，什么one plece，什么维护正义，什么推翻天龙人，推翻伊姆的通通不感兴趣。\n他有且唯一感兴趣的就是……\n统治和之国，奴役和之国！！！\n让他们通通去种土豆！！！",
+              "author": "人间小苦瓜",
+              "book_id": "7526097680460696600",
+              "book_name": "海贼：杀到和之国亡族灭种！",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-07-12T15:42:47+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7526097724551217688",
+              "first_chapter_item_id": "7526097724551217688",
+              "first_chapter_title": "第1章 让这个无趣的世界变得有趣吧！",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618561281594753560",
+              "last_chapter_item_id": "7618561281594753560",
+              "last_chapter_title": "第460章 赫拉",
+              "last_chapter_update_time": "1773845496",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "49587",
+              "recommend_group_id": "7526097680460696600",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319102357BA221A6E74D877C45462\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "460",
+              "source": "番茄小说",
+              "tags": "动漫衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4ed36abb3c6159178cc9fff39735f016~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=%2FIGymkmF72ePl3i7Nvit318ytRs%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1002924",
+              "score": "8.3",
+              "exclusive": "1",
+              "role": "雷洛",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":39,\"name\":\"二次元\",\"schema\":\"dragon1967://newCategoryDetail?id=39&name=二次元&genre_type=0&gender=1&source=detail\"},{\"category_id\":370,\"name\":\"海贼\",\"schema\":\"dragon1967://newCategoryDetail?id=370&name=海贼&genre_type=0&gender=1&source=detail\"},{\"category_id\":858,\"name\":\"轻小说\",\"schema\":\"dragon1967://newCategoryDetail?id=858&name=轻小说&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "5535",
+              "sub_info": "5万人在读",
+              "last_publish_time": "1773845778",
+              "authorize_type": "1",
+              "media_id": "1800205847366667",
+              "original_book_name": "海贼：从奴役和之国开始！",
+              "length_type": "0",
+              "op_tag": "531,535,536",
+              "keep_publish_days": "4",
+              "thumb_uri": "novel-pic/4ed36abb3c6159178cc9fff39735f016",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/e27bc0bccb3e540b51926eb1030d4efd",
+              "data_rate": "",
+              "all_bookshelf_count": "4838",
+              "pure_category_tags": "动漫衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#302828",
+              "read_count_all": "787984",
+              "shelf_cnt_history": "124344",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2329\":1752483722,\"507427\":1752483784,\"13\":1752483722,\"507386\":1752483784,\"8704\":1752483722,\"8703\":1752483722,\"596084\":1752828534,\"2503\":1752483722,\"35\":1752483722,\"1967\":1752483722,\"1128\":1752483722,\"8662\":1752483722,\"3040\":1752828534,\"510893\":1752483722,\"638505\":1752828534,\"6589\":1752828534,\"8661\":1752828534}",
+              "category_v2_map": {
+                "370": true,
+                "37": true,
+                "39": true,
+                "858": true,
+                "1079": true,
+                "718": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4ed36abb3c6159178cc9fff39735f016~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=%2FIGymkmF72ePl3i7Nvit318ytRs%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7373645212289078553,
+                  "AuthorName": "人间小苦瓜"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/e27bc0bccb3e540b51926eb1030d4efd~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071037&x-signature=lrsrd0oouiMBE96xAkKA7I0cYgE%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【凯多之公台】【百兽集团工号002】【百兽海贼团副船长】【凯多心中白月光般的男人】【幻兽种】【和之国的终焉噩梦】\n一朝穿越到海贼王世界，雷洛对什么四皇大将，什么海贼王海军元帅，什么one plece，什么维护正义，什么推翻天龙人，推翻伊姆的通通不感兴趣。\n他有且唯一感兴趣的就是……\n统治和之国，奴役和之国！！！\n让他们通通去种土豆！！！",
+              "read_page_progress": "0",
+              "read_cnt_text": "5万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4ed36abb3c6159178cc9fff39735f016~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=GjxLHeVZlEz6oA21%2FCxYIJpT3us%3D",
+              "raw_book_name": "海贼：杀到和之国亡族灭种！",
+              "color_audio_dominate": "#D0D2C5",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "11082008978572576342:13:0:2497880345:clks####3@202603191023433DF69731394F9F01BC0A",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "100.3万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：人间小苦瓜",
+                "rich_text": "作者：人间小苦瓜",
+                "high_light_position": []
+              },
+              {
+                "text": "...团工号002】【百兽海贼团副船长】【凯多心中白月光般的男人】【幻兽种】【和之国的终焉噩梦】 一朝穿越到海贼王世界，雷洛对什么四皇大将，什么海贼王海军元帅，什么one plece，什么维护正义，什么推翻天龙人，推翻伊姆的通通不感兴趣。 他有且唯一感兴趣的就是…… 统治和之国，奴役和之国！！！ 让他们通通去种土豆！！！",
+                "rich_text": "【凯多之公台】【百兽集团工号002】【百兽<em>海贼</em>团副船长】【凯多心中白月光般的男人】【幻兽种】【和之国的终焉噩梦】\n一朝穿越到<em>海贼</em>王世界，雷洛对什么四皇大将，什么<em>海贼</em>王<em>海</em>军元帅，什么one plece，什么维护正义，什么推翻天龙人，推翻伊姆的通通不感兴趣。\n他有且唯一感兴趣的就是……\n统治和之国，奴役和之国！！！\n让他们通通去种土豆！！！",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    54,
+                    2
+                  ],
+                  [
+                    72,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1014,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7481622393023122456",
+          "search_result_id": "7481622393023122456",
+          "search_high_light": {
+            "title": {
+              "text": "海贼效忠（别名：顶上兵变，向元帅大人献上忠诚）",
+              "rich_text": "<em>海贼</em>效忠（别名：顶上兵变，向元帅大人献上忠诚）",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...开局兵变+无敌纯爽+海贼版终极魅魔】 穿越海贼世界，通过六年时间成功夺取元帅之位的夏煜意气风发的站在马林梵多广场。 在他前方，海军本部三大将以及以祗园为首的本部中将少将准将和本部十万士兵整齐而立。 萨卡斯基：“全体都有，向元帅大人敬礼！” “忠！诚！” 十万士兵洪亮而整齐的大喊声中，夏煜向前一步：“各位，这份荣光我不会独享。” “我坚信，清除旧时代的歪风邪气，建设自由平等的新世界是我们生活在这个时代的伟大使命！” “天龙人享有一切特权的时代该结束了，罪恶滔天的海贼也需要被肃清，为了正义！” 本书又名【海贼：马林梵多之春】【身为海军元帅，岂能久居人下】【海贼：这份荣光我不会独享】",
+              "rich_text": "【开局兵变+无敌纯爽+<em>海贼</em>版终极魅魔】\n穿越<em>海贼</em>世界，通过六年时间成功夺取元帅之位的夏煜意气风发的站在马林梵多广场。\n在他前方，<em>海</em>军本部三大将以及以祗园为首的本部中将少将准将和本部十万士兵整齐而立。\n萨卡斯基：“全体都有，向元帅大人敬礼！”\n“忠！诚！”\n十万士兵洪亮而整齐的大喊声中，夏煜向前一步：“各位，这份荣光我不会独享。”\n“我坚信，清除旧时代的歪风邪气，建设自由平等的新世界是我们生活在这个时代的伟大使命！”\n“天龙人享有一切特权的时代该结束了，罪恶滔天的<em>海贼</em>也需要被肃清，为了正义！”\n本书又名【<em>海贼</em>：马林梵多之春】【身为<em>海</em>军元帅，岂能久居人下】【<em>海贼</em>：这份荣光我不会独享】",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  24,
+                  2
+                ],
+                [
+                  235,
+                  2
+                ],
+                [
+                  256,
+                  2
+                ],
+                [
+                  282,
+                  2
+                ]
+              ]
+            },
+            "alias": {
+              "text": "海贼效忠",
+              "rich_text": "<em>海贼</em>效忠",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【开局兵变+无敌纯爽+海贼版终极魅魔】\n穿越海贼世界，通过六年时间成功夺取元帅之位的夏煜意气风发的站在马林梵多广场。\n在他前方，海军本部三大将以及以祗园为首的本部中将少将准将和本部十万士兵整齐而立。\n萨卡斯基：“全体都有，向元帅大人敬礼！”\n“忠！诚！”\n十万士兵洪亮而整齐的大喊声中，夏煜向前一步：“各位，这份荣光我不会独享。”\n“我坚信，清除旧时代的歪风邪气，建设自由平等的新世界是我们生活在这个时代的伟大使命！”\n“天龙人享有一切特权的时代该结束了，罪恶滔天的海贼也需要被肃清，为了正义！”\n本书又名【海贼：马林梵多之春】【身为海军元帅，岂能久居人下】【海贼：这份荣光我不会独享】",
+              "author": "大佛洗脚",
+              "book_id": "7481622393023122456",
+              "book_name": "顶上兵变，向元帅大人献上忠诚",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-03-14T19:15:57+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7481622445263159832",
+              "first_chapter_item_id": "7481622445263159832",
+              "first_chapter_title": "第001章 穿越海贼，用贝利点烟！",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7598548415609324057",
+              "last_chapter_item_id": "7598548415609324057",
+              "last_chapter_title": "番外 汉库克，门的另一边，有你最想见到的人！",
+              "last_chapter_update_time": "1769174954",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "46169",
+              "recommend_group_id": "7481622393023122456",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319102357BA221A6E74D877C45462\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "505",
+              "source": "番茄小说",
+              "tags": "动漫衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/1fd1cce34caefb57abc68fa62881efd1~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=cHsoWhVSz5HohINxBG4k3OY3gKU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1152102",
+              "score": "9.0",
+              "exclusive": "1",
+              "role": "夏煜",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":39,\"name\":\"二次元\",\"schema\":\"dragon1967://newCategoryDetail?id=39&name=二次元&genre_type=0&gender=1&source=detail\"},{\"category_id\":370,\"name\":\"海贼\",\"schema\":\"dragon1967://newCategoryDetail?id=370&name=海贼&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7559145152342674456]",
+              "book_type": "0",
+              "alias_name": "海贼效忠",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "5046",
+              "sub_info": "4.7万人在读",
+              "last_publish_time": "1769174966",
+              "authorize_type": "1",
+              "media_id": "1816413174821898",
+              "original_book_name": "海贼：向元帅大人献上忠诚",
+              "length_type": "0",
+              "op_tag": "531,535,536,1082,1586",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/1fd1cce34caefb57abc68fa62881efd1",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/e993df07c30ba9316e007d0ff4ce5904",
+              "data_rate": "",
+              "all_bookshelf_count": "5182",
+              "pure_category_tags": "动漫衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#982818",
+              "read_count_all": "3220005",
+              "shelf_cnt_history": "467871",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"13\":1741955816,\"8704\":1747138916,\"8703\":1744950562,\"1967\":1741955816,\"596084\":1742116716,\"1128\":1741955816,\"510893\":1741955816,\"3040\":1742116716,\"2503\":1741955816,\"6589\":1742116716,\"35\":1741955816,\"638505\":1742116716,\"2329\":1741955816,\"507427\":1741955878,\"8662\":1741955816,\"507386\":1741955878,\"8661\":1742116716}",
+              "category_v2_map": {
+                "39": true,
+                "370": true,
+                "37": true,
+                "19": true,
+                "1079": true,
+                "718": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/1fd1cce34caefb57abc68fa62881efd1~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=cHsoWhVSz5HohINxBG4k3OY3gKU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7440033881480254744,
+                  "AuthorName": "大佛洗脚"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "马林梵多之春",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/e993df07c30ba9316e007d0ff4ce5904~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071037&x-signature=ph371XyX0cG3389bHlU6tuvMzSA%3D",
+              "reputation_thumb_uri": "novel-pic-r/ff9c6b93d7c96792f0694d7b16fe65c9",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【开局兵变+无敌纯爽+海贼版终极魅魔】\n穿越海贼世界，通过六年时间成功夺取元帅之位的夏煜意气风发的站在马林梵多广场。\n在他前方，海军本部三大将以及以祗园为首的本部中将少将准将和本部十万士兵整齐而立。\n萨卡斯基：“全体都有，向元帅大人敬礼！”\n“忠！诚！”\n十万士兵洪亮而整齐的大喊声中，夏煜向前一步：“各位，这份荣光我不会独享。”\n“我坚信，清除旧时代的歪风邪气，建设自由平等的新世界是我们生活在这个时代的伟大使命！”\n“天龙人享有一切特权的时代该结束了，罪恶滔天的海贼也需要被肃清，为了正义！”\n本书又名【海贼：马林梵多之春】【身为海军元帅，岂能久居人下】【海贼：这份荣光我不会独享】",
+              "read_page_progress": "0",
+              "read_cnt_text": "4.7万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/1fd1cce34caefb57abc68fa62881efd1~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=okE%2BqKLQBrqJ%2BZCcuRoRuXxOrKU%3D",
+              "cell_content_raw_alias": "海贼效忠",
+              "raw_book_name": "顶上兵变，向元帅大人献上忠诚",
+              "color_audio_dominate": "#23374C"
+            }
+          ],
+          "search_attached_info": "11082008978572576342:14:0:3063580448:clks####3@202603191023433DF69731394F9F01BC0A",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "115.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：大佛洗脚",
+                "rich_text": "作者：大佛洗脚",
+                "high_light_position": []
+              },
+              {
+                "text": "...开局兵变+无敌纯爽+海贼版终极魅魔】 穿越海贼世界，通过六年时间成功夺取元帅之位的夏煜意气风发的站在马林梵多广场。 在他前方，海军本部三大将以及以祗园为首的本部中将少将准将和本部十万士兵整齐而立。 萨卡斯基：“全体都有，向元帅大人敬礼！” “忠！诚！” 十万士兵洪亮而整齐的大喊声中，夏煜向前一步：“各位，这份荣光我不会独享。” “我坚信，清除旧时代的歪风邪气，建设自由平等的新世界是我们生活在这个时代的伟大使命！” “天龙人享有一切特权的时代该结束了，罪恶滔天的海贼也需要被肃清，为了正义！” 本书又名【海贼：马林梵多之春】【身为海军元帅，岂能久居人下】【海贼：这份荣光我不会独享】",
+                "rich_text": "【开局兵变+无敌纯爽+<em>海贼</em>版终极魅魔】\n穿越<em>海贼</em>世界，通过六年时间成功夺取元帅之位的夏煜意气风发的站在马林梵多广场。\n在他前方，<em>海</em>军本部三大将以及以祗园为首的本部中将少将准将和本部十万士兵整齐而立。\n萨卡斯基：“全体都有，向元帅大人敬礼！”\n“忠！诚！”\n十万士兵洪亮而整齐的大喊声中，夏煜向前一步：“各位，这份荣光我不会独享。”\n“我坚信，清除旧时代的歪风邪气，建设自由平等的新世界是我们生活在这个时代的伟大使命！”\n“天龙人享有一切特权的时代该结束了，罪恶滔天的<em>海贼</em>也需要被肃清，为了正义！”\n本书又名【<em>海贼</em>：马林梵多之春】【身为<em>海</em>军元帅，岂能久居人下】【<em>海贼</em>：这份荣光我不会独享】",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    24,
+                    2
+                  ],
+                  [
+                    235,
+                    2
+                  ],
+                  [
+                    256,
+                    2
+                  ],
+                  [
+                    282,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1015,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7144371644683783202",
+          "search_result_id": "7144371644683783202",
+          "search_high_light": {
+            "title": {
+              "text": "海贼，砸到卡普，成为路飞发小",
+              "rich_text": "<em>海贼</em>，砸到卡普，成为路飞发小",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【人生若只如初见，何事秋风悲画扇】【海贼】【跟船流】 顶上战争上竟然出现了两个震震果实的力量! 两个毁天灭地的力量出现是否能改变顶上战争的结果？ 而这一切都要从我们的主角白运穿越遇到小时候的路飞说起。 ....... 俗话说，人要是倒霉，喝凉水都会塞牙。 白运不过吐槽了一句，真就猝死穿越到海贼王的世界里。 系统，有。 可你出来嘲讽一句，然后塞个果实就跑是什么意思???！！！",
+              "rich_text": "【<em>海贼</em>】【跟船流】\n顶上战争上竟然出现了两个震震果实的力量!\n两个毁天灭地的力量出现是否能改变顶上战争的结果？\n而这一切都要从我们的主角白运穿越遇到小时候的路飞说起。\n.......\n俗话说，人要是倒霉，喝凉水都会塞牙。\n白运不过吐槽了一句，真就猝死穿越到<em>海贼</em>王的世界里。\n系统，有。\n可你出来嘲讽一句，然后塞个果实就跑是什么意思???！！！",
+              "high_light_position": [
+                [
+                  18,
+                  2
+                ],
+                [
+                  145,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【海贼】【跟船流】\n顶上战争上竟然出现了两个震震果实的力量!\n两个毁天灭地的力量出现是否能改变顶上战争的结果？\n而这一切都要从我们的主角白运穿越遇到小时候的路飞说起。\n.......\n俗话说，人要是倒霉，喝凉水都会塞牙。\n白运不过吐槽了一句，真就猝死穿越到海贼王的世界里。\n系统，有。\n可你出来嘲讽一句，然后塞个果实就跑是什么意思???！！！",
+              "author": "六灵仙",
+              "book_id": "7144371644683783202",
+              "book_name": "海贼，砸到卡普，成为路飞发小",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2022-09-17T23:30:48+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7144371969973682701",
+              "first_chapter_item_id": "7144371969973682701",
+              "first_chapter_title": "第1章 这么随便？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7526316331566645785",
+              "last_chapter_item_id": "7526316331566645785",
+              "last_chapter_title": "番外6 罗（cp向）",
+              "last_chapter_update_time": "1752399783",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "12743",
+              "recommend_group_id": "7144371644683783202",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319102357BA221A6E74D877C45462\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "2105",
+              "source": "番茄小说",
+              "tags": "动漫衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/11f0c0f5ace30ef77e3dd19004c7fb5d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=kpkx%2BD70LuUa%2FbO5fZaaktORfxc%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "4107340",
+              "score": "8.3",
+              "exclusive": "1",
+              "role": "白运,路飞",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":39,\"name\":\"二次元\",\"schema\":\"dragon1967://newCategoryDetail?id=39&name=二次元&genre_type=0&gender=1&source=detail\"},{\"category_id\":370,\"name\":\"海贼\",\"schema\":\"dragon1967://newCategoryDetail?id=370&name=海贼&genre_type=0&gender=1&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1760",
+              "sub_info": "1.3万人在读",
+              "last_publish_time": "1752399795",
+              "authorize_type": "1",
+              "media_id": "1708260917923852",
+              "original_book_name": "人在海贼，我是路飞发小",
+              "length_type": "0",
+              "op_tag": "536,535,856,506,873,190,871,1082",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/11f0c0f5ace30ef77e3dd19004c7fb5d",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/e1472ca62bd0f67505317d0d8aaf04cf",
+              "data_rate": "",
+              "all_bookshelf_count": "1126",
+              "pure_category_tags": "动漫衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#5880b8",
+              "read_count_all": "1424931",
+              "shelf_cnt_history": "197404",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"596084\":1715080427,\"13\":1663429899,\"35\":1663429899,\"8661\":1681451575,\"1128\":1663429899,\"426946\":1670835155,\"6589\":1677081726,\"8662\":1663429899,\"2503\":1663429899,\"8704\":1747736070,\"1112\":1693461154,\"507386\":1741783389,\"510893\":1689679661,\"3040\":1665988063,\"8703\":1744963407,\"507427\":1741783389,\"638505\":1724772638,\"2329\":1663429899,\"1967\":1663429899}",
+              "category_v2_map": {
+                "37": true,
+                "39": true,
+                "370": true,
+                "538": true,
+                "1079": true,
+                "19": true,
+                "718": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/11f0c0f5ace30ef77e3dd19004c7fb5d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=kpkx%2BD70LuUa%2FbO5fZaaktORfxc%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6997785341323121934,
+                  "AuthorName": "六灵仙"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/e1472ca62bd0f67505317d0d8aaf04cf~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071037&x-signature=ttuKl1%2BMEbHHQSbqL7WgRUn%2FO1w%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【海贼】【跟船流】\n顶上战争上竟然出现了两个震震果实的力量!\n两个毁天灭地的力量出现是否能改变顶上战争的结果？\n而这一切都要从我们的主角白运穿越遇到小时候的路飞说起。\n.......\n俗话说，人要是倒霉，喝凉水都会塞牙。\n白运不过吐槽了一句，真就猝死穿越到海贼王的世界里。\n系统，有。\n可你出来嘲讽一句，然后塞个果实就跑是什么意思???！！！",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.3万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/11f0c0f5ace30ef77e3dd19004c7fb5d~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=WWDahPuwB9Zy0hQxmC86UTsY08Q%3D",
+              "raw_book_name": "海贼，砸到卡普，成为路飞发小",
+              "color_audio_dominate": "#E77657"
+            }
+          ],
+          "search_attached_info": "11082008978572576342:15:0:4117726994:clks####3@202603191023433DF69731394F9F01BC0A",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "410.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：六灵仙",
+                "rich_text": "作者：六灵仙",
+                "high_light_position": []
+              },
+              {
+                "text": "【人生若只如初见，何事秋风悲画扇】【海贼】【跟船流】 顶上战争上竟然出现了两个震震果实的力量! 两个毁天灭地的力量出现是否能改变顶上战争的结果？ 而这一切都要从我们的主角白运穿越遇到小时候的路飞说起。 ....... 俗话说，人要是倒霉，喝凉水都会塞牙。 白运不过吐槽了一句，真就猝死穿越到海贼王的世界里。 系统，有。 可你出来嘲讽一句，然后塞个果实就跑是什么意思???！！！",
+                "rich_text": "【<em>海贼</em>】【跟船流】\n顶上战争上竟然出现了两个震震果实的力量!\n两个毁天灭地的力量出现是否能改变顶上战争的结果？\n而这一切都要从我们的主角白运穿越遇到小时候的路飞说起。\n.......\n俗话说，人要是倒霉，喝凉水都会塞牙。\n白运不过吐槽了一句，真就猝死穿越到<em>海贼</em>王的世界里。\n系统，有。\n可你出来嘲讽一句，然后塞个果实就跑是什么意思???！！！",
+                "high_light_position": [
+                  [
+                    18,
+                    2
+                  ],
+                  [
+                    145,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1016,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7496828431657602072",
+          "search_result_id": "7496828431657602072",
+          "search_high_light": {
+            "abstract": {
+              "text": "...雾果实能力者】【罗杰海贼团元老级别】【参加神之谷】【是男人就应该玩大剑】【人物都配图评论区】【雾可能会汲取生命哦】【不舔路飞，尾田老贼塑造的人物，就算是反派也是相当有魅力】【单女主】【复活罗杰】【罗杰养我，真是你的福气，我传奇幼师王，香克斯巴基我养的，艾斯我养的，乌塔我养的…小鬼们的敬佩的大哥都是我，未来掌控大海万人拥护的雾主皇帝】 \"希望是草帽团...希望是草帽团...\"他双手合十祈祷着，突然意识到什么，\"等等，如果是黑胡子团怎么办？现在连时间线都不清楚，不行再看看。如果分辨不出来的话，我就跑。\" 船只渐渐靠近，瑞特眯起眼睛。船头站着个戴草帽的年轻人。距离太远看不清脸，但那顶草帽... \"路飞！是路飞！\"瑞特激动得手舞足蹈，\"我就知道河神不会那么坑！\" 瑞特看见草帽实在是太激动了， 当小船靠岸时，瑞特一个箭步冲上前：\"路飞！索隆！我想死你们了！\" 戴草帽的年轻人一脸懵逼：\"谁是路飞？\" 金发男子推了推眼镜：\"我叫雷利，他是罗杰。\" 咱漫长旅途中，瑞特好像根本就没有变化，依旧玉树临风，英俊潇洒 在顶上战争时候，血雾笼罩马林梵多，雾中出现一双血红色的眼睛，“你们要对我可爱的侄子做什么",
+              "rich_text": "【雾雾果实能力者】【罗杰<em>海贼</em>团元老级别】【参加神之谷】【是男人就应该玩大剑】【人物都配图评论区】【雾可能会汲取生命哦】【不舔路飞，尾田老<em>贼</em>塑造的人物，就算是反派也是相当有魅力】【单女主】【复活罗杰】【罗杰养我，真是你的福气，我传奇幼师王，香克斯巴基我养的，艾斯我养的，乌塔我养的…小鬼们的敬佩的大哥都是我，未来掌控大<em>海</em>万人拥护的雾主皇帝】\n\"希望是草帽团...希望是草帽团...\"他双手合十祈祷着，突然意识到什么，\"等等，如果是黑胡子团怎么办？现在连时间线都不清楚，不行再看看。如果分辨不出来的话，我就跑。\"\n船只渐渐靠近，瑞特眯起眼睛。船头站着个戴草帽的年轻人。距离太远看不清脸，但那顶草帽...\n\"路飞！是路飞！\"瑞特激动得手舞足蹈，\"我就知道河神不会那么坑！\"\n瑞特看见草帽实在是太激动了，\n当小船靠岸时，瑞特一个箭步冲上前：\"路飞！索隆！我想死你们了！\"\n戴草帽的年轻人一脸懵逼：\"谁是路飞？\"\n金发男子推了推眼镜：\"我叫雷利，他是罗杰。\"\n咱漫长旅途中，瑞特好像根本就没有变化，依旧玉树临风，英俊潇洒\n在顶上战争时候，血雾笼罩马林梵多，雾中出现一双血红色的眼睛，“你们要对我可爱的侄子做什么",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "说好跟罗杰躺赢，船上就三人咋躺",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【雾雾果实能力者】【罗杰海贼团元老级别】【参加神之谷】【是男人就应该玩大剑】【人物都配图评论区】【雾可能会汲取生命哦】【不舔路飞，尾田老贼塑造的人物，就算是反派也是相当有魅力】【单女主】【复活罗杰】【罗杰养我，真是你的福气，我传奇幼师王，香克斯巴基我养的，艾斯我养的，乌塔我养的…小鬼们的敬佩的大哥都是我，未来掌控大海万人拥护的雾主皇帝】\n\"希望是草帽团...希望是草帽团...\"他双手合十祈祷着，突然意识到什么，\"等等，如果是黑胡子团怎么办？现在连时间线都不清楚，不行再看看。如果分辨不出来的话，我就跑。\"\n船只渐渐靠近，瑞特眯起眼睛。船头站着个戴草帽的年轻人。距离太远看不清脸，但那顶草帽...\n\"路飞！是路飞！\"瑞特激动得手舞足蹈，\"我就知道河神不会那么坑！\"\n瑞特看见草帽实在是太激动了，\n当小船靠岸时，瑞特一个箭步冲上前：\"路飞！索隆！我想死你们了！\"\n戴草帽的年轻人一脸懵逼：\"谁是路飞？\"\n金发男子推了推眼镜：\"我叫雷利，他是罗杰。\"\n咱漫长旅途中，瑞特好像根本就没有变化，依旧玉树临风，英俊潇洒\n在顶上战争时候，血雾笼罩马林梵多，雾中出现一双血红色的眼睛，“你们要对我可爱的侄子做什么",
+              "author": "想要明天放假",
+              "book_id": "7496828431657602072",
+              "book_name": "说好跟罗杰躺赢，船上就三人咋躺",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-04-24T18:43:09+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7496828574884708888",
+              "first_chapter_item_id": "7496828574884708888",
+              "first_chapter_title": "第1章 谁家好人穿到这个时候啊",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7589657225874899481",
+              "last_chapter_item_id": "7589657225874899481",
+              "last_chapter_title": "第554章 美好的生活",
+              "last_chapter_update_time": "1767201818",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "27630",
+              "recommend_group_id": "7496828431657602072",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319102357BA221A6E74D877C45462\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "552",
+              "source": "番茄小说",
+              "tags": "动漫衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0c6ca4da631b5ae2c455c8e757d3ac82~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=nUlsj3dan2fizBUpgz3K593pFrA%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1187215",
+              "score": "8.8",
+              "exclusive": "1",
+              "role": "瑞特",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":39,\"name\":\"二次元\",\"schema\":\"dragon1967://newCategoryDetail?id=39&name=二次元&genre_type=0&gender=1&source=detail\"},{\"category_id\":370,\"name\":\"海贼\",\"schema\":\"dragon1967://newCategoryDetail?id=370&name=海贼&genre_type=0&gender=1&source=detail\"},{\"category_id\":389,\"name\":\"单女主\",\"schema\":\"dragon1967://newCategoryDetail?id=389&name=单女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7551376512755174462]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "2769",
+              "sub_info": "2.8万人在读",
+              "last_publish_time": "1767201829",
+              "authorize_type": "1",
+              "media_id": "1786604533986304",
+              "original_book_name": "说好跟罗杰躺赢，我遇到的太年轻",
+              "length_type": "0",
+              "op_tag": "1586,305,535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/0c6ca4da631b5ae2c455c8e757d3ac82",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/e60ae108590379294271e5bbea69896c",
+              "data_rate": "",
+              "all_bookshelf_count": "2370",
+              "pure_category_tags": "动漫衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#c8d0b0",
+              "read_count_all": "1370419",
+              "shelf_cnt_history": "240931",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507386\":1745492479,\"1128\":1745492430,\"8703\":1745492430,\"3040\":1745500287,\"8662\":1745492430,\"2503\":1745492430,\"507427\":1745492479,\"13\":1745492430,\"1967\":1745492430,\"35\":1745492430,\"596084\":1745500287,\"8661\":1745500287,\"2329\":1745492430,\"8704\":1747105683,\"638505\":1745500287,\"510893\":1745492430,\"6589\":1745500287}",
+              "category_v2_map": {
+                "370": true,
+                "718": true,
+                "37": true,
+                "39": true,
+                "389": true,
+                "1079": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0c6ca4da631b5ae2c455c8e757d3ac82~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=nUlsj3dan2fizBUpgz3K593pFrA%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7489115153678488894,
+                  "AuthorName": "想要明天放假"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/e60ae108590379294271e5bbea69896c~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071037&x-signature=0iQuwn3RbdAk%2FhND%2B3gk5OjCTi4%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【雾雾果实能力者】【罗杰海贼团元老级别】【参加神之谷】【是男人就应该玩大剑】【人物都配图评论区】【雾可能会汲取生命哦】【不舔路飞，尾田老贼塑造的人物，就算是反派也是相当有魅力】【单女主】【复活罗杰】【罗杰养我，真是你的福气，我传奇幼师王，香克斯巴基我养的，艾斯我养的，乌塔我养的…小鬼们的敬佩的大哥都是我，未来掌控大海万人拥护的雾主皇帝】\n\"希望是草帽团...希望是草帽团...\"他双手合十祈祷着，突然意识到什么，\"等等，如果是黑胡子团怎么办？现在连时间线都不清楚，不行再看看。如果分辨不出来的话，我就跑。\"\n船只渐渐靠近，瑞特眯起眼睛。船头站着个戴草帽的年轻人。距离太远看不清脸，但那顶草帽...\n\"路飞！是路飞！\"瑞特激动得手舞足蹈，\"我就知道河神不会那么坑！\"\n瑞特看见草帽实在是太激动了，\n当小船靠岸时，瑞特一个箭步冲上前：\"路飞！索隆！我想死你们了！\"\n戴草帽的年轻人一脸懵逼：\"谁是路飞？\"\n金发男子推了推眼镜：\"我叫雷利，他是罗杰。\"\n咱漫长旅途中，瑞特好像根本就没有变化，依旧玉树临风，英俊潇洒\n在顶上战争时候，血雾笼罩马林梵多，雾中出现一双血红色的眼睛，“你们要对我可爱的侄子做什么",
+              "read_page_progress": "0",
+              "read_cnt_text": "2.8万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0c6ca4da631b5ae2c455c8e757d3ac82~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=zU%2FgqMgkIt%2B21NenUg85M%2BnRszE%3D",
+              "raw_book_name": "说好跟罗杰躺赢，船上就三人咋躺",
+              "color_audio_dominate": "#3B231D",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "11082008978572576342:16:0:647928485:clks####3@202603191023433DF69731394F9F01BC0A",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "118.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：想要明天放假",
+                "rich_text": "作者：想要明天放假",
+                "high_light_position": []
+              },
+              {
+                "text": "...雾果实能力者】【罗杰海贼团元老级别】【参加神之谷】【是男人就应该玩大剑】【人物都配图评论区】【雾可能会汲取生命哦】【不舔路飞，尾田老贼塑造的人物，就算是反派也是相当有魅力】【单女主】【复活罗杰】【罗杰养我，真是你的福气，我传奇幼师王，香克斯巴基我养的，艾斯我养的，乌塔我养的…小鬼们的敬佩的大哥都是我，未来掌控大海万人拥护的雾主皇帝】 \"希望是草帽团...希望是草帽团...\"他双手合十祈祷着，突然意识到什么，\"等等，如果是黑胡子团怎么办？现在连时间线都不清楚，不行再看看。如果分辨不出来的话，我就跑。\" 船只渐渐靠近，瑞特眯起眼睛。船头站着个戴草帽的年轻人。距离太远看不清脸，但那顶草帽... \"路飞！是路飞！\"瑞特激动得手舞足蹈，\"我就知道河神不会那么坑！\" 瑞特看见草帽实在是太激动了， 当小船靠岸时，瑞特一个箭步冲上前：\"路飞！索隆！我想死你们了！\" 戴草帽的年轻人一脸懵逼：\"谁是路飞？\" 金发男子推了推眼镜：\"我叫雷利，他是罗杰。\" 咱漫长旅途中，瑞特好像根本就没有变化，依旧玉树临风，英俊潇洒 在顶上战争时候，血雾笼罩马林梵多，雾中出现一双血红色的眼睛，“你们要对我可爱的侄子做什么",
+                "rich_text": "【雾雾果实能力者】【罗杰<em>海贼</em>团元老级别】【参加神之谷】【是男人就应该玩大剑】【人物都配图评论区】【雾可能会汲取生命哦】【不舔路飞，尾田老<em>贼</em>塑造的人物，就算是反派也是相当有魅力】【单女主】【复活罗杰】【罗杰养我，真是你的福气，我传奇幼师王，香克斯巴基我养的，艾斯我养的，乌塔我养的…小鬼们的敬佩的大哥都是我，未来掌控大<em>海</em>万人拥护的雾主皇帝】\n\"希望是草帽团...希望是草帽团...\"他双手合十祈祷着，突然意识到什么，\"等等，如果是黑胡子团怎么办？现在连时间线都不清楚，不行再看看。如果分辨不出来的话，我就跑。\"\n船只渐渐靠近，瑞特眯起眼睛。船头站着个戴草帽的年轻人。距离太远看不清脸，但那顶草帽...\n\"路飞！是路飞！\"瑞特激动得手舞足蹈，\"我就知道河神不会那么坑！\"\n瑞特看见草帽实在是太激动了，\n当小船靠岸时，瑞特一个箭步冲上前：\"路飞！索隆！我想死你们了！\"\n戴草帽的年轻人一脸懵逼：\"谁是路飞？\"\n金发男子推了推眼镜：\"我叫雷利，他是罗杰。\"\n咱漫长旅途中，瑞特好像根本就没有变化，依旧玉树临风，英俊潇洒\n在顶上战争时候，血雾笼罩马林梵多，雾中出现一双血红色的眼睛，“你们要对我可爱的侄子做什么",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1017,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7559986469708762137",
+          "search_result_id": "7559986469708762137",
+          "search_high_light": {
+            "title": {
+              "text": "海贼巅峰，从洛克斯团番队长开始",
+              "rich_text": "<em>海贼</em>巅峰，从洛克斯团番队长开始",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...楼罗】【假卧底当成真海贼】【无上大快刀-天龙戟】 重生海贼世界，投胎成了海军大将亲儿子的卡洛，本以为自己这波是天胡开局。 谁知他那倒霉老爹，竟然就是那个被洛克斯当成减速带，一脚踢死的‘文职大将’！ 长大后，他以卧底的身份，前往哈奇诺斯，加入洛克斯海贼团。 本想尽忠职守，但谁知世界政府翻脸不认人。 既然如此，索性从此当个真海贼！ 一个活着的传说，从哈奇诺斯开始！ 他是： 洛克斯海贼团最年轻的四番队队长！ 纵横大海的黄金迦楼罗！ 凯多一生的阴影！ 玲玲永远得不到的男人！ 白胡子的挚友！ 金狮子的死敌！ 统治天空的王者！ 天空海贼团船长！ 人形古代兵器！ 天王！索罗斯卡洛！  ",
+              "rich_text": "【幻兽种迦楼罗】【假卧底当成真<em>海贼</em>】【无上大快刀-天龙戟】\n重生<em>海贼</em>世界，投胎成了<em>海</em>军大将亲儿子的卡洛，本以为自己这波是天胡开局。\n谁知他那倒霉老爹，竟然就是那个被洛克斯当成减速带，一脚踢死的‘文职大将’！\n长大后，他以卧底的身份，前往哈奇诺斯，加入洛克斯<em>海贼</em>团。\n本想尽忠职守，但谁知世界政府翻脸不认人。\n既然如此，索性从此当个真<em>海贼</em>！\n一个活着的传说，从哈奇诺斯开始！\n他是：\n洛克斯<em>海贼</em>团最年轻的四番队队长！\n纵横大<em>海</em>的黄金迦楼罗！\n凯多一生的阴影！\n玲玲永远得不到的男人！\n白胡子的挚友！\n金狮子的死敌！\n统治天空的王者！\n天空<em>海贼</em>团船长！\n人形古代兵器！\n天王！索罗斯卡洛！\n\n",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  30,
+                  2
+                ],
+                [
+                  126,
+                  2
+                ],
+                [
+                  164,
+                  2
+                ],
+                [
+                  192,
+                  2
+                ],
+                [
+                  266,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【幻兽种迦楼罗】【假卧底当成真海贼】【无上大快刀-天龙戟】\n重生海贼世界，投胎成了海军大将亲儿子的卡洛，本以为自己这波是天胡开局。\n谁知他那倒霉老爹，竟然就是那个被洛克斯当成减速带，一脚踢死的‘文职大将’！\n长大后，他以卧底的身份，前往哈奇诺斯，加入洛克斯海贼团。\n本想尽忠职守，但谁知世界政府翻脸不认人。\n既然如此，索性从此当个真海贼！\n一个活着的传说，从哈奇诺斯开始！\n他是：\n洛克斯海贼团最年轻的四番队队长！\n纵横大海的黄金迦楼罗！\n凯多一生的阴影！\n玲玲永远得不到的男人！\n白胡子的挚友！\n金狮子的死敌！\n统治天空的王者！\n天空海贼团船长！\n人形古代兵器！\n天王！索罗斯卡洛！\n\n",
+              "author": "江伟",
+              "book_id": "7559986469708762137",
+              "book_name": "海贼巅峰，从洛克斯团番队长开始",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-10-11T23:28:36+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7559986547425018393",
+              "first_chapter_item_id": "7559986547425018393",
+              "first_chapter_title": "第1章 索罗斯-卡洛",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618599335143424537",
+              "last_chapter_item_id": "7618599335143424537",
+              "last_chapter_title": "第359章 古代恶魔果实图鉴",
+              "last_chapter_update_time": "1773843450",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "37655",
+              "recommend_group_id": "7559986469708762137",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319102357BA221A6E74D877C45462\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "360",
+              "source": "番茄小说",
+              "tags": "动漫衍生,重生",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/dfd0e2d1782703483225ed81122f8be3~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=r%2F1wMqWlCqWbcY3dV1GuXDqBgL4%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "851414",
+              "score": "6.9",
+              "exclusive": "1",
+              "role": "索罗斯卡洛",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":370,\"name\":\"海贼\",\"schema\":\"dragon1967://newCategoryDetail?id=370&name=海贼&genre_type=0&gender=1&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "3331",
+              "sub_info": "3.8万人在读",
+              "last_publish_time": "1773843741",
+              "authorize_type": "1",
+              "media_id": "1587305917475853",
+              "original_book_name": "海贼巅峰：从狂扁凯多开始",
+              "length_type": "0",
+              "op_tag": "531,535,536",
+              "keep_publish_days": "18",
+              "thumb_uri": "novel-pic/dfd0e2d1782703483225ed81122f8be3",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/3c17e0063fa64e17bbe20ec21abcf9eb",
+              "data_rate": "",
+              "all_bookshelf_count": "3825",
+              "pure_category_tags": "动漫衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#281008",
+              "read_count_all": "345414",
+              "shelf_cnt_history": "51821",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507427\":1760936892,\"3040\":1760974001,\"638505\":1760974001,\"1319\":1760961808,\"596084\":1760974001,\"6589\":1760974001,\"2503\":1760936841,\"8703\":1760936841,\"13\":1760936841,\"1967\":1760936841,\"1128\":1760936841,\"8662\":1760936841,\"510893\":1760936841,\"8704\":1760936841,\"35\":1760936841,\"2329\":1760936841,\"507386\":1760936892,\"8661\":1760974001}",
+              "category_v2_map": {
+                "370": true,
+                "538": true,
+                "1079": true,
+                "718": true,
+                "36": true,
+                "19": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/dfd0e2d1782703483225ed81122f8be3~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=r%2F1wMqWlCqWbcY3dV1GuXDqBgL4%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7092954285964530957,
+                  "AuthorName": "江伟"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/3c17e0063fa64e17bbe20ec21abcf9eb~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071037&x-signature=u8gHI%2FgtBKx%2BTQqg0bPqdmcISkQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【幻兽种迦楼罗】【假卧底当成真海贼】【无上大快刀-天龙戟】\n重生海贼世界，投胎成了海军大将亲儿子的卡洛，本以为自己这波是天胡开局。\n谁知他那倒霉老爹，竟然就是那个被洛克斯当成减速带，一脚踢死的‘文职大将’！\n长大后，他以卧底的身份，前往哈奇诺斯，加入洛克斯海贼团。\n本想尽忠职守，但谁知世界政府翻脸不认人。\n既然如此，索性从此当个真海贼！\n一个活着的传说，从哈奇诺斯开始！\n他是：\n洛克斯海贼团最年轻的四番队队长！\n纵横大海的黄金迦楼罗！\n凯多一生的阴影！\n玲玲永远得不到的男人！\n白胡子的挚友！\n金狮子的死敌！\n统治天空的王者！\n天空海贼团船长！\n人形古代兵器！\n天王！索罗斯卡洛！\n\n",
+              "read_page_progress": "0",
+              "read_cnt_text": "3.8万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/dfd0e2d1782703483225ed81122f8be3~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=CILg%2BCbnf7DibIr05PYpBPp0iTk%3D",
+              "raw_book_name": "海贼巅峰，从洛克斯团番队长开始",
+              "color_audio_dominate": "#2B2218",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "11082008978572576342:17:0:2898637697:clks####3@202603191023433DF69731394F9F01BC0A",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "85.1万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：江伟",
+                "rich_text": "作者：江伟",
+                "high_light_position": []
+              },
+              {
+                "text": "...楼罗】【假卧底当成真海贼】【无上大快刀-天龙戟】 重生海贼世界，投胎成了海军大将亲儿子的卡洛，本以为自己这波是天胡开局。 谁知他那倒霉老爹，竟然就是那个被洛克斯当成减速带，一脚踢死的‘文职大将’！ 长大后，他以卧底的身份，前往哈奇诺斯，加入洛克斯海贼团。 本想尽忠职守，但谁知世界政府翻脸不认人。 既然如此，索性从此当个真海贼！ 一个活着的传说，从哈奇诺斯开始！ 他是： 洛克斯海贼团最年轻的四番队队长！ 纵横大海的黄金迦楼罗！ 凯多一生的阴影！ 玲玲永远得不到的男人！ 白胡子的挚友！ 金狮子的死敌！ 统治天空的王者！ 天空海贼团船长！ 人形古代兵器！ 天王！索罗斯卡洛！  ",
+                "rich_text": "【幻兽种迦楼罗】【假卧底当成真<em>海贼</em>】【无上大快刀-天龙戟】\n重生<em>海贼</em>世界，投胎成了<em>海</em>军大将亲儿子的卡洛，本以为自己这波是天胡开局。\n谁知他那倒霉老爹，竟然就是那个被洛克斯当成减速带，一脚踢死的‘文职大将’！\n长大后，他以卧底的身份，前往哈奇诺斯，加入洛克斯<em>海贼</em>团。\n本想尽忠职守，但谁知世界政府翻脸不认人。\n既然如此，索性从此当个真<em>海贼</em>！\n一个活着的传说，从哈奇诺斯开始！\n他是：\n洛克斯<em>海贼</em>团最年轻的四番队队长！\n纵横大<em>海</em>的黄金迦楼罗！\n凯多一生的阴影！\n玲玲永远得不到的男人！\n白胡子的挚友！\n金狮子的死敌！\n统治天空的王者！\n天空<em>海贼</em>团船长！\n人形古代兵器！\n天王！索罗斯卡洛！\n\n",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    30,
+                    2
+                  ],
+                  [
+                    126,
+                    2
+                  ],
+                  [
+                    164,
+                    2
+                  ],
+                  [
+                    192,
+                    2
+                  ],
+                  [
+                    266,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1018,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7289431278372260920",
+          "search_result_id": "7289431278372260920",
+          "search_high_light": {
+            "title": {
+              "text": "我只是副船长",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "【海贼】【跟船】【副船长】【烧烧果实】【多女主但不种马】【前期磨合关系，并非一开始就很和谐】【介意者勿入】【前五十章属于新人作者探索阶段，望海涵】 由于海贼世界的意志已经再也无法容忍尾田瞎搞，逼得它破口大骂：“尾田就是个画漫画的，他懂个锤子的海贼王”，连夜从地球中召唤了一个少年，并给予额外的烧烧果实。 …… 无事发生时，路飞：「陈屿！我才是船长！」 有事发生时，路飞：「陈屿！你可是副船长！」 陈屿：「我TM的，只是个副船长。。。」 …… 有了陈屿的加入，草帽团全体实力超标。 顶上战争时，艾斯看着陈屿几千度的火焰陷入了沉思。。。",
+              "rich_text": "【<em>海贼</em>】【跟船】【副船长】【烧烧果实】【多女主但不种马】【前期磨合关系，并非一开始就很和谐】【介意者勿入】【前五十章属于新人作者探索阶段，望<em>海</em>涵】\n由于<em>海贼</em>世界的意志已经再也无法容忍尾田瞎搞，逼得它破口大骂：“尾田就是个画漫画的，他懂个锤子的<em>海贼</em>王”，连夜从地球中召唤了一个少年，并给予额外的烧烧果实。\n……\n无事发生时，路飞：「陈屿！我才是船长！」\n有事发生时，路飞：「陈屿！你可是副船长！」\n陈屿：「我TM的，只是个副船长。。。」\n……\n有了陈屿的加入，草帽团全体实力超标。\n顶上战争时，艾斯看着陈屿几千度的火焰陷入了沉思。。。",
+              "high_light_position": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  76,
+                  2
+                ],
+                [
+                  121,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【海贼】【跟船】【副船长】【烧烧果实】【多女主但不种马】【前期磨合关系，并非一开始就很和谐】【介意者勿入】【前五十章属于新人作者探索阶段，望海涵】\n由于海贼世界的意志已经再也无法容忍尾田瞎搞，逼得它破口大骂：“尾田就是个画漫画的，他懂个锤子的海贼王”，连夜从地球中召唤了一个少年，并给予额外的烧烧果实。\n……\n无事发生时，路飞：「陈屿！我才是船长！」\n有事发生时，路飞：「陈屿！你可是副船长！」\n陈屿：「我TM的，只是个副船长。。。」\n……\n有了陈屿的加入，草帽团全体实力超标。\n顶上战争时，艾斯看着陈屿几千度的火焰陷入了沉思。。。",
+              "author": "五令",
+              "book_id": "7289431278372260920",
+              "book_name": "我只是副船长",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-10-13T21:16:16+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7293503031696917046",
+              "first_chapter_item_id": "7293503031696917046",
+              "first_chapter_title": "第1章 不穿行不行？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7402913002128687641",
+              "last_chapter_item_id": "7402913002128687641",
+              "last_chapter_title": "第603章 世界的隐秘",
+              "last_chapter_update_time": "1723629434",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "6260",
+              "recommend_group_id": "7289431278372260920",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319102357BA221A6E74D877C45462\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "595",
+              "source": "番茄小说",
+              "tags": "动漫衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/986a916da842e8d8a09df6b3a95a9074~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=XmbqL3UPZsX3pdOdbZbOH4WzlDg%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1369600",
+              "score": "6.8",
+              "exclusive": "1",
+              "role": "陈屿",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":39,\"name\":\"二次元\",\"schema\":\"dragon1967://newCategoryDetail?id=39&name=二次元&genre_type=0&gender=1&source=detail\"},{\"category_id\":370,\"name\":\"海贼\",\"schema\":\"dragon1967://newCategoryDetail?id=370&name=海贼&genre_type=0&gender=1&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=1&source=detail\"},{\"category_id\":833,\"name\":\"海贼王\",\"schema\":\"dragon1967://newCategoryDetail?id=833&name=海贼王&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "941",
+              "sub_info": "6260人在读",
+              "last_publish_time": "1723629663",
+              "authorize_type": "1",
+              "media_id": "1779543981110285",
+              "original_book_name": "海贼王：我助草帽称王",
+              "length_type": "0",
+              "op_tag": "536,535,857,871,873,888,531,1082",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/986a916da842e8d8a09df6b3a95a9074",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/308d4e66e9e97a4b0242f431cccb5f66",
+              "data_rate": "",
+              "all_bookshelf_count": "544",
+              "pure_category_tags": "动漫衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#f0b098",
+              "read_count_all": "588580",
+              "shelf_cnt_history": "78250",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"6589\":1698333293,\"426946\":1736164580,\"35\":1698165010,\"2503\":1698165010,\"510893\":1698165010,\"8703\":1744944184,\"1128\":1698165010,\"507427\":1741815641,\"13\":1698165010,\"3040\":1698333293,\"1967\":1698165010,\"638505\":1724790672,\"596084\":1715109596,\"507386\":1741815641,\"8662\":1698165010,\"8661\":1698333293,\"2329\":1698165010,\"8704\":1747177599}",
+              "category_v2_map": {
+                "833": true,
+                "718": true,
+                "37": true,
+                "39": true,
+                "1079": true,
+                "370": true,
+                "538": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/986a916da842e8d8a09df6b3a95a9074~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=XmbqL3UPZsX3pdOdbZbOH4WzlDg%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7289431278904939834,
+                  "AuthorName": "五令"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "你称王我恋爱",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/308d4e66e9e97a4b0242f431cccb5f66~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071037&x-signature=AJjE9sElrsFo6noVHLe7UYrVrQo%3D",
+              "reputation_thumb_uri": "novel-pic-r/2121368c452f5370f997f9736ffc317b",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【海贼】【跟船】【副船长】【烧烧果实】【多女主但不种马】【前期磨合关系，并非一开始就很和谐】【介意者勿入】【前五十章属于新人作者探索阶段，望海涵】\n由于海贼世界的意志已经再也无法容忍尾田瞎搞，逼得它破口大骂：“尾田就是个画漫画的，他懂个锤子的海贼王”，连夜从地球中召唤了一个少年，并给予额外的烧烧果实。\n……\n无事发生时，路飞：「陈屿！我才是船长！」\n有事发生时，路飞：「陈屿！你可是副船长！」\n陈屿：「我TM的，只是个副船长。。。」\n……\n有了陈屿的加入，草帽团全体实力超标。\n顶上战争时，艾斯看着陈屿几千度的火焰陷入了沉思。。。",
+              "read_page_progress": "0",
+              "read_cnt_text": "6260人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/986a916da842e8d8a09df6b3a95a9074~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=t8WpNSmBf5fpsOZVblWDIKKBjRI%3D",
+              "raw_book_name": "我只是副船长",
+              "color_audio_dominate": "#EBCECB"
+            }
+          ],
+          "search_attached_info": "11082008978572576342:18:0:1308602327:clks####3@202603191023433DF69731394F9F01BC0A",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "137.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "6260人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：五令",
+                "rich_text": "作者：五令",
+                "high_light_position": []
+              },
+              {
+                "text": "【海贼】【跟船】【副船长】【烧烧果实】【多女主但不种马】【前期磨合关系，并非一开始就很和谐】【介意者勿入】【前五十章属于新人作者探索阶段，望海涵】 由于海贼世界的意志已经再也无法容忍尾田瞎搞，逼得它破口大骂：“尾田就是个画漫画的，他懂个锤子的海贼王”，连夜从地球中召唤了一个少年，并给予额外的烧烧果实。 …… 无事发生时，路飞：「陈屿！我才是船长！」 有事发生时，路飞：「陈屿！你可是副船长！」 陈屿：「我TM的，只是个副船长。。。」 …… 有了陈屿的加入，草帽团全体实力超标。 顶上战争时，艾斯看着陈屿几千度的火焰陷入了沉思。。。",
+                "rich_text": "【<em>海贼</em>】【跟船】【副船长】【烧烧果实】【多女主但不种马】【前期磨合关系，并非一开始就很和谐】【介意者勿入】【前五十章属于新人作者探索阶段，望<em>海</em>涵】\n由于<em>海贼</em>世界的意志已经再也无法容忍尾田瞎搞，逼得它破口大骂：“尾田就是个画漫画的，他懂个锤子的<em>海贼</em>王”，连夜从地球中召唤了一个少年，并给予额外的烧烧果实。\n……\n无事发生时，路飞：「陈屿！我才是船长！」\n有事发生时，路飞：「陈屿！你可是副船长！」\n陈屿：「我TM的，只是个副船长。。。」\n……\n有了陈屿的加入，草帽团全体实力超标。\n顶上战争时，艾斯看着陈屿几千度的火焰陷入了沉思。。。",
+                "high_light_position": [
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    76,
+                    2
+                  ],
+                  [
+                    121,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1019,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7361362517651639358",
+          "search_result_id": "7361362517651639358",
+          "search_high_light": {
+            "title": {
+              "text": "海贼：俘获女神就变强！",
+              "rich_text": "<em>海贼</em>：俘获女神就变强！",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...滑滑果实，从而获得在海贼世界立足之本。 却是没有想到，抢错了恶魔果实，意外吃下了超人系-吸收果实。 它能吸收所有触碰到的物质，然后将身体同化成同样的物质。 触碰到了铁，化为了铁人。 触碰到了赤犬轰来的岩浆，立马化为了岩浆人，并且吸收其伤害，成倍的反击回去。 甚至还能如同自然系能力者一样元素化。 如果暗暗果实是自然系中最特殊的存在，那么这颗吸收果实，绝对是超人系中最特殊的存在。 尼卡果实，都要靠边站。",
+              "rich_text": "什么震震果实，什么暗暗果实，什么尼卡果实，什么响雷果实，都弱爆了。\n本来身穿过来的莫克，为了变强。\n千方百计上了亚尔丽塔所船，企图从她的手中，抢过超人系滑滑果实，从而获得在<em>海贼</em>世界立足之本。\n却是没有想到，抢错了恶魔果实，意外吃下了超人系-吸收果实。\n它能吸收所有触碰到的物质，然后将身体同化成同样的物质。\n触碰到了铁，化为了铁人。\n触碰到了赤犬轰来的岩浆，立马化为了岩浆人，并且吸收其伤害，成倍的反击回去。\n甚至还能如同自然系能力者一样元素化。\n如果暗暗果实是自然系中最特殊的存在，那么这颗吸收果实，绝对是超人系中最特殊的存在。\n尼卡果实，都要靠边站。",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "什么震震果实，什么暗暗果实，什么尼卡果实，什么响雷果实，都弱爆了。\n本来身穿过来的莫克，为了变强。\n千方百计上了亚尔丽塔所船，企图从她的手中，抢过超人系滑滑果实，从而获得在海贼世界立足之本。\n却是没有想到，抢错了恶魔果实，意外吃下了超人系-吸收果实。\n它能吸收所有触碰到的物质，然后将身体同化成同样的物质。\n触碰到了铁，化为了铁人。\n触碰到了赤犬轰来的岩浆，立马化为了岩浆人，并且吸收其伤害，成倍的反击回去。\n甚至还能如同自然系能力者一样元素化。\n如果暗暗果实是自然系中最特殊的存在，那么这颗吸收果实，绝对是超人系中最特殊的存在。\n尼卡果实，都要靠边站。",
+              "author": "施家五公主",
+              "book_id": "7361362517651639358",
+              "book_name": "海贼：俘获女神就变强！",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-04-24T17:26:13+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7361368362179379774",
+              "first_chapter_item_id": "7361368362179379774",
+              "first_chapter_title": "第1章 身穿海贼世界",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618538019594715672",
+              "last_chapter_item_id": "7618538019594715672",
+              "last_chapter_title": "第146章这种力量，他还是第一次见",
+              "last_chapter_update_time": "1773830357",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "49665",
+              "recommend_group_id": "7361362517651639358",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319102357BA221A6E74D877C45462\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "907",
+              "source": "番茄小说",
+              "tags": "动漫衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/486eeed7dd64a0f9b4fc4315f69ed90e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=olWxdnBZYqmZL1FYRZ7UjiCBzcU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "3825066",
+              "score": "6.3",
+              "exclusive": "1",
+              "role": "莫克",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":39,\"name\":\"二次元\",\"schema\":\"dragon1967://newCategoryDetail?id=39&name=二次元&genre_type=0&gender=1&source=detail\"},{\"category_id\":370,\"name\":\"海贼\",\"schema\":\"dragon1967://newCategoryDetail?id=370&name=海贼&genre_type=0&gender=1&source=detail\"},{\"category_id\":384,\"name\":\"无敌\",\"schema\":\"dragon1967://newCategoryDetail?id=384&name=无敌&genre_type=0&gender=1&source=detail\"},{\"category_id\":453,\"name\":\"开局\",\"schema\":\"dragon1967://newCategoryDetail?id=453&name=开局&genre_type=0&gender=1&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=1&source=detail\"},{\"category_id\":833,\"name\":\"海贼王\",\"schema\":\"dragon1967://newCategoryDetail?id=833&name=海贼王&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "5551",
+              "sub_info": "5万人在读",
+              "last_publish_time": "1773830368",
+              "authorize_type": "1",
+              "media_id": "1745005962532878",
+              "original_book_name": "海贼：开局抢错果实，我竟无敌了",
+              "length_type": "0",
+              "op_tag": "888,531,889,535,536,870,873,1081",
+              "keep_publish_days": "229",
+              "thumb_uri": "novel-pic/486eeed7dd64a0f9b4fc4315f69ed90e",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/ed03b1718c8b2e7e996a7595ca27eb33",
+              "data_rate": "",
+              "all_bookshelf_count": "5213",
+              "pure_category_tags": "动漫衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e8d8b8",
+              "read_count_all": "1138711",
+              "shelf_cnt_history": "167679",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"13\":1713961148,\"8703\":1744951720,\"8704\":1747134883,\"1967\":1713961148,\"596084\":1715077873,\"8661\":1714551244,\"507386\":1741881119,\"2503\":1713961148,\"2329\":1713961148,\"3040\":1714551244,\"510893\":1713961148,\"507427\":1741881119,\"638505\":1724768320,\"35\":1713961148,\"6589\":1714551244,\"8662\":1713961148,\"1128\":1713961148}",
+              "category_v2_map": {
+                "718": true,
+                "370": true,
+                "538": true,
+                "37": true,
+                "39": true,
+                "384": true,
+                "453": true,
+                "833": true,
+                "1079": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/486eeed7dd64a0f9b4fc4315f69ed90e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=olWxdnBZYqmZL1FYRZ7UjiCBzcU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7147552764074136867,
+                  "AuthorName": "施家五公主"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "最强超人系！",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/ed03b1718c8b2e7e996a7595ca27eb33~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071037&x-signature=PISOHFYV11P3zc2ZT0JOuXrvN7k%3D",
+              "reputation_thumb_uri": "novel-pic-r/b118ca05341ed79d8d030139410d8148",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "什么震震果实，什么暗暗果实，什么尼卡果实，什么响雷果实，都弱爆了。\n本来身穿过来的莫克，为了变强。\n千方百计上了亚尔丽塔所船，企图从她的手中，抢过超人系滑滑果实，从而获得在海贼世界立足之本。\n却是没有想到，抢错了恶魔果实，意外吃下了超人系-吸收果实。\n它能吸收所有触碰到的物质，然后将身体同化成同样的物质。\n触碰到了铁，化为了铁人。\n触碰到了赤犬轰来的岩浆，立马化为了岩浆人，并且吸收其伤害，成倍的反击回去。\n甚至还能如同自然系能力者一样元素化。\n如果暗暗果实是自然系中最特殊的存在，那么这颗吸收果实，绝对是超人系中最特殊的存在。\n尼卡果实，都要靠边站。",
+              "read_page_progress": "0",
+              "read_cnt_text": "5万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/486eeed7dd64a0f9b4fc4315f69ed90e~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071037&x-signature=O3FNLqPSnmXSNdzCiLwdG8aIcaU%3D",
+              "raw_book_name": "海贼：俘获女神就变强！",
+              "color_audio_dominate": "#5A120F",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "11082008978572576342:19:0:1816069618:clks####3@202603191023433DF69731394F9F01BC0A",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "382.5万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：施家五公主",
+                "rich_text": "作者：施家五公主",
+                "high_light_position": []
+              },
+              {
+                "text": "...滑滑果实，从而获得在海贼世界立足之本。 却是没有想到，抢错了恶魔果实，意外吃下了超人系-吸收果实。 它能吸收所有触碰到的物质，然后将身体同化成同样的物质。 触碰到了铁，化为了铁人。 触碰到了赤犬轰来的岩浆，立马化为了岩浆人，并且吸收其伤害，成倍的反击回去。 甚至还能如同自然系能力者一样元素化。 如果暗暗果实是自然系中最特殊的存在，那么这颗吸收果实，绝对是超人系中最特殊的存在。 尼卡果实，都要靠边站。",
+                "rich_text": "什么震震果实，什么暗暗果实，什么尼卡果实，什么响雷果实，都弱爆了。\n本来身穿过来的莫克，为了变强。\n千方百计上了亚尔丽塔所船，企图从她的手中，抢过超人系滑滑果实，从而获得在<em>海贼</em>世界立足之本。\n却是没有想到，抢错了恶魔果实，意外吃下了超人系-吸收果实。\n它能吸收所有触碰到的物质，然后将身体同化成同样的物质。\n触碰到了铁，化为了铁人。\n触碰到了赤犬轰来的岩浆，立马化为了岩浆人，并且吸收其伤害，成倍的反击回去。\n甚至还能如同自然系能力者一样元素化。\n如果暗暗果实是自然系中最特殊的存在，那么这颗吸收果实，绝对是超人系中最特殊的存在。\n尼卡果实，都要靠边站。",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "20",
+      "search_id": "clks####3@202603191023433DF69731394F9F01BC0A",
+      "query": "海贼",
+      "next_offset": 20,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@202603191023433DF69731394F9F01BC0A",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"20260319102357BA221A6E74D877C45462\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@202603191023433DF69731394F9F01BC0A",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@202603191023433DF69731394F9F01BC0A",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "20260319102357BA221A6E74D877C45462"
+}

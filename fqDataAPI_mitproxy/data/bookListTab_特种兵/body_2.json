@@ -1,0 +1,2510 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@202603191013383E529DD950BA583CCD4D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@202603191013383E529DD950BA583CCD4D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@202603191013383E529DD950BA583CCD4D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@202603191013383E529DD950BA583CCD4D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@202603191013383E529DD950BA583CCD4D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@202603191013383E529DD950BA583CCD4D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1001,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "6918014883145452551",
+          "search_result_id": "6918014883145452551",
+          "search_high_light": {
+            "alias": {
+              "text": "最强特种兵系统",
+              "rich_text": "最强<em>特种兵</em>系统",
+              "high_light_position": [
+                [
+                  2,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "最强特种兵系统（别名：当兵两年，碾压世界特种部队排名）",
+              "rich_text": "最强<em>特种兵</em>系统（别名：当<em>兵</em>两年，碾压世界<em>特种</em>部队排名）",
+              "high_light_position": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  20,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【穿越到特种兵世界，系统辅助最强兵王】穿越到特种兵世界，得到最强特种兵系统辅助。 伪装渗透、 敌后作战、顶级黑客、王牌飞行员、全武器操控大师…… 从铁拳团开始，江凡逐渐成为世界最强兵王！",
+              "rich_text": "穿越到<em>特种兵</em>世界，得到最强<em>特种兵</em>系统辅助。\n伪装渗透、 敌后作战、顶级黑客、王牌飞行员、全武器操控大师……\n从铁拳团开始，江凡逐渐成为世界最强<em>兵</em>王！",
+              "high_light_position": [
+                [
+                  4,
+                  3
+                ],
+                [
+                  22,
+                  3
+                ],
+                [
+                  32,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "穿越到特种兵世界，得到最强特种兵系统辅助。\n伪装渗透、 敌后作战、顶级黑客、王牌飞行员、全武器操控大师……\n从铁拳团开始，江凡逐渐成为世界最强兵王！",
+              "author": "赢无欲",
+              "book_id": "6918014883145452551",
+              "book_name": "当兵两年，碾压世界特种部队排名",
+              "category": "男频衍生",
+              "complete_category": "男生/历史/架空历史",
+              "copyright_info": "版权信息：本书的数字版权由 17k小说网 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2021-01-15T23:51:05+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "6918041764213293576",
+              "first_chapter_item_id": "6918041764213293576",
+              "first_chapter_title": "第1章 最强特种兵系统",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7099100640281887239",
+              "last_chapter_item_id": "7099100640281887239",
+              "last_chapter_title": "第1043章 回家（大结局）",
+              "last_chapter_update_time": "1652888182",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "27270",
+              "recommend_group_id": "6918014883145452551",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101346D06A0112206BD48C1274\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "1040",
+              "source": "17k小说网",
+              "tags": "男频衍生,穿越",
+              "thumb_url": "https://p9-reading-sign.fqnovelpic.com/novel-pic/159ea9b8f2fb62b22d428fd812812585~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=zvEHvRaz1e7FRxxhxvlftdnCoag%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "2031867",
+              "score": "8.7",
+              "role": " 江凡,红隼",
+              "category_schema": "[{\"category_id\":1016,\"name\":\"男频衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1016&name=男频衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":375,\"name\":\"特种兵\",\"schema\":\"dragon1967://newCategoryDetail?id=375&name=特种兵&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=1&source=detail\"},{\"category_id\":852,\"name\":\"魂穿\",\"schema\":\"dragon1967://newCategoryDetail?id=852&name=魂穿&genre_type=0&gender=1&source=detail\"},{\"category_id\":830,\"name\":\"升级流\",\"schema\":\"dragon1967://newCategoryDetail?id=830&name=升级流&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7041168252914895886]",
+              "book_type": "0",
+              "alias_name": "最强特种兵系统",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "7995",
+              "sub_info": "2.8万人在读",
+              "chapter_number": "815",
+              "last_publish_time": "1652888188",
+              "authorize_type": "0",
+              "media_id": "6648434071",
+              "original_book_name": "最强特种兵系统",
+              "length_type": "0",
+              "op_tag": "537,966,191,529,347,535,502,873,300,164,856,245,869,1082",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/159ea9b8f2fb62b22d428fd812812585",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/9e3f3c8e20d9dd0d083e29745a63254a",
+              "data_rate": "",
+              "all_bookshelf_count": "2244",
+              "pure_category_tags": "男频衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#201818",
+              "read_count_all": "3590806",
+              "shelf_cnt_history": "460403",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8704\":1768294420,\"638505\":1724935260,\"8662\":1675683031,\"6589\":1702441246,\"510893\":1702441246,\"2503\":1702441246,\"507427\":1702441306,\"1967\":1618525109,\"507386\":1702441306,\"8703\":1745909432,\"8661\":1695292201,\"596084\":1723461456}",
+              "category_v2_map": {
+                "852": true,
+                "1016": true,
+                "375": true,
+                "522": true,
+                "538": true,
+                "1079": true,
+                "19": true,
+                "37": true,
+                "830": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/159ea9b8f2fb62b22d428fd812812585~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=oXBO1boiApk548DEpeT3iFQVTQw%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6918014913877120264,
+                  "AuthorName": "赢无欲"
+                }
+              ],
+              "platform_book_id": "61287875",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/9e3f3c8e20d9dd0d083e29745a63254a~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070427&x-signature=dJZBQYhiye2x%2BafzzqesDsmaHwg%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "tts_type": "",
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "穿越到特种兵世界，得到最强特种兵系统辅助。\n伪装渗透、 敌后作战、顶级黑客、王牌飞行员、全武器操控大师……\n从铁拳团开始，江凡逐渐成为世界最强兵王！",
+              "read_page_progress": "0",
+              "read_cnt_text": "2.8万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/159ea9b8f2fb62b22d428fd812812585~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=go5d%2FlcjsdV50w7UDpz4kSOz6w0%3D",
+              "cell_content_raw_alias": "最强特种兵系统",
+              "raw_book_name": "当兵两年，碾压世界特种部队排名",
+              "related_bookids": "{\"1967\":{\"205\":[7480364081006791742,7480364409919917081,7480364127722933273,7480361680652749849,7480366896815016984]},\"507386\":{\"205\":[7480364081006791742,7480364409919917081,7480364127722933273,7480361680652749849,7480366896815016984]},\"507427\":{\"205\":[7480364081006791742,7480364409919917081,7480364127722933273,7480361680652749849,7480366896815016984]},\"8662\":{\"205\":[7480364081006791742,7480364409919917081,7480364127722933273,7480361680652749849,7480366896815016984]},\"3040\":{\"205\":[7480364081006791742,7480364409919917081,7480364127722933273,7480361680652749849,7480366896815016984]}}",
+              "color_audio_dominate": "#3B2214"
+            }
+          ],
+          "search_attached_info": "14455614938861001052:1:0:2823378207:clks####3@202603191013383E529DD950BA583CCD4D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短剧原著",
+              "Priority": 15,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "203.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "男频衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：赢无欲",
+                "rich_text": "作者：赢无欲",
+                "high_light_position": []
+              },
+              {
+                "text": "【穿越到特种兵世界，系统辅助最强兵王】穿越到特种兵世界，得到最强特种兵系统辅助。 伪装渗透、 敌后作战、顶级黑客、王牌飞行员、全武器操控大师…… 从铁拳团开始，江凡逐渐成为世界最强兵王！",
+                "rich_text": "穿越到<em>特种兵</em>世界，得到最强<em>特种兵</em>系统辅助。\n伪装渗透、 敌后作战、顶级黑客、王牌飞行员、全武器操控大师……\n从铁拳团开始，江凡逐渐成为世界最强<em>兵</em>王！",
+                "high_light_position": [
+                  [
+                    4,
+                    3
+                  ],
+                  [
+                    22,
+                    3
+                  ],
+                  [
+                    32,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1002,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7543624868982443032",
+          "search_result_id": "7543624868982443032",
+          "search_high_light": {
+            "abstract": {
+              "text": "陈锋穿越到一个综合特种兵世界！ 成为邓振华的同班战友，开局就跳伞名场面！ 一个跳伞跳到学校女厕所！另一个跳则直接跳到赌场里！ （无系统！就穿越加强了主角的身体机能和神经反射一类的！不会出现超级人类的情况！） （大脑寄存处！叠甲——综合影视世界，不要带入现实！你杠你对！时间线混合不要纠结！）",
+              "rich_text": "陈锋穿越到一个综合<em>特种兵</em>世界！\n成为邓振华的同班战友，开局就跳伞名场面！\n一个跳伞跳到学校女厕所！另一个跳则直接跳到赌场里！\n（无系统！就穿越加强了主角的身体机能和神经反射一类的！不会出现超级人类的情况！）\n（大脑寄存处！叠甲——综合影视世界，不要带入现实！你杠你对！时间线混合不要纠结！）",
+              "high_light_position": [
+                [
+                  9,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "特种兵：从雄鹰师开始",
+              "rich_text": "<em>特种兵</em>：从雄鹰师开始",
+              "high_light_position": [
+                [
+                  0,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "陈锋穿越到一个综合特种兵世界！\n成为邓振华的同班战友，开局就跳伞名场面！\n一个跳伞跳到学校女厕所！另一个跳则直接跳到赌场里！\n（无系统！就穿越加强了主角的身体机能和神经反射一类的！不会出现超级人类的情况！）\n（大脑寄存处！叠甲——综合影视世界，不要带入现实！你杠你对！时间线混合不要纠结！）",
+              "author": "一圆钱钱",
+              "book_id": "7543624868982443032",
+              "book_name": "特种兵：从雄鹰师开始",
+              "category": "男频衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-08-28T21:17:14+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7543631923168412184",
+              "first_chapter_item_id": "7543631923168412184",
+              "first_chapter_title": "第1章 跳伞与意外",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618590987094327833",
+              "last_chapter_item_id": "7618590987094327833",
+              "last_chapter_title": "第428章 主动出击，寻找老A",
+              "last_chapter_update_time": "1773841554",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "80475",
+              "recommend_group_id": "7543624868982443032",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101346D06A0112206BD48C1274\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "428",
+              "source": "番茄小说",
+              "tags": "男频衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of1161e126e09acf0edd247f206b884a0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=yU47aimB3azNTSZPsXQpvfNtVpM%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "918955",
+              "score": "8.4",
+              "exclusive": "1",
+              "role": "陈锋",
+              "category_schema": "[{\"category_id\":1016,\"name\":\"男频衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1016&name=男频衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":375,\"name\":\"特种兵\",\"schema\":\"dragon1967://newCategoryDetail?id=375&name=特种兵&genre_type=0&gender=1&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=1&source=detail\"},{\"category_id\":852,\"name\":\"魂穿\",\"schema\":\"dragon1967://newCategoryDetail?id=852&name=魂穿&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7573339039185521726]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "9788",
+              "sub_info": "8.1万人在读",
+              "last_publish_time": "1773878774",
+              "authorize_type": "1",
+              "media_id": "1801209400445962",
+              "original_book_name": "特种兵：从雄鹰师开始",
+              "length_type": "0",
+              "op_tag": "531,535,536,529",
+              "keep_publish_days": "13",
+              "thumb_uri": "novel-pic/p2of1161e126e09acf0edd247f206b884a0",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/5d64a70574b6553d80436936901e45eb",
+              "data_rate": "",
+              "all_bookshelf_count": "5331",
+              "pure_category_tags": "男频衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#001830",
+              "read_count_all": "1077016",
+              "shelf_cnt_history": "153911",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1967\":1756388980,\"638505\":1756463754,\"3040\":1756463754,\"1128\":1756388980,\"507427\":1756389042,\"6589\":1756463754,\"8661\":1756463754,\"8704\":1756388980,\"2503\":1756388980,\"8703\":1756388980,\"8662\":1756388980,\"2329\":1756388980,\"510893\":1756388980,\"507386\":1756389042,\"596084\":1756463754,\"35\":1756388980,\"13\":1756388980}",
+              "category_v2_map": {
+                "1079": true,
+                "37": true,
+                "538": true,
+                "1016": true,
+                "375": true,
+                "852": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of1161e126e09acf0edd247f206b884a0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=yU47aimB3azNTSZPsXQpvfNtVpM%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7377754125636752664,
+                  "AuthorName": "一圆钱钱"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/5d64a70574b6553d80436936901e45eb~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070427&x-signature=Gq3IKxuM17tgxIhUTHEAOUEe9DQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "陈锋穿越到一个综合特种兵世界！\n成为邓振华的同班战友，开局就跳伞名场面！\n一个跳伞跳到学校女厕所！另一个跳则直接跳到赌场里！\n（无系统！就穿越加强了主角的身体机能和神经反射一类的！不会出现超级人类的情况！）\n（大脑寄存处！叠甲——综合影视世界，不要带入现实！你杠你对！时间线混合不要纠结！）",
+              "read_page_progress": "0",
+              "read_cnt_text": "8.1万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of1161e126e09acf0edd247f206b884a0~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=thLmY%2FlryIJoVGayJABYytHwyMo%3D",
+              "raw_book_name": "特种兵：从雄鹰师开始",
+              "color_audio_dominate": "#071A26",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "14455614938861001052:2:0:3518249165:clks####3@202603191013383E529DD950BA583CCD4D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "91.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "8万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "男频衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：一圆钱钱",
+                "rich_text": "作者：一圆钱钱",
+                "high_light_position": []
+              },
+              {
+                "text": "陈锋穿越到一个综合特种兵世界！ 成为邓振华的同班战友，开局就跳伞名场面！ 一个跳伞跳到学校女厕所！另一个跳则直接跳到赌场里！ （无系统！就穿越加强了主角的身体机能和神经反射一类的！不会出现超级人类的情况！） （大脑寄存处！叠甲——综合影视世界，不要带入现实！你杠你对！时间线混合不要纠结！）",
+                "rich_text": "陈锋穿越到一个综合<em>特种兵</em>世界！\n成为邓振华的同班战友，开局就跳伞名场面！\n一个跳伞跳到学校女厕所！另一个跳则直接跳到赌场里！\n（无系统！就穿越加强了主角的身体机能和神经反射一类的！不会出现超级人类的情况！）\n（大脑寄存处！叠甲——综合影视世界，不要带入现实！你杠你对！时间线混合不要纠结！）",
+                "high_light_position": [
+                  [
+                    9,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1003,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7603673437558541336",
+          "search_result_id": "7603673437558541336",
+          "search_high_light": {
+            "abstract": {
+              "text": "前世是王牌狙击手的陆峰，穿越成高考250分的网瘾废物。 刚穿越就被老爹用皮带抽醒——只因原主高考250，沉迷游戏，是全家耻辱。 第一天就被丢进全军最狠的边防团。教官冷眼放话：“关系户？老子专治少爷病！” 可前世是超级兵王的陆峰却是就地崛起！当别的兵还在练队列，陆峰已经1500米外一枪打爆移动靶。新兵连就把教官打自闭了。 紧急拉动，他第一个全装到位；战术演练，他一个人端了全连指挥所。 领导怀疑人生：“这哪是少爷兵？这特么是兵王苗子！” 直到全军大比武，陆峰扛着狙击枪点名全场精锐。全军彻底疯狂！ 两年后，老父亲开车去接自己的废物儿子退伍。却发现，废物儿子，已经成为一名上校！ “老爹，你那点财产自己留着吧。” “你儿子我可是要当将军的人！”",
+              "rich_text": "前世是王牌狙击手的陆峰，穿越成高考250分的网瘾废物。\n刚穿越就被老爹用皮带抽醒——只因原主高考250，沉迷游戏，是全家耻辱。\n第一天就被丢进全军最狠的边防团。教官冷眼放话：“关系户？老子专治少爷病！”\n可前世是超级<em>兵</em>王的陆峰却是就地崛起！当别的<em>兵</em>还在练队列，陆峰已经1500米外一枪打爆移动靶。新<em>兵</em>连就把教官打自闭了。\n紧急拉动，他第一个全装到位；战术演练，他一个人端了全连指挥所。\n领导怀疑人生：“这哪是少爷<em>兵</em>？这<em>特</em>么是<em>兵</em>王苗子！”\n直到全军大比武，陆峰扛着狙击枪点名全场精锐。全军彻底疯狂！\n两年后，老父亲开车去接自己的废物儿子退伍。却发现，废物儿子，已经成为一名上校！\n“老爹，你那点财产自己留着吧。”\n“你儿子我可是要当将军的人！”",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "参军第一年，国家派战机接我去授勋",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "前世是王牌狙击手的陆峰，穿越成高考250分的网瘾废物。\n刚穿越就被老爹用皮带抽醒——只因原主高考250，沉迷游戏，是全家耻辱。\n第一天就被丢进全军最狠的边防团。教官冷眼放话：“关系户？老子专治少爷病！”\n可前世是超级兵王的陆峰却是就地崛起！当别的兵还在练队列，陆峰已经1500米外一枪打爆移动靶。新兵连就把教官打自闭了。\n紧急拉动，他第一个全装到位；战术演练，他一个人端了全连指挥所。\n领导怀疑人生：“这哪是少爷兵？这特么是兵王苗子！”\n直到全军大比武，陆峰扛着狙击枪点名全场精锐。全军彻底疯狂！\n两年后，老父亲开车去接自己的废物儿子退伍。却发现，废物儿子，已经成为一名上校！\n“老爹，你那点财产自己留着吧。”\n“你儿子我可是要当将军的人！”",
+              "author": "赢无欲",
+              "book_id": "7603673437558541336",
+              "book_name": "参军第一年，国家派战机接我去授勋",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 橙果文学 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-06T16:58:15+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7603685253122640920",
+              "first_chapter_item_id": "7603685253122640920",
+              "first_chapter_title": "第1章：王者陨落，废物苏醒",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618430467523480600",
+              "last_chapter_item_id": "7618430467523480600",
+              "last_chapter_title": "第121章 不屑？打脸来得太快！陆峰疾冲追平第一梯队",
+              "last_chapter_update_time": "1773804252",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "203422",
+              "recommend_group_id": "7603673437558541336",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101346D06A0112206BD48C1274\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "121",
+              "source": "橙果文学",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/11c5a8c52bbb0f639c3f6ccc3d76799a~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=l7t2ZrkJ%2FWUmRcTs%2Fxcn9UOThOA%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "303030",
+              "score": "7.6",
+              "role": " 陆峰",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":375,\"name\":\"特种兵\",\"schema\":\"dragon1967://newCategoryDetail?id=375&name=特种兵&genre_type=0&gender=1&source=detail\"},{\"category_id\":852,\"name\":\"魂穿\",\"schema\":\"dragon1967://newCategoryDetail?id=852&name=魂穿&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "30695",
+              "sub_info": "20.4万人在读",
+              "last_publish_time": "1773804262",
+              "authorize_type": "0",
+              "media_id": "1715619525153806",
+              "original_book_name": "参军第一年，国家派战机接我去授勋",
+              "length_type": "0",
+              "keep_publish_days": "41",
+              "thumb_uri": "novel-pic/11c5a8c52bbb0f639c3f6ccc3d76799a",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/11c5a8c52bbb0f639c3f6ccc3d76799a~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070427&x-signature=TJOyIQP0voRTcwKP%2Fr3DpLvMHGI%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "36921",
+              "pure_category_tags": "都市脑洞,魂穿",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#382018",
+              "read_count_all": "342166",
+              "shelf_cnt_history": "61820",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"13\":1770386102,\"6589\":1770386102,\"507386\":1770386150,\"596084\":1770386102,\"507427\":1770386150,\"8661\":1770386102,\"3040\":1770386102,\"510893\":1770386102,\"1128\":1770386102,\"638505\":1770386102,\"35\":1770386102,\"8703\":1770386102,\"1967\":1770386102,\"1319\":1770386102,\"2503\":1770386102,\"8704\":1770386102,\"8662\":1770386102,\"2329\":1770386102}",
+              "category_v2_map": {
+                "1": true,
+                "262": true,
+                "37": true,
+                "375": true,
+                "852": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/11c5a8c52bbb0f639c3f6ccc3d76799a~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=l7t2ZrkJ%2FWUmRcTs%2Fxcn9UOThOA%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6918014913877120264,
+                  "AuthorName": "赢无欲"
+                }
+              ],
+              "platform_book_id": "4700",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/11c5a8c52bbb0f639c3f6ccc3d76799a~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070427&x-signature=tshMv7tPsFmor2XFJx9%2FyoVaR5A%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "tts_type": "",
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "前世是王牌狙击手的陆峰，穿越成高考250分的网瘾废物。\n刚穿越就被老爹用皮带抽醒——只因原主高考250，沉迷游戏，是全家耻辱。\n第一天就被丢进全军最狠的边防团。教官冷眼放话：“关系户？老子专治少爷病！”\n可前世是超级兵王的陆峰却是就地崛起！当别的兵还在练队列，陆峰已经1500米外一枪打爆移动靶。新兵连就把教官打自闭了。\n紧急拉动，他第一个全装到位；战术演练，他一个人端了全连指挥所。\n领导怀疑人生：“这哪是少爷兵？这特么是兵王苗子！”\n直到全军大比武，陆峰扛着狙击枪点名全场精锐。全军彻底疯狂！\n两年后，老父亲开车去接自己的废物儿子退伍。却发现，废物儿子，已经成为一名上校！\n“老爹，你那点财产自己留着吧。”\n“你儿子我可是要当将军的人！”",
+              "read_page_progress": "0",
+              "read_cnt_text": "20.4万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/11c5a8c52bbb0f639c3f6ccc3d76799a~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=wmlt76dR1en3xN4r0uQGBD%2Fx7cU%3D",
+              "raw_book_name": "参军第一年，国家派战机接我去授勋"
+            }
+          ],
+          "search_attached_info": "14455614938861001052:3:0:2321481103:clks####3@202603191013383E529DD950BA583CCD4D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "30.3万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "20万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：赢无欲",
+                "rich_text": "作者：赢无欲",
+                "high_light_position": []
+              },
+              {
+                "text": "前世是王牌狙击手的陆峰，穿越成高考250分的网瘾废物。 刚穿越就被老爹用皮带抽醒——只因原主高考250，沉迷游戏，是全家耻辱。 第一天就被丢进全军最狠的边防团。教官冷眼放话：“关系户？老子专治少爷病！” 可前世是超级兵王的陆峰却是就地崛起！当别的兵还在练队列，陆峰已经1500米外一枪打爆移动靶。新兵连就把教官打自闭了。 紧急拉动，他第一个全装到位；战术演练，他一个人端了全连指挥所。 领导怀疑人生：“这哪是少爷兵？这特么是兵王苗子！” 直到全军大比武，陆峰扛着狙击枪点名全场精锐。全军彻底疯狂！ 两年后，老父亲开车去接自己的废物儿子退伍。却发现，废物儿子，已经成为一名上校！ “老爹，你那点财产自己留着吧。” “你儿子我可是要当将军的人！”",
+                "rich_text": "前世是王牌狙击手的陆峰，穿越成高考250分的网瘾废物。\n刚穿越就被老爹用皮带抽醒——只因原主高考250，沉迷游戏，是全家耻辱。\n第一天就被丢进全军最狠的边防团。教官冷眼放话：“关系户？老子专治少爷病！”\n可前世是超级<em>兵</em>王的陆峰却是就地崛起！当别的<em>兵</em>还在练队列，陆峰已经1500米外一枪打爆移动靶。新<em>兵</em>连就把教官打自闭了。\n紧急拉动，他第一个全装到位；战术演练，他一个人端了全连指挥所。\n领导怀疑人生：“这哪是少爷<em>兵</em>？这<em>特</em>么是<em>兵</em>王苗子！”\n直到全军大比武，陆峰扛着狙击枪点名全场精锐。全军彻底疯狂！\n两年后，老父亲开车去接自己的废物儿子退伍。却发现，废物儿子，已经成为一名上校！\n“老爹，你那点财产自己留着吧。”\n“你儿子我可是要当将军的人！”",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1004,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7515851815657671705",
+          "search_result_id": "7515851815657671705",
+          "search_high_light": {
+            "abstract": {
+              "text": "【军旅＋系统＋特种兵＋轻松＋热血】穿越火凤凰世界，开局救下安然，顺手团灭匪帮，却深藏功与名。 赵峰选择以军校生应届毕业生身份，参加狼牙特种部队新兵选拔，开启精彩的军旅生活。 身负逆天系统，他在特种兵选拔当逼王，在演习场当战神！ 当所有人都以为他只是个“天才新兵”时，一纸调令，他空降火凤凰，成为雷战都看不透的魔鬼教官。 安然：“我一直在找那个救我的英雄。” 赵峰：“我就是你说的那个……最讨厌的魔鬼教官。” 看他如何一边隐藏身份，一边用实力征服火凤凰，打造最强女子特战队！",
+              "rich_text": "【军旅＋系统＋<em>特种兵</em>＋轻松＋热血】穿越火凤凰世界，开局救下安然，顺手团灭匪帮，却深藏功与名。\n赵峰选择以军校生应届毕业生身份，参加狼牙<em>特种</em>部队新<em>兵</em>选拔，开启精彩的军旅生活。\n身负逆天系统，他在<em>特种兵</em>选拔当逼王，在演习场当战神！\n当所有人都以为他只是个“天才新<em>兵</em>”时，一纸调令，他空降火凤凰，成为雷战都看不透的魔鬼教官。\n安然：“我一直在找那个救我的英雄。” 赵峰：“我就是你说的那个……最讨厌的魔鬼教官。”\n看他如何一边隐藏身份，一边用实力征服火凤凰，打造最强女子<em>特</em>战队！",
+              "high_light_position": [
+                [
+                  7,
+                  3
+                ],
+                [
+                  67,
+                  2
+                ],
+                [
+                  96,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "特种兵：从孤狼B组到火凤凰大校",
+              "rich_text": "<em>特种兵</em>：从孤狼B组到火凤凰大校",
+              "high_light_position": [
+                [
+                  0,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【军旅＋系统＋特种兵＋轻松＋热血】穿越火凤凰世界，开局救下安然，顺手团灭匪帮，却深藏功与名。\n赵峰选择以军校生应届毕业生身份，参加狼牙特种部队新兵选拔，开启精彩的军旅生活。\n身负逆天系统，他在特种兵选拔当逼王，在演习场当战神！\n当所有人都以为他只是个“天才新兵”时，一纸调令，他空降火凤凰，成为雷战都看不透的魔鬼教官。\n安然：“我一直在找那个救我的英雄。” 赵峰：“我就是你说的那个……最讨厌的魔鬼教官。”\n看他如何一边隐藏身份，一边用实力征服火凤凰，打造最强女子特战队！",
+              "author": "琉炎宗",
+              "book_id": "7515851815657671705",
+              "book_name": "特种兵：从孤狼B组到火凤凰大校",
+              "category": "男频衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-06-15T01:03:35+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7515856228723982873",
+              "first_chapter_item_id": "7515856228723982873",
+              "first_chapter_title": "第1章 最后的24小时",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618117857276068377",
+              "last_chapter_item_id": "7618117857276068377",
+              "last_chapter_title": "第742章 行动受阻",
+              "last_chapter_update_time": "1773731309",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "20579",
+              "recommend_group_id": "7515851815657671705",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101346D06A0112206BD48C1274\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "742",
+              "source": "番茄小说",
+              "tags": "男频衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/faabe61a3c378c750916c5e57d27157d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=IVe9EwwEA3uVsBArSYZan2X2%2FBA%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1650182",
+              "score": "7.3",
+              "exclusive": "1",
+              "role": "赵峰",
+              "category_schema": "[{\"category_id\":1016,\"name\":\"男频衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1016&name=男频衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":375,\"name\":\"特种兵\",\"schema\":\"dragon1967://newCategoryDetail?id=375&name=特种兵&genre_type=0&gender=1&source=detail\"},{\"category_id\":453,\"name\":\"开局\",\"schema\":\"dragon1967://newCategoryDetail?id=453&name=开局&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7550222197726399550]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "2292",
+              "sub_info": "2.1万人在读",
+              "last_publish_time": "1773836800",
+              "authorize_type": "1",
+              "media_id": "1724385004746752",
+              "original_book_name": "火凤凰开局救下安然",
+              "length_type": "0",
+              "op_tag": "531,535,536",
+              "keep_publish_days": "17",
+              "thumb_uri": "novel-pic/faabe61a3c378c750916c5e57d27157d",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/48e78f801a7fff200d19623167a4e2c7",
+              "data_rate": "",
+              "all_bookshelf_count": "1725",
+              "pure_category_tags": "男频衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#303030",
+              "read_count_all": "458729",
+              "shelf_cnt_history": "54172",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8704\":1749953255,\"507386\":1749953306,\"13\":1749953255,\"507427\":1749953306,\"3040\":1750765927,\"6589\":1750765927,\"8703\":1749953255,\"510893\":1749953255,\"8662\":1749953255,\"1128\":1749953255,\"596084\":1750765927,\"2503\":1749953255,\"1967\":1749953255,\"35\":1749953255,\"2329\":1749953255,\"8661\":1750765927,\"638505\":1750765927}",
+              "category_v2_map": {
+                "453": true,
+                "1079": true,
+                "19": true,
+                "37": true,
+                "375": true,
+                "1016": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/faabe61a3c378c750916c5e57d27157d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=IVe9EwwEA3uVsBArSYZan2X2%2FBA%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7277618014114026814,
+                  "AuthorName": "琉炎宗"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/48e78f801a7fff200d19623167a4e2c7~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070427&x-signature=4xbRjvkjezurdAugHEAKxgAZgO8%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【军旅＋系统＋特种兵＋轻松＋热血】穿越火凤凰世界，开局救下安然，顺手团灭匪帮，却深藏功与名。\n赵峰选择以军校生应届毕业生身份，参加狼牙特种部队新兵选拔，开启精彩的军旅生活。\n身负逆天系统，他在特种兵选拔当逼王，在演习场当战神！\n当所有人都以为他只是个“天才新兵”时，一纸调令，他空降火凤凰，成为雷战都看不透的魔鬼教官。\n安然：“我一直在找那个救我的英雄。” 赵峰：“我就是你说的那个……最讨厌的魔鬼教官。”\n看他如何一边隐藏身份，一边用实力征服火凤凰，打造最强女子特战队！",
+              "read_page_progress": "0",
+              "read_cnt_text": "2.1万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/faabe61a3c378c750916c5e57d27157d~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=RVEVWYbGwwIvMkYHXXcjFf2%2BjQY%3D",
+              "raw_book_name": "特种兵：从孤狼B组到火凤凰大校",
+              "color_audio_dominate": "#473527",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "14455614938861001052:4:0:462707446:clks####3@202603191013383E529DD950BA583CCD4D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "165.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "男频衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：琉炎宗",
+                "rich_text": "作者：琉炎宗",
+                "high_light_position": []
+              },
+              {
+                "text": "【军旅＋系统＋特种兵＋轻松＋热血】穿越火凤凰世界，开局救下安然，顺手团灭匪帮，却深藏功与名。 赵峰选择以军校生应届毕业生身份，参加狼牙特种部队新兵选拔，开启精彩的军旅生活。 身负逆天系统，他在特种兵选拔当逼王，在演习场当战神！ 当所有人都以为他只是个“天才新兵”时，一纸调令，他空降火凤凰，成为雷战都看不透的魔鬼教官。 安然：“我一直在找那个救我的英雄。” 赵峰：“我就是你说的那个……最讨厌的魔鬼教官。” 看他如何一边隐藏身份，一边用实力征服火凤凰，打造最强女子特战队！",
+                "rich_text": "【军旅＋系统＋<em>特种兵</em>＋轻松＋热血】穿越火凤凰世界，开局救下安然，顺手团灭匪帮，却深藏功与名。\n赵峰选择以军校生应届毕业生身份，参加狼牙<em>特种</em>部队新<em>兵</em>选拔，开启精彩的军旅生活。\n身负逆天系统，他在<em>特种兵</em>选拔当逼王，在演习场当战神！\n当所有人都以为他只是个“天才新<em>兵</em>”时，一纸调令，他空降火凤凰，成为雷战都看不透的魔鬼教官。\n安然：“我一直在找那个救我的英雄。” 赵峰：“我就是你说的那个……最讨厌的魔鬼教官。”\n看他如何一边隐藏身份，一边用实力征服火凤凰，打造最强女子<em>特</em>战队！",
+                "high_light_position": [
+                  [
+                    7,
+                    3
+                  ],
+                  [
+                    67,
+                    2
+                  ],
+                  [
+                    96,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1005,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "6998372040163986432",
+          "search_result_id": "6998372040163986432",
+          "search_high_light": {
+            "title": {
+              "text": "特种兵：摊牌了，我代号幽灵！",
+              "rich_text": "<em>特种兵</em>：摊牌了，我代号幽灵！",
+              "high_light_position": [
+                [
+                  0,
+                  3
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【浴血奋战，大杀四方，强势崛起，最终成为一代军神】穿越特种兵世界，成为普通的的边防战士，向军旅巅峰迈进。 开局遭遇雇佣兵入境，孙南觉醒逆天抽奖系统。 获得鹰眼系统，无论敌人在哪里，都能百发百中。 获得基因强化，身体如铁似钢，超级英雄在他的眼中就是渣渣。 获得沟通万物，任何动物都能任由他来驱使。 ...... 干翻狼牙黑虎，创建秘密幽灵特种部队。 利刃出鞘，为民请命，为国而战！ 这是一个小兵浴血奋战，大杀四方，强势崛起，最终成为一代军神的故事",
+              "rich_text": "穿越<em>特种兵</em>世界，成为普通的的边防战士，向军旅巅峰迈进。\n开局遭遇雇佣<em>兵</em>入境，孙南觉醒逆天抽奖系统。\n获得鹰眼系统，无论敌人在哪里，都能百发百中。\n获得基因强化，身体如铁似钢，超级英雄在他的眼中就是渣渣。\n获得沟通万物，任何动物都能任由他来驱使。\n......\n干翻狼牙黑虎，创建秘密幽灵<em>特种</em>部队。\n利刃出鞘，为民请命，为国而战！\n这是一个小<em>兵</em>浴血奋战，大杀四方，强势崛起，最终成为一代军神的故事",
+              "high_light_position": [
+                [
+                  27,
+                  3
+                ],
+                [
+                  168,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "穿越特种兵世界，成为普通的的边防战士，向军旅巅峰迈进。\n开局遭遇雇佣兵入境，孙南觉醒逆天抽奖系统。\n获得鹰眼系统，无论敌人在哪里，都能百发百中。\n获得基因强化，身体如铁似钢，超级英雄在他的眼中就是渣渣。\n获得沟通万物，任何动物都能任由他来驱使。\n......\n干翻狼牙黑虎，创建秘密幽灵特种部队。\n利刃出鞘，为民请命，为国而战！\n这是一个小兵浴血奋战，大杀四方，强势崛起，最终成为一代军神的故事",
+              "author": "我是小熊猫",
+              "book_id": "6998372040163986432",
+              "book_name": "特种兵：摊牌了，我代号幽灵！",
+              "category": "战神赘婿",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2021-08-20T12:57:47+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "6998805033244426752",
+              "first_chapter_item_id": "6998805033244426752",
+              "first_chapter_title": "第1章 我只想躺着，非要我成巅峰？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7578115915246486078",
+              "last_chapter_item_id": "7578115915246486078",
+              "last_chapter_title": "番外10 他就是个疯子！",
+              "last_chapter_update_time": "1764417685",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "33001",
+              "recommend_group_id": "6998372040163986432",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101346D06A0112206BD48C1274\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "1457",
+              "source": "番茄小说",
+              "tags": "战神赘婿,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/011e715135859eaa884d4fb38102e510~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=btZjkWlM0pWSF4DUO1tb%2BtU2DyY%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "3508917",
+              "score": "8.8",
+              "exclusive": "1",
+              "role": "孙南",
+              "category_schema": "[{\"category_id\":27,\"name\":\"战神赘婿\",\"schema\":\"dragon1967://newCategoryDetail?id=27&name=战神赘婿&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":375,\"name\":\"特种兵\",\"schema\":\"dragon1967://newCategoryDetail?id=375&name=特种兵&genre_type=0&gender=1&source=detail\"},{\"category_id\":852,\"name\":\"魂穿\",\"schema\":\"dragon1967://newCategoryDetail?id=852&name=魂穿&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7137139788066606088]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "7069",
+              "sub_info": "3.3万人在读",
+              "last_publish_time": "1764417842",
+              "authorize_type": "1",
+              "media_id": "1708316561699844",
+              "original_book_name": "特种兵：我创造了恐怖幽灵",
+              "length_type": "0",
+              "op_tag": "855,233,1030,1094,164,966,984,215,865,501,535,536,342,1034,1097,900,873,245",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/011e715135859eaa884d4fb38102e510",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-images/2e70e787f280dd8cc94b3ca18c185a9b",
+              "data_rate": "",
+              "all_bookshelf_count": "2748",
+              "pure_category_tags": "战神赘婿,魂穿",
+              "related_comic_bookids": "",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#281010",
+              "read_count_all": "7192390",
+              "shelf_cnt_history": "1136062",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507386\":1742035288,\"426946\":1736165624,\"510893\":1689676349,\"596084\":1714028662,\"6589\":1665988259,\"1112\":1693466980,\"183213\":1691648657,\"3040\":1630403209,\"8703\":1744967008,\"507427\":1742035288,\"8704\":1747217013,\"1967\":1629536060,\"8661\":1681451167,\"638505\":1724800208}",
+              "category_v2_map": {
+                "852": true,
+                "27": true,
+                "37": true,
+                "375": true,
+                "19": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/011e715135859eaa884d4fb38102e510~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=btZjkWlM0pWSF4DUO1tb%2BtU2DyY%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6997268622678693157,
+                  "AuthorName": "我是小熊猫"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-images/2e70e787f280dd8cc94b3ca18c185a9b~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070427&x-signature=VUwkJ%2BU8V6gQs2oULs6AOB%2B7aW0%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "穿越特种兵世界，成为普通的的边防战士，向军旅巅峰迈进。\n开局遭遇雇佣兵入境，孙南觉醒逆天抽奖系统。\n获得鹰眼系统，无论敌人在哪里，都能百发百中。\n获得基因强化，身体如铁似钢，超级英雄在他的眼中就是渣渣。\n获得沟通万物，任何动物都能任由他来驱使。\n......\n干翻狼牙黑虎，创建秘密幽灵特种部队。\n利刃出鞘，为民请命，为国而战！\n这是一个小兵浴血奋战，大杀四方，强势崛起，最终成为一代军神的故事",
+              "read_page_progress": "0",
+              "read_cnt_text": "3.3万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/011e715135859eaa884d4fb38102e510~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=BJHa11szE%2FL5KinUbbCcb0FFexI%3D",
+              "raw_book_name": "特种兵：摊牌了，我代号幽灵！",
+              "related_bookids": "{\"1967\":{\"205\":[7513876277678328894]},\"507386\":{\"205\":[7513876277678328894]},\"507427\":{\"205\":[7513876277678328894]},\"8662\":{\"205\":[7513876277678328894]},\"3040\":{\"205\":[7513876277678328894]}}",
+              "color_audio_dominate": "#142321"
+            }
+          ],
+          "search_attached_info": "14455614938861001052:5:0:471237590:clks####3@202603191013383E529DD950BA583CCD4D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短剧原著",
+              "Priority": 15,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "350.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "战神赘婿",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：我是小熊猫",
+                "rich_text": "作者：我是小熊猫",
+                "high_light_position": []
+              },
+              {
+                "text": "【浴血奋战，大杀四方，强势崛起，最终成为一代军神】穿越特种兵世界，成为普通的的边防战士，向军旅巅峰迈进。 开局遭遇雇佣兵入境，孙南觉醒逆天抽奖系统。 获得鹰眼系统，无论敌人在哪里，都能百发百中。 获得基因强化，身体如铁似钢，超级英雄在他的眼中就是渣渣。 获得沟通万物，任何动物都能任由他来驱使。 ...... 干翻狼牙黑虎，创建秘密幽灵特种部队。 利刃出鞘，为民请命，为国而战！ 这是一个小兵浴血奋战，大杀四方，强势崛起，最终成为一代军神的故事",
+                "rich_text": "穿越<em>特种兵</em>世界，成为普通的的边防战士，向军旅巅峰迈进。\n开局遭遇雇佣<em>兵</em>入境，孙南觉醒逆天抽奖系统。\n获得鹰眼系统，无论敌人在哪里，都能百发百中。\n获得基因强化，身体如铁似钢，超级英雄在他的眼中就是渣渣。\n获得沟通万物，任何动物都能任由他来驱使。\n......\n干翻狼牙黑虎，创建秘密幽灵<em>特种</em>部队。\n利刃出鞘，为民请命，为国而战！\n这是一个小<em>兵</em>浴血奋战，大杀四方，强势崛起，最终成为一代军神的故事",
+                "high_light_position": [
+                  [
+                    27,
+                    3
+                  ],
+                  [
+                    168,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1006,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "6551319103443831811",
+          "search_result_id": "6551319103443831811",
+          "search_high_light": {
+            "abstract": {
+              "text": "【热血的故事，狼一样的兵王传奇】狼：对待猎物凶残，无所畏惧。群居，配合默契。 狼：耐力坚韧，专一目标锲而不舍，冷静，观察敏锐。 这是一个热血的故事。这是一个狼一样的兵王的传奇。",
+              "rich_text": "狼：对待猎物凶残，无所畏惧。群居，配合默契。 狼：耐力坚韧，专一目标锲而不舍，冷静，观察敏锐。 这是一个热血的故事。这是一个狼一样的<em>兵</em>王的传奇。",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "雪域兵王",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "狼：对待猎物凶残，无所畏惧。群居，配合默契。 狼：耐力坚韧，专一目标锲而不舍，冷静，观察敏锐。 这是一个热血的故事。这是一个狼一样的兵王的传奇。",
+              "author": "寒冬三月",
+              "book_id": "6551319103443831811",
+              "book_name": "雪域兵王",
+              "category": "战神赘婿",
+              "complete_category": "男生/都市/都市生活",
+              "copyright_info": "版权信息：本书的数字版权由 火星小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2018-05-14T18:42:05+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "6551347823168717315",
+              "first_chapter_item_id": "6551347823168717315",
+              "first_chapter_title": "第1章 偷猎者",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "6553617489429791236",
+              "last_chapter_item_id": "6553617489429791236",
+              "last_chapter_title": "第944章 （大结局）",
+              "last_chapter_update_time": "1526294642",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "25299",
+              "recommend_group_id": "6551319103443831811",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101346D06A0112206BD48C1274\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "944",
+              "source": "火星小说",
+              "tags": "战神赘婿,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/f315190fff5dd111ab13d9571f534de6~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=4ItW8i%2Bw%2Fc96cwTzkGcI%2FowirRQ%3D",
+              "total_price": "13849",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "2965712",
+              "score": "9.3",
+              "exclusive": "1",
+              "role": "封朗,董金武",
+              "category_schema": "[{\"category_id\":27,\"name\":\"战神赘婿\",\"schema\":\"dragon1967://newCategoryDetail?id=27&name=战神赘婿&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":375,\"name\":\"特种兵\",\"schema\":\"dragon1967://newCategoryDetail?id=375&name=特种兵&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "12485",
+              "sub_info": "2.6万人在读",
+              "chapter_number": "944",
+              "last_publish_time": "1526294642",
+              "authorize_type": "0",
+              "media_id": "50028256934",
+              "original_book_name": "雪域兵王",
+              "length_type": "0",
+              "op_tag": "870,479,535,164,356,537,865,245,984,1040,1097,1095",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-images/f315190fff5dd111ab13d9571f534de6",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-images/c3b53408b9d9a9749d4d4670c24d4ee7",
+              "data_rate": "Z",
+              "all_bookshelf_count": "4717",
+              "pure_category_tags": "战神赘婿,特种兵",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "0",
+              "show_vip_tag": null,
+              "color_dominate": "#201010",
+              "read_count_all": "3934592",
+              "shelf_cnt_history": "2780042",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507386\":1744890941,\"8661\":1666334287,\"638505\":1724935695,\"2503\":1680258746,\"388818\":1660885053,\"1112\":1693467124,\"1967\":1618381385,\"510893\":1689597597,\"8703\":1745910472,\"507427\":1744890941,\"596084\":1723463326,\"3040\":1618381385}",
+              "category_v2_map": {
+                "27": true,
+                "375": true,
+                "1": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/f315190fff5dd111ab13d9571f534de6~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=4ItW8i%2Bw%2Fc96cwTzkGcI%2FowirRQ%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6903803070958802189,
+                  "AuthorName": "寒冬三月"
+                }
+              ],
+              "platform_book_id": "1001006",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-images/c3b53408b9d9a9749d4d4670c24d4ee7~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070427&x-signature=G72rKLeC35EHBoEOuDVXBa%2BNtWw%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "tts_type": "",
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "狼：对待猎物凶残，无所畏惧。群居，配合默契。 狼：耐力坚韧，专一目标锲而不舍，冷静，观察敏锐。 这是一个热血的故事。这是一个狼一样的兵王的传奇。",
+              "read_page_progress": "0",
+              "read_cnt_text": "2.6万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/f315190fff5dd111ab13d9571f534de6~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=OzKCYAwHJY4y8U4AVYed%2FY9eFRw%3D",
+              "raw_book_name": "雪域兵王",
+              "color_audio_dominate": "#261C15"
+            }
+          ],
+          "search_attached_info": "14455614938861001052:6:0:2959270482:clks####3@202603191013383E529DD950BA583CCD4D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "296.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "战神赘婿",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：寒冬三月",
+                "rich_text": "作者：寒冬三月",
+                "high_light_position": []
+              },
+              {
+                "text": "【热血的故事，狼一样的兵王传奇】狼：对待猎物凶残，无所畏惧。群居，配合默契。 狼：耐力坚韧，专一目标锲而不舍，冷静，观察敏锐。 这是一个热血的故事。这是一个狼一样的兵王的传奇。",
+                "rich_text": "狼：对待猎物凶残，无所畏惧。群居，配合默契。 狼：耐力坚韧，专一目标锲而不舍，冷静，观察敏锐。 这是一个热血的故事。这是一个狼一样的<em>兵</em>王的传奇。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1007,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7189201032553958440",
+          "search_result_id": "7189201032553958440",
+          "search_high_light": {
+            "abstract": {
+              "text": "【我儿子明明是纨绔，怎么还越变越强了】【军旅+特种兵+轻松+热血+搞笑】 林辉意外重生，成了一名超级纨绔。 父亲和哥哥是部队大佬，母亲是集团董事长。 家里条件这么好，林辉想摆烂当条咸鱼，应该没问题吧？ 就在他期待过上摆烂生活的时候，却被父亲送去入伍，必须满两年才行。 两年后退伍出来，随便他干什么。 林辉铁了心想当个纨绔：“不就两年吗，忍忍就过去了！” 出来以后，他要当最潇洒的男人！ 可进了连队，林辉竟然所有成绩全部拔尖。 射击第一，跑步第一，战术同样第一。 没多久就拿了比武总冠军。 直到那一天，林辉戴着闪闪将星，出现在电视画面里，老爹彻底被震惊了。 “这不是我儿子吗？他明明是个纨绔，怎么还超越我了！” 林辉表示很无奈：“我明明只想当条咸鱼，怎么越变越强了……”",
+              "rich_text": "【军旅+<em>特种兵</em>+轻松+热血+搞笑】\n林辉意外重生，成了一名超级纨绔。\n父亲和哥哥是部队大佬，母亲是集团董事长。\n家里条件这么好，林辉想摆烂当条咸鱼，应该没问题吧？\n就在他期待过上摆烂生活的时候，却被父亲送去入伍，必须满两年才行。\n两年后退伍出来，随便他干什么。\n林辉铁了心想当个纨绔：“不就两年吗，忍忍就过去了！”\n出来以后，他要当最潇洒的男人！\n可进了连队，林辉竟然所有成绩全部拔尖。\n射击第一，跑步第一，战术同样第一。\n没多久就拿了比武总冠军。\n直到那一天，林辉戴着闪闪将星，出现在电视画面里，老爹彻底被震惊了。\n“这不是我儿子吗？他明明是个纨绔，怎么还超越我了！”\n林辉表示很无奈：“我明明只想当条咸鱼，怎么越变越强了……”",
+              "high_light_position": [
+                [
+                  23,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "虎子犬父？可我爸是军区大佬啊",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【军旅+特种兵+轻松+热血+搞笑】\n林辉意外重生，成了一名超级纨绔。\n父亲和哥哥是部队大佬，母亲是集团董事长。\n家里条件这么好，林辉想摆烂当条咸鱼，应该没问题吧？\n就在他期待过上摆烂生活的时候，却被父亲送去入伍，必须满两年才行。\n两年后退伍出来，随便他干什么。\n林辉铁了心想当个纨绔：“不就两年吗，忍忍就过去了！”\n出来以后，他要当最潇洒的男人！\n可进了连队，林辉竟然所有成绩全部拔尖。\n射击第一，跑步第一，战术同样第一。\n没多久就拿了比武总冠军。\n直到那一天，林辉戴着闪闪将星，出现在电视画面里，老爹彻底被震惊了。\n“这不是我儿子吗？他明明是个纨绔，怎么还超越我了！”\n林辉表示很无奈：“我明明只想当条咸鱼，怎么越变越强了……”",
+              "author": "树下揍猫",
+              "book_id": "7189201032553958440",
+              "book_name": "虎子犬父？可我爸是军区大佬啊",
+              "category": "战神赘婿",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-01-16T18:51:43+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7189465267225920003",
+              "first_chapter_item_id": "7189465267225920003",
+              "first_chapter_title": "第1章 全家都这么牛，我摆烂很正常吧",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7606295733683094040",
+              "last_chapter_item_id": "7606295733683094040",
+              "last_chapter_title": "王勇篇 番外2",
+              "last_chapter_update_time": "1770978764",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "173312",
+              "recommend_group_id": "7189201032553958440",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101346D06A0112206BD48C1274\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "3102",
+              "source": "番茄小说",
+              "tags": "战神赘婿,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/38bb8d6c98613438272146efe27c5f7d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=ezLXy1a1yYdy%2FKTd0An22SYJSNo%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "7627631",
+              "score": "9.2",
+              "exclusive": "1",
+              "role": "林辉",
+              "category_schema": "[{\"category_id\":27,\"name\":\"战神赘婿\",\"schema\":\"dragon1967://newCategoryDetail?id=27&name=战神赘婿&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=1&source=detail\"},{\"category_id\":375,\"name\":\"特种兵\",\"schema\":\"dragon1967://newCategoryDetail?id=375&name=特种兵&genre_type=0&gender=1&source=detail\"},{\"category_id\":778,\"name\":\"搞笑轻松\",\"schema\":\"dragon1967://newCategoryDetail?id=778&name=搞笑轻松&genre_type=0&gender=1&source=detail\"},{\"category_id\":850,\"name\":\"无脑爽\",\"schema\":\"dragon1967://newCategoryDetail?id=850&name=无脑爽&genre_type=0&gender=1&source=detail\"},{\"category_id\":852,\"name\":\"魂穿\",\"schema\":\"dragon1967://newCategoryDetail?id=852&name=魂穿&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7239243941252631613,7543917498215697470]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "47999",
+              "sub_info": "17.4万人在读",
+              "last_publish_time": "1771031889",
+              "authorize_type": "1",
+              "media_id": "1733146401763331",
+              "original_book_name": "我儿明明是纨绔，咋成帝国之虎了",
+              "length_type": "0",
+              "op_tag": "1094,345,984,861,865,235,900,1410,1097,873,535,536,1403,245,180,233,1038,418",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/38bb8d6c98613438272146efe27c5f7d",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/41a26707bf67a4455daffd7f42a0436f",
+              "data_rate": "",
+              "all_bookshelf_count": "26318",
+              "pure_category_tags": "战神赘婿,魂穿",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "",
+              "read_count_all": "15186097",
+              "shelf_cnt_history": "3415458",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1128\":1673921193,\"35\":1673921193,\"2503\":1673921193,\"3040\":1681192429,\"1967\":1673921193,\"8661\":1681192429,\"507427\":1741772146,\"13\":1673921193,\"1112\":1693476960,\"8703\":1744959448,\"638505\":1724761992,\"596084\":1714097943,\"510893\":1689654221,\"2329\":1673921193,\"8662\":1673921193,\"6589\":1677063490,\"507386\":1741772146,\"8704\":1747105696}",
+              "category_v2_map": {
+                "778": true,
+                "850": true,
+                "852": true,
+                "27": true,
+                "1": true,
+                "36": true,
+                "375": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/38bb8d6c98613438272146efe27c5f7d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=ezLXy1a1yYdy%2FKTd0An22SYJSNo%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7099013382207968550,
+                  "AuthorName": "树下揍猫"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/41a26707bf67a4455daffd7f42a0436f~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070427&x-signature=CfbX3CYu27Ek89TQXlVTqakBQTY%3D",
+              "reputation_thumb_uri": "novel-pic/p2o85a2904dd29440c3f766d8cb11772382",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【军旅+特种兵+轻松+热血+搞笑】\n林辉意外重生，成了一名超级纨绔。\n父亲和哥哥是部队大佬，母亲是集团董事长。\n家里条件这么好，林辉想摆烂当条咸鱼，应该没问题吧？\n就在他期待过上摆烂生活的时候，却被父亲送去入伍，必须满两年才行。\n两年后退伍出来，随便他干什么。\n林辉铁了心想当个纨绔：“不就两年吗，忍忍就过去了！”\n出来以后，他要当最潇洒的男人！\n可进了连队，林辉竟然所有成绩全部拔尖。\n射击第一，跑步第一，战术同样第一。\n没多久就拿了比武总冠军。\n直到那一天，林辉戴着闪闪将星，出现在电视画面里，老爹彻底被震惊了。\n“这不是我儿子吗？他明明是个纨绔，怎么还超越我了！”\n林辉表示很无奈：“我明明只想当条咸鱼，怎么越变越强了……”",
+              "read_page_progress": "0",
+              "read_cnt_text": "17.4万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/38bb8d6c98613438272146efe27c5f7d~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=P8ksSMnRef6NO6V1coR%2FJZTJ%2FRE%3D",
+              "raw_book_name": "虎子犬父？可我爸是军区大佬啊",
+              "related_bookids": "{\"507427\":{\"205\":[7586371609938644030,7602932092724317208]},\"8662\":{\"205\":[7586371609938644030,7602932092724317208]},\"3040\":{\"205\":[7586371609938644030,7602932092724317208]},\"1967\":{\"205\":[7592496831603428376,7602932092724317208]},\"507386\":{\"205\":[7586371609938644030,7602932092724317208]}}",
+              "color_audio_dominate": "#1A2023"
+            }
+          ],
+          "search_attached_info": "14455614938861001052:7:0:3589401455:clks####3@202603191013383E529DD950BA583CCD4D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "番茄爆书",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "762.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "17万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "战神赘婿",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：树下揍猫",
+                "rich_text": "作者：树下揍猫",
+                "high_light_position": []
+              },
+              {
+                "text": "【我儿子明明是纨绔，怎么还越变越强了】【军旅+特种兵+轻松+热血+搞笑】 林辉意外重生，成了一名超级纨绔。 父亲和哥哥是部队大佬，母亲是集团董事长。 家里条件这么好，林辉想摆烂当条咸鱼，应该没问题吧？ 就在他期待过上摆烂生活的时候，却被父亲送去入伍，必须满两年才行。 两年后退伍出来，随便他干什么。 林辉铁了心想当个纨绔：“不就两年吗，忍忍就过去了！” 出来以后，他要当最潇洒的男人！ 可进了连队，林辉竟然所有成绩全部拔尖。 射击第一，跑步第一，战术同样第一。 没多久就拿了比武总冠军。 直到那一天，林辉戴着闪闪将星，出现在电视画面里，老爹彻底被震惊了。 “这不是我儿子吗？他明明是个纨绔，怎么还超越我了！” 林辉表示很无奈：“我明明只想当条咸鱼，怎么越变越强了……”",
+                "rich_text": "【军旅+<em>特种兵</em>+轻松+热血+搞笑】\n林辉意外重生，成了一名超级纨绔。\n父亲和哥哥是部队大佬，母亲是集团董事长。\n家里条件这么好，林辉想摆烂当条咸鱼，应该没问题吧？\n就在他期待过上摆烂生活的时候，却被父亲送去入伍，必须满两年才行。\n两年后退伍出来，随便他干什么。\n林辉铁了心想当个纨绔：“不就两年吗，忍忍就过去了！”\n出来以后，他要当最潇洒的男人！\n可进了连队，林辉竟然所有成绩全部拔尖。\n射击第一，跑步第一，战术同样第一。\n没多久就拿了比武总冠军。\n直到那一天，林辉戴着闪闪将星，出现在电视画面里，老爹彻底被震惊了。\n“这不是我儿子吗？他明明是个纨绔，怎么还超越我了！”\n林辉表示很无奈：“我明明只想当条咸鱼，怎么越变越强了……”",
+                "high_light_position": [
+                  [
+                    23,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1008,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7544377923428437054",
+          "search_result_id": "7544377923428437054",
+          "search_high_light": {
+            "title": {
+              "text": "特种兵：火凤凰集训队女教官？",
+              "rich_text": "<em>特种兵</em>：火凤凰集训队女教官？",
+              "high_light_position": [
+                [
+                  0,
+                  3
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "叶苏然穿越到特种兵世界，被任命为火凤凰集训队总教官，觉醒全能教官系统。 让叶苏然没想到的是，这一世的他，竟然是张海燕的亲生女儿，叶寸心的姐姐..... 老狐狸郭德远：“雷神，你说一个女军官过来，担任总教官？这个女军官是什么来头？” 雷战：“具体是什么情况，我也不是很清楚。” ... 叶寸心：“姐姐，你怎么会在这里？” ... 田果：“啊？总教官是叶寸心的姐姐？” 何璐：“没想到我们的总教官，竟然是叶寸心的姐姐！！！” 沈兰妮：“我去~，难怪我取个代号，叶寸心这么激动。” 曲比阿卓：“叶寸心的亲姐姐？难怪之前就感觉她们两个有点像。” ....",
+              "rich_text": "叶苏然穿越到<em>特种兵</em>世界，被任命为火凤凰集训队总教官，觉醒全能教官系统。\n让叶苏然没想到的是，这一世的他，竟然是张海燕的亲生女儿，叶寸心的姐姐.....\n老狐狸郭德远：“雷神，你说一个女军官过来，担任总教官？这个女军官是什么来头？”\n雷战：“具体是什么情况，我也不是很清楚。”\n...\n叶寸心：“姐姐，你怎么会在这里？”\n...\n田果：“啊？总教官是叶寸心的姐姐？”\n何璐：“没想到我们的总教官，竟然是叶寸心的姐姐！！！”\n沈兰妮：“我去~，难怪我取个代号，叶寸心这么激动。”\n曲比阿卓：“叶寸心的亲姐姐？难怪之前就感觉她们两个有点像。”\n....",
+              "high_light_position": [
+                [
+                  6,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "叶苏然穿越到特种兵世界，被任命为火凤凰集训队总教官，觉醒全能教官系统。\n让叶苏然没想到的是，这一世的他，竟然是张海燕的亲生女儿，叶寸心的姐姐.....\n老狐狸郭德远：“雷神，你说一个女军官过来，担任总教官？这个女军官是什么来头？”\n雷战：“具体是什么情况，我也不是很清楚。”\n...\n叶寸心：“姐姐，你怎么会在这里？”\n...\n田果：“啊？总教官是叶寸心的姐姐？”\n何璐：“没想到我们的总教官，竟然是叶寸心的姐姐！！！”\n沈兰妮：“我去~，难怪我取个代号，叶寸心这么激动。”\n曲比阿卓：“叶寸心的亲姐姐？难怪之前就感觉她们两个有点像。”\n....",
+              "author": "星空下的世界",
+              "book_id": "7544377923428437054",
+              "book_name": "特种兵：火凤凰集训队女教官？",
+              "category": "男频衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-08-30T21:59:28+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7544377958941606462",
+              "first_chapter_item_id": "7544377958941606462",
+              "first_chapter_title": "第1章 女子特战队？系统激活！？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7613239900652978712",
+              "last_chapter_item_id": "7613239900652978712",
+              "last_chapter_title": "第466章 迎接她们“回家”",
+              "last_chapter_update_time": "1772639358",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "20647",
+              "recommend_group_id": "7544377923428437054",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101346D06A0112206BD48C1274\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "466",
+              "source": "番茄小说",
+              "tags": "男频衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/db86612cccd0ca430c4093203f5fae9d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=%2F%2Fod8F2%2F9A9CyYXFCtwfkL2B8Z0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "949076",
+              "score": "7.9",
+              "exclusive": "1",
+              "role": "叶苏然",
+              "category_schema": "[{\"category_id\":1016,\"name\":\"男频衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1016&name=男频衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":375,\"name\":\"特种兵\",\"schema\":\"dragon1967://newCategoryDetail?id=375&name=特种兵&genre_type=0&gender=1&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "2906",
+              "sub_info": "2.1万人在读",
+              "last_publish_time": "1773842422",
+              "authorize_type": "1",
+              "media_id": "1619186073658382",
+              "original_book_name": "特种兵：我是叶寸心的姐姐？",
+              "length_type": "0",
+              "op_tag": "531,535,536,529",
+              "keep_publish_days": "44",
+              "thumb_uri": "novel-pic/ai/db86612cccd0ca430c4093203f5fae9d",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/43072bbccbf87ddd5ad139eab05cfbd6",
+              "data_rate": "",
+              "all_bookshelf_count": "1793",
+              "pure_category_tags": "男频衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#303028",
+              "read_count_all": "570870",
+              "shelf_cnt_history": "82252",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8661\":1760280101,\"507386\":1760105940,\"2503\":1760105878,\"1967\":1760105878,\"638505\":1760280101,\"510893\":1760105878,\"8703\":1760105878,\"6589\":1760280101,\"3040\":1760280101,\"507427\":1760105940,\"8662\":1760105878,\"35\":1760105878,\"8704\":1760105878,\"13\":1760105878,\"596084\":1760280101,\"2329\":1760105878,\"1128\":1760105878}",
+              "category_v2_map": {
+                "375": true,
+                "538": true,
+                "1079": true,
+                "1016": true,
+                "19": true,
+                "37": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/db86612cccd0ca430c4093203f5fae9d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=%2F%2Fod8F2%2F9A9CyYXFCtwfkL2B8Z0%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7299373395286693171,
+                  "AuthorName": "星空下的世界"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/43072bbccbf87ddd5ad139eab05cfbd6~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070427&x-signature=gIPe%2FajFNt3MYEj4dbUyWB1aXHo%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "叶苏然穿越到特种兵世界，被任命为火凤凰集训队总教官，觉醒全能教官系统。\n让叶苏然没想到的是，这一世的他，竟然是张海燕的亲生女儿，叶寸心的姐姐.....\n老狐狸郭德远：“雷神，你说一个女军官过来，担任总教官？这个女军官是什么来头？”\n雷战：“具体是什么情况，我也不是很清楚。”\n...\n叶寸心：“姐姐，你怎么会在这里？”\n...\n田果：“啊？总教官是叶寸心的姐姐？”\n何璐：“没想到我们的总教官，竟然是叶寸心的姐姐！！！”\n沈兰妮：“我去~，难怪我取个代号，叶寸心这么激动。”\n曲比阿卓：“叶寸心的亲姐姐？难怪之前就感觉她们两个有点像。”\n....",
+              "read_page_progress": "0",
+              "read_cnt_text": "2.1万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/db86612cccd0ca430c4093203f5fae9d~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=oqdEFNr4MXBJdiNEoH%2B5K%2FDqTY0%3D",
+              "raw_book_name": "特种兵：火凤凰集训队女教官？",
+              "color_audio_dominate": "#2A2C1A",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "14455614938861001052:8:0:3495737338:clks####3@202603191013383E529DD950BA583CCD4D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "94.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "男频衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：星空下的世界",
+                "rich_text": "作者：星空下的世界",
+                "high_light_position": []
+              },
+              {
+                "text": "叶苏然穿越到特种兵世界，被任命为火凤凰集训队总教官，觉醒全能教官系统。 让叶苏然没想到的是，这一世的他，竟然是张海燕的亲生女儿，叶寸心的姐姐..... 老狐狸郭德远：“雷神，你说一个女军官过来，担任总教官？这个女军官是什么来头？” 雷战：“具体是什么情况，我也不是很清楚。” ... 叶寸心：“姐姐，你怎么会在这里？” ... 田果：“啊？总教官是叶寸心的姐姐？” 何璐：“没想到我们的总教官，竟然是叶寸心的姐姐！！！” 沈兰妮：“我去~，难怪我取个代号，叶寸心这么激动。” 曲比阿卓：“叶寸心的亲姐姐？难怪之前就感觉她们两个有点像。” ....",
+                "rich_text": "叶苏然穿越到<em>特种兵</em>世界，被任命为火凤凰集训队总教官，觉醒全能教官系统。\n让叶苏然没想到的是，这一世的他，竟然是张海燕的亲生女儿，叶寸心的姐姐.....\n老狐狸郭德远：“雷神，你说一个女军官过来，担任总教官？这个女军官是什么来头？”\n雷战：“具体是什么情况，我也不是很清楚。”\n...\n叶寸心：“姐姐，你怎么会在这里？”\n...\n田果：“啊？总教官是叶寸心的姐姐？”\n何璐：“没想到我们的总教官，竟然是叶寸心的姐姐！！！”\n沈兰妮：“我去~，难怪我取个代号，叶寸心这么激动。”\n曲比阿卓：“叶寸心的亲姐姐？难怪之前就感觉她们两个有点像。”\n....",
+                "high_light_position": [
+                  [
+                    6,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1009,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "6569997535832706061",
+          "search_result_id": "6569997535832706061",
+          "search_high_light": {
+            "abstract": {
+              "text": "【混的风生水起，携风云之势，一路高歌猛进】他是雇佣兵世界的王者，他是令各国元首头疼的兵王！为朋友，他甘愿两肋插刀；为亲人，不惜血溅五步！是龙，终要翱翔于九天之上，携风云之势，一路高歌猛进，混的风生水起。",
+              "rich_text": "他是雇佣<em>兵</em>世界的王者，他是令各国元首头疼的<em>兵</em>王！为朋友，他甘愿两肋插刀；为亲人，不惜血溅五步！是龙，终要翱翔于九天之上，携风云之势，一路高歌猛进，混的风生水起。",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "超级兵王",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "他是雇佣兵世界的王者，他是令各国元首头疼的兵王！为朋友，他甘愿两肋插刀；为亲人，不惜血溅五步！是龙，终要翱翔于九天之上，携风云之势，一路高歌猛进，混的风生水起。",
+              "author": "步千帆",
+              "book_id": "6569997535832706061",
+              "book_name": "超级兵王",
+              "category": "都市日常",
+              "complete_category": "男生/都市/都市生活",
+              "copyright_info": "版权信息：本书的数字版权由 17k小说网 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2018-06-24T14:47:18+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "6584534483473531396",
+              "first_chapter_item_id": "6584534483473531396",
+              "first_chapter_title": "第001章 劫机（上）",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7326530943353621566",
+              "last_chapter_item_id": "7326530943353621566",
+              "last_chapter_title": "第8282章 大结局",
+              "last_chapter_update_time": "1705841486",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "33173",
+              "recommend_group_id": "6569997535832706061",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101346D06A0112206BD48C1274\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "8284",
+              "source": "17k小说网",
+              "tags": "都市日常,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/b9d8786f5ffba05bb0b566e1dc5d4470~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=5fwapGTnKMM02aIHC62WCVHYe4Y%3D",
+              "total_price": "116494",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "24681442",
+              "score": "8.8",
+              "exclusive": "0",
+              "role": "叶谦,韩雪",
+              "category_schema": "[{\"category_id\":261,\"name\":\"都市日常\",\"schema\":\"dragon1967://newCategoryDetail?id=261&name=都市日常&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":518,\"name\":\"特工\",\"schema\":\"dragon1967://newCategoryDetail?id=518&name=特工&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"},{\"category_id\":375,\"name\":\"特种兵\",\"schema\":\"dragon1967://newCategoryDetail?id=375&name=特种兵&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7393261799631506456,6932476363412605965]",
+              "related_novel_bookid": "",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "9333",
+              "sub_info": "3.4万人在读",
+              "chapter_number": "7873",
+              "last_publish_time": "1739095576",
+              "authorize_type": "0",
+              "media_id": "6648434071",
+              "original_book_name": "超级兵王",
+              "length_type": "0",
+              "op_tag": "340,535,301,966,164,299,245,464,869,855,537,873,865,984,1022,1092,1097",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-images/b9d8786f5ffba05bb0b566e1dc5d4470",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-images/e49aeaa33dee4406c627a2df9ea95a81",
+              "data_rate": "Z",
+              "all_bookshelf_count": "4192",
+              "pure_category_tags": "都市日常,特种兵",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#403820",
+              "read_count_all": "3723914",
+              "shelf_cnt_history": "2305387",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1918\":1673695436,\"507427\":1692791668,\"1112\":1693461800,\"6589\":1673695436,\"3040\":1623404756,\"507386\":1692791668,\"510893\":1692091568,\"2503\":1680353016,\"8704\":1773318760,\"638505\":1724936813,\"1967\":1618387293,\"596084\":1723463602,\"8703\":1773318760,\"8662\":1659526271,\"8661\":1680594648}",
+              "category_v2_map": {
+                "375": true,
+                "261": true,
+                "1": true,
+                "518": true,
+                "522": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/b9d8786f5ffba05bb0b566e1dc5d4470~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=5fwapGTnKMM02aIHC62WCVHYe4Y%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6903312620292412680,
+                  "AuthorName": "步千帆"
+                }
+              ],
+              "platform_book_id": "329366",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-images/e49aeaa33dee4406c627a2df9ea95a81~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070427&x-signature=pjkgMUauRWfdUqrNhzjLG4%2Bitys%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "tts_type": "",
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "他是雇佣兵世界的王者，他是令各国元首头疼的兵王！为朋友，他甘愿两肋插刀；为亲人，不惜血溅五步！是龙，终要翱翔于九天之上，携风云之势，一路高歌猛进，混的风生水起。",
+              "read_page_progress": "0",
+              "read_cnt_text": "3.4万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/b9d8786f5ffba05bb0b566e1dc5d4470~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070427&x-signature=%2Fz58S4PlSZ11q3NM5z0%2Bwnvi%2BWw%3D",
+              "raw_book_name": "超级兵王",
+              "color_audio_dominate": "#CACBC3"
+            }
+          ],
+          "search_attached_info": "14455614938861001052:9:0:4089336832:clks####3@202603191013383E529DD950BA583CCD4D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "2468.1万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市日常",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：步千帆",
+                "rich_text": "作者：步千帆",
+                "high_light_position": []
+              },
+              {
+                "text": "【混的风生水起，携风云之势，一路高歌猛进】他是雇佣兵世界的王者，他是令各国元首头疼的兵王！为朋友，他甘愿两肋插刀；为亲人，不惜血溅五步！是龙，终要翱翔于九天之上，携风云之势，一路高歌猛进，混的风生水起。",
+                "rich_text": "他是雇佣<em>兵</em>世界的王者，他是令各国元首头疼的<em>兵</em>王！为朋友，他甘愿两肋插刀；为亲人，不惜血溅五步！是龙，终要翱翔于九天之上，携风云之势，一路高歌猛进，混的风生水起。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "10",
+      "search_id": "clks####3@202603191013383E529DD950BA583CCD4D",
+      "query": "特种兵",
+      "next_offset": 10,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@202603191013383E529DD950BA583CCD4D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"20260319101346D06A0112206BD48C1274\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@202603191013383E529DD950BA583CCD4D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@202603191013383E529DD950BA583CCD4D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "20260319101346D06A0112206BD48C1274"
+}

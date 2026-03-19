@@ -1,0 +1,2837 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@202603191002370418AD8A55B49397373D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@202603191002370418AD8A55B49397373D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@202603191002370418AD8A55B49397373D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@202603191002370418AD8A55B49397373D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@202603191002370418AD8A55B49397373D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@202603191002370418AD8A55B49397373D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1010,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7199174309883939840",
+          "search_result_id": "7199174309883939840",
+          "search_high_light": {
+            "abstract": {
+              "text": "【主角开局打造避难所，囤积物资】简介: 【末世+天灾+避难所+囤物资】【同名漫动画已经上线，大家可以去看看哦】        这场末日来的突然，小行星撞击地球，带来了一系列灾难，海啸，火山爆发，酸雨，地震，高温，极寒。         张巡管不了其他人，只求让自己和家人能够安然地度过这一生！ 没有轰轰烈烈，只求平平安安！        没有空间，没有异能，没有变异病毒，没有装比打脸，也没有后宫。       （主角得到了前世记忆，解锁了钞能力，前期打造避难所和囤积物资会写的详细些，有些地方会有些逻辑性问题，希望谅解，毕竟作者也不是专业的。很多小说的末世避难所引入了传说中的系统或者高级文明智慧，不少东西都是一带而过，没有啥具体建造过程，所以本书会偏重于建，也不会很长，写到主角生命结束，也就完结了，主角只为生存下去，仅此而已！不是爽文！不是爽文！）",
+              "rich_text": "简介: 【<em>末世</em>+天灾+避难所+囤物资】【同名漫动画已经上线，大家可以去看看哦】\n       这场<em>末</em>日来的突然，小行星撞击地球，带来了一系列灾难，海啸，火山爆发，酸雨，地震，高温，极寒。\n        张巡管不了其他人，只求让自己和家人能够安然地度过这一生！ 没有轰轰烈烈，只求平平安安！\n       没有空间，没有异能，没有变异病毒，没有装比打脸，也没有后宫。\n      （主角得到了前<em>世</em>记忆，解锁了钞能力，前期打造避难所和囤积物资会写的详细些，有些地方会有些逻辑性问题，希望谅解，毕竟作者也不是专业的。很多小说的<em>末世</em>避难所引入了传说中的系统或者高级文明智慧，不少东西都是一带而过，没有啥具体建造过程，所以本书会偏重于建，也不会很长，写到主角生命结束，也就完结了，主角只为生存下去，仅此而已！不是爽文！不是爽文！）",
+              "high_light_position": [
+                [
+                  21,
+                  2
+                ],
+                [
+                  277,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "末世，山里的避难所",
+              "rich_text": "<em>末世</em>，山里的避难所",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "简介: 【末世+天灾+避难所+囤物资】【同名漫动画已经上线，大家可以去看看哦】\n       这场末日来的突然，小行星撞击地球，带来了一系列灾难，海啸，火山爆发，酸雨，地震，高温，极寒。\n        张巡管不了其他人，只求让自己和家人能够安然地度过这一生！ 没有轰轰烈烈，只求平平安安！\n       没有空间，没有异能，没有变异病毒，没有装比打脸，也没有后宫。\n      （主角得到了前世记忆，解锁了钞能力，前期打造避难所和囤积物资会写的详细些，有些地方会有些逻辑性问题，希望谅解，毕竟作者也不是专业的。很多小说的末世避难所引入了传说中的系统或者高级文明智慧，不少东西都是一带而过，没有啥具体建造过程，所以本书会偏重于建，也不会很长，写到主角生命结束，也就完结了，主角只为生存下去，仅此而已！不是爽文！不是爽文！）",
+              "author": "农村老狗",
+              "book_id": "7199174309883939840",
+              "book_name": "末世，山里的避难所",
+              "category": "科幻末世",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-02-12T15:53:08+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7199174681935643174",
+              "first_chapter_item_id": "7199174681935643174",
+              "first_chapter_title": "第1章 平淡的日子",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7383186042053984830",
+              "last_chapter_item_id": "7383186042053984830",
+              "last_chapter_title": "番外1 苦难",
+              "last_chapter_update_time": "1719048156",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "34627",
+              "recommend_group_id": "7199174309883939840",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319100310903071C958D81BA8A546\",\"rank\":\"1\",\"normal_session_id\":\"2d14ae48-fb9e-428d-9621-8a172560e1f9\",\"cold_start_session_id\":\"e58ae681-7c3a-47bb-9ab0-e46f632baa1a\"}",
+              "read_progress": "0",
+              "serial_count": "150",
+              "source": "番茄小说",
+              "tags": "科幻末世,末世",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/eea9878ff96896f5f38387c0298641a4~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=jEaOGP7rMswcx9aTaEOrJJ0zv00%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "358718",
+              "score": "8.9",
+              "exclusive": "1",
+              "role": "张巡,杜静",
+              "category_schema": "[{\"category_id\":8,\"name\":\"科幻末世\",\"schema\":\"dragon1967://newCategoryDetail?id=8&name=科幻末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":68,\"name\":\"末世\",\"schema\":\"dragon1967://newCategoryDetail?id=68&name=末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":379,\"name\":\"求生\",\"schema\":\"dragon1967://newCategoryDetail?id=379&name=求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":389,\"name\":\"单女主\",\"schema\":\"dragon1967://newCategoryDetail?id=389&name=单女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":453,\"name\":\"开局\",\"schema\":\"dragon1967://newCategoryDetail?id=453&name=开局&genre_type=0&gender=1&source=detail\"},{\"category_id\":494,\"name\":\"囤物资\",\"schema\":\"dragon1967://newCategoryDetail?id=494&name=囤物资&genre_type=0&gender=1&source=detail\"},{\"category_id\":515,\"name\":\"末日求生\",\"schema\":\"dragon1967://newCategoryDetail?id=515&name=末日求生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "12274",
+              "sub_info": "3.5万人在读",
+              "last_publish_time": "1719048166",
+              "authorize_type": "1",
+              "media_id": "1609735458725902",
+              "original_book_name": "末世天灾，开局打造避难所",
+              "length_type": "1",
+              "op_tag": "873,856,245,502,1029,536,535,307,1132,1127,900",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/eea9878ff96896f5f38387c0298641a4",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob7156eb3e889cf608f7e3349b1a199b0~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069790&x-signature=eyURO3vNJp9pK%2FDq0lFP1XO0xhM%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "3022",
+              "pure_category_tags": "科幻末世,末日求生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#102830",
+              "read_count_all": "1909778",
+              "shelf_cnt_history": "228486",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507427\":1744944871,\"596084\":1715158744,\"6589\":1678773924,\"2329\":1676188393,\"510893\":1689685227,\"1112\":1693464720,\"8662\":1676188393,\"8703\":1744944871,\"1128\":1676188393,\"2503\":1676188393,\"507386\":1744944871,\"8704\":1747727429,\"638505\":1724842919,\"13\":1676188393,\"1967\":1676188393,\"3040\":1681192627,\"8661\":1681192627,\"426946\":1736155154,\"35\":1676188393}",
+              "category_v2_map": {
+                "68": true,
+                "379": true,
+                "453": true,
+                "8": true,
+                "389": true,
+                "494": true,
+                "515": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/eea9878ff96896f5f38387c0298641a4~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=jEaOGP7rMswcx9aTaEOrJJ0zv00%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7199174310525670656,
+                  "AuthorName": "农村老狗"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob7156eb3e889cf608f7e3349b1a199b0~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069790&x-signature=74lz46Vw6n3ZBu3JUoAvWysg0lc%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "简介: 【末世+天灾+避难所+囤物资】【同名漫动画已经上线，大家可以去看看哦】\n       这场末日来的突然，小行星撞击地球，带来了一系列灾难，海啸，火山爆发，酸雨，地震，高温，极寒。\n        张巡管不了其他人，只求让自己和家人能够安然地度过这一生！ 没有轰轰烈烈，只求平平安安！\n       没有空间，没有异能，没有变异病毒，没有装比打脸，也没有后宫。\n      （主角得到了前世记忆，解锁了钞能力，前期打造避难所和囤积物资会写的详细些，有些地方会有些逻辑性问题，希望谅解，毕竟作者也不是专业的。很多小说的末世避难所引入了传说中的系统或者高级文明智慧，不少东西都是一带而过，没有啥具体建造过程，所以本书会偏重于建，也不会很长，写到主角生命结束，也就完结了，主角只为生存下去，仅此而已！不是爽文！不是爽文！）",
+              "read_page_progress": "0",
+              "read_cnt_text": "3.5万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/eea9878ff96896f5f38387c0298641a4~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=krijbdgVwl5tIc9C3OCJUMEjzIY%3D",
+              "raw_book_name": "末世，山里的避难所",
+              "related_bookids": "{\"507386\":{\"205\":[7582892486436064318,7592974712175610942]},\"507427\":{\"205\":[7582892486436064318,7592974712175610942]},\"8662\":{\"205\":[7582892486436064318,7592974712175610942]},\"3040\":{\"205\":[7582892486436064318,7592974712175610942]},\"1967\":{\"205\":[7586940856926473241,7597436903834520601]}}",
+              "color_audio_dominate": "#2A2D32"
+            }
+          ],
+          "search_attached_info": "14644230189879950619:10:0:4116809979:clks####3@202603191002370418AD8A55B49397373D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短剧原著",
+              "Priority": 15,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "35.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "科幻末世",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：农村老狗",
+                "rich_text": "作者：农村老狗",
+                "high_light_position": []
+              },
+              {
+                "text": "【主角开局打造避难所，囤积物资】简介: 【末世+天灾+避难所+囤物资】【同名漫动画已经上线，大家可以去看看哦】        这场末日来的突然，小行星撞击地球，带来了一系列灾难，海啸，火山爆发，酸雨，地震，高温，极寒。         张巡管不了其他人，只求让自己和家人能够安然地度过这一生！ 没有轰轰烈烈，只求平平安安！        没有空间，没有异能，没有变异病毒，没有装比打脸，也没有后宫。       （主角得到了前世记忆，解锁了钞能力，前期打造避难所和囤积物资会写的详细些，有些地方会有些逻辑性问题，希望谅解，毕竟作者也不是专业的。很多小说的末世避难所引入了传说中的系统或者高级文明智慧，不少东西都是一带而过，没有啥具体建造过程，所以本书会偏重于建，也不会很长，写到主角生命结束，也就完结了，主角只为生存下去，仅此而已！不是爽文！不是爽文！）",
+                "rich_text": "简介: 【<em>末世</em>+天灾+避难所+囤物资】【同名漫动画已经上线，大家可以去看看哦】\n       这场<em>末</em>日来的突然，小行星撞击地球，带来了一系列灾难，海啸，火山爆发，酸雨，地震，高温，极寒。\n        张巡管不了其他人，只求让自己和家人能够安然地度过这一生！ 没有轰轰烈烈，只求平平安安！\n       没有空间，没有异能，没有变异病毒，没有装比打脸，也没有后宫。\n      （主角得到了前<em>世</em>记忆，解锁了钞能力，前期打造避难所和囤积物资会写的详细些，有些地方会有些逻辑性问题，希望谅解，毕竟作者也不是专业的。很多小说的<em>末世</em>避难所引入了传说中的系统或者高级文明智慧，不少东西都是一带而过，没有啥具体建造过程，所以本书会偏重于建，也不会很长，写到主角生命结束，也就完结了，主角只为生存下去，仅此而已！不是爽文！不是爽文！）",
+                "high_light_position": [
+                  [
+                    21,
+                    2
+                  ],
+                  [
+                    277,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1011,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7207066781708454916",
+          "search_result_id": "7207066781708454916",
+          "search_high_light": {
+            "abstract": {
+              "text": "【祖传聚宝盆开启，开启末世狂欢】本小说改编短剧《极寒末世的觉醒之旅》 【已完结+天灾重生+基因锁+空间+杀伐果断+无女主+一人一宠物军团】  林时重生，回到极寒降临前的三个月。 上一世，他亲眼见证天灾的爆发摧毁人类文明： 电磁脉冲让全球瘫痪，地磁风暴引发零下百度的极寒地狱，90%的物种灭绝，幸存生物异变成嗜血怪物…… 而他，遭遇最好朋友的背叛！ 这一次，他誓要改写命运！  觉醒祖传聚宝盆，林时开启逆天外挂—— 空间无限扩容，物资无限复制！ 从一枚神秘古币开始，他疯狂囤积亿万物资：粮食、武器、能源、医疗设备……甚至打造出坚不可摧的末日堡垒。 然而，末世不仅是天灾的考验，更是人性的修罗场。 当暴风雪淹没文明，幸存者沦为野兽，林时手握利刃，带着伙伴“魔王”，踏上一条杀伐果断的生存之路。  （简介简短无力，请各位读者大佬移步正文。）",
+              "rich_text": "本小说改编短剧《极寒<em>末世</em>的觉醒之旅》\n【已完结+天灾重生+基因锁+空间+杀伐果断+无女主+一人一宠物军团】\n\n林时重生，回到极寒降临前的三个月。\n上一<em>世</em>，他亲眼见证天灾的爆发摧毁人类文明：\n电磁脉冲让全球瘫痪，地磁风暴引发零下百度的极寒地狱，90%的物种灭绝，幸存生物异变成嗜血怪物……\n而他，遭遇最好朋友的背叛！\n这一次，他誓要改写命运！\n\n觉醒祖传聚宝盆，林时开启逆天外挂——\n空间无限扩容，物资无限复制！\n从一枚神秘古币开始，他疯狂囤积亿万物资：粮食、武器、能源、医疗设备……甚至打造出坚不可摧的<em>末</em>日堡垒。\n然而，<em>末世</em>不仅是天灾的考验，更是人性的修罗场。\n当暴风雪淹没文明，幸存者沦为野兽，林时手握利刃，带着伙伴“魔王”，踏上一条杀伐果断的生存之路。\n\n（简介简短无力，请各位读者大佬移步正文。）",
+              "high_light_position": [
+                [
+                  11,
+                  2
+                ],
+                [
+                  26,
+                  2
+                ],
+                [
+                  276,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "极寒末世的觉醒之旅！",
+              "rich_text": "极寒<em>末世</em>的觉醒之旅！",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "本小说改编短剧《极寒末世的觉醒之旅》\n【已完结+天灾重生+基因锁+空间+杀伐果断+无女主+一人一宠物军团】\n\n林时重生，回到极寒降临前的三个月。\n上一世，他亲眼见证天灾的爆发摧毁人类文明：\n电磁脉冲让全球瘫痪，地磁风暴引发零下百度的极寒地狱，90%的物种灭绝，幸存生物异变成嗜血怪物……\n而他，遭遇最好朋友的背叛！\n这一次，他誓要改写命运！\n\n觉醒祖传聚宝盆，林时开启逆天外挂——\n空间无限扩容，物资无限复制！\n从一枚神秘古币开始，他疯狂囤积亿万物资：粮食、武器、能源、医疗设备……甚至打造出坚不可摧的末日堡垒。\n然而，末世不仅是天灾的考验，更是人性的修罗场。\n当暴风雪淹没文明，幸存者沦为野兽，林时手握利刃，带着伙伴“魔王”，踏上一条杀伐果断的生存之路。\n\n（简介简短无力，请各位读者大佬移步正文。）",
+              "author": "白瓷听夜雨",
+              "book_id": "7207066781708454916",
+              "book_name": "极寒末世的觉醒之旅！",
+              "category": "科幻末世",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-03-05T22:19:57+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7207067126170026557",
+              "first_chapter_item_id": "7207067126170026557",
+              "first_chapter_title": "第1章 重回末世前",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7608903310459814462",
+              "last_chapter_item_id": "7608903310459814462",
+              "last_chapter_title": "番外 出发！三联大陆！",
+              "last_chapter_update_time": "1772266886",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "94205",
+              "recommend_group_id": "7207066781708454916",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319100310903071C958D81BA8A546\",\"rank\":\"1\",\"normal_session_id\":\"2d14ae48-fb9e-428d-9621-8a172560e1f9\",\"cold_start_session_id\":\"e58ae681-7c3a-47bb-9ab0-e46f632baa1a\"}",
+              "read_progress": "0",
+              "serial_count": "995",
+              "source": "番茄小说",
+              "tags": "科幻末世,重生",
+              "thumb_url": "https://p9-reading-sign.fqnovelpic.com/novel-pic/65e861f209faa510eb04870cf9766617~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=c4Ya9E9p%2FJBxSD2eW8BbFwJf%2Fm4%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "2024751",
+              "score": "8.7",
+              "exclusive": "1",
+              "role": "林时",
+              "category_schema": "[{\"category_id\":8,\"name\":\"科幻末世\",\"schema\":\"dragon1967://newCategoryDetail?id=8&name=科幻末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=1&source=detail\"},{\"category_id\":44,\"name\":\"空间\",\"schema\":\"dragon1967://newCategoryDetail?id=44&name=空间&genre_type=0&gender=1&source=detail\"},{\"category_id\":68,\"name\":\"末世\",\"schema\":\"dragon1967://newCategoryDetail?id=68&name=末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":379,\"name\":\"求生\",\"schema\":\"dragon1967://newCategoryDetail?id=379&name=求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":391,\"name\":\"无女主\",\"schema\":\"dragon1967://newCategoryDetail?id=391&name=无女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":494,\"name\":\"囤物资\",\"schema\":\"dragon1967://newCategoryDetail?id=494&name=囤物资&genre_type=0&gender=1&source=detail\"},{\"category_id\":515,\"name\":\"末日求生\",\"schema\":\"dragon1967://newCategoryDetail?id=515&name=末日求生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7281482946102873150]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "21986",
+              "sub_info": "9.5万人在读",
+              "last_publish_time": "1772266925",
+              "authorize_type": "1",
+              "media_id": "1756324435802123",
+              "original_book_name": "极寒末世：我用聚宝盆囤亿万物资",
+              "length_type": "0",
+              "op_tag": "859,372,498,1024,1403,870,1132,535,1129,900,531,984,311,873,536,245",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/65e861f209faa510eb04870cf9766617",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/7997bde1bb4aab8a832217bb4e32e70b",
+              "data_rate": "",
+              "all_bookshelf_count": "8560",
+              "pure_category_tags": "科幻末世,末日求生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#103058",
+              "read_count_all": "10679081",
+              "shelf_cnt_history": "2034463",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1967\":1678026003,\"3040\":1681185030,\"8662\":1678026003,\"8704\":1747107019,\"638505\":1724788118,\"426946\":1736164927,\"2503\":1678026003,\"13\":1678026003,\"6589\":1678676092,\"35\":1678026003,\"1128\":1678026003,\"596084\":1714097943,\"8661\":1681185030,\"507386\":1741851253,\"507427\":1741851253,\"8703\":1744954259,\"510893\":1689674999,\"2329\":1678026003}",
+              "category_v2_map": {
+                "44": true,
+                "494": true,
+                "8": true,
+                "36": true,
+                "515": true,
+                "68": true,
+                "379": true,
+                "391": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/65e861f209faa510eb04870cf9766617~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=sP%2F4lSWGBUhLehd%2BPirgQD6GO1g%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7195190924962436411,
+                  "AuthorName": "白瓷听夜雨"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "极寒末世的觉醒之旅！",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/7997bde1bb4aab8a832217bb4e32e70b~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069790&x-signature=Nd0GxLIKXCDRVw9s3%2F7d4IKKnkI%3D",
+              "reputation_thumb_uri": "novel-static/5269f98cbb7bdf12af8e2b6ce4bbb725",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "本小说改编短剧《极寒末世的觉醒之旅》\n【已完结+天灾重生+基因锁+空间+杀伐果断+无女主+一人一宠物军团】\n\n林时重生，回到极寒降临前的三个月。\n上一世，他亲眼见证天灾的爆发摧毁人类文明：\n电磁脉冲让全球瘫痪，地磁风暴引发零下百度的极寒地狱，90%的物种灭绝，幸存生物异变成嗜血怪物……\n而他，遭遇最好朋友的背叛！\n这一次，他誓要改写命运！\n\n觉醒祖传聚宝盆，林时开启逆天外挂——\n空间无限扩容，物资无限复制！\n从一枚神秘古币开始，他疯狂囤积亿万物资：粮食、武器、能源、医疗设备……甚至打造出坚不可摧的末日堡垒。\n然而，末世不仅是天灾的考验，更是人性的修罗场。\n当暴风雪淹没文明，幸存者沦为野兽，林时手握利刃，带着伙伴“魔王”，踏上一条杀伐果断的生存之路。\n\n（简介简短无力，请各位读者大佬移步正文。）",
+              "read_page_progress": "0",
+              "read_cnt_text": "9.5万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/65e861f209faa510eb04870cf9766617~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=B0vNknodqA3kTT%2BV7LzS%2Fbnv3ZA%3D",
+              "raw_book_name": "极寒末世的觉醒之旅！",
+              "related_bookids": "{\"507386\":{\"203\":[7446617394883071038],\"205\":[7562167422036233241,7565850847138040894,7587783462233312318,7594355283946638360,7600263561864039486,7616273512679869464,7618151109596548120]},\"3040\":{\"205\":[7562167422036233241,7565850847138040894,7587783462233312318,7594355283946638360,7600263561864039486,7616273512679869464,7618151109596548120],\"203\":[7446617394883071038]},\"507427\":{\"205\":[7562167422036233241,7565850847138040894,7587783462233312318,7594355283946638360,7600263561864039486,7616273512679869464,7618151109596548120],\"203\":[7446617394883071038]},\"8662\":{\"203\":[7446617394883071038],\"205\":[7562167422036233241,7565850847138040894,7587783462233312318,7594355283946638360,7600263561864039486,7616273512679869464,7618151109596548120]},\"1967\":{\"205\":[7562167422036233241,7565850847138040894,7587783462233312318,7594355283946638360,7600263561864039486,7616273512679869464,7618151109596548120],\"203\":[7446617394883071038]}}",
+              "color_audio_dominate": "#2E2F34"
+            }
+          ],
+          "search_attached_info": "14644230189879950619:11:0:1417983296:clks####3@202603191002370418AD8A55B49397373D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "“细糠”",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "202.5万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "9万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "科幻末世",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：白瓷听夜雨",
+                "rich_text": "作者：白瓷听夜雨",
+                "high_light_position": []
+              },
+              {
+                "text": "【祖传聚宝盆开启，开启末世狂欢】本小说改编短剧《极寒末世的觉醒之旅》 【已完结+天灾重生+基因锁+空间+杀伐果断+无女主+一人一宠物军团】  林时重生，回到极寒降临前的三个月。 上一世，他亲眼见证天灾的爆发摧毁人类文明： 电磁脉冲让全球瘫痪，地磁风暴引发零下百度的极寒地狱，90%的物种灭绝，幸存生物异变成嗜血怪物…… 而他，遭遇最好朋友的背叛！ 这一次，他誓要改写命运！  觉醒祖传聚宝盆，林时开启逆天外挂—— 空间无限扩容，物资无限复制！ 从一枚神秘古币开始，他疯狂囤积亿万物资：粮食、武器、能源、医疗设备……甚至打造出坚不可摧的末日堡垒。 然而，末世不仅是天灾的考验，更是人性的修罗场。 当暴风雪淹没文明，幸存者沦为野兽，林时手握利刃，带着伙伴“魔王”，踏上一条杀伐果断的生存之路。  （简介简短无力，请各位读者大佬移步正文。）",
+                "rich_text": "本小说改编短剧《极寒<em>末世</em>的觉醒之旅》\n【已完结+天灾重生+基因锁+空间+杀伐果断+无女主+一人一宠物军团】\n\n林时重生，回到极寒降临前的三个月。\n上一<em>世</em>，他亲眼见证天灾的爆发摧毁人类文明：\n电磁脉冲让全球瘫痪，地磁风暴引发零下百度的极寒地狱，90%的物种灭绝，幸存生物异变成嗜血怪物……\n而他，遭遇最好朋友的背叛！\n这一次，他誓要改写命运！\n\n觉醒祖传聚宝盆，林时开启逆天外挂——\n空间无限扩容，物资无限复制！\n从一枚神秘古币开始，他疯狂囤积亿万物资：粮食、武器、能源、医疗设备……甚至打造出坚不可摧的<em>末</em>日堡垒。\n然而，<em>末世</em>不仅是天灾的考验，更是人性的修罗场。\n当暴风雪淹没文明，幸存者沦为野兽，林时手握利刃，带着伙伴“魔王”，踏上一条杀伐果断的生存之路。\n\n（简介简短无力，请各位读者大佬移步正文。）",
+                "high_light_position": [
+                  [
+                    11,
+                    2
+                  ],
+                  [
+                    26,
+                    2
+                  ],
+                  [
+                    276,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1012,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7590661718972304409",
+          "search_result_id": "7590661718972304409",
+          "search_high_light": {
+            "abstract": {
+              "text": "...肢体融合…… 他们在末世下的生存方式也打破了阮墨的认知。 独立空间、地下宫殿、影子堡垒、千足蜈蚣…… 阮墨坐在打造好的装甲房车里，看着窗外漫天的婴儿雨。 残肢断臂噼里啪啦地打在车顶的声音与婴儿的哭声混合在一起。 真正的末日恐怕才刚开始……",
+              "rich_text": "【刚出评分】\n阮墨的破毛笔给了他一条<em>末</em>日预警。\n结果丧尸就爆发了！\n还没来得及囤物资的阮墨怒摔金手指：\n这查看记忆的破能力有屁用？！\n但蚊子再小也是肉。\n阮墨从一个个记忆片段中，拼出这场危机的真相。\n越来越多的能力者出现，物资复制、大地操控、肢体融合……\n他们在<em>末世</em>下的生存方式也打破了阮墨的认知。\n独立空间、地下宫殿、影子堡垒、千足蜈蚣……\n阮墨坐在打造好的装甲房车里，看着窗外漫天的婴儿雨。\n残肢断臂噼里啪啦地打在车顶的声音与婴儿的哭声混合在一起。\n真正的<em>末</em>日恐怕才刚开始……",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "世界崩坏：灾难超出我的想象",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【刚出评分】\n阮墨的破毛笔给了他一条末日预警。\n结果丧尸就爆发了！\n还没来得及囤物资的阮墨怒摔金手指：\n这查看记忆的破能力有屁用？！\n但蚊子再小也是肉。\n阮墨从一个个记忆片段中，拼出这场危机的真相。\n越来越多的能力者出现，物资复制、大地操控、肢体融合……\n他们在末世下的生存方式也打破了阮墨的认知。\n独立空间、地下宫殿、影子堡垒、千足蜈蚣……\n阮墨坐在打造好的装甲房车里，看着窗外漫天的婴儿雨。\n残肢断臂噼里啪啦地打在车顶的声音与婴儿的哭声混合在一起。\n真正的末日恐怕才刚开始……",
+              "author": "大大泡泡王",
+              "book_id": "7590661718972304409",
+              "book_name": "世界崩坏：灾难超出我的想象",
+              "category": "科幻末世",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-02T15:24:14+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7590661722407436825",
+              "first_chapter_item_id": "7590661722407436825",
+              "first_chapter_title": "第1章 金手指误我！",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618577854149706265",
+              "last_chapter_item_id": "7618577854149706265",
+              "last_chapter_title": "第218章 反抗",
+              "last_chapter_update_time": "1773838429",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "2033",
+              "recommend_group_id": "7590661718972304409",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319100310903071C958D81BA8A546\",\"rank\":\"1\",\"normal_session_id\":\"2d14ae48-fb9e-428d-9621-8a172560e1f9\",\"cold_start_session_id\":\"e58ae681-7c3a-47bb-9ab0-e46f632baa1a\"}",
+              "read_progress": "0",
+              "serial_count": "218",
+              "source": "番茄小说",
+              "tags": "科幻末世,末世",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9e71b64a38ef6bff04691f6090d14c85~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=1mE89D5Y6WuSU4%2F7eQ9s4IvDaE0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "471818",
+              "score": "5.6",
+              "exclusive": "1",
+              "role": "阮墨,王星然",
+              "category_schema": "[{\"category_id\":8,\"name\":\"科幻末世\",\"schema\":\"dragon1967://newCategoryDetail?id=8&name=科幻末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":68,\"name\":\"末世\",\"schema\":\"dragon1967://newCategoryDetail?id=68&name=末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":515,\"name\":\"末日求生\",\"schema\":\"dragon1967://newCategoryDetail?id=515&name=末日求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":871,\"name\":\"第一人称\",\"schema\":\"dragon1967://newCategoryDetail?id=871&name=第一人称&genre_type=0&gender=1&source=detail\"},{\"category_id\":852,\"name\":\"魂穿\",\"schema\":\"dragon1967://newCategoryDetail?id=852&name=魂穿&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "237",
+              "sub_info": "2033人在读",
+              "last_publish_time": "1773878474",
+              "authorize_type": "1",
+              "media_id": "1839172329047050",
+              "original_book_name": "丧尸都杀完了！你说末日还没来？",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "67",
+              "thumb_uri": "novel-pic/9e71b64a38ef6bff04691f6090d14c85",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/82d52cdd6bde18b91c3632df42e22974~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069790&x-signature=esNnY0ApxpEpfomnGtVPmR22vlU%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "230",
+              "pure_category_tags": "科幻末世,打脸",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#082830",
+              "read_count_all": "25307",
+              "shelf_cnt_history": "4024",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2329\":1767338777,\"8704\":1767338777,\"8703\":1767338777,\"13\":1767338777,\"1967\":1767338777,\"2503\":1767338777,\"6589\":1767581673,\"510893\":1767338777,\"507386\":1767338839,\"35\":1767338777,\"507427\":1767338839,\"3040\":1767581673,\"596084\":1767581673,\"8661\":1767581673,\"8662\":1767338777,\"638505\":1767581673,\"1128\":1767338777}",
+              "category_v2_map": {
+                "68": true,
+                "522": true,
+                "515": true,
+                "871": true,
+                "852": true,
+                "8": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9e71b64a38ef6bff04691f6090d14c85~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=1mE89D5Y6WuSU4%2F7eQ9s4IvDaE0%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7533249887354246462,
+                  "AuthorName": "大大泡泡王"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/82d52cdd6bde18b91c3632df42e22974~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069790&x-signature=mE0MT2ZM5GbfU1qjE6vJRL8i4WQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【刚出评分】\n阮墨的破毛笔给了他一条末日预警。\n结果丧尸就爆发了！\n还没来得及囤物资的阮墨怒摔金手指：\n这查看记忆的破能力有屁用？！\n但蚊子再小也是肉。\n阮墨从一个个记忆片段中，拼出这场危机的真相。\n越来越多的能力者出现，物资复制、大地操控、肢体融合……\n他们在末世下的生存方式也打破了阮墨的认知。\n独立空间、地下宫殿、影子堡垒、千足蜈蚣……\n阮墨坐在打造好的装甲房车里，看着窗外漫天的婴儿雨。\n残肢断臂噼里啪啦地打在车顶的声音与婴儿的哭声混合在一起。\n真正的末日恐怕才刚开始……",
+              "read_page_progress": "0",
+              "read_cnt_text": "2033人在读",
+              "detail_page_thumb_url": "https://p9-reading-sign.fqnovelpic.com/novel-pic/9e71b64a38ef6bff04691f6090d14c85~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=EUlqLXLgYw0ySkCffvqeJgiow4g%3D",
+              "raw_book_name": "世界崩坏：灾难超出我的想象",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "14644230189879950619:12:0:2318209625:clks####3@202603191002370418AD8A55B49397373D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "47.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2033人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "科幻末世",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：大大泡泡王",
+                "rich_text": "作者：大大泡泡王",
+                "high_light_position": []
+              },
+              {
+                "text": "...肢体融合…… 他们在末世下的生存方式也打破了阮墨的认知。 独立空间、地下宫殿、影子堡垒、千足蜈蚣…… 阮墨坐在打造好的装甲房车里，看着窗外漫天的婴儿雨。 残肢断臂噼里啪啦地打在车顶的声音与婴儿的哭声混合在一起。 真正的末日恐怕才刚开始……",
+                "rich_text": "【刚出评分】\n阮墨的破毛笔给了他一条<em>末</em>日预警。\n结果丧尸就爆发了！\n还没来得及囤物资的阮墨怒摔金手指：\n这查看记忆的破能力有屁用？！\n但蚊子再小也是肉。\n阮墨从一个个记忆片段中，拼出这场危机的真相。\n越来越多的能力者出现，物资复制、大地操控、肢体融合……\n他们在<em>末世</em>下的生存方式也打破了阮墨的认知。\n独立空间、地下宫殿、影子堡垒、千足蜈蚣……\n阮墨坐在打造好的装甲房车里，看着窗外漫天的婴儿雨。\n残肢断臂噼里啪啦地打在车顶的声音与婴儿的哭声混合在一起。\n真正的<em>末</em>日恐怕才刚开始……",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1013,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7180279419959774247",
+          "search_result_id": "7180279419959774247",
+          "search_high_light": {
+            "abstract": {
+              "text": "【末世来临，别人都冻成狗，为了一口吃的可以舍弃一切！】末世+重生+爆囤物资+苟+无限空间+黑化复仇不圣母 　　全球进入冰河时代，寒冰末世来临，星球95%的人类全部丧生！ 　　上一世，张奕因为心地善良，结果被自己帮助过的人杀死了。 　　重生回到寒冰末世前一个月，张奕觉醒空间异能，开始疯狂的囤积物资！ 　　缺少物资？他直接掏空一座超级商场价值百亿的仓库！ 　　住的不舒服？他打造了一座堪比末日堡垒的超级安全屋！ 　　末日来临，别人都冻成狗，为了一口吃的可以舍弃一切。 　　而张奕却过的比末世之前还要自在。 　　白莲花：张奕，只要你让我进入你的房子，我就答应做你女朋友。 　　富二代：张奕，我愿意用我所有的钱，换你们家的一顿饭！ 　　禽兽邻居们：张奕，你应该和我们一起分享物资，不应该那么自私！ 　　…… 　　看着这些前世背叛过自己的人们，张奕躺在安全屋里，舒舒服服的过着世外桃源一般的生活。 　　张奕：你们死不死的跟我有什么关系啊？我的东西喂狗也不给你们！",
+              "rich_text": "<em>末世</em>+重生+爆囤物资+苟+无限空间+黑化复仇不圣母\n　　全球进入冰河时代，寒冰<em>末世</em>来临，星球95%的人类全部丧生！\n　　上一<em>世</em>，张奕因为心地善良，结果被自己帮助过的人杀死了。\n　　重生回到寒冰<em>末世</em>前一个月，张奕觉醒空间异能，开始疯狂的囤积物资！\n　　缺少物资？他直接掏空一座超级商场价值百亿的仓库！\n　　住的不舒服？他打造了一座堪比<em>末</em>日堡垒的超级安全屋！\n　　<em>末</em>日来临，别人都冻成狗，为了一口吃的可以舍弃一切。\n　　而张奕却过的比<em>末世</em>之前还要自在。\n　　白莲花：张奕，只要你让我进入你的房子，我就答应做你女朋友。\n　　富二代：张奕，我愿意用我所有的钱，换你们家的一顿饭！\n　　禽兽邻居们：张奕，你应该和我们一起分享物资，不应该那么自私！\n　　……\n　　看着这些前<em>世</em>背叛过自己的人们，张奕躺在安全屋里，舒舒服服的过着<em>世</em>外桃源一般的生活。\n　　张奕：你们死不死的跟我有什么关系啊？我的东西喂狗也不给你们！",
+              "high_light_position": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  27,
+                  2
+                ],
+                [
+                  66,
+                  2
+                ],
+                [
+                  123,
+                  2
+                ],
+                [
+                  242,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "全球冰封：我打造了末日安全屋",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "末世+重生+爆囤物资+苟+无限空间+黑化复仇不圣母\n　　全球进入冰河时代，寒冰末世来临，星球95%的人类全部丧生！\n　　上一世，张奕因为心地善良，结果被自己帮助过的人杀死了。\n　　重生回到寒冰末世前一个月，张奕觉醒空间异能，开始疯狂的囤积物资！\n　　缺少物资？他直接掏空一座超级商场价值百亿的仓库！\n　　住的不舒服？他打造了一座堪比末日堡垒的超级安全屋！\n　　末日来临，别人都冻成狗，为了一口吃的可以舍弃一切。\n　　而张奕却过的比末世之前还要自在。\n　　白莲花：张奕，只要你让我进入你的房子，我就答应做你女朋友。\n　　富二代：张奕，我愿意用我所有的钱，换你们家的一顿饭！\n　　禽兽邻居们：张奕，你应该和我们一起分享物资，不应该那么自私！\n　　……\n　　看着这些前世背叛过自己的人们，张奕躺在安全屋里，舒舒服服的过着世外桃源一般的生活。\n　　张奕：你们死不死的跟我有什么关系啊？我的东西喂狗也不给你们！",
+              "author": "记忆的海",
+              "book_id": "7180279419959774247",
+              "book_name": "全球冰封：我打造了末日安全屋",
+              "category": "科幻末世",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2022-12-23T17:51:18+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7181453438667096588",
+              "first_chapter_item_id": "7181453438667096588",
+              "first_chapter_title": "第1章 末世之后，我重生了",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7617332373553693208",
+              "last_chapter_item_id": "7617332373553693208",
+              "last_chapter_title": "第2674章 再会白龙子2",
+              "last_chapter_update_time": "1773548418",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "504492",
+              "recommend_group_id": "7180279419959774247",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319100310903071C958D81BA8A546\",\"rank\":\"1\",\"normal_session_id\":\"2d14ae48-fb9e-428d-9621-8a172560e1f9\",\"cold_start_session_id\":\"e58ae681-7c3a-47bb-9ab0-e46f632baa1a\"}",
+              "read_progress": "0",
+              "serial_count": "2673",
+              "source": "番茄小说",
+              "tags": "科幻末世,重生",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/273cb74a34d5926ce63e9e25bedb8318~tplv-shrink:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=CSS8%2FDdo56tUpevaeyemX2MFqkc%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "6237983",
+              "score": "8.7",
+              "exclusive": "1",
+              "role": "张奕",
+              "category_schema": "[{\"category_id\":8,\"name\":\"科幻末世\",\"schema\":\"dragon1967://newCategoryDetail?id=8&name=科幻末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=1&source=detail\"},{\"category_id\":44,\"name\":\"空间\",\"schema\":\"dragon1967://newCategoryDetail?id=44&name=空间&genre_type=0&gender=1&source=detail\"},{\"category_id\":68,\"name\":\"末世\",\"schema\":\"dragon1967://newCategoryDetail?id=68&name=末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":379,\"name\":\"求生\",\"schema\":\"dragon1967://newCategoryDetail?id=379&name=求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":494,\"name\":\"囤物资\",\"schema\":\"dragon1967://newCategoryDetail?id=494&name=囤物资&genre_type=0&gender=1&source=detail\"},{\"category_id\":515,\"name\":\"末日求生\",\"schema\":\"dragon1967://newCategoryDetail?id=515&name=末日求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"},{\"category_id\":658,\"name\":\"天灾\",\"schema\":\"dragon1967://newCategoryDetail?id=658&name=天灾&genre_type=0&gender=1&source=detail\"},{\"category_id\":869,\"name\":\"废土\",\"schema\":\"dragon1967://newCategoryDetail?id=869&name=废土&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7239243941252598845,7551371741352709182]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "166075",
+              "sub_info": "50.5万人在读",
+              "last_publish_time": "1773831619",
+              "authorize_type": "1",
+              "media_id": "1751798603191299",
+              "original_book_name": "冰河末世，我囤积了百亿物资",
+              "length_type": "0",
+              "op_tag": "1414,1132,1403,968,235,861,348,302,873,535,216,536,496,245,303,868,984",
+              "keep_publish_days": "427",
+              "thumb_uri": "novel-pic/273cb74a34d5926ce63e9e25bedb8318",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/ea5ee153629934c95a3745f3985e464c",
+              "data_rate": "",
+              "all_bookshelf_count": "40187",
+              "pure_category_tags": "科幻末世,废土",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#101830",
+              "read_count_all": "37538638",
+              "shelf_cnt_history": "14038491",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"638505\":1724774486,\"1112\":1693469023,\"35\":1671794125,\"1128\":1671794125,\"2329\":1671794125,\"510893\":1689656000,\"6589\":1677081728,\"507427\":1741783933,\"2503\":1671794125,\"13\":1671794125,\"8661\":1681184751,\"596084\":1714101113,\"8703\":1744967242,\"8704\":1747152092,\"3040\":1681184751,\"507386\":1741783933,\"1967\":1671794125,\"8662\":1671794125}",
+              "category_v2_map": {
+                "494": true,
+                "68": true,
+                "658": true,
+                "869": true,
+                "522": true,
+                "515": true,
+                "8": true,
+                "379": true,
+                "36": true,
+                "44": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/273cb74a34d5926ce63e9e25bedb8318~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=qNz%2BtolVmlRua4wQYSj78TVhuz4%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7180279420647642407,
+                  "AuthorName": "记忆的海"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/ea5ee153629934c95a3745f3985e464c~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069790&x-signature=5QhDmNHZbu5ynPCop%2FxGr1koHAI%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "末世+重生+爆囤物资+苟+无限空间+黑化复仇不圣母\n　　全球进入冰河时代，寒冰末世来临，星球95%的人类全部丧生！\n　　上一世，张奕因为心地善良，结果被自己帮助过的人杀死了。\n　　重生回到寒冰末世前一个月，张奕觉醒空间异能，开始疯狂的囤积物资！\n　　缺少物资？他直接掏空一座超级商场价值百亿的仓库！\n　　住的不舒服？他打造了一座堪比末日堡垒的超级安全屋！\n　　末日来临，别人都冻成狗，为了一口吃的可以舍弃一切。\n　　而张奕却过的比末世之前还要自在。\n　　白莲花：张奕，只要你让我进入你的房子，我就答应做你女朋友。\n　　富二代：张奕，我愿意用我所有的钱，换你们家的一顿饭！\n　　禽兽邻居们：张奕，你应该和我们一起分享物资，不应该那么自私！\n　　……\n　　看着这些前世背叛过自己的人们，张奕躺在安全屋里，舒舒服服的过着世外桃源一般的生活。\n　　张奕：你们死不死的跟我有什么关系啊？我的东西喂狗也不给你们！",
+              "read_page_progress": "0",
+              "read_cnt_text": "50.5万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/273cb74a34d5926ce63e9e25bedb8318~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=hRPmSAb1kKQZYvY6jLsisWg9QdA%3D",
+              "raw_book_name": "全球冰封：我打造了末日安全屋",
+              "related_bookids": "{\"507386\":{\"203\":[7337589921118424126,7332056642546060350],\"261\":[7598384880770108441],\"205\":[7581413189565287449,7579108867242478616,7562057953956613145,7523020415577361433,7588108956355005464,7591069256754678808,7591821692553399321,7594319654705695806,7592174660364536856,7595046404448341054,7598027464815692824,7600679726516030526,7600724141318097945,7593657949877193752,7602177422917651518,7605538883832400921,7605457003942530072,7600263547104283710,7609998054116035609,7611850395198950424,7611850398873177112,7612482789388078142,7612965211921730584,7615892122335464473,7616547720005684248,7617831926367276056,7597350432914017342,7618160404589464638,7602214500258810942,7597065543752895513,7607681769948597273]},\"507427\":{\"203\":[7337589921118424126,7332056642546060350],\"205\":[7581413189565287449,7579108867242478616,7562057953956613145,7523020415577361433,7588108956355005464,7591069256754678808,7591821692553399321,7594319654705695806,7592174660364536856,7595046404448341054,7598027464815692824,7600679726516030526,7600724141318097945,7593657949877193752,7602177422917651518,7605538883832400921,7605457003942530072,7600263547104283710,7609998054116035609,7611850395198950424,7611850398873177112,7612482789388078142,7612965211921730584,7615892122335464473,7616547720005684248,7617831926367276056,7597350432914017342,7618160404589464638,7602214500258810942,7597065543752895513,7607681769948597273],\"261\":[7598384880770108441]},\"8662\":{\"205\":[7581413189565287449,7579108867242478616,7562057953956613145,7523020415577361433,7588108956355005464,7591069256754678808,7591821692553399321,7594319654705695806,7592174660364536856,7595046404448341054,7598027464815692824,7600679726516030526,7600724141318097945,7593657949877193752,7602177422917651518,7605538883832400921,7605457003942530072,7600263547104283710,7609998054116035609,7611850395198950424,7611850398873177112,7612482789388078142,7612965211921730584,7615892122335464473,7616547720005684248,7617831926367276056,7597350432914017342,7618160404589464638,7602214500258810942,7597065543752895513,7607681769948597273],\"261\":[7598384880770108441],\"203\":[7337589921118424126,7332056642546060350]},\"1967\":{\"261\":[7598384880770108441],\"205\":[7583905103464107033,7585044145723427902,7562057953956613145,7523020415577361433,7593396629432962072,7594836143833631769,7595518008924064830,7592174660364536856,7595046404448341054,7598027464815692824,7600679726516030526,7600724141318097945,7593657949877193752,7602177422917651518,7605538883832400921,7605457003942530072,7600263547104283710,7609998054116035609,7611850395198950424,7611850398873177112,7612482789388078142,7612965211921730584,7615892122335464473,7616547720005684248,7617831926367276056,7598143450915015705,7597350432914017342,7618160404589464638,7602214500258810942,7597065543752895513,7607681769948597273],\"203\":[7332056642546060350,7337589921118424126]},\"3040\":{\"261\":[7598384880770108441],\"205\":[7581413189565287449,7579108867242478616,7562057953956613145,7523020415577361433,7588108956355005464,7591069256754678808,7591821692553399321,7594319654705695806,7592174660364536856,7595046404448341054,7598027464815692824,7600679726516030526,7600724141318097945,7593657949877193752,7602177422917651518,7605538883832400921,7605457003942530072,7600263547104283710,7609998054116035609,7611850395198950424,7611850398873177112,7612482789388078142,7612965211921730584,7615892122335464473,7616547720005684248,7617831926367276056,7597350432914017342,7618160404589464638,7602214500258810942,7597065543752895513,7607681769948597273]}}",
+              "color_audio_dominate": "#2A2823"
+            }
+          ],
+          "search_attached_info": "14644230189879950619:13:0:2545889071:clks####3@202603191002370418AD8A55B49397373D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "番茄爆书",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "623.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "50万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "科幻末世",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：记忆的海",
+                "rich_text": "作者：记忆的海",
+                "high_light_position": []
+              },
+              {
+                "text": "【末世来临，别人都冻成狗，为了一口吃的可以舍弃一切！】末世+重生+爆囤物资+苟+无限空间+黑化复仇不圣母 　　全球进入冰河时代，寒冰末世来临，星球95%的人类全部丧生！ 　　上一世，张奕因为心地善良，结果被自己帮助过的人杀死了。 　　重生回到寒冰末世前一个月，张奕觉醒空间异能，开始疯狂的囤积物资！ 　　缺少物资？他直接掏空一座超级商场价值百亿的仓库！ 　　住的不舒服？他打造了一座堪比末日堡垒的超级安全屋！ 　　末日来临，别人都冻成狗，为了一口吃的可以舍弃一切。 　　而张奕却过的比末世之前还要自在。 　　白莲花：张奕，只要你让我进入你的房子，我就答应做你女朋友。 　　富二代：张奕，我愿意用我所有的钱，换你们家的一顿饭！ 　　禽兽邻居们：张奕，你应该和我们一起分享物资，不应该那么自私！ 　　…… 　　看着这些前世背叛过自己的人们，张奕躺在安全屋里，舒舒服服的过着世外桃源一般的生活。 　　张奕：你们死不死的跟我有什么关系啊？我的东西喂狗也不给你们！",
+                "rich_text": "<em>末世</em>+重生+爆囤物资+苟+无限空间+黑化复仇不圣母\n　　全球进入冰河时代，寒冰<em>末世</em>来临，星球95%的人类全部丧生！\n　　上一<em>世</em>，张奕因为心地善良，结果被自己帮助过的人杀死了。\n　　重生回到寒冰<em>末世</em>前一个月，张奕觉醒空间异能，开始疯狂的囤积物资！\n　　缺少物资？他直接掏空一座超级商场价值百亿的仓库！\n　　住的不舒服？他打造了一座堪比<em>末</em>日堡垒的超级安全屋！\n　　<em>末</em>日来临，别人都冻成狗，为了一口吃的可以舍弃一切。\n　　而张奕却过的比<em>末世</em>之前还要自在。\n　　白莲花：张奕，只要你让我进入你的房子，我就答应做你女朋友。\n　　富二代：张奕，我愿意用我所有的钱，换你们家的一顿饭！\n　　禽兽邻居们：张奕，你应该和我们一起分享物资，不应该那么自私！\n　　……\n　　看着这些前<em>世</em>背叛过自己的人们，张奕躺在安全屋里，舒舒服服的过着<em>世</em>外桃源一般的生活。\n　　张奕：你们死不死的跟我有什么关系啊？我的东西喂狗也不给你们！",
+                "high_light_position": [
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    27,
+                    2
+                  ],
+                  [
+                    66,
+                    2
+                  ],
+                  [
+                    123,
+                    2
+                  ],
+                  [
+                    242,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1014,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7317674913471401022",
+          "search_result_id": "7317674913471401022",
+          "search_high_light": {
+            "title": {
+              "text": "末世谜城：灭绝前夜",
+              "rich_text": "<em>末世</em>谜城：灭绝前夜",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "「无系统」「末世科幻」「硬汉男主」「真实」茫然、绝望、愤怒。灾变突至，世界陷入黑暗边缘。当平凡都成了奢望，在这个分崩离析的现实中，秦涛会选择怎样的救赎？",
+              "rich_text": "「无系统」「<em>末世科幻</em>」「硬汉男主」「真实」茫然、绝望、愤怒。灾变突至，<em>世</em>界陷入黑暗边缘。当平凡都成了奢望，在这个分崩离析的现实中，秦涛会选择怎样的救赎？",
+              "high_light_position": [
+                [
+                  6,
+                  4
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "「无系统」「末世科幻」「硬汉男主」「真实」茫然、绝望、愤怒。灾变突至，世界陷入黑暗边缘。当平凡都成了奢望，在这个分崩离析的现实中，秦涛会选择怎样的救赎？",
+              "author": "是为洒脱",
+              "book_id": "7317674913471401022",
+              "book_name": "末世谜城：灭绝前夜",
+              "category": "科幻末世",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-12-28T23:56:00+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7317675043792618046",
+              "first_chapter_item_id": "7317675043792618046",
+              "first_chapter_title": "第1章 陷落之城",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7363486436797989438",
+              "last_chapter_item_id": "7363486436797989438",
+              "last_chapter_title": "第一部最终章 189章 飞散",
+              "last_chapter_update_time": "1714453236",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "43",
+              "recommend_group_id": "7317674913471401022",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319100310903071C958D81BA8A546\",\"rank\":\"1\",\"normal_session_id\":\"2d14ae48-fb9e-428d-9621-8a172560e1f9\",\"cold_start_session_id\":\"e58ae681-7c3a-47bb-9ab0-e46f632baa1a\"}",
+              "read_progress": "0",
+              "serial_count": "189",
+              "source": "番茄小说",
+              "tags": "科幻末世,末世",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9229ef9f072e02fc17f9e5138e149bf1~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=tIk%2F2hgisaKWclXmS%2BuVZshQFT4%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "397103",
+              "score": "6.5",
+              "exclusive": "1",
+              "role": "秦涛",
+              "category_schema": "[{\"category_id\":8,\"name\":\"科幻末世\",\"schema\":\"dragon1967://newCategoryDetail?id=8&name=科幻末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":68,\"name\":\"末世\",\"schema\":\"dragon1967://newCategoryDetail?id=68&name=末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":379,\"name\":\"求生\",\"schema\":\"dragon1967://newCategoryDetail?id=379&name=求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":515,\"name\":\"末日求生\",\"schema\":\"dragon1967://newCategoryDetail?id=515&name=末日求生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "14",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1714453242",
+              "authorize_type": "1",
+              "media_id": "1786541063808025",
+              "original_book_name": "末世谜城：灭绝前夜",
+              "length_type": "1",
+              "op_tag": "536,535,901",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2o9229ef9f072e02fc17f9e5138e149bf1",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9229ef9f072e02fc17f9e5138e149bf1~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069790&x-signature=lgTMyR4DMt3g79kT2wy433USkR0%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "科幻末世,末日求生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#202020",
+              "read_count_all": "10557",
+              "shelf_cnt_history": "1246",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8661\":1703813643,\"8704\":1747880758,\"510893\":1703806766,\"507427\":1742089213,\"2503\":1703806766,\"8703\":1744961961,\"13\":1703806766,\"638505\":1724843125,\"3040\":1703813643,\"35\":1703806766,\"1967\":1703806766,\"507386\":1742089213,\"596084\":1715148048,\"6589\":1703813643,\"426946\":1736155142,\"1128\":1703806766,\"8662\":1703806766,\"2329\":1703806766}",
+              "category_v2_map": {
+                "68": true,
+                "8": true,
+                "379": true,
+                "515": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9229ef9f072e02fc17f9e5138e149bf1~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=tIk%2F2hgisaKWclXmS%2BuVZshQFT4%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7317674914037634366,
+                  "AuthorName": "是为洒脱"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9229ef9f072e02fc17f9e5138e149bf1~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069790&x-signature=PkxpiLST1YtiTybFf6sVUiYNOUk%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "「无系统」「末世科幻」「硬汉男主」「真实」茫然、绝望、愤怒。灾变突至，世界陷入黑暗边缘。当平凡都成了奢望，在这个分崩离析的现实中，秦涛会选择怎样的救赎？",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9229ef9f072e02fc17f9e5138e149bf1~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=yDDSRPDsCUjrhYmMiK3BtyDbn90%3D",
+              "raw_book_name": "末世谜城：灭绝前夜",
+              "color_audio_dominate": "#33302F"
+            }
+          ],
+          "search_attached_info": "14644230189879950619:14:0:133156702:clks####3@202603191002370418AD8A55B49397373D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "39.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "43人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "科幻末世",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：是为洒脱",
+                "rich_text": "作者：是为洒脱",
+                "high_light_position": []
+              },
+              {
+                "text": "「无系统」「末世科幻」「硬汉男主」「真实」茫然、绝望、愤怒。灾变突至，世界陷入黑暗边缘。当平凡都成了奢望，在这个分崩离析的现实中，秦涛会选择怎样的救赎？",
+                "rich_text": "「无系统」「<em>末世科幻</em>」「硬汉男主」「真实」茫然、绝望、愤怒。灾变突至，<em>世</em>界陷入黑暗边缘。当平凡都成了奢望，在这个分崩离析的现实中，秦涛会选择怎样的救赎？",
+                "high_light_position": [
+                  [
+                    6,
+                    4
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1015,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7441618502693162008",
+          "search_result_id": "7441618502693162008",
+          "search_high_light": {
+            "title": {
+              "text": "末世降临废土求生",
+              "rich_text": "<em>末世</em>降临废土求生",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "末世降临，丧尸肆虐，却意外觉醒异能，本以为可以一飞冲天。可惜丧尸变异兽成长速度太快远非人类可比。一路逃窜，却处处都是危机。人类空间逐渐被蚕食。声明本书无后宫，无互食情节，即是末世一定会出现的这就没必要多写。丧尸类小说，本身就有问题口口传播，传不起来。空气传播，那就是灭世了。二战时都能屠杀几千万，现在的武器杀不死丧尸？只有进化后的丧尸才能抵挡现在武器的攻击。",
+              "rich_text": "<em>末世</em>降临，丧尸肆虐，却意外觉醒异能，本以为可以一飞冲天。可惜丧尸变异兽成长速度太快远非人类可比。一路逃窜，却处处都是危机。人类空间逐渐被蚕食。声明本书无后宫，无互食情节，即是<em>末世</em>一定会出现的这就没必要多写。丧尸类小说，本身就有问题口口传播，传不起来。空气传播，那就是灭<em>世</em>了。二战时都能屠杀几千万，现在的武器杀不死丧尸？只有进化后的丧尸才能抵挡现在武器的攻击。",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  87,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "末世降临，丧尸肆虐，却意外觉醒异能，本以为可以一飞冲天。可惜丧尸变异兽成长速度太快远非人类可比。一路逃窜，却处处都是危机。人类空间逐渐被蚕食。声明本书无后宫，无互食情节，即是末世一定会出现的这就没必要多写。丧尸类小说，本身就有问题口口传播，传不起来。空气传播，那就是灭世了。二战时都能屠杀几千万，现在的武器杀不死丧尸？只有进化后的丧尸才能抵挡现在武器的攻击。",
+              "author": "不是钓鱼佬",
+              "book_id": "7441618502693162008",
+              "book_name": "末世降临废土求生",
+              "category": "科幻末世",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-11-27T00:00:25+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7441618650789839384",
+              "first_chapter_item_id": "7441618650789839384",
+              "first_chapter_title": "第1章 末日降临",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7553250076664005144",
+              "last_chapter_item_id": "7553250076664005144",
+              "last_chapter_title": "第180章 回来了",
+              "last_chapter_update_time": "1759161829",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "314",
+              "recommend_group_id": "7441618502693162008",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319100310903071C958D81BA8A546\",\"rank\":\"1\",\"normal_session_id\":\"2d14ae48-fb9e-428d-9621-8a172560e1f9\",\"cold_start_session_id\":\"e58ae681-7c3a-47bb-9ab0-e46f632baa1a\"}",
+              "read_progress": "0",
+              "serial_count": "573",
+              "source": "番茄小说",
+              "tags": "科幻末世,末世",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4d46b38912698ccb5639443ccc256bae~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=Ili2UpHDOmFXw05H0cM5cfIJ4M4%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1271938",
+              "score": "0",
+              "exclusive": "1",
+              "role": "杨林,陈峰",
+              "category_schema": "[{\"category_id\":8,\"name\":\"科幻末世\",\"schema\":\"dragon1967://newCategoryDetail?id=8&name=科幻末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":68,\"name\":\"末世\",\"schema\":\"dragon1967://newCategoryDetail?id=68&name=末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":379,\"name\":\"求生\",\"schema\":\"dragon1967://newCategoryDetail?id=379&name=求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":515,\"name\":\"末日求生\",\"schema\":\"dragon1967://newCategoryDetail?id=515&name=末日求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":838,\"name\":\"无后宫\",\"schema\":\"dragon1967://newCategoryDetail?id=838&name=无后宫&genre_type=0&gender=1&source=detail\"},{\"category_id\":869,\"name\":\"废土\",\"schema\":\"dragon1967://newCategoryDetail?id=869&name=废土&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "66",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1759162181",
+              "authorize_type": "1",
+              "media_id": "1816494607441924",
+              "original_book_name": "末世降临废土求生",
+              "length_type": "0",
+              "op_tag": "535,536,1128,1132",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2o4d46b38912698ccb5639443ccc256bae",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4d46b38912698ccb5639443ccc256bae~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069790&x-signature=VqVO1ezAgmYAryDCRKa7V8v0mQ8%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "科幻末世,废土",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#283028",
+              "read_count_all": "7989",
+              "shelf_cnt_history": "977",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"596084\":1732778618,\"35\":1732682962,\"638505\":1732778618,\"6589\":1732778618,\"2503\":1732682962,\"507427\":1741793443,\"1967\":1732682962,\"3040\":1732778618,\"8704\":1747113743,\"13\":1732682962,\"2329\":1732682962,\"1128\":1732682962,\"507386\":1741793443,\"8662\":1732682962,\"8661\":1732778618,\"8703\":1744952754,\"510893\":1732682962}",
+              "category_v2_map": {
+                "68": true,
+                "379": true,
+                "838": true,
+                "8": true,
+                "515": true,
+                "869": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4d46b38912698ccb5639443ccc256bae~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=Ili2UpHDOmFXw05H0cM5cfIJ4M4%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7440362407689458968,
+                  "AuthorName": "不是钓鱼佬"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4d46b38912698ccb5639443ccc256bae~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069790&x-signature=NpoR6O5sdxd8Wo7oaeg7Of3vKRw%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "末世降临，丧尸肆虐，却意外觉醒异能，本以为可以一飞冲天。可惜丧尸变异兽成长速度太快远非人类可比。一路逃窜，却处处都是危机。人类空间逐渐被蚕食。声明本书无后宫，无互食情节，即是末世一定会出现的这就没必要多写。丧尸类小说，本身就有问题口口传播，传不起来。空气传播，那就是灭世了。二战时都能屠杀几千万，现在的武器杀不死丧尸？只有进化后的丧尸才能抵挡现在武器的攻击。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4d46b38912698ccb5639443ccc256bae~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=I3Yu6ATx5yMbn6DtwhGaG08BvqA%3D",
+              "raw_book_name": "末世降临废土求生",
+              "color_audio_dominate": "#2D2F2E"
+            }
+          ],
+          "search_attached_info": "14644230189879950619:15:0:3791278944:clks####3@202603191002370418AD8A55B49397373D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "127.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "314人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "科幻末世",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：不是钓鱼佬",
+                "rich_text": "作者：不是钓鱼佬",
+                "high_light_position": []
+              },
+              {
+                "text": "末世降临，丧尸肆虐，却意外觉醒异能，本以为可以一飞冲天。可惜丧尸变异兽成长速度太快远非人类可比。一路逃窜，却处处都是危机。人类空间逐渐被蚕食。声明本书无后宫，无互食情节，即是末世一定会出现的这就没必要多写。丧尸类小说，本身就有问题口口传播，传不起来。空气传播，那就是灭世了。二战时都能屠杀几千万，现在的武器杀不死丧尸？只有进化后的丧尸才能抵挡现在武器的攻击。",
+                "rich_text": "<em>末世</em>降临，丧尸肆虐，却意外觉醒异能，本以为可以一飞冲天。可惜丧尸变异兽成长速度太快远非人类可比。一路逃窜，却处处都是危机。人类空间逐渐被蚕食。声明本书无后宫，无互食情节，即是<em>末世</em>一定会出现的这就没必要多写。丧尸类小说，本身就有问题口口传播，传不起来。空气传播，那就是灭<em>世</em>了。二战时都能屠杀几千万，现在的武器杀不死丧尸？只有进化后的丧尸才能抵挡现在武器的攻击。",
+                "high_light_position": [
+                  [
+                    0,
+                    2
+                  ],
+                  [
+                    87,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1016,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7239220785737370657",
+          "search_result_id": "7239220785737370657",
+          "search_high_light": {
+            "title": {
+              "text": "末世：收够三千女神",
+              "rich_text": "<em>末世</em>：收够三千女神",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【末世爆发，丧尸横行，凶兽蛰伏，天灾不断】...话降世＋万族……】 末世爆发，丧尸横行，凶兽蛰伏，天灾不断，秩序崩塌，道德沦丧，人性扭曲。 末世五年的夜君莫，重生回到末世爆发前十天。 囤物资，收女神，建立女子军团。 当神话生物降世，万族林立，人类幸存者的挑战才刚刚开始！",
+              "rich_text": "【<em>末</em>日＋杀伐果断＋绝对利益主义者＋重生＋美女军团＋系统＋囤物资＋天灾＋黑暗＋异能＋神话降<em>世</em>＋万族……】\n<em>末世</em>爆发，丧尸横行，凶兽蛰伏，天灾不断，秩序崩塌，道德沦丧，人性扭曲。\n<em>末世</em>五年的夜君莫，重生回到<em>末世</em>爆发前十天。\n囤物资，收女神，建立女子军团。\n当神话生物降<em>世</em>，万族林立，人类幸存者的挑战才刚刚开始！",
+              "high_light_position": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  34,
+                  2
+                ],
+                [
+                  70,
+                  2
+                ],
+                [
+                  83,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【末日＋杀伐果断＋绝对利益主义者＋重生＋美女军团＋系统＋囤物资＋天灾＋黑暗＋异能＋神话降世＋万族……】\n末世爆发，丧尸横行，凶兽蛰伏，天灾不断，秩序崩塌，道德沦丧，人性扭曲。\n末世五年的夜君莫，重生回到末世爆发前十天。\n囤物资，收女神，建立女子军团。\n当神话生物降世，万族林立，人类幸存者的挑战才刚刚开始！",
+              "author": "缇米呀",
+              "book_id": "7239220785737370657",
+              "book_name": "末世：收够三千女神",
+              "category": "科幻末世",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-05-31T13:53:55+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7239220890016318007",
+              "first_chapter_item_id": "7239220890016318007",
+              "first_chapter_title": "第1章 重生",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7617101236893925950",
+              "last_chapter_item_id": "7617101236893925950",
+              "last_chapter_title": "第1751章 九劫尊主，洛天枢",
+              "last_chapter_update_time": "1773849810",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "40043",
+              "recommend_group_id": "7239220785737370657",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319100310903071C958D81BA8A546\",\"rank\":\"1\",\"normal_session_id\":\"2d14ae48-fb9e-428d-9621-8a172560e1f9\",\"cold_start_session_id\":\"e58ae681-7c3a-47bb-9ab0-e46f632baa1a\"}",
+              "read_progress": "0",
+              "serial_count": "1751",
+              "source": "番茄小说",
+              "tags": "科幻末世,重生",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/435dc2e043c86f47013c573cf86113e5~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=z46L3A4B%2Fv%2FVnTqyRAcIIGyULJU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "3690499",
+              "score": "8.0",
+              "exclusive": "1",
+              "role": "夜君莫,苏菲",
+              "category_schema": "[{\"category_id\":8,\"name\":\"科幻末世\",\"schema\":\"dragon1967://newCategoryDetail?id=8&name=科幻末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":68,\"name\":\"末世\",\"schema\":\"dragon1967://newCategoryDetail?id=68&name=末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":379,\"name\":\"求生\",\"schema\":\"dragon1967://newCategoryDetail?id=379&name=求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":494,\"name\":\"囤物资\",\"schema\":\"dragon1967://newCategoryDetail?id=494&name=囤物资&genre_type=0&gender=1&source=detail\"},{\"category_id\":515,\"name\":\"末日求生\",\"schema\":\"dragon1967://newCategoryDetail?id=515&name=末日求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":658,\"name\":\"天灾\",\"schema\":\"dragon1967://newCategoryDetail?id=658&name=天灾&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7342897835173760062,7366898191880457241,7372102867274468414]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "9144",
+              "sub_info": "4.1万人在读",
+              "last_publish_time": "1773851544",
+              "authorize_type": "1",
+              "media_id": "1767387623961615",
+              "original_book_name": "末世：目标三千女神军",
+              "length_type": "0",
+              "op_tag": "305,304,536,502,871,245,892,535,873,347,853,1027,1024,1130,1132",
+              "keep_publish_days": "501",
+              "thumb_uri": "novel-pic/435dc2e043c86f47013c573cf86113e5",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/fa190f7e355e0518b95b167e37a565ef",
+              "data_rate": "",
+              "all_bookshelf_count": "4457",
+              "pure_category_tags": "科幻末世,天灾",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#484048",
+              "read_count_all": "2993690",
+              "shelf_cnt_history": "570225",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507386\":1741795513,\"638505\":1724786364,\"1128\":1685513196,\"2503\":1685513196,\"1967\":1685513196,\"2329\":1685513196,\"6589\":1685539918,\"596084\":1715104541,\"35\":1685513196,\"13\":1685513196,\"8662\":1685513196,\"3040\":1692675882,\"510893\":1689657838,\"1112\":1693476513,\"8704\":1747152306,\"8703\":1744883519,\"507427\":1741795513,\"8661\":1692675882}",
+              "category_v2_map": {
+                "8": true,
+                "19": true,
+                "379": true,
+                "658": true,
+                "36": true,
+                "68": true,
+                "494": true,
+                "515": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/435dc2e043c86f47013c573cf86113e5~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=z46L3A4B%2Fv%2FVnTqyRAcIIGyULJU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7239220789659047172,
+                  "AuthorName": "缇米呀"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "尸行无忌",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/fa190f7e355e0518b95b167e37a565ef~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069790&x-signature=OHAgcy1w4IOinkUs%2FJQ3dowFnFc%3D",
+              "reputation_thumb_uri": "novel-pic-r/4630d5fdcf3b4542bc582c5876d7622c",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【末日＋杀伐果断＋绝对利益主义者＋重生＋美女军团＋系统＋囤物资＋天灾＋黑暗＋异能＋神话降世＋万族……】\n末世爆发，丧尸横行，凶兽蛰伏，天灾不断，秩序崩塌，道德沦丧，人性扭曲。\n末世五年的夜君莫，重生回到末世爆发前十天。\n囤物资，收女神，建立女子军团。\n当神话生物降世，万族林立，人类幸存者的挑战才刚刚开始！",
+              "read_page_progress": "0",
+              "read_cnt_text": "4.1万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/435dc2e043c86f47013c573cf86113e5~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=eO2PdDGcwENDh5crSLbAiHcBRUk%3D",
+              "raw_book_name": "末世：收够三千女神",
+              "color_audio_dominate": "#2E2925"
+            }
+          ],
+          "search_attached_info": "14644230189879950619:16:0:3398999201:clks####3@202603191002370418AD8A55B49397373D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "369.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "科幻末世",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：缇米呀",
+                "rich_text": "作者：缇米呀",
+                "high_light_position": []
+              },
+              {
+                "text": "【末世爆发，丧尸横行，凶兽蛰伏，天灾不断】...话降世＋万族……】 末世爆发，丧尸横行，凶兽蛰伏，天灾不断，秩序崩塌，道德沦丧，人性扭曲。 末世五年的夜君莫，重生回到末世爆发前十天。 囤物资，收女神，建立女子军团。 当神话生物降世，万族林立，人类幸存者的挑战才刚刚开始！",
+                "rich_text": "【<em>末</em>日＋杀伐果断＋绝对利益主义者＋重生＋美女军团＋系统＋囤物资＋天灾＋黑暗＋异能＋神话降<em>世</em>＋万族……】\n<em>末世</em>爆发，丧尸横行，凶兽蛰伏，天灾不断，秩序崩塌，道德沦丧，人性扭曲。\n<em>末世</em>五年的夜君莫，重生回到<em>末世</em>爆发前十天。\n囤物资，收女神，建立女子军团。\n当神话生物降<em>世</em>，万族林立，人类幸存者的挑战才刚刚开始！",
+                "high_light_position": [
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    34,
+                    2
+                  ],
+                  [
+                    70,
+                    2
+                  ],
+                  [
+                    83,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1017,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7327218508293475390",
+          "search_result_id": "7327218508293475390",
+          "search_high_light": {
+            "abstract": {
+              "text": "丧尸，极寒，极热，地震，酸雨…… 超市内完全无敌。 宇宙万界。 一开始系统就赋予全系异能，但只是起点，后面升级速度快，实力轻松碾压，就算外星高等文明也是渣渣。 当别人为了吃的拼出性命，血流成河时，男主坐拥一座超市。 当女人为了食物甘愿委身时，男主坐怀不乱，甚至觉得反感。 总有些不长眼的，那就直接杀了！ 各基地：“要和超市老板搞好关系！” 丧尸皇：“要和超市老板成为朋友！” 对于外星文明，官方：“只有超市老板能帮我们了！” 超市九层，越往高层，所卖的东西更是就连外星高等文明种族也震惊当场。 本故事纯属虚构！",
+              "rich_text": "丧尸，极寒，极热，地震，酸雨……\n超市内完全无敌。\n宇宙万界。\n一开始系统就赋予全系异能，但只是起点，后面升级速度快，实力轻松碾压，就算外星高等文明也是渣渣。\n当别人为了吃的拼出性命，血流成河时，男主坐拥一座超市。\n当女人为了食物甘愿委身时，男主坐怀不乱，甚至觉得反感。\n总有些不长眼的，那就直接杀了！\n各基地：“要和超市老板搞好关系！”\n丧尸皇：“要和超市老板成为朋友！”\n对于外星文明，官方：“只有超市老板能帮我们了！”\n超市九层，越往高层，所卖的东西更是就连外星高等文明种族也震惊当场。\n本故事纯属虚构！",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "末世重生，获无敌超市系统",
+              "rich_text": "<em>末世</em>重生，获无敌超市系统",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "丧尸，极寒，极热，地震，酸雨……\n超市内完全无敌。\n宇宙万界。\n一开始系统就赋予全系异能，但只是起点，后面升级速度快，实力轻松碾压，就算外星高等文明也是渣渣。\n当别人为了吃的拼出性命，血流成河时，男主坐拥一座超市。\n当女人为了食物甘愿委身时，男主坐怀不乱，甚至觉得反感。\n总有些不长眼的，那就直接杀了！\n各基地：“要和超市老板搞好关系！”\n丧尸皇：“要和超市老板成为朋友！”\n对于外星文明，官方：“只有超市老板能帮我们了！”\n超市九层，越往高层，所卖的东西更是就连外星高等文明种族也震惊当场。\n本故事纯属虚构！",
+              "author": "亿千秋",
+              "book_id": "7327218508293475390",
+              "book_name": "末世重生，获无敌超市系统",
+              "category": "科幻末世",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-01-23T17:10:01+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7327245054504862270",
+              "first_chapter_item_id": "7327245054504862270",
+              "first_chapter_title": "第1章 送宿主三个宝箱",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7425608260608066073",
+              "last_chapter_item_id": "7425608260608066073",
+              "last_chapter_title": "第584章 等我回来",
+              "last_chapter_update_time": "1728949908",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "12130",
+              "recommend_group_id": "7327218508293475390",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319100310903071C958D81BA8A546\",\"rank\":\"1\",\"normal_session_id\":\"2d14ae48-fb9e-428d-9621-8a172560e1f9\",\"cold_start_session_id\":\"e58ae681-7c3a-47bb-9ab0-e46f632baa1a\"}",
+              "read_progress": "0",
+              "serial_count": "584",
+              "source": "番茄小说",
+              "tags": "科幻末世,重生",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e44326a9942ad7606b2c2fc97525c599~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=mndATIzDNZAwotNqUwKDdlHUoy0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1187584",
+              "score": "7.9",
+              "exclusive": "1",
+              "role": "叶子霄",
+              "category_schema": "[{\"category_id\":8,\"name\":\"科幻末世\",\"schema\":\"dragon1967://newCategoryDetail?id=8&name=科幻末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":68,\"name\":\"末世\",\"schema\":\"dragon1967://newCategoryDetail?id=68&name=末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":379,\"name\":\"求生\",\"schema\":\"dragon1967://newCategoryDetail?id=379&name=求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":384,\"name\":\"无敌\",\"schema\":\"dragon1967://newCategoryDetail?id=384&name=无敌&genre_type=0&gender=1&source=detail\"},{\"category_id\":391,\"name\":\"无女主\",\"schema\":\"dragon1967://newCategoryDetail?id=391&name=无女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":515,\"name\":\"末日求生\",\"schema\":\"dragon1967://newCategoryDetail?id=515&name=末日求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":838,\"name\":\"无后宫\",\"schema\":\"dragon1967://newCategoryDetail?id=838&name=无后宫&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "2304",
+              "sub_info": "1.3万人在读",
+              "last_publish_time": "1728949915",
+              "authorize_type": "1",
+              "media_id": "1758713221483524",
+              "original_book_name": "末世！无敌系统送九层楼超市",
+              "length_type": "0",
+              "op_tag": "305,888,536,535,871,856,889,1029,1132",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/e44326a9942ad7606b2c2fc97525c599",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/174c040dc4e01311854c2e198fcd3465",
+              "data_rate": "",
+              "all_bookshelf_count": "1287",
+              "pure_category_tags": "科幻末世,无后宫",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#181818",
+              "read_count_all": "1571714",
+              "shelf_cnt_history": "259718",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8661\":1706080918,\"507427\":1742429198,\"596084\":1715067849,\"35\":1706062212,\"638505\":1724804491,\"3040\":1706080918,\"8703\":1744964257,\"2503\":1706062212,\"8662\":1706062212,\"507386\":1742429198,\"8704\":1747727550,\"2329\":1706062212,\"6589\":1706080918,\"13\":1706062212,\"510893\":1706062212,\"426946\":1736165584,\"1128\":1706062212,\"1967\":1706062212}",
+              "category_v2_map": {
+                "838": true,
+                "19": true,
+                "36": true,
+                "68": true,
+                "379": true,
+                "391": true,
+                "8": true,
+                "384": true,
+                "515": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e44326a9942ad7606b2c2fc97525c599~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=mndATIzDNZAwotNqUwKDdlHUoy0%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7217745548730701108,
+                  "AuthorName": "亿千秋"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "末世无敌超市",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/174c040dc4e01311854c2e198fcd3465~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069790&x-signature=ww9wVmJL2NxNsrZ%2FzkaL0AmINWA%3D",
+              "reputation_thumb_uri": "novel-pic-r/4a2886eb62bcfd2006d301399b552767",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "丧尸，极寒，极热，地震，酸雨……\n超市内完全无敌。\n宇宙万界。\n一开始系统就赋予全系异能，但只是起点，后面升级速度快，实力轻松碾压，就算外星高等文明也是渣渣。\n当别人为了吃的拼出性命，血流成河时，男主坐拥一座超市。\n当女人为了食物甘愿委身时，男主坐怀不乱，甚至觉得反感。\n总有些不长眼的，那就直接杀了！\n各基地：“要和超市老板搞好关系！”\n丧尸皇：“要和超市老板成为朋友！”\n对于外星文明，官方：“只有超市老板能帮我们了！”\n超市九层，越往高层，所卖的东西更是就连外星高等文明种族也震惊当场。\n本故事纯属虚构！",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.3万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e44326a9942ad7606b2c2fc97525c599~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=EDnA035dD5KaL1wwVaBytGp1Qek%3D",
+              "raw_book_name": "末世重生，获无敌超市系统",
+              "color_audio_dominate": "#22100D"
+            }
+          ],
+          "search_attached_info": "14644230189879950619:17:0:1152252450:clks####3@202603191002370418AD8A55B49397373D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "118.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "科幻末世",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：亿千秋",
+                "rich_text": "作者：亿千秋",
+                "high_light_position": []
+              },
+              {
+                "text": "丧尸，极寒，极热，地震，酸雨…… 超市内完全无敌。 宇宙万界。 一开始系统就赋予全系异能，但只是起点，后面升级速度快，实力轻松碾压，就算外星高等文明也是渣渣。 当别人为了吃的拼出性命，血流成河时，男主坐拥一座超市。 当女人为了食物甘愿委身时，男主坐怀不乱，甚至觉得反感。 总有些不长眼的，那就直接杀了！ 各基地：“要和超市老板搞好关系！” 丧尸皇：“要和超市老板成为朋友！” 对于外星文明，官方：“只有超市老板能帮我们了！” 超市九层，越往高层，所卖的东西更是就连外星高等文明种族也震惊当场。 本故事纯属虚构！",
+                "rich_text": "丧尸，极寒，极热，地震，酸雨……\n超市内完全无敌。\n宇宙万界。\n一开始系统就赋予全系异能，但只是起点，后面升级速度快，实力轻松碾压，就算外星高等文明也是渣渣。\n当别人为了吃的拼出性命，血流成河时，男主坐拥一座超市。\n当女人为了食物甘愿委身时，男主坐怀不乱，甚至觉得反感。\n总有些不长眼的，那就直接杀了！\n各基地：“要和超市老板搞好关系！”\n丧尸皇：“要和超市老板成为朋友！”\n对于外星文明，官方：“只有超市老板能帮我们了！”\n超市九层，越往高层，所卖的东西更是就连外星高等文明种族也震惊当场。\n本故事纯属虚构！",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1018,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7317525935996013630",
+          "search_result_id": "7317525935996013630",
+          "search_high_light": {
+            "title": {
+              "text": "末世之我想干什么就干谁",
+              "rich_text": "<em>末世</em>之我想干什么就干谁",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...美女多+冷酷无情》 末世降临囤物资？ 不可能得，因为我的物质无限。 一块饼干让昔日校花低下高贵的头颅，一块面包让往日大紫大红的明星折腰。 都末世了，谁还谈恋爱啊，兄弟。",
+              "rich_text": "《杀伐果断+不圣母+美女多+冷酷无情》\n<em>末世</em>降临囤物资？\n不可能得，因为我的物质无限。\n一块饼干让昔日校花低下高贵的头颅，一块面包让往日大紫大红的明星折腰。\n都<em>末世</em>了，谁还谈恋爱啊，兄弟。",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  73,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "《杀伐果断+不圣母+美女多+冷酷无情》\n末世降临囤物资？\n不可能得，因为我的物质无限。\n一块饼干让昔日校花低下高贵的头颅，一块面包让往日大紫大红的明星折腰。\n都末世了，谁还谈恋爱啊，兄弟。",
+              "author": "全家的希望",
+              "book_id": "7317525935996013630",
+              "book_name": "末世之我想干什么就干谁",
+              "category": "科幻末世",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-12-28T14:17:53+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7317526038643212862",
+              "first_chapter_item_id": "7317526038643212862",
+              "first_chapter_title": "第1章 末世法则",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7432169248182518297",
+              "last_chapter_item_id": "7432169248182518297",
+              "last_chapter_title": "番外 FMVP。",
+              "last_chapter_update_time": "1730442730",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "93644",
+              "recommend_group_id": "7317525935996013630",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319100310903071C958D81BA8A546\",\"rank\":\"1\",\"normal_session_id\":\"2d14ae48-fb9e-428d-9621-8a172560e1f9\",\"cold_start_session_id\":\"e58ae681-7c3a-47bb-9ab0-e46f632baa1a\"}",
+              "read_progress": "0",
+              "serial_count": "803",
+              "source": "番茄小说",
+              "tags": "科幻末世,末世",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/073c75f4d763ce8f4e650fc75ca9f756~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=Y%2BqRuBaxTTMzw3KgA%2F8pN%2Ba16ZQ%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1699766",
+              "score": "8.4",
+              "exclusive": "1",
+              "role": "唐泽",
+              "category_schema": "[{\"category_id\":8,\"name\":\"科幻末世\",\"schema\":\"dragon1967://newCategoryDetail?id=8&name=科幻末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":68,\"name\":\"末世\",\"schema\":\"dragon1967://newCategoryDetail?id=68&name=末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":379,\"name\":\"求生\",\"schema\":\"dragon1967://newCategoryDetail?id=379&name=求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":515,\"name\":\"末日求生\",\"schema\":\"dragon1967://newCategoryDetail?id=515&name=末日求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7366908147078024254]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "13374",
+              "sub_info": "9.4万人在读",
+              "last_publish_time": "1730442738",
+              "authorize_type": "1",
+              "media_id": "1738759171621902",
+              "original_book_name": "别人过末世，我无敌",
+              "length_type": "0",
+              "op_tag": "873,883,1027,1128,1403,868,536,966,984,535,1132,888,246,531",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/073c75f4d763ce8f4e650fc75ca9f756",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/5399c3a696cb82a62d6f4f0a99ef9dd0",
+              "data_rate": "",
+              "all_bookshelf_count": "9262",
+              "pure_category_tags": "科幻末世,打脸",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#202030",
+              "read_count_all": "6796134",
+              "shelf_cnt_history": "1166579",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2329\":1703745037,\"510893\":1703745037,\"3040\":1704009125,\"8662\":1703745037,\"8661\":1704009125,\"507427\":1742360619,\"638505\":1724763516,\"507386\":1742360619,\"2503\":1703745037,\"13\":1703745037,\"8703\":1744965822,\"1967\":1703745037,\"35\":1703745037,\"426946\":1736164649,\"6589\":1704009125,\"596084\":1714097944,\"1128\":1703745037,\"8704\":1747191476}",
+              "category_v2_map": {
+                "515": true,
+                "68": true,
+                "522": true,
+                "8": true,
+                "379": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/073c75f4d763ce8f4e650fc75ca9f756~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=Y%2BqRuBaxTTMzw3KgA%2F8pN%2Ba16ZQ%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7173178657626658100,
+                  "AuthorName": "全家的希望"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "终末奏曲",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/5399c3a696cb82a62d6f4f0a99ef9dd0~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069790&x-signature=KhnMa3LMgMySwNLYudzCQqNSx1Q%3D",
+              "reputation_thumb_uri": "novel-pic-r/66f24cb6b5ba9f634f686e3062582c5e",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "《杀伐果断+不圣母+美女多+冷酷无情》\n末世降临囤物资？\n不可能得，因为我的物质无限。\n一块饼干让昔日校花低下高贵的头颅，一块面包让往日大紫大红的明星折腰。\n都末世了，谁还谈恋爱啊，兄弟。",
+              "read_page_progress": "0",
+              "read_cnt_text": "9.4万人在读",
+              "detail_page_thumb_url": "https://p9-reading-sign.fqnovelpic.com/novel-pic/073c75f4d763ce8f4e650fc75ca9f756~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=2uqaAZgpIC4807Ydinv%2FBv6Yu90%3D",
+              "raw_book_name": "末世之我想干什么就干谁",
+              "related_bookids": "{\"8662\":{\"205\":[7583931080743324734,7616549307449084952]},\"3040\":{\"205\":[7583931080743324734,7616549307449084952]},\"1967\":{\"205\":[7616549307449084952]},\"507386\":{\"205\":[7583931080743324734,7616549307449084952]},\"507427\":{\"205\":[7583931080743324734,7616549307449084952]}}",
+              "color_audio_dominate": "#261210"
+            }
+          ],
+          "search_attached_info": "14644230189879950619:18:0:3074788331:clks####3@202603191002370418AD8A55B49397373D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "“细糠”",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "170.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "9万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "科幻末世",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：全家的希望",
+                "rich_text": "作者：全家的希望",
+                "high_light_position": []
+              },
+              {
+                "text": "...美女多+冷酷无情》 末世降临囤物资？ 不可能得，因为我的物质无限。 一块饼干让昔日校花低下高贵的头颅，一块面包让往日大紫大红的明星折腰。 都末世了，谁还谈恋爱啊，兄弟。",
+                "rich_text": "《杀伐果断+不圣母+美女多+冷酷无情》\n<em>末世</em>降临囤物资？\n不可能得，因为我的物质无限。\n一块饼干让昔日校花低下高贵的头颅，一块面包让往日大紫大红的明星折腰。\n都<em>末世</em>了，谁还谈恋爱啊，兄弟。",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    73,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1019,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7251546591729814586",
+          "search_result_id": "7251546591729814586",
+          "search_high_light": {
+            "abstract": {
+              "text": "【科幻】+【星际】+【丧尸】+【宇宙】 别名：星际超越 陆平爬出核反应堆，发现全场上万人全都变成了丧尸。绝境中只救下美女秘书。 看点1:全景式手法描写，揭开核电站的神秘面纱！ 看点2:宏大的宇宙观设定，从太阳系→第三旋臂→银河系/大三角星系/仙女座河系→本星系群→室女座星团→本超星系团→拉尼亚凯亚超星系团→三维本宇宙→高维宇宙/多维宇宙→平行宇宙/全息宇宙→四象宇宙。 看点3：完善的7级文明等级设定及核心科技。 看点4：独创的一套科幻理论体系。从核聚变到超时空穿越，都有理论支撑逐层递进。 看点5：原创黑科技: 戴森大炮：抽取恒星物质攻击 超级魔方：叠加态四维空间飞船，可发动降维打击、空间堙灭，后期升级为时空飞船。 戴森驱动器/引力波驱动器：驱动恒星/黑洞曲率飞行。 凭空造物：高维波动效应与显波理论，凭空制造和毁灭物质。 能量态生命：等离子态、电子简并态、中子简并态生命体等。 全息生命：实体态、能量态、信息态任意转化。 时空场震荡波：高维波动加超时空效应攻击。 小时空：改变时间流速的空间武器。 全息场：全息生命通过全息场可穿越膜宇宙任意坐标。 四象宇宙及坐标系:正负反大统一宇宙及坐标系。",
+              "rich_text": "【<em>科幻</em>】+【星际】+【丧尸】+【宇宙】\n别名：星际超越\n陆平爬出核反应堆，发现全场上万人全都变成了丧尸。绝境中只救下美女秘书。\n看点1:全景式手法描写，揭开核电站的神秘面纱！\n看点2:宏大的宇宙观设定，从太阳系→第三旋臂→银河系/大三角星系/仙女座河系→本星系群→室女座星团→本超星系团→拉尼亚凯亚超星系团→三维本宇宙→高维宇宙/多维宇宙→平行宇宙/全息宇宙→四象宇宙。\n看点3：完善的7级文明等级设定及核心<em>科</em>技。\n看点4：独创的一套<em>科幻</em>理论体系。从核聚变到超时空穿越，都有理论支撑逐层递进。\n看点5：原创黑<em>科</em>技:\n戴森大炮：抽取恒星物质攻击\n超级魔方：叠加态四维空间飞船，可发动降维打击、空间堙灭，后期升级为时空飞船。\n戴森驱动器/引力波驱动器：驱动恒星/黑洞曲率飞行。\n凭空造物：高维波动效应与显波理论，凭空制造和毁灭物质。\n能量态生命：等离子态、电子简并态、中子简并态生命体等。\n全息生命：实体态、能量态、信息态任意转化。\n时空场震荡波：高维波动加超时空效应攻击。\n小时空：改变时间流速的空间武器。\n全息场：全息生命通过全息场可穿越膜宇宙任意坐标。\n四象宇宙及坐标系:正负反大统一宇宙及坐标系。",
+              "high_light_position": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  217,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "全息生命",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【科幻】+【星际】+【丧尸】+【宇宙】\n别名：星际超越\n陆平爬出核反应堆，发现全场上万人全都变成了丧尸。绝境中只救下美女秘书。\n看点1:全景式手法描写，揭开核电站的神秘面纱！\n看点2:宏大的宇宙观设定，从太阳系→第三旋臂→银河系/大三角星系/仙女座河系→本星系群→室女座星团→本超星系团→拉尼亚凯亚超星系团→三维本宇宙→高维宇宙/多维宇宙→平行宇宙/全息宇宙→四象宇宙。\n看点3：完善的7级文明等级设定及核心科技。\n看点4：独创的一套科幻理论体系。从核聚变到超时空穿越，都有理论支撑逐层递进。\n看点5：原创黑科技:\n戴森大炮：抽取恒星物质攻击\n超级魔方：叠加态四维空间飞船，可发动降维打击、空间堙灭，后期升级为时空飞船。\n戴森驱动器/引力波驱动器：驱动恒星/黑洞曲率飞行。\n凭空造物：高维波动效应与显波理论，凭空制造和毁灭物质。\n能量态生命：等离子态、电子简并态、中子简并态生命体等。\n全息生命：实体态、能量态、信息态任意转化。\n时空场震荡波：高维波动加超时空效应攻击。\n小时空：改变时间流速的空间武器。\n全息场：全息生命通过全息场可穿越膜宇宙任意坐标。\n四象宇宙及坐标系:正负反大统一宇宙及坐标系。",
+              "author": "赤脚大仙",
+              "book_id": "7251546591729814586",
+              "book_name": "全息生命",
+              "category": "科幻末世",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-07-03T19:04:20+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7251592307613368843",
+              "first_chapter_item_id": "7251592307613368843",
+              "first_chapter_title": "第1章 灾变",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7324372617505292862",
+              "last_chapter_item_id": "7324372617505292862",
+              "last_chapter_title": "第104章 大结局下：创世纪",
+              "last_chapter_update_time": "1705339414",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "436",
+              "recommend_group_id": "7251546591729814586",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319100310903071C958D81BA8A546\",\"rank\":\"1\",\"normal_session_id\":\"2d14ae48-fb9e-428d-9621-8a172560e1f9\",\"cold_start_session_id\":\"e58ae681-7c3a-47bb-9ab0-e46f632baa1a\"}",
+              "read_progress": "0",
+              "serial_count": "493",
+              "source": "番茄小说",
+              "tags": "科幻末世,末世",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/17935c4d7057d251883202cb9f84fafb~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=v1NYlqQxrkaXF7KjvBBR8UjdEUI%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1087587",
+              "score": "5.4",
+              "exclusive": "1",
+              "role": "陆平,胡丽青",
+              "category_schema": "[{\"category_id\":8,\"name\":\"科幻末世\",\"schema\":\"dragon1967://newCategoryDetail?id=8&name=科幻末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":68,\"name\":\"末世\",\"schema\":\"dragon1967://newCategoryDetail?id=68&name=末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":77,\"name\":\"星际\",\"schema\":\"dragon1967://newCategoryDetail?id=77&name=星际&genre_type=0&gender=1&source=detail\"},{\"category_id\":379,\"name\":\"求生\",\"schema\":\"dragon1967://newCategoryDetail?id=379&name=求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":453,\"name\":\"开局\",\"schema\":\"dragon1967://newCategoryDetail?id=453&name=开局&genre_type=0&gender=1&source=detail\"},{\"category_id\":515,\"name\":\"末日求生\",\"schema\":\"dragon1967://newCategoryDetail?id=515&name=末日求生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "63",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1705532433",
+              "authorize_type": "1",
+              "media_id": "1741744996342792",
+              "original_book_name": "科幻丧尸开局拯救女秘书",
+              "length_type": "0",
+              "op_tag": "892,535,873,347,536,304,871,1028,1126,1132",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/17935c4d7057d251883202cb9f84fafb",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob11f5215fd4983204f5e2e7f26a1f059~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069790&x-signature=HdUm46j34tHVwp5ICFNu3np9%2FaM%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "科幻末世,末日求生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#101820",
+              "read_count_all": "100435",
+              "shelf_cnt_history": "13894",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507386\":1744804002,\"596084\":1715072935,\"2503\":1688397896,\"8662\":1688397896,\"8703\":1744962555,\"426946\":1736164639,\"638505\":1724902935,\"510893\":1689648058,\"35\":1688397896,\"6589\":1688625842,\"8704\":1747727210,\"8661\":1692953928,\"3040\":1692953928,\"13\":1688397896,\"2329\":1688397896,\"507427\":1744804002,\"1128\":1688397896,\"1967\":1688397896}",
+              "category_v2_map": {
+                "453": true,
+                "515": true,
+                "8": true,
+                "68": true,
+                "77": true,
+                "379": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/17935c4d7057d251883202cb9f84fafb~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=v1NYlqQxrkaXF7KjvBBR8UjdEUI%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7134193999983678720,
+                  "AuthorName": "赤脚大仙"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob11f5215fd4983204f5e2e7f26a1f059~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069790&x-signature=4X9B3Pzt8YxppvbbeC7K40v8%2FOw%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【科幻】+【星际】+【丧尸】+【宇宙】\n别名：星际超越\n陆平爬出核反应堆，发现全场上万人全都变成了丧尸。绝境中只救下美女秘书。\n看点1:全景式手法描写，揭开核电站的神秘面纱！\n看点2:宏大的宇宙观设定，从太阳系→第三旋臂→银河系/大三角星系/仙女座河系→本星系群→室女座星团→本超星系团→拉尼亚凯亚超星系团→三维本宇宙→高维宇宙/多维宇宙→平行宇宙/全息宇宙→四象宇宙。\n看点3：完善的7级文明等级设定及核心科技。\n看点4：独创的一套科幻理论体系。从核聚变到超时空穿越，都有理论支撑逐层递进。\n看点5：原创黑科技:\n戴森大炮：抽取恒星物质攻击\n超级魔方：叠加态四维空间飞船，可发动降维打击、空间堙灭，后期升级为时空飞船。\n戴森驱动器/引力波驱动器：驱动恒星/黑洞曲率飞行。\n凭空造物：高维波动效应与显波理论，凭空制造和毁灭物质。\n能量态生命：等离子态、电子简并态、中子简并态生命体等。\n全息生命：实体态、能量态、信息态任意转化。\n时空场震荡波：高维波动加超时空效应攻击。\n小时空：改变时间流速的空间武器。\n全息场：全息生命通过全息场可穿越膜宇宙任意坐标。\n四象宇宙及坐标系:正负反大统一宇宙及坐标系。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/17935c4d7057d251883202cb9f84fafb~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069790&x-signature=IodCgPam9J4KtiDVbS%2BCMowYhdI%3D",
+              "raw_book_name": "全息生命",
+              "color_audio_dominate": "#4C53B3"
+            }
+          ],
+          "search_attached_info": "14644230189879950619:19:0:3843510300:clks####3@202603191002370418AD8A55B49397373D",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "108.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "436人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "科幻末世",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：赤脚大仙",
+                "rich_text": "作者：赤脚大仙",
+                "high_light_position": []
+              },
+              {
+                "text": "【科幻】+【星际】+【丧尸】+【宇宙】 别名：星际超越 陆平爬出核反应堆，发现全场上万人全都变成了丧尸。绝境中只救下美女秘书。 看点1:全景式手法描写，揭开核电站的神秘面纱！ 看点2:宏大的宇宙观设定，从太阳系→第三旋臂→银河系/大三角星系/仙女座河系→本星系群→室女座星团→本超星系团→拉尼亚凯亚超星系团→三维本宇宙→高维宇宙/多维宇宙→平行宇宙/全息宇宙→四象宇宙。 看点3：完善的7级文明等级设定及核心科技。 看点4：独创的一套科幻理论体系。从核聚变到超时空穿越，都有理论支撑逐层递进。 看点5：原创黑科技: 戴森大炮：抽取恒星物质攻击 超级魔方：叠加态四维空间飞船，可发动降维打击、空间堙灭，后期升级为时空飞船。 戴森驱动器/引力波驱动器：驱动恒星/黑洞曲率飞行。 凭空造物：高维波动效应与显波理论，凭空制造和毁灭物质。 能量态生命：等离子态、电子简并态、中子简并态生命体等。 全息生命：实体态、能量态、信息态任意转化。 时空场震荡波：高维波动加超时空效应攻击。 小时空：改变时间流速的空间武器。 全息场：全息生命通过全息场可穿越膜宇宙任意坐标。 四象宇宙及坐标系:正负反大统一宇宙及坐标系。",
+                "rich_text": "【<em>科幻</em>】+【星际】+【丧尸】+【宇宙】\n别名：星际超越\n陆平爬出核反应堆，发现全场上万人全都变成了丧尸。绝境中只救下美女秘书。\n看点1:全景式手法描写，揭开核电站的神秘面纱！\n看点2:宏大的宇宙观设定，从太阳系→第三旋臂→银河系/大三角星系/仙女座河系→本星系群→室女座星团→本超星系团→拉尼亚凯亚超星系团→三维本宇宙→高维宇宙/多维宇宙→平行宇宙/全息宇宙→四象宇宙。\n看点3：完善的7级文明等级设定及核心<em>科</em>技。\n看点4：独创的一套<em>科幻</em>理论体系。从核聚变到超时空穿越，都有理论支撑逐层递进。\n看点5：原创黑<em>科</em>技:\n戴森大炮：抽取恒星物质攻击\n超级魔方：叠加态四维空间飞船，可发动降维打击、空间堙灭，后期升级为时空飞船。\n戴森驱动器/引力波驱动器：驱动恒星/黑洞曲率飞行。\n凭空造物：高维波动效应与显波理论，凭空制造和毁灭物质。\n能量态生命：等离子态、电子简并态、中子简并态生命体等。\n全息生命：实体态、能量态、信息态任意转化。\n时空场震荡波：高维波动加超时空效应攻击。\n小时空：改变时间流速的空间武器。\n全息场：全息生命通过全息场可穿越膜宇宙任意坐标。\n四象宇宙及坐标系:正负反大统一宇宙及坐标系。",
+                "high_light_position": [
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    217,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "20",
+      "search_id": "clks####3@202603191002370418AD8A55B49397373D",
+      "query": "科幻末世",
+      "next_offset": 20,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@202603191002370418AD8A55B49397373D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"20260319100310903071C958D81BA8A546\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@202603191002370418AD8A55B49397373D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@202603191002370418AD8A55B49397373D",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "20260319100310903071C958D81BA8A546"
+}

@@ -1,0 +1,2371 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@20260319103749A6F11181061250310960",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@20260319103749A6F11181061250310960",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@20260319103749A6F11181061250310960",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@20260319103749A6F11181061250310960",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@20260319103749A6F11181061250310960",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@20260319103749A6F11181061250310960",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1001,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7601443014237506585",
+          "search_result_id": "7601443014237506585",
+          "search_high_light": {
+            "title": {
+              "text": "弹幕怎么都说我是真重女？",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "...？ 作为饱读番剧的牢二次元，面对此等问题，洛羽毫不犹豫地选择了颇具戏剧与乐子效果的败犬+沉重系角色这一选项。 只是.... “...为什么每个番剧到了最后，身边的人都比我更重力呢？” “这不重要，我更好奇，宿主你真的是演的吗？” “我觉得我是。”",
+              "rich_text": "【番剧剧本】【无限流】【沉重系】【扭曲】【变百】\n提问，如果让你穿越到各个动漫世界中，你会选择以怎样的角色塑造成为人气第一？\n作为饱读番剧的牢<em>二次元</em>，面对此等问题，洛羽毫不犹豫地选择了颇具戏剧与乐子效果的败犬+沉重系角色这一选项。\n只是....\n“...为什么每个番剧到了最后，身边的人都比我更重力呢？”\n“这不重要，我更好奇，宿主你真的是演的吗？”\n“我觉得我是。”",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【番剧剧本】【无限流】【沉重系】【扭曲】【变百】\n提问，如果让你穿越到各个动漫世界中，你会选择以怎样的角色塑造成为人气第一？\n作为饱读番剧的牢二次元，面对此等问题，洛羽毫不犹豫地选择了颇具戏剧与乐子效果的败犬+沉重系角色这一选项。\n只是....\n“...为什么每个番剧到了最后，身边的人都比我更重力呢？”\n“这不重要，我更好奇，宿主你真的是演的吗？”\n“我觉得我是。”",
+              "author": "无人风",
+              "book_id": "7601443014237506585",
+              "book_name": "弹幕怎么都说我是真重女？",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-31T16:41:10+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7601806081110573593",
+              "first_chapter_item_id": "7601806081110573593",
+              "first_chapter_title": "第1章 长期素食导致的",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618552856622137881",
+              "last_chapter_item_id": "7618552856622137881",
+              "last_chapter_title": "第69章 弹幕与分析",
+              "last_chapter_update_time": "1773841371",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "311478",
+              "recommend_group_id": "7601443014237506585",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319103757FF8D94957C756FFC35EF\",\"rank\":\"1\",\"normal_session_id\":\"c05b36f3-171f-42dc-9507-7f342670deb8\",\"cold_start_session_id\":\"dbcf09f8-413a-4446-87ab-919ea08124c9\"}",
+              "read_progress": "0",
+              "serial_count": "69",
+              "source": "番茄小说",
+              "tags": "动漫衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/dcc39d05adaffeba760e7e449010ca6f~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=Hr3uBhp8SMbIAgI0lsOIwnKyOSY%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "251016",
+              "score": "9.3",
+              "exclusive": "1",
+              "role": "洛羽",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":70,\"name\":\"无限流\",\"schema\":\"dragon1967://newCategoryDetail?id=70&name=无限流&genre_type=0&gender=1&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "21764",
+              "sub_info": "31.2万人在读",
+              "last_publish_time": "1773841386",
+              "authorize_type": "1",
+              "media_id": "1779359710705676",
+              "original_book_name": "弹幕怎么都说我是真重女？",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "37",
+              "thumb_uri": "novel-pic/dcc39d05adaffeba760e7e449010ca6f",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/a3601c89bd4af62537c09566c3a22987",
+              "data_rate": "",
+              "all_bookshelf_count": "90248",
+              "pure_category_tags": "动漫衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e89038",
+              "read_count_all": "394685",
+              "shelf_cnt_history": "147855",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2329\":1770012017,\"1128\":1770012017,\"3040\":1770691347,\"6589\":1770691347,\"8703\":1770012017,\"8704\":1770012017,\"13\":1770012017,\"638505\":1770691347,\"596084\":1770691347,\"8661\":1770691347,\"2503\":1770012017,\"35\":1770012017,\"507427\":1770012079,\"510893\":1770012017,\"1967\":1770012017,\"8662\":1770012017,\"507386\":1770012079}",
+              "category_v2_map": {
+                "718": true,
+                "19": true,
+                "37": true,
+                "1079": true,
+                "70": true,
+                "538": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/dcc39d05adaffeba760e7e449010ca6f~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=Hr3uBhp8SMbIAgI0lsOIwnKyOSY%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7531460906560017689,
+                  "AuthorName": "无人风"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/a3601c89bd4af62537c09566c3a22987~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071878&x-signature=MBe0cgi6bWlhUZdn6Wu054F0ifQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【番剧剧本】【无限流】【沉重系】【扭曲】【变百】\n提问，如果让你穿越到各个动漫世界中，你会选择以怎样的角色塑造成为人气第一？\n作为饱读番剧的牢二次元，面对此等问题，洛羽毫不犹豫地选择了颇具戏剧与乐子效果的败犬+沉重系角色这一选项。\n只是....\n“...为什么每个番剧到了最后，身边的人都比我更重力呢？”\n“这不重要，我更好奇，宿主你真的是演的吗？”\n“我觉得我是。”",
+              "read_page_progress": "0",
+              "read_cnt_text": "31.2万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/dcc39d05adaffeba760e7e449010ca6f~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=RZwnhbUlcNFYycLdSnH8RexeUCY%3D",
+              "raw_book_name": "弹幕怎么都说我是真重女？",
+              "color_audio_dominate": "#E4871E",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "9564485924729330133:1:0:679675816:clks####3@20260319103749A6F11181061250310960",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "25.1万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "31万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：无人风",
+                "rich_text": "作者：无人风",
+                "high_light_position": []
+              },
+              {
+                "text": "...？ 作为饱读番剧的牢二次元，面对此等问题，洛羽毫不犹豫地选择了颇具戏剧与乐子效果的败犬+沉重系角色这一选项。 只是.... “...为什么每个番剧到了最后，身边的人都比我更重力呢？” “这不重要，我更好奇，宿主你真的是演的吗？” “我觉得我是。”",
+                "rich_text": "【番剧剧本】【无限流】【沉重系】【扭曲】【变百】\n提问，如果让你穿越到各个动漫世界中，你会选择以怎样的角色塑造成为人气第一？\n作为饱读番剧的牢<em>二次元</em>，面对此等问题，洛羽毫不犹豫地选择了颇具戏剧与乐子效果的败犬+沉重系角色这一选项。\n只是....\n“...为什么每个番剧到了最后，身边的人都比我更重力呢？”\n“这不重要，我更好奇，宿主你真的是演的吗？”\n“我觉得我是。”",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1002,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7600407163764231192",
+          "search_result_id": "7600407163764231192",
+          "search_high_light": {
+            "abstract": {
+              "text": "...灵灵异+偏日常+日式二次元世界+女多男少+重女】 相田优的女友东泽灵奈在一次事故失去了身体，变成了看不见的幽灵存在。 拥有附身和改造认知的可怕能力，掌握这两个能力的幽灵女友为了相田优的幸福，将接近他的坏女人统统修改为真喜欢他的好女人！ 不管是恶役大小姐，还是喜欢勾引她的男人的坏女人，东泽灵奈都会一一将她们变为自己的仆从。 而随着故事的发展，相田优发现喜欢自己和馋自己身体的幽灵女友不只一个……  ",
+              "rich_text": "【多女主+后宫+前期慢节奏+幽灵灵异+偏日常+日式<em>二次元</em>世界+女多男少+重女】\n相田优的女友东泽灵奈在一<em>次</em>事故失去了身体，变成了看不见的幽灵存在。\n拥有附身和改造认知的可怕能力，掌握这两个能力的幽灵女友为了相田优的幸福，将接近他的坏女人统统修改为真喜欢他的好女人！\n不管是恶役大小姐，还是喜欢勾引她的男人的坏女人，东泽灵奈都会一一将她们变为自己的仆从。\n而随着故事的发展，相田优发现喜欢自己和馋自己身体的幽灵女友不只一个……\n\n",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "我去，我的幽灵女友在给我开后宫",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【多女主+后宫+前期慢节奏+幽灵灵异+偏日常+日式二次元世界+女多男少+重女】\n相田优的女友东泽灵奈在一次事故失去了身体，变成了看不见的幽灵存在。\n拥有附身和改造认知的可怕能力，掌握这两个能力的幽灵女友为了相田优的幸福，将接近他的坏女人统统修改为真喜欢他的好女人！\n不管是恶役大小姐，还是喜欢勾引她的男人的坏女人，东泽灵奈都会一一将她们变为自己的仆从。\n而随着故事的发展，相田优发现喜欢自己和馋自己身体的幽灵女友不只一个……\n\n",
+              "author": "喜欢鸽的柠檬君",
+              "book_id": "7600407163764231192",
+              "book_name": "我去，我的幽灵女友在给我开后宫",
+              "category": "都市日常",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-28T21:41:32+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7600407223080059416",
+              "first_chapter_item_id": "7600407223080059416",
+              "first_chapter_title": "第1章 身为青梅竹马的女友是幽灵",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618019328679494168",
+              "last_chapter_item_id": "7618019328679494168",
+              "last_chapter_title": "人物简介【暂定】",
+              "last_chapter_update_time": "1773708853",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "33019",
+              "recommend_group_id": "7600407163764231192",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319103757FF8D94957C756FFC35EF\",\"rank\":\"1\",\"normal_session_id\":\"c05b36f3-171f-42dc-9507-7f342670deb8\",\"cold_start_session_id\":\"dbcf09f8-413a-4446-87ab-919ea08124c9\"}",
+              "read_progress": "0",
+              "serial_count": "125",
+              "source": "番茄小说",
+              "tags": "都市日常,扮猪吃虎",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/0bed46e19e44053dfd1e936bd792ba23~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=B5QiEBK8wUGDGzynLMzz9G8d4DY%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "347800",
+              "score": "0",
+              "exclusive": "1",
+              "role": "相田优",
+              "category_schema": "[{\"category_id\":261,\"name\":\"都市日常\",\"schema\":\"dragon1967://newCategoryDetail?id=261&name=都市日常&genre_type=0&gender=2&source=detail\"},{\"category_id\":93,\"name\":\"扮猪吃虎\",\"schema\":\"dragon1967://newCategoryDetail?id=93&name=扮猪吃虎&genre_type=0&gender=2&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=2&source=detail\"},{\"category_id\":39,\"name\":\"二次元\",\"schema\":\"dragon1967://newCategoryDetail?id=39&name=二次元&genre_type=0&gender=2&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=2&source=detail\"},{\"category_id\":452,\"name\":\"架空\",\"schema\":\"dragon1967://newCategoryDetail?id=452&name=架空&genre_type=0&gender=2&source=detail\"},{\"category_id\":850,\"name\":\"无脑爽\",\"schema\":\"dragon1967://newCategoryDetail?id=850&name=无脑爽&genre_type=0&gender=2&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "2",
+              "is_ebook": "1",
+              "listen_count": "1484",
+              "sub_info": "3.4万人在读",
+              "last_publish_time": "1773828047",
+              "authorize_type": "1",
+              "media_id": "1855379418207241",
+              "original_book_name": "救命，我的身边跟着重女幽灵！",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "8",
+              "thumb_uri": "novel-pic/ai/0bed46e19e44053dfd1e936bd792ba23",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5068c5cef48fafcfbcc67a85f7a3f0b1~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071878&x-signature=aysVlCbUh0AE0XiHL%2BcPthmIGw0%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "8448",
+              "pure_category_tags": "都市日常,无脑爽",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#787888",
+              "read_count_all": "47739",
+              "shelf_cnt_history": "11933",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2503\":1769608780,\"8662\":1769608780,\"8661\":1769733677,\"510893\":1769608780,\"2329\":1769608780,\"6589\":1769733677,\"3040\":1769733677,\"1128\":1769608780,\"507386\":1769608842,\"1967\":1769608780,\"13\":1769608780,\"596084\":1769733677,\"638505\":1769733677,\"8704\":1769608780,\"507427\":1769608842,\"35\":1769608780,\"8703\":1769608780}",
+              "category_v2_map": {
+                "93": true,
+                "39": true,
+                "261": true,
+                "516": true,
+                "850": true,
+                "452": true,
+                "91": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/0bed46e19e44053dfd1e936bd792ba23~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=B5QiEBK8wUGDGzynLMzz9G8d4DY%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7599638863979484440,
+                  "AuthorName": "喜欢鸽的柠檬君"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5068c5cef48fafcfbcc67a85f7a3f0b1~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071878&x-signature=7kTT%2BuNP%2BXEszyX%2FRKRccHvQqlQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【多女主+后宫+前期慢节奏+幽灵灵异+偏日常+日式二次元世界+女多男少+重女】\n相田优的女友东泽灵奈在一次事故失去了身体，变成了看不见的幽灵存在。\n拥有附身和改造认知的可怕能力，掌握这两个能力的幽灵女友为了相田优的幸福，将接近他的坏女人统统修改为真喜欢他的好女人！\n不管是恶役大小姐，还是喜欢勾引她的男人的坏女人，东泽灵奈都会一一将她们变为自己的仆从。\n而随着故事的发展，相田优发现喜欢自己和馋自己身体的幽灵女友不只一个……\n\n",
+              "read_page_progress": "0",
+              "read_cnt_text": "3.4万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/0bed46e19e44053dfd1e936bd792ba23~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=J1oKgoPlh4esLYzpV24815uIo3A%3D",
+              "raw_book_name": "我去，我的幽灵女友在给我开后宫",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "9564485924729330133:2:0:2746694102:clks####3@20260319103749A6F11181061250310960",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "34.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市日常",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：喜欢鸽的柠檬君",
+                "rich_text": "作者：喜欢鸽的柠檬君",
+                "high_light_position": []
+              },
+              {
+                "text": "...灵灵异+偏日常+日式二次元世界+女多男少+重女】 相田优的女友东泽灵奈在一次事故失去了身体，变成了看不见的幽灵存在。 拥有附身和改造认知的可怕能力，掌握这两个能力的幽灵女友为了相田优的幸福，将接近他的坏女人统统修改为真喜欢他的好女人！ 不管是恶役大小姐，还是喜欢勾引她的男人的坏女人，东泽灵奈都会一一将她们变为自己的仆从。 而随着故事的发展，相田优发现喜欢自己和馋自己身体的幽灵女友不只一个……  ",
+                "rich_text": "【多女主+后宫+前期慢节奏+幽灵灵异+偏日常+日式<em>二次元</em>世界+女多男少+重女】\n相田优的女友东泽灵奈在一<em>次</em>事故失去了身体，变成了看不见的幽灵存在。\n拥有附身和改造认知的可怕能力，掌握这两个能力的幽灵女友为了相田优的幸福，将接近他的坏女人统统修改为真喜欢他的好女人！\n不管是恶役大小姐，还是喜欢勾引她的男人的坏女人，东泽灵奈都会一一将她们变为自己的仆从。\n而随着故事的发展，相田优发现喜欢自己和馋自己身体的幽灵女友不只一个……\n\n",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1003,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7599062763347905598",
+          "search_result_id": "7599062763347905598",
+          "search_high_light": {
+            "abstract": {
+              "text": "[碧蓝之海]我，雨村莲，俊美已极，长了双异瞳，只想过平静生活。  可我的日常，从没正常过。  高岭之花、沉默公主、兔女郎学姐......不同性格的女性，接二连三闯入我的世界。我本以为自己能在她们之间游刃有余  直到翻车的那一夜。  她凑到我耳边，吐息温热，字句却让人脊背发凉  “我讨厌你碰别人.....更讨厌别人碰你。”  “恶心到，让我想把她们都抓过来，当着她们的面，要你。”  我沉默了几秒，最终放弃般地松懈了力道，脸上露出无奈的苦笑“......你还是这么变态，安娜。”  (涉及作品:碧蓝之海、夏洛特、mujiaca、青猪、板本、没有黄段子)",
+              "rich_text": "[碧蓝之海]我，雨村莲，俊美已极，长了双异瞳，只想过平静生活。\n\n可我的日常，从没正常过。\n\n高岭之花、沉默公主、兔女郎学姐......不同性格的女性，接<em>二</em>连三闯入我的世界。我本以为自己能在她们之间游刃有余\n\n直到翻车的那一夜。\n\n她凑到我耳边，吐息温热，字句却让人脊背发凉\n\n“我讨厌你碰别人.....更讨厌别人碰你。”\n\n“恶心到，让我想把她们都抓过来，当着她们的面，要你。”\n\n我沉默了几秒，最终放弃般地松懈了力道，脸上露出无奈的苦笑“......你还是这么变态，安娜。”\n\n(涉及作品:碧蓝之海、夏洛特、mujiaca、青猪、板本、没有黄段子)",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "综漫：你管这叫日常",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "[碧蓝之海]我，雨村莲，俊美已极，长了双异瞳，只想过平静生活。\n\n可我的日常，从没正常过。\n\n高岭之花、沉默公主、兔女郎学姐......不同性格的女性，接二连三闯入我的世界。我本以为自己能在她们之间游刃有余\n\n直到翻车的那一夜。\n\n她凑到我耳边，吐息温热，字句却让人脊背发凉\n\n“我讨厌你碰别人.....更讨厌别人碰你。”\n\n“恶心到，让我想把她们都抓过来，当着她们的面，要你。”\n\n我沉默了几秒，最终放弃般地松懈了力道，脸上露出无奈的苦笑“......你还是这么变态，安娜。”\n\n(涉及作品:碧蓝之海、夏洛特、mujiaca、青猪、板本、没有黄段子)",
+              "author": "雨村没有莲",
+              "book_id": "7599062763347905598",
+              "book_name": "综漫：你管这叫日常",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-25T06:44:34+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7607418512906125886",
+              "first_chapter_item_id": "7607418512906125886",
+              "first_chapter_title": "第1章 雨村莲",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7615305283522282046",
+              "last_chapter_item_id": "7615305283522282046",
+              "last_chapter_title": "第 42章 网球比赛",
+              "last_chapter_update_time": "1773824711",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "1599",
+              "recommend_group_id": "7599062763347905598",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319103757FF8D94957C756FFC35EF\",\"rank\":\"1\",\"normal_session_id\":\"c05b36f3-171f-42dc-9507-7f342670deb8\",\"cold_start_session_id\":\"dbcf09f8-413a-4446-87ab-919ea08124c9\"}",
+              "read_progress": "0",
+              "serial_count": "42",
+              "source": "番茄小说",
+              "tags": "动漫衍生,多女主",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/5428f5328374062176c3a5b72caf8fdf~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=nF%2F29VtWPqOlT84TVGH%2BCevDRek%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "108392",
+              "score": "0",
+              "exclusive": "1",
+              "role": "雨村莲",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=1&source=detail\"},{\"category_id\":465,\"name\":\"综漫\",\"schema\":\"dragon1967://newCategoryDetail?id=465&name=综漫&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "96",
+              "sub_info": "1599人在读",
+              "last_publish_time": "1773824722",
+              "authorize_type": "1",
+              "media_id": "1813524471948292",
+              "original_book_name": "综漫：你管这叫日常",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "9",
+              "thumb_uri": "novel-pic/5428f5328374062176c3a5b72caf8fdf",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/5428f5328374062176c3a5b72caf8fdf~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071878&x-signature=GAZ2mowpkLP8y3GZLJ7EKgexSQo%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "346",
+              "pure_category_tags": "动漫衍生,综漫",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#403028",
+              "read_count_all": "1601",
+              "shelf_cnt_history": "1017",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1967\":1770359505,\"8704\":1770359505,\"8662\":1770359505,\"6589\":1773140930,\"3040\":1773140930,\"35\":1770359505,\"2503\":1770359505,\"13\":1770359505,\"2329\":1770359505,\"8703\":1770359505,\"638505\":1773140930,\"8661\":1773140930,\"596084\":1773140930,\"510893\":1770359505,\"1128\":1770359505,\"507386\":1770359567,\"507427\":1770359567}",
+              "category_v2_map": {
+                "538": true,
+                "1079": true,
+                "91": true,
+                "465": true,
+                "718": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/5428f5328374062176c3a5b72caf8fdf~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=nF%2F29VtWPqOlT84TVGH%2BCevDRek%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7428196544962106686,
+                  "AuthorName": "雨村没有莲"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/5428f5328374062176c3a5b72caf8fdf~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071878&x-signature=2nD5lUonF79xUkwOBxfApasRcBE%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "[碧蓝之海]我，雨村莲，俊美已极，长了双异瞳，只想过平静生活。\n\n可我的日常，从没正常过。\n\n高岭之花、沉默公主、兔女郎学姐......不同性格的女性，接二连三闯入我的世界。我本以为自己能在她们之间游刃有余\n\n直到翻车的那一夜。\n\n她凑到我耳边，吐息温热，字句却让人脊背发凉\n\n“我讨厌你碰别人.....更讨厌别人碰你。”\n\n“恶心到，让我想把她们都抓过来，当着她们的面，要你。”\n\n我沉默了几秒，最终放弃般地松懈了力道，脸上露出无奈的苦笑“......你还是这么变态，安娜。”\n\n(涉及作品:碧蓝之海、夏洛特、mujiaca、青猪、板本、没有黄段子)",
+              "read_page_progress": "0",
+              "read_cnt_text": "1599人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/5428f5328374062176c3a5b72caf8fdf~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=1lATDsdD7CpmAOPWDVhj4bMxvlI%3D",
+              "raw_book_name": "综漫：你管这叫日常",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "9564485924729330133:3:0:3034994143:clks####3@20260319103749A6F11181061250310960",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "10.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1599人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：雨村没有莲",
+                "rich_text": "作者：雨村没有莲",
+                "high_light_position": []
+              },
+              {
+                "text": "[碧蓝之海]我，雨村莲，俊美已极，长了双异瞳，只想过平静生活。  可我的日常，从没正常过。  高岭之花、沉默公主、兔女郎学姐......不同性格的女性，接二连三闯入我的世界。我本以为自己能在她们之间游刃有余  直到翻车的那一夜。  她凑到我耳边，吐息温热，字句却让人脊背发凉  “我讨厌你碰别人.....更讨厌别人碰你。”  “恶心到，让我想把她们都抓过来，当着她们的面，要你。”  我沉默了几秒，最终放弃般地松懈了力道，脸上露出无奈的苦笑“......你还是这么变态，安娜。”  (涉及作品:碧蓝之海、夏洛特、mujiaca、青猪、板本、没有黄段子)",
+                "rich_text": "[碧蓝之海]我，雨村莲，俊美已极，长了双异瞳，只想过平静生活。\n\n可我的日常，从没正常过。\n\n高岭之花、沉默公主、兔女郎学姐......不同性格的女性，接<em>二</em>连三闯入我的世界。我本以为自己能在她们之间游刃有余\n\n直到翻车的那一夜。\n\n她凑到我耳边，吐息温热，字句却让人脊背发凉\n\n“我讨厌你碰别人.....更讨厌别人碰你。”\n\n“恶心到，让我想把她们都抓过来，当着她们的面，要你。”\n\n我沉默了几秒，最终放弃般地松懈了力道，脸上露出无奈的苦笑“......你还是这么变态，安娜。”\n\n(涉及作品:碧蓝之海、夏洛特、mujiaca、青猪、板本、没有黄段子)",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1004,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7613837309904964632",
+          "search_result_id": "7613837309904964632",
+          "search_high_light": {
+            "title": {
+              "text": "综漫：二次元女主风味品鉴指南",
+              "rich_text": "综漫：<em>二次元</em>女主风味品鉴指南",
+              "high_light_position": [
+                [
+                  3,
+                  3
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【后宫】+【综漫】+【崩铁】+【fate】+【憧憬成为魔法少女】+…… 穿越方式是被从天而降的星穹列车砸死是什么鬼？ 什么叫这是阿哈做的？ 那阿哈可太坏了…… 什么叫雌小鬼上帝给了我一个穿越的机会？还给了我选择金手指的权力？ 那必须是开拓配繁育，再加个我的机制就是数值，我的数值就是机制啊。 什么叫我穿越了都没有复活，还是个幽灵？ 身体已经不需要了，反正身体依旧能干！ 总而言之，我罗维是走在开拓与繁育双命途之人，至于有没有人问我为什么不做好人好事？ 尔等是想尝尝我数值是否锋利吗？",
+              "rich_text": "【后宫】+【综漫】+【崩铁】+【fate】+【憧憬成为魔法少女】+……\n穿越方式是被从天而降的星穹列车砸死是什么鬼？\n什么叫这是阿哈做的？\n那阿哈可太坏了……\n什么叫雌小鬼上帝给了我一个穿越的机会？还给了我选择金手指的权力？\n那必须是开拓配繁育，再加个我的机制就是数值，我的数值就是机制啊。\n什么叫我穿越了都没有复活，还是个幽灵？\n身体已经不需要了，反正身体依旧能干！\n总而言之，我罗维是走在开拓与繁育双命途之人，至于有没有人问我为什么不做好人好事？\n尔等是想尝尝我数值是否锋利吗？",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【后宫】+【综漫】+【崩铁】+【fate】+【憧憬成为魔法少女】+……\n穿越方式是被从天而降的星穹列车砸死是什么鬼？\n什么叫这是阿哈做的？\n那阿哈可太坏了……\n什么叫雌小鬼上帝给了我一个穿越的机会？还给了我选择金手指的权力？\n那必须是开拓配繁育，再加个我的机制就是数值，我的数值就是机制啊。\n什么叫我穿越了都没有复活，还是个幽灵？\n身体已经不需要了，反正身体依旧能干！\n总而言之，我罗维是走在开拓与繁育双命途之人，至于有没有人问我为什么不做好人好事？\n尔等是想尝尝我数值是否锋利吗？",
+              "author": "我的神之才能",
+              "book_id": "7613837309904964632",
+              "book_name": "综漫：二次元女主风味品鉴指南",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-03-06T02:17:21+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7615054194671616537",
+              "first_chapter_item_id": "7615054194671616537",
+              "first_chapter_title": "第1章 总之，就是被星穹列车砸死后，成为数值大王",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618407440014393881",
+              "last_chapter_item_id": "7618407440014393881",
+              "last_chapter_title": "第52章 星的第一次委托",
+              "last_chapter_update_time": "1773869747",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "3627",
+              "recommend_group_id": "7613837309904964632",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319103757FF8D94957C756FFC35EF\",\"rank\":\"1\",\"normal_session_id\":\"c05b36f3-171f-42dc-9507-7f342670deb8\",\"cold_start_session_id\":\"dbcf09f8-413a-4446-87ab-919ea08124c9\"}",
+              "read_progress": "0",
+              "serial_count": "52",
+              "source": "番茄小说",
+              "tags": "动漫衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b585579675acbbecd56409dd4c4c3a75~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=vEyhLjpKx%2FHsGHqsC7tgAZ%2FBkcQ%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "109532",
+              "score": "0",
+              "exclusive": "1",
+              "role": "罗维",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":77,\"name\":\"星际\",\"schema\":\"dragon1967://newCategoryDetail?id=77&name=星际&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=1&source=detail\"},{\"category_id\":465,\"name\":\"综漫\",\"schema\":\"dragon1967://newCategoryDetail?id=465&name=综漫&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "277",
+              "sub_info": "3627人在读",
+              "last_publish_time": "1773874828",
+              "authorize_type": "1",
+              "media_id": "1734586781553668",
+              "original_book_name": "综漫：二次元女主风味品鉴指南",
+              "length_type": "0",
+              "op_tag": "305,535,536",
+              "keep_publish_days": "10",
+              "thumb_uri": "novel-pic/b585579675acbbecd56409dd4c4c3a75",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b585579675acbbecd56409dd4c4c3a75~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071878&x-signature=hIQ0nSHwDrkFRdihqM5U4jTGw9M%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "1163",
+              "pure_category_tags": "动漫衍生,综漫",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#382838",
+              "read_count_all": "3627",
+              "shelf_cnt_history": "1163",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507427\":1773130902,\"1967\":1773130847,\"8661\":1773138561,\"596084\":1773138561,\"638505\":1773138561,\"6589\":1773138561,\"1128\":1773130847,\"2503\":1773130847,\"2329\":1773130847,\"8704\":1773130847,\"3040\":1773138561,\"13\":1773130847,\"35\":1773130847,\"8662\":1773130847,\"507386\":1773130902,\"8703\":1773130847,\"510893\":1773130847}",
+              "category_v2_map": {
+                "538": true,
+                "37": true,
+                "465": true,
+                "718": true,
+                "1079": true,
+                "77": true,
+                "91": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b585579675acbbecd56409dd4c4c3a75~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=vEyhLjpKx%2FHsGHqsC7tgAZ%2FBkcQ%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7186648872750421288,
+                  "AuthorName": "我的神之才能"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b585579675acbbecd56409dd4c4c3a75~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071878&x-signature=enYyJMNdxBXJVyAgmvbHcOpONK0%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【后宫】+【综漫】+【崩铁】+【fate】+【憧憬成为魔法少女】+……\n穿越方式是被从天而降的星穹列车砸死是什么鬼？\n什么叫这是阿哈做的？\n那阿哈可太坏了……\n什么叫雌小鬼上帝给了我一个穿越的机会？还给了我选择金手指的权力？\n那必须是开拓配繁育，再加个我的机制就是数值，我的数值就是机制啊。\n什么叫我穿越了都没有复活，还是个幽灵？\n身体已经不需要了，反正身体依旧能干！\n总而言之，我罗维是走在开拓与繁育双命途之人，至于有没有人问我为什么不做好人好事？\n尔等是想尝尝我数值是否锋利吗？",
+              "read_page_progress": "0",
+              "read_cnt_text": "3627人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b585579675acbbecd56409dd4c4c3a75~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=IkkSQWoNKoLvQTL%2BZhYs%2Bak0rxI%3D",
+              "raw_book_name": "综漫：二次元女主风味品鉴指南",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "9564485924729330133:4:0:2428035283:clks####3@20260319103749A6F11181061250310960",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "11.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3627人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：我的神之才能",
+                "rich_text": "作者：我的神之才能",
+                "high_light_position": []
+              },
+              {
+                "text": "【后宫】+【综漫】+【崩铁】+【fate】+【憧憬成为魔法少女】+…… 穿越方式是被从天而降的星穹列车砸死是什么鬼？ 什么叫这是阿哈做的？ 那阿哈可太坏了…… 什么叫雌小鬼上帝给了我一个穿越的机会？还给了我选择金手指的权力？ 那必须是开拓配繁育，再加个我的机制就是数值，我的数值就是机制啊。 什么叫我穿越了都没有复活，还是个幽灵？ 身体已经不需要了，反正身体依旧能干！ 总而言之，我罗维是走在开拓与繁育双命途之人，至于有没有人问我为什么不做好人好事？ 尔等是想尝尝我数值是否锋利吗？",
+                "rich_text": "【后宫】+【综漫】+【崩铁】+【fate】+【憧憬成为魔法少女】+……\n穿越方式是被从天而降的星穹列车砸死是什么鬼？\n什么叫这是阿哈做的？\n那阿哈可太坏了……\n什么叫雌小鬼上帝给了我一个穿越的机会？还给了我选择金手指的权力？\n那必须是开拓配繁育，再加个我的机制就是数值，我的数值就是机制啊。\n什么叫我穿越了都没有复活，还是个幽灵？\n身体已经不需要了，反正身体依旧能干！\n总而言之，我罗维是走在开拓与繁育双命途之人，至于有没有人问我为什么不做好人好事？\n尔等是想尝尝我数值是否锋利吗？",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1005,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7598952356956359705",
+          "search_result_id": "7598952356956359705",
+          "search_high_light": {
+            "abstract": {
+              "text": "（日常、穿越、福瑞、二次元） 本文是作者兴趣使然之下写的游戏《恶魔连结》的同人小说，主要内容是三只加主角的温馨日常向，更新也会比较随意。里面会出现大量作者的xp放出内容，介意请勿阅读，在某个蓝色地方（可能）会更新番外，希望同样喜欢恶魔连结的大家能够喜欢，当然啦没有玩过游戏一样可以看，如果看过后能对恶魔链接产生兴趣那就更好了。",
+              "rich_text": "（日常、穿越、福瑞、<em>二次元</em>）\n本文是作者兴趣使然之下写的游戏《恶魔连结》的同人小说，主要内容是三只加主角的温馨日常向，更新也会比较随意。里面会出现大量作者的xp放出内容，介意请勿阅读，在某个蓝色地方（可能）会更新番外，希望同样喜欢恶魔连结的大家能够喜欢，当然啦没有玩过游戏一样可以看，如果看过后能对恶魔链接产生兴趣那就更好了。",
+              "high_light_position": [
+                [
+                  10,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "恶魔连结：乱七八糟的后日谈",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "（日常、穿越、福瑞、二次元）\n本文是作者兴趣使然之下写的游戏《恶魔连结》的同人小说，主要内容是三只加主角的温馨日常向，更新也会比较随意。里面会出现大量作者的xp放出内容，介意请勿阅读，在某个蓝色地方（可能）会更新番外，希望同样喜欢恶魔连结的大家能够喜欢，当然啦没有玩过游戏一样可以看，如果看过后能对恶魔链接产生兴趣那就更好了。",
+              "author": "那有一只白色的猫",
+              "book_id": "7598952356956359705",
+              "book_name": "恶魔连结：乱七八糟的后日谈",
+              "category": "游戏体育",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-24T23:36:09+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7598952451676324377",
+              "first_chapter_item_id": "7598952451676324377",
+              "first_chapter_title": "第1章 第0天 因为懒得想就不取标题命了",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618616224762577470",
+              "last_chapter_item_id": "7618616224762577470",
+              "last_chapter_title": "第55章 第10天 就该这么做！不，是只能这么做！",
+              "last_chapter_update_time": "1773847370",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "3540",
+              "recommend_group_id": "7598952356956359705",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319103757FF8D94957C756FFC35EF\",\"rank\":\"1\",\"normal_session_id\":\"c05b36f3-171f-42dc-9507-7f342670deb8\",\"cold_start_session_id\":\"dbcf09f8-413a-4446-87ab-919ea08124c9\"}",
+              "read_progress": "0",
+              "serial_count": "55",
+              "source": "番茄小说",
+              "tags": "游戏体育,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2ce5f4a60430e064ddf96c1e69361263~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=H%2FxbJ0B7m2Y4%2Ffq8XIV7kWuY6vA%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "114582",
+              "score": "0",
+              "exclusive": "1",
+              "role": "人类",
+              "category_schema": "[{\"category_id\":746,\"name\":\"游戏体育\",\"schema\":\"dragon1967://newCategoryDetail?id=746&name=游戏体育&genre_type=0&gender=2&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=2&source=detail\"},{\"category_id\":39,\"name\":\"二次元\",\"schema\":\"dragon1967://newCategoryDetail?id=39&name=二次元&genre_type=0&gender=2&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "2",
+              "is_ebook": "1",
+              "listen_count": "296",
+              "sub_info": "3540人在读",
+              "last_publish_time": "1773847604",
+              "authorize_type": "1",
+              "media_id": "1788764906711050",
+              "original_book_name": "恶魔连结：乱七八糟的后日谈",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "18",
+              "thumb_uri": "novel-pic/p2o2ce5f4a60430e064ddf96c1e69361263",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2ce5f4a60430e064ddf96c1e69361263~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071878&x-signature=Oao0oM62vgbDCqkhTOhsyDHpIUA%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "1189",
+              "pure_category_tags": "游戏体育,二次元",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#d0d8e8",
+              "read_count_all": "4005",
+              "shelf_cnt_history": "1507",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1967\":1769308001,\"8704\":1769308001,\"8662\":1769308001,\"3040\":1770172302,\"507386\":1769308063,\"13\":1769308001,\"2503\":1769308001,\"2329\":1769308001,\"507427\":1769308063,\"8661\":1770172302,\"6589\":1770172302,\"35\":1769308001,\"510893\":1769308001,\"1128\":1769308001,\"8703\":1769308001,\"638505\":1770172302,\"596084\":1770172302}",
+              "category_v2_map": {
+                "39": true,
+                "746": true,
+                "37": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2ce5f4a60430e064ddf96c1e69361263~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=H%2FxbJ0B7m2Y4%2Ffq8XIV7kWuY6vA%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7326787223716631870,
+                  "AuthorName": "那有一只白色的猫"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2ce5f4a60430e064ddf96c1e69361263~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071878&x-signature=FaI%2BXIldq6NcD8kNBpYdbScTtdw%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "（日常、穿越、福瑞、二次元）\n本文是作者兴趣使然之下写的游戏《恶魔连结》的同人小说，主要内容是三只加主角的温馨日常向，更新也会比较随意。里面会出现大量作者的xp放出内容，介意请勿阅读，在某个蓝色地方（可能）会更新番外，希望同样喜欢恶魔连结的大家能够喜欢，当然啦没有玩过游戏一样可以看，如果看过后能对恶魔链接产生兴趣那就更好了。",
+              "read_page_progress": "0",
+              "read_cnt_text": "3540人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2ce5f4a60430e064ddf96c1e69361263~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=9Ltypx9f8ydwOcmX6zkUCYTW03s%3D",
+              "raw_book_name": "恶魔连结：乱七八糟的后日谈",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "9564485924729330133:5:0:3279085400:clks####3@20260319103749A6F11181061250310960",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "11.5万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3540人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "游戏体育",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：那有一只白色的猫",
+                "rich_text": "作者：那有一只白色的猫",
+                "high_light_position": []
+              },
+              {
+                "text": "（日常、穿越、福瑞、二次元） 本文是作者兴趣使然之下写的游戏《恶魔连结》的同人小说，主要内容是三只加主角的温馨日常向，更新也会比较随意。里面会出现大量作者的xp放出内容，介意请勿阅读，在某个蓝色地方（可能）会更新番外，希望同样喜欢恶魔连结的大家能够喜欢，当然啦没有玩过游戏一样可以看，如果看过后能对恶魔链接产生兴趣那就更好了。",
+                "rich_text": "（日常、穿越、福瑞、<em>二次元</em>）\n本文是作者兴趣使然之下写的游戏《恶魔连结》的同人小说，主要内容是三只加主角的温馨日常向，更新也会比较随意。里面会出现大量作者的xp放出内容，介意请勿阅读，在某个蓝色地方（可能）会更新番外，希望同样喜欢恶魔连结的大家能够喜欢，当然啦没有玩过游戏一样可以看，如果看过后能对恶魔链接产生兴趣那就更好了。",
+                "high_light_position": [
+                  [
+                    10,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1006,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7600321842703764505",
+          "search_result_id": "7600321842703764505",
+          "search_high_light": {
+            "abstract": {
+              "text": "（多女主，主角是个乐子人，遵从自己的内心快乐生活，主要世界为春物+路人+辉夜……） 重生综漫日常世界的飞鸟信，因为上辈子太苦，这辈子只想当个快乐的乐子人，身随意动。 谁知每周刷新的奇奇怪怪的Buff，总让我“不经意”走进她们的日常。 雪之下：“收起你无聊的把戏！” 辉夜：“谁、谁需要你的助攻！” ——口是心非的样子，就是我最大的欢愉。",
+              "rich_text": "（多女主，主角是个乐子人，遵从自己的内心快乐生活，主要世界为春物+路人+辉夜……）\n重生综漫日常世界的飞鸟信，因为上辈子太苦，这辈子只想当个快乐的乐子人，身随意动。\n谁知每周刷新的奇奇怪怪的Buff，总让我“不经意”走进她们的日常。\n雪之下：“收起你无聊的把戏！”\n辉夜：“谁、谁需要你的助攻！”\n——口是心非的样子，就是我最大的欢愉。",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "综漫：挂满buff的乐子人",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "（多女主，主角是个乐子人，遵从自己的内心快乐生活，主要世界为春物+路人+辉夜……）\n重生综漫日常世界的飞鸟信，因为上辈子太苦，这辈子只想当个快乐的乐子人，身随意动。\n谁知每周刷新的奇奇怪怪的Buff，总让我“不经意”走进她们的日常。\n雪之下：“收起你无聊的把戏！”\n辉夜：“谁、谁需要你的助攻！”\n——口是心非的样子，就是我最大的欢愉。",
+              "author": "爱吃炒双笋的华大尊",
+              "book_id": "7600321842703764505",
+              "book_name": "综漫：挂满buff的乐子人",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-28T16:10:27+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7600321913356812825",
+              "first_chapter_item_id": "7600321913356812825",
+              "first_chapter_title": "第1章 乐子人的诞生。",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618627053356581401",
+              "last_chapter_item_id": "7618627053356581401",
+              "last_chapter_title": "第47章 侍奉部的闹剧",
+              "last_chapter_update_time": "1773849948",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "6909",
+              "recommend_group_id": "7600321842703764505",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319103757FF8D94957C756FFC35EF\",\"rank\":\"1\",\"normal_session_id\":\"c05b36f3-171f-42dc-9507-7f342670deb8\",\"cold_start_session_id\":\"dbcf09f8-413a-4446-87ab-919ea08124c9\"}",
+              "read_progress": "0",
+              "serial_count": "47",
+              "source": "番茄小说",
+              "tags": "动漫衍生,重生",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0e87d67570d2f80333a015c3a4013879~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=l2YBhaTSB2dFsujUkmNoYVQ2D38%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "120005",
+              "score": "0",
+              "exclusive": "1",
+              "role": "飞鸟信",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":39,\"name\":\"二次元\",\"schema\":\"dragon1967://newCategoryDetail?id=39&name=二次元&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=1&source=detail\"},{\"category_id\":858,\"name\":\"轻小说\",\"schema\":\"dragon1967://newCategoryDetail?id=858&name=轻小说&genre_type=0&gender=1&source=detail\"},{\"category_id\":778,\"name\":\"搞笑轻松\",\"schema\":\"dragon1967://newCategoryDetail?id=778&name=搞笑轻松&genre_type=0&gender=1&source=detail\"},{\"category_id\":465,\"name\":\"综漫\",\"schema\":\"dragon1967://newCategoryDetail?id=465&name=综漫&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "534",
+              "sub_info": "6909人在读",
+              "last_publish_time": "1773850830",
+              "authorize_type": "1",
+              "media_id": "1785903003249675",
+              "original_book_name": "综漫：挂满buff的乐子人",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "14",
+              "thumb_uri": "novel-pic/0e87d67570d2f80333a015c3a4013879",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0e87d67570d2f80333a015c3a4013879~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071878&x-signature=ijGLhAwBT3TS0%2BfTMPQZI%2B9l6h0%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "2044",
+              "pure_category_tags": "动漫衍生,综漫",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#382820",
+              "read_count_all": "6982",
+              "shelf_cnt_history": "2075",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8703\":1769589419,\"6589\":1772596920,\"2329\":1769589419,\"507386\":1769589481,\"596084\":1772596920,\"8661\":1772596920,\"13\":1769589419,\"1967\":1769589419,\"8662\":1769589419,\"35\":1769589419,\"8704\":1769589419,\"507427\":1769589481,\"1128\":1769589419,\"638505\":1772596920,\"2503\":1769589419,\"510893\":1769589419,\"3040\":1772596920}",
+              "category_v2_map": {
+                "465": true,
+                "718": true,
+                "19": true,
+                "858": true,
+                "39": true,
+                "91": true,
+                "778": true,
+                "36": true,
+                "1079": true,
+                "538": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0e87d67570d2f80333a015c3a4013879~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=l2YBhaTSB2dFsujUkmNoYVQ2D38%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7452735399375426841,
+                  "AuthorName": "爱吃炒双笋的华大尊"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0e87d67570d2f80333a015c3a4013879~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071878&x-signature=m3PikccHqC42ODwtHR4aSFhFsDc%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "（多女主，主角是个乐子人，遵从自己的内心快乐生活，主要世界为春物+路人+辉夜……）\n重生综漫日常世界的飞鸟信，因为上辈子太苦，这辈子只想当个快乐的乐子人，身随意动。\n谁知每周刷新的奇奇怪怪的Buff，总让我“不经意”走进她们的日常。\n雪之下：“收起你无聊的把戏！”\n辉夜：“谁、谁需要你的助攻！”\n——口是心非的样子，就是我最大的欢愉。",
+              "read_page_progress": "0",
+              "read_cnt_text": "6909人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0e87d67570d2f80333a015c3a4013879~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=XIlJ2y%2FVhZw8l2VPYI1fR%2BZ5FyA%3D",
+              "raw_book_name": "综漫：挂满buff的乐子人",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "9564485924729330133:6:0:1096715495:clks####3@20260319103749A6F11181061250310960",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "12.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "6909人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：爱吃炒双笋的华大尊",
+                "rich_text": "作者：爱吃炒双笋的华大尊",
+                "high_light_position": []
+              },
+              {
+                "text": "（多女主，主角是个乐子人，遵从自己的内心快乐生活，主要世界为春物+路人+辉夜……） 重生综漫日常世界的飞鸟信，因为上辈子太苦，这辈子只想当个快乐的乐子人，身随意动。 谁知每周刷新的奇奇怪怪的Buff，总让我“不经意”走进她们的日常。 雪之下：“收起你无聊的把戏！” 辉夜：“谁、谁需要你的助攻！” ——口是心非的样子，就是我最大的欢愉。",
+                "rich_text": "（多女主，主角是个乐子人，遵从自己的内心快乐生活，主要世界为春物+路人+辉夜……）\n重生综漫日常世界的飞鸟信，因为上辈子太苦，这辈子只想当个快乐的乐子人，身随意动。\n谁知每周刷新的奇奇怪怪的Buff，总让我“不经意”走进她们的日常。\n雪之下：“收起你无聊的把戏！”\n辉夜：“谁、谁需要你的助攻！”\n——口是心非的样子，就是我最大的欢愉。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1007,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7515457983132732440",
+          "search_result_id": "7515457983132732440",
+          "search_high_light": {
+            "abstract": {
+              "text": "【新书刚刚开分，大家给个机会叭】 夏尔·恶魔契约者·十八世纪女王的番犬·凡多姆海恩在不经意间进入了一间奇怪的商店， 莫名其妙地被神神叨叨的店长送到了其他的世界， 为了回到自己的世界完成未完成的复仇，夏尔的不得不开始在各个世界间来回穿越， 然后他发现外面的世界属实有些过分精彩了…… 破案也好，黑手党也罢，哪怕是超能力网球他也勉强可以接受， 但谁能告诉他为什么还要去当什么男公关？ 不过好在，那个恶魔一直都在他身边…… ★成长流，会给啵酱加武力点 ★大概会是一个长篇 目前确认的世界:猎人、炽天使、咒回、小樱、k，樱兰，网王、名柯……（顺序不定） ★其中有些世界可能会混在一块 ★同人有ooc！我流啵酱！ ★作者是土狗！主角三观不代表作者三观 ★是否会影响主线不确定！请当成平行时空看！ ★cp是塞巴斯蒂安（出于啵酱年龄考虑感情线比较靠后） * 无论将要面对怎样的艰险或困境，无论别人对我是善意也好、憎厌也好……  即使伤感，即使愤怒，即使会让自己或别人痛苦…… 哪怕目之所及都化作焦土，在达成目标前我都会拼命地往前走，拼命地活下去。 *",
+              "rich_text": "【新书刚刚开分，大家给个机会叭】\n夏尔·恶魔契约者·十八世纪女王的番犬·凡多姆海恩在不经意间进入了一间奇怪的商店，\n莫名其妙地被神神叨叨的店长送到了其他的世界，\n为了回到自己的世界完成未完成的复仇，夏尔的不得不开始在各个世界间来回穿越，\n然后他发现外面的世界属实有些过分精彩了……\n破案也好，黑手党也罢，哪怕是超能力网球他也勉强可以接受，\n但谁能告诉他为什么还要去当什么男公关？\n不过好在，那个恶魔一直都在他身边……\n★成长流，会给啵酱加武力点\n★大概会是一个长篇\n目前确认的世界:猎人、炽天使、咒回、小樱、k，樱兰，网王、名柯……（顺序不定）\n★其中有些世界可能会混在一块\n★同人有ooc！我流啵酱！\n★作者是土狗！主角三观不代表作者三观\n★是否会影响主线不确定！请当成平行时空看！\n★cp是塞巴斯蒂安（出于啵酱年龄考虑感情线比较靠后）\n*\n无论将要面对怎样的艰险或困境，无论别人对我是善意也好、憎厌也好……\n\n即使伤感，即使愤怒，即使会让自己或别人痛苦……\n哪怕目之所及都化作焦土，在达成目标前我都会拼命地往前走，拼命地活下去。\n*",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "【综漫】在异世界饲养一只恶魔",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【新书刚刚开分，大家给个机会叭】\n夏尔·恶魔契约者·十八世纪女王的番犬·凡多姆海恩在不经意间进入了一间奇怪的商店，\n莫名其妙地被神神叨叨的店长送到了其他的世界，\n为了回到自己的世界完成未完成的复仇，夏尔的不得不开始在各个世界间来回穿越，\n然后他发现外面的世界属实有些过分精彩了……\n破案也好，黑手党也罢，哪怕是超能力网球他也勉强可以接受，\n但谁能告诉他为什么还要去当什么男公关？\n不过好在，那个恶魔一直都在他身边……\n★成长流，会给啵酱加武力点\n★大概会是一个长篇\n目前确认的世界:猎人、炽天使、咒回、小樱、k，樱兰，网王、名柯……（顺序不定）\n★其中有些世界可能会混在一块\n★同人有ooc！我流啵酱！\n★作者是土狗！主角三观不代表作者三观\n★是否会影响主线不确定！请当成平行时空看！\n★cp是塞巴斯蒂安（出于啵酱年龄考虑感情线比较靠后）\n*\n无论将要面对怎样的艰险或困境，无论别人对我是善意也好、憎厌也好……\n\n即使伤感，即使愤怒，即使会让自己或别人痛苦……\n哪怕目之所及都化作焦土，在达成目标前我都会拼命地往前走，拼命地活下去。\n*",
+              "author": "一潭水清",
+              "book_id": "7515457983132732440",
+              "book_name": "【综漫】在异世界饲养一只恶魔",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-06-13T23:35:19+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7515718293232042558",
+              "first_chapter_item_id": "7515718293232042558",
+              "first_chapter_title": "第一章 梦境",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618558451697844761",
+              "last_chapter_item_id": "7618558451697844761",
+              "last_chapter_title": "第六章不是，他是怎么过来的？",
+              "last_chapter_update_time": "1773840873",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "6662",
+              "recommend_group_id": "7515457983132732440",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319103757FF8D94957C756FFC35EF\",\"rank\":\"1\",\"normal_session_id\":\"c05b36f3-171f-42dc-9507-7f342670deb8\",\"cold_start_session_id\":\"dbcf09f8-413a-4446-87ab-919ea08124c9\"}",
+              "read_progress": "0",
+              "serial_count": "512",
+              "source": "番茄小说",
+              "tags": "动漫衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b9a41a8bbbc6b1d8926ee5d5d6d7d31b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=ro8Z0y52YlFm0q0KAzsldYfv9Z0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1066524",
+              "score": "8.1",
+              "exclusive": "1",
+              "role": "夏尔,塞巴斯蒂安",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=0&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=0&source=detail\"},{\"category_id\":39,\"name\":\"二次元\",\"schema\":\"dragon1967://newCategoryDetail?id=39&name=二次元&genre_type=0&gender=0&source=detail\"},{\"category_id\":465,\"name\":\"综漫\",\"schema\":\"dragon1967://newCategoryDetail?id=465&name=综漫&genre_type=0&gender=0&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=0&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "490",
+              "sub_info": "6662人在读",
+              "last_publish_time": "1773840883",
+              "authorize_type": "1",
+              "media_id": "1772113561633796",
+              "original_book_name": "被迫穿越世界的夏尔",
+              "length_type": "0",
+              "op_tag": "531,535,536",
+              "keep_publish_days": "77",
+              "thumb_uri": "novel-pic/b9a41a8bbbc6b1d8926ee5d5d6d7d31b",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6b81f6ecd041a5dd4d0de97afeab7d30~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071878&x-signature=NurD5%2Bs7OyYXDhqslPxRn%2Fg504U%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "655",
+              "pure_category_tags": "动漫衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#181828",
+              "read_count_all": "83730",
+              "shelf_cnt_history": "25427",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1128\":1749904895,\"510893\":1749904895,\"13\":1749904895,\"8703\":1749904895,\"1967\":1749904895,\"8661\":1750602941,\"8704\":1749904895,\"2503\":1749904895,\"6589\":1750602941,\"596084\":1750602941,\"638505\":1750602941,\"3040\":1750602941,\"507386\":1749904957,\"8662\":1749904895,\"35\":1749904895,\"507427\":1749904957,\"2329\":1749904895}",
+              "category_v2_map": {
+                "1079": true,
+                "718": true,
+                "37": true,
+                "39": true,
+                "465": true,
+                "538": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b9a41a8bbbc6b1d8926ee5d5d6d7d31b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=ro8Z0y52YlFm0q0KAzsldYfv9Z0%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7258577863824119096,
+                  "AuthorName": "一潭水清"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o6b81f6ecd041a5dd4d0de97afeab7d30~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071878&x-signature=%2Bs%2BmOX%2FGH%2Bk34OU3ZDFqEVtPNss%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【新书刚刚开分，大家给个机会叭】\n夏尔·恶魔契约者·十八世纪女王的番犬·凡多姆海恩在不经意间进入了一间奇怪的商店，\n莫名其妙地被神神叨叨的店长送到了其他的世界，\n为了回到自己的世界完成未完成的复仇，夏尔的不得不开始在各个世界间来回穿越，\n然后他发现外面的世界属实有些过分精彩了……\n破案也好，黑手党也罢，哪怕是超能力网球他也勉强可以接受，\n但谁能告诉他为什么还要去当什么男公关？\n不过好在，那个恶魔一直都在他身边……\n★成长流，会给啵酱加武力点\n★大概会是一个长篇\n目前确认的世界:猎人、炽天使、咒回、小樱、k，樱兰，网王、名柯……（顺序不定）\n★其中有些世界可能会混在一块\n★同人有ooc！我流啵酱！\n★作者是土狗！主角三观不代表作者三观\n★是否会影响主线不确定！请当成平行时空看！\n★cp是塞巴斯蒂安（出于啵酱年龄考虑感情线比较靠后）\n*\n无论将要面对怎样的艰险或困境，无论别人对我是善意也好、憎厌也好……\n\n即使伤感，即使愤怒，即使会让自己或别人痛苦……\n哪怕目之所及都化作焦土，在达成目标前我都会拼命地往前走，拼命地活下去。\n*",
+              "read_page_progress": "0",
+              "read_cnt_text": "6662人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b9a41a8bbbc6b1d8926ee5d5d6d7d31b~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=h7pci9jjmwwOiWT8pqisBFRt5rc%3D",
+              "raw_book_name": "【综漫】在异世界饲养一只恶魔",
+              "color_audio_dominate": "#25263E",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "9564485924729330133:7:0:2800903316:clks####3@20260319103749A6F11181061250310960",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "106.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "6662人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：一潭水清",
+                "rich_text": "作者：一潭水清",
+                "high_light_position": []
+              },
+              {
+                "text": "【新书刚刚开分，大家给个机会叭】 夏尔·恶魔契约者·十八世纪女王的番犬·凡多姆海恩在不经意间进入了一间奇怪的商店， 莫名其妙地被神神叨叨的店长送到了其他的世界， 为了回到自己的世界完成未完成的复仇，夏尔的不得不开始在各个世界间来回穿越， 然后他发现外面的世界属实有些过分精彩了…… 破案也好，黑手党也罢，哪怕是超能力网球他也勉强可以接受， 但谁能告诉他为什么还要去当什么男公关？ 不过好在，那个恶魔一直都在他身边…… ★成长流，会给啵酱加武力点 ★大概会是一个长篇 目前确认的世界:猎人、炽天使、咒回、小樱、k，樱兰，网王、名柯……（顺序不定） ★其中有些世界可能会混在一块 ★同人有ooc！我流啵酱！ ★作者是土狗！主角三观不代表作者三观 ★是否会影响主线不确定！请当成平行时空看！ ★cp是塞巴斯蒂安（出于啵酱年龄考虑感情线比较靠后） * 无论将要面对怎样的艰险或困境，无论别人对我是善意也好、憎厌也好……  即使伤感，即使愤怒，即使会让自己或别人痛苦…… 哪怕目之所及都化作焦土，在达成目标前我都会拼命地往前走，拼命地活下去。 *",
+                "rich_text": "【新书刚刚开分，大家给个机会叭】\n夏尔·恶魔契约者·十八世纪女王的番犬·凡多姆海恩在不经意间进入了一间奇怪的商店，\n莫名其妙地被神神叨叨的店长送到了其他的世界，\n为了回到自己的世界完成未完成的复仇，夏尔的不得不开始在各个世界间来回穿越，\n然后他发现外面的世界属实有些过分精彩了……\n破案也好，黑手党也罢，哪怕是超能力网球他也勉强可以接受，\n但谁能告诉他为什么还要去当什么男公关？\n不过好在，那个恶魔一直都在他身边……\n★成长流，会给啵酱加武力点\n★大概会是一个长篇\n目前确认的世界:猎人、炽天使、咒回、小樱、k，樱兰，网王、名柯……（顺序不定）\n★其中有些世界可能会混在一块\n★同人有ooc！我流啵酱！\n★作者是土狗！主角三观不代表作者三观\n★是否会影响主线不确定！请当成平行时空看！\n★cp是塞巴斯蒂安（出于啵酱年龄考虑感情线比较靠后）\n*\n无论将要面对怎样的艰险或困境，无论别人对我是善意也好、憎厌也好……\n\n即使伤感，即使愤怒，即使会让自己或别人痛苦……\n哪怕目之所及都化作焦土，在达成目标前我都会拼命地往前走，拼命地活下去。\n*",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1008,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7611362432904088601",
+          "search_result_id": "7611362432904088601",
+          "search_high_light": {
+            "abstract": {
+              "text": "『救济五人组，一点点养崽，1v1绝对的1v1，双强』 秋田琴是安室透的忠实粉丝（女友粉） 星年233年，秋田琴在看N年还没完结的柯南剧场版影院中，被天空中逃亡的星际盗贼一炮轰了。 死伤无数。 秋田琴作为星际高级指挥官，好不容易任务完成放假期间看个电影，结果她就这么死了！ 好消息她穿越了，穿越到了柯南世界。 穿越的时候她手里出现一把枪，正在警校毕业的射击考试途中。 秋田琴：？ 她考完试，没有当警察，不是成绩太差不过关。 笑话，她好不容易摆脱掉指挥官这军部头衔，穿越了还让她吃国家饭？她要退休！不要上班！ 她要救警校五人组！所以为什么透子被下了药啊！ 秋田琴怀孕了。 她决定…先跑为上策。 —— 三年后，波洛咖啡厅。 柯南坐在吧台长久的陷入沉默，看着吧台里安室透低着头看着，抱着他腿的小奶团子。 这发色，这眼睛。 柯南：这小宝宝如果不是安室先生的，他倒立洗头！ 秋田琴…秋田琴带球跑了个寂寞，刚回日本就被自家崽坑了",
+              "rich_text": "『救济五人组，一点点养崽，1v1绝对的1v1，双强』\n秋田琴是安室透的忠实粉丝（女友粉）\n星年233年，秋田琴在看N年还没完结的柯南剧场版影院中，被天空中逃亡的星际盗贼一炮轰了。\n死伤无数。\n秋田琴作为星际高级指挥官，好不容易任务完成放假期间看个电影，结果她就这么死了！\n好消息她穿越了，穿越到了柯南世界。\n穿越的时候她手里出现一把枪，正在警校毕业的射击考试途中。\n秋田琴：？\n她考完试，没有当警察，不是成绩太差不过关。\n笑话，她好不容易摆脱掉指挥官这军部头衔，穿越了还让她吃国家饭？她要退休！不要上班！\n她要救警校五人组！所以为什么透子被下了药啊！\n秋田琴怀孕了。\n她决定…先跑为上策。\n——\n三年后，波洛咖啡厅。\n柯南坐在吧台长久的陷入沉默，看着吧台里安室透低着头看着，抱着他腿的小奶团子。\n这发色，这眼睛。\n柯南：这小宝宝如果不是安室先生的，他倒立洗头！\n秋田琴…秋田琴带球跑了个寂寞，刚回日本就被自家崽坑了",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "怀了zero的崽后带球跑",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "『救济五人组，一点点养崽，1v1绝对的1v1，双强』\n秋田琴是安室透的忠实粉丝（女友粉）\n星年233年，秋田琴在看N年还没完结的柯南剧场版影院中，被天空中逃亡的星际盗贼一炮轰了。\n死伤无数。\n秋田琴作为星际高级指挥官，好不容易任务完成放假期间看个电影，结果她就这么死了！\n好消息她穿越了，穿越到了柯南世界。\n穿越的时候她手里出现一把枪，正在警校毕业的射击考试途中。\n秋田琴：？\n她考完试，没有当警察，不是成绩太差不过关。\n笑话，她好不容易摆脱掉指挥官这军部头衔，穿越了还让她吃国家饭？她要退休！不要上班！\n她要救警校五人组！所以为什么透子被下了药啊！\n秋田琴怀孕了。\n她决定…先跑为上策。\n——\n三年后，波洛咖啡厅。\n柯南坐在吧台长久的陷入沉默，看着吧台里安室透低着头看着，抱着他腿的小奶团子。\n这发色，这眼睛。\n柯南：这小宝宝如果不是安室先生的，他倒立洗头！\n秋田琴…秋田琴带球跑了个寂寞，刚回日本就被自家崽坑了",
+              "author": "张宁祺",
+              "book_id": "7611362432904088601",
+              "book_name": "怀了zero的崽后带球跑",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-27T10:13:34+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7613052084941750809",
+              "first_chapter_item_id": "7613052084941750809",
+              "first_chapter_title": "第1章 穿越的秋田琴她毕业了",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618577531255390745",
+              "last_chapter_item_id": "7618577531255390745",
+              "last_chapter_title": "第45章 跑？",
+              "last_chapter_update_time": "1773838691",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "16285",
+              "recommend_group_id": "7611362432904088601",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319103757FF8D94957C756FFC35EF\",\"rank\":\"1\",\"normal_session_id\":\"c05b36f3-171f-42dc-9507-7f342670deb8\",\"cold_start_session_id\":\"dbcf09f8-413a-4446-87ab-919ea08124c9\"}",
+              "read_progress": "0",
+              "serial_count": "45",
+              "source": "番茄小说",
+              "tags": "动漫衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/fa070b43fc8bf745a86c9f0429a6932b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=iM2kim5cixVA3IvMG%2BNvELDHh0M%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "109151",
+              "score": "0",
+              "exclusive": "1",
+              "role": "秋田琴,安室透",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=0&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=0&source=detail\"},{\"category_id\":39,\"name\":\"二次元\",\"schema\":\"dragon1967://newCategoryDetail?id=39&name=二次元&genre_type=0&gender=0&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=0&source=detail\"},{\"category_id\":834,\"name\":\"1v1\",\"schema\":\"dragon1967://newCategoryDetail?id=834&name=1v1&genre_type=0&gender=0&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "903",
+              "sub_info": "1.7万人在读",
+              "last_publish_time": "1773838702",
+              "authorize_type": "1",
+              "media_id": "1823681717463051",
+              "original_book_name": "怀了zero的崽后带球跑",
+              "length_type": "0",
+              "op_tag": "305,535,536",
+              "keep_publish_days": "15",
+              "thumb_uri": "novel-pic/fa070b43fc8bf745a86c9f0429a6932b",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/fa070b43fc8bf745a86c9f0429a6932b~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071878&x-signature=CsNZuKbvIbho2IqyHSLKHVx9Y9w%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "4783",
+              "pure_category_tags": "动漫衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e0c0c8",
+              "read_count_all": "16285",
+              "shelf_cnt_history": "4783",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"510893\":1772585000,\"35\":1772585000,\"507386\":1772585062,\"596084\":1772769404,\"3040\":1772769404,\"8661\":1772769404,\"2329\":1772585000,\"8704\":1772585000,\"8703\":1772585000,\"6589\":1772769404,\"8662\":1772585000,\"1128\":1772585000,\"1967\":1772585000,\"13\":1772585000,\"638505\":1772769404,\"2503\":1772585000,\"507427\":1772585062}",
+              "category_v2_map": {
+                "718": true,
+                "834": true,
+                "1079": true,
+                "37": true,
+                "39": true,
+                "538": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/fa070b43fc8bf745a86c9f0429a6932b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=iM2kim5cixVA3IvMG%2BNvELDHh0M%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7469800330109146430,
+                  "AuthorName": "张宁祺"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/fa070b43fc8bf745a86c9f0429a6932b~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071878&x-signature=1TM8DqrR9o8fIsKg4HJPCmOWBAc%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "『救济五人组，一点点养崽，1v1绝对的1v1，双强』\n秋田琴是安室透的忠实粉丝（女友粉）\n星年233年，秋田琴在看N年还没完结的柯南剧场版影院中，被天空中逃亡的星际盗贼一炮轰了。\n死伤无数。\n秋田琴作为星际高级指挥官，好不容易任务完成放假期间看个电影，结果她就这么死了！\n好消息她穿越了，穿越到了柯南世界。\n穿越的时候她手里出现一把枪，正在警校毕业的射击考试途中。\n秋田琴：？\n她考完试，没有当警察，不是成绩太差不过关。\n笑话，她好不容易摆脱掉指挥官这军部头衔，穿越了还让她吃国家饭？她要退休！不要上班！\n她要救警校五人组！所以为什么透子被下了药啊！\n秋田琴怀孕了。\n她决定…先跑为上策。\n——\n三年后，波洛咖啡厅。\n柯南坐在吧台长久的陷入沉默，看着吧台里安室透低着头看着，抱着他腿的小奶团子。\n这发色，这眼睛。\n柯南：这小宝宝如果不是安室先生的，他倒立洗头！\n秋田琴…秋田琴带球跑了个寂寞，刚回日本就被自家崽坑了",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.7万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/fa070b43fc8bf745a86c9f0429a6932b~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=H2qI4UhHCTv%2F8RewfvzB4x5ZIsY%3D",
+              "raw_book_name": "怀了zero的崽后带球跑",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "9564485924729330133:8:0:1510936803:clks####3@20260319103749A6F11181061250310960",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "10.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：张宁祺",
+                "rich_text": "作者：张宁祺",
+                "high_light_position": []
+              },
+              {
+                "text": "『救济五人组，一点点养崽，1v1绝对的1v1，双强』 秋田琴是安室透的忠实粉丝（女友粉） 星年233年，秋田琴在看N年还没完结的柯南剧场版影院中，被天空中逃亡的星际盗贼一炮轰了。 死伤无数。 秋田琴作为星际高级指挥官，好不容易任务完成放假期间看个电影，结果她就这么死了！ 好消息她穿越了，穿越到了柯南世界。 穿越的时候她手里出现一把枪，正在警校毕业的射击考试途中。 秋田琴：？ 她考完试，没有当警察，不是成绩太差不过关。 笑话，她好不容易摆脱掉指挥官这军部头衔，穿越了还让她吃国家饭？她要退休！不要上班！ 她要救警校五人组！所以为什么透子被下了药啊！ 秋田琴怀孕了。 她决定…先跑为上策。 —— 三年后，波洛咖啡厅。 柯南坐在吧台长久的陷入沉默，看着吧台里安室透低着头看着，抱着他腿的小奶团子。 这发色，这眼睛。 柯南：这小宝宝如果不是安室先生的，他倒立洗头！ 秋田琴…秋田琴带球跑了个寂寞，刚回日本就被自家崽坑了",
+                "rich_text": "『救济五人组，一点点养崽，1v1绝对的1v1，双强』\n秋田琴是安室透的忠实粉丝（女友粉）\n星年233年，秋田琴在看N年还没完结的柯南剧场版影院中，被天空中逃亡的星际盗贼一炮轰了。\n死伤无数。\n秋田琴作为星际高级指挥官，好不容易任务完成放假期间看个电影，结果她就这么死了！\n好消息她穿越了，穿越到了柯南世界。\n穿越的时候她手里出现一把枪，正在警校毕业的射击考试途中。\n秋田琴：？\n她考完试，没有当警察，不是成绩太差不过关。\n笑话，她好不容易摆脱掉指挥官这军部头衔，穿越了还让她吃国家饭？她要退休！不要上班！\n她要救警校五人组！所以为什么透子被下了药啊！\n秋田琴怀孕了。\n她决定…先跑为上策。\n——\n三年后，波洛咖啡厅。\n柯南坐在吧台长久的陷入沉默，看着吧台里安室透低着头看着，抱着他腿的小奶团子。\n这发色，这眼睛。\n柯南：这小宝宝如果不是安室先生的，他倒立洗头！\n秋田琴…秋田琴带球跑了个寂寞，刚回日本就被自家崽坑了",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1009,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7597794428056521752",
+          "search_result_id": "7597794428056521752",
+          "search_high_light": {
+            "title": {
+              "text": "综漫：这个二次元！还有人类吗？",
+              "rich_text": "综漫：这个<em>二次元</em>！还有人类吗？",
+              "high_light_position": [
+                [
+                  5,
+                  3
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "这是一本，神人综漫世界小说！ 【神人的动漫原作+炸裂的三观人设+逆天的故事剧情+抽风的原著作者】 他赤石英雄，真的不喜欢吃X！ 为什么别人穿越的综漫世界，都是以神作为核心的。 而他穿越的综漫世界，则是以神人为核心的世界。 这一字之差，犹如天谴。",
+              "rich_text": "这是一本，神人综漫世界小说！\n【神人的动漫原作+炸裂的三观人设+逆天的故事剧情+抽风的原著作者】\n他赤石英雄，真的不喜欢吃X！\n为什么别人穿越的综漫世界，都是以神作为核心的。\n而他穿越的综漫世界，则是以神人为核心的世界。\n这一字之差，犹如天谴。",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "这是一本，神人综漫世界小说！\n【神人的动漫原作+炸裂的三观人设+逆天的故事剧情+抽风的原著作者】\n他赤石英雄，真的不喜欢吃X！\n为什么别人穿越的综漫世界，都是以神作为核心的。\n而他穿越的综漫世界，则是以神人为核心的世界。\n这一字之差，犹如天谴。",
+              "author": "不会打字的小黑子",
+              "book_id": "7597794428056521752",
+              "book_name": "综漫：这个二次元！还有人类吗？",
+              "category": "动漫衍生",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-21T20:42:47+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7598025739094458904",
+              "first_chapter_item_id": "7598025739094458904",
+              "first_chapter_title": "第 1章 你要成为我的master吗？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618189388891046424",
+              "last_chapter_item_id": "7618189388891046424",
+              "last_chapter_title": "第84 章 我要做赤石的狗！",
+              "last_chapter_update_time": "1773748082",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "85144",
+              "recommend_group_id": "7597794428056521752",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319103757FF8D94957C756FFC35EF\",\"rank\":\"1\",\"normal_session_id\":\"c05b36f3-171f-42dc-9507-7f342670deb8\",\"cold_start_session_id\":\"dbcf09f8-413a-4446-87ab-919ea08124c9\"}",
+              "read_progress": "0",
+              "serial_count": "85",
+              "source": "番茄小说",
+              "tags": "动漫衍生,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0b8eff69dae351bcd823458f7f14cf52~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=Zc0CmHQ3h3PzmJxhHaYGyHZL2Zo%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "177432",
+              "score": "6.9",
+              "exclusive": "1",
+              "role": "赤石英雄",
+              "category_schema": "[{\"category_id\":718,\"name\":\"动漫衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=718&name=动漫衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":39,\"name\":\"二次元\",\"schema\":\"dragon1967://newCategoryDetail?id=39&name=二次元&genre_type=0&gender=1&source=detail\"},{\"category_id\":465,\"name\":\"综漫\",\"schema\":\"dragon1967://newCategoryDetail?id=465&name=综漫&genre_type=0&gender=1&source=detail\"},{\"category_id\":538,\"name\":\"同人\",\"schema\":\"dragon1967://newCategoryDetail?id=538&name=同人&genre_type=0&gender=1&source=detail\"},{\"category_id\":1079,\"name\":\"衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1079&name=衍生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "5421",
+              "sub_info": "8.6万人在读",
+              "last_publish_time": "1773823462",
+              "authorize_type": "1",
+              "media_id": "1752907638112256",
+              "original_book_name": "综漫：这个二次元！还有人类吗？",
+              "length_type": "0",
+              "op_tag": "531,535,536",
+              "keep_publish_days": "20",
+              "thumb_uri": "novel-pic/0b8eff69dae351bcd823458f7f14cf52",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/8ea4d0226af0593adfe8d2af3a17b76a",
+              "data_rate": "",
+              "all_bookshelf_count": "16309",
+              "pure_category_tags": "动漫衍生,衍生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#382028",
+              "read_count_all": "118949",
+              "shelf_cnt_history": "29703",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"510893\":1769062304,\"8661\":1769746664,\"596084\":1769746664,\"1128\":1769062304,\"1967\":1769062304,\"6589\":1769746664,\"638505\":1769746664,\"8662\":1769062304,\"8704\":1769062304,\"507386\":1769062351,\"13\":1769062304,\"2329\":1769062304,\"507427\":1769062351,\"2503\":1769062304,\"8703\":1769062304,\"35\":1769062304,\"3040\":1769746664}",
+              "category_v2_map": {
+                "718": true,
+                "465": true,
+                "1079": true,
+                "37": true,
+                "39": true,
+                "538": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0b8eff69dae351bcd823458f7f14cf52~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=Zc0CmHQ3h3PzmJxhHaYGyHZL2Zo%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7541705971257578776,
+                  "AuthorName": "不会打字的小黑子"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/8ea4d0226af0593adfe8d2af3a17b76a~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071878&x-signature=%2Fvs5SQzAZ7J53pWJJ7eCuzPdFno%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "这是一本，神人综漫世界小说！\n【神人的动漫原作+炸裂的三观人设+逆天的故事剧情+抽风的原著作者】\n他赤石英雄，真的不喜欢吃X！\n为什么别人穿越的综漫世界，都是以神作为核心的。\n而他穿越的综漫世界，则是以神人为核心的世界。\n这一字之差，犹如天谴。",
+              "read_page_progress": "0",
+              "read_cnt_text": "8.6万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0b8eff69dae351bcd823458f7f14cf52~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071878&x-signature=7zN3wo36VZOFBSw79pKb9Ui3m8Q%3D",
+              "raw_book_name": "综漫：这个二次元！还有人类吗？",
+              "color_audio_dominate": "#392228",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "9564485924729330133:9:0:1490734507:clks####3@20260319103749A6F11181061250310960",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "17.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "8万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "动漫衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：不会打字的小黑子",
+                "rich_text": "作者：不会打字的小黑子",
+                "high_light_position": []
+              },
+              {
+                "text": "这是一本，神人综漫世界小说！ 【神人的动漫原作+炸裂的三观人设+逆天的故事剧情+抽风的原著作者】 他赤石英雄，真的不喜欢吃X！ 为什么别人穿越的综漫世界，都是以神作为核心的。 而他穿越的综漫世界，则是以神人为核心的世界。 这一字之差，犹如天谴。",
+                "rich_text": "这是一本，神人综漫世界小说！\n【神人的动漫原作+炸裂的三观人设+逆天的故事剧情+抽风的原著作者】\n他赤石英雄，真的不喜欢吃X！\n为什么别人穿越的综漫世界，都是以神作为核心的。\n而他穿越的综漫世界，则是以神人为核心的世界。\n这一字之差，犹如天谴。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "10",
+      "search_id": "clks####3@20260319103749A6F11181061250310960",
+      "query": "二次元",
+      "next_offset": 10,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@20260319103749A6F11181061250310960",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"20260319103757FF8D94957C756FFC35EF\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@20260319103749A6F11181061250310960",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@20260319103749A6F11181061250310960",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "20260319103757FF8D94957C756FFC35EF"
+}

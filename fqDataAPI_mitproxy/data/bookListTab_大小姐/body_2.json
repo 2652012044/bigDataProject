@@ -1,0 +1,2632 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@20260319102111E7BD08145422185A32DC",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@20260319102111E7BD08145422185A32DC",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@20260319102111E7BD08145422185A32DC",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@20260319102111E7BD08145422185A32DC",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@20260319102111E7BD08145422185A32DC",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@20260319102111E7BD08145422185A32DC",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1000,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7595689307034094616",
+          "search_result_id": "7595689307034094616",
+          "search_high_light": {
+            "title": {
+              "text": "大小姐新婚，禁欲大佬日渐失控",
+              "rich_text": "<em>大小姐</em>新婚，禁欲<em>大</em>佬日渐失控",
+              "high_light_position": [
+                [
+                  0,
+                  3
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【娇纵明媚作精大小姐x沉稳爹系禁欲大佬】 【双豪门x先婚后爱x细水长流x上位者低头x年上x甜宠无虐】 江南因身为顶级豪门江家的独生女，自小含着金汤匙出生，父母疼宠，那是要风得风要雨得雨。 更别提她还生了张顶顶漂亮的脸，养得精细，从头发丝到脚尖无一不体现财富堆砌出来的金尊玉贵。 这样的她，本该一生不识愁滋味，却在某一天，被一个梦给终止了。 她不得不选择此前从未想过的另一条路——联姻。 可联姻对象却是一个没有审美没有眼力见的无聊老男人…… ＊ 顾家是京城传承千年的名门世家，顾进之作为新任顾家家主，将克己复礼贯彻到极致，一向喜怒不形于色。 哪怕惊鸿一眼，依旧能将心底泛起的涟漪牢牢按下。 他没想过和她还会有后续的交集。 短暂的相处，他便能够断定，二人的性格南辕北辙，并不适合在一起。 他本该拒绝。 理智却还是败给了私心。 婚后，她的确如他预想的那般，娇气任性、作天作地。 让他没想到的是，自己会食髓知味，逐渐甘之如饴。 直至失控，直至上瘾。 也不愿放手。",
+              "rich_text": "【娇纵明媚作精<em>大小姐</em>x沉稳爹系禁欲<em>大</em>佬】\n【双豪门x先婚后爱x细水长流x上位者低头x年上x甜宠无虐】\n江南因身为顶级豪门江家的独生女，自<em>小</em>含着金汤匙出生，父母疼宠，那是要风得风要雨得雨。\n更别提她还生了张顶顶漂亮的脸，养得精细，从头发丝到脚尖无一不体现财富堆砌出来的金尊玉贵。\n这样的她，本该一生不识愁滋味，却在某一天，被一个梦给终止了。\n她不得不选择此前从未想过的另一条路——联姻。\n可联姻对象却是一个没有审美没有眼力见的无聊老男人……\n＊\n顾家是京城传承千年的名门世家，顾进之作为新任顾家家主，将克己复礼贯彻到极致，一向喜怒不形于色。\n哪怕惊鸿一眼，依旧能将心底泛起的涟漪牢牢按下。\n他没想过和她还会有后续的交集。\n短暂的相处，他便能够断定，二人的性格南辕北辙，并不适合在一起。\n他本该拒绝。\n理智却还是败给了私心。\n婚后，她的确如他预想的那般，娇气任性、作天作地。\n让他没想到的是，自己会食髓知味，逐渐甘之如饴。\n直至失控，直至上瘾。\n也不愿放手。",
+              "high_light_position": [
+                [
+                  7,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【娇纵明媚作精大小姐x沉稳爹系禁欲大佬】\n【双豪门x先婚后爱x细水长流x上位者低头x年上x甜宠无虐】\n江南因身为顶级豪门江家的独生女，自小含着金汤匙出生，父母疼宠，那是要风得风要雨得雨。\n更别提她还生了张顶顶漂亮的脸，养得精细，从头发丝到脚尖无一不体现财富堆砌出来的金尊玉贵。\n这样的她，本该一生不识愁滋味，却在某一天，被一个梦给终止了。\n她不得不选择此前从未想过的另一条路——联姻。\n可联姻对象却是一个没有审美没有眼力见的无聊老男人……\n＊\n顾家是京城传承千年的名门世家，顾进之作为新任顾家家主，将克己复礼贯彻到极致，一向喜怒不形于色。\n哪怕惊鸿一眼，依旧能将心底泛起的涟漪牢牢按下。\n他没想过和她还会有后续的交集。\n短暂的相处，他便能够断定，二人的性格南辕北辙，并不适合在一起。\n他本该拒绝。\n理智却还是败给了私心。\n婚后，她的确如他预想的那般，娇气任性、作天作地。\n让他没想到的是，自己会食髓知味，逐渐甘之如饴。\n直至失控，直至上瘾。\n也不愿放手。",
+              "author": "第九颗星",
+              "book_id": "7595689307034094616",
+              "book_name": "大小姐新婚，禁欲大佬日渐失控",
+              "category": "豪门总裁",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-16T04:33:50+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7595689385794732568",
+              "first_chapter_item_id": "7595689385794732568",
+              "first_chapter_title": "第1章 真的有个青梅",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618624792031134232",
+              "last_chapter_item_id": "7618624792031134232",
+              "last_chapter_title": "第82章 吃教训（两章合一）",
+              "last_chapter_update_time": "1773849491",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "91777",
+              "recommend_group_id": "7595689307034094616",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910212115EF9E41C2A688671382\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "82",
+              "source": "番茄小说",
+              "tags": "豪门总裁,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odd7055400f2c618f91582a963f3120be~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=ofCluRWUqlXCx3dHSYSNOjfNKsE%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "193255",
+              "score": "0",
+              "exclusive": "1",
+              "role": "江南因",
+              "category_schema": "[{\"category_id\":748,\"name\":\"豪门总裁\",\"schema\":\"dragon1967://newCategoryDetail?id=748&name=豪门总裁&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":265,\"name\":\"先婚后爱\",\"schema\":\"dragon1967://newCategoryDetail?id=265&name=先婚后爱&genre_type=0&gender=0&source=detail\"},{\"category_id\":519,\"name\":\"大小姐\",\"schema\":\"dragon1967://newCategoryDetail?id=519&name=大小姐&genre_type=0&gender=0&source=detail\"},{\"category_id\":520,\"name\":\"大佬\",\"schema\":\"dragon1967://newCategoryDetail?id=520&name=大佬&genre_type=0&gender=0&source=detail\"},{\"category_id\":1456,\"name\":\"位尊权重\",\"schema\":\"dragon1967://newCategoryDetail?id=1456&name=位尊权重&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "6759",
+              "sub_info": "9.2万人在读",
+              "last_publish_time": "1773849517",
+              "authorize_type": "1",
+              "media_id": "1790958648388619",
+              "original_book_name": "大小姐新婚，禁欲大佬日渐失控",
+              "length_type": "0",
+              "op_tag": "1582,535,536",
+              "keep_publish_days": "4",
+              "thumb_uri": "novel-pic/p2odd7055400f2c618f91582a963f3120be",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odd7055400f2c618f91582a963f3120be~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070882&x-signature=gAjs7ZxG0s%2FmyvGJubChCwUyT%2FA%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "16181",
+              "pure_category_tags": "豪门总裁,位尊权重",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#f0d8d8",
+              "read_count_all": "108004",
+              "shelf_cnt_history": "19260",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"596084\":1769013086,\"638505\":1769013086,\"510893\":1768525152,\"1128\":1768525152,\"507427\":1768525214,\"8703\":1768525152,\"13\":1768525152,\"507386\":1768525214,\"8662\":1768525152,\"8661\":1769013086,\"3040\":1769013086,\"35\":1768525152,\"2503\":1768525152,\"1967\":1768525152,\"8704\":1768525152,\"2329\":1768525152,\"6589\":1769013086}",
+              "category_v2_map": {
+                "1456": true,
+                "748": true,
+                "265": true,
+                "520": true,
+                "3": true,
+                "519": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odd7055400f2c618f91582a963f3120be~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=ofCluRWUqlXCx3dHSYSNOjfNKsE%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7336647415757296920,
+                  "AuthorName": "第九颗星"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odd7055400f2c618f91582a963f3120be~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070882&x-signature=SjbDkogDSa609wJ8gl9M53JEmVA%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【娇纵明媚作精大小姐x沉稳爹系禁欲大佬】\n【双豪门x先婚后爱x细水长流x上位者低头x年上x甜宠无虐】\n江南因身为顶级豪门江家的独生女，自小含着金汤匙出生，父母疼宠，那是要风得风要雨得雨。\n更别提她还生了张顶顶漂亮的脸，养得精细，从头发丝到脚尖无一不体现财富堆砌出来的金尊玉贵。\n这样的她，本该一生不识愁滋味，却在某一天，被一个梦给终止了。\n她不得不选择此前从未想过的另一条路——联姻。\n可联姻对象却是一个没有审美没有眼力见的无聊老男人……\n＊\n顾家是京城传承千年的名门世家，顾进之作为新任顾家家主，将克己复礼贯彻到极致，一向喜怒不形于色。\n哪怕惊鸿一眼，依旧能将心底泛起的涟漪牢牢按下。\n他没想过和她还会有后续的交集。\n短暂的相处，他便能够断定，二人的性格南辕北辙，并不适合在一起。\n他本该拒绝。\n理智却还是败给了私心。\n婚后，她的确如他预想的那般，娇气任性、作天作地。\n让他没想到的是，自己会食髓知味，逐渐甘之如饴。\n直至失控，直至上瘾。\n也不愿放手。",
+              "read_page_progress": "0",
+              "read_cnt_text": "9.2万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odd7055400f2c618f91582a963f3120be~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=i1wYqxydmDjVqlv025kiUnJihMk%3D",
+              "raw_book_name": "大小姐新婚，禁欲大佬日渐失控",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5046999451960790606:0:0:2118725930:clks####3@20260319102111E7BD08145422185A32DC",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "19.3万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "9万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "豪门总裁",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：第九颗星",
+                "rich_text": "作者：第九颗星",
+                "high_light_position": []
+              },
+              {
+                "text": "【娇纵明媚作精大小姐x沉稳爹系禁欲大佬】 【双豪门x先婚后爱x细水长流x上位者低头x年上x甜宠无虐】 江南因身为顶级豪门江家的独生女，自小含着金汤匙出生，父母疼宠，那是要风得风要雨得雨。 更别提她还生了张顶顶漂亮的脸，养得精细，从头发丝到脚尖无一不体现财富堆砌出来的金尊玉贵。 这样的她，本该一生不识愁滋味，却在某一天，被一个梦给终止了。 她不得不选择此前从未想过的另一条路——联姻。 可联姻对象却是一个没有审美没有眼力见的无聊老男人…… ＊ 顾家是京城传承千年的名门世家，顾进之作为新任顾家家主，将克己复礼贯彻到极致，一向喜怒不形于色。 哪怕惊鸿一眼，依旧能将心底泛起的涟漪牢牢按下。 他没想过和她还会有后续的交集。 短暂的相处，他便能够断定，二人的性格南辕北辙，并不适合在一起。 他本该拒绝。 理智却还是败给了私心。 婚后，她的确如他预想的那般，娇气任性、作天作地。 让他没想到的是，自己会食髓知味，逐渐甘之如饴。 直至失控，直至上瘾。 也不愿放手。",
+                "rich_text": "【娇纵明媚作精<em>大小姐</em>x沉稳爹系禁欲<em>大</em>佬】\n【双豪门x先婚后爱x细水长流x上位者低头x年上x甜宠无虐】\n江南因身为顶级豪门江家的独生女，自<em>小</em>含着金汤匙出生，父母疼宠，那是要风得风要雨得雨。\n更别提她还生了张顶顶漂亮的脸，养得精细，从头发丝到脚尖无一不体现财富堆砌出来的金尊玉贵。\n这样的她，本该一生不识愁滋味，却在某一天，被一个梦给终止了。\n她不得不选择此前从未想过的另一条路——联姻。\n可联姻对象却是一个没有审美没有眼力见的无聊老男人……\n＊\n顾家是京城传承千年的名门世家，顾进之作为新任顾家家主，将克己复礼贯彻到极致，一向喜怒不形于色。\n哪怕惊鸿一眼，依旧能将心底泛起的涟漪牢牢按下。\n他没想过和她还会有后续的交集。\n短暂的相处，他便能够断定，二人的性格南辕北辙，并不适合在一起。\n他本该拒绝。\n理智却还是败给了私心。\n婚后，她的确如他预想的那般，娇气任性、作天作地。\n让他没想到的是，自己会食髓知味，逐渐甘之如饴。\n直至失控，直至上瘾。\n也不愿放手。",
+                "high_light_position": [
+                  [
+                    7,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1001,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7469044412991933465",
+          "search_result_id": "7469044412991933465",
+          "search_high_light": {
+            "title": {
+              "text": "精细小姐（别名：黑道千金她懂法？小弟连夜学刑法）",
+              "rich_text": "精细<em>小姐</em>（别名：黑道千金她懂法？<em>小</em>弟连夜学刑法）",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...7+大女主+‘黑道’大小姐+非言情+无CP+商战+无数黑衣小弟] 前世身为律师的柳语彤重生后，阴差阳错被误会成了黑道大小姐。 面对一群摩拳擦掌、只想在道上做大做强的猛男小弟，她眼前一黑。 为了不被他们带偏带进沟里，她决心一定要带他们洗白走正道，走向光明！ 最后她成功了，成功带出了上万名身黑西装，并且还知法懂法的小弟！就是总感觉哪里不对劲！ 数年后。 集团年会上，密密麻麻，完全数不清人数的黑衣人，齐声高呼。 “愿为大小姐赴汤蹈火！” 柳语彤：“说了多少遍，我们是正规公司！” 众小弟斗志昂扬：“是！大小姐！” [简介无力，建议看正文，这是一个‘黑道大小姐’一步步崛起成世界财阀的故事。] ................... 其他推荐书名《重生后，我被迫成了黑道大小姐！》《重生后我堂堂一律师成了黑道千金》《都成社团大小姐了，黑亿点怎么了？》",
+              "rich_text": "[重生07+<em>大</em>女主+‘黑道’<em>大小姐</em>+非言情+无CP+商战+无数黑衣<em>小</em>弟]\n前世身为律师的柳语彤重生后，阴差阳错被误会成了黑道<em>大小姐</em>。\n面对一群摩拳擦掌、只想在道上做<em>大</em>做强的猛男<em>小</em>弟，她眼前一黑。\n为了不被他们带偏带进沟里，她决心一定要带他们洗白走正道，走向光明！\n最后她成功了，成功带出了上万名身黑西装，并且还知法懂法的<em>小</em>弟！就是总感觉哪里不对劲！\n数年后。\n集团年会上，密密麻麻，完全数不清人数的黑衣人，齐声高呼。\n“愿为<em>大小姐</em>赴汤蹈火！”\n柳语彤：“说了多少遍，我们是正规公司！”\n众<em>小</em>弟斗志昂扬：“是！<em>大小姐</em>！”\n[简介无力，建议看正文，这是一个‘黑道<em>大小姐</em>’一步步崛起成世界财阀的故事。]\n...................\n其他推荐书名《重生后，我被迫成了黑道<em>大小姐</em>！》《重生后我堂堂一律师成了黑道千金》《都成社团<em>大小姐</em>了，黑亿点怎么了？》",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ],
+                [
+                  61,
+                  3
+                ],
+                [
+                  211,
+                  3
+                ],
+                [
+                  253,
+                  3
+                ],
+                [
+                  278,
+                  3
+                ],
+                [
+                  336,
+                  3
+                ],
+                [
+                  363,
+                  3
+                ]
+              ]
+            },
+            "alias": {
+              "text": "精细小姐",
+              "rich_text": "精细<em>小姐</em>",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "[重生07+大女主+‘黑道’大小姐+非言情+无CP+商战+无数黑衣小弟]\n前世身为律师的柳语彤重生后，阴差阳错被误会成了黑道大小姐。\n面对一群摩拳擦掌、只想在道上做大做强的猛男小弟，她眼前一黑。\n为了不被他们带偏带进沟里，她决心一定要带他们洗白走正道，走向光明！\n最后她成功了，成功带出了上万名身黑西装，并且还知法懂法的小弟！就是总感觉哪里不对劲！\n数年后。\n集团年会上，密密麻麻，完全数不清人数的黑衣人，齐声高呼。\n“愿为大小姐赴汤蹈火！”\n柳语彤：“说了多少遍，我们是正规公司！”\n众小弟斗志昂扬：“是！大小姐！”\n[简介无力，建议看正文，这是一个‘黑道大小姐’一步步崛起成世界财阀的故事。]\n...................\n其他推荐书名《重生后，我被迫成了黑道大小姐！》《重生后我堂堂一律师成了黑道千金》《都成社团大小姐了，黑亿点怎么了？》",
+              "author": "我有一把大刀",
+              "book_id": "7469044412991933465",
+              "book_name": "黑道千金她懂法？小弟连夜学刑法",
+              "category": "青春甜宠",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-02-08T21:46:58+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7469044455371178521",
+              "first_chapter_item_id": "7469044455371178521",
+              "first_chapter_title": "1、刚重生，被误认成大小姐！",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618577236639105561",
+              "last_chapter_item_id": "7618577236639105561",
+              "last_chapter_title": "783、百亿赌约，你敢接吗？",
+              "last_chapter_update_time": "1773842054",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "88200",
+              "recommend_group_id": "7469044412991933465",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910212115EF9E41C2A688671382\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "783",
+              "source": "番茄小说",
+              "tags": "青春甜宠,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/1a1e87a4f6752ac25afd9b4e55c9885c~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=X1ruVHN9V2Qp5axVeurz6b41nKM%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1864695",
+              "score": "9.2",
+              "exclusive": "1",
+              "role": "柳语彤",
+              "category_schema": "[{\"category_id\":749,\"name\":\"青春甜宠\",\"schema\":\"dragon1967://newCategoryDetail?id=749&name=青春甜宠&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=0&source=detail\"},{\"category_id\":86,\"name\":\"女强\",\"schema\":\"dragon1967://newCategoryDetail?id=86&name=女强&genre_type=0&gender=0&source=detail\"},{\"category_id\":4,\"name\":\"校园\",\"schema\":\"dragon1967://newCategoryDetail?id=4&name=校园&genre_type=0&gender=0&source=detail\"},{\"category_id\":392,\"name\":\"无CP\",\"schema\":\"dragon1967://newCategoryDetail?id=392&name=无CP&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7502264432584559640]",
+              "book_type": "0",
+              "alias_name": "精细小姐",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "15511",
+              "sub_info": "8.9万人在读",
+              "last_publish_time": "1773842077",
+              "authorize_type": "1",
+              "media_id": "1683593158491139",
+              "original_book_name": "重生后，我被迫成了黑道大小姐！",
+              "length_type": "0",
+              "op_tag": "531,1076,1135,1139,1712,535,536,529,1072",
+              "keep_publish_days": "17",
+              "thumb_uri": "novel-pic/1a1e87a4f6752ac25afd9b4e55c9885c",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/9c6a609cb8d2f3867bb24929bf7c9e7f",
+              "data_rate": "",
+              "all_bookshelf_count": "13306",
+              "pure_category_tags": "青春甜宠,无CP",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#302020",
+              "read_count_all": "1813893",
+              "shelf_cnt_history": "399900",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"3040\":1739029872,\"2503\":1739023566,\"596084\":1739029872,\"13\":1739023566,\"35\":1739023566,\"6589\":1739029872,\"8662\":1739023566,\"1967\":1739023566,\"1128\":1739023566,\"8661\":1739029872,\"510893\":1739023566,\"507427\":1741786322,\"8704\":1747135537,\"638505\":1739029872,\"2329\":1739023566,\"8703\":1744963143,\"507386\":1741786322}",
+              "category_v2_map": {
+                "86": true,
+                "3": true,
+                "36": true,
+                "392": true,
+                "749": true,
+                "4": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/1a1e87a4f6752ac25afd9b4e55c9885c~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=X1ruVHN9V2Qp5axVeurz6b41nKM%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7336460902553621784,
+                  "AuthorName": "我有一把大刀"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "黎明的蔷薇",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/9c6a609cb8d2f3867bb24929bf7c9e7f~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070882&x-signature=NOtQk7seq7%2FNc8zaFEZM0PaIDVg%3D",
+              "reputation_thumb_uri": "novel-pic-r/5e383d5eaad96a3784c0b1f935561e8e",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "[重生07+大女主+‘黑道’大小姐+非言情+无CP+商战+无数黑衣小弟]\n前世身为律师的柳语彤重生后，阴差阳错被误会成了黑道大小姐。\n面对一群摩拳擦掌、只想在道上做大做强的猛男小弟，她眼前一黑。\n为了不被他们带偏带进沟里，她决心一定要带他们洗白走正道，走向光明！\n最后她成功了，成功带出了上万名身黑西装，并且还知法懂法的小弟！就是总感觉哪里不对劲！\n数年后。\n集团年会上，密密麻麻，完全数不清人数的黑衣人，齐声高呼。\n“愿为大小姐赴汤蹈火！”\n柳语彤：“说了多少遍，我们是正规公司！”\n众小弟斗志昂扬：“是！大小姐！”\n[简介无力，建议看正文，这是一个‘黑道大小姐’一步步崛起成世界财阀的故事。]\n...................\n其他推荐书名《重生后，我被迫成了黑道大小姐！》《重生后我堂堂一律师成了黑道千金》《都成社团大小姐了，黑亿点怎么了？》",
+              "read_page_progress": "0",
+              "read_cnt_text": "8.9万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/1a1e87a4f6752ac25afd9b4e55c9885c~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=MoKBvA7P2qbFv76KqZj8yCrCF4I%3D",
+              "cell_content_raw_alias": "精细小姐",
+              "raw_book_name": "黑道千金她懂法？小弟连夜学刑法",
+              "related_bookids": "{\"8662\":{\"203\":[7506762073196465214,7530149464024042520]},\"3040\":{\"203\":[7506762073196465214,7530149464024042520]},\"1967\":{\"203\":[7506762073196465214,7530149464024042520]},\"507386\":{\"203\":[7506762073196465214,7530149464024042520]},\"507427\":{\"203\":[7506762073196465214,7530149464024042520]}}",
+              "color_audio_dominate": "#262523"
+            }
+          ],
+          "search_attached_info": "5046999451960790606:1:0:436044649:clks####3@20260319102111E7BD08145422185A32DC",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短剧原著",
+              "Priority": 15,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "186.5万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "8万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "青春甜宠",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：我有一把大刀",
+                "rich_text": "作者：我有一把<em>大</em>刀",
+                "high_light_position": [
+                  [
+                    7,
+                    1
+                  ]
+                ]
+              },
+              {
+                "text": "...7+大女主+‘黑道’大小姐+非言情+无CP+商战+无数黑衣小弟] 前世身为律师的柳语彤重生后，阴差阳错被误会成了黑道大小姐。 面对一群摩拳擦掌、只想在道上做大做强的猛男小弟，她眼前一黑。 为了不被他们带偏带进沟里，她决心一定要带他们洗白走正道，走向光明！ 最后她成功了，成功带出了上万名身黑西装，并且还知法懂法的小弟！就是总感觉哪里不对劲！ 数年后。 集团年会上，密密麻麻，完全数不清人数的黑衣人，齐声高呼。 “愿为大小姐赴汤蹈火！” 柳语彤：“说了多少遍，我们是正规公司！” 众小弟斗志昂扬：“是！大小姐！” [简介无力，建议看正文，这是一个‘黑道大小姐’一步步崛起成世界财阀的故事。] ................... 其他推荐书名《重生后，我被迫成了黑道大小姐！》《重生后我堂堂一律师成了黑道千金》《都成社团大小姐了，黑亿点怎么了？》",
+                "rich_text": "[重生07+<em>大</em>女主+‘黑道’<em>大小姐</em>+非言情+无CP+商战+无数黑衣<em>小</em>弟]\n前世身为律师的柳语彤重生后，阴差阳错被误会成了黑道<em>大小姐</em>。\n面对一群摩拳擦掌、只想在道上做<em>大</em>做强的猛男<em>小</em>弟，她眼前一黑。\n为了不被他们带偏带进沟里，她决心一定要带他们洗白走正道，走向光明！\n最后她成功了，成功带出了上万名身黑西装，并且还知法懂法的<em>小</em>弟！就是总感觉哪里不对劲！\n数年后。\n集团年会上，密密麻麻，完全数不清人数的黑衣人，齐声高呼。\n“愿为<em>大小姐</em>赴汤蹈火！”\n柳语彤：“说了多少遍，我们是正规公司！”\n众<em>小</em>弟斗志昂扬：“是！<em>大小姐</em>！”\n[简介无力，建议看正文，这是一个‘黑道<em>大小姐</em>’一步步崛起成世界财阀的故事。]\n...................\n其他推荐书名《重生后，我被迫成了黑道<em>大小姐</em>！》《重生后我堂堂一律师成了黑道千金》《都成社团<em>大小姐</em>了，黑亿点怎么了？》",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ],
+                  [
+                    61,
+                    3
+                  ],
+                  [
+                    211,
+                    3
+                  ],
+                  [
+                    253,
+                    3
+                  ],
+                  [
+                    278,
+                    3
+                  ],
+                  [
+                    336,
+                    3
+                  ],
+                  [
+                    363,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1002,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7345779026511793214",
+          "search_result_id": "7345779026511793214",
+          "search_high_light": {
+            "abstract": {
+              "text": "...名：《极致心瘾，病娇大小姐非我不可！》 【名门世家大小姐+疯批病娇+偏执嗜夫如命】【日常细腻】【后悔文+不原谅】【无系统+无重生】【单女主】【强制的恋爱日常】【追夫火葬场】 　　失散多年的许家真少爷许杰被接回家后，养子林枫被三个姐姐赶出家门。 　　失去少爷身份后，他得知校花女友早就出轨，跟他在一起不过是看上了他许家少爷的身份。 　　这一刻，林枫大梦初醒！ 　　他浑浑噩噩的游走在雨夜的小巷里，却被一个“醉酒”的冷傲女人威胁…… 　　稀里糊涂一夜后，她强势又莫名其妙地命令林枫留在她身边……",
+              "rich_text": "[同名短剧已上线]又名：《极致心瘾，病娇<em>大小姐</em>非我不可！》\n【名门世家<em>大小姐</em>+疯批病娇+偏执嗜夫如命】【日常细腻】【后悔文+不原谅】【无系统+无重生】【单女主】【强制的恋爱日常】【追夫火葬场】\n　　失散多年的许家真少爷许杰被接回家后，养子林枫被三个<em>姐姐</em>赶出家门。\n　　失去少爷身份后，他得知校花女友早就出轨，跟他在一起不过是看上了他许家少爷的身份。\n　　这一刻，林枫<em>大</em>梦初醒！\n　　他浑浑噩噩的游走在雨夜的<em>小</em>巷里，却被一个“醉酒”的冷傲女人威胁……\n　　稀里糊涂一夜后，她强势又莫名其妙地命令林枫留在她身边……",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ],
+                [
+                  28,
+                  3
+                ],
+                [
+                  117,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "极致心瘾，病娇大小姐非我不可！",
+              "rich_text": "极致心瘾，病娇<em>大小姐</em>非我不可！",
+              "high_light_position": [
+                [
+                  7,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "[同名短剧已上线]又名：《极致心瘾，病娇大小姐非我不可！》\n【名门世家大小姐+疯批病娇+偏执嗜夫如命】【日常细腻】【后悔文+不原谅】【无系统+无重生】【单女主】【强制的恋爱日常】【追夫火葬场】\n　　失散多年的许家真少爷许杰被接回家后，养子林枫被三个姐姐赶出家门。\n　　失去少爷身份后，他得知校花女友早就出轨，跟他在一起不过是看上了他许家少爷的身份。\n　　这一刻，林枫大梦初醒！\n　　他浑浑噩噩的游走在雨夜的小巷里，却被一个“醉酒”的冷傲女人威胁……\n　　稀里糊涂一夜后，她强势又莫名其妙地命令林枫留在她身边……",
+              "author": "阿祭",
+              "book_id": "7345779026511793214",
+              "book_name": "极致心瘾，病娇大小姐非我不可！",
+              "category": "都市日常",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-03-13T17:34:18+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7345779062180151870",
+              "first_chapter_item_id": "7345779062180151870",
+              "first_chapter_title": "第1章 他这是被当成人质了！",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7541880695669408281",
+              "last_chapter_item_id": "7541880695669408281",
+              "last_chapter_title": "番外 不忘初心",
+              "last_chapter_update_time": "1757105812",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "67367",
+              "recommend_group_id": "7345779026511793214",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910212115EF9E41C2A688671382\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "576",
+              "source": "番茄小说",
+              "tags": "都市日常,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/071fa715f5f5f61bd3c43fe7e48e60a4~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=xVRqcq6uqsrmyeLtTQsZ0xHZMa0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1146800",
+              "score": "9.0",
+              "exclusive": "1",
+              "role": "林枫,楚凌霜",
+              "category_schema": "[{\"category_id\":261,\"name\":\"都市日常\",\"schema\":\"dragon1967://newCategoryDetail?id=261&name=都市日常&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":389,\"name\":\"单女主\",\"schema\":\"dragon1967://newCategoryDetail?id=389&name=单女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":519,\"name\":\"大小姐\",\"schema\":\"dragon1967://newCategoryDetail?id=519&name=大小姐&genre_type=0&gender=1&source=detail\"},{\"category_id\":834,\"name\":\"1v1\",\"schema\":\"dragon1967://newCategoryDetail?id=834&name=1v1&genre_type=0&gender=1&source=detail\"},{\"category_id\":838,\"name\":\"无后宫\",\"schema\":\"dragon1967://newCategoryDetail?id=838&name=无后宫&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7411863047771261977]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "6709",
+              "sub_info": "6.8万人在读",
+              "last_publish_time": "1757105821",
+              "authorize_type": "1",
+              "media_id": "1688678991959053",
+              "original_book_name": "顶级折磨！被傲娇大小姐强掳回家",
+              "length_type": "0",
+              "op_tag": "531,536,966,934,891,535,984,854,846,935,870,888,889,245,1040,1102,1104",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/071fa715f5f5f61bd3c43fe7e48e60a4",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/cd840e228b35d00a2ab4a7a136d66d77",
+              "data_rate": "",
+              "all_bookshelf_count": "7317",
+              "pure_category_tags": "都市日常,无后宫",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#282020",
+              "read_count_all": "4135283",
+              "shelf_cnt_history": "732913",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"596084\":1714097943,\"6589\":1710687422,\"1967\":1710322646,\"2329\":1710322646,\"2503\":1710322646,\"507427\":1741945242,\"507386\":1741945242,\"35\":1710322646,\"13\":1710322646,\"8703\":1744884882,\"1128\":1710322646,\"8661\":1710687422,\"8704\":1747231324,\"3040\":1710687422,\"638505\":1724769657,\"510893\":1710322646,\"8662\":1710322646}",
+              "category_v2_map": {
+                "261": true,
+                "1": true,
+                "389": true,
+                "519": true,
+                "834": true,
+                "838": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/071fa715f5f5f61bd3c43fe7e48e60a4~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=xVRqcq6uqsrmyeLtTQsZ0xHZMa0%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6916910691186119950,
+                  "AuthorName": "阿祭"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "玫瑰锁夫",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/cd840e228b35d00a2ab4a7a136d66d77~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070882&x-signature=c3n%2BUOl%2FDTTd9totdkIhcR5RSBk%3D",
+              "reputation_thumb_uri": "novel-pic-r/667f46babc8433aa1b1c7235be5897de",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "[同名短剧已上线]又名：《极致心瘾，病娇大小姐非我不可！》\n【名门世家大小姐+疯批病娇+偏执嗜夫如命】【日常细腻】【后悔文+不原谅】【无系统+无重生】【单女主】【强制的恋爱日常】【追夫火葬场】\n　　失散多年的许家真少爷许杰被接回家后，养子林枫被三个姐姐赶出家门。\n　　失去少爷身份后，他得知校花女友早就出轨，跟他在一起不过是看上了他许家少爷的身份。\n　　这一刻，林枫大梦初醒！\n　　他浑浑噩噩的游走在雨夜的小巷里，却被一个“醉酒”的冷傲女人威胁……\n　　稀里糊涂一夜后，她强势又莫名其妙地命令林枫留在她身边……",
+              "read_page_progress": "0",
+              "read_cnt_text": "6.8万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/071fa715f5f5f61bd3c43fe7e48e60a4~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=aXz4SYVYehQFZ2fREdJacttDw%2FQ%3D",
+              "raw_book_name": "极致心瘾，病娇大小姐非我不可！",
+              "related_bookids": "{\"507427\":{\"205\":[7614135865769479192],\"203\":[7574054327422045208]},\"8662\":{\"205\":[7614135865769479192],\"203\":[7574054327422045208]},\"3040\":{\"203\":[7574054327422045208],\"205\":[7614135865769479192]},\"1967\":{\"203\":[7574054327422045208],\"205\":[7614135865769479192]},\"507386\":{\"205\":[7614135865769479192],\"203\":[7574054327422045208]}}",
+              "color_audio_dominate": "#967F6F"
+            }
+          ],
+          "search_attached_info": "5046999451960790606:2:0:104171961:clks####3@20260319102111E7BD08145422185A32DC",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短剧原著",
+              "Priority": 15,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "114.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "6万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市日常",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：阿祭",
+                "rich_text": "作者：阿祭",
+                "high_light_position": []
+              },
+              {
+                "text": "...名：《极致心瘾，病娇大小姐非我不可！》 【名门世家大小姐+疯批病娇+偏执嗜夫如命】【日常细腻】【后悔文+不原谅】【无系统+无重生】【单女主】【强制的恋爱日常】【追夫火葬场】 　　失散多年的许家真少爷许杰被接回家后，养子林枫被三个姐姐赶出家门。 　　失去少爷身份后，他得知校花女友早就出轨，跟他在一起不过是看上了他许家少爷的身份。 　　这一刻，林枫大梦初醒！ 　　他浑浑噩噩的游走在雨夜的小巷里，却被一个“醉酒”的冷傲女人威胁…… 　　稀里糊涂一夜后，她强势又莫名其妙地命令林枫留在她身边……",
+                "rich_text": "[同名短剧已上线]又名：《极致心瘾，病娇<em>大小姐</em>非我不可！》\n【名门世家<em>大小姐</em>+疯批病娇+偏执嗜夫如命】【日常细腻】【后悔文+不原谅】【无系统+无重生】【单女主】【强制的恋爱日常】【追夫火葬场】\n　　失散多年的许家真少爷许杰被接回家后，养子林枫被三个<em>姐姐</em>赶出家门。\n　　失去少爷身份后，他得知校花女友早就出轨，跟他在一起不过是看上了他许家少爷的身份。\n　　这一刻，林枫<em>大</em>梦初醒！\n　　他浑浑噩噩的游走在雨夜的<em>小</em>巷里，却被一个“醉酒”的冷傲女人威胁……\n　　稀里糊涂一夜后，她强势又莫名其妙地命令林枫留在她身边……",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ],
+                  [
+                    28,
+                    3
+                  ],
+                  [
+                    117,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1003,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7529498520928144409",
+          "search_result_id": "7529498520928144409",
+          "search_high_light": {
+            "alias": {
+              "text": "叶诚的大小姐们",
+              "rich_text": "叶诚的<em>大小姐</em>们",
+              "high_light_position": [
+                [
+                  3,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "叶诚的大小姐们（别名：混蛋住手啊！这不是旮旯给木）",
+              "rich_text": "叶诚的<em>大小姐</em>们（别名：混蛋住手啊！这不是旮旯给木）",
+              "high_light_position": [
+                [
+                  3,
+                  3
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...+修罗场+轻松搞笑+大小姐+轻小说】 社死，又名社会性死亡，泛指……算了不重要了，我叫叶诚，我要开始社死了。 …… 【请宿主在新生典礼上，用所有人可以铭记的方式表白东方家大小姐，现任学生会会长！】 【请宿主帮助面前崴脚少女抵达医务室，并且满足心中邪恶念头！】 【请宿主满足心中所想，狠狠惩罚面前嚣大小姐！】 【请宿主遵循内心，放弃可耻的服软，求饶，痛批面前的嚣张恶劣大小姐！】 【请宿主……】 叶诚：“来来来，这个宿主给你当，老子不玩了！” 不对，这崴脚少女怎么是黑道千金啊？ 惩罚嚣张大小姐怎么是这个惩罚法子？ 还有你小子说谁心中邪恶念头呢，粗来，单挑！！！ …… 高傲的会长大人，腹黑的黑道千金，体弱的病娇大小姐，笨蛋陪嫁小秘书，混的萝/……",
+              "rich_text": "【癫癫癫癫癫癫癫癫癫+修罗场+轻松搞笑+<em>大小姐</em>+轻<em>小</em>说】\n社死，又名社会性死亡，泛指……算了不重要了，我叫叶诚，我要开始社死了。\n……\n【请宿主在新生典礼上，用所有人可以铭记的方式表白东方家<em>大小姐</em>，现任学生会会长！】\n【请宿主帮助面前崴脚少女抵达医务室，并且满足心中邪恶念头！】\n【请宿主满足心中所想，狠狠惩罚面前嚣<em>大小姐</em>！】\n【请宿主遵循内心，放弃可耻的服软，求饶，痛批面前的嚣张恶劣<em>大小姐</em>！】\n【请宿主……】\n叶诚：“来来来，这个宿主给你当，老子不玩了！”\n不对，这崴脚少女怎么是黑道千金啊？\n惩罚嚣张<em>大小姐</em>怎么是这个惩罚法子？\n还有你<em>小</em>子说谁心中邪恶念头呢，粗来，单挑！！！\n……\n高傲的会长<em>大</em>人，腹黑的黑道千金，体弱的病娇<em>大小姐</em>，笨蛋陪嫁<em>小</em>秘书，混的萝/……",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ],
+                [
+                  88,
+                  3
+                ],
+                [
+                  151,
+                  3
+                ],
+                [
+                  186,
+                  3
+                ],
+                [
+                  246,
+                  3
+                ],
+                [
+                  308,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【癫癫癫癫癫癫癫癫癫+修罗场+轻松搞笑+大小姐+轻小说】\n社死，又名社会性死亡，泛指……算了不重要了，我叫叶诚，我要开始社死了。\n……\n【请宿主在新生典礼上，用所有人可以铭记的方式表白东方家大小姐，现任学生会会长！】\n【请宿主帮助面前崴脚少女抵达医务室，并且满足心中邪恶念头！】\n【请宿主满足心中所想，狠狠惩罚面前嚣大小姐！】\n【请宿主遵循内心，放弃可耻的服软，求饶，痛批面前的嚣张恶劣大小姐！】\n【请宿主……】\n叶诚：“来来来，这个宿主给你当，老子不玩了！”\n不对，这崴脚少女怎么是黑道千金啊？\n惩罚嚣张大小姐怎么是这个惩罚法子？\n还有你小子说谁心中邪恶念头呢，粗来，单挑！！！\n……\n高傲的会长大人，腹黑的黑道千金，体弱的病娇大小姐，笨蛋陪嫁小秘书，混的萝/……",
+              "author": "有点易斯但不多",
+              "book_id": "7529498520928144409",
+              "book_name": "混蛋住手啊！这不是旮旯给木",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-07-21T19:39:47+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7529499901420372505",
+              "first_chapter_item_id": "7529499901420372505",
+              "first_chapter_title": "第1章 岂不闻天无绝人之路？精彩人生系统！",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7617061155839672857",
+              "last_chapter_item_id": "7617061155839672857",
+              "last_chapter_title": "第530章 杜婉仪：癌症是什么东西很可怕吗？天妒之人！",
+              "last_chapter_update_time": "1773485288",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "181232",
+              "recommend_group_id": "7529498520928144409",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910212115EF9E41C2A688671382\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "530",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d463b48946ee9ffb5406201d5b086b1d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=4h3q%2F7adL1K5IL4x6Mmyy3LEA20%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1757162",
+              "score": "8.5",
+              "exclusive": "1",
+              "role": "叶诚",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":92,\"name\":\"腹黑\",\"schema\":\"dragon1967://newCategoryDetail?id=92&name=腹黑&genre_type=0&gender=1&source=detail\"},{\"category_id\":519,\"name\":\"大小姐\",\"schema\":\"dragon1967://newCategoryDetail?id=519&name=大小姐&genre_type=0&gender=1&source=detail\"},{\"category_id\":778,\"name\":\"搞笑轻松\",\"schema\":\"dragon1967://newCategoryDetail?id=778&name=搞笑轻松&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7559090442113911832]",
+              "book_type": "0",
+              "alias_name": "叶诚的大小姐们",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "23018",
+              "sub_info": "18.2万人在读",
+              "last_publish_time": "1773828081",
+              "authorize_type": "1",
+              "media_id": "1747562852201480",
+              "original_book_name": "让你贵族学校读书，你去泡大小姐",
+              "length_type": "0",
+              "op_tag": "305,535,536",
+              "keep_publish_days": "216",
+              "thumb_uri": "novel-pic/d463b48946ee9ffb5406201d5b086b1d",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/2edd38d0162fd26d921ffc52fbc21208",
+              "data_rate": "",
+              "all_bookshelf_count": "28460",
+              "pure_category_tags": "都市脑洞,搞笑轻松",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e8e0e0",
+              "read_count_all": "2104347",
+              "shelf_cnt_history": "507295",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8662\":1753105222,\"507427\":1753105284,\"507386\":1753105284,\"596084\":1753113259,\"1128\":1753105222,\"2329\":1753105222,\"6589\":1753113259,\"1967\":1753105222,\"8703\":1753105222,\"2503\":1753105222,\"8704\":1753105222,\"3040\":1753113259,\"638505\":1753113259,\"13\":1753105222,\"510893\":1753105222,\"8661\":1753113259,\"35\":1753105222}",
+              "category_v2_map": {
+                "262": true,
+                "1": true,
+                "778": true,
+                "19": true,
+                "92": true,
+                "519": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d463b48946ee9ffb5406201d5b086b1d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=4h3q%2F7adL1K5IL4x6Mmyy3LEA20%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7158049867313452288,
+                  "AuthorName": "有点易斯但不多"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/2edd38d0162fd26d921ffc52fbc21208~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070882&x-signature=%2B1hPcNOBTp0WBV61gymhmVHpd1c%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【癫癫癫癫癫癫癫癫癫+修罗场+轻松搞笑+大小姐+轻小说】\n社死，又名社会性死亡，泛指……算了不重要了，我叫叶诚，我要开始社死了。\n……\n【请宿主在新生典礼上，用所有人可以铭记的方式表白东方家大小姐，现任学生会会长！】\n【请宿主帮助面前崴脚少女抵达医务室，并且满足心中邪恶念头！】\n【请宿主满足心中所想，狠狠惩罚面前嚣大小姐！】\n【请宿主遵循内心，放弃可耻的服软，求饶，痛批面前的嚣张恶劣大小姐！】\n【请宿主……】\n叶诚：“来来来，这个宿主给你当，老子不玩了！”\n不对，这崴脚少女怎么是黑道千金啊？\n惩罚嚣张大小姐怎么是这个惩罚法子？\n还有你小子说谁心中邪恶念头呢，粗来，单挑！！！\n……\n高傲的会长大人，腹黑的黑道千金，体弱的病娇大小姐，笨蛋陪嫁小秘书，混的萝/……",
+              "read_page_progress": "0",
+              "read_cnt_text": "18.2万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d463b48946ee9ffb5406201d5b086b1d~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=aY5ZvE5Rvoo3Ostn358Ao7QrSfc%3D",
+              "cell_content_raw_alias": "叶诚的大小姐们",
+              "raw_book_name": "混蛋住手啊！这不是旮旯给木",
+              "related_bookids": "{\"1967\":{\"261\":[7602578866497932350],\"203\":[7606606994509679641]},\"507386\":{\"261\":[7602578866497932350],\"203\":[7606606994509679641]},\"507427\":{\"261\":[7602578866497932350],\"203\":[7606606994509679641]},\"8662\":{\"261\":[7602578866497932350],\"203\":[7606606994509679641]},\"3040\":{\"261\":[7602578866497932350],\"203\":[7606606994509679641]}}",
+              "color_audio_dominate": "#3A2922",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5046999451960790606:3:0:615464495:clks####3@20260319102111E7BD08145422185A32DC",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短剧原著",
+              "Priority": 15,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "175.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "18万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：有点易斯但不多",
+                "rich_text": "作者：有点易斯但不多",
+                "high_light_position": []
+              },
+              {
+                "text": "...+修罗场+轻松搞笑+大小姐+轻小说】 社死，又名社会性死亡，泛指……算了不重要了，我叫叶诚，我要开始社死了。 …… 【请宿主在新生典礼上，用所有人可以铭记的方式表白东方家大小姐，现任学生会会长！】 【请宿主帮助面前崴脚少女抵达医务室，并且满足心中邪恶念头！】 【请宿主满足心中所想，狠狠惩罚面前嚣大小姐！】 【请宿主遵循内心，放弃可耻的服软，求饶，痛批面前的嚣张恶劣大小姐！】 【请宿主……】 叶诚：“来来来，这个宿主给你当，老子不玩了！” 不对，这崴脚少女怎么是黑道千金啊？ 惩罚嚣张大小姐怎么是这个惩罚法子？ 还有你小子说谁心中邪恶念头呢，粗来，单挑！！！ …… 高傲的会长大人，腹黑的黑道千金，体弱的病娇大小姐，笨蛋陪嫁小秘书，混的萝/……",
+                "rich_text": "【癫癫癫癫癫癫癫癫癫+修罗场+轻松搞笑+<em>大小姐</em>+轻<em>小</em>说】\n社死，又名社会性死亡，泛指……算了不重要了，我叫叶诚，我要开始社死了。\n……\n【请宿主在新生典礼上，用所有人可以铭记的方式表白东方家<em>大小姐</em>，现任学生会会长！】\n【请宿主帮助面前崴脚少女抵达医务室，并且满足心中邪恶念头！】\n【请宿主满足心中所想，狠狠惩罚面前嚣<em>大小姐</em>！】\n【请宿主遵循内心，放弃可耻的服软，求饶，痛批面前的嚣张恶劣<em>大小姐</em>！】\n【请宿主……】\n叶诚：“来来来，这个宿主给你当，老子不玩了！”\n不对，这崴脚少女怎么是黑道千金啊？\n惩罚嚣张<em>大小姐</em>怎么是这个惩罚法子？\n还有你<em>小</em>子说谁心中邪恶念头呢，粗来，单挑！！！\n……\n高傲的会长<em>大</em>人，腹黑的黑道千金，体弱的病娇<em>大小姐</em>，笨蛋陪嫁<em>小</em>秘书，混的萝/……",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ],
+                  [
+                    88,
+                    3
+                  ],
+                  [
+                    151,
+                    3
+                  ],
+                  [
+                    186,
+                    3
+                  ],
+                  [
+                    246,
+                    3
+                  ],
+                  [
+                    308,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1004,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7594650924841192472",
+          "search_result_id": "7594650924841192472",
+          "search_high_light": {
+            "abstract": {
+              "text": "...主+女追男+病娇黑帮大小姐+日常甜宠+无系统】 江城大学流传着一个传说：新来的转校生苏红袖，是北方第一黑道家族的大小姐，性格暴戾，无人敢惹。 所有人都对她避之不及，直到某天暴雨夜。 普通学生陈默在巷子里捡回了一只浑身是血的“小野猫”，给她包扎伤口，煮了一碗热面。 他不知道，自己随手的善意，惹上了世界上最大的麻烦。 第二天，全校震惊。 那个眼神能杀人的苏红袖，竟然红着眼眶，拽着陈默的衣角不肯撒手： “陈默，外面的人都想害我，只有你对我好……” “你要是敢丢下我，我就把这所学校拆了，把你锁在家里，哪也不许去。” 陈默看着面前这只随时会黑化的“小野猫”，无奈叹气。 坏了，这下真甩不掉了！",
+              "rich_text": "【单女主+女追男+病娇黑帮<em>大小姐</em>+日常甜宠+无系统】\n江城<em>大</em>学流传着一个传说：新来的转校生苏红袖，是北方第一黑道家族的<em>大小姐</em>，性格暴戾，无人敢惹。\n所有人都对她避之不及，直到某天暴雨夜。\n普通学生陈默在巷子里捡回了一只浑身是血的“<em>小</em>野猫”，给她包扎伤口，煮了一碗热面。\n他不知道，自己随手的善意，惹上了世界上最<em>大</em>的麻烦。\n第二天，全校震惊。\n那个眼神能杀人的苏红袖，竟然红着眼眶，拽着陈默的衣角不肯撒手：\n“陈默，外面的人都想害我，只有你对我好……”\n“你要是敢丢下我，我就把这所学校拆了，把你锁在家里，哪也不许去。”\n陈默看着面前这只随时会黑化的“<em>小</em>野猫”，无奈叹气。\n坏了，这下真甩不掉了！",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ],
+                [
+                  59,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "开局捡到病娇，岳父求我别退货！",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【单女主+女追男+病娇黑帮大小姐+日常甜宠+无系统】\n江城大学流传着一个传说：新来的转校生苏红袖，是北方第一黑道家族的大小姐，性格暴戾，无人敢惹。\n所有人都对她避之不及，直到某天暴雨夜。\n普通学生陈默在巷子里捡回了一只浑身是血的“小野猫”，给她包扎伤口，煮了一碗热面。\n他不知道，自己随手的善意，惹上了世界上最大的麻烦。\n第二天，全校震惊。\n那个眼神能杀人的苏红袖，竟然红着眼眶，拽着陈默的衣角不肯撒手：\n“陈默，外面的人都想害我，只有你对我好……”\n“你要是敢丢下我，我就把这所学校拆了，把你锁在家里，哪也不许去。”\n陈默看着面前这只随时会黑化的“小野猫”，无奈叹气。\n坏了，这下真甩不掉了！",
+              "author": "今天我还没睡饱",
+              "book_id": "7594650924841192472",
+              "book_name": "开局捡到病娇，岳父求我别退货！",
+              "category": "都市日常",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-13T09:24:23+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7594651050829693464",
+              "first_chapter_item_id": "7594651050829693464",
+              "first_chapter_title": "第1章 雨夜捡到一只“小野猫”",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7617059315169378841",
+              "last_chapter_item_id": "7617059315169378841",
+              "last_chapter_title": "第313章 绝不遮掩！这是本小姐的顶级珠宝！",
+              "last_chapter_update_time": "1773484833",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "100904",
+              "recommend_group_id": "7594650924841192472",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910212115EF9E41C2A688671382\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "313",
+              "source": "番茄小说",
+              "tags": "都市日常,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9d9de77cba7e78d89e23567453e7561b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=mKTFF01RjSl0aiHrozTAys668rw%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "729325",
+              "score": "6.9",
+              "exclusive": "1",
+              "role": "陈默",
+              "category_schema": "[{\"category_id\":261,\"name\":\"都市日常\",\"schema\":\"dragon1967://newCategoryDetail?id=261&name=都市日常&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":389,\"name\":\"单女主\",\"schema\":\"dragon1967://newCategoryDetail?id=389&name=单女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":519,\"name\":\"大小姐\",\"schema\":\"dragon1967://newCategoryDetail?id=519&name=大小姐&genre_type=0&gender=1&source=detail\"},{\"category_id\":826,\"name\":\"黑道\",\"schema\":\"dragon1967://newCategoryDetail?id=826&name=黑道&genre_type=0&gender=1&source=detail\"},{\"category_id\":838,\"name\":\"无后宫\",\"schema\":\"dragon1967://newCategoryDetail?id=838&name=无后宫&genre_type=0&gender=1&source=detail\"},{\"category_id\":1460,\"name\":\"都市江湖\",\"schema\":\"dragon1967://newCategoryDetail?id=1460&name=都市江湖&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "7973",
+              "sub_info": "10.1万人在读",
+              "last_publish_time": "1773849686",
+              "authorize_type": "1",
+              "media_id": "1843966002526217",
+              "original_book_name": "坏了！病娇黑道大小姐赖上我",
+              "length_type": "0",
+              "op_tag": "531,535,536",
+              "keep_publish_days": "66",
+              "thumb_uri": "novel-pic/9d9de77cba7e78d89e23567453e7561b",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/53e2217d2671eb1f96afe9485d58894c",
+              "data_rate": "",
+              "all_bookshelf_count": "16476",
+              "pure_category_tags": "都市日常,都市江湖",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#281008",
+              "read_count_all": "275037",
+              "shelf_cnt_history": "52847",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"638505\":1768283895,\"507386\":1768267734,\"2329\":1768267688,\"596084\":1768283895,\"1967\":1768267688,\"2503\":1768267688,\"8661\":1768283895,\"8662\":1768267688,\"8704\":1768267688,\"507427\":1768267734,\"1128\":1768267688,\"13\":1768267688,\"3040\":1768283895,\"6589\":1768283895,\"35\":1768267688,\"510893\":1768267688,\"8703\":1768267688}",
+              "category_v2_map": {
+                "1": true,
+                "519": true,
+                "838": true,
+                "261": true,
+                "389": true,
+                "826": true,
+                "1460": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9d9de77cba7e78d89e23567453e7561b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=mKTFF01RjSl0aiHrozTAys668rw%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7556649807440270617,
+                  "AuthorName": "今天我还没睡饱"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/53e2217d2671eb1f96afe9485d58894c~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070882&x-signature=eAwLYufmlZg3%2BB6yec02BhgG3T0%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【单女主+女追男+病娇黑帮大小姐+日常甜宠+无系统】\n江城大学流传着一个传说：新来的转校生苏红袖，是北方第一黑道家族的大小姐，性格暴戾，无人敢惹。\n所有人都对她避之不及，直到某天暴雨夜。\n普通学生陈默在巷子里捡回了一只浑身是血的“小野猫”，给她包扎伤口，煮了一碗热面。\n他不知道，自己随手的善意，惹上了世界上最大的麻烦。\n第二天，全校震惊。\n那个眼神能杀人的苏红袖，竟然红着眼眶，拽着陈默的衣角不肯撒手：\n“陈默，外面的人都想害我，只有你对我好……”\n“你要是敢丢下我，我就把这所学校拆了，把你锁在家里，哪也不许去。”\n陈默看着面前这只随时会黑化的“小野猫”，无奈叹气。\n坏了，这下真甩不掉了！",
+              "read_page_progress": "0",
+              "read_cnt_text": "10.1万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9d9de77cba7e78d89e23567453e7561b~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=tgLqROh3OMy1Lmfcoubu1hD6Uvs%3D",
+              "raw_book_name": "开局捡到病娇，岳父求我别退货！",
+              "color_audio_dominate": "#DFCECB",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5046999451960790606:4:0:2962100308:clks####3@20260319102111E7BD08145422185A32DC",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "72.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "10万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市日常",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：今天我还没睡饱",
+                "rich_text": "作者：今天我还没睡饱",
+                "high_light_position": []
+              },
+              {
+                "text": "...主+女追男+病娇黑帮大小姐+日常甜宠+无系统】 江城大学流传着一个传说：新来的转校生苏红袖，是北方第一黑道家族的大小姐，性格暴戾，无人敢惹。 所有人都对她避之不及，直到某天暴雨夜。 普通学生陈默在巷子里捡回了一只浑身是血的“小野猫”，给她包扎伤口，煮了一碗热面。 他不知道，自己随手的善意，惹上了世界上最大的麻烦。 第二天，全校震惊。 那个眼神能杀人的苏红袖，竟然红着眼眶，拽着陈默的衣角不肯撒手： “陈默，外面的人都想害我，只有你对我好……” “你要是敢丢下我，我就把这所学校拆了，把你锁在家里，哪也不许去。” 陈默看着面前这只随时会黑化的“小野猫”，无奈叹气。 坏了，这下真甩不掉了！",
+                "rich_text": "【单女主+女追男+病娇黑帮<em>大小姐</em>+日常甜宠+无系统】\n江城<em>大</em>学流传着一个传说：新来的转校生苏红袖，是北方第一黑道家族的<em>大小姐</em>，性格暴戾，无人敢惹。\n所有人都对她避之不及，直到某天暴雨夜。\n普通学生陈默在巷子里捡回了一只浑身是血的“<em>小</em>野猫”，给她包扎伤口，煮了一碗热面。\n他不知道，自己随手的善意，惹上了世界上最<em>大</em>的麻烦。\n第二天，全校震惊。\n那个眼神能杀人的苏红袖，竟然红着眼眶，拽着陈默的衣角不肯撒手：\n“陈默，外面的人都想害我，只有你对我好……”\n“你要是敢丢下我，我就把这所学校拆了，把你锁在家里，哪也不许去。”\n陈默看着面前这只随时会黑化的“<em>小</em>野猫”，无奈叹气。\n坏了，这下真甩不掉了！",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ],
+                  [
+                    59,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1005,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7556835359481416729",
+          "search_result_id": "7556835359481416729",
+          "search_high_light": {
+            "title": {
+              "text": "贵族学院：心机小白花抢走了F4",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "...们渴望看到的是：财阀大小姐享受随意横行的特权以及权势滔天的财阀继承者们极致的偏爱。 - 温青釉穿进贵族学院时，顶着注定惨死的剧情。 她是明艳财阀大小姐的陪衬，是F4随手能碾碎的贫困特招生，因妄图勾引上位而被钉在耻辱柱上。 可这次—— 只手遮天、冷漠霸道的学生会会长赫连决掐着她下巴轻笑，“想爬我的床？给你机会，过来。” 清冷倨傲的医疗巨头继承人肖想着弟弟的女朋友阴湿觊觎，“我们长得一样，要不要试试其他地方是不是也一样？” 绅士疏离的腹黑恶魔卡洛斯擦枪走火，“你值得我打破不对女人动手的原则，抢过来，关起来才乖。” 高岭之花校草慕容宸盯上了比自己的作品还要完美的存在，“宝宝，今天画这个姿势好不好？” —— 小白花脆弱，得很多人呵护才行。 温青釉被捧着在聚光灯下享受万千宠爱。 -心机小白花娇软训狗指南 -劝兄弟醒醒结果把自己也搭进去 -下位者谋生，上位者谋爱 -玛丽苏预警！男主全洁。",
+              "rich_text": "【架空+财阀+多男主f4+心机上位+<em>大</em>明星+全员沦陷+修罗场】\n<em>小</em>说中，读者们厌倦了<em>小</em>白花女主，嫌弃她是一无是处只会惹是生非的菟丝花。\n“这种肤浅的人设，看到就烦！”\n他们渴望看到的是：财阀<em>大小姐</em>享受随意横行的特权以及权势滔天的财阀继承者们极致的偏爱。\n-\n温青釉穿进贵族学院时，顶着注定惨死的剧情。\n她是明艳财阀<em>大小姐</em>的陪衬，是F4随手能碾碎的贫困特招生，因妄图勾引上位而被钉在耻辱柱上。\n可这次——\n只手遮天、冷漠霸道的学生会会长赫连决掐着她下巴轻笑，“想爬我的床？给你机会，过来。”\n清冷倨傲的医疗巨头继承人肖想着弟弟的女朋友阴湿觊觎，“我们长得一样，要不要试试其他地方是不是也一样？”\n绅士疏离的腹黑恶魔卡洛斯擦枪走火，“你值得我打破不对女人动手的原则，抢过来，关起来才乖。”\n高岭之花校草慕容宸盯上了比自己的作品还要完美的存在，“宝宝，今天画这个姿势好不好？”\n——\n<em>小</em>白花脆弱，得很多人呵护才行。\n温青釉被捧着在聚光灯下享受万千宠爱。\n-心机<em>小</em>白花娇软训狗指南\n-劝兄弟醒醒结果把自己也搭进去\n-下位者谋生，上位者谋爱\n-玛丽苏预警！男主全洁。",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ],
+                [
+                  75,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【架空+财阀+多男主f4+心机上位+大明星+全员沦陷+修罗场】\n小说中，读者们厌倦了小白花女主，嫌弃她是一无是处只会惹是生非的菟丝花。\n“这种肤浅的人设，看到就烦！”\n他们渴望看到的是：财阀大小姐享受随意横行的特权以及权势滔天的财阀继承者们极致的偏爱。\n-\n温青釉穿进贵族学院时，顶着注定惨死的剧情。\n她是明艳财阀大小姐的陪衬，是F4随手能碾碎的贫困特招生，因妄图勾引上位而被钉在耻辱柱上。\n可这次——\n只手遮天、冷漠霸道的学生会会长赫连决掐着她下巴轻笑，“想爬我的床？给你机会，过来。”\n清冷倨傲的医疗巨头继承人肖想着弟弟的女朋友阴湿觊觎，“我们长得一样，要不要试试其他地方是不是也一样？”\n绅士疏离的腹黑恶魔卡洛斯擦枪走火，“你值得我打破不对女人动手的原则，抢过来，关起来才乖。”\n高岭之花校草慕容宸盯上了比自己的作品还要完美的存在，“宝宝，今天画这个姿势好不好？”\n——\n小白花脆弱，得很多人呵护才行。\n温青釉被捧着在聚光灯下享受万千宠爱。\n-心机小白花娇软训狗指南\n-劝兄弟醒醒结果把自己也搭进去\n-下位者谋生，上位者谋爱\n-玛丽苏预警！男主全洁。",
+              "author": "吃个甜菜",
+              "book_id": "7556835359481416729",
+              "book_name": "贵族学院：心机小白花抢走了F4",
+              "category": "现言脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-10-03T11:40:40+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7556835366804668953",
+              "first_chapter_item_id": "7556835366804668953",
+              "first_chapter_title": "第1章 游戏开始",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618624594991137305",
+              "last_chapter_item_id": "7618624594991137305",
+              "last_chapter_title": "第166章 杀青、惊喜",
+              "last_chapter_update_time": "1773849295",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "101511",
+              "recommend_group_id": "7556835359481416729",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910212115EF9E41C2A688671382\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "166",
+              "source": "番茄小说",
+              "tags": "现言脑洞,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ba958f5af7282ae6dabb76e92f0208da~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=Y45ocT6G86jAqgZtryNGsNOrxjA%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "413507",
+              "score": "9.1",
+              "exclusive": "1",
+              "role": "温青釉",
+              "category_schema": "[{\"category_id\":267,\"name\":\"现言脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=267&name=现言脑洞&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":30,\"name\":\"宠妻\",\"schema\":\"dragon1967://newCategoryDetail?id=30&name=宠妻&genre_type=0&gender=0&source=detail\"},{\"category_id\":92,\"name\":\"腹黑\",\"schema\":\"dragon1967://newCategoryDetail?id=92&name=腹黑&genre_type=0&gender=0&source=detail\"},{\"category_id\":4,\"name\":\"校园\",\"schema\":\"dragon1967://newCategoryDetail?id=4&name=校园&genre_type=0&gender=0&source=detail\"},{\"category_id\":486,\"name\":\"明星\",\"schema\":\"dragon1967://newCategoryDetail?id=486&name=明星&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "9706",
+              "sub_info": "10.2万人在读",
+              "last_publish_time": "1773849354",
+              "authorize_type": "1",
+              "media_id": "1787429968515083",
+              "original_book_name": "贵族学院：心机小白花抢走了F4",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "4",
+              "thumb_uri": "novel-pic/ba958f5af7282ae6dabb76e92f0208da",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/c33d11a793b8906e24a55a651a1a068d",
+              "data_rate": "",
+              "all_bookshelf_count": "24097",
+              "pure_category_tags": "现言脑洞,明星",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e0d0d0",
+              "read_count_all": "966223",
+              "shelf_cnt_history": "277455",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"13\":1759564803,\"507427\":1759564865,\"8703\":1759564803,\"35\":1759564803,\"507386\":1759564865,\"1128\":1759564803,\"8661\":1759744997,\"8704\":1759564803,\"2503\":1759564803,\"1967\":1759564803,\"8662\":1759564803,\"3040\":1759744997,\"2329\":1759564803,\"638505\":1759744997,\"510893\":1759564803,\"6589\":1759744997,\"596084\":1759744997}",
+              "category_v2_map": {
+                "30": true,
+                "3": true,
+                "92": true,
+                "486": true,
+                "267": true,
+                "4": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ba958f5af7282ae6dabb76e92f0208da~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=Y45ocT6G86jAqgZtryNGsNOrxjA%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7523094835637523774,
+                  "AuthorName": "吃个甜菜"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/c33d11a793b8906e24a55a651a1a068d~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070882&x-signature=SWr0rq2d0u5BRF%2BOWKELEU2INvE%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【架空+财阀+多男主f4+心机上位+大明星+全员沦陷+修罗场】\n小说中，读者们厌倦了小白花女主，嫌弃她是一无是处只会惹是生非的菟丝花。\n“这种肤浅的人设，看到就烦！”\n他们渴望看到的是：财阀大小姐享受随意横行的特权以及权势滔天的财阀继承者们极致的偏爱。\n-\n温青釉穿进贵族学院时，顶着注定惨死的剧情。\n她是明艳财阀大小姐的陪衬，是F4随手能碾碎的贫困特招生，因妄图勾引上位而被钉在耻辱柱上。\n可这次——\n只手遮天、冷漠霸道的学生会会长赫连决掐着她下巴轻笑，“想爬我的床？给你机会，过来。”\n清冷倨傲的医疗巨头继承人肖想着弟弟的女朋友阴湿觊觎，“我们长得一样，要不要试试其他地方是不是也一样？”\n绅士疏离的腹黑恶魔卡洛斯擦枪走火，“你值得我打破不对女人动手的原则，抢过来，关起来才乖。”\n高岭之花校草慕容宸盯上了比自己的作品还要完美的存在，“宝宝，今天画这个姿势好不好？”\n——\n小白花脆弱，得很多人呵护才行。\n温青釉被捧着在聚光灯下享受万千宠爱。\n-心机小白花娇软训狗指南\n-劝兄弟醒醒结果把自己也搭进去\n-下位者谋生，上位者谋爱\n-玛丽苏预警！男主全洁。",
+              "read_page_progress": "0",
+              "read_cnt_text": "10.2万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ba958f5af7282ae6dabb76e92f0208da~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=DrhIYpjRDCQc8vZ%2Bl%2BKFT%2B5MZvk%3D",
+              "raw_book_name": "贵族学院：心机小白花抢走了F4",
+              "color_audio_dominate": "#E6E0D9",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5046999451960790606:5:0:4001887741:clks####3@20260319102111E7BD08145422185A32DC",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "41.4万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "10万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "现言脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：吃个甜菜",
+                "rich_text": "作者：吃个甜菜",
+                "high_light_position": []
+              },
+              {
+                "text": "...们渴望看到的是：财阀大小姐享受随意横行的特权以及权势滔天的财阀继承者们极致的偏爱。 - 温青釉穿进贵族学院时，顶着注定惨死的剧情。 她是明艳财阀大小姐的陪衬，是F4随手能碾碎的贫困特招生，因妄图勾引上位而被钉在耻辱柱上。 可这次—— 只手遮天、冷漠霸道的学生会会长赫连决掐着她下巴轻笑，“想爬我的床？给你机会，过来。” 清冷倨傲的医疗巨头继承人肖想着弟弟的女朋友阴湿觊觎，“我们长得一样，要不要试试其他地方是不是也一样？” 绅士疏离的腹黑恶魔卡洛斯擦枪走火，“你值得我打破不对女人动手的原则，抢过来，关起来才乖。” 高岭之花校草慕容宸盯上了比自己的作品还要完美的存在，“宝宝，今天画这个姿势好不好？” —— 小白花脆弱，得很多人呵护才行。 温青釉被捧着在聚光灯下享受万千宠爱。 -心机小白花娇软训狗指南 -劝兄弟醒醒结果把自己也搭进去 -下位者谋生，上位者谋爱 -玛丽苏预警！男主全洁。",
+                "rich_text": "【架空+财阀+多男主f4+心机上位+<em>大</em>明星+全员沦陷+修罗场】\n<em>小</em>说中，读者们厌倦了<em>小</em>白花女主，嫌弃她是一无是处只会惹是生非的菟丝花。\n“这种肤浅的人设，看到就烦！”\n他们渴望看到的是：财阀<em>大小姐</em>享受随意横行的特权以及权势滔天的财阀继承者们极致的偏爱。\n-\n温青釉穿进贵族学院时，顶着注定惨死的剧情。\n她是明艳财阀<em>大小姐</em>的陪衬，是F4随手能碾碎的贫困特招生，因妄图勾引上位而被钉在耻辱柱上。\n可这次——\n只手遮天、冷漠霸道的学生会会长赫连决掐着她下巴轻笑，“想爬我的床？给你机会，过来。”\n清冷倨傲的医疗巨头继承人肖想着弟弟的女朋友阴湿觊觎，“我们长得一样，要不要试试其他地方是不是也一样？”\n绅士疏离的腹黑恶魔卡洛斯擦枪走火，“你值得我打破不对女人动手的原则，抢过来，关起来才乖。”\n高岭之花校草慕容宸盯上了比自己的作品还要完美的存在，“宝宝，今天画这个姿势好不好？”\n——\n<em>小</em>白花脆弱，得很多人呵护才行。\n温青釉被捧着在聚光灯下享受万千宠爱。\n-心机<em>小</em>白花娇软训狗指南\n-劝兄弟醒醒结果把自己也搭进去\n-下位者谋生，上位者谋爱\n-玛丽苏预警！男主全洁。",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ],
+                  [
+                    75,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1007,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7597469436131429401",
+          "search_result_id": "7597469436131429401",
+          "search_high_light": {
+            "abstract": {
+              "text": "【1v6｜男全洁｜雄竞｜修罗场】 鹿珂穿成了古早小甜文里冒充女主身份的恶毒女配。 拿着女主信物，在她的鱼塘里肆意勾引，将女主的男人嚯嚯了个遍。 后来女主回来，知道一切后委屈的抱着新男主哭：“你们连我都认不出来，呜呜你们和我最恨的人睡了，我讨厌你们，我不要你们了……” 为了挽回女主，几个男主不择手段，总算让女主松口允许他们进鱼塘。 至于鹿珂这个恶毒女配，男人们秋后算账，不仅害得她家破人亡，还将她扔到街头任人玩弄，死的时候身上连件衣服都没有，非常不体面。 穿进来的鹿珂两眼一黑，她母单28年，连男人的手都没摸过，怎么能搅得动一池塘的鱼？ 可她好死不死醒来那天男主之一被人下药，强撑着找到她，此刻已经在她床上缠着她叫老公。 好不容易完事，她只想跑路，却被另一个男主堵住，红着眼问她：你跟他睡了？ 鹿珂清晰的意识到，这就是群疯狗，不想个万全之策就算离开也会被找到。 于是她拼命刷好感，想方设法给女主送机会，让女主快点遇到男主，她也尽可能给男主们留个好印象。 好不容易女主归来，男主们好像也不打算找她麻烦，鹿珂功成身退，转身离开。 可刚到机场却被几个男人堵住：“骗完我们就想跑？为什么不接着骗？” 鹿珂：？",
+              "rich_text": "【1v6｜男全洁｜雄竞｜修罗场】\n鹿珂穿成了古早<em>小</em>甜文里冒充女主身份的恶毒女配。\n拿着女主信物，在她的鱼塘里肆意勾引，将女主的男人嚯嚯了个遍。\n后来女主回来，知道一切后委屈的抱着新男主哭：“你们连我都认不出来，呜呜你们和我最恨的人睡了，我讨厌你们，我不要你们了……”\n为了挽回女主，几个男主不择手段，总算让女主松口允许他们进鱼塘。\n至于鹿珂这个恶毒女配，男人们秋后算账，不仅害得她家破人亡，还将她扔到街头任人玩弄，死的时候身上连件衣服都没有，非常不体面。\n穿进来的鹿珂两眼一黑，她母单28年，连男人的手都没摸过，怎么能搅得动一池塘的鱼？\n可她好死不死醒来那天男主之一被人下药，强撑着找到她，此刻已经在她床上缠着她叫老公。\n好不容易完事，她只想跑路，却被另一个男主堵住，红着眼问她：你跟他睡了？\n鹿珂清晰的意识到，这就是群疯狗，不想个万全之策就算离开也会被找到。\n于是她拼命刷好感，想方设法给女主送机会，让女主快点遇到男主，她也尽可能给男主们留个好印象。\n好不容易女主归来，男主们好像也不打算找她麻烦，鹿珂功成身退，转身离开。\n可刚到机场却被几个男人堵住：“骗完我们就想跑？为什么不接着骗？”\n鹿珂：？",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "穿进不正经文，男主们花样真多",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【1v6｜男全洁｜雄竞｜修罗场】\n鹿珂穿成了古早小甜文里冒充女主身份的恶毒女配。\n拿着女主信物，在她的鱼塘里肆意勾引，将女主的男人嚯嚯了个遍。\n后来女主回来，知道一切后委屈的抱着新男主哭：“你们连我都认不出来，呜呜你们和我最恨的人睡了，我讨厌你们，我不要你们了……”\n为了挽回女主，几个男主不择手段，总算让女主松口允许他们进鱼塘。\n至于鹿珂这个恶毒女配，男人们秋后算账，不仅害得她家破人亡，还将她扔到街头任人玩弄，死的时候身上连件衣服都没有，非常不体面。\n穿进来的鹿珂两眼一黑，她母单28年，连男人的手都没摸过，怎么能搅得动一池塘的鱼？\n可她好死不死醒来那天男主之一被人下药，强撑着找到她，此刻已经在她床上缠着她叫老公。\n好不容易完事，她只想跑路，却被另一个男主堵住，红着眼问她：你跟他睡了？\n鹿珂清晰的意识到，这就是群疯狗，不想个万全之策就算离开也会被找到。\n于是她拼命刷好感，想方设法给女主送机会，让女主快点遇到男主，她也尽可能给男主们留个好印象。\n好不容易女主归来，男主们好像也不打算找她麻烦，鹿珂功成身退，转身离开。\n可刚到机场却被几个男人堵住：“骗完我们就想跑？为什么不接着骗？”\n鹿珂：？",
+              "author": "时暇",
+              "book_id": "7597469436131429401",
+              "book_name": "穿进不正经文，男主们花样真多",
+              "category": "豪门总裁",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-20T23:41:39+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7597728548979229209",
+              "first_chapter_item_id": "7597728548979229209",
+              "first_chapter_title": "第1章 穿、穿书了？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618597198460109337",
+              "last_chapter_item_id": "7618597198460109337",
+              "last_chapter_title": "第110章 当哥的对你还是太好了点",
+              "last_chapter_update_time": "1773847331",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "48486",
+              "recommend_group_id": "7597469436131429401",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910212115EF9E41C2A688671382\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "110",
+              "source": "番茄小说",
+              "tags": "豪门总裁,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/40dd036c8929df274449bf4fb668357b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=YLWvbuxbSf5wkzXbWIGfxY5SzV0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "239359",
+              "score": "6.6",
+              "exclusive": "1",
+              "role": "鹿珂",
+              "category_schema": "[{\"category_id\":748,\"name\":\"豪门总裁\",\"schema\":\"dragon1967://newCategoryDetail?id=748&name=豪门总裁&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=0&source=detail\"},{\"category_id\":29,\"name\":\"总裁\",\"schema\":\"dragon1967://newCategoryDetail?id=29&name=总裁&genre_type=0&gender=0&source=detail\"},{\"category_id\":382,\"name\":\"穿书\",\"schema\":\"dragon1967://newCategoryDetail?id=382&name=穿书&genre_type=0&gender=0&source=detail\"},{\"category_id\":473,\"name\":\"豪门世家\",\"schema\":\"dragon1967://newCategoryDetail?id=473&name=豪门世家&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "3995",
+              "sub_info": "4.9万人在读",
+              "last_publish_time": "1773847572",
+              "authorize_type": "1",
+              "media_id": "1712752248911876",
+              "original_book_name": "穿成顶级财阀少爷们的心机前女友",
+              "length_type": "0",
+              "op_tag": "1599,989",
+              "keep_publish_days": "29",
+              "thumb_uri": "novel-pic/40dd036c8929df274449bf4fb668357b",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/0ae29cae245aa0e152a63974c8ff17ce",
+              "data_rate": "",
+              "all_bookshelf_count": "8649",
+              "pure_category_tags": "豪门总裁,豪门世家",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#384040",
+              "read_count_all": "123175",
+              "shelf_cnt_history": "24873",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1319\":1769602725,\"13\":1769083976,\"8704\":1769083976,\"638505\":1769665061,\"596084\":1769665061,\"1128\":1769083976,\"510893\":1769083976,\"1967\":1769083976,\"8661\":1769665061,\"3040\":1769665061,\"2329\":1769083976,\"507427\":1769084038,\"8703\":1769083976,\"2503\":1769083976,\"8662\":1769083976,\"6589\":1769665061,\"35\":1769083976,\"507386\":1769084038}",
+              "category_v2_map": {
+                "37": true,
+                "382": true,
+                "748": true,
+                "473": true,
+                "3": true,
+                "29": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/40dd036c8929df274449bf4fb668357b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=YLWvbuxbSf5wkzXbWIGfxY5SzV0%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7250772183914386727,
+                  "AuthorName": "时暇"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/0ae29cae245aa0e152a63974c8ff17ce~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070882&x-signature=dyIdAIhJ7bn3j5%2BmvCVZiGiuOPs%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【1v6｜男全洁｜雄竞｜修罗场】\n鹿珂穿成了古早小甜文里冒充女主身份的恶毒女配。\n拿着女主信物，在她的鱼塘里肆意勾引，将女主的男人嚯嚯了个遍。\n后来女主回来，知道一切后委屈的抱着新男主哭：“你们连我都认不出来，呜呜你们和我最恨的人睡了，我讨厌你们，我不要你们了……”\n为了挽回女主，几个男主不择手段，总算让女主松口允许他们进鱼塘。\n至于鹿珂这个恶毒女配，男人们秋后算账，不仅害得她家破人亡，还将她扔到街头任人玩弄，死的时候身上连件衣服都没有，非常不体面。\n穿进来的鹿珂两眼一黑，她母单28年，连男人的手都没摸过，怎么能搅得动一池塘的鱼？\n可她好死不死醒来那天男主之一被人下药，强撑着找到她，此刻已经在她床上缠着她叫老公。\n好不容易完事，她只想跑路，却被另一个男主堵住，红着眼问她：你跟他睡了？\n鹿珂清晰的意识到，这就是群疯狗，不想个万全之策就算离开也会被找到。\n于是她拼命刷好感，想方设法给女主送机会，让女主快点遇到男主，她也尽可能给男主们留个好印象。\n好不容易女主归来，男主们好像也不打算找她麻烦，鹿珂功成身退，转身离开。\n可刚到机场却被几个男人堵住：“骗完我们就想跑？为什么不接着骗？”\n鹿珂：？",
+              "read_page_progress": "0",
+              "read_cnt_text": "4.9万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/40dd036c8929df274449bf4fb668357b~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=8IVoqd6V00b9EtRfvYhp%2Byx5Ikk%3D",
+              "raw_book_name": "穿进不正经文，男主们花样真多",
+              "color_audio_dominate": "#D6C4BC",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5046999451960790606:7:0:1939841775:clks####3@20260319102111E7BD08145422185A32DC",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "23.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "豪门总裁",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：时暇",
+                "rich_text": "作者：时暇",
+                "high_light_position": []
+              },
+              {
+                "text": "【1v6｜男全洁｜雄竞｜修罗场】 鹿珂穿成了古早小甜文里冒充女主身份的恶毒女配。 拿着女主信物，在她的鱼塘里肆意勾引，将女主的男人嚯嚯了个遍。 后来女主回来，知道一切后委屈的抱着新男主哭：“你们连我都认不出来，呜呜你们和我最恨的人睡了，我讨厌你们，我不要你们了……” 为了挽回女主，几个男主不择手段，总算让女主松口允许他们进鱼塘。 至于鹿珂这个恶毒女配，男人们秋后算账，不仅害得她家破人亡，还将她扔到街头任人玩弄，死的时候身上连件衣服都没有，非常不体面。 穿进来的鹿珂两眼一黑，她母单28年，连男人的手都没摸过，怎么能搅得动一池塘的鱼？ 可她好死不死醒来那天男主之一被人下药，强撑着找到她，此刻已经在她床上缠着她叫老公。 好不容易完事，她只想跑路，却被另一个男主堵住，红着眼问她：你跟他睡了？ 鹿珂清晰的意识到，这就是群疯狗，不想个万全之策就算离开也会被找到。 于是她拼命刷好感，想方设法给女主送机会，让女主快点遇到男主，她也尽可能给男主们留个好印象。 好不容易女主归来，男主们好像也不打算找她麻烦，鹿珂功成身退，转身离开。 可刚到机场却被几个男人堵住：“骗完我们就想跑？为什么不接着骗？” 鹿珂：？",
+                "rich_text": "【1v6｜男全洁｜雄竞｜修罗场】\n鹿珂穿成了古早<em>小</em>甜文里冒充女主身份的恶毒女配。\n拿着女主信物，在她的鱼塘里肆意勾引，将女主的男人嚯嚯了个遍。\n后来女主回来，知道一切后委屈的抱着新男主哭：“你们连我都认不出来，呜呜你们和我最恨的人睡了，我讨厌你们，我不要你们了……”\n为了挽回女主，几个男主不择手段，总算让女主松口允许他们进鱼塘。\n至于鹿珂这个恶毒女配，男人们秋后算账，不仅害得她家破人亡，还将她扔到街头任人玩弄，死的时候身上连件衣服都没有，非常不体面。\n穿进来的鹿珂两眼一黑，她母单28年，连男人的手都没摸过，怎么能搅得动一池塘的鱼？\n可她好死不死醒来那天男主之一被人下药，强撑着找到她，此刻已经在她床上缠着她叫老公。\n好不容易完事，她只想跑路，却被另一个男主堵住，红着眼问她：你跟他睡了？\n鹿珂清晰的意识到，这就是群疯狗，不想个万全之策就算离开也会被找到。\n于是她拼命刷好感，想方设法给女主送机会，让女主快点遇到男主，她也尽可能给男主们留个好印象。\n好不容易女主归来，男主们好像也不打算找她麻烦，鹿珂功成身退，转身离开。\n可刚到机场却被几个男人堵住：“骗完我们就想跑？为什么不接着骗？”\n鹿珂：？",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1008,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7556524806535908376",
+          "search_result_id": "7556524806535908376",
+          "search_high_light": {
+            "abstract": {
+              "text": "毕暖的温室从冯恨母亲出现的那一刻天崩地裂！ 年幼丧母，父亲对她不闻不问，毕暖换上严重心理疾病，还被毕家作为联姻对象嫁给凌家那个变态凌善驰。 毕暖在和心理医生男友准备私奔的时候，被继哥冯恨抓了回来，不管婚后凌善驰如何来虐待她，她如何逃跑最后还是会被冯恨抓到，送回来。 意外死后，毕暖得以重生，这次谁是棋子，谁是猎物？",
+              "rich_text": "毕暖的温室从冯恨母亲出现的那一刻天崩地裂！\n年幼丧母，父亲对她不闻不问，毕暖换上严重心理疾病，还被毕家作为联姻对象嫁给凌家那个变态凌善驰。\n毕暖在和心理医生男友准备私奔的时候，被继哥冯恨抓了回来，不管婚后凌善驰如何来虐待她，她如何逃跑最后还是会被冯恨抓到，送回来。\n意外死后，毕暖得以重生，这次谁是棋子，谁是猎物？",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "大小姐最喜欢训狗",
+              "rich_text": "<em>大小姐</em>最喜欢训狗",
+              "high_light_position": [
+                [
+                  0,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "毕暖的温室从冯恨母亲出现的那一刻天崩地裂！\n年幼丧母，父亲对她不闻不问，毕暖换上严重心理疾病，还被毕家作为联姻对象嫁给凌家那个变态凌善驰。\n毕暖在和心理医生男友准备私奔的时候，被继哥冯恨抓了回来，不管婚后凌善驰如何来虐待她，她如何逃跑最后还是会被冯恨抓到，送回来。\n意外死后，毕暖得以重生，这次谁是棋子，谁是猎物？",
+              "author": "大淼生鑫",
+              "book_id": "7556524806535908376",
+              "book_name": "大小姐最喜欢训狗",
+              "category": "豪门总裁",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-10-02T15:35:34+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7556598022231032345",
+              "first_chapter_item_id": "7556598022231032345",
+              "first_chapter_title": "第1章 逃婚被抓",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618235798638297625",
+              "last_chapter_item_id": "7618235798638297625",
+              "last_chapter_title": "第38章 生死决赛2",
+              "last_chapter_update_time": "1773846462",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "5",
+              "recommend_group_id": "7556524806535908376",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910212115EF9E41C2A688671382\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "38",
+              "source": "番茄小说",
+              "tags": "豪门总裁,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o67b69ee993d005aa07ea8cdce462b4b5~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=xTAX5FYcwhtV5zbn1aZ2smi%2F88c%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "82042",
+              "score": "0",
+              "exclusive": "1",
+              "role": "毕暖,冯恨",
+              "category_schema": "[{\"category_id\":748,\"name\":\"豪门总裁\",\"schema\":\"dragon1967://newCategoryDetail?id=748&name=豪门总裁&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":473,\"name\":\"豪门世家\",\"schema\":\"dragon1967://newCategoryDetail?id=473&name=豪门世家&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "2",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773846831",
+              "authorize_type": "1",
+              "media_id": "1778263404179460",
+              "original_book_name": "大小姐最喜欢训狗",
+              "length_type": "0",
+              "op_tag": "305,535,536",
+              "keep_publish_days": "12",
+              "thumb_uri": "novel-pic/p2o67b69ee993d005aa07ea8cdce462b4b5",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o67b69ee993d005aa07ea8cdce462b4b5~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070882&x-signature=kvm1vupoOTFhWRet%2BCP7Pg00mOI%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "豪门总裁,豪门世家",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#181820",
+              "read_count_all": "8",
+              "shelf_cnt_history": "990",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"638505\":1770898776,\"1967\":1764579831,\"2329\":1764579831,\"510893\":1764579831,\"13\":1764579831,\"1128\":1764579831,\"507386\":1764579985,\"596084\":1770898776,\"3040\":1770898776,\"2503\":1764579831,\"8704\":1764579831,\"507427\":1764579985,\"6589\":1770898776,\"8661\":1770898776,\"8703\":1764579831,\"8662\":1764579831,\"35\":1764579831}",
+              "category_v2_map": {
+                "473": true,
+                "748": true,
+                "3": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o67b69ee993d005aa07ea8cdce462b4b5~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=xTAX5FYcwhtV5zbn1aZ2smi%2F88c%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7506329248030790974,
+                  "AuthorName": "大淼生鑫"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o67b69ee993d005aa07ea8cdce462b4b5~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070882&x-signature=X%2BUziJDgMXcaT1VGDbyi2TJ7DiE%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "毕暖的温室从冯恨母亲出现的那一刻天崩地裂！\n年幼丧母，父亲对她不闻不问，毕暖换上严重心理疾病，还被毕家作为联姻对象嫁给凌家那个变态凌善驰。\n毕暖在和心理医生男友准备私奔的时候，被继哥冯恨抓了回来，不管婚后凌善驰如何来虐待她，她如何逃跑最后还是会被冯恨抓到，送回来。\n意外死后，毕暖得以重生，这次谁是棋子，谁是猎物？",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o67b69ee993d005aa07ea8cdce462b4b5~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=ULCBmN3iXn4WHy8ZtJgtf9pfFA8%3D",
+              "raw_book_name": "大小姐最喜欢训狗",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5046999451960790606:8:0:11488682:clks####3@20260319102111E7BD08145422185A32DC",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "8.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "5人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "豪门总裁",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：大淼生鑫",
+                "rich_text": "作者：<em>大</em>淼生鑫",
+                "high_light_position": [
+                  [
+                    3,
+                    1
+                  ]
+                ]
+              },
+              {
+                "text": "毕暖的温室从冯恨母亲出现的那一刻天崩地裂！ 年幼丧母，父亲对她不闻不问，毕暖换上严重心理疾病，还被毕家作为联姻对象嫁给凌家那个变态凌善驰。 毕暖在和心理医生男友准备私奔的时候，被继哥冯恨抓了回来，不管婚后凌善驰如何来虐待她，她如何逃跑最后还是会被冯恨抓到，送回来。 意外死后，毕暖得以重生，这次谁是棋子，谁是猎物？",
+                "rich_text": "毕暖的温室从冯恨母亲出现的那一刻天崩地裂！\n年幼丧母，父亲对她不闻不问，毕暖换上严重心理疾病，还被毕家作为联姻对象嫁给凌家那个变态凌善驰。\n毕暖在和心理医生男友准备私奔的时候，被继哥冯恨抓了回来，不管婚后凌善驰如何来虐待她，她如何逃跑最后还是会被冯恨抓到，送回来。\n意外死后，毕暖得以重生，这次谁是棋子，谁是猎物？",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1009,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7607447183993867289",
+          "search_result_id": "7607447183993867289",
+          "search_high_light": {
+            "abstract": {
+              "text": "...面，竟让厌世脸的京圈大小姐当场沦为专属饭搭子 前任苏晴官宣富二代嘲讽他穷酸，他却凭着前世满级技艺 硬生生把破旧海景房过成了向往的生活 当他想功成身退回家躺平时 高冷大小姐却红着眼揪住他的衣角：“吃了你的饭，这辈子你都得管我..........",
+              "rich_text": "【都市+单女主+恋综】\n背负天价违约金，林默被迫参加恋综，本想靠摆烂被全网劝退\n谁知随手一碗猪油拌面，竟让厌世脸的京圈<em>大小姐</em>当场沦为专属饭搭子\n前任苏晴官宣富二代嘲讽他穷酸，他却凭着前世满级技艺\n硬生生把破旧海景房过成了向往的生活\n当他想功成身退回家躺平时\n高冷<em>大小姐</em>却红着眼揪住他的衣角：“吃了你的饭，这辈子你都得管我..........",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ],
+                [
+                  85,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "恋综只想摆烂，大小姐却动心了",
+              "rich_text": "恋综只想摆烂，<em>大小姐</em>却动心了",
+              "high_light_position": [
+                [
+                  7,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【都市+单女主+恋综】\n背负天价违约金，林默被迫参加恋综，本想靠摆烂被全网劝退\n谁知随手一碗猪油拌面，竟让厌世脸的京圈大小姐当场沦为专属饭搭子\n前任苏晴官宣富二代嘲讽他穷酸，他却凭着前世满级技艺\n硬生生把破旧海景房过成了向往的生活\n当他想功成身退回家躺平时\n高冷大小姐却红着眼揪住他的衣角：“吃了你的饭，这辈子你都得管我..........",
+              "author": "白舟不黑",
+              "book_id": "7607447183993867289",
+              "book_name": "恋综只想摆烂，大小姐却动心了",
+              "category": "都市日常",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-16T21:00:24+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7607447252109378073",
+              "first_chapter_item_id": "7607447252109378073",
+              "first_chapter_title": "第1章 我有病啊？背着500万违约金来谈恋爱？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7615648798424957464",
+              "last_chapter_item_id": "7615648798424957464",
+              "last_chapter_title": "第90章 清晨的口水渍，与绝望的救援延期通报！",
+              "last_chapter_update_time": "1773243891",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "343809",
+              "recommend_group_id": "7607447183993867289",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910212115EF9E41C2A688671382\",\"rank\":\"1\",\"normal_session_id\":\"3222e5fe-cb2e-4414-bb5e-ed10986bfdb8\",\"cold_start_session_id\":\"aae076d3-9102-45bd-8ddc-fdba7077ecb1\"}",
+              "read_progress": "0",
+              "serial_count": "90",
+              "source": "番茄小说",
+              "tags": "都市日常,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe38ed40d495c262f289188ee18d3bb99~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=iWDtDWz2l9gNcLwUO6RuLkLYT1Q%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "288320",
+              "score": "6.2",
+              "exclusive": "1",
+              "role": "林默,姜若云",
+              "category_schema": "[{\"category_id\":261,\"name\":\"都市日常\",\"schema\":\"dragon1967://newCategoryDetail?id=261&name=都市日常&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":69,\"name\":\"直播\",\"schema\":\"dragon1967://newCategoryDetail?id=69&name=直播&genre_type=0&gender=1&source=detail\"},{\"category_id\":389,\"name\":\"单女主\",\"schema\":\"dragon1967://newCategoryDetail?id=389&name=单女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":519,\"name\":\"大小姐\",\"schema\":\"dragon1967://newCategoryDetail?id=519&name=大小姐&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "33306",
+              "sub_info": "34.4万人在读",
+              "last_publish_time": "1773878436",
+              "authorize_type": "1",
+              "media_id": "1777096210074628",
+              "original_book_name": "恋综只想摆烂，大小姐却动心了",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "32",
+              "thumb_uri": "novel-pic/p2oe38ed40d495c262f289188ee18d3bb99",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/1df17e191b924979ad515e9ef09ae367",
+              "data_rate": "",
+              "all_bookshelf_count": "51329",
+              "pure_category_tags": "都市日常,大小姐",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#403830",
+              "read_count_all": "422586",
+              "shelf_cnt_history": "66810",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2503\":1771248555,\"507427\":1771248605,\"510893\":1771248555,\"8703\":1771248555,\"8662\":1771248555,\"6589\":1771315112,\"8704\":1771248555,\"1128\":1771248555,\"1967\":1771248555,\"507386\":1771248605,\"2329\":1771248555,\"13\":1771248555,\"8661\":1771315112,\"638505\":1771315112,\"3040\":1771315112,\"35\":1771248555,\"596084\":1771315112}",
+              "category_v2_map": {
+                "519": true,
+                "261": true,
+                "69": true,
+                "389": true,
+                "1": true,
+                "37": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe38ed40d495c262f289188ee18d3bb99~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=iWDtDWz2l9gNcLwUO6RuLkLYT1Q%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7599547359567041854,
+                  "AuthorName": "白舟不黑"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/1df17e191b924979ad515e9ef09ae367~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070882&x-signature=6mVgwsGPQda%2BCd11KrSjwAvFroY%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【都市+单女主+恋综】\n背负天价违约金，林默被迫参加恋综，本想靠摆烂被全网劝退\n谁知随手一碗猪油拌面，竟让厌世脸的京圈大小姐当场沦为专属饭搭子\n前任苏晴官宣富二代嘲讽他穷酸，他却凭着前世满级技艺\n硬生生把破旧海景房过成了向往的生活\n当他想功成身退回家躺平时\n高冷大小姐却红着眼揪住他的衣角：“吃了你的饭，这辈子你都得管我..........",
+              "read_page_progress": "0",
+              "read_cnt_text": "34.4万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe38ed40d495c262f289188ee18d3bb99~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070882&x-signature=PF5nah355Uwqs35vfxgBf5kL7eI%3D",
+              "raw_book_name": "恋综只想摆烂，大小姐却动心了",
+              "color_audio_dominate": "#9C8565",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5046999451960790606:9:0:2481394411:clks####3@20260319102111E7BD08145422185A32DC",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "28.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "34万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市日常",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：白舟不黑",
+                "rich_text": "作者：白舟不黑",
+                "high_light_position": []
+              },
+              {
+                "text": "...面，竟让厌世脸的京圈大小姐当场沦为专属饭搭子 前任苏晴官宣富二代嘲讽他穷酸，他却凭着前世满级技艺 硬生生把破旧海景房过成了向往的生活 当他想功成身退回家躺平时 高冷大小姐却红着眼揪住他的衣角：“吃了你的饭，这辈子你都得管我..........",
+                "rich_text": "【都市+单女主+恋综】\n背负天价违约金，林默被迫参加恋综，本想靠摆烂被全网劝退\n谁知随手一碗猪油拌面，竟让厌世脸的京圈<em>大小姐</em>当场沦为专属饭搭子\n前任苏晴官宣富二代嘲讽他穷酸，他却凭着前世满级技艺\n硬生生把破旧海景房过成了向往的生活\n当他想功成身退回家躺平时\n高冷<em>大小姐</em>却红着眼揪住他的衣角：“吃了你的饭，这辈子你都得管我..........",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ],
+                  [
+                    85,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "10",
+      "search_id": "clks####3@20260319102111E7BD08145422185A32DC",
+      "query": "大小姐",
+      "next_offset": 10,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@20260319102111E7BD08145422185A32DC",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"2026031910212115EF9E41C2A688671382\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@20260319102111E7BD08145422185A32DC",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@20260319102111E7BD08145422185A32DC",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "2026031910212115EF9E41C2A688671382"
+}

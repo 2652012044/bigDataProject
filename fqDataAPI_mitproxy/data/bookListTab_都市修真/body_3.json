@@ -1,0 +1,1003 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "####1@202603191045043AA0F2A9A73C5519B70C",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "####4@202603191045043AA0F2A9A73C5519B70C",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "####11@202603191045043AA0F2A9A73C5519B70C",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "####19@202603191045043AA0F2A9A73C5519B70C",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "####8@202603191045043AA0F2A9A73C5519B70C",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "####2@202603191045043AA0F2A9A73C5519B70C",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "####3@202603191045043AA0F2A9A73C5519B70C",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": [],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "10",
+      "search_id": "####13@202603191045043AA0F2A9A73C5519B70C",
+      "query": "都市修真",
+      "next_offset": 10,
+      "search_scene": 1,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "section_data": [
+        {
+          "SectionId": "ecom_search_result_item",
+          "WidthType": 1,
+          "HeaderData": {
+            "cell_id": 7358800027164082202,
+            "show_type": 516,
+            "cell_name": "",
+            "cell_operation_type": 0,
+            "use_recommend": true,
+            "cell_id_str": "7358800027164082202",
+            "more_button_position": 0,
+            "category_tag_ids": null,
+            "extra": {
+              "section_id": "ecom_search_result_item",
+              "is_header": "1",
+              "container_type": "section"
+            },
+            "cell_source": 1,
+            "ecom_select_tabs": [
+              {
+                "tab": "综合",
+                "tab_id": "zonghe",
+                "select_style": 2,
+                "items": [
+                  {
+                    "Type": "sort",
+                    "SelectCategory": 1,
+                    "Id": "sort_by_general",
+                    "ConditionField": "",
+                    "Text": "综合",
+                    "IsDefaultSelected": true
+                  }
+                ]
+              },
+              {
+                "tab": "销量",
+                "tab_id": "xiaoliang",
+                "select_style": 2,
+                "items": [
+                  {
+                    "Type": "sort",
+                    "SelectCategory": 3,
+                    "Id": "sort_by_sale",
+                    "ConditionField": "sale",
+                    "Text": "销量"
+                  }
+                ]
+              },
+              {
+                "tab": "直播中",
+                "tab_id": "zhibo",
+                "select_style": 2,
+                "items": [
+                  {
+                    "Type": "filter",
+                    "SelectCategory": 4,
+                    "Id": "filter_by_living",
+                    "ConditionField": "live",
+                    "Text": "直播中"
+                  }
+                ]
+              },
+              {
+                "tab": "价格升序",
+                "tab_id": "sort_by_price_asc",
+                "select_style": 2,
+                "items": [
+                  {
+                    "Type": "sort",
+                    "SelectCategory": 2,
+                    "Id": "sort_by_price_asc",
+                    "ConditionField": "price",
+                    "Text": "价格升序"
+                  }
+                ]
+              },
+              {
+                "tab": "价格降序",
+                "tab_id": "sort_by_price_desc",
+                "select_style": 2,
+                "items": [
+                  {
+                    "Type": "sort",
+                    "SelectCategory": 2,
+                    "Id": "sort_by_price_desc",
+                    "ConditionField": "price",
+                    "Text": "价格降序"
+                  }
+                ]
+              },
+              {
+                "tab": "筛选",
+                "tab_id": "shaixuan",
+                "select_style": 3,
+                "items": [
+                  {
+                    "Type": "filter",
+                    "SelectCategory": 6,
+                    "Id": "PRICE_FILTER",
+                    "ConditionField": "PRICE_FILTER",
+                    "Text": "价格",
+                    "SubFilters": [
+                      {
+                        "Type": "",
+                        "SelectCategory": 0,
+                        "Id": "0-3736",
+                        "ConditionField": "",
+                        "Text": "0-37",
+                        "PostscriptText": "30%用户选择",
+                        "MinInterval": 0,
+                        "MaxInterval": 3736
+                      },
+                      {
+                        "Type": "",
+                        "SelectCategory": 0,
+                        "Id": "3736-5786",
+                        "ConditionField": "",
+                        "Text": "37-57",
+                        "PostscriptText": "60%用户选择",
+                        "MinInterval": 3736,
+                        "MaxInterval": 5786
+                      },
+                      {
+                        "Type": "",
+                        "SelectCategory": 0,
+                        "Id": "5786-11936",
+                        "ConditionField": "",
+                        "Text": "57-119",
+                        "PostscriptText": "10%用户选择",
+                        "MinInterval": 5786,
+                        "MaxInterval": 11936
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "common_report_params": {
+              "related_book_id": "{}"
+            }
+          },
+          "CellDatas": [
+            {
+              "cell_id": 1000,
+              "show_type": 327,
+              "cell_name": "",
+              "cell_operation_type": 0,
+              "use_recommend": true,
+              "search_result_id": "3786818245600870835",
+              "search_high_light": {
+                "title": {
+                  "text": " 龙抬头 抚琴的人著新款定制武侠都市玄幻修真小说1-12册全集",
+                  "high_light_position": [
+                    [
+                      16,
+                      2
+                    ],
+                    [
+                      20,
+                      2
+                    ]
+                  ]
+                }
+              },
+              "more_button_position": 0,
+              "category_tag_ids": null,
+              "render_cell_type": 1,
+              "lynx_data": "{\"cell_id\":1000,\"show_type\":327,\"cell_name\":\"\",\"cell_operation_type\":0,\"use_recommend\":false,\"search_result_id\":\"3786818245600870835\",\"search_high_light\":{\"title\":{\"text\":\" 龙抬头 抚琴的人著新款定制武侠都市玄幻修真小说1-12册全集\",\"high_light_position\":[[16,2],[20,2]]}},\"category_tag_ids\":null,\"render_cell_type\":1,\"lynx_url\":\"sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx_monetize%2Fecom-search-normal-goods%2Ftemplate.js&prefix=reading_offline\",\"lynx_config\":{\"phone_height\":{\"hdefault\":360,\"medium\":0,\"large\":360},\"pad_height\":{\"hdefault\":360,\"medium\":0,\"large\":360},\"client_ab_key\":null,\"phone_width\":{\"hdefault\":176,\"medium\":0,\"large\":176},\"pad_width\":{\"hdefault\":176,\"medium\":0,\"large\":176}},\"goods_data\":[{\"title\":\" 龙抬头 抚琴的人著新款定制武侠都市玄幻修真小说1-12册全集\",\"pic_url\":\"https://p26-item.ecombdimg.com/img/ecom-shop-material/jpeg_m_073ff53af84b2943e953bf5a8f265c6b_sx_605312_www850-850~tplv-5mmsx3fupr-resize:720:720.jpeg\",\"pic_width\":720,\"pic_height\":720,\"sale_count\":0,\"guarantee_service\":[\"运费险\",\"7天无理由退货\",\"极速退款\"],\"detail_url\":\"sslocal://ec_goods_detail/?carrier_source=search_books_store_channel&ecom_entrance_form=search_result&ecom_group_type=product_card&enter_method=search_general&is_shopping=1&list_result_type=goods&meta_params=%7B%22entrance_info%22%3A%22%7B%5C%22page_name%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22module_label%5C%22%3A%5C%22%5C%22%2C%5C%22sub_tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22product_id%5C%22%3A%5C%223786818245600870835%5C%22%2C%5C%22carrier_source%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22enter_from%5C%22%3A%5C%22search_general%5C%22%2C%5C%22show_price%5C%22%3A%5C%224%3F%5C%22%2C%5C%22search_params%5C%22%3A%5C%22%7B%5C%5C%5C%22search_result_id%5C%5C%5C%22%3A3786818245600870835%2C%5C%5C%5C%22search_source%5C%5C%5C%22%3A%5C%5C%5C%22user_input%5C%5C%5C%22%2C%5C%5C%5C%22search_result_tab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E5%85%A8%E9%83%A8%5C%5C%5C%22%2C%5C%5C%5C%22search_rank%5C%5C%5C%22%3A0%2C%5C%5C%5C%22list_result_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22query%5C%5C%5C%22%3A%5C%5C%5C%22%E9%83%BD%E5%B8%82%E4%BF%AE%E7%9C%9F%5C%5C%5C%22%2C%5C%5C%5C%22search_subtab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E4%B9%B0%E4%B9%A6%5C%5C%5C%22%2C%5C%5C%5C%22list_item_id%5C%5C%5C%22%3A3786818245600870835%2C%5C%5C%5C%22source_page%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22search_result_channel_name%5C%5C%5C%22%3A%5C%5C%5C%22%E7%BB%BC%E5%90%88%5C%5C%5C%22%2C%5C%5C%5C%22search_position%5C%5C%5C%22%3A%5C%5C%5C%22search_books_store_channel%5C%5C%5C%22%2C%5C%5C%5C%22search_id%5C%5C%5C%22%3A%5C%5C%5C%22%23%23%23%2313%40202603191045043AA0F2A9A73C5519B70C%5C%5C%5C%22%2C%5C%5C%5C%22item_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22enter_from%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%7D%5C%22%2C%5C%22ecom_entrance_form%5C%22%3A%5C%22search_result%5C%22%2C%5C%22source_method%5C%22%3A%5C%22search_result%5C%22%2C%5C%22outflow_order%5C%22%3A%5C%220%5C%22%2C%5C%22host_source_page%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22request_id%5C%22%3A%5C%22202603191045043AA0F2A9A73C5519B70C%5C%22%2C%5C%22previous_page%5C%22%3A%5C%22search_general%5C%22%2C%5C%22ecom_group_type%5C%22%3A%5C%22product_card%5C%22%2C%5C%22click_order%5C%22%3A%5C%220%5C%22%2C%5C%22tab_name%5C%22%3A%5C%22%5C%22%7D%22%7D&open_with_saas=1&previous_page=search_general&promotion_id=3786818245600870835&reading_need_authorized=1&request_additions=%7B%22enter_from%22%3A%22search_general%22%7D&source_method=search_result\",\"goods_id\":3786818245600870835,\"goods_id_str\":\"3786818245600870835\",\"schema\":\"sslocal://ec_goods_detail/?carrier_source=search_books_store_channel&ecom_entrance_form=search_result&ecom_group_type=product_card&enter_method=search_general&is_shopping=1&list_result_type=goods&meta_params=%7B%22entrance_info%22%3A%22%7B%5C%22page_name%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22module_label%5C%22%3A%5C%22%5C%22%2C%5C%22sub_tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22product_id%5C%22%3A%5C%223786818245600870835%5C%22%2C%5C%22carrier_source%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22enter_from%5C%22%3A%5C%22search_general%5C%22%2C%5C%22show_price%5C%22%3A%5C%224%3F%5C%22%2C%5C%22search_params%5C%22%3A%5C%22%7B%5C%5C%5C%22search_result_id%5C%5C%5C%22%3A3786818245600870835%2C%5C%5C%5C%22search_source%5C%5C%5C%22%3A%5C%5C%5C%22user_input%5C%5C%5C%22%2C%5C%5C%5C%22search_result_tab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E5%85%A8%E9%83%A8%5C%5C%5C%22%2C%5C%5C%5C%22search_rank%5C%5C%5C%22%3A0%2C%5C%5C%5C%22list_result_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22query%5C%5C%5C%22%3A%5C%5C%5C%22%E9%83%BD%E5%B8%82%E4%BF%AE%E7%9C%9F%5C%5C%5C%22%2C%5C%5C%5C%22search_subtab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E4%B9%B0%E4%B9%A6%5C%5C%5C%22%2C%5C%5C%5C%22list_item_id%5C%5C%5C%22%3A3786818245600870835%2C%5C%5C%5C%22source_page%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22search_result_channel_name%5C%5C%5C%22%3A%5C%5C%5C%22%E7%BB%BC%E5%90%88%5C%5C%5C%22%2C%5C%5C%5C%22search_position%5C%5C%5C%22%3A%5C%5C%5C%22search_books_store_channel%5C%5C%5C%22%2C%5C%5C%5C%22search_id%5C%5C%5C%22%3A%5C%5C%5C%22%23%23%23%2313%40202603191045043AA0F2A9A73C5519B70C%5C%5C%5C%22%2C%5C%5C%5C%22item_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22enter_from%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%7D%5C%22%2C%5C%22ecom_entrance_form%5C%22%3A%5C%22search_result%5C%22%2C%5C%22source_method%5C%22%3A%5C%22search_result%5C%22%2C%5C%22outflow_order%5C%22%3A%5C%220%5C%22%2C%5C%22host_source_page%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22request_id%5C%22%3A%5C%22202603191045043AA0F2A9A73C5519B70C%5C%22%2C%5C%22previous_page%5C%22%3A%5C%22search_general%5C%22%2C%5C%22ecom_group_type%5C%22%3A%5C%22product_card%5C%22%2C%5C%22click_order%5C%22%3A%5C%220%5C%22%2C%5C%22tab_name%5C%22%3A%5C%22%5C%22%7D%22%7D&open_with_saas=1&previous_page=search_general&promotion_id=3786818245600870835&reading_need_authorized=1&request_additions=%7B%22enter_from%22%3A%22search_general%22%7D&source_method=search_result\",\"shop_info\":{\"shop_id\":0,\"shop_name\":\"神秘复书网文小说\",\"shop_logo\":\"\",\"shop_schema\":\"sslocal://goods/store?sec_shop_id=YDtmByXQ&entrance_location=product_detail&url_maker=shop_sdk\"},\"discount_tag\":\"券后价\",\"rit_tags\":[\"运费险\",\"7天无理由退货\",\"极速退款\"],\"discount_labels\":[{\"label_header\":\"券\",\"content\":\"立减10元\"}],\"min_price_str\":\"4?\",\"max_price_str\":\"?\",\"regular_price_str\":\"?\",\"product_recommend_info\":{},\"product_right_info\":[{\"first_tag\":\"券\",\"second_tag\":\"立减10元\",\"border_color\":\"#FF3B5280\",\"first_tag_text_color\":\"#FF3B52FF\",\"second_tag_text_color\":\"#FF3B52FF\",\"first_tag_border_color\":\"#FF3B5280\",\"second_tag_border_color\":\"#FF3B5280\",\"line_divider\":\"dashed\",\"line_divider_color\":\"#80FF3B52\"},{\"first_tag\":\"运费险\",\"border_color\":\"#FF5C0080\",\"text_color\":\"#FF5C00FF\"},{\"first_tag\":\"极速退款\",\"border_color\":\"#FF5C0080\",\"text_color\":\"#FF5C00FF\"},{\"first_tag\":\"7天无理由退货\",\"border_color\":\"#FF5C0080\",\"text_color\":\"#FF5C00FF\"}],\"category_info\":{\"leaf_category_id\":40146,\"first_category\":{\"category_id\":20015,\"category_name\":\"书籍/杂志/报纸\"},\"second_category\":{\"category_id\":40146,\"category_name\":\"书课包\"}}}],\"log_pb\":\"{\\\"impr_id\\\":\\\"202603191045043AA0F2A9A73C5519B70C\\\"}\",\"impr_id\":\"202603191045043AA0F2A9A73C5519B70C\",\"cell_source\":1,\"lynx_through_info\":\"{\\\"entrance_info\\\":\\\"{\\\\\\\"carrier_source\\\\\\\":\\\\\\\"search_books_store_channel\\\\\\\",\\\\\\\"source_method\\\\\\\":\\\\\\\"search_result\\\\\\\",\\\\\\\"previous_page\\\\\\\":\\\\\\\"search_general\\\\\\\",\\\\\\\"ecom_entrance_form\\\\\\\":\\\\\\\"search_result\\\\\\\",\\\\\\\"request_id\\\\\\\":\\\\\\\"202603191045043AA0F2A9A73C5519B70C\\\\\\\",\\\\\\\"search_id\\\\\\\":\\\\\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\\\\\",\\\\\\\"search_result_id\\\\\\\":\\\\\\\"3786818245600870835\\\\\\\",\\\\\\\"search_params\\\\\\\":\\\\\\\"{\\\\\\\\\\\\\\\"list_item_id\\\\\\\\\\\\\\\":3786818245600870835,\\\\\\\\\\\\\\\"search_position\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"search_books_store_channel\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"request_id\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"202603191045043AA0F2A9A73C5519B70C\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_id\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"item_type\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"goods\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"query\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"都市修真\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_source\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"user_input\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_result_tab_name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"全部\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_result_channel_name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"综合\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_subtab_name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"买书\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"is_shopping\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"1\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_result_id\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"3786818245600870835\\\\\\\\\\\\\\\"}\\\\\\\",\\\\\\\"page_name\\\\\\\":\\\\\\\"search_books_store_channel\\\\\\\",\\\\\\\"ecom_group_type\\\\\\\":\\\\\\\"product_card\\\\\\\",\\\\\\\"outflow_order\\\\\\\":0,\\\\\\\"click_order\\\\\\\":0,\\\\\\\"is_shopping\\\\\\\":\\\\\\\"1\\\\\\\"}\\\",\\\"search_position\\\":\\\"search_books_store_channel\\\",\\\"search_result_channel_name\\\":\\\"综合\\\",\\\"log_id\\\":\\\"202603191045043AA0F2A9A73C5519B70C\\\",\\\"is_shopping\\\":\\\"1\\\",\\\"host_source_page\\\":\\\"search_books_store_channel\\\",\\\"item_type\\\":\\\"goods\\\",\\\"EVENT_ORIGIN_FEATURE\\\":\\\"TEMAI\\\",\\\"rank\\\":0,\\\"enter_from\\\":\\\"search_general\\\",\\\"search_result_id\\\":\\\"3786818245600870835\\\",\\\"source\\\":\\\"user_input\\\",\\\"enter_method\\\":\\\"search_general\\\",\\\"product_id\\\":\\\"3786818245600870835\\\",\\\"ecom_entrance_form\\\":\\\"search_result\\\",\\\"click_order\\\":0,\\\"search_result_tab_name\\\":\\\"全部\\\",\\\"search_subtab_name\\\":\\\"search_order_center\\\",\\\"request_id\\\":\\\"202603191045043AA0F2A9A73C5519B70C\\\",\\\"outflow_order\\\":0,\\\"query\\\":\\\"都市修真\\\",\\\"page_name\\\":\\\"search_books_store_channel\\\",\\\"list_result_type\\\":\\\"goods\\\",\\\"ecom_group_type\\\":\\\"product_card\\\",\\\"search_id\\\":\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\"}\",\"show_sub_type\":100}",
+              "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx_monetize%2Fecom-search-normal-goods%2Ftemplate.js&prefix=reading_offline",
+              "lynx_config": {
+                "phone_height": {
+                  "hdefault": 360,
+                  "medium": 0,
+                  "large": 360
+                },
+                "pad_height": {
+                  "hdefault": 360,
+                  "medium": 0,
+                  "large": 360
+                },
+                "client_ab_key": [],
+                "phone_width": {
+                  "hdefault": 176,
+                  "medium": 0,
+                  "large": 176
+                },
+                "pad_width": {
+                  "hdefault": 176,
+                  "medium": 0,
+                  "large": 176
+                }
+              },
+              "goods_data": [
+                {
+                  "title": " 龙抬头 抚琴的人著新款定制武侠都市玄幻修真小说1-12册全集",
+                  "pic_url": "https://p26-item.ecombdimg.com/img/ecom-shop-material/jpeg_m_073ff53af84b2943e953bf5a8f265c6b_sx_605312_www850-850~tplv-5mmsx3fupr-resize:720:720.jpeg",
+                  "pic_width": 720,
+                  "pic_height": 720,
+                  "sale_count": 0,
+                  "guarantee_service": [
+                    "运费险",
+                    "7天无理由退货",
+                    "极速退款"
+                  ],
+                  "detail_url": "sslocal://ec_goods_detail/?carrier_source=search_books_store_channel&ecom_entrance_form=search_result&ecom_group_type=product_card&enter_method=search_general&is_shopping=1&list_result_type=goods&meta_params=%7B%22entrance_info%22%3A%22%7B%5C%22page_name%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22module_label%5C%22%3A%5C%22%5C%22%2C%5C%22sub_tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22product_id%5C%22%3A%5C%223786818245600870835%5C%22%2C%5C%22carrier_source%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22enter_from%5C%22%3A%5C%22search_general%5C%22%2C%5C%22show_price%5C%22%3A%5C%224%3F%5C%22%2C%5C%22search_params%5C%22%3A%5C%22%7B%5C%5C%5C%22search_result_id%5C%5C%5C%22%3A3786818245600870835%2C%5C%5C%5C%22search_source%5C%5C%5C%22%3A%5C%5C%5C%22user_input%5C%5C%5C%22%2C%5C%5C%5C%22search_result_tab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E5%85%A8%E9%83%A8%5C%5C%5C%22%2C%5C%5C%5C%22search_rank%5C%5C%5C%22%3A0%2C%5C%5C%5C%22list_result_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22query%5C%5C%5C%22%3A%5C%5C%5C%22%E9%83%BD%E5%B8%82%E4%BF%AE%E7%9C%9F%5C%5C%5C%22%2C%5C%5C%5C%22search_subtab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E4%B9%B0%E4%B9%A6%5C%5C%5C%22%2C%5C%5C%5C%22list_item_id%5C%5C%5C%22%3A3786818245600870835%2C%5C%5C%5C%22source_page%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22search_result_channel_name%5C%5C%5C%22%3A%5C%5C%5C%22%E7%BB%BC%E5%90%88%5C%5C%5C%22%2C%5C%5C%5C%22search_position%5C%5C%5C%22%3A%5C%5C%5C%22search_books_store_channel%5C%5C%5C%22%2C%5C%5C%5C%22search_id%5C%5C%5C%22%3A%5C%5C%5C%22%23%23%23%2313%40202603191045043AA0F2A9A73C5519B70C%5C%5C%5C%22%2C%5C%5C%5C%22item_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22enter_from%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%7D%5C%22%2C%5C%22ecom_entrance_form%5C%22%3A%5C%22search_result%5C%22%2C%5C%22source_method%5C%22%3A%5C%22search_result%5C%22%2C%5C%22outflow_order%5C%22%3A%5C%220%5C%22%2C%5C%22host_source_page%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22request_id%5C%22%3A%5C%22202603191045043AA0F2A9A73C5519B70C%5C%22%2C%5C%22previous_page%5C%22%3A%5C%22search_general%5C%22%2C%5C%22ecom_group_type%5C%22%3A%5C%22product_card%5C%22%2C%5C%22click_order%5C%22%3A%5C%220%5C%22%2C%5C%22tab_name%5C%22%3A%5C%22%5C%22%7D%22%7D&open_with_saas=1&previous_page=search_general&promotion_id=3786818245600870835&reading_need_authorized=1&request_additions=%7B%22enter_from%22%3A%22search_general%22%7D&source_method=search_result",
+                  "goods_id": 3786818245600870835,
+                  "goods_id_str": "3786818245600870835",
+                  "schema": "sslocal://ec_goods_detail/?carrier_source=search_books_store_channel&ecom_entrance_form=search_result&ecom_group_type=product_card&enter_method=search_general&is_shopping=1&list_result_type=goods&meta_params=%7B%22entrance_info%22%3A%22%7B%5C%22page_name%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22module_label%5C%22%3A%5C%22%5C%22%2C%5C%22sub_tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22product_id%5C%22%3A%5C%223786818245600870835%5C%22%2C%5C%22carrier_source%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22enter_from%5C%22%3A%5C%22search_general%5C%22%2C%5C%22show_price%5C%22%3A%5C%224%3F%5C%22%2C%5C%22search_params%5C%22%3A%5C%22%7B%5C%5C%5C%22search_result_id%5C%5C%5C%22%3A3786818245600870835%2C%5C%5C%5C%22search_source%5C%5C%5C%22%3A%5C%5C%5C%22user_input%5C%5C%5C%22%2C%5C%5C%5C%22search_result_tab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E5%85%A8%E9%83%A8%5C%5C%5C%22%2C%5C%5C%5C%22search_rank%5C%5C%5C%22%3A0%2C%5C%5C%5C%22list_result_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22query%5C%5C%5C%22%3A%5C%5C%5C%22%E9%83%BD%E5%B8%82%E4%BF%AE%E7%9C%9F%5C%5C%5C%22%2C%5C%5C%5C%22search_subtab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E4%B9%B0%E4%B9%A6%5C%5C%5C%22%2C%5C%5C%5C%22list_item_id%5C%5C%5C%22%3A3786818245600870835%2C%5C%5C%5C%22source_page%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22search_result_channel_name%5C%5C%5C%22%3A%5C%5C%5C%22%E7%BB%BC%E5%90%88%5C%5C%5C%22%2C%5C%5C%5C%22search_position%5C%5C%5C%22%3A%5C%5C%5C%22search_books_store_channel%5C%5C%5C%22%2C%5C%5C%5C%22search_id%5C%5C%5C%22%3A%5C%5C%5C%22%23%23%23%2313%40202603191045043AA0F2A9A73C5519B70C%5C%5C%5C%22%2C%5C%5C%5C%22item_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22enter_from%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%7D%5C%22%2C%5C%22ecom_entrance_form%5C%22%3A%5C%22search_result%5C%22%2C%5C%22source_method%5C%22%3A%5C%22search_result%5C%22%2C%5C%22outflow_order%5C%22%3A%5C%220%5C%22%2C%5C%22host_source_page%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22request_id%5C%22%3A%5C%22202603191045043AA0F2A9A73C5519B70C%5C%22%2C%5C%22previous_page%5C%22%3A%5C%22search_general%5C%22%2C%5C%22ecom_group_type%5C%22%3A%5C%22product_card%5C%22%2C%5C%22click_order%5C%22%3A%5C%220%5C%22%2C%5C%22tab_name%5C%22%3A%5C%22%5C%22%7D%22%7D&open_with_saas=1&previous_page=search_general&promotion_id=3786818245600870835&reading_need_authorized=1&request_additions=%7B%22enter_from%22%3A%22search_general%22%7D&source_method=search_result",
+                  "shop_info": {
+                    "shop_id": 0,
+                    "shop_name": "神秘复书网文小说",
+                    "shop_logo": "",
+                    "shop_schema": "sslocal://goods/store?sec_shop_id=YDtmByXQ&entrance_location=product_detail&url_maker=shop_sdk"
+                  },
+                  "discount_tag": "券后价",
+                  "rit_tags": [
+                    "运费险",
+                    "7天无理由退货",
+                    "极速退款"
+                  ],
+                  "discount_labels": [
+                    {
+                      "label_header": "券",
+                      "content": "立减10元"
+                    }
+                  ],
+                  "min_price_str": "4?",
+                  "max_price_str": "?",
+                  "regular_price_str": "?",
+                  "product_recommend_info": {},
+                  "product_right_info": [
+                    {
+                      "first_tag": "券",
+                      "second_tag": "立减10元",
+                      "border_color": "#FF3B5280",
+                      "first_tag_text_color": "#FF3B52FF",
+                      "second_tag_text_color": "#FF3B52FF",
+                      "first_tag_border_color": "#FF3B5280",
+                      "second_tag_border_color": "#FF3B5280",
+                      "line_divider": "dashed",
+                      "line_divider_color": "#80FF3B52"
+                    },
+                    {
+                      "first_tag": "运费险",
+                      "border_color": "#FF5C0080",
+                      "text_color": "#FF5C00FF"
+                    },
+                    {
+                      "first_tag": "极速退款",
+                      "border_color": "#FF5C0080",
+                      "text_color": "#FF5C00FF"
+                    },
+                    {
+                      "first_tag": "7天无理由退货",
+                      "border_color": "#FF5C0080",
+                      "text_color": "#FF5C00FF"
+                    }
+                  ],
+                  "category_info": {
+                    "leaf_category_id": 40146,
+                    "first_category": {
+                      "category_id": 20015,
+                      "category_name": "书籍/杂志/报纸"
+                    },
+                    "second_category": {
+                      "category_id": 40146,
+                      "category_name": "书课包"
+                    }
+                  }
+                }
+              ],
+              "extra": {
+                "is_header": "0",
+                "container_type": "section",
+                "section_id": "ecom_search_result_item"
+              },
+              "log_pb": "{\"impr_id\":\"202603191045043AA0F2A9A73C5519B70C\"}",
+              "impr_id": "202603191045043AA0F2A9A73C5519B70C",
+              "cell_source": 1,
+              "lynx_through_info": "{\"entrance_info\":\"{\\\"carrier_source\\\":\\\"search_books_store_channel\\\",\\\"source_method\\\":\\\"search_result\\\",\\\"previous_page\\\":\\\"search_general\\\",\\\"ecom_entrance_form\\\":\\\"search_result\\\",\\\"request_id\\\":\\\"202603191045043AA0F2A9A73C5519B70C\\\",\\\"search_id\\\":\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\",\\\"search_result_id\\\":\\\"3786818245600870835\\\",\\\"search_params\\\":\\\"{\\\\\\\"list_item_id\\\\\\\":3786818245600870835,\\\\\\\"search_position\\\\\\\":\\\\\\\"search_books_store_channel\\\\\\\",\\\\\\\"request_id\\\\\\\":\\\\\\\"202603191045043AA0F2A9A73C5519B70C\\\\\\\",\\\\\\\"search_id\\\\\\\":\\\\\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\\\\\",\\\\\\\"item_type\\\\\\\":\\\\\\\"goods\\\\\\\",\\\\\\\"query\\\\\\\":\\\\\\\"都市修真\\\\\\\",\\\\\\\"search_source\\\\\\\":\\\\\\\"user_input\\\\\\\",\\\\\\\"search_result_tab_name\\\\\\\":\\\\\\\"全部\\\\\\\",\\\\\\\"search_result_channel_name\\\\\\\":\\\\\\\"综合\\\\\\\",\\\\\\\"search_subtab_name\\\\\\\":\\\\\\\"买书\\\\\\\",\\\\\\\"is_shopping\\\\\\\":\\\\\\\"1\\\\\\\",\\\\\\\"search_result_id\\\\\\\":\\\\\\\"3786818245600870835\\\\\\\"}\\\",\\\"page_name\\\":\\\"search_books_store_channel\\\",\\\"ecom_group_type\\\":\\\"product_card\\\",\\\"outflow_order\\\":0,\\\"click_order\\\":0,\\\"is_shopping\\\":\\\"1\\\"}\",\"search_position\":\"search_books_store_channel\",\"search_result_channel_name\":\"综合\",\"log_id\":\"202603191045043AA0F2A9A73C5519B70C\",\"is_shopping\":\"1\",\"host_source_page\":\"search_books_store_channel\",\"item_type\":\"goods\",\"EVENT_ORIGIN_FEATURE\":\"TEMAI\",\"rank\":0,\"enter_from\":\"search_general\",\"search_result_id\":\"3786818245600870835\",\"source\":\"user_input\",\"enter_method\":\"search_general\",\"product_id\":\"3786818245600870835\",\"ecom_entrance_form\":\"search_result\",\"click_order\":0,\"search_result_tab_name\":\"全部\",\"search_subtab_name\":\"search_order_center\",\"request_id\":\"202603191045043AA0F2A9A73C5519B70C\",\"outflow_order\":0,\"query\":\"都市修真\",\"page_name\":\"search_books_store_channel\",\"list_result_type\":\"goods\",\"ecom_group_type\":\"product_card\",\"search_id\":\"####13@202603191045043AA0F2A9A73C5519B70C\"}",
+              "show_sub_type": 100,
+              "common_report_params": {
+                "related_book_id": "{}"
+              }
+            },
+            {
+              "cell_id": 1001,
+              "show_type": 327,
+              "cell_name": "",
+              "cell_operation_type": 0,
+              "use_recommend": true,
+              "search_result_id": "3806480320451182604",
+              "search_high_light": {
+                "title": {
+                  "text": "龙抬头抚琴的人著武侠都市玄幻修真小说1-16册全集无删减实体书",
+                  "high_light_position": [
+                    [
+                      10,
+                      2
+                    ],
+                    [
+                      14,
+                      2
+                    ]
+                  ]
+                }
+              },
+              "more_button_position": 0,
+              "category_tag_ids": null,
+              "render_cell_type": 1,
+              "lynx_data": "{\"cell_id\":1001,\"show_type\":327,\"cell_name\":\"\",\"cell_operation_type\":0,\"use_recommend\":false,\"search_result_id\":\"3806480320451182604\",\"search_high_light\":{\"title\":{\"text\":\"龙抬头抚琴的人著武侠都市玄幻修真小说1-16册全集无删减实体书\",\"high_light_position\":[[10,2],[14,2]]}},\"category_tag_ids\":null,\"render_cell_type\":1,\"lynx_url\":\"sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx_monetize%2Fecom-search-normal-goods%2Ftemplate.js&prefix=reading_offline\",\"lynx_config\":{\"phone_height\":{\"hdefault\":360,\"medium\":0,\"large\":360},\"pad_height\":{\"hdefault\":360,\"medium\":0,\"large\":360},\"client_ab_key\":null,\"phone_width\":{\"hdefault\":176,\"medium\":0,\"large\":176},\"pad_width\":{\"hdefault\":176,\"medium\":0,\"large\":176}},\"goods_data\":[{\"title\":\"龙抬头抚琴的人著武侠都市玄幻修真小说1-16册全集无删减实体书\",\"pic_url\":\"https://p3-item.ecombdimg.com/img/ecom-shop-material/png_m_c0234f0161a29b30cbe6991980125da0_sx_881111_www850-850~tplv-5mmsx3fupr-resize:720:720.jpeg\",\"pic_width\":720,\"pic_height\":720,\"sale_count\":0,\"guarantee_service\":[\"运费险\",\"7天无理由退货\",\"极速退款\"],\"detail_url\":\"sslocal://ec_goods_detail/?carrier_source=search_books_store_channel&ecom_entrance_form=search_result&ecom_group_type=product_card&enter_method=search_general&is_shopping=1&list_result_type=goods&meta_params=%7B%22entrance_info%22%3A%22%7B%5C%22carrier_source%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22enter_from%5C%22%3A%5C%22search_general%5C%22%2C%5C%22click_order%5C%22%3A%5C%221%5C%22%2C%5C%22module_label%5C%22%3A%5C%22%5C%22%2C%5C%22ecom_entrance_form%5C%22%3A%5C%22search_result%5C%22%2C%5C%22search_params%5C%22%3A%5C%22%7B%5C%5C%5C%22search_result_tab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E5%85%A8%E9%83%A8%5C%5C%5C%22%2C%5C%5C%5C%22search_result_channel_name%5C%5C%5C%22%3A%5C%5C%5C%22%E7%BB%BC%E5%90%88%5C%5C%5C%22%2C%5C%5C%5C%22search_result_id%5C%5C%5C%22%3A3806480320451182604%2C%5C%5C%5C%22search_rank%5C%5C%5C%22%3A1%2C%5C%5C%5C%22enter_from%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22search_id%5C%5C%5C%22%3A%5C%5C%5C%22%23%23%23%2313%40202603191045043AA0F2A9A73C5519B70C%5C%5C%5C%22%2C%5C%5C%5C%22query%5C%5C%5C%22%3A%5C%5C%5C%22%E9%83%BD%E5%B8%82%E4%BF%AE%E7%9C%9F%5C%5C%5C%22%2C%5C%5C%5C%22search_position%5C%5C%5C%22%3A%5C%5C%5C%22search_books_store_channel%5C%5C%5C%22%2C%5C%5C%5C%22list_item_id%5C%5C%5C%22%3A3806480320451182604%2C%5C%5C%5C%22list_result_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22search_source%5C%5C%5C%22%3A%5C%5C%5C%22user_input%5C%5C%5C%22%2C%5C%5C%5C%22search_subtab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E4%B9%B0%E4%B9%A6%5C%5C%5C%22%2C%5C%5C%5C%22item_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22source_page%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%7D%5C%22%2C%5C%22host_source_page%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22sub_tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22page_name%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22ecom_group_type%5C%22%3A%5C%22product_card%5C%22%2C%5C%22outflow_order%5C%22%3A%5C%221%5C%22%2C%5C%22product_id%5C%22%3A%5C%223806480320451182604%5C%22%2C%5C%22request_id%5C%22%3A%5C%22202603191045043AA0F2A9A73C5519B70C%5C%22%2C%5C%22source_method%5C%22%3A%5C%22search_result%5C%22%2C%5C%22previous_page%5C%22%3A%5C%22search_general%5C%22%2C%5C%22show_price%5C%22%3A%5C%227%3F%5C%22%7D%22%7D&open_with_saas=1&previous_page=search_general&promotion_id=3806480320451182604&reading_need_authorized=1&request_additions=%7B%22enter_from%22%3A%22search_general%22%7D&source_method=search_result\",\"goods_id\":3806480320451182604,\"goods_id_str\":\"3806480320451182604\",\"schema\":\"sslocal://ec_goods_detail/?carrier_source=search_books_store_channel&ecom_entrance_form=search_result&ecom_group_type=product_card&enter_method=search_general&is_shopping=1&list_result_type=goods&meta_params=%7B%22entrance_info%22%3A%22%7B%5C%22carrier_source%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22enter_from%5C%22%3A%5C%22search_general%5C%22%2C%5C%22click_order%5C%22%3A%5C%221%5C%22%2C%5C%22module_label%5C%22%3A%5C%22%5C%22%2C%5C%22ecom_entrance_form%5C%22%3A%5C%22search_result%5C%22%2C%5C%22search_params%5C%22%3A%5C%22%7B%5C%5C%5C%22search_result_tab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E5%85%A8%E9%83%A8%5C%5C%5C%22%2C%5C%5C%5C%22search_result_channel_name%5C%5C%5C%22%3A%5C%5C%5C%22%E7%BB%BC%E5%90%88%5C%5C%5C%22%2C%5C%5C%5C%22search_result_id%5C%5C%5C%22%3A3806480320451182604%2C%5C%5C%5C%22search_rank%5C%5C%5C%22%3A1%2C%5C%5C%5C%22enter_from%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22search_id%5C%5C%5C%22%3A%5C%5C%5C%22%23%23%23%2313%40202603191045043AA0F2A9A73C5519B70C%5C%5C%5C%22%2C%5C%5C%5C%22query%5C%5C%5C%22%3A%5C%5C%5C%22%E9%83%BD%E5%B8%82%E4%BF%AE%E7%9C%9F%5C%5C%5C%22%2C%5C%5C%5C%22search_position%5C%5C%5C%22%3A%5C%5C%5C%22search_books_store_channel%5C%5C%5C%22%2C%5C%5C%5C%22list_item_id%5C%5C%5C%22%3A3806480320451182604%2C%5C%5C%5C%22list_result_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22search_source%5C%5C%5C%22%3A%5C%5C%5C%22user_input%5C%5C%5C%22%2C%5C%5C%5C%22search_subtab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E4%B9%B0%E4%B9%A6%5C%5C%5C%22%2C%5C%5C%5C%22item_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22source_page%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%7D%5C%22%2C%5C%22host_source_page%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22sub_tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22page_name%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22ecom_group_type%5C%22%3A%5C%22product_card%5C%22%2C%5C%22outflow_order%5C%22%3A%5C%221%5C%22%2C%5C%22product_id%5C%22%3A%5C%223806480320451182604%5C%22%2C%5C%22request_id%5C%22%3A%5C%22202603191045043AA0F2A9A73C5519B70C%5C%22%2C%5C%22source_method%5C%22%3A%5C%22search_result%5C%22%2C%5C%22previous_page%5C%22%3A%5C%22search_general%5C%22%2C%5C%22show_price%5C%22%3A%5C%227%3F%5C%22%7D%22%7D&open_with_saas=1&previous_page=search_general&promotion_id=3806480320451182604&reading_need_authorized=1&request_additions=%7B%22enter_from%22%3A%22search_general%22%7D&source_method=search_result\",\"shop_info\":{\"shop_id\":0,\"shop_name\":\"长葛水空颜伟华生活坊\",\"shop_logo\":\"\",\"shop_schema\":\"sslocal://goods/store?sec_shop_id=hdNzVINE&entrance_location=product_detail&url_maker=shop_sdk\"},\"discount_tag\":\"券后价\",\"rit_tags\":[\"运费险\",\"7天无理由退货\",\"极速退款\"],\"discount_labels\":[{\"label_header\":\"券\",\"content\":\"立减10元\"},{\"label_header\":\"\",\"content\":\"满2件9.6折\"}],\"min_price_str\":\"7?\",\"max_price_str\":\"?\",\"regular_price_str\":\"1??\",\"product_recommend_info\":{\"common_info\":{\"text\":\"作家出版社\",\"text_color_light\":\"#16182399\",\"text_color_dark\":\"#16182399\"}},\"product_right_info\":[{\"first_tag\":\"券\",\"second_tag\":\"立减10元\",\"border_color\":\"#FF3B5280\",\"first_tag_text_color\":\"#FF3B52FF\",\"second_tag_text_color\":\"#FF3B52FF\",\"first_tag_border_color\":\"#FF3B5280\",\"second_tag_border_color\":\"#FF3B5280\",\"line_divider\":\"dashed\",\"line_divider_color\":\"#80FF3B52\"},{\"first_tag\":\"满2件9.6折\",\"second_tag\":\"\",\"border_color\":\"#FF3B5280\",\"first_tag_text_color\":\"#FF3B52FF\",\"second_tag_text_color\":\"#FF3B52FF\",\"first_tag_border_color\":\"#FF3B5280\",\"second_tag_border_color\":\"#FF3B5280\"},{\"first_tag\":\"运费险\",\"border_color\":\"#FF5C0080\",\"text_color\":\"#FF5C00FF\"},{\"first_tag\":\"极速退款\",\"border_color\":\"#FF5C0080\",\"text_color\":\"#FF5C00FF\"},{\"first_tag\":\"7天无理由退货\",\"border_color\":\"#FF5C0080\",\"text_color\":\"#FF5C00FF\"}],\"category_info\":{\"leaf_category_id\":22817,\"first_category\":{\"category_id\":20015,\"category_name\":\"书籍/杂志/报纸\"},\"second_category\":{\"category_id\":20302,\"category_name\":\"文学\"},\"third_category\":{\"category_id\":22817,\"category_name\":\"现代/当代文学\"}}}],\"log_pb\":\"{\\\"impr_id\\\":\\\"202603191045043AA0F2A9A73C5519B70C\\\"}\",\"impr_id\":\"202603191045043AA0F2A9A73C5519B70C\",\"cell_source\":1,\"lynx_through_info\":\"{\\\"ecom_group_type\\\":\\\"product_card\\\",\\\"source\\\":\\\"user_input\\\",\\\"rank\\\":1,\\\"log_id\\\":\\\"202603191045043AA0F2A9A73C5519B70C\\\",\\\"is_shopping\\\":\\\"1\\\",\\\"request_id\\\":\\\"202603191045043AA0F2A9A73C5519B70C\\\",\\\"enter_method\\\":\\\"search_general\\\",\\\"page_name\\\":\\\"search_books_store_channel\\\",\\\"product_id\\\":\\\"3806480320451182604\\\",\\\"outflow_order\\\":1,\\\"search_id\\\":\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\",\\\"enter_from\\\":\\\"search_general\\\",\\\"search_position\\\":\\\"search_books_store_channel\\\",\\\"search_result_channel_name\\\":\\\"综合\\\",\\\"list_result_type\\\":\\\"goods\\\",\\\"item_type\\\":\\\"goods\\\",\\\"click_order\\\":1,\\\"ecom_entrance_form\\\":\\\"search_result\\\",\\\"entrance_info\\\":\\\"{\\\\\\\"carrier_source\\\\\\\":\\\\\\\"search_books_store_channel\\\\\\\",\\\\\\\"page_name\\\\\\\":\\\\\\\"search_books_store_channel\\\\\\\",\\\\\\\"ecom_entrance_form\\\\\\\":\\\\\\\"search_result\\\\\\\",\\\\\\\"click_order\\\\\\\":1,\\\\\\\"is_shopping\\\\\\\":\\\\\\\"1\\\\\\\",\\\\\\\"request_id\\\\\\\":\\\\\\\"202603191045043AA0F2A9A73C5519B70C\\\\\\\",\\\\\\\"search_id\\\\\\\":\\\\\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\\\\\",\\\\\\\"search_params\\\\\\\":\\\\\\\"{\\\\\\\\\\\\\\\"search_id\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_result_id\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"3806480320451182604\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"list_item_id\\\\\\\\\\\\\\\":3806480320451182604,\\\\\\\\\\\\\\\"search_source\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"user_input\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_subtab_name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"买书\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_position\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"search_books_store_channel\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"is_shopping\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"1\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"item_type\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"goods\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"query\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"都市修真\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_result_tab_name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"全部\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_result_channel_name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"综合\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"request_id\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"202603191045043AA0F2A9A73C5519B70C\\\\\\\\\\\\\\\"}\\\\\\\",\\\\\\\"previous_page\\\\\\\":\\\\\\\"search_general\\\\\\\",\\\\\\\"ecom_group_type\\\\\\\":\\\\\\\"product_card\\\\\\\",\\\\\\\"outflow_order\\\\\\\":1,\\\\\\\"search_result_id\\\\\\\":\\\\\\\"3806480320451182604\\\\\\\",\\\\\\\"source_method\\\\\\\":\\\\\\\"search_result\\\\\\\"}\\\",\\\"query\\\":\\\"都市修真\\\",\\\"search_result_id\\\":\\\"3806480320451182604\\\",\\\"search_result_tab_name\\\":\\\"全部\\\",\\\"search_subtab_name\\\":\\\"search_order_center\\\",\\\"host_source_page\\\":\\\"search_books_store_channel\\\",\\\"EVENT_ORIGIN_FEATURE\\\":\\\"TEMAI\\\"}\",\"show_sub_type\":100}",
+              "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx_monetize%2Fecom-search-normal-goods%2Ftemplate.js&prefix=reading_offline",
+              "lynx_config": {
+                "phone_height": {
+                  "hdefault": 360,
+                  "medium": 0,
+                  "large": 360
+                },
+                "pad_height": {
+                  "hdefault": 360,
+                  "medium": 0,
+                  "large": 360
+                },
+                "client_ab_key": [],
+                "phone_width": {
+                  "hdefault": 176,
+                  "medium": 0,
+                  "large": 176
+                },
+                "pad_width": {
+                  "hdefault": 176,
+                  "medium": 0,
+                  "large": 176
+                }
+              },
+              "goods_data": [
+                {
+                  "title": "龙抬头抚琴的人著武侠都市玄幻修真小说1-16册全集无删减实体书",
+                  "pic_url": "https://p3-item.ecombdimg.com/img/ecom-shop-material/png_m_c0234f0161a29b30cbe6991980125da0_sx_881111_www850-850~tplv-5mmsx3fupr-resize:720:720.jpeg",
+                  "pic_width": 720,
+                  "pic_height": 720,
+                  "sale_count": 0,
+                  "guarantee_service": [
+                    "运费险",
+                    "7天无理由退货",
+                    "极速退款"
+                  ],
+                  "detail_url": "sslocal://ec_goods_detail/?carrier_source=search_books_store_channel&ecom_entrance_form=search_result&ecom_group_type=product_card&enter_method=search_general&is_shopping=1&list_result_type=goods&meta_params=%7B%22entrance_info%22%3A%22%7B%5C%22carrier_source%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22enter_from%5C%22%3A%5C%22search_general%5C%22%2C%5C%22click_order%5C%22%3A%5C%221%5C%22%2C%5C%22module_label%5C%22%3A%5C%22%5C%22%2C%5C%22ecom_entrance_form%5C%22%3A%5C%22search_result%5C%22%2C%5C%22search_params%5C%22%3A%5C%22%7B%5C%5C%5C%22search_result_tab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E5%85%A8%E9%83%A8%5C%5C%5C%22%2C%5C%5C%5C%22search_result_channel_name%5C%5C%5C%22%3A%5C%5C%5C%22%E7%BB%BC%E5%90%88%5C%5C%5C%22%2C%5C%5C%5C%22search_result_id%5C%5C%5C%22%3A3806480320451182604%2C%5C%5C%5C%22search_rank%5C%5C%5C%22%3A1%2C%5C%5C%5C%22enter_from%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22search_id%5C%5C%5C%22%3A%5C%5C%5C%22%23%23%23%2313%40202603191045043AA0F2A9A73C5519B70C%5C%5C%5C%22%2C%5C%5C%5C%22query%5C%5C%5C%22%3A%5C%5C%5C%22%E9%83%BD%E5%B8%82%E4%BF%AE%E7%9C%9F%5C%5C%5C%22%2C%5C%5C%5C%22search_position%5C%5C%5C%22%3A%5C%5C%5C%22search_books_store_channel%5C%5C%5C%22%2C%5C%5C%5C%22list_item_id%5C%5C%5C%22%3A3806480320451182604%2C%5C%5C%5C%22list_result_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22search_source%5C%5C%5C%22%3A%5C%5C%5C%22user_input%5C%5C%5C%22%2C%5C%5C%5C%22search_subtab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E4%B9%B0%E4%B9%A6%5C%5C%5C%22%2C%5C%5C%5C%22item_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22source_page%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%7D%5C%22%2C%5C%22host_source_page%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22sub_tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22page_name%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22ecom_group_type%5C%22%3A%5C%22product_card%5C%22%2C%5C%22outflow_order%5C%22%3A%5C%221%5C%22%2C%5C%22product_id%5C%22%3A%5C%223806480320451182604%5C%22%2C%5C%22request_id%5C%22%3A%5C%22202603191045043AA0F2A9A73C5519B70C%5C%22%2C%5C%22source_method%5C%22%3A%5C%22search_result%5C%22%2C%5C%22previous_page%5C%22%3A%5C%22search_general%5C%22%2C%5C%22show_price%5C%22%3A%5C%227%3F%5C%22%7D%22%7D&open_with_saas=1&previous_page=search_general&promotion_id=3806480320451182604&reading_need_authorized=1&request_additions=%7B%22enter_from%22%3A%22search_general%22%7D&source_method=search_result",
+                  "goods_id": 3806480320451182604,
+                  "goods_id_str": "3806480320451182604",
+                  "schema": "sslocal://ec_goods_detail/?carrier_source=search_books_store_channel&ecom_entrance_form=search_result&ecom_group_type=product_card&enter_method=search_general&is_shopping=1&list_result_type=goods&meta_params=%7B%22entrance_info%22%3A%22%7B%5C%22carrier_source%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22enter_from%5C%22%3A%5C%22search_general%5C%22%2C%5C%22click_order%5C%22%3A%5C%221%5C%22%2C%5C%22module_label%5C%22%3A%5C%22%5C%22%2C%5C%22ecom_entrance_form%5C%22%3A%5C%22search_result%5C%22%2C%5C%22search_params%5C%22%3A%5C%22%7B%5C%5C%5C%22search_result_tab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E5%85%A8%E9%83%A8%5C%5C%5C%22%2C%5C%5C%5C%22search_result_channel_name%5C%5C%5C%22%3A%5C%5C%5C%22%E7%BB%BC%E5%90%88%5C%5C%5C%22%2C%5C%5C%5C%22search_result_id%5C%5C%5C%22%3A3806480320451182604%2C%5C%5C%5C%22search_rank%5C%5C%5C%22%3A1%2C%5C%5C%5C%22enter_from%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22search_id%5C%5C%5C%22%3A%5C%5C%5C%22%23%23%23%2313%40202603191045043AA0F2A9A73C5519B70C%5C%5C%5C%22%2C%5C%5C%5C%22query%5C%5C%5C%22%3A%5C%5C%5C%22%E9%83%BD%E5%B8%82%E4%BF%AE%E7%9C%9F%5C%5C%5C%22%2C%5C%5C%5C%22search_position%5C%5C%5C%22%3A%5C%5C%5C%22search_books_store_channel%5C%5C%5C%22%2C%5C%5C%5C%22list_item_id%5C%5C%5C%22%3A3806480320451182604%2C%5C%5C%5C%22list_result_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22search_source%5C%5C%5C%22%3A%5C%5C%5C%22user_input%5C%5C%5C%22%2C%5C%5C%5C%22search_subtab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E4%B9%B0%E4%B9%A6%5C%5C%5C%22%2C%5C%5C%5C%22item_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22source_page%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%7D%5C%22%2C%5C%22host_source_page%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22sub_tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22page_name%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22ecom_group_type%5C%22%3A%5C%22product_card%5C%22%2C%5C%22outflow_order%5C%22%3A%5C%221%5C%22%2C%5C%22product_id%5C%22%3A%5C%223806480320451182604%5C%22%2C%5C%22request_id%5C%22%3A%5C%22202603191045043AA0F2A9A73C5519B70C%5C%22%2C%5C%22source_method%5C%22%3A%5C%22search_result%5C%22%2C%5C%22previous_page%5C%22%3A%5C%22search_general%5C%22%2C%5C%22show_price%5C%22%3A%5C%227%3F%5C%22%7D%22%7D&open_with_saas=1&previous_page=search_general&promotion_id=3806480320451182604&reading_need_authorized=1&request_additions=%7B%22enter_from%22%3A%22search_general%22%7D&source_method=search_result",
+                  "shop_info": {
+                    "shop_id": 0,
+                    "shop_name": "长葛水空颜伟华生活坊",
+                    "shop_logo": "",
+                    "shop_schema": "sslocal://goods/store?sec_shop_id=hdNzVINE&entrance_location=product_detail&url_maker=shop_sdk"
+                  },
+                  "discount_tag": "券后价",
+                  "rit_tags": [
+                    "运费险",
+                    "7天无理由退货",
+                    "极速退款"
+                  ],
+                  "discount_labels": [
+                    {
+                      "label_header": "券",
+                      "content": "立减10元"
+                    },
+                    {
+                      "label_header": "",
+                      "content": "满2件9.6折"
+                    }
+                  ],
+                  "min_price_str": "7?",
+                  "max_price_str": "?",
+                  "regular_price_str": "1??",
+                  "product_recommend_info": {
+                    "common_info": {
+                      "text": "作家出版社",
+                      "text_color_light": "#16182399",
+                      "text_color_dark": "#16182399"
+                    }
+                  },
+                  "product_right_info": [
+                    {
+                      "first_tag": "券",
+                      "second_tag": "立减10元",
+                      "border_color": "#FF3B5280",
+                      "first_tag_text_color": "#FF3B52FF",
+                      "second_tag_text_color": "#FF3B52FF",
+                      "first_tag_border_color": "#FF3B5280",
+                      "second_tag_border_color": "#FF3B5280",
+                      "line_divider": "dashed",
+                      "line_divider_color": "#80FF3B52"
+                    },
+                    {
+                      "first_tag": "满2件9.6折",
+                      "second_tag": "",
+                      "border_color": "#FF3B5280",
+                      "first_tag_text_color": "#FF3B52FF",
+                      "second_tag_text_color": "#FF3B52FF",
+                      "first_tag_border_color": "#FF3B5280",
+                      "second_tag_border_color": "#FF3B5280"
+                    },
+                    {
+                      "first_tag": "运费险",
+                      "border_color": "#FF5C0080",
+                      "text_color": "#FF5C00FF"
+                    },
+                    {
+                      "first_tag": "极速退款",
+                      "border_color": "#FF5C0080",
+                      "text_color": "#FF5C00FF"
+                    },
+                    {
+                      "first_tag": "7天无理由退货",
+                      "border_color": "#FF5C0080",
+                      "text_color": "#FF5C00FF"
+                    }
+                  ],
+                  "category_info": {
+                    "leaf_category_id": 22817,
+                    "first_category": {
+                      "category_id": 20015,
+                      "category_name": "书籍/杂志/报纸"
+                    },
+                    "second_category": {
+                      "category_id": 20302,
+                      "category_name": "文学"
+                    },
+                    "third_category": {
+                      "category_id": 22817,
+                      "category_name": "现代/当代文学"
+                    }
+                  }
+                }
+              ],
+              "extra": {
+                "container_type": "section",
+                "section_id": "ecom_search_result_item",
+                "is_header": "0"
+              },
+              "log_pb": "{\"impr_id\":\"202603191045043AA0F2A9A73C5519B70C\"}",
+              "impr_id": "202603191045043AA0F2A9A73C5519B70C",
+              "cell_source": 1,
+              "lynx_through_info": "{\"ecom_group_type\":\"product_card\",\"source\":\"user_input\",\"rank\":1,\"log_id\":\"202603191045043AA0F2A9A73C5519B70C\",\"is_shopping\":\"1\",\"request_id\":\"202603191045043AA0F2A9A73C5519B70C\",\"enter_method\":\"search_general\",\"page_name\":\"search_books_store_channel\",\"product_id\":\"3806480320451182604\",\"outflow_order\":1,\"search_id\":\"####13@202603191045043AA0F2A9A73C5519B70C\",\"enter_from\":\"search_general\",\"search_position\":\"search_books_store_channel\",\"search_result_channel_name\":\"综合\",\"list_result_type\":\"goods\",\"item_type\":\"goods\",\"click_order\":1,\"ecom_entrance_form\":\"search_result\",\"entrance_info\":\"{\\\"carrier_source\\\":\\\"search_books_store_channel\\\",\\\"page_name\\\":\\\"search_books_store_channel\\\",\\\"ecom_entrance_form\\\":\\\"search_result\\\",\\\"click_order\\\":1,\\\"is_shopping\\\":\\\"1\\\",\\\"request_id\\\":\\\"202603191045043AA0F2A9A73C5519B70C\\\",\\\"search_id\\\":\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\",\\\"search_params\\\":\\\"{\\\\\\\"search_id\\\\\\\":\\\\\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\\\\\",\\\\\\\"search_result_id\\\\\\\":\\\\\\\"3806480320451182604\\\\\\\",\\\\\\\"list_item_id\\\\\\\":3806480320451182604,\\\\\\\"search_source\\\\\\\":\\\\\\\"user_input\\\\\\\",\\\\\\\"search_subtab_name\\\\\\\":\\\\\\\"买书\\\\\\\",\\\\\\\"search_position\\\\\\\":\\\\\\\"search_books_store_channel\\\\\\\",\\\\\\\"is_shopping\\\\\\\":\\\\\\\"1\\\\\\\",\\\\\\\"item_type\\\\\\\":\\\\\\\"goods\\\\\\\",\\\\\\\"query\\\\\\\":\\\\\\\"都市修真\\\\\\\",\\\\\\\"search_result_tab_name\\\\\\\":\\\\\\\"全部\\\\\\\",\\\\\\\"search_result_channel_name\\\\\\\":\\\\\\\"综合\\\\\\\",\\\\\\\"request_id\\\\\\\":\\\\\\\"202603191045043AA0F2A9A73C5519B70C\\\\\\\"}\\\",\\\"previous_page\\\":\\\"search_general\\\",\\\"ecom_group_type\\\":\\\"product_card\\\",\\\"outflow_order\\\":1,\\\"search_result_id\\\":\\\"3806480320451182604\\\",\\\"source_method\\\":\\\"search_result\\\"}\",\"query\":\"都市修真\",\"search_result_id\":\"3806480320451182604\",\"search_result_tab_name\":\"全部\",\"search_subtab_name\":\"search_order_center\",\"host_source_page\":\"search_books_store_channel\",\"EVENT_ORIGIN_FEATURE\":\"TEMAI\"}",
+              "show_sub_type": 100,
+              "common_report_params": {
+                "related_book_id": "{}"
+              }
+            },
+            {
+              "cell_id": 1002,
+              "show_type": 327,
+              "cell_name": "",
+              "cell_operation_type": 0,
+              "use_recommend": true,
+              "search_result_id": "3772153215336972384",
+              "search_high_light": {
+                "title": {
+                  "text": "《龙抬头》抚琴的人著新款定制武侠都市玄幻修真小说合订十册全集",
+                  "high_light_position": [
+                    [
+                      16,
+                      2
+                    ],
+                    [
+                      20,
+                      2
+                    ]
+                  ]
+                }
+              },
+              "more_button_position": 0,
+              "category_tag_ids": null,
+              "render_cell_type": 1,
+              "lynx_data": "{\"cell_id\":1002,\"show_type\":327,\"cell_name\":\"\",\"cell_operation_type\":0,\"use_recommend\":false,\"search_result_id\":\"3772153215336972384\",\"search_high_light\":{\"title\":{\"text\":\"《龙抬头》抚琴的人著新款定制武侠都市玄幻修真小说合订十册全集\",\"high_light_position\":[[16,2],[20,2]]}},\"category_tag_ids\":null,\"render_cell_type\":1,\"lynx_url\":\"sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx_monetize%2Fecom-search-normal-goods%2Ftemplate.js&prefix=reading_offline\",\"lynx_config\":{\"phone_height\":{\"hdefault\":360,\"medium\":0,\"large\":360},\"pad_height\":{\"hdefault\":360,\"medium\":0,\"large\":360},\"client_ab_key\":null,\"phone_width\":{\"hdefault\":176,\"medium\":0,\"large\":176},\"pad_width\":{\"hdefault\":176,\"medium\":0,\"large\":176}},\"goods_data\":[{\"title\":\"《龙抬头》抚琴的人著新款定制武侠都市玄幻修真小说合订十册全集\",\"pic_url\":\"https://p26-item.ecombdimg.com/img/ecom-shop-material/jpeg_m_b64229f2f8388b96b0426463ef0f50a6_sx_213099_www1080-1080~tplv-5mmsx3fupr-resize:720:720.jpeg\",\"pic_width\":720,\"pic_height\":720,\"sale_count\":5,\"guarantee_service\":[\"7天无理由退货\",\"极速退款\"],\"detail_url\":\"sslocal://ec_goods_detail/?carrier_source=search_books_store_channel&ecom_entrance_form=search_result&ecom_group_type=product_card&enter_method=search_general&is_shopping=1&list_result_type=goods&meta_params=%7B%22entrance_info%22%3A%22%7B%5C%22click_order%5C%22%3A%5C%222%5C%22%2C%5C%22tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22product_id%5C%22%3A%5C%223772153215336972384%5C%22%2C%5C%22request_id%5C%22%3A%5C%22202603191045043AA0F2A9A73C5519B70C%5C%22%2C%5C%22previous_page%5C%22%3A%5C%22search_general%5C%22%2C%5C%22module_label%5C%22%3A%5C%22%5C%22%2C%5C%22carrier_source%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22enter_from%5C%22%3A%5C%22search_general%5C%22%2C%5C%22host_source_page%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22search_params%5C%22%3A%5C%22%7B%5C%5C%5C%22source_page%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22search_id%5C%5C%5C%22%3A%5C%5C%5C%22%23%23%23%2313%40202603191045043AA0F2A9A73C5519B70C%5C%5C%5C%22%2C%5C%5C%5C%22search_source%5C%5C%5C%22%3A%5C%5C%5C%22user_input%5C%5C%5C%22%2C%5C%5C%5C%22search_result_channel_name%5C%5C%5C%22%3A%5C%5C%5C%22%E7%BB%BC%E5%90%88%5C%5C%5C%22%2C%5C%5C%5C%22list_item_id%5C%5C%5C%22%3A3772153215336972384%2C%5C%5C%5C%22search_rank%5C%5C%5C%22%3A2%2C%5C%5C%5C%22enter_from%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22list_result_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22search_result_tab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E5%85%A8%E9%83%A8%5C%5C%5C%22%2C%5C%5C%5C%22search_subtab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E4%B9%B0%E4%B9%A6%5C%5C%5C%22%2C%5C%5C%5C%22search_position%5C%5C%5C%22%3A%5C%5C%5C%22search_books_store_channel%5C%5C%5C%22%2C%5C%5C%5C%22item_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22search_result_id%5C%5C%5C%22%3A3772153215336972384%2C%5C%5C%5C%22query%5C%5C%5C%22%3A%5C%5C%5C%22%E9%83%BD%E5%B8%82%E4%BF%AE%E7%9C%9F%5C%5C%5C%22%7D%5C%22%2C%5C%22sub_tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22source_method%5C%22%3A%5C%22search_result%5C%22%2C%5C%22page_name%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22show_price%5C%22%3A%5C%221%3F%3F%5C%22%2C%5C%22ecom_entrance_form%5C%22%3A%5C%22search_result%5C%22%2C%5C%22ecom_group_type%5C%22%3A%5C%22product_card%5C%22%2C%5C%22outflow_order%5C%22%3A%5C%222%5C%22%7D%22%7D&open_with_saas=1&previous_page=search_general&promotion_id=3772153215336972384&reading_need_authorized=1&request_additions=%7B%22enter_from%22%3A%22search_general%22%7D&source_method=search_result\",\"goods_id\":3772153215336972384,\"goods_id_str\":\"3772153215336972384\",\"schema\":\"sslocal://ec_goods_detail/?carrier_source=search_books_store_channel&ecom_entrance_form=search_result&ecom_group_type=product_card&enter_method=search_general&is_shopping=1&list_result_type=goods&meta_params=%7B%22entrance_info%22%3A%22%7B%5C%22click_order%5C%22%3A%5C%222%5C%22%2C%5C%22tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22product_id%5C%22%3A%5C%223772153215336972384%5C%22%2C%5C%22request_id%5C%22%3A%5C%22202603191045043AA0F2A9A73C5519B70C%5C%22%2C%5C%22previous_page%5C%22%3A%5C%22search_general%5C%22%2C%5C%22module_label%5C%22%3A%5C%22%5C%22%2C%5C%22carrier_source%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22enter_from%5C%22%3A%5C%22search_general%5C%22%2C%5C%22host_source_page%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22search_params%5C%22%3A%5C%22%7B%5C%5C%5C%22source_page%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22search_id%5C%5C%5C%22%3A%5C%5C%5C%22%23%23%23%2313%40202603191045043AA0F2A9A73C5519B70C%5C%5C%5C%22%2C%5C%5C%5C%22search_source%5C%5C%5C%22%3A%5C%5C%5C%22user_input%5C%5C%5C%22%2C%5C%5C%5C%22search_result_channel_name%5C%5C%5C%22%3A%5C%5C%5C%22%E7%BB%BC%E5%90%88%5C%5C%5C%22%2C%5C%5C%5C%22list_item_id%5C%5C%5C%22%3A3772153215336972384%2C%5C%5C%5C%22search_rank%5C%5C%5C%22%3A2%2C%5C%5C%5C%22enter_from%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22list_result_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22search_result_tab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E5%85%A8%E9%83%A8%5C%5C%5C%22%2C%5C%5C%5C%22search_subtab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E4%B9%B0%E4%B9%A6%5C%5C%5C%22%2C%5C%5C%5C%22search_position%5C%5C%5C%22%3A%5C%5C%5C%22search_books_store_channel%5C%5C%5C%22%2C%5C%5C%5C%22item_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22search_result_id%5C%5C%5C%22%3A3772153215336972384%2C%5C%5C%5C%22query%5C%5C%5C%22%3A%5C%5C%5C%22%E9%83%BD%E5%B8%82%E4%BF%AE%E7%9C%9F%5C%5C%5C%22%7D%5C%22%2C%5C%22sub_tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22source_method%5C%22%3A%5C%22search_result%5C%22%2C%5C%22page_name%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22show_price%5C%22%3A%5C%221%3F%3F%5C%22%2C%5C%22ecom_entrance_form%5C%22%3A%5C%22search_result%5C%22%2C%5C%22ecom_group_type%5C%22%3A%5C%22product_card%5C%22%2C%5C%22outflow_order%5C%22%3A%5C%222%5C%22%7D%22%7D&open_with_saas=1&previous_page=search_general&promotion_id=3772153215336972384&reading_need_authorized=1&request_additions=%7B%22enter_from%22%3A%22search_general%22%7D&source_method=search_result\",\"shop_info\":{\"shop_id\":0,\"shop_name\":\"芳好年华优品小铺\",\"shop_logo\":\"\",\"shop_schema\":\"sslocal://goods/store?sec_shop_id=SDZOkLIP&entrance_location=product_detail&url_maker=shop_sdk\"},\"discount_tag\":\"券后价\",\"rit_tags\":[\"7天无理由退货\",\"极速退款\"],\"discount_labels\":[{\"label_header\":\"券\",\"content\":\"立减5元\"}],\"min_price_str\":\"1??\",\"max_price_str\":\"?\",\"regular_price_str\":\"?\",\"product_recommend_info\":{},\"product_right_info\":[{\"first_tag\":\"券\",\"second_tag\":\"立减5元\",\"border_color\":\"#FF3B5280\",\"first_tag_text_color\":\"#FF3B52FF\",\"second_tag_text_color\":\"#FF3B52FF\",\"first_tag_border_color\":\"#FF3B5280\",\"second_tag_border_color\":\"#FF3B5280\",\"line_divider\":\"dashed\",\"line_divider_color\":\"#80FF3B52\"},{\"first_tag\":\"7天无理由退货\",\"border_color\":\"#FF5C0080\",\"text_color\":\"#FF5C00FF\"},{\"first_tag\":\"极速退款\",\"border_color\":\"#FF5C0080\",\"text_color\":\"#FF5C00FF\"}],\"category_info\":{\"leaf_category_id\":23334,\"first_category\":{\"category_id\":20015,\"category_name\":\"书籍/杂志/报纸\"},\"second_category\":{\"category_id\":20337,\"category_name\":\"图书周边\"},\"third_category\":{\"category_id\":23334,\"category_name\":\"其他图书周边\"}}}],\"log_pb\":\"{\\\"impr_id\\\":\\\"202603191045043AA0F2A9A73C5519B70C\\\"}\",\"impr_id\":\"202603191045043AA0F2A9A73C5519B70C\",\"cell_source\":1,\"lynx_through_info\":\"{\\\"product_id\\\":\\\"3772153215336972384\\\",\\\"ecom_group_type\\\":\\\"product_card\\\",\\\"enter_from\\\":\\\"search_general\\\",\\\"search_result_channel_name\\\":\\\"综合\\\",\\\"log_id\\\":\\\"202603191045043AA0F2A9A73C5519B70C\\\",\\\"request_id\\\":\\\"202603191045043AA0F2A9A73C5519B70C\\\",\\\"host_source_page\\\":\\\"search_books_store_channel\\\",\\\"enter_method\\\":\\\"search_general\\\",\\\"item_type\\\":\\\"goods\\\",\\\"EVENT_ORIGIN_FEATURE\\\":\\\"TEMAI\\\",\\\"entrance_info\\\":\\\"{\\\\\\\"ecom_group_type\\\\\\\":\\\\\\\"product_card\\\\\\\",\\\\\\\"outflow_order\\\\\\\":2,\\\\\\\"click_order\\\\\\\":2,\\\\\\\"search_params\\\\\\\":\\\\\\\"{\\\\\\\\\\\\\\\"item_type\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"goods\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"query\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"都市修真\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_source\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"user_input\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_subtab_name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"买书\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"request_id\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"202603191045043AA0F2A9A73C5519B70C\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_id\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"list_item_id\\\\\\\\\\\\\\\":3772153215336972384,\\\\\\\\\\\\\\\"search_result_channel_name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"综合\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_position\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"search_books_store_channel\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"is_shopping\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"1\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_result_id\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"3772153215336972384\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"search_result_tab_name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"全部\\\\\\\\\\\\\\\"}\\\\\\\",\\\\\\\"carrier_source\\\\\\\":\\\\\\\"search_books_store_channel\\\\\\\",\\\\\\\"previous_page\\\\\\\":\\\\\\\"search_general\\\\\\\",\\\\\\\"page_name\\\\\\\":\\\\\\\"search_books_store_channel\\\\\\\",\\\\\\\"ecom_entrance_form\\\\\\\":\\\\\\\"search_result\\\\\\\",\\\\\\\"source_method\\\\\\\":\\\\\\\"search_result\\\\\\\",\\\\\\\"is_shopping\\\\\\\":\\\\\\\"1\\\\\\\",\\\\\\\"request_id\\\\\\\":\\\\\\\"202603191045043AA0F2A9A73C5519B70C\\\\\\\",\\\\\\\"search_result_id\\\\\\\":\\\\\\\"3772153215336972384\\\\\\\",\\\\\\\"search_id\\\\\\\":\\\\\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\\\\\"}\\\",\\\"search_id\\\":\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\",\\\"search_result_id\\\":\\\"3772153215336972384\\\",\\\"search_subtab_name\\\":\\\"search_order_center\\\",\\\"ecom_entrance_form\\\":\\\"search_result\\\",\\\"page_name\\\":\\\"search_books_store_channel\\\",\\\"list_result_type\\\":\\\"goods\\\",\\\"source\\\":\\\"user_input\\\",\\\"search_result_tab_name\\\":\\\"全部\\\",\\\"is_shopping\\\":\\\"1\\\",\\\"outflow_order\\\":2,\\\"rank\\\":2,\\\"click_order\\\":2,\\\"search_position\\\":\\\"search_books_store_channel\\\",\\\"query\\\":\\\"都市修真\\\"}\",\"show_sub_type\":100}",
+              "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx_monetize%2Fecom-search-normal-goods%2Ftemplate.js&prefix=reading_offline",
+              "lynx_config": {
+                "phone_height": {
+                  "hdefault": 360,
+                  "medium": 0,
+                  "large": 360
+                },
+                "pad_height": {
+                  "hdefault": 360,
+                  "medium": 0,
+                  "large": 360
+                },
+                "client_ab_key": [],
+                "phone_width": {
+                  "hdefault": 176,
+                  "medium": 0,
+                  "large": 176
+                },
+                "pad_width": {
+                  "hdefault": 176,
+                  "medium": 0,
+                  "large": 176
+                }
+              },
+              "goods_data": [
+                {
+                  "title": "《龙抬头》抚琴的人著新款定制武侠都市玄幻修真小说合订十册全集",
+                  "pic_url": "https://p26-item.ecombdimg.com/img/ecom-shop-material/jpeg_m_b64229f2f8388b96b0426463ef0f50a6_sx_213099_www1080-1080~tplv-5mmsx3fupr-resize:720:720.jpeg",
+                  "pic_width": 720,
+                  "pic_height": 720,
+                  "sale_count": 5,
+                  "guarantee_service": [
+                    "7天无理由退货",
+                    "极速退款"
+                  ],
+                  "detail_url": "sslocal://ec_goods_detail/?carrier_source=search_books_store_channel&ecom_entrance_form=search_result&ecom_group_type=product_card&enter_method=search_general&is_shopping=1&list_result_type=goods&meta_params=%7B%22entrance_info%22%3A%22%7B%5C%22click_order%5C%22%3A%5C%222%5C%22%2C%5C%22tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22product_id%5C%22%3A%5C%223772153215336972384%5C%22%2C%5C%22request_id%5C%22%3A%5C%22202603191045043AA0F2A9A73C5519B70C%5C%22%2C%5C%22previous_page%5C%22%3A%5C%22search_general%5C%22%2C%5C%22module_label%5C%22%3A%5C%22%5C%22%2C%5C%22carrier_source%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22enter_from%5C%22%3A%5C%22search_general%5C%22%2C%5C%22host_source_page%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22search_params%5C%22%3A%5C%22%7B%5C%5C%5C%22source_page%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22search_id%5C%5C%5C%22%3A%5C%5C%5C%22%23%23%23%2313%40202603191045043AA0F2A9A73C5519B70C%5C%5C%5C%22%2C%5C%5C%5C%22search_source%5C%5C%5C%22%3A%5C%5C%5C%22user_input%5C%5C%5C%22%2C%5C%5C%5C%22search_result_channel_name%5C%5C%5C%22%3A%5C%5C%5C%22%E7%BB%BC%E5%90%88%5C%5C%5C%22%2C%5C%5C%5C%22list_item_id%5C%5C%5C%22%3A3772153215336972384%2C%5C%5C%5C%22search_rank%5C%5C%5C%22%3A2%2C%5C%5C%5C%22enter_from%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22list_result_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22search_result_tab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E5%85%A8%E9%83%A8%5C%5C%5C%22%2C%5C%5C%5C%22search_subtab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E4%B9%B0%E4%B9%A6%5C%5C%5C%22%2C%5C%5C%5C%22search_position%5C%5C%5C%22%3A%5C%5C%5C%22search_books_store_channel%5C%5C%5C%22%2C%5C%5C%5C%22item_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22search_result_id%5C%5C%5C%22%3A3772153215336972384%2C%5C%5C%5C%22query%5C%5C%5C%22%3A%5C%5C%5C%22%E9%83%BD%E5%B8%82%E4%BF%AE%E7%9C%9F%5C%5C%5C%22%7D%5C%22%2C%5C%22sub_tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22source_method%5C%22%3A%5C%22search_result%5C%22%2C%5C%22page_name%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22show_price%5C%22%3A%5C%221%3F%3F%5C%22%2C%5C%22ecom_entrance_form%5C%22%3A%5C%22search_result%5C%22%2C%5C%22ecom_group_type%5C%22%3A%5C%22product_card%5C%22%2C%5C%22outflow_order%5C%22%3A%5C%222%5C%22%7D%22%7D&open_with_saas=1&previous_page=search_general&promotion_id=3772153215336972384&reading_need_authorized=1&request_additions=%7B%22enter_from%22%3A%22search_general%22%7D&source_method=search_result",
+                  "goods_id": 3772153215336972384,
+                  "goods_id_str": "3772153215336972384",
+                  "schema": "sslocal://ec_goods_detail/?carrier_source=search_books_store_channel&ecom_entrance_form=search_result&ecom_group_type=product_card&enter_method=search_general&is_shopping=1&list_result_type=goods&meta_params=%7B%22entrance_info%22%3A%22%7B%5C%22click_order%5C%22%3A%5C%222%5C%22%2C%5C%22tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22product_id%5C%22%3A%5C%223772153215336972384%5C%22%2C%5C%22request_id%5C%22%3A%5C%22202603191045043AA0F2A9A73C5519B70C%5C%22%2C%5C%22previous_page%5C%22%3A%5C%22search_general%5C%22%2C%5C%22module_label%5C%22%3A%5C%22%5C%22%2C%5C%22carrier_source%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22enter_from%5C%22%3A%5C%22search_general%5C%22%2C%5C%22host_source_page%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22search_params%5C%22%3A%5C%22%7B%5C%5C%5C%22source_page%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22search_id%5C%5C%5C%22%3A%5C%5C%5C%22%23%23%23%2313%40202603191045043AA0F2A9A73C5519B70C%5C%5C%5C%22%2C%5C%5C%5C%22search_source%5C%5C%5C%22%3A%5C%5C%5C%22user_input%5C%5C%5C%22%2C%5C%5C%5C%22search_result_channel_name%5C%5C%5C%22%3A%5C%5C%5C%22%E7%BB%BC%E5%90%88%5C%5C%5C%22%2C%5C%5C%5C%22list_item_id%5C%5C%5C%22%3A3772153215336972384%2C%5C%5C%5C%22search_rank%5C%5C%5C%22%3A2%2C%5C%5C%5C%22enter_from%5C%5C%5C%22%3A%5C%5C%5C%22search_general%5C%5C%5C%22%2C%5C%5C%5C%22list_result_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22search_result_tab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E5%85%A8%E9%83%A8%5C%5C%5C%22%2C%5C%5C%5C%22search_subtab_name%5C%5C%5C%22%3A%5C%5C%5C%22%E4%B9%B0%E4%B9%A6%5C%5C%5C%22%2C%5C%5C%5C%22search_position%5C%5C%5C%22%3A%5C%5C%5C%22search_books_store_channel%5C%5C%5C%22%2C%5C%5C%5C%22item_type%5C%5C%5C%22%3A%5C%5C%5C%22goods%5C%5C%5C%22%2C%5C%5C%5C%22search_result_id%5C%5C%5C%22%3A3772153215336972384%2C%5C%5C%5C%22query%5C%5C%5C%22%3A%5C%5C%5C%22%E9%83%BD%E5%B8%82%E4%BF%AE%E7%9C%9F%5C%5C%5C%22%7D%5C%22%2C%5C%22sub_tab_name%5C%22%3A%5C%22%5C%22%2C%5C%22source_method%5C%22%3A%5C%22search_result%5C%22%2C%5C%22page_name%5C%22%3A%5C%22search_books_store_channel%5C%22%2C%5C%22show_price%5C%22%3A%5C%221%3F%3F%5C%22%2C%5C%22ecom_entrance_form%5C%22%3A%5C%22search_result%5C%22%2C%5C%22ecom_group_type%5C%22%3A%5C%22product_card%5C%22%2C%5C%22outflow_order%5C%22%3A%5C%222%5C%22%7D%22%7D&open_with_saas=1&previous_page=search_general&promotion_id=3772153215336972384&reading_need_authorized=1&request_additions=%7B%22enter_from%22%3A%22search_general%22%7D&source_method=search_result",
+                  "shop_info": {
+                    "shop_id": 0,
+                    "shop_name": "芳好年华优品小铺",
+                    "shop_logo": "",
+                    "shop_schema": "sslocal://goods/store?sec_shop_id=SDZOkLIP&entrance_location=product_detail&url_maker=shop_sdk"
+                  },
+                  "discount_tag": "券后价",
+                  "rit_tags": [
+                    "7天无理由退货",
+                    "极速退款"
+                  ],
+                  "discount_labels": [
+                    {
+                      "label_header": "券",
+                      "content": "立减5元"
+                    }
+                  ],
+                  "min_price_str": "1??",
+                  "max_price_str": "?",
+                  "regular_price_str": "?",
+                  "product_recommend_info": {},
+                  "product_right_info": [
+                    {
+                      "first_tag": "券",
+                      "second_tag": "立减5元",
+                      "border_color": "#FF3B5280",
+                      "first_tag_text_color": "#FF3B52FF",
+                      "second_tag_text_color": "#FF3B52FF",
+                      "first_tag_border_color": "#FF3B5280",
+                      "second_tag_border_color": "#FF3B5280",
+                      "line_divider": "dashed",
+                      "line_divider_color": "#80FF3B52"
+                    },
+                    {
+                      "first_tag": "7天无理由退货",
+                      "border_color": "#FF5C0080",
+                      "text_color": "#FF5C00FF"
+                    },
+                    {
+                      "first_tag": "极速退款",
+                      "border_color": "#FF5C0080",
+                      "text_color": "#FF5C00FF"
+                    }
+                  ],
+                  "category_info": {
+                    "leaf_category_id": 23334,
+                    "first_category": {
+                      "category_id": 20015,
+                      "category_name": "书籍/杂志/报纸"
+                    },
+                    "second_category": {
+                      "category_id": 20337,
+                      "category_name": "图书周边"
+                    },
+                    "third_category": {
+                      "category_id": 23334,
+                      "category_name": "其他图书周边"
+                    }
+                  }
+                }
+              ],
+              "extra": {
+                "is_header": "0",
+                "container_type": "section",
+                "section_id": "ecom_search_result_item"
+              },
+              "log_pb": "{\"impr_id\":\"202603191045043AA0F2A9A73C5519B70C\"}",
+              "impr_id": "202603191045043AA0F2A9A73C5519B70C",
+              "cell_source": 1,
+              "lynx_through_info": "{\"product_id\":\"3772153215336972384\",\"ecom_group_type\":\"product_card\",\"enter_from\":\"search_general\",\"search_result_channel_name\":\"综合\",\"log_id\":\"202603191045043AA0F2A9A73C5519B70C\",\"request_id\":\"202603191045043AA0F2A9A73C5519B70C\",\"host_source_page\":\"search_books_store_channel\",\"enter_method\":\"search_general\",\"item_type\":\"goods\",\"EVENT_ORIGIN_FEATURE\":\"TEMAI\",\"entrance_info\":\"{\\\"ecom_group_type\\\":\\\"product_card\\\",\\\"outflow_order\\\":2,\\\"click_order\\\":2,\\\"search_params\\\":\\\"{\\\\\\\"item_type\\\\\\\":\\\\\\\"goods\\\\\\\",\\\\\\\"query\\\\\\\":\\\\\\\"都市修真\\\\\\\",\\\\\\\"search_source\\\\\\\":\\\\\\\"user_input\\\\\\\",\\\\\\\"search_subtab_name\\\\\\\":\\\\\\\"买书\\\\\\\",\\\\\\\"request_id\\\\\\\":\\\\\\\"202603191045043AA0F2A9A73C5519B70C\\\\\\\",\\\\\\\"search_id\\\\\\\":\\\\\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\\\\\",\\\\\\\"list_item_id\\\\\\\":3772153215336972384,\\\\\\\"search_result_channel_name\\\\\\\":\\\\\\\"综合\\\\\\\",\\\\\\\"search_position\\\\\\\":\\\\\\\"search_books_store_channel\\\\\\\",\\\\\\\"is_shopping\\\\\\\":\\\\\\\"1\\\\\\\",\\\\\\\"search_result_id\\\\\\\":\\\\\\\"3772153215336972384\\\\\\\",\\\\\\\"search_result_tab_name\\\\\\\":\\\\\\\"全部\\\\\\\"}\\\",\\\"carrier_source\\\":\\\"search_books_store_channel\\\",\\\"previous_page\\\":\\\"search_general\\\",\\\"page_name\\\":\\\"search_books_store_channel\\\",\\\"ecom_entrance_form\\\":\\\"search_result\\\",\\\"source_method\\\":\\\"search_result\\\",\\\"is_shopping\\\":\\\"1\\\",\\\"request_id\\\":\\\"202603191045043AA0F2A9A73C5519B70C\\\",\\\"search_result_id\\\":\\\"3772153215336972384\\\",\\\"search_id\\\":\\\"####13@202603191045043AA0F2A9A73C5519B70C\\\"}\",\"search_id\":\"####13@202603191045043AA0F2A9A73C5519B70C\",\"search_result_id\":\"3772153215336972384\",\"search_subtab_name\":\"search_order_center\",\"ecom_entrance_form\":\"search_result\",\"page_name\":\"search_books_store_channel\",\"list_result_type\":\"goods\",\"source\":\"user_input\",\"search_result_tab_name\":\"全部\",\"is_shopping\":\"1\",\"outflow_order\":2,\"rank\":2,\"click_order\":2,\"search_position\":\"search_books_store_channel\",\"query\":\"都市修真\"}",
+              "show_sub_type": 100,
+              "common_report_params": {
+                "related_book_id": "{}"
+              }
+            }
+          ],
+          "SectionInset": {
+            "Top": 0,
+            "Bottom": 0,
+            "Left": 8,
+            "Right": 8
+          },
+          "LineSpacing": 12,
+          "InterItemSpacing": 7
+        }
+      ],
+      "log_pb": "{\"impr_id\":\"202603191045043AA0F2A9A73C5519B70C\"}",
+      "static_configs": {
+        "search_forum_topic_post": {
+          "ConfigValue": "{\"rootElement\":{\"children\":[{\"elementType\":3,\"componentConfig\":{\"componentSpecialConfig\":\"{\\\"configId\\\":{\\\"key\\\":\\\"#cover_template_config_id\\\",\\\"source\\\":0},\\\"ratio\\\":1.4,\\\"useDefault\\\":true,\\\"params\\\":{\\\"key\\\":\\\"#cover_template_params\\\",\\\"source\\\":0,\\\"resultType\\\":2}}\",\"type\":6},\"layoutConfig\":{\"width\":-1,\"height\":-2}},{\"children\":[{\"elementType\":3,\"componentConfig\":{\"type\":7,\"componentSpecialConfig\":\"{\\\"htmlString\\\":{\\\"key\\\":\\\"#title_html_string\\\",\\\"source\\\":1},\\\"cssString\\\":{\\\"key\\\":\\\"#title_css_string\\\"}}\"},\"labelConfig\":{\"numberOfLines\":2,\"font\":{\"fontStyle\":1,\"pointSize\":14},\"paragraphStyle\":{\"lineMultiply\":1.6,\"lineSpace\":4},\"textColor\":{\"hex\":[\"#000000FF\"],\"darkHex\":[\"#FFFFFFCC\"]}},\"layoutConfig\":{\"width\":-1,\"height\":-2}},{\"componentConfig\":{\"type\":7,\"componentSpecialConfig\":\"{\\\"htmlString\\\":{\\\"key\\\":\\\"#abstract_html_string\\\", \\\"source\\\":1},\\\"cssString\\\":{\\\"key\\\":\\\"#title_css_string\\\"}}\"},\"labelConfig\":{\"numberOfLines\":2,\"font\":{\"pointSize\":12},\"paragraphStyle\":{\"lineMultiply\":1.6,\"lineSpace\":4},\"textColor\":{\"hex\":[\"#00000066\"],\"darkHex\":[\"#FFFFFF66\"]}},\"layoutConfig\":{\"width\":-1,\"height\":-2,\"margin\":{\"top\":4}},\"elementType\":3},{\"elementType\":2,\"visible\":{\"key\":\"#use_full_version\",\"source\":1},\"layoutConfig\":{\"height\":-2,\"margin\":{\"top\":4},\"width\":-1},\"labelConfig\":{\"textColor\":{\"hex\":[\"#00000066\"],\"darkHex\":[\"#FFFFFF66\"]},\"textProvider\":{\"key\":\"#sub_info\"},\"numberOfLines\":1,\"font\":{\"pointSize\":12}}}],\"elementType\":100,\"backgroundColor\":{\"darkHex\":[\"#FFFFFF0F\"],\"hexValueFinder\":{\"key\":\"#bg_hex\"},\"darkHexValueFinder\":{\"key\":\"#bg_dark_hex\"},\"hex\":[\"#00000008\"]},\"layoutConfig\":{\"width\":-1,\"height\":-2,\"orientation\":1,\"padding\":{\"left\":10,\"bottom\":12,\"right\":10,\"top\":8}}}],\"displayEvent\":{\"type\":1,\"reportMapper\":{\"consume_forum_id\":{\"key\":\"#forum_id\"},\"recommend_info\":{\"key\":\"#recommend_info\"},\"topic_position\":{\"value\":\"forum\",\"source\":2},\"search_attached_info\":{\"key\":\"#search_attached_info\"},\"forum_id\":{\"key\":\"#forum_id\"},\"topic_id\":{\"key\":\"#topic_id\"},\"search_topic_position\":{\"value\":\"topic_search\",\"source\":2},\"forum_position\":{\"value\":\"search\",\"source\":2},\"topic_recommend_info\":{\"key\":\"#recommend_info\"},\"comment_id\":{\"key\":\"#comment_id\"},\"status\":{\"value\":\"outside_forum\",\"source\":2}},\"reportEvents\":[{\"eventName\":\"impr_comment\",\"once\":true},{\"once\":true,\"eventName\":\"impr_topic_entrance\"}]},\"tapEvent\":{\"reportMapper\":{\"forum_id\":{\"key\":\"#forum_id\"},\"consume_forum_id\":{\"key\":\"#forum_id\"},\"recommend_info\":{\"key\":\"#recommend_info\"},\"topic_id\":{\"key\":\"#topic_id\"},\"topic_position\":{\"source\":2,\"value\":\"forum\"},\"forum_position\":{\"source\":2,\"value\":\"search\"},\"comment_id\":{\"key\":\"#comment_id\"},\"topic_recommend_info\":{\"key\":\"#recommend_info\"},\"search_attached_info\":{\"key\":\"#search_attached_info\"},\"search_topic_position\":{\"source\":2,\"value\":\"topic_search\"},\"status\":{\"value\":\"outside_forum\",\"source\":2}},\"reportEvents\":[{\"needPushPageInfo\":true,\"eventName\":\"click_search_result_topic\"},{\"eventName\":\"click_topic_entrance\",\"needPushPageInfo\":true}],\"type\":2,\"response\":{\"schemaProvider\":{\"key\":\"#tap_event_schema\"}}},\"elementType\":100,\"layoutConfig\":{\"height\":-2,\"orientation\":1,\"cornerRadius\":8,\"width\":-1}}}"
+        },
+        "search_book_comment": {
+          "ConfigValue": "{\"rootElement\":{\"layoutConfig\":{\"cornerRadius\":8,\"width\":-1,\"height\":-2,\"orientation\":1},\"children\":[{\"componentConfig\":{\"componentSpecialConfig\":\"{\\\"configId\\\":{\\\"key\\\":\\\"#cover_template_config_id\\\",\\\"source\\\":0},\\\"ratio\\\":1.4,\\\"useDefault\\\":true,\\\"params\\\":{\\\"key\\\":\\\"#cover_template_params\\\",\\\"source\\\":0,\\\"resultType\\\":2}}\",\"type\":6},\"layoutConfig\":{\"height\":-2,\"width\":-1},\"elementType\":3},{\"layoutConfig\":{\"height\":-2,\"orientation\":1,\"padding\":{\"left\":10,\"bottom\":12,\"right\":10,\"top\":8},\"width\":-1},\"children\":[{\"elementType\":3,\"componentConfig\":{\"type\":7,\"componentSpecialConfig\":\"{\\\"htmlString\\\":{\\\"key\\\":\\\"#html_string\\\",\\\"source\\\":1},\\\"cssString\\\":{\\\"key\\\":\\\"#css_string\\\"}}\"},\"labelConfig\":{\"numberOfLines\":2,\"font\":{\"fontStyle\":1,\"pointSize\":14},\"paragraphStyle\":{\"lineMultiPly\":1.6,\"lineSpace\":4},\"textColor\":{\"hex\":[\"#000000FF\"],\"darkHex\":[\"#FFFFFFCC\"]}},\"layoutConfig\":{\"height\":-2,\"width\":-1}},{\"elementType\":100,\"layoutConfig\":{\"contentGravity\":1,\"margin\":{\"top\":4},\"width\":-1,\"height\":-2},\"children\":[{\"borderLayer\":{\"color\":{\"hex\":[\"#0000000F\"],\"darkHex\":[\"#FFFFFF0F\"]},\"width\":0.5},\"elementType\":1,\"imageConfig\":{\"url\":{\"key\":\"#avatar_url\"},\"placeholder\":\"dynamic_default_header_image\",\"source\":1},\"layoutConfig\":{\"height\":12,\"width\":12,\"cornerRadius\":6}},{\"componentConfig\":{\"type\":2,\"componentSpecialConfig\":\"{\\\"tagDataList\\\":[{\\\"key\\\":\\\"#user_name\\\"}],\\\"ellipsisIndex\\\":1,\\\"itemLabelConfig\\\":{\\\"font\\\":{\\\"pointSize\\\":12},\\\"textColor\\\":{\\\"hex\\\":[\\\"#00000066\\\"],\\\"darkHex\\\":[\\\"#FFFFFF66\\\"]}}}\"},\"elementType\":3,\"layoutConfig\":{\"width\":0,\"height\":-2,\"weight\":1,\"margin\":{\"left\":4}}}]}],\"elementType\":100,\"backgroundColor\":{\"hex\":[\"#00000008\"],\"darkHex\":[\"#FFFFFF0F\"]}}],\"displayEvent\":{\"reportMapper\":{\"search_comment_type\":{\"value\":\"book_comment\",\"source\":2},\"type\":{\"value\":\"book_comment\",\"source\":2},\"position\":{\"value\":\"search\",\"source\":2},\"search_topic_position\":{\"value\":\"topic_search\",\"source\":2},\"comment_id\":{\"key\":\"#comment_id\"},\"search_attached_info\":{\"key\":\"#search_attached_info\"},\"book_id\":{\"key\":\"#book_id\"},\"recommend_info\":{\"key\":\"#recommend_info\"}},\"reportEvents\":[{\"eventName\":\"impr_book_comment_entrance\",\"once\":true},{\"eventName\":\"impr_book_comment\",\"once\":true}],\"type\":1},\"tapEvent\":{\"type\":2,\"response\":{\"schemaProvider\":{\"key\":\"#tap_event_schema\"}},\"reportMapper\":{\"position\":{\"value\":\"search\",\"source\":2},\"comment_id\":{\"key\":\"#comment_id\"},\"search_comment_type\":{\"value\":\"book_comment\",\"source\":2},\"book_id\":{\"key\":\"#book_id\"},\"recommend_info\":{\"key\":\"#recommend_info\"},\"search_topic_position\":{\"value\":\"topic_search\",\"source\":2},\"type\":{\"source\":2,\"value\":\"book_comment\"},\"search_attached_info\":{\"key\":\"#search_attached_info\"}},\"reportEvents\":[{\"eventName\":\"click_search_result_topic\",\"needPushPageInfo\":true}]},\"elementType\":100}}"
+        },
+        "ecom_product_card_shop_search_v1": {
+          "ConfigValue": "{\"rootElement\":{\"layoutConfig\":{\"orientation\":1,\"cornerRadius\":8,\"width\":-1,\"height\":-2},\"displayEvent\":{\"reportMapper\":{\"extra\":{\"key\":\"extra\",\"resultType\":2}},\"reportEvents\":[{\"eventName\":\"tobsdk_livesdk_show_product\",\"once\":true},{\"once\":true,\"eventName\":\"tobsdk_livesdk_show_ecom_card\"},{\"eventName\":\"search_result_show\",\"once\":true}],\"type\":1},\"tapEvent\":{\"reportMapper\":{\"extra\":{\"key\":\"extra\",\"resultType\":2}},\"reportEvents\":[{\"eventName\":\"tobsdk_livesdk_click_product\"},{\"eventName\":\"tobsdk_livesdk_click_ecom_card\"},{\"eventName\":\"search_result_click\"}],\"type\":2,\"response\":{\"schemaProvider\":{\"key\":\"tap_event_schema_0\"}}},\"children\":[{\"elementType\":1,\"imageConfig\":{\"darkPlaceholder\":\"dynamic_double_row_image_placeholder_dark\",\"source\":1,\"ratio\":1,\"url\":{\"key\":\"cover_url\"},\"dark_url\":{\"key\":\"cover_url\"},\"placeholder\":\"dynamic_double_row_image_placeholder\"},\"layoutConfig\":{\"width\":-1,\"height\":-2}},{\"children\":[{\"layoutConfig\":{\"margin\":{\"bottom\":4},\"layoutGravity\":16,\"width\":-1,\"height\":-2},\"elementType\":3,\"componentConfig\":{\"type\":7,\"componentSpecialConfig\":\"{\\\"htmlString\\\":{\\\"key\\\":\\\"title_html_string\\\",\\\"source\\\":\\\"1\\\"},\\\"cssString\\\":{\\\"key\\\":\\\"title_css_string\\\",\\\"source\\\":\\\"1\\\"}}\"},\"labelConfig\":{\"numberOfLines\":2,\"font\":{\"fontStyle\":1,\"pointSize\":14},\"paragraphStyle\":{\"lineMultiPly\":1.6,\"lineSpace\":4},\"textColor\":{\"hex\":[\"#000000FF\"],\"darkHex\":[\"#000000FF\"]}}},{\"elementType\":2,\"labelConfig\":{\"numberOfLines\":1,\"font\":{\"fontStyle\":0,\"pointSize\":12},\"textColor\":{\"hex\":[\"#16182399\"],\"darkHex\":[\"#16182399\"]},\"textProvider\":{\"source\":1,\"key\":\"recommend_reason_middle_content_string\"}},\"layoutConfig\":{\"width\":-1,\"height\":-2,\"layoutGravity\":1,\"margin\":{\"bottom\":4}}},{\"elementType\":3,\"componentConfig\":{\"componentSpecialConfig\":\"{\\\"htmlString\\\":{\\\"key\\\":\\\"price_html_string\\\",\\\"source\\\":\\\"1\\\"},\\\"cssString\\\":{\\\"key\\\":\\\"price_css_string\\\",\\\"source\\\":\\\"1\\\"}}\",\"type\":7},\"labelConfig\":{\"textColor\":{\"hex\":[\"#FF3344\"],\"darkHex\":[\"#FF3344\"]},\"numberOfLines\":1,\"paragraphStyle\":{\"lineSpace\":4,\"lineMultiPly\":1.6},\"font\":{\"pointSize\":12}},\"layoutConfig\":{\"height\":-2,\"margin\":{\"bottom\":4},\"layoutGravity\":1,\"width\":-1}},{\"elementType\":3,\"layoutConfig\":{\"width\":-2,\"height\":-2,\"margin\":{\"bottom\":4}},\"visible\":{\"key\":\"product_right_info_first_tag_0_size\",\"resultType\":3,\"source\":1},\"componentConfig\":{\"type\":9,\"componentSpecialConfig\":\"{\\\"tagDataMapper\\\":{\\\"key\\\":\\\"discount_label_component_string\\\",\\\"source\\\":\\\"1\\\"},\\\"type\\\":\\\"1\\\"}\"}},{\"layoutConfig\":{\"width\":-1,\"heightValueFinder\":{\"source\":1,\"key\":\"recommend_reason_bottom_height\",\"resultType\":3},\"contentGravity\":5},\"children\":[{\"tapEvent\":{\"reportEvents\":[{\"eventName\":\"tobsdk_livesdk_click_product\"},{\"eventName\":\"tobsdk_livesdk_click_ecom_card\"},{\"eventName\":\"search_result_click\"}],\"type\":2,\"response\":{\"schemaProvider\":{\"key\":\"recommend_reason_bottom_schema\"}},\"reportMapper\":{\"extra\":{\"resultType\":2,\"key\":\"extra\"}}},\"elementType\":100,\"layoutConfig\":{\"layoutGravity\":16,\"width\":-1,\"height\":-2},\"children\":[{\"elementType\":2,\"labelConfig\":{\"numberOfLines\":1,\"font\":{\"pointSize\":12,\"fontStyle\":0},\"textColor\":{\"hex\":[\"#FF3B52\"],\"darkHex\":[\"#FF3B52\"]},\"textProvider\":{\"key\":\"recommend_reason_bottom_content_string\",\"source\":1}},\"layoutConfig\":{\"margin\":{\"right\":2},\"width\":-2,\"height\":16,\"layoutGravity\":1,\"contentGravity\":1}},{\"layoutConfig\":{\"margin\":{\"right\":2},\"width\":0,\"weight\":1,\"fit\":true,\"height\":16,\"layoutGravity\":1,\"contentGravity\":1},\"elementType\":2,\"labelConfig\":{\"textProvider\":{\"key\":\"recommend_reason_bottom_shop_string\",\"source\":1},\"numberOfLines\":1,\"font\":{\"pointSize\":12,\"fontStyle\":0},\"textColor\":{\"hex\":[\"#00000099\"],\"darkHex\":[\"#FFFFFF99\"]}}},{\"elementType\":2,\"labelConfig\":{\"font\":{\"pointSize\":12,\"fontStyle\":0},\"textColor\":{\"darkHex\":[\"#FFFFFFCC\"],\"hex\":[\"#000000CC\"]},\"textProvider\":{\"value\":\"进店\",\"source\":2},\"numberOfLines\":1},\"layoutConfig\":{\"height\":16,\"layoutGravity\":1,\"contentGravity\":1,\"margin\":{\"right\":0},\"width\":-2}},{\"imageConfig\":{\"ratio\":1,\"name\":\"global_next12\",\"tintColor\":{\"hex\":[\"#000000CC\"],\"darkHex\":[\"#FFFFFFCC\"]},\"source\":0},\"layoutConfig\":{\"width\":10,\"height\":10,\"margin\":{\"top\":3,\"bottom\":3,\"right\":0,\"left\":0}},\"elementType\":1}]}],\"elementType\":100,\"visible\":{\"key\":\"recommend_reason_bottom_height\",\"resultType\":3,\"source\":1}}],\"elementType\":100,\"layoutConfig\":{\"orientation\":1,\"padding\":{\"top\":8,\"left\":10,\"bottom\":4,\"right\":10},\"width\":-1,\"height\":-2}}],\"name\":\"ecom_product_card_shop_search_v1_root\",\"elementType\":100,\"backgroundColor\":{\"hex\":[\"#FFFFFFFF\"],\"darkHex\":[\"#1C1C1CFF\"]}}}"
+        },
+        "search_topic": {
+          "ConfigValue": "{\"rootElement\":{\"elementType\":100,\"layoutConfig\":{\"height\":-2,\"orientation\":1,\"cornerRadius\":8,\"width\":-1},\"children\":[{\"elementType\":3,\"componentConfig\":{\"type\":6,\"componentSpecialConfig\":\"{\\\"configId\\\":{\\\"key\\\":\\\"#cover_template_config_id\\\",\\\"source\\\":0},\\\"ratio\\\":1.4,\\\"useDefault\\\":true,\\\"params\\\":{\\\"key\\\":\\\"#cover_template_params\\\",\\\"source\\\":0,\\\"resultType\\\":2}}\"},\"layoutConfig\":{\"width\":-1,\"height\":-2}},{\"backgroundColor\":{\"darkHexValueFinder\":{\"key\":\"#bg_dark_hex\"},\"hex\":[\"#00000008\"],\"darkHex\":[\"#FFFFFF0F\"],\"hexValueFinder\":{\"key\":\"#bg_hex\"}},\"layoutConfig\":{\"padding\":{\"left\":10,\"bottom\":12,\"right\":10,\"top\":8},\"width\":-1,\"height\":-2,\"orientation\":1},\"children\":[{\"elementType\":3,\"componentConfig\":{\"type\":7,\"componentSpecialConfig\":\"{\\\"htmlString\\\":{\\\"key\\\":\\\"#title_html_string\\\",\\\"source\\\":1},\\\"cssString\\\":{\\\"key\\\":\\\"#title_css_string\\\"}}\"},\"labelConfig\":{\"font\":{\"fontStyle\":1,\"pointSize\":14},\"paragraphStyle\":{\"lineMultiply\":1.6,\"lineSpace\":4},\"textColor\":{\"hex\":[\"#000000FF\"],\"darkHex\":[\"#FFFFFFCC\"]},\"numberOfLines\":2},\"layoutConfig\":{\"width\":-1,\"height\":-2}},{\"elementType\":3,\"visible\":{\"key\":\"#use_full_version\",\"source\":1},\"componentConfig\":{\"type\":7,\"componentSpecialConfig\":\"{\\\"htmlString\\\":{\\\"key\\\":\\\"#abstract_html_string\\\",\\\"source\\\":1},\\\"cssString\\\":{\\\"key\\\":\\\"#title_css_string\\\"}}\"},\"labelConfig\":{\"numberOfLines\":2,\"font\":{\"pointSize\":12},\"paragraphStyle\":{\"lineMultiply\":1.6,\"lineSpace\":4},\"textColor\":{\"hex\":[\"#00000066\"],\"darkHex\":[\"#FFFFFF66\"]}},\"layoutConfig\":{\"width\":-1,\"height\":-2,\"margin\":{\"top\":4}}},{\"layoutConfig\":{\"width\":-1,\"height\":-2,\"margin\":{\"top\":4}},\"labelConfig\":{\"font\":{\"pointSize\":12},\"textColor\":{\"hex\":[\"#00000066\"],\"darkHex\":[\"#FFFFFF66\"]},\"textProvider\":{\"key\":\"#sub_info\"},\"numberOfLines\":1},\"elementType\":2,\"visible\":{\"source\":1,\"key\":\"#use_full_version\"}}],\"elementType\":100}],\"displayEvent\":{\"type\":1,\"reportMapper\":{\"topic_position\":{\"value\":\"topic_search\",\"source\":2},\"search_attached_info\":{\"key\":\"#search_attached_info\"},\"recommend_info\":{\"key\":\"#recommend_info\"},\"topic_recommend_info\":{\"key\":\"#recommend_info\"},\"topic_id\":{\"key\":\"#topic_id\"},\"search_topic_position\":{\"value\":\"topic_search\",\"source\":2}},\"reportEvents\":[{\"eventName\":\"impr_topic_entrance\",\"once\":true}]},\"tapEvent\":{\"type\":2,\"response\":{\"schemaProvider\":{\"key\":\"#tap_event_schema\"}},\"reportMapper\":{\"search_attached_info\":{\"key\":\"#search_attached_info\"},\"recommend_info\":{\"key\":\"#recommend_info\"},\"topic_recommend_info\":{\"key\":\"#recommend_info\"},\"topic_id\":{\"key\":\"#topic_id\"},\"search_topic_position\":{\"value\":\"topic_search\",\"source\":2},\"topic_position\":{\"value\":\"topic_search\",\"source\":2}},\"reportEvents\":[{\"eventName\":\"click_search_result_topic\",\"needPushPageInfo\":true},{\"eventName\":\"click_topic_entrance\",\"needPushPageInfo\":true}]}}}"
+        },
+        "search_forum_topic": {
+          "ConfigValue": "{\"rootElement\":{\"displayEvent\":{\"type\":1,\"reportMapper\":{\"topic_id\":{\"key\":\"#topic_id\"},\"topic_position\":{\"value\":\"forum\",\"source\":2},\"forum_id\":{\"key\":\"#forum_id\"},\"consume_forum_id\":{\"key\":\"#forum_id\"},\"forum_position\":{\"value\":\"search\",\"source\":2},\"status\":{\"source\":2,\"value\":\"outside_forum\"},\"search_attached_info\":{\"key\":\"#search_attached_info\"},\"recommend_info\":{\"key\":\"#recommend_info\"},\"topic_recommend_info\":{\"key\":\"#recommend_info\"},\"search_topic_position\":{\"value\":\"topic_search\",\"source\":2}},\"reportEvents\":[{\"eventName\":\"impr_topic_entrance\",\"once\":true}]},\"tapEvent\":{\"type\":2,\"response\":{\"schemaProvider\":{\"key\":\"#tap_event_schema\"}},\"reportMapper\":{\"recommend_info\":{\"key\":\"#recommend_info\"},\"topic_recommend_info\":{\"key\":\"#recommend_info\"},\"topic_id\":{\"key\":\"#topic_id\"},\"topic_position\":{\"value\":\"forum\",\"source\":2},\"status\":{\"value\":\"outside_forum\",\"source\":2},\"search_attached_info\":{\"key\":\"#search_attached_info\"},\"search_topic_position\":{\"value\":\"topic_search\",\"source\":2},\"forum_position\":{\"value\":\"search\",\"source\":2},\"forum_id\":{\"key\":\"#forum_id\"},\"consume_forum_id\":{\"key\":\"#forum_id\"}},\"reportEvents\":[{\"eventName\":\"click_search_result_topic\",\"needPushPageInfo\":true},{\"eventName\":\"click_topic_entrance\",\"needPushPageInfo\":true}]},\"elementType\":100,\"layoutConfig\":{\"orientation\":1,\"cornerRadius\":8,\"width\":-1,\"height\":-2},\"children\":[{\"componentConfig\":{\"componentSpecialConfig\":\"{\\\"configId\\\":{\\\"key\\\":\\\"#cover_template_config_id\\\",\\\"source\\\":0},\\\"ratio\\\":1.4,\\\"useDefault\\\":true,\\\"params\\\":{\\\"key\\\":\\\"#cover_template_params\\\",\\\"source\\\":0,\\\"resultType\\\":2}}\",\"type\":6},\"layoutConfig\":{\"width\":-1,\"height\":-2},\"elementType\":3},{\"backgroundColor\":{\"hex\":[\"#00000008\"],\"darkHex\":[\"#FFFFFF0F\"],\"hexValueFinder\":{\"key\":\"#bg_hex\"},\"darkHexValueFinder\":{\"key\":\"#bg_dark_hex\"}},\"layoutConfig\":{\"width\":-1,\"height\":-2,\"orientation\":1,\"padding\":{\"bottom\":12,\"right\":10,\"top\":8,\"left\":10}},\"children\":[{\"elementType\":3,\"componentConfig\":{\"componentSpecialConfig\":\"{\\\"htmlString\\\":{\\\"key\\\":\\\"#title_html_string\\\",\\\"source\\\":1},\\\"cssString\\\":{\\\"key\\\":\\\"#title_css_string\\\"}}\",\"type\":7},\"labelConfig\":{\"textColor\":{\"hex\":[\"#000000FF\"],\"darkHex\":[\"#FFFFFFCC\"]},\"numberOfLines\":2,\"font\":{\"pointSize\":14,\"fontStyle\":1},\"paragraphStyle\":{\"lineMultiply\":1.6,\"lineSpace\":4}},\"layoutConfig\":{\"width\":-1,\"height\":-2}},{\"elementType\":3,\"visible\":{\"key\":\"#use_full_version\",\"source\":1},\"componentConfig\":{\"type\":7,\"componentSpecialConfig\":\"{\\\"htmlString\\\":{\\\"key\\\":\\\"#abstract_html_string\\\",\\\"source\\\":1},\\\"cssString\\\":{\\\"key\\\":\\\"#title_css_string\\\"}}\"},\"labelConfig\":{\"numberOfLines\":2,\"font\":{\"pointSize\":12},\"paragraphStyle\":{\"lineMultiply\":1.6,\"lineSpace\":4},\"textColor\":{\"hex\":[\"#00000066\"],\"darkHex\":[\"#FFFFFF66\"]}},\"layoutConfig\":{\"height\":-2,\"margin\":{\"top\":4},\"width\":-1}},{\"elementType\":2,\"visible\":{\"key\":\"#use_full_version\",\"source\":1},\"layoutConfig\":{\"width\":-1,\"height\":-2,\"margin\":{\"top\":4}},\"labelConfig\":{\"textColor\":{\"hex\":[\"#00000066\"],\"darkHex\":[\"#FFFFFF66\"]},\"textProvider\":{\"key\":\"#sub_info\"},\"numberOfLines\":1,\"font\":{\"pointSize\":12}}}],\"elementType\":100}]}}"
+        },
+        "search_topic_post": {
+          "ConfigValue": "{\"rootElement\":{\"layoutConfig\":{\"height\":-2,\"orientation\":1,\"cornerRadius\":8,\"width\":-1},\"children\":[{\"elementType\":3,\"componentConfig\":{\"type\":6,\"componentSpecialConfig\":\"{\\\"configId\\\":{\\\"key\\\":\\\"#cover_template_config_id\\\",\\\"source\\\":0},\\\"ratio\\\":1.4,\\\"useDefault\\\":true,\\\"params\\\":{\\\"key\\\":\\\"#cover_template_params\\\",\\\"source\\\":0,\\\"resultType\\\":2}}\"},\"layoutConfig\":{\"height\":-2,\"width\":-1}},{\"backgroundColor\":{\"darkHex\":[\"#FFFFFF0F\"],\"hex\":[\"#00000008\"],\"hexValueFinder\":{\"key\":\"#bg_hex\"},\"darkHexValueFinder\":{\"key\":\"#bg_dark_hex\"}},\"layoutConfig\":{\"width\":-1,\"height\":-2,\"orientation\":1,\"padding\":{\"top\":8,\"left\":10,\"bottom\":12,\"right\":10}},\"children\":[{\"layoutConfig\":{\"width\":-1,\"height\":-2},\"elementType\":3,\"componentConfig\":{\"type\":7,\"componentSpecialConfig\":\"{\\\"htmlString\\\":{\\\"key\\\":\\\"#title_html_string\\\",\\\"source\\\":1},\\\"cssString\\\":{\\\"key\\\":\\\"#title_css_string\\\"}}\"},\"labelConfig\":{\"textColor\":{\"hex\":[\"#000000FF\"],\"darkHex\":[\"#FFFFFFCC\"]},\"numberOfLines\":2,\"font\":{\"pointSize\":14,\"fontStyle\":1},\"paragraphStyle\":{\"lineSpace\":4,\"lineMultiply\":1.6}}},{\"elementType\":3,\"componentConfig\":{\"type\":7,\"componentSpecialConfig\":\"{\\\"htmlString\\\":{\\\"key\\\":\\\"#abstract_html_string\\\", \\\"source\\\":1},\\\"cssString\\\":{\\\"key\\\":\\\"#title_css_string\\\"}}\"},\"labelConfig\":{\"font\":{\"pointSize\":12},\"paragraphStyle\":{\"lineSpace\":4,\"lineMultiply\":1.6},\"textColor\":{\"hex\":[\"#00000066\"],\"darkHex\":[\"#FFFFFF66\"]},\"numberOfLines\":2},\"layoutConfig\":{\"width\":-1,\"height\":-2,\"margin\":{\"top\":4}}},{\"layoutConfig\":{\"height\":-2,\"margin\":{\"top\":4},\"width\":-1},\"labelConfig\":{\"font\":{\"pointSize\":12},\"textColor\":{\"hex\":[\"#00000066\"],\"darkHex\":[\"#FFFFFF66\"]},\"textProvider\":{\"key\":\"#sub_info\"},\"numberOfLines\":1},\"elementType\":2,\"visible\":{\"source\":1,\"key\":\"#use_full_version\"}}],\"elementType\":100}],\"displayEvent\":{\"type\":1,\"reportMapper\":{\"topic_recommend_info\":{\"key\":\"#recommend_info\"},\"topic_id\":{\"key\":\"#topic_id\"},\"comment_id\":{\"key\":\"#comment_id\"},\"search_topic_position\":{\"value\":\"topic_search\",\"source\":2},\"topic_position\":{\"value\":\"topic_search\",\"source\":2},\"search_attached_info\":{\"key\":\"#search_attached_info\"},\"recommend_info\":{\"key\":\"#recommend_info\"}},\"reportEvents\":[{\"eventName\":\"impr_comment\",\"once\":true},{\"once\":true,\"eventName\":\"impr_topic_entrance\"}]},\"tapEvent\":{\"reportMapper\":{\"topic_position\":{\"value\":\"topic_search\",\"source\":2},\"search_attached_info\":{\"key\":\"#search_attached_info\"},\"recommend_info\":{\"key\":\"#recommend_info\"},\"topic_recommend_info\":{\"key\":\"#recommend_info\"},\"topic_id\":{\"key\":\"#topic_id\"},\"comment_id\":{\"key\":\"#comment_id\"},\"search_topic_position\":{\"value\":\"topic_search\",\"source\":2}},\"reportEvents\":[{\"eventName\":\"click_search_result_topic\",\"needPushPageInfo\":true},{\"needPushPageInfo\":true,\"eventName\":\"click_topic_entrance\"}],\"type\":2,\"response\":{\"schemaProvider\":{\"key\":\"#tap_event_schema\"}}},\"elementType\":100}}"
+        }
+      },
+      "biz_config_ctx_infos": "eyJtIjp7IjAiOiIxOSIsIjEiOiI5IiwiMiI6IjE3IiwiMyI6IjEyIiwiNCI6IjYiLCI1IjoiMjkifX0=",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "####5@202603191045043AA0F2A9A73C5519B70C",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "####6@202603191045043AA0F2A9A73C5519B70C",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 7,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "202603191045043AA0F2A9A73C5519B70C"
+}

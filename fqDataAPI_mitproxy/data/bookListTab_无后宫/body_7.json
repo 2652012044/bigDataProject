@@ -1,0 +1,2590 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@20260319101338FD50C24C294A8A65B676",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@20260319101338FD50C24C294A8A65B676",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@20260319101338FD50C24C294A8A65B676",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@20260319101338FD50C24C294A8A65B676",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@20260319101338FD50C24C294A8A65B676",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@20260319101338FD50C24C294A8A65B676",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1040,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7218566737866787901",
+          "search_result_id": "7218566737866787901",
+          "search_high_light": {
+            "abstract": {
+              "text": "【无系统、穿越、玄幻、第一人称】 我四十五度仰望天空，蓝天，白云，太阳高高挂，太阳，太阳！这太阳怎么是半圆形的？ 我不得不接受我穿越了的事实。 不过既然已经穿越了，那我还不为所欲为？ 飞升成仙，傲视诸天，事业，爱情，爱情，爱情，爱情…… 灭哈哈哈哈哈哈哈……",
+              "rich_text": "【<em>无</em>系统、穿越、玄幻、第一人称】\n我四十五度仰望天空，蓝天，白云，太阳高高挂，太阳，太阳！这太阳怎么是半圆形的？\n我不得不接受我穿越了的事实。\n不过既然已经穿越了，那我还不为所欲为？\n飞升成仙，傲视诸天，事业，爱情，爱情，爱情，爱情……\n灭哈哈哈哈哈哈哈……",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "我都穿越了还不为所欲为？",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【无系统、穿越、玄幻、第一人称】\n我四十五度仰望天空，蓝天，白云，太阳高高挂，太阳，太阳！这太阳怎么是半圆形的？\n我不得不接受我穿越了的事实。\n不过既然已经穿越了，那我还不为所欲为？\n飞升成仙，傲视诸天，事业，爱情，爱情，爱情，爱情……\n灭哈哈哈哈哈哈哈……",
+              "author": "蚂蚁小小",
+              "book_id": "7218566737866787901",
+              "book_name": "我都穿越了还不为所欲为？",
+              "category": "传统玄幻",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-04-05T22:05:39+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7218577341004382758",
+              "first_chapter_item_id": "7218577341004382758",
+              "first_chapter_title": "第1章 我成了地主家的傻孙子",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7259566229923627572",
+              "last_chapter_item_id": "7259566229923627572",
+              "last_chapter_title": "第75章 再见瑶儿",
+              "last_chapter_update_time": "1690249513",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "1",
+              "recommend_group_id": "7218566737866787901",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101444946E132F020ACB5A736D\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "75",
+              "source": "番茄小说",
+              "tags": "传统玄幻,玄幻",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o22b7fc321b747a19455101690d1a8756~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=hsoBi3fnakbcfgswReg87E2%2FfBg%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "165742",
+              "score": "0",
+              "exclusive": "1",
+              "role": "王某",
+              "category_schema": "[{\"category_id\":258,\"name\":\"传统玄幻\",\"schema\":\"dragon1967://newCategoryDetail?id=258&name=传统玄幻&genre_type=0&gender=1&source=detail\"},{\"category_id\":7,\"name\":\"玄幻\",\"schema\":\"dragon1967://newCategoryDetail?id=7&name=玄幻&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":452,\"name\":\"架空\",\"schema\":\"dragon1967://newCategoryDetail?id=452&name=架空&genre_type=0&gender=1&source=detail\"},{\"category_id\":511,\"name\":\"东方玄幻\",\"schema\":\"dragon1967://newCategoryDetail?id=511&name=东方玄幻&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"},{\"category_id\":871,\"name\":\"第一人称\",\"schema\":\"dragon1967://newCategoryDetail?id=871&name=第一人称&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1690249522",
+              "authorize_type": "1",
+              "media_id": "1739041835080718",
+              "original_book_name": "我都穿越了还不为所欲为？",
+              "length_type": "1",
+              "op_tag": "535,871,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2o22b7fc321b747a19455101690d1a8756",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o22b7fc321b747a19455101690d1a8756~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070484&x-signature=TKH9PWciJZBAVY4HY12OkFcEPzE%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "传统玄幻,第一人称",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#283840",
+              "read_count_all": "1093",
+              "shelf_cnt_history": "985",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8662\":1680705743,\"8703\":1744966834,\"2503\":1680705743,\"8704\":1747896483,\"1967\":1680705743,\"1128\":1680705743,\"510893\":1689737689,\"507386\":1744966834,\"1112\":1693467055,\"638505\":1724902945,\"2329\":1680705743,\"35\":1680705743,\"596084\":1715160884,\"13\":1680705743,\"6589\":1680778492,\"3040\":1681192647,\"8661\":1681192647,\"507427\":1744966834}",
+              "category_v2_map": {
+                "37": true,
+                "511": true,
+                "522": true,
+                "871": true,
+                "7": true,
+                "452": true,
+                "258": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o22b7fc321b747a19455101690d1a8756~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=hsoBi3fnakbcfgswReg87E2%2FfBg%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7123216694276789517,
+                  "AuthorName": "蚂蚁小小"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o22b7fc321b747a19455101690d1a8756~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070484&x-signature=8KpZEOHzzvJT0GpbF%2BtSL3VxYLE%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【无系统、穿越、玄幻、第一人称】\n我四十五度仰望天空，蓝天，白云，太阳高高挂，太阳，太阳！这太阳怎么是半圆形的？\n我不得不接受我穿越了的事实。\n不过既然已经穿越了，那我还不为所欲为？\n飞升成仙，傲视诸天，事业，爱情，爱情，爱情，爱情……\n灭哈哈哈哈哈哈哈……",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o22b7fc321b747a19455101690d1a8756~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=cc1uZ9KxxWWB2nm0m2s%2FQpZ8GLI%3D",
+              "raw_book_name": "我都穿越了还不为所欲为？",
+              "color_audio_dominate": "#3A3326"
+            }
+          ],
+          "search_attached_info": "15085624051070696820:40:0:367788060:clks####3@20260319101338FD50C24C294A8A65B676",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "16.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "传统玄幻",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：蚂蚁小小",
+                "rich_text": "作者：蚂蚁小小",
+                "high_light_position": []
+              },
+              {
+                "text": "【无系统、穿越、玄幻、第一人称】 我四十五度仰望天空，蓝天，白云，太阳高高挂，太阳，太阳！这太阳怎么是半圆形的？ 我不得不接受我穿越了的事实。 不过既然已经穿越了，那我还不为所欲为？ 飞升成仙，傲视诸天，事业，爱情，爱情，爱情，爱情…… 灭哈哈哈哈哈哈哈……",
+                "rich_text": "【<em>无</em>系统、穿越、玄幻、第一人称】\n我四十五度仰望天空，蓝天，白云，太阳高高挂，太阳，太阳！这太阳怎么是半圆形的？\n我不得不接受我穿越了的事实。\n不过既然已经穿越了，那我还不为所欲为？\n飞升成仙，傲视诸天，事业，爱情，爱情，爱情，爱情……\n灭哈哈哈哈哈哈哈……",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1041,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "6874915805104966669",
+          "search_result_id": "6874915805104966669",
+          "search_high_light": {
+            "abstract": {
+              "text": "【周穹，魔教教主，本座说了，你敢反驳，本座就算一手护着魔教，还是无敌于世间】重生魔教教主，获得反派无敌系统，从此以后开启了魔教无敌的状态。本座周穹，乃魔教教主，本座说的话不允许别人反驳，本座即使一手护着魔教，依然无敌于世间",
+              "rich_text": "重生魔教教主，获得反派<em>无</em>敌系统，从此以<em>后</em>开启了魔教<em>无</em>敌的状态。本座周穹，乃魔教教主，本座说的话不允许别人反驳，本座即使一手护着魔教，依然<em>无</em>敌于世间",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "弟子十万亿，我的魔教无敌了！",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "重生魔教教主，获得反派无敌系统，从此以后开启了魔教无敌的状态。本座周穹，乃魔教教主，本座说的话不允许别人反驳，本座即使一手护着魔教，依然无敌于世间",
+              "author": "无聊小白啊",
+              "book_id": "6874915805104966669",
+              "book_name": "弟子十万亿，我的魔教无敌了！",
+              "category": "玄幻脑洞",
+              "complete_category": "男生/玄幻/异世大陆",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2020-09-21T20:24:32+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "6874926064477405710",
+              "first_chapter_item_id": "6874926064477405710",
+              "first_chapter_title": "第1章，反派无敌系统",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7264790713379455488",
+              "last_chapter_item_id": "7264790713379455488",
+              "last_chapter_title": "番外 宇宙前行：见镇魔界篇",
+              "last_chapter_update_time": "1691475912",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "44792",
+              "recommend_group_id": "6874915805104966669",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101444946E132F020ACB5A736D\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "660",
+              "source": "番茄小说",
+              "tags": "玄幻脑洞,玄幻",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/fcaf4bb263807d1ee6a1f1ed82856441~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=S4LE8Z1fWnj4%2F%2BWRoO8YjGOYxOU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1347296",
+              "score": "9.3",
+              "exclusive": "1",
+              "role": "周穹,莲生,赵无极,白昊天",
+              "category_schema": "[{\"category_id\":257,\"name\":\"玄幻脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=257&name=玄幻脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":7,\"name\":\"玄幻\",\"schema\":\"dragon1967://newCategoryDetail?id=7&name=玄幻&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":369,\"name\":\"反派\",\"schema\":\"dragon1967://newCategoryDetail?id=369&name=反派&genre_type=0&gender=1&source=detail\"},{\"category_id\":384,\"name\":\"无敌\",\"schema\":\"dragon1967://newCategoryDetail?id=384&name=无敌&genre_type=0&gender=1&source=detail\"},{\"category_id\":452,\"name\":\"架空\",\"schema\":\"dragon1967://newCategoryDetail?id=452&name=架空&genre_type=0&gender=1&source=detail\"},{\"category_id\":511,\"name\":\"东方玄幻\",\"schema\":\"dragon1967://newCategoryDetail?id=511&name=东方玄幻&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"},{\"category_id\":850,\"name\":\"无脑爽\",\"schema\":\"dragon1967://newCategoryDetail?id=850&name=无脑爽&genre_type=0&gender=1&source=detail\"},{\"category_id\":852,\"name\":\"魂穿\",\"schema\":\"dragon1967://newCategoryDetail?id=852&name=魂穿&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7072202225518644231]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "8327",
+              "sub_info": "4.5万人在读",
+              "chapter_number": "659",
+              "last_publish_time": "1691475918",
+              "authorize_type": "1",
+              "media_id": "1663324156880910",
+              "original_book_name": "反派就应该无敌",
+              "length_type": "0",
+              "op_tag": "1403,245,164,535,1167,234,342,1165,1035,856,966,536,900,873",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-images/fcaf4bb263807d1ee6a1f1ed82856441",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-images/3b19a1abb240d625b556584d411cdfe7",
+              "data_rate": "",
+              "all_bookshelf_count": "4654",
+              "pure_category_tags": "玄幻脑洞,魂穿",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#101010",
+              "read_count_all": "7597846",
+              "shelf_cnt_history": "1230633",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"426946\":1736164503,\"1967\":1618391874,\"507427\":1744958094,\"507386\":1744958094,\"510893\":1689824331,\"8703\":1744958094,\"8661\":1681445582,\"3040\":1618391874,\"596084\":1715155461,\"8704\":1747728831,\"1112\":1693470511,\"638505\":1724901973}",
+              "category_v2_map": {
+                "369": true,
+                "511": true,
+                "850": true,
+                "852": true,
+                "37": true,
+                "384": true,
+                "7": true,
+                "452": true,
+                "257": true,
+                "522": true,
+                "19": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/fcaf4bb263807d1ee6a1f1ed82856441~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=S4LE8Z1fWnj4%2F%2BWRoO8YjGOYxOU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6914686252163798280,
+                  "AuthorName": "无聊小白啊"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "0",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-images/3b19a1abb240d625b556584d411cdfe7~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070484&x-signature=X%2Bk%2BqrpXh6GipzBSYvVJDf00SQM%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "重生魔教教主，获得反派无敌系统，从此以后开启了魔教无敌的状态。本座周穹，乃魔教教主，本座说的话不允许别人反驳，本座即使一手护着魔教，依然无敌于世间",
+              "read_page_progress": "0",
+              "read_cnt_text": "4.5万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/fcaf4bb263807d1ee6a1f1ed82856441~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=%2FCezeyrtl%2BEYaKUQRnQch2cc7XM%3D",
+              "raw_book_name": "弟子十万亿，我的魔教无敌了！",
+              "color_audio_dominate": "#201B17"
+            }
+          ],
+          "search_attached_info": "15085624051070696820:41:0:3082591947:clks####3@20260319101338FD50C24C294A8A65B676",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "59人二刷",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "134.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "玄幻脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：无聊小白啊",
+                "rich_text": "作者：<em>无</em>聊小白啊",
+                "high_light_position": [
+                  [
+                    3,
+                    1
+                  ]
+                ]
+              },
+              {
+                "text": "【周穹，魔教教主，本座说了，你敢反驳，本座就算一手护着魔教，还是无敌于世间】重生魔教教主，获得反派无敌系统，从此以后开启了魔教无敌的状态。本座周穹，乃魔教教主，本座说的话不允许别人反驳，本座即使一手护着魔教，依然无敌于世间",
+                "rich_text": "重生魔教教主，获得反派<em>无</em>敌系统，从此以<em>后</em>开启了魔教<em>无</em>敌的状态。本座周穹，乃魔教教主，本座说的话不允许别人反驳，本座即使一手护着魔教，依然<em>无</em>敌于世间",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1042,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7229687741053668387",
+          "search_result_id": "7229687741053668387",
+          "search_high_light": {
+            "abstract": {
+              "text": "（无敌+种田日常+诙谐+腹黑+无脑爽文）本书剧情进展较慢，不喜慎入。 　　方牧穿越天灵大陆，开局自带绝世天道系统！ 　　自动修炼！绝对无敌！无限灵石！灵宠系统！···每次都有让他耳目一新的系统功能！ 　　方牧：“那我还修个锤子炼？帅就完事了。” 　　宗门弟子：牧哥可真是个大善人，愿意把灵石散给我们！ 　　高冷师姐：方牧师弟不仅人帅，出手还大方... 　　藏经阁长老：方小友对武道功法的理解，几千年难得一见！ 　　方牧的每天不是在搞事，就是在搞事的路上。 　　神经大条的他，发生了许多惊奇搞笑的故事...",
+              "rich_text": "（<em>无</em>敌+种田日常+诙谐+腹黑+<em>无</em>脑爽文）本书剧情进展较慢，不喜慎入。\n　　方牧穿越天灵大陆，开局自带绝世天道系统！\n　　自动修炼！绝对<em>无</em>敌！<em>无</em>限灵石！灵宠系统！···每次都有让他耳目一新的系统功能！\n　　方牧：“那我还修个锤子炼？帅就完事了。”\n　　宗门弟子：牧哥可真是个大善人，愿意把灵石散给我们！\n　　高冷师姐：方牧师弟不仅人帅，出手还大方...\n　　藏经阁长老：方小友对武道功法的理解，几千年难得一见！\n　　方牧的每天不是在搞事，就是在搞事的路上。\n　　神经大条的他，发生了许多惊奇搞笑的故事...",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "让你无敌，你就到处搞事？",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "（无敌+种田日常+诙谐+腹黑+无脑爽文）本书剧情进展较慢，不喜慎入。\n　　方牧穿越天灵大陆，开局自带绝世天道系统！\n　　自动修炼！绝对无敌！无限灵石！灵宠系统！···每次都有让他耳目一新的系统功能！\n　　方牧：“那我还修个锤子炼？帅就完事了。”\n　　宗门弟子：牧哥可真是个大善人，愿意把灵石散给我们！\n　　高冷师姐：方牧师弟不仅人帅，出手还大方...\n　　藏经阁长老：方小友对武道功法的理解，几千年难得一见！\n　　方牧的每天不是在搞事，就是在搞事的路上。\n　　神经大条的他，发生了许多惊奇搞笑的故事...",
+              "author": "桂月君",
+              "book_id": "7229687741053668387",
+              "book_name": "让你无敌，你就到处搞事？",
+              "category": "玄幻脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-05-05T21:20:50+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7229687900248474152",
+              "first_chapter_item_id": "7229687900248474152",
+              "first_chapter_title": "第1章 百倍攻击加成！一击秒杀",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7249537885521576460",
+              "last_chapter_item_id": "7249537885521576460",
+              "last_chapter_title": "第122章 飞升灵源之地（大结局）",
+              "last_chapter_update_time": "1687914585",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "102",
+              "recommend_group_id": "7229687741053668387",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101444946E132F020ACB5A736D\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "122",
+              "source": "番茄小说",
+              "tags": "玄幻脑洞,玄幻",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa40ae184e2000bbf672adeacb4546d22~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=7A9BFt4rmXIFkFG4Jq6d1SKkJ88%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "250119",
+              "score": "0",
+              "exclusive": "1",
+              "role": "方牧",
+              "category_schema": "[{\"category_id\":257,\"name\":\"玄幻脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=257&name=玄幻脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":7,\"name\":\"玄幻\",\"schema\":\"dragon1967://newCategoryDetail?id=7&name=玄幻&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":92,\"name\":\"腹黑\",\"schema\":\"dragon1967://newCategoryDetail?id=92&name=腹黑&genre_type=0&gender=1&source=detail\"},{\"category_id\":384,\"name\":\"无敌\",\"schema\":\"dragon1967://newCategoryDetail?id=384&name=无敌&genre_type=0&gender=1&source=detail\"},{\"category_id\":452,\"name\":\"架空\",\"schema\":\"dragon1967://newCategoryDetail?id=452&name=架空&genre_type=0&gender=1&source=detail\"},{\"category_id\":453,\"name\":\"开局\",\"schema\":\"dragon1967://newCategoryDetail?id=453&name=开局&genre_type=0&gender=1&source=detail\"},{\"category_id\":511,\"name\":\"东方玄幻\",\"schema\":\"dragon1967://newCategoryDetail?id=511&name=东方玄幻&genre_type=0&gender=1&source=detail\"},{\"category_id\":778,\"name\":\"搞笑轻松\",\"schema\":\"dragon1967://newCategoryDetail?id=778&name=搞笑轻松&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "44",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1687914592",
+              "authorize_type": "1",
+              "media_id": "1742480370306063",
+              "original_book_name": "让你无敌，你就到处搞事？",
+              "length_type": "1",
+              "op_tag": "304,342,536,535,892,1167,1163",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2oa40ae184e2000bbf672adeacb4546d22",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa40ae184e2000bbf672adeacb4546d22~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070484&x-signature=l0hBayMuIAX8lgS0yGD7bq3VX6I%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "玄幻脑洞,搞笑轻松",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#d8e8f0",
+              "read_count_all": "22914",
+              "shelf_cnt_history": "2751",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2329\":1683293292,\"507386\":1744956336,\"35\":1683293292,\"1128\":1683293292,\"638505\":1724901580,\"13\":1683293292,\"1967\":1683293292,\"1112\":1693466626,\"8703\":1744956336,\"8704\":1747739304,\"6589\":1683711792,\"426946\":1736165594,\"2503\":1683293292,\"3040\":1692956491,\"510893\":1689734601,\"8661\":1692956491,\"8662\":1683293292,\"507427\":1744956336,\"596084\":1715144034}",
+              "category_v2_map": {
+                "452": true,
+                "37": true,
+                "511": true,
+                "778": true,
+                "257": true,
+                "7": true,
+                "19": true,
+                "92": true,
+                "384": true,
+                "453": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa40ae184e2000bbf672adeacb4546d22~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=7A9BFt4rmXIFkFG4Jq6d1SKkJ88%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7140968585811203368,
+                  "AuthorName": "桂月君"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa40ae184e2000bbf672adeacb4546d22~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070484&x-signature=aQT1lZIZNRbpUM0bqiNe16p253s%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "（无敌+种田日常+诙谐+腹黑+无脑爽文）本书剧情进展较慢，不喜慎入。\n　　方牧穿越天灵大陆，开局自带绝世天道系统！\n　　自动修炼！绝对无敌！无限灵石！灵宠系统！···每次都有让他耳目一新的系统功能！\n　　方牧：“那我还修个锤子炼？帅就完事了。”\n　　宗门弟子：牧哥可真是个大善人，愿意把灵石散给我们！\n　　高冷师姐：方牧师弟不仅人帅，出手还大方...\n　　藏经阁长老：方小友对武道功法的理解，几千年难得一见！\n　　方牧的每天不是在搞事，就是在搞事的路上。\n　　神经大条的他，发生了许多惊奇搞笑的故事...",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa40ae184e2000bbf672adeacb4546d22~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=JSCJKIq5PlfRTseJcV%2Fk1jRjto4%3D",
+              "raw_book_name": "让你无敌，你就到处搞事？",
+              "color_audio_dominate": "#D2E6E6"
+            }
+          ],
+          "search_attached_info": "15085624051070696820:42:0:660055793:clks####3@20260319101338FD50C24C294A8A65B676",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "25.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "102人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "玄幻脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：桂月君",
+                "rich_text": "作者：桂月君",
+                "high_light_position": []
+              },
+              {
+                "text": "（无敌+种田日常+诙谐+腹黑+无脑爽文）本书剧情进展较慢，不喜慎入。 　　方牧穿越天灵大陆，开局自带绝世天道系统！ 　　自动修炼！绝对无敌！无限灵石！灵宠系统！···每次都有让他耳目一新的系统功能！ 　　方牧：“那我还修个锤子炼？帅就完事了。” 　　宗门弟子：牧哥可真是个大善人，愿意把灵石散给我们！ 　　高冷师姐：方牧师弟不仅人帅，出手还大方... 　　藏经阁长老：方小友对武道功法的理解，几千年难得一见！ 　　方牧的每天不是在搞事，就是在搞事的路上。 　　神经大条的他，发生了许多惊奇搞笑的故事...",
+                "rich_text": "（<em>无</em>敌+种田日常+诙谐+腹黑+<em>无</em>脑爽文）本书剧情进展较慢，不喜慎入。\n　　方牧穿越天灵大陆，开局自带绝世天道系统！\n　　自动修炼！绝对<em>无</em>敌！<em>无</em>限灵石！灵宠系统！···每次都有让他耳目一新的系统功能！\n　　方牧：“那我还修个锤子炼？帅就完事了。”\n　　宗门弟子：牧哥可真是个大善人，愿意把灵石散给我们！\n　　高冷师姐：方牧师弟不仅人帅，出手还大方...\n　　藏经阁长老：方小友对武道功法的理解，几千年难得一见！\n　　方牧的每天不是在搞事，就是在搞事的路上。\n　　神经大条的他，发生了许多惊奇搞笑的故事...",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1043,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7403992020429048857",
+          "search_result_id": "7403992020429048857",
+          "search_high_light": {
+            "abstract": {
+              "text": "【搞笑+发癫之作+物以类聚+神金但不完全癫+还带点逻辑】 武者拳碎天空，深渊觊觎大地。 楚河穿越而来，行走在这片未知的世界上。 “哪里有好玩的，让我看看。” ——“喵~（重铸猫猫荣光，我要成为食神）” ——“义父再上，请受我一拜！” ——“我的爱人，你的爱，也让我心醉，我！” ——“一辈子是多久，这个家要是维持一辈子就好了！” 【相亲相爱一家人，留】",
+              "rich_text": "【搞笑+发癫之作+物以类聚+神金但不完全癫+还带点逻辑】\n武者拳碎天空，深渊觊觎大地。\n楚河穿越而来，行走在这片未知的世界上。\n“哪里有好玩的，让我看看。”\n——“喵~（重铸猫猫荣光，我要成为食神）”\n——“义父再上，请受我一拜！”\n——“我的爱人，你的爱，也让我心醉，我！”\n——“一辈子是多久，这个家要是维持一辈子就好了！”\n【相亲相爱一家人，留】",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "给世界带来一点乐子",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【搞笑+发癫之作+物以类聚+神金但不完全癫+还带点逻辑】\n武者拳碎天空，深渊觊觎大地。\n楚河穿越而来，行走在这片未知的世界上。\n“哪里有好玩的，让我看看。”\n——“喵~（重铸猫猫荣光，我要成为食神）”\n——“义父再上，请受我一拜！”\n——“我的爱人，你的爱，也让我心醉，我！”\n——“一辈子是多久，这个家要是维持一辈子就好了！”\n【相亲相爱一家人，留】",
+              "author": "疯狂奶自己",
+              "book_id": "7403992020429048857",
+              "book_name": "给世界带来一点乐子",
+              "category": "都市高武",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-08-17T14:30:27+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7403992058563674649",
+              "first_chapter_item_id": "7403992058563674649",
+              "first_chapter_title": "第1章 开端",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618246217729851929",
+              "last_chapter_item_id": "7618246217729851929",
+              "last_chapter_title": "第715章 未来",
+              "last_chapter_update_time": "1773763155",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "3512",
+              "recommend_group_id": "7403992020429048857",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101444946E132F020ACB5A736D\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "684",
+              "source": "番茄小说",
+              "tags": "都市高武,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1ff1e41b5712f44fcafb1ebf139bd121~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=lUG6JSicBjq%2BzbYEOlU9aiGlZuA%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1586523",
+              "score": "7.0",
+              "exclusive": "1",
+              "role": "楚河",
+              "category_schema": "[{\"category_id\":1014,\"name\":\"都市高武\",\"schema\":\"dragon1967://newCategoryDetail?id=1014&name=都市高武&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":44,\"name\":\"空间\",\"schema\":\"dragon1967://newCategoryDetail?id=44&name=空间&genre_type=0&gender=1&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=1&source=detail\"},{\"category_id\":778,\"name\":\"搞笑轻松\",\"schema\":\"dragon1967://newCategoryDetail?id=778&name=搞笑轻松&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "377",
+              "sub_info": "3512人在读",
+              "last_publish_time": "1773763184",
+              "authorize_type": "1",
+              "media_id": "1799380868157449",
+              "original_book_name": "给世界带来一点乐子",
+              "length_type": "0",
+              "op_tag": "535,536,1025,1126,1132",
+              "keep_publish_days": "1",
+              "thumb_uri": "novel-pic/p2o1ff1e41b5712f44fcafb1ebf139bd121",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1ff1e41b5712f44fcafb1ebf139bd121~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070484&x-signature=Z2xtVoeg8kSP748HLWN3JyiAQvA%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "345",
+              "pure_category_tags": "都市高武,搞笑轻松",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#382828",
+              "read_count_all": "56139",
+              "shelf_cnt_history": "8426",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1967\":1723876350,\"1128\":1723876350,\"596084\":1724555670,\"2329\":1723876350,\"3040\":1724555670,\"8662\":1723876350,\"8703\":1744953001,\"13\":1723876350,\"507386\":1741806560,\"2503\":1723876350,\"8661\":1724555670,\"510893\":1723876350,\"507427\":1741806560,\"35\":1723876350,\"6589\":1724555670,\"638505\":1724831830,\"8704\":1747145649}",
+              "category_v2_map": {
+                "516": true,
+                "1014": true,
+                "1": true,
+                "44": true,
+                "778": true,
+                "37": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1ff1e41b5712f44fcafb1ebf139bd121~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=lUG6JSicBjq%2BzbYEOlU9aiGlZuA%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7370265296659043646,
+                  "AuthorName": "疯狂奶自己"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1ff1e41b5712f44fcafb1ebf139bd121~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070484&x-signature=UJlA8eonhhT4aPYd3SDj7q%2FsWvg%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【搞笑+发癫之作+物以类聚+神金但不完全癫+还带点逻辑】\n武者拳碎天空，深渊觊觎大地。\n楚河穿越而来，行走在这片未知的世界上。\n“哪里有好玩的，让我看看。”\n——“喵~（重铸猫猫荣光，我要成为食神）”\n——“义父再上，请受我一拜！”\n——“我的爱人，你的爱，也让我心醉，我！”\n——“一辈子是多久，这个家要是维持一辈子就好了！”\n【相亲相爱一家人，留】",
+              "read_page_progress": "0",
+              "read_cnt_text": "3512人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1ff1e41b5712f44fcafb1ebf139bd121~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=ExdpYFvzfEyZNmAsi5eoaU5GyEE%3D",
+              "raw_book_name": "给世界带来一点乐子",
+              "color_audio_dominate": "#A18A7F"
+            }
+          ],
+          "search_attached_info": "15085624051070696820:43:0:48907907:clks####3@20260319101338FD50C24C294A8A65B676",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "158.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3512人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市高武",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：疯狂奶自己",
+                "rich_text": "作者：疯狂奶自己",
+                "high_light_position": []
+              },
+              {
+                "text": "【搞笑+发癫之作+物以类聚+神金但不完全癫+还带点逻辑】 武者拳碎天空，深渊觊觎大地。 楚河穿越而来，行走在这片未知的世界上。 “哪里有好玩的，让我看看。” ——“喵~（重铸猫猫荣光，我要成为食神）” ——“义父再上，请受我一拜！” ——“我的爱人，你的爱，也让我心醉，我！” ——“一辈子是多久，这个家要是维持一辈子就好了！” 【相亲相爱一家人，留】",
+                "rich_text": "【搞笑+发癫之作+物以类聚+神金但不完全癫+还带点逻辑】\n武者拳碎天空，深渊觊觎大地。\n楚河穿越而来，行走在这片未知的世界上。\n“哪里有好玩的，让我看看。”\n——“喵~（重铸猫猫荣光，我要成为食神）”\n——“义父再上，请受我一拜！”\n——“我的爱人，你的爱，也让我心醉，我！”\n——“一辈子是多久，这个家要是维持一辈子就好了！”\n【相亲相爱一家人，留】",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1044,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7056787327951047687",
+          "search_result_id": "7056787327951047687",
+          "search_high_light": {
+            "title": {
+              "text": "鄙人独善作死",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "【穿越异界，获得仇恨吸收系统，必须吸收仇恨才能增长战斗力】穿越异界，获得仇恨吸收系统，必须吸收仇恨才能增长战斗力。 那就对不住了诸位。 这边的老妹！吃饭没有呐？没吃的话吃我一拳！",
+              "rich_text": "穿越异界，获得仇恨吸收系统，必须吸收仇恨才能增长战斗力。\n那就对不住了诸位。\n这边的老妹！吃饭没有呐？没吃的话吃我一拳！",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "穿越异界，获得仇恨吸收系统，必须吸收仇恨才能增长战斗力。\n那就对不住了诸位。\n这边的老妹！吃饭没有呐？没吃的话吃我一拳！",
+              "author": "苟得青山在",
+              "book_id": "7056787327951047687",
+              "book_name": "鄙人独善作死",
+              "category": "都市高武",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2022-01-24T22:58:55+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7056977050602734119",
+              "first_chapter_item_id": "7056977050602734119",
+              "first_chapter_title": "第1章 举目四望皆是仇敌",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7221063074361704994",
+              "last_chapter_item_id": "7221063074361704994",
+              "last_chapter_title": "第一千零九十章:大角牛传说",
+              "last_chapter_update_time": "1681286689",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "45754",
+              "recommend_group_id": "7056787327951047687",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101444946E132F020ACB5A736D\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "1092",
+              "source": "番茄小说",
+              "tags": "都市高武,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/31edbd3609bf414be6756c367d581ede~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=tLwRbe48nfS%2FL%2BBS3xNYRv90tnU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "2455519",
+              "score": "9.3",
+              "exclusive": "1",
+              "role": "秦宇",
+              "category_schema": "[{\"category_id\":1014,\"name\":\"都市高武\",\"schema\":\"dragon1967://newCategoryDetail?id=1014&name=都市高武&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=1&source=detail\"},{\"category_id\":830,\"name\":\"升级流\",\"schema\":\"dragon1967://newCategoryDetail?id=830&name=升级流&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7316838708869712958]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "11127",
+              "sub_info": "4.6万人在读",
+              "last_publish_time": "1681347756",
+              "authorize_type": "1",
+              "media_id": "1722343650812928",
+              "original_book_name": "鄙人独善作死",
+              "length_type": "0",
+              "op_tag": "183,190,1132,1403,990,536,245,853,966,873,1026,1024,535,502,234,184,1129,346",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/31edbd3609bf414be6756c367d581ede",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/c1eab25fbd92390616c4744ff6a650d4",
+              "data_rate": "",
+              "all_bookshelf_count": "6716",
+              "pure_category_tags": "都市高武,升级流",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#383030",
+              "read_count_all": "4608625",
+              "shelf_cnt_history": "924874",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8703\":1744956527,\"8661\":1681445533,\"1967\":1643036454,\"510893\":1689690886,\"638505\":1724850762,\"6589\":1664508000,\"1112\":1693469727,\"8704\":1747726916,\"596084\":1715072260,\"507386\":1744956527,\"507427\":1744956527,\"426946\":1736164382,\"3040\":1645186168}",
+              "category_v2_map": {
+                "37": true,
+                "516": true,
+                "830": true,
+                "1014": true,
+                "1": true,
+                "19": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/31edbd3609bf414be6756c367d581ede~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=tLwRbe48nfS%2FL%2BBS3xNYRv90tnU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7056588047655113991,
+                  "AuthorName": "苟得青山在"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/c1eab25fbd92390616c4744ff6a650d4~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070484&x-signature=IgQa%2BpqaWbP%2FepI0Nbkf9Qe4Hcw%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "穿越异界，获得仇恨吸收系统，必须吸收仇恨才能增长战斗力。\n那就对不住了诸位。\n这边的老妹！吃饭没有呐？没吃的话吃我一拳！",
+              "read_page_progress": "0",
+              "read_cnt_text": "4.6万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/31edbd3609bf414be6756c367d581ede~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=iW1kj5VYnOJNVM1HIq5WeitMbxM%3D",
+              "raw_book_name": "鄙人独善作死",
+              "related_bookids": "{\"8662\":{\"205\":[7464112756518554686,7603216471468018712]},\"3040\":{\"205\":[7464112756518554686,7603216471468018712]},\"1967\":{\"205\":[7464112756518554686,7603216471468018712]},\"507386\":{\"205\":[7464112756518554686,7603216471468018712]},\"507427\":{\"205\":[7464112756518554686,7603216471468018712]}}",
+              "color_audio_dominate": "#29201A"
+            }
+          ],
+          "search_attached_info": "15085624051070696820:44:0:1974380963:clks####3@20260319101338FD50C24C294A8A65B676",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "39人二刷",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "245.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市高武",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：苟得青山在",
+                "rich_text": "作者：苟得青山在",
+                "high_light_position": []
+              },
+              {
+                "text": "【穿越异界，获得仇恨吸收系统，必须吸收仇恨才能增长战斗力】穿越异界，获得仇恨吸收系统，必须吸收仇恨才能增长战斗力。 那就对不住了诸位。 这边的老妹！吃饭没有呐？没吃的话吃我一拳！",
+                "rich_text": "穿越异界，获得仇恨吸收系统，必须吸收仇恨才能增长战斗力。\n那就对不住了诸位。\n这边的老妹！吃饭没有呐？没吃的话吃我一拳！",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1045,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7505353675041164313",
+          "search_result_id": "7505353675041164313",
+          "search_high_light": {
+            "title": {
+              "text": "身为主角，要我躲女人后面？",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "【玄幻+多女主+情节不无脑！不无脑！】 什么？！！！天赋怪，金手指，穿越怪，重生老贼，遍地都是？？？ “身为堂堂大主角，作者你搞我？？？”૮ ˙Ⱉ˙  “世人笑我蝼蚁，却不知我掌中握的，是弑神之力！” 当孤傲证道走上巅峰之路正轨之时，蔑视于这苍天之下~ 抬头却发现仅处天宫一角。 怕吗？这么多年横着走，靠的可不是身边有几个实力超强的女人，而是脸皮。 “不过话又说回来，苟在后面就是舒服。” 师姐~  小师妹~  小徒弟~ 师尊~  魔女~  小护卫~……",
+              "rich_text": "【玄幻+多女主+情节不<em>无</em>脑！不<em>无</em>脑！】\n什么？！！！天赋怪，金手指，穿越怪，重生老贼，遍地都是？？？\n“身为堂堂大主角，作者你搞我？？？”૮ ˙Ⱉ˙ \n“世人笑我蝼蚁，却不知我掌中握的，是弑神之力！”\n当孤傲证道走上巅峰之路正轨之时，蔑视于这苍天之下~\n抬头却发现仅处天<em>宫</em>一角。\n怕吗？这么多年横着走，靠的可不是身边有几个实力超强的女人，而是脸皮。\n“不过话又说回来，苟在<em>后</em>面就是舒服。”\n师姐~  小师妹~  小徒弟~ 师尊~  魔女~  小护卫~……",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【玄幻+多女主+情节不无脑！不无脑！】\n什么？！！！天赋怪，金手指，穿越怪，重生老贼，遍地都是？？？\n“身为堂堂大主角，作者你搞我？？？”૮ ˙Ⱉ˙ \n“世人笑我蝼蚁，却不知我掌中握的，是弑神之力！”\n当孤傲证道走上巅峰之路正轨之时，蔑视于这苍天之下~\n抬头却发现仅处天宫一角。\n怕吗？这么多年横着走，靠的可不是身边有几个实力超强的女人，而是脸皮。\n“不过话又说回来，苟在后面就是舒服。”\n师姐~  小师妹~  小徒弟~ 师尊~  魔女~  小护卫~……",
+              "author": "纯情黑泥鳅",
+              "book_id": "7505353675041164313",
+              "book_name": "身为主角，要我躲女人后面？",
+              "category": "传统玄幻",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-05-17T18:05:27+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7505353681106108953",
+              "first_chapter_item_id": "7505353681106108953",
+              "first_chapter_title": "第1章 沐之兮，泽之兮",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7536614906955563545",
+              "last_chapter_item_id": "7536614906955563545",
+              "last_chapter_title": "第93章 终章之战！（完）",
+              "last_chapter_update_time": "1755142761",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "0",
+              "recommend_group_id": "7505353675041164313",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101444946E132F020ACB5A736D\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "93",
+              "source": "番茄小说",
+              "tags": "传统玄幻,玄幻",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa6ffdedaa4ba2ad8910990d44870ada6~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=2m0qHZ0z%2FuouvpM7mhmeANzV548%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "211087",
+              "score": "0",
+              "exclusive": "1",
+              "role": "沐泽",
+              "category_schema": "[{\"category_id\":258,\"name\":\"传统玄幻\",\"schema\":\"dragon1967://newCategoryDetail?id=258&name=传统玄幻&genre_type=0&gender=1&source=detail\"},{\"category_id\":7,\"name\":\"玄幻\",\"schema\":\"dragon1967://newCategoryDetail?id=7&name=玄幻&genre_type=0&gender=1&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":452,\"name\":\"架空\",\"schema\":\"dragon1967://newCategoryDetail?id=452&name=架空&genre_type=0&gender=1&source=detail\"},{\"category_id\":511,\"name\":\"东方玄幻\",\"schema\":\"dragon1967://newCategoryDetail?id=511&name=东方玄幻&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1755142770",
+              "authorize_type": "1",
+              "media_id": "1755001880653839",
+              "original_book_name": "身为主角，要我躲女人后面？",
+              "length_type": "1",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2oa6ffdedaa4ba2ad8910990d44870ada6",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa6ffdedaa4ba2ad8910990d44870ada6~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070484&x-signature=ClU4CWTfVigFHCSmwksPoRRS5oQ%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "传统玄幻,东方玄幻",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#082838",
+              "read_count_all": "1034",
+              "shelf_cnt_history": "1022",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"3040\":1749551783,\"638505\":1749551783,\"2503\":1748152565,\"1967\":1748152565,\"510893\":1748152565,\"507427\":1748152624,\"8703\":1748152565,\"8662\":1748152565,\"13\":1748152565,\"2329\":1748152565,\"35\":1748152565,\"6589\":1749551783,\"596084\":1749551783,\"8704\":1748152565,\"1128\":1748152565,\"507386\":1748152624,\"8661\":1749551783}",
+              "category_v2_map": {
+                "511": true,
+                "7": true,
+                "91": true,
+                "258": true,
+                "452": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa6ffdedaa4ba2ad8910990d44870ada6~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=2m0qHZ0z%2FuouvpM7mhmeANzV548%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7505287126997554494,
+                  "AuthorName": "纯情黑泥鳅"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa6ffdedaa4ba2ad8910990d44870ada6~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070484&x-signature=Ux3FzFexTSMvwUEw5UFC8VP58UM%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【玄幻+多女主+情节不无脑！不无脑！】\n什么？！！！天赋怪，金手指，穿越怪，重生老贼，遍地都是？？？\n“身为堂堂大主角，作者你搞我？？？”૮ ˙Ⱉ˙ \n“世人笑我蝼蚁，却不知我掌中握的，是弑神之力！”\n当孤傲证道走上巅峰之路正轨之时，蔑视于这苍天之下~\n抬头却发现仅处天宫一角。\n怕吗？这么多年横着走，靠的可不是身边有几个实力超强的女人，而是脸皮。\n“不过话又说回来，苟在后面就是舒服。”\n师姐~  小师妹~  小徒弟~ 师尊~  魔女~  小护卫~……",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oa6ffdedaa4ba2ad8910990d44870ada6~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=xDx%2FSYL95%2FqhOUdRVm8JzFlXnkg%3D",
+              "raw_book_name": "身为主角，要我躲女人后面？",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "15085624051070696820:45:0:1748547486:clks####3@20260319101338FD50C24C294A8A65B676",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "21.1万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "传统玄幻",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：纯情黑泥鳅",
+                "rich_text": "作者：纯情黑泥鳅",
+                "high_light_position": []
+              },
+              {
+                "text": "【玄幻+多女主+情节不无脑！不无脑！】 什么？！！！天赋怪，金手指，穿越怪，重生老贼，遍地都是？？？ “身为堂堂大主角，作者你搞我？？？”૮ ˙Ⱉ˙  “世人笑我蝼蚁，却不知我掌中握的，是弑神之力！” 当孤傲证道走上巅峰之路正轨之时，蔑视于这苍天之下~ 抬头却发现仅处天宫一角。 怕吗？这么多年横着走，靠的可不是身边有几个实力超强的女人，而是脸皮。 “不过话又说回来，苟在后面就是舒服。” 师姐~  小师妹~  小徒弟~ 师尊~  魔女~  小护卫~……",
+                "rich_text": "【玄幻+多女主+情节不<em>无</em>脑！不<em>无</em>脑！】\n什么？！！！天赋怪，金手指，穿越怪，重生老贼，遍地都是？？？\n“身为堂堂大主角，作者你搞我？？？”૮ ˙Ⱉ˙ \n“世人笑我蝼蚁，却不知我掌中握的，是弑神之力！”\n当孤傲证道走上巅峰之路正轨之时，蔑视于这苍天之下~\n抬头却发现仅处天<em>宫</em>一角。\n怕吗？这么多年横着走，靠的可不是身边有几个实力超强的女人，而是脸皮。\n“不过话又说回来，苟在<em>后</em>面就是舒服。”\n师姐~  小师妹~  小徒弟~ 师尊~  魔女~  小护卫~……",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1046,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7113393685693205543",
+          "search_result_id": "7113393685693205543",
+          "search_high_light": {
+            "abstract": {
+              "text": "升级流，多世界穿梭，有系统但系统存在感不强。 主要内容为主角在不同世界所经历的不同事情，与不同世界的人相识相知。",
+              "rich_text": "升级流，多世界穿梭，有系统但系统存在感不强。\n主要内容为主角在不同世界所经历的不同事情，与不同世界的人相识相知。",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "不是唯一的天选",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "升级流，多世界穿梭，有系统但系统存在感不强。\n主要内容为主角在不同世界所经历的不同事情，与不同世界的人相识相知。",
+              "author": "猪肉包",
+              "book_id": "7113393685693205543",
+              "book_name": "不是唯一的天选",
+              "category": "玄幻脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2022-06-26T12:00:30+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7113401438146920992",
+              "first_chapter_item_id": "7113401438146920992",
+              "first_chapter_title": "第一章 穿越",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7615670812791538200",
+              "last_chapter_item_id": "7615670812791538200",
+              "last_chapter_title": "第一百四十八章 坠落之星",
+              "last_chapter_update_time": "1773825915",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "11",
+              "recommend_group_id": "7113393685693205543",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101444946E132F020ACB5A736D\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "148",
+              "source": "番茄小说",
+              "tags": "玄幻脑洞,玄幻",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b0459f85461b8ce3e547e82f269acc80~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=dYc8bolfpCR30eIz9lUxaNnW3rs%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "313780",
+              "score": "0",
+              "exclusive": "1",
+              "role": "白无",
+              "category_schema": "[{\"category_id\":257,\"name\":\"玄幻脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=257&name=玄幻脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":7,\"name\":\"玄幻\",\"schema\":\"dragon1967://newCategoryDetail?id=7&name=玄幻&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":830,\"name\":\"升级流\",\"schema\":\"dragon1967://newCategoryDetail?id=830&name=升级流&genre_type=0&gender=1&source=detail\"},{\"category_id\":868,\"name\":\"剑修\",\"schema\":\"dragon1967://newCategoryDetail?id=868&name=剑修&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773825928",
+              "authorize_type": "1",
+              "media_id": "1736665203354627",
+              "original_book_name": "不是唯一的天选",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "1",
+              "thumb_uri": "novel-pic/b0459f85461b8ce3e547e82f269acc80",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b0459f85461b8ce3e547e82f269acc80~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070484&x-signature=w34eE1%2BzAz%2FPaUflaKMYEPvHUkk%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "玄幻脑洞,剑修",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e8e8e8",
+              "read_count_all": "28",
+              "shelf_cnt_history": "1018",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507386\":1744441972,\"507427\":1744441972,\"638505\":1756637676,\"596084\":1756637676,\"3040\":1756637676,\"8703\":1745439215,\"510893\":1689868655,\"8704\":1747772418,\"8661\":1756637676,\"6589\":1756637676,\"1967\":1656217073,\"8662\":1689868655}",
+              "category_v2_map": {
+                "37": true,
+                "257": true,
+                "830": true,
+                "868": true,
+                "7": true,
+                "19": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b0459f85461b8ce3e547e82f269acc80~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=dYc8bolfpCR30eIz9lUxaNnW3rs%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7113393686297187595,
+                  "AuthorName": "猪肉包"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b0459f85461b8ce3e547e82f269acc80~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070484&x-signature=RdPMkJv3ZJy5QJZ3pJs9OsHvdWk%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "升级流，多世界穿梭，有系统但系统存在感不强。\n主要内容为主角在不同世界所经历的不同事情，与不同世界的人相识相知。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b0459f85461b8ce3e547e82f269acc80~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=9otaPlXt%2B%2BzqhqfXG%2FdZ%2B1ZwOQU%3D",
+              "raw_book_name": "不是唯一的天选",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "15085624051070696820:46:0:107064298:clks####3@20260319101338FD50C24C294A8A65B676",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "31.4万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "11人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "玄幻脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：猪肉包",
+                "rich_text": "作者：猪肉包",
+                "high_light_position": []
+              },
+              {
+                "text": "升级流，多世界穿梭，有系统但系统存在感不强。 主要内容为主角在不同世界所经历的不同事情，与不同世界的人相识相知。",
+                "rich_text": "升级流，多世界穿梭，有系统但系统存在感不强。\n主要内容为主角在不同世界所经历的不同事情，与不同世界的人相识相知。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1047,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7229209420364778554",
+          "search_result_id": "7229209420364778554",
+          "search_high_light": {
+            "title": {
+              "text": "不断苟苟苟的我，无敌很正常吧",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "【三年的隐忍，到底是为了什么？】【无cp+无敌+苟】唐诗穿越异世修仙界，根骨不佳，卷也卷不赢，摆也摆不烂，累了毁灭吧，运气好的话明天就亖了捏。 “叮~绑定养老系统，每多活一天，系统返给宿主一定修为。” 唐诗:“我突然觉得我还能再苟活亿天！” —— 落柳峰时隔多年，迎来了第二位真传弟子，小弟子眨巴着眼看着眼前的师姐。 师姐人美，就是行为举止太奇怪了。 “怎么了少年？你也到了怀疑自己不是主角的时候吗，放轻松点，大道就在脚下，若一去不回，那便……不去了，修仙不就修的个长生嘛，一去不回还去个球，修个仙把命修没了，划不来，根本划不来。” “天大地大，小命最大，凡事没有九成八的把握，这和送死有什么区别？” “三年前我神功未成，我一直隐忍了三年，这三年来他们一直把我当做废物，如今三年之期已到……我居然还是个废物。师弟，生而为人，我很抱歉，所以我决定，这次大比你代表本峰去参加。” 还是奶团子的小师弟宋辞:“……” 这个师姐明明超强却过分的苟。",
+              "rich_text": "【<em>无</em>cp+<em>无</em>敌+苟】唐诗穿越异世修仙界，根骨不佳，卷也卷不赢，摆也摆不烂，累了毁灭吧，运气好的话明天就亖了捏。\n“叮~绑定养老系统，每多活一天，系统返给宿主一定修为。”\n唐诗:“我突然觉得我还能再苟活亿天！”\n——\n落柳峰时隔多年，迎来了第二位真传弟子，小弟子眨巴着眼看着眼前的师姐。\n师姐人美，就是行为举止太奇怪了。\n“怎么了少年？你也到了怀疑自己不是主角的时候吗，放轻松点，大道就在脚下，若一去不回，那便……不去了，修仙不就修的个长生嘛，一去不回还去个球，修个仙把命修没了，划不来，根本划不来。”\n“天大地大，小命最大，凡事没有九成八的把握，这和送死有什么区别？”\n“三年前我神功未成，我一直隐忍了三年，这三年来他们一直把我当做废物，如今三年之期已到……我居然还是个废物。师弟，生而为人，我很抱歉，所以我决定，这次大比你代表本峰去参加。”\n还是奶团子的小师弟宋辞:“……”\n这个师姐明明超强却过分的苟。",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【无cp+无敌+苟】唐诗穿越异世修仙界，根骨不佳，卷也卷不赢，摆也摆不烂，累了毁灭吧，运气好的话明天就亖了捏。\n“叮~绑定养老系统，每多活一天，系统返给宿主一定修为。”\n唐诗:“我突然觉得我还能再苟活亿天！”\n——\n落柳峰时隔多年，迎来了第二位真传弟子，小弟子眨巴着眼看着眼前的师姐。\n师姐人美，就是行为举止太奇怪了。\n“怎么了少年？你也到了怀疑自己不是主角的时候吗，放轻松点，大道就在脚下，若一去不回，那便……不去了，修仙不就修的个长生嘛，一去不回还去个球，修个仙把命修没了，划不来，根本划不来。”\n“天大地大，小命最大，凡事没有九成八的把握，这和送死有什么区别？”\n“三年前我神功未成，我一直隐忍了三年，这三年来他们一直把我当做废物，如今三年之期已到……我居然还是个废物。师弟，生而为人，我很抱歉，所以我决定，这次大比你代表本峰去参加。”\n还是奶团子的小师弟宋辞:“……”\n这个师姐明明超强却过分的苟。",
+              "author": "烈焰城的祗园",
+              "book_id": "7229209420364778554",
+              "book_name": "不断苟苟苟的我，无敌很正常吧",
+              "category": "玄幻言情",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-05-04T14:24:42+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7229962122137076263",
+              "first_chapter_item_id": "7229962122137076263",
+              "first_chapter_title": "第1章 开启洪荒模式苟字诀",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7354768077768114713",
+              "last_chapter_item_id": "7354768077768114713",
+              "last_chapter_title": "第514章 尾",
+              "last_chapter_update_time": "1712415550",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "16636",
+              "recommend_group_id": "7229209420364778554",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101444946E132F020ACB5A736D\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "514",
+              "source": "番茄小说",
+              "tags": "玄幻言情,古代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/836716ace743a69879d9d9cb3ffd23a9~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=WDD1E1zFEAZzWWCK1Kl7lpHhkT4%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1066414",
+              "score": "8.2",
+              "exclusive": "1",
+              "role": "唐诗",
+              "category_schema": "[{\"category_id\":248,\"name\":\"玄幻言情\",\"schema\":\"dragon1967://newCategoryDetail?id=248&name=玄幻言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":5,\"name\":\"古代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=5&name=古代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=0&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=0&source=detail\"},{\"category_id\":384,\"name\":\"无敌\",\"schema\":\"dragon1967://newCategoryDetail?id=384&name=无敌&genre_type=0&gender=0&source=detail\"},{\"category_id\":392,\"name\":\"无CP\",\"schema\":\"dragon1967://newCategoryDetail?id=392&name=无CP&genre_type=0&gender=0&source=detail\"},{\"category_id\":463,\"name\":\"今穿古\",\"schema\":\"dragon1967://newCategoryDetail?id=463&name=今穿古&genre_type=0&gender=0&source=detail\"},{\"category_id\":464,\"name\":\"异世穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=464&name=异世穿越&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "3594",
+              "sub_info": "1.7万人在读",
+              "last_publish_time": "1712415559",
+              "authorize_type": "1",
+              "media_id": "1725433199539208",
+              "original_book_name": "师姐别苟了，你都已经无敌了",
+              "length_type": "0",
+              "op_tag": "536,873,867,245,1046,535,854,307,1153,1148,1403,304,442,1042",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/836716ace743a69879d9d9cb3ffd23a9",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/b0154711ccc1d464c4957f206a396153",
+              "data_rate": "",
+              "all_bookshelf_count": "2195",
+              "pure_category_tags": "玄幻言情,异世穿越",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#602018",
+              "read_count_all": "1833749",
+              "shelf_cnt_history": "369628",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"6589\":1683634137,\"8661\":1692675890,\"1967\":1683181489,\"8662\":1683181489,\"35\":1683181489,\"638505\":1724916082,\"13\":1683181489,\"507386\":1742961779,\"3040\":1692675890,\"8703\":1744964454,\"507427\":1742961779,\"426946\":1736165171,\"8704\":1747730784,\"1112\":1693470445,\"596084\":1714098017,\"510893\":1689660708,\"2329\":1683181489,\"2503\":1683181489,\"1128\":1683181489}",
+              "category_v2_map": {
+                "384": true,
+                "392": true,
+                "463": true,
+                "464": true,
+                "248": true,
+                "37": true,
+                "5": true,
+                "19": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/836716ace743a69879d9d9cb3ffd23a9~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=WDD1E1zFEAZzWWCK1Kl7lpHhkT4%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7067381651923277091,
+                  "AuthorName": "烈焰城的祗园"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p9-reading-sign.fqnovelpic.com/novel-static/b0154711ccc1d464c4957f206a396153~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070484&x-signature=C1z2hh%2FB36ZFNbV0fPgRtfmqrFw%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【无cp+无敌+苟】唐诗穿越异世修仙界，根骨不佳，卷也卷不赢，摆也摆不烂，累了毁灭吧，运气好的话明天就亖了捏。\n“叮~绑定养老系统，每多活一天，系统返给宿主一定修为。”\n唐诗:“我突然觉得我还能再苟活亿天！”\n——\n落柳峰时隔多年，迎来了第二位真传弟子，小弟子眨巴着眼看着眼前的师姐。\n师姐人美，就是行为举止太奇怪了。\n“怎么了少年？你也到了怀疑自己不是主角的时候吗，放轻松点，大道就在脚下，若一去不回，那便……不去了，修仙不就修的个长生嘛，一去不回还去个球，修个仙把命修没了，划不来，根本划不来。”\n“天大地大，小命最大，凡事没有九成八的把握，这和送死有什么区别？”\n“三年前我神功未成，我一直隐忍了三年，这三年来他们一直把我当做废物，如今三年之期已到……我居然还是个废物。师弟，生而为人，我很抱歉，所以我决定，这次大比你代表本峰去参加。”\n还是奶团子的小师弟宋辞:“……”\n这个师姐明明超强却过分的苟。",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.7万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/836716ace743a69879d9d9cb3ffd23a9~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=COBUCGfDXOqovis%2BjWIt3FKqTe0%3D",
+              "raw_book_name": "不断苟苟苟的我，无敌很正常吧",
+              "related_bookids": "{\"1967\":{\"205\":[7591718536439942168]},\"507386\":{\"205\":[7585013037640191001]},\"507427\":{\"205\":[7585013037640191001]},\"8662\":{\"205\":[7585013037640191001]},\"3040\":{\"205\":[7585013037640191001]}}",
+              "color_audio_dominate": "#DAE2D8"
+            }
+          ],
+          "search_attached_info": "15085624051070696820:47:0:3756892103:clks####3@20260319101338FD50C24C294A8A65B676",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "多人二刷",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "106.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "玄幻言情",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：烈焰城的祗园",
+                "rich_text": "作者：烈焰城的祗园",
+                "high_light_position": []
+              },
+              {
+                "text": "【三年的隐忍，到底是为了什么？】【无cp+无敌+苟】唐诗穿越异世修仙界，根骨不佳，卷也卷不赢，摆也摆不烂，累了毁灭吧，运气好的话明天就亖了捏。 “叮~绑定养老系统，每多活一天，系统返给宿主一定修为。” 唐诗:“我突然觉得我还能再苟活亿天！” —— 落柳峰时隔多年，迎来了第二位真传弟子，小弟子眨巴着眼看着眼前的师姐。 师姐人美，就是行为举止太奇怪了。 “怎么了少年？你也到了怀疑自己不是主角的时候吗，放轻松点，大道就在脚下，若一去不回，那便……不去了，修仙不就修的个长生嘛，一去不回还去个球，修个仙把命修没了，划不来，根本划不来。” “天大地大，小命最大，凡事没有九成八的把握，这和送死有什么区别？” “三年前我神功未成，我一直隐忍了三年，这三年来他们一直把我当做废物，如今三年之期已到……我居然还是个废物。师弟，生而为人，我很抱歉，所以我决定，这次大比你代表本峰去参加。” 还是奶团子的小师弟宋辞:“……” 这个师姐明明超强却过分的苟。",
+                "rich_text": "【<em>无</em>cp+<em>无</em>敌+苟】唐诗穿越异世修仙界，根骨不佳，卷也卷不赢，摆也摆不烂，累了毁灭吧，运气好的话明天就亖了捏。\n“叮~绑定养老系统，每多活一天，系统返给宿主一定修为。”\n唐诗:“我突然觉得我还能再苟活亿天！”\n——\n落柳峰时隔多年，迎来了第二位真传弟子，小弟子眨巴着眼看着眼前的师姐。\n师姐人美，就是行为举止太奇怪了。\n“怎么了少年？你也到了怀疑自己不是主角的时候吗，放轻松点，大道就在脚下，若一去不回，那便……不去了，修仙不就修的个长生嘛，一去不回还去个球，修个仙把命修没了，划不来，根本划不来。”\n“天大地大，小命最大，凡事没有九成八的把握，这和送死有什么区别？”\n“三年前我神功未成，我一直隐忍了三年，这三年来他们一直把我当做废物，如今三年之期已到……我居然还是个废物。师弟，生而为人，我很抱歉，所以我决定，这次大比你代表本峰去参加。”\n还是奶团子的小师弟宋辞:“……”\n这个师姐明明超强却过分的苟。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1048,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7363226519612705854",
+          "search_result_id": "7363226519612705854",
+          "search_high_light": {
+            "abstract": {
+              "text": "（玄幻）+（无女主）+（无系统）+（杀伐果断）+（无金手指）+（伪群像）+（无敌） 武道争霸，天才辈出，你们只是天才，而我黄长生，便是天才中的天才，天下倾覆，那我便扶天下之将倾，妖魔肆虐，那我便斩妖除魔，不要迷恋哥，哥只是个传说。 我独我，世间第一等，此方最上乘。 就是为了这点醋，我才包的这顿饺子。",
+              "rich_text": "（玄幻）+（<em>无</em>女主）+（<em>无</em>系统）+（杀伐果断）+（<em>无</em>金手指）+（伪群像）+（<em>无</em>敌）\n武道争霸，天才辈出，你们只是天才，而我黄长生，便是天才中的天才，天下倾覆，那我便扶天下之将倾，妖魔肆虐，那我便斩妖除魔，不要迷恋哥，哥只是个传说。\n我独我，世间第一等，此方最上乘。\n就是为了这点醋，我才包的这顿饺子。",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "此方最上乘",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "（玄幻）+（无女主）+（无系统）+（杀伐果断）+（无金手指）+（伪群像）+（无敌）\n武道争霸，天才辈出，你们只是天才，而我黄长生，便是天才中的天才，天下倾覆，那我便扶天下之将倾，妖魔肆虐，那我便斩妖除魔，不要迷恋哥，哥只是个传说。\n我独我，世间第一等，此方最上乘。\n就是为了这点醋，我才包的这顿饺子。",
+              "author": "问境",
+              "book_id": "7363226519612705854",
+              "book_name": "此方最上乘",
+              "category": "东方仙侠",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-04-29T17:59:29+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7363226997759164990",
+              "first_chapter_item_id": "7363226997759164990",
+              "first_chapter_title": "第1章 序章",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7507177704240726552",
+              "last_chapter_item_id": "7507177704240726552",
+              "last_chapter_title": "第86章 大结局",
+              "last_chapter_update_time": "1747902580",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "6",
+              "recommend_group_id": "7363226519612705854",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101444946E132F020ACB5A736D\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "86",
+              "source": "番茄小说",
+              "tags": "东方仙侠,玄幻",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o205aa2cfcaa514a79184c96eea19b1f3~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=XyhM4Rrk2n7cZsH%2FnSYuDZRJL5g%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "183763",
+              "score": "0",
+              "exclusive": "1",
+              "role": "黄长生",
+              "category_schema": "[{\"category_id\":1140,\"name\":\"东方仙侠\",\"schema\":\"dragon1967://newCategoryDetail?id=1140&name=东方仙侠&genre_type=0&gender=1&source=detail\"},{\"category_id\":7,\"name\":\"玄幻\",\"schema\":\"dragon1967://newCategoryDetail?id=7&name=玄幻&genre_type=0&gender=1&source=detail\"},{\"category_id\":259,\"name\":\"奇幻仙侠\",\"schema\":\"dragon1967://newCategoryDetail?id=259&name=奇幻仙侠&genre_type=0&gender=1&source=detail\"},{\"category_id\":9,\"name\":\"仙侠\",\"schema\":\"dragon1967://newCategoryDetail?id=9&name=仙侠&genre_type=0&gender=1&source=detail\"},{\"category_id\":391,\"name\":\"无女主\",\"schema\":\"dragon1967://newCategoryDetail?id=391&name=无女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":452,\"name\":\"架空\",\"schema\":\"dragon1967://newCategoryDetail?id=452&name=架空&genre_type=0&gender=1&source=detail\"},{\"category_id\":511,\"name\":\"东方玄幻\",\"schema\":\"dragon1967://newCategoryDetail?id=511&name=东方玄幻&genre_type=0&gender=1&source=detail\"},{\"category_id\":838,\"name\":\"无后宫\",\"schema\":\"dragon1967://newCategoryDetail?id=838&name=无后宫&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1747902588",
+              "authorize_type": "1",
+              "media_id": "1765223902578695",
+              "original_book_name": "此方最上乘",
+              "length_type": "1",
+              "op_tag": "535,536,869",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2o205aa2cfcaa514a79184c96eea19b1f3",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o205aa2cfcaa514a79184c96eea19b1f3~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070484&x-signature=Gbv0QTfrAdvCRdRKeYvKKP3J1t4%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "东方仙侠,无后宫",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#485858",
+              "read_count_all": "1377",
+              "shelf_cnt_history": "971",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"6589\":1714433070,\"8703\":1744949735,\"510893\":1714385002,\"3040\":1714433070,\"8704\":1747901117,\"2329\":1714385002,\"638505\":1724851075,\"507427\":1744949735,\"8661\":1714433070,\"2503\":1714385002,\"35\":1714385002,\"1967\":1714385002,\"8662\":1714385002,\"507386\":1744949735,\"596084\":1715076082,\"13\":1714385002,\"1128\":1714385002}",
+              "category_v2_map": {
+                "452": true,
+                "511": true,
+                "391": true,
+                "259": true,
+                "9": true,
+                "7": true,
+                "1140": true,
+                "838": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o205aa2cfcaa514a79184c96eea19b1f3~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=XyhM4Rrk2n7cZsH%2FnSYuDZRJL5g%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7318931919977059646,
+                  "AuthorName": "问境"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o205aa2cfcaa514a79184c96eea19b1f3~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070484&x-signature=gYXQpaBbQElrJk4gbStJe3gbr9I%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "（玄幻）+（无女主）+（无系统）+（杀伐果断）+（无金手指）+（伪群像）+（无敌）\n武道争霸，天才辈出，你们只是天才，而我黄长生，便是天才中的天才，天下倾覆，那我便扶天下之将倾，妖魔肆虐，那我便斩妖除魔，不要迷恋哥，哥只是个传说。\n我独我，世间第一等，此方最上乘。\n就是为了这点醋，我才包的这顿饺子。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o205aa2cfcaa514a79184c96eea19b1f3~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=%2B7ixaNpHBBBRRVHyLACWGn3IQv8%3D",
+              "raw_book_name": "此方最上乘",
+              "color_audio_dominate": "#8E9085"
+            }
+          ],
+          "search_attached_info": "15085624051070696820:48:0:3604414494:clks####3@20260319101338FD50C24C294A8A65B676",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "18.4万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "6人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "东方仙侠",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：问境",
+                "rich_text": "作者：问境",
+                "high_light_position": []
+              },
+              {
+                "text": "（玄幻）+（无女主）+（无系统）+（杀伐果断）+（无金手指）+（伪群像）+（无敌） 武道争霸，天才辈出，你们只是天才，而我黄长生，便是天才中的天才，天下倾覆，那我便扶天下之将倾，妖魔肆虐，那我便斩妖除魔，不要迷恋哥，哥只是个传说。 我独我，世间第一等，此方最上乘。 就是为了这点醋，我才包的这顿饺子。",
+                "rich_text": "（玄幻）+（<em>无</em>女主）+（<em>无</em>系统）+（杀伐果断）+（<em>无</em>金手指）+（伪群像）+（<em>无</em>敌）\n武道争霸，天才辈出，你们只是天才，而我黄长生，便是天才中的天才，天下倾覆，那我便扶天下之将倾，妖魔肆虐，那我便斩妖除魔，不要迷恋哥，哥只是个传说。\n我独我，世间第一等，此方最上乘。\n就是为了这点醋，我才包的这顿饺子。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1049,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7426897354105556030",
+          "search_result_id": "7426897354105556030",
+          "search_high_light": {
+            "abstract": {
+              "text": "...离主角远一点。 老老实实当个富家子弟逍遥一生。 可谁知本属于主角的后宫成员却挨个盯上了自己……",
+              "rich_text": "【都市+反派+系统+整活+思路清奇】\n癌症去世，魂穿都市小说的反派恶少，觉醒系统。\n本以为就此开挂走上人生巅峰。\n不料绝症还在，系统倒反天罡。\n\n\n——\n\n【叮！欢迎宿主来到《魂穿反派的我走上人生巅峰》小说世界。\n\n从现在起，宿主的一切行为都将以小说的形式记录。\n\n小说人气值将与宿主直接挂钩。\n\n如果本小说凉凉，宿主也将死亡。\n\n身为主角，请宿主努力整活，吸引更多读者。】\n\n——\n行，大不了夹着尾巴做人，离主角远一点。\n老老实实当个富家子弟逍遥一生。\n可谁知本属于主角的<em>后宫</em>成员却挨个盯上了自己……",
+              "high_light_position": [
+                [
+                  36,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "反派：魅力值太高怎么办",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【都市+反派+系统+整活+思路清奇】\n癌症去世，魂穿都市小说的反派恶少，觉醒系统。\n本以为就此开挂走上人生巅峰。\n不料绝症还在，系统倒反天罡。\n\n\n——\n\n【叮！欢迎宿主来到《魂穿反派的我走上人生巅峰》小说世界。\n\n从现在起，宿主的一切行为都将以小说的形式记录。\n\n小说人气值将与宿主直接挂钩。\n\n如果本小说凉凉，宿主也将死亡。\n\n身为主角，请宿主努力整活，吸引更多读者。】\n\n——\n行，大不了夹着尾巴做人，离主角远一点。\n老老实实当个富家子弟逍遥一生。\n可谁知本属于主角的后宫成员却挨个盯上了自己……",
+              "author": "南妖叔",
+              "book_id": "7426897354105556030",
+              "book_name": "反派：魅力值太高怎么办",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-10-18T07:54:51+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7426897380328342078",
+              "first_chapter_item_id": "7426897380328342078",
+              "first_chapter_title": "第0章 背景",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7454776756029882942",
+              "last_chapter_item_id": "7454776756029882942",
+              "last_chapter_title": "第117章 江湖再见（大结局）",
+              "last_chapter_update_time": "1735700500",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "546",
+              "recommend_group_id": "7426897354105556030",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319101444946E132F020ACB5A736D\",\"rank\":\"1\",\"normal_session_id\":\"7a3fd922-6b5b-4def-b93d-8548bd324685\",\"cold_start_session_id\":\"3c79e030-086c-4d4d-9ffb-2eff3bc55855\"}",
+              "read_progress": "0",
+              "serial_count": "118",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/3d90d3acb8dc6852caec128ceac068dc~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=KV7NtZVqU%2BXfkHFWKuxzsaEYsNQ%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "245982",
+              "score": "6.9",
+              "exclusive": "1",
+              "role": "十一",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":369,\"name\":\"反派\",\"schema\":\"dragon1967://newCategoryDetail?id=369&name=反派&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "27",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1735700510",
+              "authorize_type": "1",
+              "media_id": "1712128151243784",
+              "original_book_name": "不整活就死，主角后宫离我远点",
+              "length_type": "1",
+              "op_tag": "1034,535,305,536,1167,1165,529",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/3d90d3acb8dc6852caec128ceac068dc",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o49bf895bafcc73299f5d706502f8ef32~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070484&x-signature=lymndKBHHMhsuoLKNtxDP4fGsPk%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市脑洞,反派",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#d8d0c0",
+              "read_count_all": "196125",
+              "shelf_cnt_history": "19565",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507427\":1743834334,\"596084\":1729562228,\"2329\":1729209756,\"8661\":1729562228,\"35\":1729209756,\"13\":1729209756,\"2503\":1729209756,\"507386\":1743834334,\"6589\":1729562228,\"510893\":1729209756,\"8662\":1729209756,\"8703\":1744946482,\"1128\":1729209756,\"1967\":1729209756,\"638505\":1729562228,\"8704\":1747728560,\"3040\":1729562228}",
+              "category_v2_map": {
+                "262": true,
+                "37": true,
+                "91": true,
+                "1": true,
+                "19": true,
+                "369": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/3d90d3acb8dc6852caec128ceac068dc~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=KV7NtZVqU%2BXfkHFWKuxzsaEYsNQ%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7012938785079956749,
+                  "AuthorName": "南妖叔"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o49bf895bafcc73299f5d706502f8ef32~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070484&x-signature=8s7qFy%2Fzuef9Noo3i0Qf%2FqQXzbo%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【都市+反派+系统+整活+思路清奇】\n癌症去世，魂穿都市小说的反派恶少，觉醒系统。\n本以为就此开挂走上人生巅峰。\n不料绝症还在，系统倒反天罡。\n\n\n——\n\n【叮！欢迎宿主来到《魂穿反派的我走上人生巅峰》小说世界。\n\n从现在起，宿主的一切行为都将以小说的形式记录。\n\n小说人气值将与宿主直接挂钩。\n\n如果本小说凉凉，宿主也将死亡。\n\n身为主角，请宿主努力整活，吸引更多读者。】\n\n——\n行，大不了夹着尾巴做人，离主角远一点。\n老老实实当个富家子弟逍遥一生。\n可谁知本属于主角的后宫成员却挨个盯上了自己……",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/3d90d3acb8dc6852caec128ceac068dc~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070484&x-signature=DxdlsarIWGSF7sQ%2FpuIEdeRwg1A%3D",
+              "raw_book_name": "反派：魅力值太高怎么办",
+              "color_audio_dominate": "#E9DDD5"
+            }
+          ],
+          "search_attached_info": "15085624051070696820:49:0:3458375617:clks####3@20260319101338FD50C24C294A8A65B676",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "24.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "546人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：南妖叔",
+                "rich_text": "作者：南妖叔",
+                "high_light_position": []
+              },
+              {
+                "text": "...离主角远一点。 老老实实当个富家子弟逍遥一生。 可谁知本属于主角的后宫成员却挨个盯上了自己……",
+                "rich_text": "【都市+反派+系统+整活+思路清奇】\n癌症去世，魂穿都市小说的反派恶少，觉醒系统。\n本以为就此开挂走上人生巅峰。\n不料绝症还在，系统倒反天罡。\n\n\n——\n\n【叮！欢迎宿主来到《魂穿反派的我走上人生巅峰》小说世界。\n\n从现在起，宿主的一切行为都将以小说的形式记录。\n\n小说人气值将与宿主直接挂钩。\n\n如果本小说凉凉，宿主也将死亡。\n\n身为主角，请宿主努力整活，吸引更多读者。】\n\n——\n行，大不了夹着尾巴做人，离主角远一点。\n老老实实当个富家子弟逍遥一生。\n可谁知本属于主角的<em>后宫</em>成员却挨个盯上了自己……",
+                "high_light_position": [
+                  [
+                    36,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "50",
+      "search_id": "clks####3@20260319101338FD50C24C294A8A65B676",
+      "query": "无后宫",
+      "next_offset": 50,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@20260319101338FD50C24C294A8A65B676",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"20260319101444946E132F020ACB5A736D\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@20260319101338FD50C24C294A8A65B676",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@20260319101338FD50C24C294A8A65B676",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "20260319101444946E132F020ACB5A736D"
+}

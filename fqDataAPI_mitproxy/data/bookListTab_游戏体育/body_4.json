@@ -1,0 +1,2766 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@202603191016052AE01DC2635389D590BD",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@202603191016052AE01DC2635389D590BD",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@202603191016052AE01DC2635389D590BD",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@202603191016052AE01DC2635389D590BD",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@202603191016052AE01DC2635389D590BD",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@202603191016052AE01DC2635389D590BD",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1010,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7095228494832995362",
+          "search_result_id": "7095228494832995362",
+          "search_high_light": {
+            "abstract": {
+              "text": "【你，还记得那个天才少年吗？】【传统网游+电竞比赛+多职业选手群像】 三年前，天才新秀顾轻竹凭借一双轻剑纵横天下、未逢敌手，却在登上职业赛场的前夕遭人陷害，受到禁赛处罚，被迫作别赛场，自此轻剑的传说绝迹于江湖。 三年后，全新网游《国度》公测，昔日天才卷土重来，重回职业赛场，震惊电竞圈，重拾荣耀，夺得联赛冠军。 一个风起云涌的电竞新时代开始了。 国服第一刺客林涵肃：“竹子，当时和我一个宿舍，上下床。” 国服第一轻剑士唐盈：“没有顾轻竹使用轻剑的比赛毫无乐趣。” 三冠王连无阙：“我永远怀念和竹子共同训练的那两年。” 半部网游，半部人生，这是一个充满热血和感动的重返巅峰的故事。",
+              "rich_text": "【传统网<em>游</em>+电竞比赛+多职业选手群像】\n三年前，天才新秀顾轻竹凭借一双轻剑纵横天下、未逢敌手，却在登上职业赛场的前夕遭人陷害，受到禁赛处罚，被迫作别赛场，自此轻剑的传说绝迹于江湖。\n三年后，全新网<em>游</em>《国度》公测，昔日天才卷土重来，重回职业赛场，震惊电竞圈，重拾荣耀，夺得联赛冠军。\n一个风起云涌的电竞新时代开始了。\n国服第一刺客林涵肃：“竹子，当时和我一个宿舍，上下床。”\n国服第一轻剑士唐盈：“没有顾轻竹使用轻剑的比赛毫无乐趣。”\n三冠王连无阙：“我永远怀念和竹子共同训练的那两年。”\n半部网<em>游</em>，半部人生，这是一个充满热血和感动的重返巅峰的故事。",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "网游：退役天才返场，震惊电竞圈",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【传统网游+电竞比赛+多职业选手群像】\n三年前，天才新秀顾轻竹凭借一双轻剑纵横天下、未逢敌手，却在登上职业赛场的前夕遭人陷害，受到禁赛处罚，被迫作别赛场，自此轻剑的传说绝迹于江湖。\n三年后，全新网游《国度》公测，昔日天才卷土重来，重回职业赛场，震惊电竞圈，重拾荣耀，夺得联赛冠军。\n一个风起云涌的电竞新时代开始了。\n国服第一刺客林涵肃：“竹子，当时和我一个宿舍，上下床。”\n国服第一轻剑士唐盈：“没有顾轻竹使用轻剑的比赛毫无乐趣。”\n三冠王连无阙：“我永远怀念和竹子共同训练的那两年。”\n半部网游，半部人生，这是一个充满热血和感动的重返巅峰的故事。",
+              "author": "在下顾奈",
+              "book_id": "7095228494832995362",
+              "book_name": "网游：退役天才返场，震惊电竞圈",
+              "category": "游戏体育",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2022-05-08T13:10:17+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7095257596915155469",
+              "first_chapter_item_id": "7095257596915155469",
+              "first_chapter_title": "第1章 被放逐的天才",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7511266013715890750",
+              "last_chapter_item_id": "7511266013715890750",
+              "last_chapter_title": "最后的后记",
+              "last_chapter_update_time": "1748871125",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "15697",
+              "recommend_group_id": "7095228494832995362",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603191016242AE01DC2635389D59D34\",\"rank\":\"1\",\"normal_session_id\":\"373aa5c6-862d-4816-8c77-a276bc477266\",\"cold_start_session_id\":\"067aa42e-6a77-4cb8-93e3-372d40622555\"}",
+              "read_progress": "0",
+              "serial_count": "1204",
+              "source": "番茄小说",
+              "tags": "游戏体育,天才",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/36079241ca74a5f9535cd0a0300c4273~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=hOXu%2FYg6Pdn7JQsr7VX5S%2BMIQDw%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "3688203",
+              "score": "9.2",
+              "exclusive": "1",
+              "role": "顾轻竹",
+              "category_schema": "[{\"category_id\":746,\"name\":\"游戏体育\",\"schema\":\"dragon1967://newCategoryDetail?id=746&name=游戏体育&genre_type=0&gender=1&source=detail\"},{\"category_id\":90,\"name\":\"天才\",\"schema\":\"dragon1967://newCategoryDetail?id=90&name=天才&genre_type=0&gender=1&source=detail\"},{\"category_id\":372,\"name\":\"网游\",\"schema\":\"dragon1967://newCategoryDetail?id=372&name=网游&genre_type=0&gender=1&source=detail\"},{\"category_id\":389,\"name\":\"单女主\",\"schema\":\"dragon1967://newCategoryDetail?id=389&name=单女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":778,\"name\":\"搞笑轻松\",\"schema\":\"dragon1967://newCategoryDetail?id=778&name=搞笑轻松&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "3847",
+              "sub_info": "1.6万人在读",
+              "last_publish_time": "1748871136",
+              "authorize_type": "1",
+              "media_id": "1731002586582029",
+              "original_book_name": "网游：重启我的电竞时代",
+              "length_type": "0",
+              "op_tag": "531,536,190,184,183,873,535,218,345,189,1026",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/36079241ca74a5f9535cd0a0300c4273",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a29eb051768a35721c52f80efad7130f~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070584&x-signature=847RI0SlY8zuBHfBfbH%2BSv%2Fz4%2Bo%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "1817",
+              "pure_category_tags": "游戏体育,搞笑轻松",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#382020",
+              "read_count_all": "846737",
+              "shelf_cnt_history": "142103",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507427\":1741797896,\"426946\":1670835699,\"510893\":1689670838,\"596084\":1715070807,\"507386\":1741797896,\"8661\":1681446916,\"3040\":1655106323,\"1967\":1651987532,\"638505\":1724862727,\"1112\":1693464504,\"6589\":1665988239,\"8703\":1744948197,\"8704\":1747150093}",
+              "category_v2_map": {
+                "389": true,
+                "778": true,
+                "90": true,
+                "372": true,
+                "746": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/36079241ca74a5f9535cd0a0300c4273~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=hOXu%2FYg6Pdn7JQsr7VX5S%2BMIQDw%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7090514212354528524,
+                  "AuthorName": "在下顾奈"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a29eb051768a35721c52f80efad7130f~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070584&x-signature=iDwjRIBSaKYgVZrznALXKi1%2Bfcw%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【传统网游+电竞比赛+多职业选手群像】\n三年前，天才新秀顾轻竹凭借一双轻剑纵横天下、未逢敌手，却在登上职业赛场的前夕遭人陷害，受到禁赛处罚，被迫作别赛场，自此轻剑的传说绝迹于江湖。\n三年后，全新网游《国度》公测，昔日天才卷土重来，重回职业赛场，震惊电竞圈，重拾荣耀，夺得联赛冠军。\n一个风起云涌的电竞新时代开始了。\n国服第一刺客林涵肃：“竹子，当时和我一个宿舍，上下床。”\n国服第一轻剑士唐盈：“没有顾轻竹使用轻剑的比赛毫无乐趣。”\n三冠王连无阙：“我永远怀念和竹子共同训练的那两年。”\n半部网游，半部人生，这是一个充满热血和感动的重返巅峰的故事。",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.6万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/36079241ca74a5f9535cd0a0300c4273~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=vJcQaDWsnhFZsCbN4y%2FM7ag78p4%3D",
+              "raw_book_name": "网游：退役天才返场，震惊电竞圈",
+              "related_bookids": "{\"8662\":{\"205\":[7597016601665227800]},\"3040\":{\"205\":[7597016601665227800]},\"1967\":{\"205\":[7597633177821121561]},\"507386\":{\"205\":[7597016601665227800]},\"507427\":{\"205\":[7597016601665227800]}}",
+              "color_audio_dominate": "#876B79"
+            }
+          ],
+          "search_attached_info": "15545230986145704152:10:0:267404042:clks####3@202603191016052AE01DC2635389D590BD",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短剧原著",
+              "Priority": 15,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "368.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "游戏体育",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：在下顾奈",
+                "rich_text": "作者：在下顾奈",
+                "high_light_position": []
+              },
+              {
+                "text": "【你，还记得那个天才少年吗？】【传统网游+电竞比赛+多职业选手群像】 三年前，天才新秀顾轻竹凭借一双轻剑纵横天下、未逢敌手，却在登上职业赛场的前夕遭人陷害，受到禁赛处罚，被迫作别赛场，自此轻剑的传说绝迹于江湖。 三年后，全新网游《国度》公测，昔日天才卷土重来，重回职业赛场，震惊电竞圈，重拾荣耀，夺得联赛冠军。 一个风起云涌的电竞新时代开始了。 国服第一刺客林涵肃：“竹子，当时和我一个宿舍，上下床。” 国服第一轻剑士唐盈：“没有顾轻竹使用轻剑的比赛毫无乐趣。” 三冠王连无阙：“我永远怀念和竹子共同训练的那两年。” 半部网游，半部人生，这是一个充满热血和感动的重返巅峰的故事。",
+                "rich_text": "【传统网<em>游</em>+电竞比赛+多职业选手群像】\n三年前，天才新秀顾轻竹凭借一双轻剑纵横天下、未逢敌手，却在登上职业赛场的前夕遭人陷害，受到禁赛处罚，被迫作别赛场，自此轻剑的传说绝迹于江湖。\n三年后，全新网<em>游</em>《国度》公测，昔日天才卷土重来，重回职业赛场，震惊电竞圈，重拾荣耀，夺得联赛冠军。\n一个风起云涌的电竞新时代开始了。\n国服第一刺客林涵肃：“竹子，当时和我一个宿舍，上下床。”\n国服第一轻剑士唐盈：“没有顾轻竹使用轻剑的比赛毫无乐趣。”\n三冠王连无阙：“我永远怀念和竹子共同训练的那两年。”\n半部网<em>游</em>，半部人生，这是一个充满热血和感动的重返巅峰的故事。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1011,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7057076862018653219",
+          "search_result_id": "7057076862018653219",
+          "search_high_light": {
+            "title": {
+              "text": "网游之一杆长枪定乾坤",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "【人生转折点，一杆长枪，一壶清酒】...失业的林枫无意间进入游戏工作室打工，他没想到一个随意的决定竟是他人生的转折点 一杆长枪、一壶清酒，探秘境、打Boss。 不断变强的背后，是肩负起守护这个世界的责任。",
+              "rich_text": "【传统网<em>游</em>+热血+融合现实】\n启元历2022年7月，一款跨时代的虚拟网<em>游</em>《守望》横空出世。\n失业的林枫无意间进入<em>游戏</em>工作室打工，他没想到一个随意的决定竟是他人生的转折点\n一杆长枪、一壶清酒，探秘境、打Boss。\n不断变强的背后，是肩负起守护这个世界的责任。",
+              "high_light_position": [
+                [
+                  30,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【传统网游+热血+融合现实】\n启元历2022年7月，一款跨时代的虚拟网游《守望》横空出世。\n失业的林枫无意间进入游戏工作室打工，他没想到一个随意的决定竟是他人生的转折点\n一杆长枪、一壶清酒，探秘境、打Boss。\n不断变强的背后，是肩负起守护这个世界的责任。",
+              "author": "幸运一",
+              "book_id": "7057076862018653219",
+              "book_name": "网游之一杆长枪定乾坤",
+              "category": "游戏体育",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2022-01-25T17:42:28+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7057089297882546699",
+              "first_chapter_item_id": "7057089297882546699",
+              "first_chapter_title": "第1章 应聘",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7562126641846026776",
+              "last_chapter_item_id": "7562126641846026776",
+              "last_chapter_title": "番外 熄灭的太阳！",
+              "last_chapter_update_time": "1760697515",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "29196",
+              "recommend_group_id": "7057076862018653219",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603191016242AE01DC2635389D59D34\",\"rank\":\"1\",\"normal_session_id\":\"373aa5c6-862d-4816-8c77-a276bc477266\",\"cold_start_session_id\":\"067aa42e-6a77-4cb8-93e3-372d40622555\"}",
+              "read_progress": "0",
+              "serial_count": "2226",
+              "source": "番茄小说",
+              "tags": "游戏体育,网游",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/256c9854e6e1a87f0eefaaad7566e1ec~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=zHVkD8GqfYYB2bb2X29aPQzfCKw%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "4528093",
+              "score": "8.3",
+              "exclusive": "1",
+              "role": "林枫,燕归来",
+              "category_schema": "[{\"category_id\":746,\"name\":\"游戏体育\",\"schema\":\"dragon1967://newCategoryDetail?id=746&name=游戏体育&genre_type=0&gender=1&source=detail\"},{\"category_id\":372,\"name\":\"网游\",\"schema\":\"dragon1967://newCategoryDetail?id=372&name=网游&genre_type=0&gender=1&source=detail\"},{\"category_id\":864,\"name\":\"副本\",\"schema\":\"dragon1967://newCategoryDetail?id=864&name=副本&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7375685828418718744,7382272383241374745]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "7562",
+              "sub_info": "3万人在读",
+              "last_publish_time": "1760697651",
+              "authorize_type": "1",
+              "media_id": "1594074983530503",
+              "original_book_name": "网游之守望",
+              "length_type": "0",
+              "op_tag": "535,900,536,966,1024,216,854,183,501,873,234,1130,1132,344,1028,184,302,372,245,870",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/256c9854e6e1a87f0eefaaad7566e1ec",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/90471472b3024be49782e41815d5fee0",
+              "data_rate": "",
+              "all_bookshelf_count": "3544",
+              "pure_category_tags": "游戏体育,副本",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "0",
+              "show_vip_tag": null,
+              "color_dominate": "#201818",
+              "read_count_all": "3526780",
+              "shelf_cnt_history": "666616",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"3040\":1645186110,\"8661\":1681445917,\"596084\":1715078477,\"507427\":1741853265,\"1112\":1693461838,\"8703\":1744956239,\"8704\":1747135711,\"507386\":1741853265,\"426946\":1670833431,\"1967\":1643105348,\"510893\":1689677284,\"6589\":1664508005,\"638505\":1724840029}",
+              "category_v2_map": {
+                "746": true,
+                "864": true,
+                "372": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/256c9854e6e1a87f0eefaaad7566e1ec~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=zHVkD8GqfYYB2bb2X29aPQzfCKw%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7057076862337422632,
+                  "AuthorName": "幸运一"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/90471472b3024be49782e41815d5fee0~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070584&x-signature=2N9aoTIiXAfS8Z1e69pETno5%2Fa4%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【传统网游+热血+融合现实】\n启元历2022年7月，一款跨时代的虚拟网游《守望》横空出世。\n失业的林枫无意间进入游戏工作室打工，他没想到一个随意的决定竟是他人生的转折点\n一杆长枪、一壶清酒，探秘境、打Boss。\n不断变强的背后，是肩负起守护这个世界的责任。",
+              "read_page_progress": "0",
+              "read_cnt_text": "3万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/256c9854e6e1a87f0eefaaad7566e1ec~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=s26etfBDqWntsYr%2FvYlU8HdZ83M%3D",
+              "raw_book_name": "网游之一杆长枪定乾坤",
+              "color_audio_dominate": "#222321"
+            }
+          ],
+          "search_attached_info": "15545230986145704152:11:0:4243183529:clks####3@202603191016052AE01DC2635389D590BD",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "452.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "游戏体育",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：幸运一",
+                "rich_text": "作者：幸运一",
+                "high_light_position": []
+              },
+              {
+                "text": "【人生转折点，一杆长枪，一壶清酒】...失业的林枫无意间进入游戏工作室打工，他没想到一个随意的决定竟是他人生的转折点 一杆长枪、一壶清酒，探秘境、打Boss。 不断变强的背后，是肩负起守护这个世界的责任。",
+                "rich_text": "【传统网<em>游</em>+热血+融合现实】\n启元历2022年7月，一款跨时代的虚拟网<em>游</em>《守望》横空出世。\n失业的林枫无意间进入<em>游戏</em>工作室打工，他没想到一个随意的决定竟是他人生的转折点\n一杆长枪、一壶清酒，探秘境、打Boss。\n不断变强的背后，是肩负起守护这个世界的责任。",
+                "high_light_position": [
+                  [
+                    30,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1012,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7379825508306930713",
+          "search_result_id": "7379825508306930713",
+          "search_high_light": {
+            "title": {
+              "text": "足球：我能看见球员词条",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "【词条+足球+执教+传奇】 【本书不完全走现实路线，介意勿入】  落魄的年轻人，快要降级的俱乐部。 没有人会觉得这样的搭配有多完美。 也没有人在乎，这里会发生怎样的故事。 直到，那个华夏年轻人的到来。 2017-18赛季末，李延青成为了伯顿竞技的主教练。 一段梦幻的旅程就此开始。 凭借能看见球员词条的能力，他让每个人都发挥出了最大的作用。 青训小将正在快速成长！ 失意老将焕发出第二春！ 对手：什么？我们的弃将又上演了帽子戏法？ 经理：别这样，你这样显得我很没用...... 老板：什么时候俱乐部里这么多明星球员了？ 李延青：明星？不，这里只有一个明星，那就是我！ 最后，这是段关于胜利，荣耀与骄傲的故事。",
+              "rich_text": "【词条+足球+执教+传奇】\n【本书不完全走现实路线，介意勿入】\n\n落魄的年轻人，快要降级的俱乐部。\n没有人会觉得这样的搭配有多完美。\n也没有人在乎，这里会发生怎样的故事。\n直到，那个华夏年轻人的到来。\n2017-18赛季末，李延青成为了伯顿竞技的主教练。\n一段梦幻的旅程就此开始。\n凭借能看见球员词条的能力，他让每个人都发挥出了最大的作用。\n青训小将正在快速成长！\n失意老将焕发出第二春！\n对手：什么？我们的弃将又上演了帽子<em>戏</em>法？\n经理：别这样，你这样显得我很没用......\n老板：什么时候俱乐部里这么多明星球员了？\n李延青：明星？不，这里只有一个明星，那就是我！\n最后，这是段关于胜利，荣耀与骄傲的故事。",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【词条+足球+执教+传奇】\n【本书不完全走现实路线，介意勿入】\n\n落魄的年轻人，快要降级的俱乐部。\n没有人会觉得这样的搭配有多完美。\n也没有人在乎，这里会发生怎样的故事。\n直到，那个华夏年轻人的到来。\n2017-18赛季末，李延青成为了伯顿竞技的主教练。\n一段梦幻的旅程就此开始。\n凭借能看见球员词条的能力，他让每个人都发挥出了最大的作用。\n青训小将正在快速成长！\n失意老将焕发出第二春！\n对手：什么？我们的弃将又上演了帽子戏法？\n经理：别这样，你这样显得我很没用......\n老板：什么时候俱乐部里这么多明星球员了？\n李延青：明星？不，这里只有一个明星，那就是我！\n最后，这是段关于胜利，荣耀与骄傲的故事。",
+              "author": "独孤离散",
+              "book_id": "7379825508306930713",
+              "book_name": "足球：我能看见球员词条",
+              "category": "游戏体育",
+              "copyright_info": "版权信息：本书的数字版权由 6月小说网 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-06-13T11:33:03+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7379840625681648702",
+              "first_chapter_item_id": "7379840625681648702",
+              "first_chapter_title": "第一章 预言家",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7529355756588518462",
+              "last_chapter_item_id": "7529355756588518462",
+              "last_chapter_title": "第五百一十九章 冠军之外的其他因素",
+              "last_chapter_update_time": "1753065886",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "3181",
+              "recommend_group_id": "7379825508306930713",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603191016242AE01DC2635389D59D34\",\"rank\":\"1\",\"normal_session_id\":\"373aa5c6-862d-4816-8c77-a276bc477266\",\"cold_start_session_id\":\"067aa42e-6a77-4cb8-93e3-372d40622555\"}",
+              "read_progress": "0",
+              "serial_count": "526",
+              "source": "6月小说网",
+              "tags": "游戏体育,体育",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/58c5dbe70a6419b8467f9f4e532cfd9d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=rgb4gckUe27wIzQXQ87Fehf5FqY%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1073891",
+              "score": "8.3",
+              "role": " 李延青",
+              "category_schema": "[{\"category_id\":746,\"name\":\"游戏体育\",\"schema\":\"dragon1967://newCategoryDetail?id=746&name=游戏体育&genre_type=0&gender=1&source=detail\"},{\"category_id\":15,\"name\":\"体育\",\"schema\":\"dragon1967://newCategoryDetail?id=15&name=体育&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "622",
+              "sub_info": "3181人在读",
+              "last_publish_time": "1753065896",
+              "authorize_type": "0",
+              "media_id": "1612001590747139",
+              "original_book_name": "足球：我能看见球员词条",
+              "length_type": "0",
+              "op_tag": "537,888,531,535,245,889,1126,1132",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/58c5dbe70a6419b8467f9f4e532cfd9d",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/58c5dbe70a6419b8467f9f4e532cfd9d~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070584&x-signature=ZJ1H1%2FXRcSIca%2FDRyNPpbiMaBDc%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "513",
+              "pure_category_tags": "游戏体育,体育",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#205810",
+              "read_count_all": "369858",
+              "shelf_cnt_history": "55349",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1128\":1718260026,\"6589\":1718260026,\"2503\":1718260026,\"8703\":1745908073,\"596084\":1723459818,\"35\":1718260026,\"13\":1718260026,\"507386\":1743654893,\"3040\":1718260026,\"638505\":1724934409,\"2329\":1718260026,\"1967\":1718260026,\"8704\":1747724661,\"8662\":1718260026,\"510893\":1718260026,\"1319\":1718260026,\"8661\":1718260026,\"507427\":1743654893}",
+              "category_v2_map": {
+                "746": true,
+                "15": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/58c5dbe70a6419b8467f9f4e532cfd9d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=rgb4gckUe27wIzQXQ87Fehf5FqY%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7379825767149999385,
+                  "AuthorName": "独孤离散"
+                }
+              ],
+              "platform_book_id": "21278",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/58c5dbe70a6419b8467f9f4e532cfd9d~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070584&x-signature=efpx%2FO9%2BmQvTR4ELV%2BCT05qN6SU%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "tts_type": "",
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【词条+足球+执教+传奇】\n【本书不完全走现实路线，介意勿入】\n\n落魄的年轻人，快要降级的俱乐部。\n没有人会觉得这样的搭配有多完美。\n也没有人在乎，这里会发生怎样的故事。\n直到，那个华夏年轻人的到来。\n2017-18赛季末，李延青成为了伯顿竞技的主教练。\n一段梦幻的旅程就此开始。\n凭借能看见球员词条的能力，他让每个人都发挥出了最大的作用。\n青训小将正在快速成长！\n失意老将焕发出第二春！\n对手：什么？我们的弃将又上演了帽子戏法？\n经理：别这样，你这样显得我很没用......\n老板：什么时候俱乐部里这么多明星球员了？\n李延青：明星？不，这里只有一个明星，那就是我！\n最后，这是段关于胜利，荣耀与骄傲的故事。",
+              "read_page_progress": "0",
+              "read_cnt_text": "3181人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/58c5dbe70a6419b8467f9f4e532cfd9d~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=OH2HEYbXl96i%2FfsHmiRcY0mCm5c%3D",
+              "raw_book_name": "足球：我能看见球员词条",
+              "color_audio_dominate": "#275E15"
+            }
+          ],
+          "search_attached_info": "15545230986145704152:12:0:4263968151:clks####3@202603191016052AE01DC2635389D590BD",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "107.4万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3181人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "游戏体育",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：独孤离散",
+                "rich_text": "作者：独孤离散",
+                "high_light_position": []
+              },
+              {
+                "text": "【词条+足球+执教+传奇】 【本书不完全走现实路线，介意勿入】  落魄的年轻人，快要降级的俱乐部。 没有人会觉得这样的搭配有多完美。 也没有人在乎，这里会发生怎样的故事。 直到，那个华夏年轻人的到来。 2017-18赛季末，李延青成为了伯顿竞技的主教练。 一段梦幻的旅程就此开始。 凭借能看见球员词条的能力，他让每个人都发挥出了最大的作用。 青训小将正在快速成长！ 失意老将焕发出第二春！ 对手：什么？我们的弃将又上演了帽子戏法？ 经理：别这样，你这样显得我很没用...... 老板：什么时候俱乐部里这么多明星球员了？ 李延青：明星？不，这里只有一个明星，那就是我！ 最后，这是段关于胜利，荣耀与骄傲的故事。",
+                "rich_text": "【词条+足球+执教+传奇】\n【本书不完全走现实路线，介意勿入】\n\n落魄的年轻人，快要降级的俱乐部。\n没有人会觉得这样的搭配有多完美。\n也没有人在乎，这里会发生怎样的故事。\n直到，那个华夏年轻人的到来。\n2017-18赛季末，李延青成为了伯顿竞技的主教练。\n一段梦幻的旅程就此开始。\n凭借能看见球员词条的能力，他让每个人都发挥出了最大的作用。\n青训小将正在快速成长！\n失意老将焕发出第二春！\n对手：什么？我们的弃将又上演了帽子<em>戏</em>法？\n经理：别这样，你这样显得我很没用......\n老板：什么时候俱乐部里这么多明星球员了？\n李延青：明星？不，这里只有一个明星，那就是我！\n最后，这是段关于胜利，荣耀与骄傲的故事。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1013,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7583626383578909720",
+          "search_result_id": "7583626383578909720",
+          "search_high_light": {
+            "title": {
+              "text": "梦幻西游：我在游戏中狂刷好感度",
+              "rich_text": "梦幻西<em>游</em>：我在<em>游戏</em>中狂刷好感度",
+              "high_light_position": [
+                [
+                  7,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...小二、罗道人、师父程咬金……甚至连宠物仙子都是可以攻略的对象。 看赵寻如何在游戏中大显神威吧……",
+              "rich_text": "孑然一身的赵寻无意中获得一张梦幻西<em>游</em>特殊点卡，带他回到了2004年。\n随那张点卡附赠的还有一个特殊账号，账号下的角色拥有一个特殊的能力：\n攻略梦幻西<em>游</em>中的NPC。\n每当有NPC的好感度达到100，便会赠送给赵寻一个意想不到的礼物。\n店小二、罗道人、师父程咬金……甚至连宠物仙子都是可以攻略的对象。\n看赵寻如何在<em>游戏</em>中大显神威吧……",
+              "high_light_position": [
+                [
+                  41,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "孑然一身的赵寻无意中获得一张梦幻西游特殊点卡，带他回到了2004年。\n随那张点卡附赠的还有一个特殊账号，账号下的角色拥有一个特殊的能力：\n攻略梦幻西游中的NPC。\n每当有NPC的好感度达到100，便会赠送给赵寻一个意想不到的礼物。\n店小二、罗道人、师父程咬金……甚至连宠物仙子都是可以攻略的对象。\n看赵寻如何在游戏中大显神威吧……",
+              "author": "晤彧",
+              "book_id": "7583626383578909720",
+              "book_name": "梦幻西游：我在游戏中狂刷好感度",
+              "category": "游戏体育",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-12-14T16:23:32+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7583626454429073944",
+              "first_chapter_item_id": "7583626454429073944",
+              "first_chapter_title": "第1章 神奇点卡",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618607985866064408",
+              "last_chapter_item_id": "7618607985866064408",
+              "last_chapter_title": "第164章 有数字哥，带什么钱？",
+              "last_chapter_update_time": "1773845792",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "7486",
+              "recommend_group_id": "7583626383578909720",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603191016242AE01DC2635389D59D34\",\"rank\":\"1\",\"normal_session_id\":\"373aa5c6-862d-4816-8c77-a276bc477266\",\"cold_start_session_id\":\"067aa42e-6a77-4cb8-93e3-372d40622555\"}",
+              "read_progress": "0",
+              "serial_count": "164",
+              "source": "番茄小说",
+              "tags": "游戏体育,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oc70158eb17a7c807c4dabfad78b6d9b4~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=JLkJb%2Bbg32Wd7RbdS3vN8w29%2FMI%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "331978",
+              "score": "0",
+              "exclusive": "1",
+              "role": "赵寻",
+              "category_schema": "[{\"category_id\":746,\"name\":\"游戏体育\",\"schema\":\"dragon1967://newCategoryDetail?id=746&name=游戏体育&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":830,\"name\":\"升级流\",\"schema\":\"dragon1967://newCategoryDetail?id=830&name=升级流&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1673",
+              "sub_info": "7486人在读",
+              "last_publish_time": "1773849680",
+              "authorize_type": "1",
+              "media_id": "1825770754972682",
+              "original_book_name": "梦幻西游：我在游戏中狂刷好感度",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "95",
+              "thumb_uri": "novel-pic/p2oc70158eb17a7c807c4dabfad78b6d9b4",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/2c153df749d2c9c1379f798e8cb0baf5",
+              "data_rate": "",
+              "all_bookshelf_count": "749",
+              "pure_category_tags": "游戏体育,升级流",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e8c870",
+              "read_count_all": "26448",
+              "shelf_cnt_history": "2957",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8704\":1765808318,\"596084\":1766108638,\"2503\":1765808318,\"8662\":1765808318,\"2329\":1765808318,\"13\":1765808318,\"510893\":1765808318,\"507427\":1765808379,\"8661\":1766108638,\"3040\":1766108638,\"507386\":1765808379,\"6589\":1766108638,\"638505\":1766108638,\"1967\":1765808318,\"8703\":1765808318,\"35\":1765808318,\"1128\":1765808318}",
+              "category_v2_map": {
+                "37": true,
+                "830": true,
+                "746": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oc70158eb17a7c807c4dabfad78b6d9b4~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=JLkJb%2Bbg32Wd7RbdS3vN8w29%2FMI%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7478357029493413145,
+                  "AuthorName": "晤彧"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/2c153df749d2c9c1379f798e8cb0baf5~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070584&x-signature=T95T5QD9iBncRlouG7jXNL0wM8c%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "孑然一身的赵寻无意中获得一张梦幻西游特殊点卡，带他回到了2004年。\n随那张点卡附赠的还有一个特殊账号，账号下的角色拥有一个特殊的能力：\n攻略梦幻西游中的NPC。\n每当有NPC的好感度达到100，便会赠送给赵寻一个意想不到的礼物。\n店小二、罗道人、师父程咬金……甚至连宠物仙子都是可以攻略的对象。\n看赵寻如何在游戏中大显神威吧……",
+              "read_page_progress": "0",
+              "read_cnt_text": "7486人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oc70158eb17a7c807c4dabfad78b6d9b4~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=ijhxRhPofEe5vTTJ871OE2k8sOw%3D",
+              "raw_book_name": "梦幻西游：我在游戏中狂刷好感度",
+              "color_audio_dominate": "#E8D395",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "15545230986145704152:13:0:3068030470:clks####3@202603191016052AE01DC2635389D590BD",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "33.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "7486人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "游戏体育",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：晤彧",
+                "rich_text": "作者：晤彧",
+                "high_light_position": []
+              },
+              {
+                "text": "...小二、罗道人、师父程咬金……甚至连宠物仙子都是可以攻略的对象。 看赵寻如何在游戏中大显神威吧……",
+                "rich_text": "孑然一身的赵寻无意中获得一张梦幻西<em>游</em>特殊点卡，带他回到了2004年。\n随那张点卡附赠的还有一个特殊账号，账号下的角色拥有一个特殊的能力：\n攻略梦幻西<em>游</em>中的NPC。\n每当有NPC的好感度达到100，便会赠送给赵寻一个意想不到的礼物。\n店小二、罗道人、师父程咬金……甚至连宠物仙子都是可以攻略的对象。\n看赵寻如何在<em>游戏</em>中大显神威吧……",
+                "high_light_position": [
+                  [
+                    41,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1014,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "6997261103495384099",
+          "search_result_id": "6997261103495384099",
+          "search_high_light": {
+            "title": {
+              "text": "我只想安静的打游戏",
+              "rich_text": "我只想安静的打<em>游戏</em>",
+              "high_light_position": [
+                [
+                  7,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【末日游戏，拯救世界】...潜伏。 秦川成为救世游戏平台的唯一玩家，游戏即现实，玩游戏来拯救世界！ 请选择你的初始游戏人物： 【圣堂修女：擅长末日：信仰、神话、天启…成长方向参考：炽天使】 【桃花妖：擅长末日：妖鬼、灵能、魔…成长方向参考：东方青帝】 【深潜鱼人：擅长末日：诡秘、深海、星空…成长方向参考：旧日支配者】 这个世界，危在旦夕！ 如果玩游戏就能拯救世界-我上我也行！ 秦川：“给我读档！”",
+              "rich_text": "都市高楼下，无数末日危机潜伏。\n秦川成为救世<em>游戏</em>平台的唯一玩家，<em>游戏</em>即现实，玩<em>游戏</em>来拯救世界！\n请选择你的初始<em>游戏</em>人物：\n【圣堂修女：擅长末日：信仰、神话、天启…成长方向参考：炽天使】\n【桃花妖：擅长末日：妖鬼、灵能、魔…成长方向参考：东方青帝】\n【深潜鱼人：擅长末日：诡秘、深海、星空…成长方向参考：旧日支配者】\n这个世界，危在旦夕！\n如果玩<em>游戏</em>就能拯救世界-我上我也行！\n秦川：“给我读档！”",
+              "high_light_position": [
+                [
+                  3,
+                  2
+                ],
+                [
+                  24,
+                  2
+                ],
+                [
+                  34,
+                  2
+                ],
+                [
+                  41,
+                  2
+                ],
+                [
+                  57,
+                  2
+                ],
+                [
+                  174,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "都市高楼下，无数末日危机潜伏。\n秦川成为救世游戏平台的唯一玩家，游戏即现实，玩游戏来拯救世界！\n请选择你的初始游戏人物：\n【圣堂修女：擅长末日：信仰、神话、天启…成长方向参考：炽天使】\n【桃花妖：擅长末日：妖鬼、灵能、魔…成长方向参考：东方青帝】\n【深潜鱼人：擅长末日：诡秘、深海、星空…成长方向参考：旧日支配者】\n这个世界，危在旦夕！\n如果玩游戏就能拯救世界-我上我也行！\n秦川：“给我读档！”",
+              "author": "火萤",
+              "book_id": "6997261103495384099",
+              "book_name": "我只想安静的打游戏",
+              "category": "游戏体育",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2021-08-17T13:06:47+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "6997274505814999587",
+              "first_chapter_item_id": "6997274505814999587",
+              "first_chapter_title": "第1章 救世游戏，请选择你要操控的游戏角色",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7036269455994782246",
+              "last_chapter_item_id": "7036269455994782246",
+              "last_chapter_title": "第230章 新的风暴已经出现",
+              "last_chapter_update_time": "1638259147",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "7325",
+              "recommend_group_id": "6997261103495384099",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603191016242AE01DC2635389D59D34\",\"rank\":\"1\",\"normal_session_id\":\"373aa5c6-862d-4816-8c77-a276bc477266\",\"cold_start_session_id\":\"067aa42e-6a77-4cb8-93e3-372d40622555\"}",
+              "read_progress": "0",
+              "serial_count": "230",
+              "source": "番茄小说",
+              "tags": "游戏体育,末世",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/7571700cae818eee19bcb85153f0ae59~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=UosdWbKGxf1q48Fn4hW7r%2BGlCRg%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "510434",
+              "score": "9.2",
+              "exclusive": "1",
+              "role": "秦川",
+              "category_schema": "[{\"category_id\":746,\"name\":\"游戏体育\",\"schema\":\"dragon1967://newCategoryDetail?id=746&name=游戏体育&genre_type=0&gender=1&source=detail\"},{\"category_id\":68,\"name\":\"末世\",\"schema\":\"dragon1967://newCategoryDetail?id=68&name=末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":864,\"name\":\"副本\",\"schema\":\"dragon1967://newCategoryDetail?id=864&name=副本&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "764",
+              "sub_info": "7325人在读",
+              "last_publish_time": "1638260019",
+              "authorize_type": "1",
+              "media_id": "1619042444409870",
+              "original_book_name": "救世游戏：我玩游戏拯救世界",
+              "length_type": "1",
+              "op_tag": "1024,234,164,245,190,343,1029,900,535,873,189,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-images/7571700cae818eee19bcb85153f0ae59",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o767e8dc82d25ed96c70859313d0cbe79~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070584&x-signature=5BgE%2BLI6hiR%2B3SwXCYRAuG5l3dw%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "706",
+              "pure_category_tags": "游戏体育,副本",
+              "related_comic_bookids": "",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#182038",
+              "read_count_all": "2525163",
+              "shelf_cnt_history": "377935",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8703\":1744956064,\"596084\":1715149346,\"3040\":1630403225,\"8661\":1681445420,\"1112\":1693466371,\"426946\":1736164517,\"510893\":1689690872,\"638505\":1724900018,\"1967\":1629176893,\"507427\":1744956064,\"507386\":1744956064,\"8704\":1747727536}",
+              "category_v2_map": {
+                "746": true,
+                "68": true,
+                "864": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/7571700cae818eee19bcb85153f0ae59~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=UosdWbKGxf1q48Fn4hW7r%2BGlCRg%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6914869902788531464,
+                  "AuthorName": "火萤"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o767e8dc82d25ed96c70859313d0cbe79~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070584&x-signature=Jr8IELWkVaKnwbYw0kWRMTOpfPM%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "都市高楼下，无数末日危机潜伏。\n秦川成为救世游戏平台的唯一玩家，游戏即现实，玩游戏来拯救世界！\n请选择你的初始游戏人物：\n【圣堂修女：擅长末日：信仰、神话、天启…成长方向参考：炽天使】\n【桃花妖：擅长末日：妖鬼、灵能、魔…成长方向参考：东方青帝】\n【深潜鱼人：擅长末日：诡秘、深海、星空…成长方向参考：旧日支配者】\n这个世界，危在旦夕！\n如果玩游戏就能拯救世界-我上我也行！\n秦川：“给我读档！”",
+              "read_page_progress": "0",
+              "read_cnt_text": "7325人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/7571700cae818eee19bcb85153f0ae59~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=%2Fn6TEZnWI30WyXHlg6PE7lEnQKA%3D",
+              "raw_book_name": "我只想安静的打游戏",
+              "color_audio_dominate": "#322821"
+            }
+          ],
+          "search_attached_info": "15545230986145704152:14:0:1045866245:clks####3@202603191016052AE01DC2635389D590BD",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "51.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "7325人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "游戏体育",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：火萤",
+                "rich_text": "作者：火萤",
+                "high_light_position": []
+              },
+              {
+                "text": "【末日游戏，拯救世界】...潜伏。 秦川成为救世游戏平台的唯一玩家，游戏即现实，玩游戏来拯救世界！ 请选择你的初始游戏人物： 【圣堂修女：擅长末日：信仰、神话、天启…成长方向参考：炽天使】 【桃花妖：擅长末日：妖鬼、灵能、魔…成长方向参考：东方青帝】 【深潜鱼人：擅长末日：诡秘、深海、星空…成长方向参考：旧日支配者】 这个世界，危在旦夕！ 如果玩游戏就能拯救世界-我上我也行！ 秦川：“给我读档！”",
+                "rich_text": "都市高楼下，无数末日危机潜伏。\n秦川成为救世<em>游戏</em>平台的唯一玩家，<em>游戏</em>即现实，玩<em>游戏</em>来拯救世界！\n请选择你的初始<em>游戏</em>人物：\n【圣堂修女：擅长末日：信仰、神话、天启…成长方向参考：炽天使】\n【桃花妖：擅长末日：妖鬼、灵能、魔…成长方向参考：东方青帝】\n【深潜鱼人：擅长末日：诡秘、深海、星空…成长方向参考：旧日支配者】\n这个世界，危在旦夕！\n如果玩<em>游戏</em>就能拯救世界-我上我也行！\n秦川：“给我读档！”",
+                "high_light_position": [
+                  [
+                    3,
+                    2
+                  ],
+                  [
+                    24,
+                    2
+                  ],
+                  [
+                    34,
+                    2
+                  ],
+                  [
+                    41,
+                    2
+                  ],
+                  [
+                    57,
+                    2
+                  ],
+                  [
+                    174,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1015,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7601175404828707865",
+          "search_result_id": "7601175404828707865",
+          "search_high_light": {
+            "title": {
+              "text": "游戏降临现实：绝境竞技",
+              "rich_text": "<em>游戏</em>降临现实：绝境竞技",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "突然游戏世界降临，不甘平庸的他，或许是幸运女神的眷顾，在一次一次竞技中获得属性、异能，最终在现实中成为站在世界顶端的存在，最后发现游戏世界的奥秘，原来我们也是生活在另一种游戏当中。 在游戏世界降临后，18岁以上，70岁以下全民投身竞技游戏，每3天强制参加一场。竞技游戏初始统一强制参加，参加五次之后，可以自由选择参加或者不参加，但是一个月内至少参加一次。",
+              "rich_text": "突然<em>游戏</em>世界降临，不甘平庸的他，或许是幸运女神的眷顾，在一次一次竞技中获得属性、异能，最终在现实中成为站在世界顶端的存在，最后发现<em>游戏</em>世界的奥秘，原来我们也是生活在另一种<em>游戏</em>当中。\n在<em>游戏</em>世界降临后，18岁以上，70岁以下全民投身竞技<em>游戏</em>，每3天强制参加一场。竞技<em>游戏</em>初始统一强制参加，参加五次之后，可以自由选择参加或者不参加，但是一个月内至少参加一次。",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ],
+                [
+                  65,
+                  2
+                ],
+                [
+                  85,
+                  2
+                ],
+                [
+                  92,
+                  2
+                ],
+                [
+                  117,
+                  2
+                ],
+                [
+                  132,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "突然游戏世界降临，不甘平庸的他，或许是幸运女神的眷顾，在一次一次竞技中获得属性、异能，最终在现实中成为站在世界顶端的存在，最后发现游戏世界的奥秘，原来我们也是生活在另一种游戏当中。\n在游戏世界降临后，18岁以上，70岁以下全民投身竞技游戏，每3天强制参加一场。竞技游戏初始统一强制参加，参加五次之后，可以自由选择参加或者不参加，但是一个月内至少参加一次。",
+              "author": "卡皮特韦",
+              "book_id": "7601175404828707865",
+              "book_name": "游戏降临现实：绝境竞技",
+              "category": "游戏体育",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-30T23:22:42+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7601175412160332313",
+              "first_chapter_item_id": "7601175412160332313",
+              "first_chapter_title": "第1章 游戏降临现实",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618606498465202713",
+              "last_chapter_item_id": "7618606498465202713",
+              "last_chapter_title": "第93章 各奔前程",
+              "last_chapter_update_time": "1773845290",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "25",
+              "recommend_group_id": "7601175404828707865",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603191016242AE01DC2635389D59D34\",\"rank\":\"1\",\"normal_session_id\":\"373aa5c6-862d-4816-8c77-a276bc477266\",\"cold_start_session_id\":\"067aa42e-6a77-4cb8-93e3-372d40622555\"}",
+              "read_progress": "0",
+              "serial_count": "93",
+              "source": "番茄小说",
+              "tags": "游戏体育,网游",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/afc0dfdf9a8ebe1429b209415576dc1d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=suWQ1Ta7KeqSapsCPfcdIx%2FJjK0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "246432",
+              "score": "0",
+              "exclusive": "1",
+              "role": "朱鸿志",
+              "category_schema": "[{\"category_id\":746,\"name\":\"游戏体育\",\"schema\":\"dragon1967://newCategoryDetail?id=746&name=游戏体育&genre_type=0&gender=1&source=detail\"},{\"category_id\":372,\"name\":\"网游\",\"schema\":\"dragon1967://newCategoryDetail?id=372&name=网游&genre_type=0&gender=1&source=detail\"},{\"category_id\":515,\"name\":\"末日求生\",\"schema\":\"dragon1967://newCategoryDetail?id=515&name=末日求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":864,\"name\":\"副本\",\"schema\":\"dragon1967://newCategoryDetail?id=864&name=副本&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "5",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773845570",
+              "authorize_type": "1",
+              "media_id": "1855751172813835",
+              "original_book_name": "游戏降临现实：绝境竞技",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "34",
+              "thumb_uri": "novel-pic/afc0dfdf9a8ebe1429b209415576dc1d",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/afc0dfdf9a8ebe1429b209415576dc1d~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070584&x-signature=Wj9Zfz9UWOBu8GLP431dD1oRvJE%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "游戏体育,副本",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#202028",
+              "read_count_all": "425",
+              "shelf_cnt_history": "1003",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"510893\":1769817966,\"1128\":1769817966,\"6589\":1769839676,\"1967\":1769817966,\"2329\":1769817966,\"8703\":1769817966,\"13\":1769817966,\"35\":1769817966,\"8704\":1769817966,\"8662\":1769817966,\"507386\":1769818028,\"596084\":1769839676,\"8661\":1769839676,\"3040\":1769839676,\"507427\":1769818028,\"2503\":1769817966,\"638505\":1769839676}",
+              "category_v2_map": {
+                "515": true,
+                "864": true,
+                "746": true,
+                "372": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/afc0dfdf9a8ebe1429b209415576dc1d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=suWQ1Ta7KeqSapsCPfcdIx%2FJjK0%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7601175405994726681,
+                  "AuthorName": "卡皮特韦"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/afc0dfdf9a8ebe1429b209415576dc1d~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070584&x-signature=eGzAfr9AFLMgwfeqzQMNs0sXpSE%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "突然游戏世界降临，不甘平庸的他，或许是幸运女神的眷顾，在一次一次竞技中获得属性、异能，最终在现实中成为站在世界顶端的存在，最后发现游戏世界的奥秘，原来我们也是生活在另一种游戏当中。\n在游戏世界降临后，18岁以上，70岁以下全民投身竞技游戏，每3天强制参加一场。竞技游戏初始统一强制参加，参加五次之后，可以自由选择参加或者不参加，但是一个月内至少参加一次。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/afc0dfdf9a8ebe1429b209415576dc1d~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=EZJtY0%2FS6LXrw4LWTKgsHbRnuZc%3D",
+              "raw_book_name": "游戏降临现实：绝境竞技",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "15545230986145704152:15:0:2715376026:clks####3@202603191016052AE01DC2635389D590BD",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "24.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "25人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "游戏体育",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：卡皮特韦",
+                "rich_text": "作者：卡皮特韦",
+                "high_light_position": []
+              },
+              {
+                "text": "突然游戏世界降临，不甘平庸的他，或许是幸运女神的眷顾，在一次一次竞技中获得属性、异能，最终在现实中成为站在世界顶端的存在，最后发现游戏世界的奥秘，原来我们也是生活在另一种游戏当中。 在游戏世界降临后，18岁以上，70岁以下全民投身竞技游戏，每3天强制参加一场。竞技游戏初始统一强制参加，参加五次之后，可以自由选择参加或者不参加，但是一个月内至少参加一次。",
+                "rich_text": "突然<em>游戏</em>世界降临，不甘平庸的他，或许是幸运女神的眷顾，在一次一次竞技中获得属性、异能，最终在现实中成为站在世界顶端的存在，最后发现<em>游戏</em>世界的奥秘，原来我们也是生活在另一种<em>游戏</em>当中。\n在<em>游戏</em>世界降临后，18岁以上，70岁以下全民投身竞技<em>游戏</em>，每3天强制参加一场。竞技<em>游戏</em>初始统一强制参加，参加五次之后，可以自由选择参加或者不参加，但是一个月内至少参加一次。",
+                "high_light_position": [
+                  [
+                    2,
+                    2
+                  ],
+                  [
+                    65,
+                    2
+                  ],
+                  [
+                    85,
+                    2
+                  ],
+                  [
+                    92,
+                    2
+                  ],
+                  [
+                    117,
+                    2
+                  ],
+                  [
+                    132,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1016,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7463720041226193982",
+          "search_result_id": "7463720041226193982",
+          "search_high_light": {
+            "abstract": {
+              "text": "【非电子竞技文】【游戏数据流王者】【非传统王者】【新题材】 当王者荣耀被做成风靡全球的全息体验游戏。 当每一位玩家都可以脚踏实地的走上王者大陆。 当公孙离、妲己、西施、貂蝉等绝世美女真切的出现在眼前。 当...... 全球玩家都沸腾了！ “阿离是我的！谁都不准跟我抢！” “哇哈哈哈哈！我将妲己好感度刷到四十了！” “李白哥哥好帅！出道吧我偷我奶奶养老金为你打call！” ...... 【王者荣耀新类型！绝对好看！收藏不亏！】",
+              "rich_text": "【非电子竞技文】【<em>游戏</em>数据流王者】【非传统王者】【新题材】\n当王者荣耀被做成风靡全球的全息<em>体</em>验<em>游戏</em>。\n当每一位玩家都可以脚踏实地的走上王者大陆。\n当公孙离、妲己、西施、貂蝉等绝世美女真切的出现在眼前。\n当......\n全球玩家都沸腾了！\n“阿离是我的！谁都不准跟我抢！”\n“哇哈哈哈哈！我将妲己好感度刷到四十了！”\n“李白哥哥好帅！出道吧我偷我奶奶养老金为你打call！”\n......\n【王者荣耀新类型！绝对好看！收藏不亏！】",
+              "high_light_position": [
+                [
+                  9,
+                  2
+                ],
+                [
+                  47,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "网游王者：我只攻略美女npc",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【非电子竞技文】【游戏数据流王者】【非传统王者】【新题材】\n当王者荣耀被做成风靡全球的全息体验游戏。\n当每一位玩家都可以脚踏实地的走上王者大陆。\n当公孙离、妲己、西施、貂蝉等绝世美女真切的出现在眼前。\n当......\n全球玩家都沸腾了！\n“阿离是我的！谁都不准跟我抢！”\n“哇哈哈哈哈！我将妲己好感度刷到四十了！”\n“李白哥哥好帅！出道吧我偷我奶奶养老金为你打call！”\n......\n【王者荣耀新类型！绝对好看！收藏不亏！】",
+              "author": "薄荷奶绿abc",
+              "book_id": "7463720041226193982",
+              "book_name": "网游王者：我只攻略美女npc",
+              "category": "游戏体育",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-01-25T13:25:41+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7463720077578207806",
+              "first_chapter_item_id": "7463720077578207806",
+              "first_chapter_title": "第1章 王者，启动！",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7590020186774700606",
+              "last_chapter_item_id": "7590020186774700606",
+              "last_chapter_title": "第18章 大结局",
+              "last_chapter_update_time": "1767189307",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "14122",
+              "recommend_group_id": "7463720041226193982",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603191016242AE01DC2635389D59D34\",\"rank\":\"1\",\"normal_session_id\":\"373aa5c6-862d-4816-8c77-a276bc477266\",\"cold_start_session_id\":\"067aa42e-6a77-4cb8-93e3-372d40622555\"}",
+              "read_progress": "0",
+              "serial_count": "708",
+              "source": "番茄小说",
+              "tags": "游戏体育,重生",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/35a848ff426f4d475fa45c88938329c5~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=6XP27hgWpK1kn8iOioRMfGCRtjM%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1506869",
+              "score": "9.1",
+              "exclusive": "1",
+              "role": "林灿",
+              "category_schema": "[{\"category_id\":746,\"name\":\"游戏体育\",\"schema\":\"dragon1967://newCategoryDetail?id=746&name=游戏体育&genre_type=0&gender=1&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=1&source=detail\"},{\"category_id\":379,\"name\":\"求生\",\"schema\":\"dragon1967://newCategoryDetail?id=379&name=求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"},{\"category_id\":830,\"name\":\"升级流\",\"schema\":\"dragon1967://newCategoryDetail?id=830&name=升级流&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7510198990298680345]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1383",
+              "sub_info": "1.5万人在读",
+              "last_publish_time": "1767189319",
+              "authorize_type": "1",
+              "media_id": "1781545993951244",
+              "original_book_name": "王者online：第一玩家！",
+              "length_type": "0",
+              "op_tag": "531,535,536,529,1027,1132,1403",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/35a848ff426f4d475fa45c88938329c5",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/7bb7f5d368c8f4085a4bc520b4fdc7e2",
+              "data_rate": "",
+              "all_bookshelf_count": "1774",
+              "pure_category_tags": "游戏体育,升级流",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#382028",
+              "read_count_all": "986826",
+              "shelf_cnt_history": "238078",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507386\":1741831517,\"6589\":1737947843,\"1967\":1737783463,\"8661\":1737947843,\"2503\":1737783463,\"638505\":1737947843,\"3040\":1737947843,\"596084\":1737947843,\"8704\":1747108897,\"8703\":1744964110,\"2329\":1737783463,\"35\":1737783463,\"13\":1737783463,\"1128\":1737783463,\"510893\":1737783463,\"8662\":1737783463,\"507427\":1741831517}",
+              "category_v2_map": {
+                "36": true,
+                "379": true,
+                "522": true,
+                "830": true,
+                "746": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/35a848ff426f4d475fa45c88938329c5~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=6XP27hgWpK1kn8iOioRMfGCRtjM%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7297213344673436991,
+                  "AuthorName": "薄荷奶绿abc"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/7bb7f5d368c8f4085a4bc520b4fdc7e2~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070584&x-signature=rVpt1VnUfplBIYDgEzXqsvlPDHo%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【非电子竞技文】【游戏数据流王者】【非传统王者】【新题材】\n当王者荣耀被做成风靡全球的全息体验游戏。\n当每一位玩家都可以脚踏实地的走上王者大陆。\n当公孙离、妲己、西施、貂蝉等绝世美女真切的出现在眼前。\n当......\n全球玩家都沸腾了！\n“阿离是我的！谁都不准跟我抢！”\n“哇哈哈哈哈！我将妲己好感度刷到四十了！”\n“李白哥哥好帅！出道吧我偷我奶奶养老金为你打call！”\n......\n【王者荣耀新类型！绝对好看！收藏不亏！】",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.5万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/35a848ff426f4d475fa45c88938329c5~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=z9vkXfKu1aAthiin7IX30Ycjt8E%3D",
+              "raw_book_name": "网游王者：我只攻略美女npc",
+              "color_audio_dominate": "#B1CCB2"
+            }
+          ],
+          "search_attached_info": "15545230986145704152:16:0:3294809632:clks####3@202603191016052AE01DC2635389D590BD",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "多人二刷",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "150.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "游戏体育",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：薄荷奶绿abc",
+                "rich_text": "作者：薄荷奶绿abc",
+                "high_light_position": []
+              },
+              {
+                "text": "【非电子竞技文】【游戏数据流王者】【非传统王者】【新题材】 当王者荣耀被做成风靡全球的全息体验游戏。 当每一位玩家都可以脚踏实地的走上王者大陆。 当公孙离、妲己、西施、貂蝉等绝世美女真切的出现在眼前。 当...... 全球玩家都沸腾了！ “阿离是我的！谁都不准跟我抢！” “哇哈哈哈哈！我将妲己好感度刷到四十了！” “李白哥哥好帅！出道吧我偷我奶奶养老金为你打call！” ...... 【王者荣耀新类型！绝对好看！收藏不亏！】",
+                "rich_text": "【非电子竞技文】【<em>游戏</em>数据流王者】【非传统王者】【新题材】\n当王者荣耀被做成风靡全球的全息<em>体</em>验<em>游戏</em>。\n当每一位玩家都可以脚踏实地的走上王者大陆。\n当公孙离、妲己、西施、貂蝉等绝世美女真切的出现在眼前。\n当......\n全球玩家都沸腾了！\n“阿离是我的！谁都不准跟我抢！”\n“哇哈哈哈哈！我将妲己好感度刷到四十了！”\n“李白哥哥好帅！出道吧我偷我奶奶养老金为你打call！”\n......\n【王者荣耀新类型！绝对好看！收藏不亏！】",
+                "high_light_position": [
+                  [
+                    9,
+                    2
+                  ],
+                  [
+                    47,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1017,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7615605090405075993",
+          "search_result_id": "7615605090405075993",
+          "search_high_light": {
+            "abstract": {
+              "text": "【AG老板文，无系统，原李瑭光作者】 【无宝宝锁，无口罩，JDG提前入场】 这是一个平行世界的故事 林千亿一觉睡醒，时间的指针已经悄然拨回2021年9月，只是，好像有哪里不对劲。 “不是，我那么大一宝宝锁呢？” “怎么连口罩都没有了！” “哦，我是AG老板啊，那没事了。” “赶紧，把初晨给我挂牌了，再去狼队问问他们的青训卖不卖。” “这次转会期，我要大显身手！” 同样的人物，不同的命运。 梓墨没有转会，能否再现eStar王朝的荣光？ WB重组，1200万预算花落谁家？ JDG提前入场，又会买下哪位明星选手？ 年轻的选手展露獠牙之际，老将又能否捍卫自己的荣誉？ 林千亿：相信AG，相信一诺，我们的目标是十冠王！",
+              "rich_text": "【AG老板文，无系统，原李瑭光作者】\n【无宝宝锁，无口罩，JDG提前入场】\n这是一个平行世界的故事\n林千亿一觉睡醒，时间的指针已经悄然拨回2021年9月，只是，好像有哪里不对劲。\n“不是，我那么大一宝宝锁呢？”\n“怎么连口罩都没有了！”\n“哦，我是AG老板啊，那没事了。”\n“赶紧，把初晨给我挂牌了，再去狼队问问他们的青训卖不卖。”\n“这次转会期，我要大显身手！”\n同样的人物，不同的命运。\n梓墨没有转会，能否再现eStar王朝的荣光？\nWB重组，1200万预算花落谁家？\nJDG提前入场，又会买下哪位明星选手？\n年轻的选手展露獠牙之际，老将又能否捍卫自己的荣誉？\n林千亿：相信AG，相信一诺，我们的目标是十冠王！",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "AG老板：打造银河战舰",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【AG老板文，无系统，原李瑭光作者】\n【无宝宝锁，无口罩，JDG提前入场】\n这是一个平行世界的故事\n林千亿一觉睡醒，时间的指针已经悄然拨回2021年9月，只是，好像有哪里不对劲。\n“不是，我那么大一宝宝锁呢？”\n“怎么连口罩都没有了！”\n“哦，我是AG老板啊，那没事了。”\n“赶紧，把初晨给我挂牌了，再去狼队问问他们的青训卖不卖。”\n“这次转会期，我要大显身手！”\n同样的人物，不同的命运。\n梓墨没有转会，能否再现eStar王朝的荣光？\nWB重组，1200万预算花落谁家？\nJDG提前入场，又会买下哪位明星选手？\n年轻的选手展露獠牙之际，老将又能否捍卫自己的荣誉？\n林千亿：相信AG，相信一诺，我们的目标是十冠王！",
+              "author": "何以慰少年",
+              "book_id": "7615605090405075993",
+              "book_name": "AG老板：打造银河战舰",
+              "category": "游戏体育",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-03-10T20:37:15+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7615611482566312473",
+              "first_chapter_item_id": "7615611482566312473",
+              "first_chapter_title": "第1章 我那么大一宝宝锁呢",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618498574157873726",
+              "last_chapter_item_id": "7618498574157873726",
+              "last_chapter_title": "第26章 呵，还想坑我",
+              "last_chapter_update_time": "1773819972",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "1170",
+              "recommend_group_id": "7615605090405075993",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603191016242AE01DC2635389D59D34\",\"rank\":\"1\",\"normal_session_id\":\"373aa5c6-862d-4816-8c77-a276bc477266\",\"cold_start_session_id\":\"067aa42e-6a77-4cb8-93e3-372d40622555\"}",
+              "read_progress": "0",
+              "serial_count": "26",
+              "source": "番茄小说",
+              "tags": "游戏体育,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6f118dee657bdfb1cdb38739a584c860~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=Y9xMG%2Fx4f2bGf%2FdcDlHcuocfWk0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "67970",
+              "score": "0",
+              "exclusive": "1",
+              "role": "林千亿",
+              "category_schema": "[{\"category_id\":746,\"name\":\"游戏体育\",\"schema\":\"dragon1967://newCategoryDetail?id=746&name=游戏体育&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":15,\"name\":\"体育\",\"schema\":\"dragon1967://newCategoryDetail?id=15&name=体育&genre_type=0&gender=1&source=detail\"},{\"category_id\":508,\"name\":\"电竞\",\"schema\":\"dragon1967://newCategoryDetail?id=508&name=电竞&genre_type=0&gender=1&source=detail\"},{\"category_id\":372,\"name\":\"网游\",\"schema\":\"dragon1967://newCategoryDetail?id=372&name=网游&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "69",
+              "sub_info": "1170人在读",
+              "last_publish_time": "1773828490",
+              "authorize_type": "1",
+              "media_id": "1779627955721216",
+              "original_book_name": "AG老板：打造银河战舰",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "9",
+              "thumb_uri": "novel-pic/6f118dee657bdfb1cdb38739a584c860",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6f118dee657bdfb1cdb38739a584c860~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779070584&x-signature=egzyZjcHxat9KI%2BrjXeCNzJYUOU%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "507",
+              "pure_category_tags": "游戏体育,网游",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#201820",
+              "read_count_all": "1170",
+              "shelf_cnt_history": "984",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"6589\":1773230072,\"8661\":1773230072,\"507386\":1773147875,\"8704\":1773147813,\"35\":1773147813,\"596084\":1773230072,\"8662\":1773147813,\"13\":1773147813,\"507427\":1773147875,\"2503\":1773147813,\"2329\":1773147813,\"638505\":1773230072,\"510893\":1773147813,\"1967\":1773147813,\"8703\":1773147813,\"1128\":1773147813,\"3040\":1773230072}",
+              "category_v2_map": {
+                "508": true,
+                "37": true,
+                "372": true,
+                "746": true,
+                "15": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6f118dee657bdfb1cdb38739a584c860~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=Y9xMG%2Fx4f2bGf%2FdcDlHcuocfWk0%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7289841863048041767,
+                  "AuthorName": "何以慰少年"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6f118dee657bdfb1cdb38739a584c860~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070584&x-signature=OvMP6crBdiroG1r9lLFg%2F0cuXEY%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【AG老板文，无系统，原李瑭光作者】\n【无宝宝锁，无口罩，JDG提前入场】\n这是一个平行世界的故事\n林千亿一觉睡醒，时间的指针已经悄然拨回2021年9月，只是，好像有哪里不对劲。\n“不是，我那么大一宝宝锁呢？”\n“怎么连口罩都没有了！”\n“哦，我是AG老板啊，那没事了。”\n“赶紧，把初晨给我挂牌了，再去狼队问问他们的青训卖不卖。”\n“这次转会期，我要大显身手！”\n同样的人物，不同的命运。\n梓墨没有转会，能否再现eStar王朝的荣光？\nWB重组，1200万预算花落谁家？\nJDG提前入场，又会买下哪位明星选手？\n年轻的选手展露獠牙之际，老将又能否捍卫自己的荣誉？\n林千亿：相信AG，相信一诺，我们的目标是十冠王！",
+              "read_page_progress": "0",
+              "read_cnt_text": "1170人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6f118dee657bdfb1cdb38739a584c860~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=Ei68UPVjSdYg2pQExO%2BM1BAdrXQ%3D",
+              "raw_book_name": "AG老板：打造银河战舰",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "15545230986145704152:17:0:720860890:clks####3@202603191016052AE01DC2635389D590BD",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "6.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1170人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "游戏体育",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：何以慰少年",
+                "rich_text": "作者：何以慰少年",
+                "high_light_position": []
+              },
+              {
+                "text": "【AG老板文，无系统，原李瑭光作者】 【无宝宝锁，无口罩，JDG提前入场】 这是一个平行世界的故事 林千亿一觉睡醒，时间的指针已经悄然拨回2021年9月，只是，好像有哪里不对劲。 “不是，我那么大一宝宝锁呢？” “怎么连口罩都没有了！” “哦，我是AG老板啊，那没事了。” “赶紧，把初晨给我挂牌了，再去狼队问问他们的青训卖不卖。” “这次转会期，我要大显身手！” 同样的人物，不同的命运。 梓墨没有转会，能否再现eStar王朝的荣光？ WB重组，1200万预算花落谁家？ JDG提前入场，又会买下哪位明星选手？ 年轻的选手展露獠牙之际，老将又能否捍卫自己的荣誉？ 林千亿：相信AG，相信一诺，我们的目标是十冠王！",
+                "rich_text": "【AG老板文，无系统，原李瑭光作者】\n【无宝宝锁，无口罩，JDG提前入场】\n这是一个平行世界的故事\n林千亿一觉睡醒，时间的指针已经悄然拨回2021年9月，只是，好像有哪里不对劲。\n“不是，我那么大一宝宝锁呢？”\n“怎么连口罩都没有了！”\n“哦，我是AG老板啊，那没事了。”\n“赶紧，把初晨给我挂牌了，再去狼队问问他们的青训卖不卖。”\n“这次转会期，我要大显身手！”\n同样的人物，不同的命运。\n梓墨没有转会，能否再现eStar王朝的荣光？\nWB重组，1200万预算花落谁家？\nJDG提前入场，又会买下哪位明星选手？\n年轻的选手展露獠牙之际，老将又能否捍卫自己的荣誉？\n林千亿：相信AG，相信一诺，我们的目标是十冠王！",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1018,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7444896026231589950",
+          "search_result_id": "7444896026231589950",
+          "search_high_light": {
+            "abstract": {
+              "text": "...睁开眼，又重生回到了游戏开服前一天。 前世，神秘修仙网游《问仙》运行两年半时，忽然与现实世界融合，玩家们都拥有了游戏中的力量。 蓝星大地生灵涂炭，罪恶横行，叶寻与相依为命的姐姐惨死在浩劫之下。 这一世，凭借着意外得到的圣器，与对游戏的了解，他势必要登临绝巅，扭转乾坤。 …… 面对游戏里仙女师父、妖艳女帝、绝色掌门……的青睐，叶寻对天发誓： “我真不是魅魔啊！” “我是来修仙的！” …… 大型虚拟现实游戏——《问仙》正式开服！ 欢迎来到问仙界， 祝愿诸君得道飞升！",
+              "rich_text": "【网<em>游</em>】+【仙侠】+【数据流】+【多女主】+【无敌】\n叶寻睁开眼，又重生回到了<em>游戏</em>开服前一天。\n前世，神秘修仙网<em>游</em>《问仙》运行两年半时，忽然与现实世界融合，玩家们都拥有了<em>游戏</em>中的力量。\n蓝星大地生灵涂炭，罪恶横行，叶寻与相依为命的姐姐惨死在浩劫之下。\n这一世，凭借着意外得到的圣器，与对<em>游戏</em>的了解，他势必要登临绝巅，扭转乾坤。\n……\n面对<em>游戏</em>里仙女师父、妖艳女帝、绝色掌门……的青睐，叶寻对天发誓：\n“我真不是魅魔啊！”\n“我是来修仙的！”\n……\n大型虚拟现实<em>游戏</em>——《问仙》正式开服！\n欢迎来到问仙界，\n祝愿诸君得道飞升！",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  59,
+                  2
+                ],
+                [
+                  117,
+                  2
+                ],
+                [
+                  143,
+                  2
+                ],
+                [
+                  204,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "网游：我霸占了系统公告",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【网游】+【仙侠】+【数据流】+【多女主】+【无敌】\n叶寻睁开眼，又重生回到了游戏开服前一天。\n前世，神秘修仙网游《问仙》运行两年半时，忽然与现实世界融合，玩家们都拥有了游戏中的力量。\n蓝星大地生灵涂炭，罪恶横行，叶寻与相依为命的姐姐惨死在浩劫之下。\n这一世，凭借着意外得到的圣器，与对游戏的了解，他势必要登临绝巅，扭转乾坤。\n……\n面对游戏里仙女师父、妖艳女帝、绝色掌门……的青睐，叶寻对天发誓：\n“我真不是魅魔啊！”\n“我是来修仙的！”\n……\n大型虚拟现实游戏——《问仙》正式开服！\n欢迎来到问仙界，\n祝愿诸君得道飞升！",
+              "author": "相传丶",
+              "book_id": "7444896026231589950",
+              "book_name": "网游：我霸占了系统公告",
+              "category": "游戏体育",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-12-05T19:58:53+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7454983589822726718",
+              "first_chapter_item_id": "7454983589822726718",
+              "first_chapter_title": "第1章 造化圣宝",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618578203782677054",
+              "last_chapter_item_id": "7618578203782677054",
+              "last_chapter_title": "第769章 又被浅梦抢了",
+              "last_chapter_update_time": "1773838811",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "57677",
+              "recommend_group_id": "7444896026231589950",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603191016242AE01DC2635389D59D34\",\"rank\":\"1\",\"normal_session_id\":\"373aa5c6-862d-4816-8c77-a276bc477266\",\"cold_start_session_id\":\"067aa42e-6a77-4cb8-93e3-372d40622555\"}",
+              "read_progress": "0",
+              "serial_count": "769",
+              "source": "番茄小说",
+              "tags": "游戏体育,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c7ccdcb82af9ccdab871043932718062~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=sbhEomgD4TwfolqxFx58yEDNiiY%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1690465",
+              "score": "8.1",
+              "exclusive": "1",
+              "role": "叶寻,司凝",
+              "category_schema": "[{\"category_id\":746,\"name\":\"游戏体育\",\"schema\":\"dragon1967://newCategoryDetail?id=746&name=游戏体育&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":80,\"name\":\"剑道\",\"schema\":\"dragon1967://newCategoryDetail?id=80&name=剑道&genre_type=0&gender=1&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":372,\"name\":\"网游\",\"schema\":\"dragon1967://newCategoryDetail?id=372&name=网游&genre_type=0&gender=1&source=detail\"},{\"category_id\":868,\"name\":\"剑修\",\"schema\":\"dragon1967://newCategoryDetail?id=868&name=剑修&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7512427887723547710]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "8606",
+              "sub_info": "5.8万人在读",
+              "last_publish_time": "1773839012",
+              "authorize_type": "1",
+              "media_id": "1736553985884167",
+              "original_book_name": "游戏融合现实，我能一剑开天",
+              "length_type": "0",
+              "op_tag": "531,535,536,1029,1024,1128,1132",
+              "keep_publish_days": "3",
+              "thumb_uri": "novel-pic/c7ccdcb82af9ccdab871043932718062",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/30ea6ac11642a7a316fbe17665da8167",
+              "data_rate": "",
+              "all_bookshelf_count": "7187",
+              "pure_category_tags": "游戏体育,剑修",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#c8d8e0",
+              "read_count_all": "1521161",
+              "shelf_cnt_history": "303172",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"510893\":1735750212,\"638505\":1736131691,\"8662\":1735750212,\"8704\":1747120387,\"2503\":1735750212,\"3040\":1736131691,\"13\":1735750212,\"1128\":1735750212,\"596084\":1736131691,\"35\":1735750212,\"507427\":1741784517,\"8703\":1744951465,\"1967\":1735750212,\"8661\":1736131691,\"507386\":1741784517,\"2329\":1735750212,\"6589\":1736131691}",
+              "category_v2_map": {
+                "746": true,
+                "37": true,
+                "80": true,
+                "372": true,
+                "868": true,
+                "91": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c7ccdcb82af9ccdab871043932718062~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=sbhEomgD4TwfolqxFx58yEDNiiY%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7112931269045916965,
+                  "AuthorName": "相传丶"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/30ea6ac11642a7a316fbe17665da8167~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070584&x-signature=YtxFGLy%2BiPp3hdiXQILLI4%2FphYg%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【网游】+【仙侠】+【数据流】+【多女主】+【无敌】\n叶寻睁开眼，又重生回到了游戏开服前一天。\n前世，神秘修仙网游《问仙》运行两年半时，忽然与现实世界融合，玩家们都拥有了游戏中的力量。\n蓝星大地生灵涂炭，罪恶横行，叶寻与相依为命的姐姐惨死在浩劫之下。\n这一世，凭借着意外得到的圣器，与对游戏的了解，他势必要登临绝巅，扭转乾坤。\n……\n面对游戏里仙女师父、妖艳女帝、绝色掌门……的青睐，叶寻对天发誓：\n“我真不是魅魔啊！”\n“我是来修仙的！”\n……\n大型虚拟现实游戏——《问仙》正式开服！\n欢迎来到问仙界，\n祝愿诸君得道飞升！",
+              "read_page_progress": "0",
+              "read_cnt_text": "5.8万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c7ccdcb82af9ccdab871043932718062~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=M3AWyLrdqxx2miER5NkOJ9N8lIo%3D",
+              "raw_book_name": "网游：我霸占了系统公告",
+              "color_audio_dominate": "#122B66"
+            }
+          ],
+          "search_attached_info": "15545230986145704152:18:0:488794958:clks####3@202603191016052AE01DC2635389D590BD",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "169.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "5万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "游戏体育",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：相传丶",
+                "rich_text": "作者：相传丶",
+                "high_light_position": []
+              },
+              {
+                "text": "...睁开眼，又重生回到了游戏开服前一天。 前世，神秘修仙网游《问仙》运行两年半时，忽然与现实世界融合，玩家们都拥有了游戏中的力量。 蓝星大地生灵涂炭，罪恶横行，叶寻与相依为命的姐姐惨死在浩劫之下。 这一世，凭借着意外得到的圣器，与对游戏的了解，他势必要登临绝巅，扭转乾坤。 …… 面对游戏里仙女师父、妖艳女帝、绝色掌门……的青睐，叶寻对天发誓： “我真不是魅魔啊！” “我是来修仙的！” …… 大型虚拟现实游戏——《问仙》正式开服！ 欢迎来到问仙界， 祝愿诸君得道飞升！",
+                "rich_text": "【网<em>游</em>】+【仙侠】+【数据流】+【多女主】+【无敌】\n叶寻睁开眼，又重生回到了<em>游戏</em>开服前一天。\n前世，神秘修仙网<em>游</em>《问仙》运行两年半时，忽然与现实世界融合，玩家们都拥有了<em>游戏</em>中的力量。\n蓝星大地生灵涂炭，罪恶横行，叶寻与相依为命的姐姐惨死在浩劫之下。\n这一世，凭借着意外得到的圣器，与对<em>游戏</em>的了解，他势必要登临绝巅，扭转乾坤。\n……\n面对<em>游戏</em>里仙女师父、妖艳女帝、绝色掌门……的青睐，叶寻对天发誓：\n“我真不是魅魔啊！”\n“我是来修仙的！”\n……\n大型虚拟现实<em>游戏</em>——《问仙》正式开服！\n欢迎来到问仙界，\n祝愿诸君得道飞升！",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    59,
+                    2
+                  ],
+                  [
+                    117,
+                    2
+                  ],
+                  [
+                    143,
+                    2
+                  ],
+                  [
+                    204,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1019,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7373633865635613758",
+          "search_result_id": "7373633865635613758",
+          "search_high_light": {
+            "abstract": {
+              "text": "...主+独狼+杀伐果断+游戏npc+多位面世界+玩家+微搞笑+带点抽象】 【全文没有任何小头控制大头】 【主角只想提升实力】 ——————— 顾夜明穿越游戏成为了一名NPC，还是莫雷德公司的1145号实验体 天崩开局！ 等等，开局战斗天赋直接拉满了是怎么回事？ 什么？还能选择无限职业？ 若干年后，站立在巅峰的顾夜明再度出现在玩家面前时，头衔已然发生了巨大变化！ 接下来站在你面前的，是『冥影•绝巅•万职归一•虫灾破灭者•深渊之敌•诡异之敌•寰宇最强』——顾夜明大人！ ——————— 某敌对玩家：“那个NPC是谁？等等，快跑！是顾夜明！我们完蛋了！/哀嚎” IGU公会玩家：“我们爱顾公会秉持为了顾村长的美好生活而努力奋斗，小萌新，这是我们为村长制作的宣传图像，加入我们吧！” 小萌新一脸懵逼地接过图像，下一秒就被那堪比十级美颜、下巴尖得能戳死人的人像给闪瞎了眼。 “如何？我们村长大人是不是帅气逼人，浑身散发着王霸之气？” “呃....应该是吧。” —————————— 本书又名： 《关于玩家被我堵复活点破防下号的这件事》 《守护我们最好的顾村长》 简介无力，请各位衣食父母步入正文（爱心）",
+              "rich_text": "【无女主+独狼+杀伐果断+<em>游戏</em>npc+多位面世界+玩家+微搞笑+带点抽象】\n【全文没有任何小头控制大头】\n【主角只想提升实力】\n———————\n顾夜明穿越<em>游戏</em>成为了一名NPC，还是莫雷德公司的1145号实验<em>体</em>\n天崩开局！\n等等，开局战斗天赋直接拉满了是怎么回事？\n什么？还能选择无限职业？\n若干年后，站立在巅峰的顾夜明再度出现在玩家面前时，头衔已然发生了巨大变化！\n接下来站在你面前的，是『冥影•绝巅•万职归一•虫灾破灭者•深渊之敌•诡异之敌•寰宇最强』——顾夜明大人！\n———————\n某敌对玩家：“那个NPC是谁？等等，快跑！是顾夜明！我们完蛋了！/哀嚎”\nIGU公会玩家：“我们爱顾公会秉持为了顾村长的美好生活而努力奋斗，小萌新，这是我们为村长制作的宣传图像，加入我们吧！”\n小萌新一脸懵逼地接过图像，下一秒就被那堪比十级美颜、下巴尖得能戳死人的人像给闪瞎了眼。\n“如何？我们村长大人是不是帅气逼人，浑身散发着王霸之气？”\n“呃....应该是吧。”\n——————————\n本书又名：\n《关于玩家被我堵复活点破防下号的这件事》\n《守护我们最好的顾村长》\n简介无力，请各位衣食父母步入正文（爱心）",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  77,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "职业那么多，你直接全选了？",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【无女主+独狼+杀伐果断+游戏npc+多位面世界+玩家+微搞笑+带点抽象】\n【全文没有任何小头控制大头】\n【主角只想提升实力】\n———————\n顾夜明穿越游戏成为了一名NPC，还是莫雷德公司的1145号实验体\n天崩开局！\n等等，开局战斗天赋直接拉满了是怎么回事？\n什么？还能选择无限职业？\n若干年后，站立在巅峰的顾夜明再度出现在玩家面前时，头衔已然发生了巨大变化！\n接下来站在你面前的，是『冥影•绝巅•万职归一•虫灾破灭者•深渊之敌•诡异之敌•寰宇最强』——顾夜明大人！\n———————\n某敌对玩家：“那个NPC是谁？等等，快跑！是顾夜明！我们完蛋了！/哀嚎”\nIGU公会玩家：“我们爱顾公会秉持为了顾村长的美好生活而努力奋斗，小萌新，这是我们为村长制作的宣传图像，加入我们吧！”\n小萌新一脸懵逼地接过图像，下一秒就被那堪比十级美颜、下巴尖得能戳死人的人像给闪瞎了眼。\n“如何？我们村长大人是不是帅气逼人，浑身散发着王霸之气？”\n“呃....应该是吧。”\n——————————\n本书又名：\n《关于玩家被我堵复活点破防下号的这件事》\n《守护我们最好的顾村长》\n简介无力，请各位衣食父母步入正文（爱心）",
+              "author": "生菜蛋子",
+              "book_id": "7373633865635613758",
+              "book_name": "职业那么多，你直接全选了？",
+              "category": "游戏体育",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-05-27T19:05:19+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7373633868475138622",
+              "first_chapter_item_id": "7373633868475138622",
+              "first_chapter_title": "第1章 我是NPC！？？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7519379408201712152",
+              "last_chapter_item_id": "7519379408201712152",
+              "last_chapter_title": "第704章 故事还没有结束",
+              "last_chapter_update_time": "1750768937",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "12240",
+              "recommend_group_id": "7373633865635613758",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603191016242AE01DC2635389D59D34\",\"rank\":\"1\",\"normal_session_id\":\"373aa5c6-862d-4816-8c77-a276bc477266\",\"cold_start_session_id\":\"067aa42e-6a77-4cb8-93e3-372d40622555\"}",
+              "read_progress": "0",
+              "serial_count": "704",
+              "source": "番茄小说",
+              "tags": "游戏体育,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4502bdf2becf24e5a855c19ecc492539~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=BVaMmv%2FQjKJfCMwNGce2Ad23rTY%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1456192",
+              "score": "8.9",
+              "exclusive": "1",
+              "role": "顾夜明",
+              "category_schema": "[{\"category_id\":746,\"name\":\"游戏体育\",\"schema\":\"dragon1967://newCategoryDetail?id=746&name=游戏体育&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":372,\"name\":\"网游\",\"schema\":\"dragon1967://newCategoryDetail?id=372&name=网游&genre_type=0&gender=1&source=detail\"},{\"category_id\":391,\"name\":\"无女主\",\"schema\":\"dragon1967://newCategoryDetail?id=391&name=无女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":838,\"name\":\"无后宫\",\"schema\":\"dragon1967://newCategoryDetail?id=838&name=无后宫&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1782",
+              "sub_info": "1.3万人在读",
+              "last_publish_time": "1751126473",
+              "authorize_type": "1",
+              "media_id": "1731447240030223",
+              "original_book_name": "职业游戏NPC：玩家被我虐哭了",
+              "length_type": "0",
+              "op_tag": "531,535,536,245,1027,1132,1130",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/4502bdf2becf24e5a855c19ecc492539",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/31726a0e065896a6659f7b16e55d820c",
+              "data_rate": "",
+              "all_bookshelf_count": "1843",
+              "pure_category_tags": "游戏体育,无后宫",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#202028",
+              "read_count_all": "1172531",
+              "shelf_cnt_history": "253697",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8703\":1744967290,\"8661\":1720278023,\"6589\":1720278023,\"507427\":1741784109,\"507386\":1741784109,\"596084\":1720278023,\"2329\":1719989440,\"510893\":1719989440,\"2503\":1719989440,\"13\":1719989440,\"3040\":1720278023,\"638505\":1724774984,\"8662\":1719989440,\"1128\":1719989440,\"1967\":1719989440,\"8704\":1747109590,\"35\":1719989440}",
+              "category_v2_map": {
+                "391": true,
+                "37": true,
+                "838": true,
+                "746": true,
+                "19": true,
+                "372": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4502bdf2becf24e5a855c19ecc492539~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=BVaMmv%2FQjKJfCMwNGce2Ad23rTY%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7092279673626826025,
+                  "AuthorName": "生菜蛋子"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "无限：位面",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/31726a0e065896a6659f7b16e55d820c~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779070584&x-signature=egL3kI8pToLq%2BiHD2RDyxLGiSK8%3D",
+              "reputation_thumb_uri": "novel-pic-r/422835abca3e2e5f14542924a8bd5d4b",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【无女主+独狼+杀伐果断+游戏npc+多位面世界+玩家+微搞笑+带点抽象】\n【全文没有任何小头控制大头】\n【主角只想提升实力】\n———————\n顾夜明穿越游戏成为了一名NPC，还是莫雷德公司的1145号实验体\n天崩开局！\n等等，开局战斗天赋直接拉满了是怎么回事？\n什么？还能选择无限职业？\n若干年后，站立在巅峰的顾夜明再度出现在玩家面前时，头衔已然发生了巨大变化！\n接下来站在你面前的，是『冥影•绝巅•万职归一•虫灾破灭者•深渊之敌•诡异之敌•寰宇最强』——顾夜明大人！\n———————\n某敌对玩家：“那个NPC是谁？等等，快跑！是顾夜明！我们完蛋了！/哀嚎”\nIGU公会玩家：“我们爱顾公会秉持为了顾村长的美好生活而努力奋斗，小萌新，这是我们为村长制作的宣传图像，加入我们吧！”\n小萌新一脸懵逼地接过图像，下一秒就被那堪比十级美颜、下巴尖得能戳死人的人像给闪瞎了眼。\n“如何？我们村长大人是不是帅气逼人，浑身散发着王霸之气？”\n“呃....应该是吧。”\n——————————\n本书又名：\n《关于玩家被我堵复活点破防下号的这件事》\n《守护我们最好的顾村长》\n简介无力，请各位衣食父母步入正文（爱心）",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.3万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4502bdf2becf24e5a855c19ecc492539~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779070584&x-signature=h0lAEbGWW9fgZ0zONG2Ipcq7JCY%3D",
+              "raw_book_name": "职业那么多，你直接全选了？",
+              "color_audio_dominate": "#25242A"
+            }
+          ],
+          "search_attached_info": "15545230986145704152:19:0:652335325:clks####3@202603191016052AE01DC2635389D590BD",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "145.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "游戏体育",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：生菜蛋子",
+                "rich_text": "作者：生菜蛋子",
+                "high_light_position": []
+              },
+              {
+                "text": "...主+独狼+杀伐果断+游戏npc+多位面世界+玩家+微搞笑+带点抽象】 【全文没有任何小头控制大头】 【主角只想提升实力】 ——————— 顾夜明穿越游戏成为了一名NPC，还是莫雷德公司的1145号实验体 天崩开局！ 等等，开局战斗天赋直接拉满了是怎么回事？ 什么？还能选择无限职业？ 若干年后，站立在巅峰的顾夜明再度出现在玩家面前时，头衔已然发生了巨大变化！ 接下来站在你面前的，是『冥影•绝巅•万职归一•虫灾破灭者•深渊之敌•诡异之敌•寰宇最强』——顾夜明大人！ ——————— 某敌对玩家：“那个NPC是谁？等等，快跑！是顾夜明！我们完蛋了！/哀嚎” IGU公会玩家：“我们爱顾公会秉持为了顾村长的美好生活而努力奋斗，小萌新，这是我们为村长制作的宣传图像，加入我们吧！” 小萌新一脸懵逼地接过图像，下一秒就被那堪比十级美颜、下巴尖得能戳死人的人像给闪瞎了眼。 “如何？我们村长大人是不是帅气逼人，浑身散发着王霸之气？” “呃....应该是吧。” —————————— 本书又名： 《关于玩家被我堵复活点破防下号的这件事》 《守护我们最好的顾村长》 简介无力，请各位衣食父母步入正文（爱心）",
+                "rich_text": "【无女主+独狼+杀伐果断+<em>游戏</em>npc+多位面世界+玩家+微搞笑+带点抽象】\n【全文没有任何小头控制大头】\n【主角只想提升实力】\n———————\n顾夜明穿越<em>游戏</em>成为了一名NPC，还是莫雷德公司的1145号实验<em>体</em>\n天崩开局！\n等等，开局战斗天赋直接拉满了是怎么回事？\n什么？还能选择无限职业？\n若干年后，站立在巅峰的顾夜明再度出现在玩家面前时，头衔已然发生了巨大变化！\n接下来站在你面前的，是『冥影•绝巅•万职归一•虫灾破灭者•深渊之敌•诡异之敌•寰宇最强』——顾夜明大人！\n———————\n某敌对玩家：“那个NPC是谁？等等，快跑！是顾夜明！我们完蛋了！/哀嚎”\nIGU公会玩家：“我们爱顾公会秉持为了顾村长的美好生活而努力奋斗，小萌新，这是我们为村长制作的宣传图像，加入我们吧！”\n小萌新一脸懵逼地接过图像，下一秒就被那堪比十级美颜、下巴尖得能戳死人的人像给闪瞎了眼。\n“如何？我们村长大人是不是帅气逼人，浑身散发着王霸之气？”\n“呃....应该是吧。”\n——————————\n本书又名：\n《关于玩家被我堵复活点破防下号的这件事》\n《守护我们最好的顾村长》\n简介无力，请各位衣食父母步入正文（爱心）",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    77,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "20",
+      "search_id": "clks####3@202603191016052AE01DC2635389D590BD",
+      "query": "游戏体育",
+      "next_offset": 20,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@202603191016052AE01DC2635389D590BD",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"202603191016242AE01DC2635389D59D34\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@202603191016052AE01DC2635389D590BD",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@202603191016052AE01DC2635389D590BD",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "202603191016242AE01DC2635389D59D34"
+}

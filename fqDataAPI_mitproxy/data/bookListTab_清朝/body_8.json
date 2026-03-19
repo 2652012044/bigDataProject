@@ -1,0 +1,2604 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@202603190955178E4D7F705118A75C1002",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@202603190955178E4D7F705118A75C1002",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@202603190955178E4D7F705118A75C1002",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@202603190955178E4D7F705118A75C1002",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@202603190955178E4D7F705118A75C1002",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@202603190955178E4D7F705118A75C1002",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1050,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7541749587778735166",
+          "search_result_id": "7541749587778735166",
+          "search_high_light": {
+            "title": {
+              "text": "穿越清朝之特种兵王",
+              "rich_text": "穿越<em>清朝</em>之特种兵王",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...册穿越康熙朝，整个大清朝都乱了！ 别人还在用弓箭，他改良的燧发枪能百步穿杨； 别人还在靠漕运，他造的蒸汽机车能日行千里； 别人还在玩权谋，他直接搞出 “特种兵新军”，用三三制战术把准噶尔骑兵按在地上摩擦！ 毓宁公主：“你这‘地雷’比红衣大炮还厉害！” 林远：“别急，下次给你造铁甲舰！” 可当罗刹国带着穿越者送来的线膛炮来袭，当时空裂缝开始吞噬历史时，林远才发现： 用科技改变清朝容易，难的是对抗那些想 “篡改历史” 的未来敌人！",
+              "rich_text": "当现代特种兵林远带着战术手册穿越康熙<em>朝</em>，整个大<em>清朝</em>都乱了！\n别人还在用弓箭，他改良的燧发枪能百步穿杨；\n别人还在靠漕运，他造的蒸汽机车能日行千里；\n别人还在玩权谋，他直接搞出 “特种兵新军”，用三三制战术把准噶尔骑兵按在地上摩擦！\n毓宁公主：“你这‘地雷’比红衣大炮还厉害！”\n林远：“别急，下次给你造铁甲舰！”\n可当罗刹国带着穿越者送来的线膛炮来袭，当时空裂缝开始吞噬历史时，林远才发现：\n用科技改变<em>清朝</em>容易，难的是对抗那些想 “篡改历史” 的未来敌人！",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  191,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "当现代特种兵林远带着战术手册穿越康熙朝，整个大清朝都乱了！\n别人还在用弓箭，他改良的燧发枪能百步穿杨；\n别人还在靠漕运，他造的蒸汽机车能日行千里；\n别人还在玩权谋，他直接搞出 “特种兵新军”，用三三制战术把准噶尔骑兵按在地上摩擦！\n毓宁公主：“你这‘地雷’比红衣大炮还厉害！”\n林远：“别急，下次给你造铁甲舰！”\n可当罗刹国带着穿越者送来的线膛炮来袭，当时空裂缝开始吞噬历史时，林远才发现：\n用科技改变清朝容易，难的是对抗那些想 “篡改历史” 的未来敌人！",
+              "author": "番茄和土豆丝",
+              "book_id": "7541749587778735166",
+              "book_name": "穿越清朝之特种兵王",
+              "category": "历史古代",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-08-23T20:00:11+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7541749807845491262",
+              "first_chapter_item_id": "7541749807845491262",
+              "first_chapter_title": "第1章 意外穿越",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7547664547310469656",
+              "last_chapter_item_id": "7547664547310469656",
+              "last_chapter_title": "第30章 盛世婚礼",
+              "last_chapter_update_time": "1758607483",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "23",
+              "recommend_group_id": "7541749587778735166",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603190956495CCC9A6F427CCDF179B5\",\"rank\":\"1\",\"normal_session_id\":\"9951bd41-075a-482c-8cea-7b108fd3ffed\",\"cold_start_session_id\":\"f16a4ced-d2c0-48ed-85f3-fe4feed08691\"}",
+              "read_progress": "0",
+              "serial_count": "149",
+              "source": "番茄小说",
+              "tags": "历史古代,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o26c3fcf98f344df05fa21a92ed74cf1e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=AozuPCGm8Ij2l%2BXPTc2JfHhz6W0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "336300",
+              "score": "0",
+              "exclusive": "1",
+              "role": "林远,毓宁",
+              "category_schema": "[{\"category_id\":273,\"name\":\"历史古代\",\"schema\":\"dragon1967://newCategoryDetail?id=273&name=历史古代&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"},{\"category_id\":503,\"name\":\"清朝\",\"schema\":\"dragon1967://newCategoryDetail?id=503&name=清朝&genre_type=0&gender=1&source=detail\"},{\"category_id\":375,\"name\":\"特种兵\",\"schema\":\"dragon1967://newCategoryDetail?id=375&name=特种兵&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"},{\"category_id\":837,\"name\":\"争霸\",\"schema\":\"dragon1967://newCategoryDetail?id=837&name=争霸&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "8",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1759194009",
+              "authorize_type": "1",
+              "media_id": "1740116488824832",
+              "original_book_name": "穿越清朝之特种兵王",
+              "length_type": "1",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2o26c3fcf98f344df05fa21a92ed74cf1e",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o26c3fcf98f344df05fa21a92ed74cf1e~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069410&x-signature=i5iR%2BL4p%2F7PIn6A2DisNGqRV014%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "历史古代,争霸",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#403830",
+              "read_count_all": "1834",
+              "shelf_cnt_history": "957",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8661\":1756224577,\"3040\":1756224577,\"507386\":1755950658,\"507427\":1755950658,\"8704\":1755950611,\"6589\":1756224577,\"1967\":1755950611,\"8662\":1755950611,\"8703\":1755950611,\"596084\":1756224577,\"2329\":1755950611,\"510893\":1755950611,\"35\":1755950611,\"2503\":1755950611,\"1128\":1755950611,\"13\":1755950611,\"638505\":1756224577}",
+              "category_v2_map": {
+                "854": true,
+                "837": true,
+                "273": true,
+                "37": true,
+                "12": true,
+                "503": true,
+                "375": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o26c3fcf98f344df05fa21a92ed74cf1e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=AozuPCGm8Ij2l%2BXPTc2JfHhz6W0%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7540997382222140697,
+                  "AuthorName": "番茄和土豆丝"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o26c3fcf98f344df05fa21a92ed74cf1e~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069410&x-signature=YfLsqeKDI%2BScsYVLhmUhx2B%2BRA4%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "当现代特种兵林远带着战术手册穿越康熙朝，整个大清朝都乱了！\n别人还在用弓箭，他改良的燧发枪能百步穿杨；\n别人还在靠漕运，他造的蒸汽机车能日行千里；\n别人还在玩权谋，他直接搞出 “特种兵新军”，用三三制战术把准噶尔骑兵按在地上摩擦！\n毓宁公主：“你这‘地雷’比红衣大炮还厉害！”\n林远：“别急，下次给你造铁甲舰！”\n可当罗刹国带着穿越者送来的线膛炮来袭，当时空裂缝开始吞噬历史时，林远才发现：\n用科技改变清朝容易，难的是对抗那些想 “篡改历史” 的未来敌人！",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o26c3fcf98f344df05fa21a92ed74cf1e~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=Ki7mX1qTEQgffy2sslTc892KghM%3D",
+              "raw_book_name": "穿越清朝之特种兵王",
+              "color_audio_dominate": "#C8C5BF",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "8721138789164478711:50:0:3153619447:clks####3@202603190955178E4D7F705118A75C1002",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "33.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "23人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史古代",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：番茄和土豆丝",
+                "rich_text": "作者：番茄和土豆丝",
+                "high_light_position": []
+              },
+              {
+                "text": "...册穿越康熙朝，整个大清朝都乱了！ 别人还在用弓箭，他改良的燧发枪能百步穿杨； 别人还在靠漕运，他造的蒸汽机车能日行千里； 别人还在玩权谋，他直接搞出 “特种兵新军”，用三三制战术把准噶尔骑兵按在地上摩擦！ 毓宁公主：“你这‘地雷’比红衣大炮还厉害！” 林远：“别急，下次给你造铁甲舰！” 可当罗刹国带着穿越者送来的线膛炮来袭，当时空裂缝开始吞噬历史时，林远才发现： 用科技改变清朝容易，难的是对抗那些想 “篡改历史” 的未来敌人！",
+                "rich_text": "当现代特种兵林远带着战术手册穿越康熙<em>朝</em>，整个大<em>清朝</em>都乱了！\n别人还在用弓箭，他改良的燧发枪能百步穿杨；\n别人还在靠漕运，他造的蒸汽机车能日行千里；\n别人还在玩权谋，他直接搞出 “特种兵新军”，用三三制战术把准噶尔骑兵按在地上摩擦！\n毓宁公主：“你这‘地雷’比红衣大炮还厉害！”\n林远：“别急，下次给你造铁甲舰！”\n可当罗刹国带着穿越者送来的线膛炮来袭，当时空裂缝开始吞噬历史时，林远才发现：\n用科技改变<em>清朝</em>容易，难的是对抗那些想 “篡改历史” 的未来敌人！",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    191,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1051,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7600783420553169944",
+          "search_result_id": "7600783420553169944",
+          "search_high_light": {
+            "abstract": {
+              "text": "...始末的史书。 全景再现清朝的政治、军事与社会变迁，深度解析中国最后一个封建王朝的辉煌与沉沦。",
+              "rich_text": "一部讲述大<em>清</em>王<em>朝</em>三百年兴亡始末的史书。\n全景再现<em>清朝</em>的政治、军事与社会变迁，深度解析中国最后一个封建王<em>朝</em>的辉煌与沉沦。",
+              "high_light_position": [
+                [
+                  14,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "大清国",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "一部讲述大清王朝三百年兴亡始末的史书。\n全景再现清朝的政治、军事与社会变迁，深度解析中国最后一个封建王朝的辉煌与沉沦。",
+              "author": "不会飞的仙",
+              "book_id": "7600783420553169944",
+              "book_name": "大清国",
+              "category": "历史古代",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-29T22:01:36+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7600783456393511448",
+              "first_chapter_item_id": "7600783456393511448",
+              "first_chapter_title": "第1章 十三副铠甲起兵",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7605048799169364504",
+              "last_chapter_item_id": "7605048799169364504",
+              "last_chapter_title": "第 59章 民国终章",
+              "last_chapter_update_time": "1770688684",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "2",
+              "recommend_group_id": "7600783420553169944",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603190956495CCC9A6F427CCDF179B5\",\"rank\":\"1\",\"normal_session_id\":\"9951bd41-075a-482c-8cea-7b108fd3ffed\",\"cold_start_session_id\":\"f16a4ced-d2c0-48ed-85f3-fe4feed08691\"}",
+              "read_progress": "0",
+              "serial_count": "59",
+              "source": "番茄小说",
+              "tags": "历史古代,历史",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4b1d07519eabf7c11fa7d7a33ad4dfcb~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=7aAN7wo9nHTebqo8FPVSZevRDEI%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "112172",
+              "score": "0",
+              "exclusive": "1",
+              "role": "努尔哈赤,康熙",
+              "category_schema": "[{\"category_id\":273,\"name\":\"历史古代\",\"schema\":\"dragon1967://newCategoryDetail?id=273&name=历史古代&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"},{\"category_id\":503,\"name\":\"清朝\",\"schema\":\"dragon1967://newCategoryDetail?id=503&name=清朝&genre_type=0&gender=1&source=detail\"},{\"category_id\":498,\"name\":\"皇帝\",\"schema\":\"dragon1967://newCategoryDetail?id=498&name=皇帝&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1770688692",
+              "authorize_type": "1",
+              "media_id": "1747123613470732",
+              "original_book_name": "大清国",
+              "length_type": "1",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/4b1d07519eabf7c11fa7d7a33ad4dfcb",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4b1d07519eabf7c11fa7d7a33ad4dfcb~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069410&x-signature=7GR7vvDWfalBIj5kq4Jkp8VZRFA%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "历史古代,皇帝",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#302018",
+              "read_count_all": "11",
+              "shelf_cnt_history": "950",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"35\":1769695421,\"2329\":1769695421,\"596084\":1770547000,\"8662\":1769695421,\"507427\":1769695475,\"2503\":1769695421,\"6589\":1770547000,\"8661\":1770547000,\"638505\":1770547000,\"8703\":1769695421,\"510893\":1769695421,\"13\":1769695421,\"8704\":1769695421,\"1967\":1769695421,\"507386\":1769695475,\"1128\":1769695421,\"3040\":1770547000}",
+              "category_v2_map": {
+                "273": true,
+                "12": true,
+                "503": true,
+                "498": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4b1d07519eabf7c11fa7d7a33ad4dfcb~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=7aAN7wo9nHTebqo8FPVSZevRDEI%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7317198539526772030,
+                  "AuthorName": "不会飞的仙"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4b1d07519eabf7c11fa7d7a33ad4dfcb~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069410&x-signature=GvJjEyXHZSfJ7IE9ptTuOXOxZio%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "一部讲述大清王朝三百年兴亡始末的史书。\n全景再现清朝的政治、军事与社会变迁，深度解析中国最后一个封建王朝的辉煌与沉沦。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4b1d07519eabf7c11fa7d7a33ad4dfcb~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=U9cFC47tWe9fVRMOJTLWboicRYE%3D",
+              "raw_book_name": "大清国",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "8721138789164478711:51:0:3614653546:clks####3@202603190955178E4D7F705118A75C1002",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "11.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史古代",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：不会飞的仙",
+                "rich_text": "作者：不会飞的仙",
+                "high_light_position": []
+              },
+              {
+                "text": "...始末的史书。 全景再现清朝的政治、军事与社会变迁，深度解析中国最后一个封建王朝的辉煌与沉沦。",
+                "rich_text": "一部讲述大<em>清</em>王<em>朝</em>三百年兴亡始末的史书。\n全景再现<em>清朝</em>的政治、军事与社会变迁，深度解析中国最后一个封建王<em>朝</em>的辉煌与沉沦。",
+                "high_light_position": [
+                  [
+                    14,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1052,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7481162268927855678",
+          "search_result_id": "7481162268927855678",
+          "search_high_light": {
+            "title": {
+              "text": "我在清朝当差那些年",
+              "rich_text": "我在<em>清朝</em>当差那些年",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...驾游的王志意外穿越至清朝，当街冲撞贝勒爷轿子，面临杀身之祸。凭借现代机械表侥幸求生，入贝勒府为杂役。在暗流涌动的府邸与复杂的宫廷局势中，他运用现代知识周旋，试图揭开穿越之谜，寻找回家之路，却卷入了一场改变历史走向的惊天阴谋 。",
+              "rich_text": "自驾游的王志意外穿越至<em>清朝</em>，当街冲撞贝勒爷轿子，面临杀身之祸。凭借现代机械表侥幸求生，入贝勒府为杂役。在暗流涌动的府邸与复杂的宫廷局势中，他运用现代知识周旋，试图揭开穿越之谜，寻找回家之路，却卷入了一场改变历史走向的惊天阴谋 。",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "自驾游的王志意外穿越至清朝，当街冲撞贝勒爷轿子，面临杀身之祸。凭借现代机械表侥幸求生，入贝勒府为杂役。在暗流涌动的府邸与复杂的宫廷局势中，他运用现代知识周旋，试图揭开穿越之谜，寻找回家之路，却卷入了一场改变历史走向的惊天阴谋 。",
+              "author": "星鹏逐梦",
+              "book_id": "7481162268927855678",
+              "book_name": "我在清朝当差那些年",
+              "category": "历史古代",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-03-13T13:30:26+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7481162313777545790",
+              "first_chapter_item_id": "7481162313777545790",
+              "first_chapter_title": "第一章 惊变：穿越清朝",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7568444748067766846",
+              "last_chapter_item_id": "7568444748067766846",
+              "last_chapter_title": "第35章 新职赴任遇旧局",
+              "last_chapter_update_time": "1773292741",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "12",
+              "recommend_group_id": "7481162268927855678",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603190956495CCC9A6F427CCDF179B5\",\"rank\":\"1\",\"normal_session_id\":\"9951bd41-075a-482c-8cea-7b108fd3ffed\",\"cold_start_session_id\":\"f16a4ced-d2c0-48ed-85f3-fe4feed08691\"}",
+              "read_progress": "0",
+              "serial_count": "35",
+              "source": "番茄小说",
+              "tags": "历史古代,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0924fd5caecc50062d2fc477292c9f7a~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=LPrOv%2Fr8%2B1zv4GiShfrq%2FV23K%2FM%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "67203",
+              "score": "0",
+              "exclusive": "1",
+              "role": "王志",
+              "category_schema": "[{\"category_id\":273,\"name\":\"历史古代\",\"schema\":\"dragon1967://newCategoryDetail?id=273&name=历史古代&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"},{\"category_id\":503,\"name\":\"清朝\",\"schema\":\"dragon1967://newCategoryDetail?id=503&name=清朝&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "3",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773292752",
+              "authorize_type": "1",
+              "media_id": "1745686020531203",
+              "original_book_name": "我在清朝当差那些年",
+              "length_type": "0",
+              "op_tag": "1697,535,536,1698,1699",
+              "keep_publish_days": "1",
+              "thumb_uri": "novel-pic/p2o0924fd5caecc50062d2fc477292c9f7a",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0924fd5caecc50062d2fc477292c9f7a~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069410&x-signature=zVbV17UToyZ7qO69S4Kgol3ruZY%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "历史古代,清朝",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e0e0e0",
+              "read_count_all": "81",
+              "shelf_cnt_history": "983",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8703\":1744942819,\"638505\":1741950044,\"13\":1741843888,\"3040\":1741950044,\"8661\":1741950044,\"8662\":1741843888,\"510893\":1741843888,\"2503\":1741843888,\"1967\":1741843888,\"8704\":1747934055,\"596084\":1741950044,\"6589\":1741950044,\"507386\":1741843938,\"507427\":1741843938,\"35\":1741843888,\"1128\":1741843888,\"2329\":1741843888}",
+              "category_v2_map": {
+                "12": true,
+                "37": true,
+                "503": true,
+                "273": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0924fd5caecc50062d2fc477292c9f7a~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=LPrOv%2Fr8%2B1zv4GiShfrq%2FV23K%2FM%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7468242244797994302,
+                  "AuthorName": "星鹏逐梦"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0924fd5caecc50062d2fc477292c9f7a~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069410&x-signature=8vFXATad%2B%2FGawRy24aOLP2Nuj%2Bg%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "自驾游的王志意外穿越至清朝，当街冲撞贝勒爷轿子，面临杀身之祸。凭借现代机械表侥幸求生，入贝勒府为杂役。在暗流涌动的府邸与复杂的宫廷局势中，他运用现代知识周旋，试图揭开穿越之谜，寻找回家之路，却卷入了一场改变历史走向的惊天阴谋 。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0924fd5caecc50062d2fc477292c9f7a~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=lfQ%2FVFWDRDNP%2FSOSKAKYqzUoQwY%3D",
+              "raw_book_name": "我在清朝当差那些年"
+            }
+          ],
+          "search_attached_info": "8721138789164478711:52:0:2225055379:clks####3@202603190955178E4D7F705118A75C1002",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "6.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "12人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史古代",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：星鹏逐梦",
+                "rich_text": "作者：星鹏逐梦",
+                "high_light_position": []
+              },
+              {
+                "text": "...驾游的王志意外穿越至清朝，当街冲撞贝勒爷轿子，面临杀身之祸。凭借现代机械表侥幸求生，入贝勒府为杂役。在暗流涌动的府邸与复杂的宫廷局势中，他运用现代知识周旋，试图揭开穿越之谜，寻找回家之路，却卷入了一场改变历史走向的惊天阴谋 。",
+                "rich_text": "自驾游的王志意外穿越至<em>清朝</em>，当街冲撞贝勒爷轿子，面临杀身之祸。凭借现代机械表侥幸求生，入贝勒府为杂役。在暗流涌动的府邸与复杂的宫廷局势中，他运用现代知识周旋，试图揭开穿越之谜，寻找回家之路，却卷入了一场改变历史走向的惊天阴谋 。",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1053,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7548380945313713176",
+          "search_result_id": "7548380945313713176",
+          "search_high_light": {
+            "title": {
+              "text": "康熙王朝：铁血帝王的治国传奇",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "本书以康熙皇帝玄烨一生为主线，从少年登基到晚年辞世，全景展现其六十一年统治历程。书中既写少年玄烨擒鳌拜、亲政掌权的果敢，也述平三藩、收台湾、驱沙俄、征噶尔丹的赫赫武功；既呈现编纂典籍、推行改革的文治成就，也不避晚年储位之争的困境与朝堂隐忧。以通俗笔法还原历史细节，刻画鲜活帝王形象与复杂朝局，勾勒出康熙王朝从动荡走向盛世的兴衰轨迹，兼具历史厚重感与故事吸引力",
+              "rich_text": "本书以康熙皇帝玄烨一生为主线，从少年登基到晚年辞世，全景展现其六十一年统治历程。书中既写少年玄烨擒鳌拜、亲政掌权的果敢，也述平三藩、收台湾、驱沙俄、征噶尔丹的赫赫武功；既呈现编纂典籍、推行改革的文治成就，也不避晚年储位之争的困境与<em>朝</em>堂隐忧。以通俗笔法还原历史细节，刻画鲜活帝王形象与复杂<em>朝</em>局，勾勒出康熙王<em>朝</em>从动荡走向盛世的兴衰轨迹，兼具历史厚重感与故事吸引力",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "本书以康熙皇帝玄烨一生为主线，从少年登基到晚年辞世，全景展现其六十一年统治历程。书中既写少年玄烨擒鳌拜、亲政掌权的果敢，也述平三藩、收台湾、驱沙俄、征噶尔丹的赫赫武功；既呈现编纂典籍、推行改革的文治成就，也不避晚年储位之争的困境与朝堂隐忧。以通俗笔法还原历史细节，刻画鲜活帝王形象与复杂朝局，勾勒出康熙王朝从动荡走向盛世的兴衰轨迹，兼具历史厚重感与故事吸引力",
+              "author": "吉祥如意北京",
+              "book_id": "7548380945313713176",
+              "book_name": "康熙王朝：铁血帝王的治国传奇",
+              "category": "历史古代",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-09-10T16:53:14+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7548381226847978008",
+              "first_chapter_item_id": "7548381226847978008",
+              "first_chapter_title": "第1章 顺治遁世，幼主登基",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7548678328962515480",
+              "last_chapter_item_id": "7548678328962515480",
+              "last_chapter_title": "第150章 康熙王朝的历史定位",
+              "last_chapter_update_time": "1757566924",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "1355",
+              "recommend_group_id": "7548380945313713176",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603190956495CCC9A6F427CCDF179B5\",\"rank\":\"1\",\"normal_session_id\":\"9951bd41-075a-482c-8cea-7b108fd3ffed\",\"cold_start_session_id\":\"f16a4ced-d2c0-48ed-85f3-fe4feed08691\"}",
+              "read_progress": "0",
+              "serial_count": "149",
+              "source": "番茄小说",
+              "tags": "历史古代,历史",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o35a01b20bea8eb7671dce7e32dfcfdb0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=l2C41kswtrTZYTcFwykVHt2R8fU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "428536",
+              "score": "7.1",
+              "exclusive": "1",
+              "role": "康熙皇帝",
+              "category_schema": "[{\"category_id\":273,\"name\":\"历史古代\",\"schema\":\"dragon1967://newCategoryDetail?id=273&name=历史古代&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"},{\"category_id\":503,\"name\":\"清朝\",\"schema\":\"dragon1967://newCategoryDetail?id=503&name=清朝&genre_type=0&gender=1&source=detail\"},{\"category_id\":498,\"name\":\"皇帝\",\"schema\":\"dragon1967://newCategoryDetail?id=498&name=皇帝&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "946",
+              "sub_info": "1355人在读",
+              "last_publish_time": "1757568993",
+              "authorize_type": "1",
+              "media_id": "1705462037434372",
+              "original_book_name": "康熙王朝：铁血帝王的治国传奇",
+              "length_type": "1",
+              "op_tag": "535,536,1699",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2o35a01b20bea8eb7671dce7e32dfcfdb0",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/bea220d2c48c101348e21c1b963478c1",
+              "data_rate": "",
+              "all_bookshelf_count": "168",
+              "pure_category_tags": "历史古代,皇帝",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#501008",
+              "read_count_all": "35823",
+              "shelf_cnt_history": "4849",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8662\":1757494906,\"2329\":1757494906,\"1128\":1757494906,\"35\":1757494906,\"638505\":1757640216,\"6589\":1757640216,\"596084\":1757640216,\"507386\":1757494951,\"13\":1757494906,\"1967\":1757494906,\"510893\":1757494906,\"8703\":1757494906,\"8704\":1757494906,\"8661\":1757640216,\"3040\":1757640216,\"507427\":1757494951,\"2503\":1757494906}",
+              "category_v2_map": {
+                "503": true,
+                "12": true,
+                "498": true,
+                "273": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o35a01b20bea8eb7671dce7e32dfcfdb0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=l2C41kswtrTZYTcFwykVHt2R8fU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7534641214683895102,
+                  "AuthorName": "吉祥如意北京"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/bea220d2c48c101348e21c1b963478c1~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069410&x-signature=dLGV8pLoc5%2Bzet7Bt3HXSmHEURQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "本书以康熙皇帝玄烨一生为主线，从少年登基到晚年辞世，全景展现其六十一年统治历程。书中既写少年玄烨擒鳌拜、亲政掌权的果敢，也述平三藩、收台湾、驱沙俄、征噶尔丹的赫赫武功；既呈现编纂典籍、推行改革的文治成就，也不避晚年储位之争的困境与朝堂隐忧。以通俗笔法还原历史细节，刻画鲜活帝王形象与复杂朝局，勾勒出康熙王朝从动荡走向盛世的兴衰轨迹，兼具历史厚重感与故事吸引力",
+              "read_page_progress": "0",
+              "read_cnt_text": "1355人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o35a01b20bea8eb7671dce7e32dfcfdb0~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=GAEaUTl7yGPVLHgnUuLlsnK%2FVms%3D",
+              "raw_book_name": "康熙王朝：铁血帝王的治国传奇",
+              "color_audio_dominate": "#5C2008",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "8721138789164478711:53:0:3904831904:clks####3@202603190955178E4D7F705118A75C1002",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "42.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1355人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史古代",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：吉祥如意北京",
+                "rich_text": "作者：吉祥如意北京",
+                "high_light_position": []
+              },
+              {
+                "text": "本书以康熙皇帝玄烨一生为主线，从少年登基到晚年辞世，全景展现其六十一年统治历程。书中既写少年玄烨擒鳌拜、亲政掌权的果敢，也述平三藩、收台湾、驱沙俄、征噶尔丹的赫赫武功；既呈现编纂典籍、推行改革的文治成就，也不避晚年储位之争的困境与朝堂隐忧。以通俗笔法还原历史细节，刻画鲜活帝王形象与复杂朝局，勾勒出康熙王朝从动荡走向盛世的兴衰轨迹，兼具历史厚重感与故事吸引力",
+                "rich_text": "本书以康熙皇帝玄烨一生为主线，从少年登基到晚年辞世，全景展现其六十一年统治历程。书中既写少年玄烨擒鳌拜、亲政掌权的果敢，也述平三藩、收台湾、驱沙俄、征噶尔丹的赫赫武功；既呈现编纂典籍、推行改革的文治成就，也不避晚年储位之争的困境与<em>朝</em>堂隐忧。以通俗笔法还原历史细节，刻画鲜活帝王形象与复杂<em>朝</em>局，勾勒出康熙王<em>朝</em>从动荡走向盛世的兴衰轨迹，兼具历史厚重感与故事吸引力",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1054,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7583734705359424537",
+          "search_result_id": "7583734705359424537",
+          "search_high_light": {
+            "title": {
+              "text": "光绪皇帝",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "这是一部聚焦晚清悲情帝王光绪的历史小说，以细腻笔触勾勒出爱新觉罗·载湉从懵懂入宫的孩童，到力图革新的君主，再到困守瀛台的囚徒，最终在壮志未酬中落幕的传奇一生。 晚清末年，山河破碎，风雨飘摇。光绪自六岁登基，便深陷慈禧的权力掌控之下，漫长的傀儡生涯中，他始终怀揣强国梦想。亲政后，他力排众议推行戊戌变法，试图以改革挽救沉沦的大清，却在守旧势力的反扑下惨遭失败，沦为瀛台的阶下囚。此后十余载，他在孤独与压抑中坚守初心，关注时局变迁，见证日俄战争的耻辱、新政的起伏与宪政的微光，即便身体日渐衰败，仍未放弃对国家未来的牵挂。 小说不仅还原了光绪与慈禧的权力博弈、与珍妃的深情羁绊、与维新派的理想共鸣，更深入刻画了他在历史洪流中的挣扎与无奈。从戊戌风雷的激荡到瀛台囚梦的孤寂，从落日余晖的坚守到最终的悲剧落幕。 这不是一部简单的帝王传记，更是一幅晚清社会的众生相。它探讨了权力与理想的碰撞、改革与现实的矛盾，展现了一位帝王在时代局限中的艰难求索。光绪的一生，是个人的悲剧，更是一个王朝的缩影，他未竟的改革理想，终将成为照亮近代中国救亡图存之路的微光，引发后人无尽的感慨与思考。",
+              "rich_text": "这是一部聚焦晚<em>清</em>悲情帝王光绪的历史小说，以细腻笔触勾勒出爱新觉罗·载湉从懵懂入宫的孩童，到力图革新的君主，再到困守瀛台的囚徒，最终在壮志未酬中落幕的传奇一生。\n晚<em>清</em>末年，山河破碎，风雨飘摇。光绪自六岁登基，便深陷慈禧的权力掌控之下，漫长的傀儡生涯中，他始终怀揣强国梦想。亲政后，他力排众议推行戊戌变法，试图以改革挽救沉沦的大<em>清</em>，却在守旧势力的反扑下惨遭失败，沦为瀛台的阶下囚。此后十余载，他在孤独与压抑中坚守初心，关注时局变迁，见证日俄战争的耻辱、新政的起伏与宪政的微光，即便身体日渐衰败，仍未放弃对国家未来的牵挂。\n小说不仅还原了光绪与慈禧的权力博弈、与珍妃的深情羁绊、与维新派的理想共鸣，更深入刻画了他在历史洪流中的挣扎与无奈。从戊戌风雷的激荡到瀛台囚梦的孤寂，从落日余晖的坚守到最终的悲剧落幕。\n这不是一部简单的帝王传记，更是一幅晚<em>清</em>社会的众生相。它探讨了权力与理想的碰撞、改革与现实的矛盾，展现了一位帝王在时代局限中的艰难求索。光绪的一生，是个人的悲剧，更是一个王<em>朝</em>的缩影，他未竟的改革理想，终将成为照亮近代中国救亡图存之路的微光，引发后人无尽的感慨与思考。",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "这是一部聚焦晚清悲情帝王光绪的历史小说，以细腻笔触勾勒出爱新觉罗·载湉从懵懂入宫的孩童，到力图革新的君主，再到困守瀛台的囚徒，最终在壮志未酬中落幕的传奇一生。\n晚清末年，山河破碎，风雨飘摇。光绪自六岁登基，便深陷慈禧的权力掌控之下，漫长的傀儡生涯中，他始终怀揣强国梦想。亲政后，他力排众议推行戊戌变法，试图以改革挽救沉沦的大清，却在守旧势力的反扑下惨遭失败，沦为瀛台的阶下囚。此后十余载，他在孤独与压抑中坚守初心，关注时局变迁，见证日俄战争的耻辱、新政的起伏与宪政的微光，即便身体日渐衰败，仍未放弃对国家未来的牵挂。\n小说不仅还原了光绪与慈禧的权力博弈、与珍妃的深情羁绊、与维新派的理想共鸣，更深入刻画了他在历史洪流中的挣扎与无奈。从戊戌风雷的激荡到瀛台囚梦的孤寂，从落日余晖的坚守到最终的悲剧落幕。\n这不是一部简单的帝王传记，更是一幅晚清社会的众生相。它探讨了权力与理想的碰撞、改革与现实的矛盾，展现了一位帝王在时代局限中的艰难求索。光绪的一生，是个人的悲剧，更是一个王朝的缩影，他未竟的改革理想，终将成为照亮近代中国救亡图存之路的微光，引发后人无尽的感慨与思考。",
+              "author": "吉祥如意北京",
+              "book_id": "7583734705359424537",
+              "book_name": "光绪皇帝",
+              "category": "历史古代",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-12-14T23:23:53+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7585378852973576766",
+              "first_chapter_item_id": "7585378852973576766",
+              "first_chapter_title": "第1章 醇亲王府的冬日",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7587245622399337022",
+              "last_chapter_item_id": "7587245622399337022",
+              "last_chapter_title": "第165章 瀛台的花开",
+              "last_chapter_update_time": "1766543303",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "1034",
+              "recommend_group_id": "7583734705359424537",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603190956495CCC9A6F427CCDF179B5\",\"rank\":\"1\",\"normal_session_id\":\"9951bd41-075a-482c-8cea-7b108fd3ffed\",\"cold_start_session_id\":\"f16a4ced-d2c0-48ed-85f3-fe4feed08691\"}",
+              "read_progress": "0",
+              "serial_count": "165",
+              "source": "番茄小说",
+              "tags": "历史古代,历史",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of6157645cd61dcf27b8e07a1f1cae99c~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=F7LCYoDoKfom8G7VAFTRzvCH7yA%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "359520",
+              "score": "6.9",
+              "exclusive": "1",
+              "role": "光绪皇帝",
+              "category_schema": "[{\"category_id\":273,\"name\":\"历史古代\",\"schema\":\"dragon1967://newCategoryDetail?id=273&name=历史古代&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "740",
+              "sub_info": "1034人在读",
+              "last_publish_time": "1773874828",
+              "authorize_type": "1",
+              "media_id": "1705462037434372",
+              "original_book_name": "光绪皇帝",
+              "length_type": "0",
+              "op_tag": "536,1698,535,1697,1699",
+              "keep_publish_days": "45",
+              "thumb_uri": "novel-pic/p2of6157645cd61dcf27b8e07a1f1cae99c",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/25fd49d530da10ef5e6d35fe1799e375",
+              "data_rate": "",
+              "all_bookshelf_count": "128",
+              "pure_category_tags": "历史古代,历史",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e0b870",
+              "read_count_all": "17134",
+              "shelf_cnt_history": "2081",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"6589\":1766112095,\"2329\":1766108811,\"8703\":1766108811,\"3040\":1766112095,\"638505\":1766112095,\"507427\":1766108874,\"1128\":1766108811,\"2503\":1766108811,\"507386\":1766108874,\"1967\":1766108811,\"8704\":1766108811,\"13\":1766108811,\"8661\":1766112095,\"510893\":1766108811,\"35\":1766108811,\"8662\":1766108811,\"596084\":1766112095}",
+              "category_v2_map": {
+                "273": true,
+                "12": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of6157645cd61dcf27b8e07a1f1cae99c~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=F7LCYoDoKfom8G7VAFTRzvCH7yA%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7534641214683895102,
+                  "AuthorName": "吉祥如意北京"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/25fd49d530da10ef5e6d35fe1799e375~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069410&x-signature=Anb%2BEZ34x6DJE7Ch2CsWQWFDxZc%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "这是一部聚焦晚清悲情帝王光绪的历史小说，以细腻笔触勾勒出爱新觉罗·载湉从懵懂入宫的孩童，到力图革新的君主，再到困守瀛台的囚徒，最终在壮志未酬中落幕的传奇一生。\n晚清末年，山河破碎，风雨飘摇。光绪自六岁登基，便深陷慈禧的权力掌控之下，漫长的傀儡生涯中，他始终怀揣强国梦想。亲政后，他力排众议推行戊戌变法，试图以改革挽救沉沦的大清，却在守旧势力的反扑下惨遭失败，沦为瀛台的阶下囚。此后十余载，他在孤独与压抑中坚守初心，关注时局变迁，见证日俄战争的耻辱、新政的起伏与宪政的微光，即便身体日渐衰败，仍未放弃对国家未来的牵挂。\n小说不仅还原了光绪与慈禧的权力博弈、与珍妃的深情羁绊、与维新派的理想共鸣，更深入刻画了他在历史洪流中的挣扎与无奈。从戊戌风雷的激荡到瀛台囚梦的孤寂，从落日余晖的坚守到最终的悲剧落幕。\n这不是一部简单的帝王传记，更是一幅晚清社会的众生相。它探讨了权力与理想的碰撞、改革与现实的矛盾，展现了一位帝王在时代局限中的艰难求索。光绪的一生，是个人的悲剧，更是一个王朝的缩影，他未竟的改革理想，终将成为照亮近代中国救亡图存之路的微光，引发后人无尽的感慨与思考。",
+              "read_page_progress": "0",
+              "read_cnt_text": "1034人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of6157645cd61dcf27b8e07a1f1cae99c~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=xzBfOAP4DdFYByFawlFqw6IhUj0%3D",
+              "raw_book_name": "光绪皇帝",
+              "color_audio_dominate": "#E4CA94",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "8721138789164478711:54:0:4179220874:clks####3@202603190955178E4D7F705118A75C1002",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "36.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1034人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史古代",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：吉祥如意北京",
+                "rich_text": "作者：吉祥如意北京",
+                "high_light_position": []
+              },
+              {
+                "text": "这是一部聚焦晚清悲情帝王光绪的历史小说，以细腻笔触勾勒出爱新觉罗·载湉从懵懂入宫的孩童，到力图革新的君主，再到困守瀛台的囚徒，最终在壮志未酬中落幕的传奇一生。 晚清末年，山河破碎，风雨飘摇。光绪自六岁登基，便深陷慈禧的权力掌控之下，漫长的傀儡生涯中，他始终怀揣强国梦想。亲政后，他力排众议推行戊戌变法，试图以改革挽救沉沦的大清，却在守旧势力的反扑下惨遭失败，沦为瀛台的阶下囚。此后十余载，他在孤独与压抑中坚守初心，关注时局变迁，见证日俄战争的耻辱、新政的起伏与宪政的微光，即便身体日渐衰败，仍未放弃对国家未来的牵挂。 小说不仅还原了光绪与慈禧的权力博弈、与珍妃的深情羁绊、与维新派的理想共鸣，更深入刻画了他在历史洪流中的挣扎与无奈。从戊戌风雷的激荡到瀛台囚梦的孤寂，从落日余晖的坚守到最终的悲剧落幕。 这不是一部简单的帝王传记，更是一幅晚清社会的众生相。它探讨了权力与理想的碰撞、改革与现实的矛盾，展现了一位帝王在时代局限中的艰难求索。光绪的一生，是个人的悲剧，更是一个王朝的缩影，他未竟的改革理想，终将成为照亮近代中国救亡图存之路的微光，引发后人无尽的感慨与思考。",
+                "rich_text": "这是一部聚焦晚<em>清</em>悲情帝王光绪的历史小说，以细腻笔触勾勒出爱新觉罗·载湉从懵懂入宫的孩童，到力图革新的君主，再到困守瀛台的囚徒，最终在壮志未酬中落幕的传奇一生。\n晚<em>清</em>末年，山河破碎，风雨飘摇。光绪自六岁登基，便深陷慈禧的权力掌控之下，漫长的傀儡生涯中，他始终怀揣强国梦想。亲政后，他力排众议推行戊戌变法，试图以改革挽救沉沦的大<em>清</em>，却在守旧势力的反扑下惨遭失败，沦为瀛台的阶下囚。此后十余载，他在孤独与压抑中坚守初心，关注时局变迁，见证日俄战争的耻辱、新政的起伏与宪政的微光，即便身体日渐衰败，仍未放弃对国家未来的牵挂。\n小说不仅还原了光绪与慈禧的权力博弈、与珍妃的深情羁绊、与维新派的理想共鸣，更深入刻画了他在历史洪流中的挣扎与无奈。从戊戌风雷的激荡到瀛台囚梦的孤寂，从落日余晖的坚守到最终的悲剧落幕。\n这不是一部简单的帝王传记，更是一幅晚<em>清</em>社会的众生相。它探讨了权力与理想的碰撞、改革与现实的矛盾，展现了一位帝王在时代局限中的艰难求索。光绪的一生，是个人的悲剧，更是一个王<em>朝</em>的缩影，他未竟的改革理想，终将成为照亮近代中国救亡图存之路的微光，引发后人无尽的感慨与思考。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1055,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7612861749980580889",
+          "search_result_id": "7612861749980580889",
+          "search_high_light": {
+            "abstract": {
+              "text": "...史系大学生意外穿越到清朝康熙年间，成为一名底层旗人，自带现代人思维、科学常识、商业逻辑、管理思维与现代价值观，不跪舔、不卑躬屈膝，靠智商、格局、现代知识一路逆袭，搞实业、兴商业、强军备、办实事、为民谋利，打脸权贵、斗贪官、平风波、建势力，从底层一路做到权倾朝野的权臣/富商巨擘/军中大佬，全程爽点密集、节奏紧凑、不憋屈、不虐主，主角杀伐果断、智商在线、做人有底线、做事够狠辣，只做对自己有利、对百姓有利的事，不搞虚无主义，所有剧情围绕搞钱、搞权、搞事业、打脸反派、护身边人展开。",
+              "rich_text": "现代普通社畜/历史系大学生意外穿越到<em>清朝</em>康熙年间，成为一名底层旗人，自带现代人思维、科学常识、商业逻辑、管理思维与现代价值观，不跪舔、不卑躬屈膝，靠智商、格局、现代知识一路逆袭，搞实业、兴商业、强军备、办实事、为民谋利，打脸权贵、斗贪官、平风波、建势力，从底层一路做到权倾<em>朝</em>野的权臣/富商巨擘/军中大佬，全程爽点密集、节奏紧凑、不憋屈、不虐主，主角杀伐果断、智商在线、做人有底线、做事够狠辣，只做对自己有利、对百姓有利的事，不搞虚无主义，所有剧情围绕搞钱、搞权、搞事业、打脸反派、护身边人展开。",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "朕，大清权臣，横着走",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "现代普通社畜/历史系大学生意外穿越到清朝康熙年间，成为一名底层旗人，自带现代人思维、科学常识、商业逻辑、管理思维与现代价值观，不跪舔、不卑躬屈膝，靠智商、格局、现代知识一路逆袭，搞实业、兴商业、强军备、办实事、为民谋利，打脸权贵、斗贪官、平风波、建势力，从底层一路做到权倾朝野的权臣/富商巨擘/军中大佬，全程爽点密集、节奏紧凑、不憋屈、不虐主，主角杀伐果断、智商在线、做人有底线、做事够狠辣，只做对自己有利、对百姓有利的事，不搞虚无主义，所有剧情围绕搞钱、搞权、搞事业、打脸反派、护身边人展开。",
+              "author": "喜欢酸味子的盖余皇帝",
+              "book_id": "7612861749980580889",
+              "book_name": "朕，大清权臣，横着走",
+              "category": "历史古代",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-03-03T11:11:41+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7612861811129319961",
+              "first_chapter_item_id": "7612861811129319961",
+              "first_chapter_title": "第1章 穿越成破落旗人，反手整顿军械司",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7614412682057237017",
+              "last_chapter_item_id": "7614412682057237017",
+              "last_chapter_title": "第7章 炒钢灌钢显神效，第一杆达标燧发枪诞生",
+              "last_chapter_update_time": "1772979226",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "12",
+              "recommend_group_id": "7612861749980580889",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603190956495CCC9A6F427CCDF179B5\",\"rank\":\"1\",\"normal_session_id\":\"9951bd41-075a-482c-8cea-7b108fd3ffed\",\"cold_start_session_id\":\"f16a4ced-d2c0-48ed-85f3-fe4feed08691\"}",
+              "read_progress": "0",
+              "serial_count": "7",
+              "source": "番茄小说",
+              "tags": "历史古代,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7224d8b4857c1ddf1a74f87a7666cfff~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=8S%2ByJjkd083F12oXo6hc9K%2Fy1vI%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "43556",
+              "score": "0",
+              "exclusive": "1",
+              "role": "苏木",
+              "category_schema": "[{\"category_id\":273,\"name\":\"历史古代\",\"schema\":\"dragon1967://newCategoryDetail?id=273&name=历史古代&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"},{\"category_id\":503,\"name\":\"清朝\",\"schema\":\"dragon1967://newCategoryDetail?id=503&name=清朝&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"},{\"category_id\":520,\"name\":\"大佬\",\"schema\":\"dragon1967://newCategoryDetail?id=520&name=大佬&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1772979237",
+              "authorize_type": "1",
+              "media_id": "1749521831002123",
+              "original_book_name": "朕，大清权臣，横着走",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/7224d8b4857c1ddf1a74f87a7666cfff",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7224d8b4857c1ddf1a74f87a7666cfff~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069410&x-signature=7dEzZYP%2BkEaU6akLHLGf2qylVrw%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "历史古代,大佬",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#201810",
+              "read_count_all": "13",
+              "shelf_cnt_history": "1020",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8662\":1772508273,\"13\":1772508273,\"35\":1772508273,\"8703\":1772508273,\"510893\":1772508273,\"1128\":1772508273,\"3040\":1773151230,\"6589\":1773151230,\"2503\":1772508273,\"1967\":1772508273,\"507386\":1772508321,\"638505\":1773151230,\"8661\":1773151230,\"8704\":1772508273,\"2329\":1772508273,\"507427\":1772508321,\"596084\":1773151230}",
+              "category_v2_map": {
+                "503": true,
+                "12": true,
+                "37": true,
+                "273": true,
+                "854": true,
+                "520": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7224d8b4857c1ddf1a74f87a7666cfff~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=8S%2ByJjkd083F12oXo6hc9K%2Fy1vI%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7611739919492338969,
+                  "AuthorName": "喜欢酸味子的盖余皇帝"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7224d8b4857c1ddf1a74f87a7666cfff~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069410&x-signature=CogSRtjSIQvTi3oedPrDYGGy7OU%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "现代普通社畜/历史系大学生意外穿越到清朝康熙年间，成为一名底层旗人，自带现代人思维、科学常识、商业逻辑、管理思维与现代价值观，不跪舔、不卑躬屈膝，靠智商、格局、现代知识一路逆袭，搞实业、兴商业、强军备、办实事、为民谋利，打脸权贵、斗贪官、平风波、建势力，从底层一路做到权倾朝野的权臣/富商巨擘/军中大佬，全程爽点密集、节奏紧凑、不憋屈、不虐主，主角杀伐果断、智商在线、做人有底线、做事够狠辣，只做对自己有利、对百姓有利的事，不搞虚无主义，所有剧情围绕搞钱、搞权、搞事业、打脸反派、护身边人展开。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7224d8b4857c1ddf1a74f87a7666cfff~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=BdcH62mb53VfGM1P0xWO%2FemoJ1k%3D",
+              "raw_book_name": "朕，大清权臣，横着走",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "8721138789164478711:55:0:812531887:clks####3@202603190955178E4D7F705118A75C1002",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "4.4万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "12人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史古代",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：喜欢酸味子的盖余皇帝",
+                "rich_text": "作者：喜欢酸味子的盖余皇帝",
+                "high_light_position": []
+              },
+              {
+                "text": "...史系大学生意外穿越到清朝康熙年间，成为一名底层旗人，自带现代人思维、科学常识、商业逻辑、管理思维与现代价值观，不跪舔、不卑躬屈膝，靠智商、格局、现代知识一路逆袭，搞实业、兴商业、强军备、办实事、为民谋利，打脸权贵、斗贪官、平风波、建势力，从底层一路做到权倾朝野的权臣/富商巨擘/军中大佬，全程爽点密集、节奏紧凑、不憋屈、不虐主，主角杀伐果断、智商在线、做人有底线、做事够狠辣，只做对自己有利、对百姓有利的事，不搞虚无主义，所有剧情围绕搞钱、搞权、搞事业、打脸反派、护身边人展开。",
+                "rich_text": "现代普通社畜/历史系大学生意外穿越到<em>清朝</em>康熙年间，成为一名底层旗人，自带现代人思维、科学常识、商业逻辑、管理思维与现代价值观，不跪舔、不卑躬屈膝，靠智商、格局、现代知识一路逆袭，搞实业、兴商业、强军备、办实事、为民谋利，打脸权贵、斗贪官、平风波、建势力，从底层一路做到权倾<em>朝</em>野的权臣/富商巨擘/军中大佬，全程爽点密集、节奏紧凑、不憋屈、不虐主，主角杀伐果断、智商在线、做人有底线、做事够狠辣，只做对自己有利、对百姓有利的事，不搞虚无主义，所有剧情围绕搞钱、搞权、搞事业、打脸反派、护身边人展开。",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1056,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7601762265594858520",
+          "search_result_id": "7601762265594858520",
+          "search_high_light": {
+            "title": {
+              "text": "快穿之我在清朝做任务",
+              "rich_text": "快穿之我在<em>清朝</em>做任务",
+              "high_light_position": [
+                [
+                  5,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...，她觉得自己怎么就和清朝杠上了！爷孙三代的后宫她都去过！ 虽然这些都不是正史甚至有些还是影视剧里的平行世界，但是在这里赚取功德是真的快啊，她勉强接受了吧。",
+              "rich_text": "阮棠做梦都没想到她竟然英年早逝了！峰回路转又变相实现了永生！\n她从小是个孤儿，好不容易靠着写小说实现财富自由，有车有房有闲开始享受生活。\n谁知道这一切都被一个突然窜出来的骑着三轮车的大妈毁了！\n好在有个萌新系统绑定了她，只是整个系统感觉有些不太聪明的样子。\n不是这生子丹，生女丹.....这些丹药怎么感觉像是古代生活需要的样子！\n她不想去啊，但是现在没得选了，先去试试看吧，生活所迫嘛。\n第一个世界：孝懿仁皇后——佟佳氏\n第二个世界：庶妃张氏\n.........\n一个世界又一个世界过去，她觉得自己怎么就和<em>清朝</em>杠上了！爷孙三代的后宫她都去过！\n虽然这些都不是正史甚至有些还是影视剧里的平行世界，但是在这里赚取功德是真的快啊，她勉强接受了吧。",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "阮棠做梦都没想到她竟然英年早逝了！峰回路转又变相实现了永生！\n她从小是个孤儿，好不容易靠着写小说实现财富自由，有车有房有闲开始享受生活。\n谁知道这一切都被一个突然窜出来的骑着三轮车的大妈毁了！\n好在有个萌新系统绑定了她，只是整个系统感觉有些不太聪明的样子。\n不是这生子丹，生女丹.....这些丹药怎么感觉像是古代生活需要的样子！\n她不想去啊，但是现在没得选了，先去试试看吧，生活所迫嘛。\n第一个世界：孝懿仁皇后——佟佳氏\n第二个世界：庶妃张氏\n.........\n一个世界又一个世界过去，她觉得自己怎么就和清朝杠上了！爷孙三代的后宫她都去过！\n虽然这些都不是正史甚至有些还是影视剧里的平行世界，但是在这里赚取功德是真的快啊，她勉强接受了吧。",
+              "author": "星河碾月",
+              "book_id": "7601762265594858520",
+              "book_name": "快穿之我在清朝做任务",
+              "category": "快穿",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-01T13:20:01+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7601762418254938648",
+              "first_chapter_item_id": "7601762418254938648",
+              "first_chapter_title": "第1章 被大妈害惨了",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618474656198050328",
+              "last_chapter_item_id": "7618474656198050328",
+              "last_chapter_title": "第6章 宜修6",
+              "last_chapter_update_time": "1773814426",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "34644",
+              "recommend_group_id": "7601762265594858520",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603190956495CCC9A6F427CCDF179B5\",\"rank\":\"1\",\"normal_session_id\":\"9951bd41-075a-482c-8cea-7b108fd3ffed\",\"cold_start_session_id\":\"f16a4ced-d2c0-48ed-85f3-fe4feed08691\"}",
+              "read_progress": "0",
+              "serial_count": "94",
+              "source": "番茄小说",
+              "tags": "快穿,古代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o062909e1a529356d6f4d87807bf9d3ce~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=qostlgFMISLDMD%2BskHJ%2Fy6XBRrw%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "192601",
+              "score": "6.6",
+              "exclusive": "1",
+              "role": "阮棠",
+              "category_schema": "[{\"category_id\":24,\"name\":\"快穿\",\"schema\":\"dragon1967://newCategoryDetail?id=24&name=快穿&genre_type=0&gender=0&source=detail\"},{\"category_id\":5,\"name\":\"古代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=5&name=古代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=0&source=detail\"},{\"category_id\":32,\"name\":\"幻想言情\",\"schema\":\"dragon1967://newCategoryDetail?id=32&name=幻想言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":247,\"name\":\"医术\",\"schema\":\"dragon1967://newCategoryDetail?id=247&name=医术&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "9882",
+              "sub_info": "3.5万人在读",
+              "last_publish_time": "1773849677",
+              "authorize_type": "1",
+              "media_id": "1855890126405642",
+              "original_book_name": "快穿之我在清朝做任务",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "47",
+              "thumb_uri": "novel-pic/p2o062909e1a529356d6f4d87807bf9d3ce",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/74685c502b1b339672789c3c58ec1667",
+              "data_rate": "",
+              "all_bookshelf_count": "5424",
+              "pure_category_tags": "快穿,医术",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#f0d8d0",
+              "read_count_all": "62214",
+              "shelf_cnt_history": "12064",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"35\":1769923502,\"8703\":1769923502,\"13\":1769923502,\"1967\":1769923502,\"8662\":1769923502,\"8704\":1769923502,\"1128\":1769923502,\"2329\":1769923502,\"8661\":1770295396,\"596084\":1770295396,\"510893\":1769923502,\"638505\":1770295396,\"6589\":1770295396,\"2503\":1769923502,\"507427\":1769923563,\"507386\":1769923563,\"3040\":1770295396}",
+              "category_v2_map": {
+                "24": true,
+                "19": true,
+                "247": true,
+                "5": true,
+                "32": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o062909e1a529356d6f4d87807bf9d3ce~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=qostlgFMISLDMD%2BskHJ%2Fy6XBRrw%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7601762268153386264,
+                  "AuthorName": "星河碾月"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/74685c502b1b339672789c3c58ec1667~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069410&x-signature=RsOxLmnfW%2FPajI%2F4VGdS5Rfv%2Fys%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "阮棠做梦都没想到她竟然英年早逝了！峰回路转又变相实现了永生！\n她从小是个孤儿，好不容易靠着写小说实现财富自由，有车有房有闲开始享受生活。\n谁知道这一切都被一个突然窜出来的骑着三轮车的大妈毁了！\n好在有个萌新系统绑定了她，只是整个系统感觉有些不太聪明的样子。\n不是这生子丹，生女丹.....这些丹药怎么感觉像是古代生活需要的样子！\n她不想去啊，但是现在没得选了，先去试试看吧，生活所迫嘛。\n第一个世界：孝懿仁皇后——佟佳氏\n第二个世界：庶妃张氏\n.........\n一个世界又一个世界过去，她觉得自己怎么就和清朝杠上了！爷孙三代的后宫她都去过！\n虽然这些都不是正史甚至有些还是影视剧里的平行世界，但是在这里赚取功德是真的快啊，她勉强接受了吧。",
+              "read_page_progress": "0",
+              "read_cnt_text": "3.5万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o062909e1a529356d6f4d87807bf9d3ce~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=I6Lyv1HIqzFVr%2BqGvghnugnhVVk%3D",
+              "raw_book_name": "快穿之我在清朝做任务",
+              "color_audio_dominate": "#E8EAE5",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "8721138789164478711:56:0:3310478963:clks####3@202603190955178E4D7F705118A75C1002",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "19.3万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "快穿",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：星河碾月",
+                "rich_text": "作者：星河碾月",
+                "high_light_position": []
+              },
+              {
+                "text": "...，她觉得自己怎么就和清朝杠上了！爷孙三代的后宫她都去过！ 虽然这些都不是正史甚至有些还是影视剧里的平行世界，但是在这里赚取功德是真的快啊，她勉强接受了吧。",
+                "rich_text": "阮棠做梦都没想到她竟然英年早逝了！峰回路转又变相实现了永生！\n她从小是个孤儿，好不容易靠着写小说实现财富自由，有车有房有闲开始享受生活。\n谁知道这一切都被一个突然窜出来的骑着三轮车的大妈毁了！\n好在有个萌新系统绑定了她，只是整个系统感觉有些不太聪明的样子。\n不是这生子丹，生女丹.....这些丹药怎么感觉像是古代生活需要的样子！\n她不想去啊，但是现在没得选了，先去试试看吧，生活所迫嘛。\n第一个世界：孝懿仁皇后——佟佳氏\n第二个世界：庶妃张氏\n.........\n一个世界又一个世界过去，她觉得自己怎么就和<em>清朝</em>杠上了！爷孙三代的后宫她都去过！\n虽然这些都不是正史甚至有些还是影视剧里的平行世界，但是在这里赚取功德是真的快啊，她勉强接受了吧。",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1057,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7588633843444239385",
+          "search_result_id": "7588633843444239385",
+          "search_high_light": {
+            "abstract": {
+              "text": "我爸是皇帝，名叫玄烨……。 我妈是皇妃，封号德妃……。 我哥是皇子，排名第四……。 我跟我哥俩，相差十岁……。 使劲儿抱住哥的大腿：哥！弟儿这辈子，就靠你养活了嗷！ 年大将军上前撕开紧搂着皇帝大腿不撒手的某人：乖！这辈子，我养活你就好。 注：本文穿越重生，历史架空，内容虚拟，谢绝考据，如有雷同，实属巧合。",
+              "rich_text": "我爸是皇帝，名叫玄烨……。\n我妈是皇妃，封号德妃……。\n我哥是皇子，排名第四……。\n我跟我哥俩，相差十岁……。\n使劲儿抱住哥的大腿：哥！弟儿这辈子，就靠你养活了嗷！\n年大将军上前撕开紧搂着皇帝大腿不撒手的某人：乖！这辈子，我养活你就好。\n注：本文穿越重生，历史架空，内容虚拟，谢绝考据，如有雷同，实属巧合。",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "清十四的奋斗史",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "我爸是皇帝，名叫玄烨……。\n我妈是皇妃，封号德妃……。\n我哥是皇子，排名第四……。\n我跟我哥俩，相差十岁……。\n使劲儿抱住哥的大腿：哥！弟儿这辈子，就靠你养活了嗷！\n年大将军上前撕开紧搂着皇帝大腿不撒手的某人：乖！这辈子，我养活你就好。\n注：本文穿越重生，历史架空，内容虚拟，谢绝考据，如有雷同，实属巧合。",
+              "author": "初吻江湖",
+              "book_id": "7588633843444239385",
+              "book_name": "清十四的奋斗史",
+              "category": "宫斗宅斗",
+              "copyright_info": "版权信息：本书的数字版权由 连城小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-15T15:03:44+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7595796766293773337",
+              "first_chapter_item_id": "7595796766293773337",
+              "first_chapter_title": "001小十四",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7595796727228025881",
+              "last_chapter_item_id": "7595796727228025881",
+              "last_chapter_title": "299番外：继往开来",
+              "last_chapter_update_time": "1768535315",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "55604",
+              "recommend_group_id": "7588633843444239385",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603190956495CCC9A6F427CCDF179B5\",\"rank\":\"1\",\"normal_session_id\":\"9951bd41-075a-482c-8cea-7b108fd3ffed\",\"cold_start_session_id\":\"f16a4ced-d2c0-48ed-85f3-fe4feed08691\"}",
+              "read_progress": "0",
+              "serial_count": "299",
+              "source": "连城小说",
+              "tags": "宫斗宅斗,古代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/8ea5289550317ac20b31fa0995a2eea1~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=e2bzCq%2BHpW0AouupJnNlb3qLCN0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1183247",
+              "score": "7.6",
+              "role": "年羹尧,伊正",
+              "category_schema": "[{\"category_id\":246,\"name\":\"宫斗宅斗\",\"schema\":\"dragon1967://newCategoryDetail?id=246&name=宫斗宅斗&genre_type=0&gender=0&source=detail\"},{\"category_id\":5,\"name\":\"古代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=5&name=古代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=0&source=detail\"},{\"category_id\":76,\"name\":\"清穿\",\"schema\":\"dragon1967://newCategoryDetail?id=76&name=清穿&genre_type=0&gender=0&source=detail\"},{\"category_id\":852,\"name\":\"魂穿\",\"schema\":\"dragon1967://newCategoryDetail?id=852&name=魂穿&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "10711",
+              "sub_info": "5.6万人在读",
+              "last_publish_time": "1768542392",
+              "authorize_type": "0",
+              "media_id": "1642627078317059",
+              "original_book_name": "清十四的奋斗史",
+              "length_type": "0",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/8ea5289550317ac20b31fa0995a2eea1",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/8ea5289550317ac20b31fa0995a2eea1~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069410&x-signature=sz2oG8zXL9ySm6AV9VAWjhXuo3E%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "10555",
+              "pure_category_tags": "宫斗宅斗,魂穿",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#002038",
+              "read_count_all": "102033",
+              "shelf_cnt_history": "21315",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"3040\":1768542452,\"6589\":1768542452,\"2329\":1768542452,\"1319\":1768542452,\"596084\":1768542452,\"507427\":1768542512,\"1128\":1768542452,\"8661\":1768542452,\"8703\":1768542452,\"638505\":1768542452,\"35\":1768542452,\"1967\":1768542452,\"510893\":1768542452,\"8704\":1768542452,\"13\":1768542452,\"507386\":1768542512,\"8662\":1768542452,\"2503\":1768542452}",
+              "category_v2_map": {
+                "246": true,
+                "5": true,
+                "37": true,
+                "76": true,
+                "852": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/8ea5289550317ac20b31fa0995a2eea1~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=e2bzCq%2BHpW0AouupJnNlb3qLCN0%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6925632724111725838,
+                  "AuthorName": "初吻江湖"
+                }
+              ],
+              "platform_book_id": "706853",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/8ea5289550317ac20b31fa0995a2eea1~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069410&x-signature=8SVX8D5IFvxRF2NNGiUudXcKPRE%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "tts_type": "",
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "我爸是皇帝，名叫玄烨……。\n我妈是皇妃，封号德妃……。\n我哥是皇子，排名第四……。\n我跟我哥俩，相差十岁……。\n使劲儿抱住哥的大腿：哥！弟儿这辈子，就靠你养活了嗷！\n年大将军上前撕开紧搂着皇帝大腿不撒手的某人：乖！这辈子，我养活你就好。\n注：本文穿越重生，历史架空，内容虚拟，谢绝考据，如有雷同，实属巧合。",
+              "read_page_progress": "0",
+              "read_cnt_text": "5.6万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/8ea5289550317ac20b31fa0995a2eea1~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=bKuudIQMZgEFXIBCT7JQcG8BPHg%3D",
+              "raw_book_name": "清十四的奋斗史"
+            }
+          ],
+          "search_attached_info": "8721138789164478711:57:0:4106051339:clks####3@202603190955178E4D7F705118A75C1002",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "118.3万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "5万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "宫斗宅斗",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：初吻江湖",
+                "rich_text": "作者：初吻江湖",
+                "high_light_position": []
+              },
+              {
+                "text": "我爸是皇帝，名叫玄烨……。 我妈是皇妃，封号德妃……。 我哥是皇子，排名第四……。 我跟我哥俩，相差十岁……。 使劲儿抱住哥的大腿：哥！弟儿这辈子，就靠你养活了嗷！ 年大将军上前撕开紧搂着皇帝大腿不撒手的某人：乖！这辈子，我养活你就好。 注：本文穿越重生，历史架空，内容虚拟，谢绝考据，如有雷同，实属巧合。",
+                "rich_text": "我爸是皇帝，名叫玄烨……。\n我妈是皇妃，封号德妃……。\n我哥是皇子，排名第四……。\n我跟我哥俩，相差十岁……。\n使劲儿抱住哥的大腿：哥！弟儿这辈子，就靠你养活了嗷！\n年大将军上前撕开紧搂着皇帝大腿不撒手的某人：乖！这辈子，我养活你就好。\n注：本文穿越重生，历史架空，内容虚拟，谢绝考据，如有雷同，实属巧合。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1058,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7612633686176959550",
+          "search_result_id": "7612633686176959550",
+          "search_high_light": {
+            "abstract": {
+              "text": "康熙年间一名小吏林慕。九子夺嫡乱世，认准四阿哥胤禛。  助他步步为营，成为清宫第一宠臣。 可权倾朝野，我心中只装一人——那位选秀场上一见倾心的温婉秀女。一生一世，独宠一人。 待四爷登基，我弃官归隐，携她安稳余生。",
+              "rich_text": "康熙年间一名小吏林慕。九子夺嫡乱世，认准四阿哥胤禛。\n 助他步步为营，成为<em>清</em>宫第一宠臣。\n可权倾<em>朝</em>野，我心中只装一人——那位选秀场上一见倾心的温婉秀女。一生一世，独宠一人。\n待四爷登基，我弃官归隐，携她安稳余生。",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "清朝第一宠臣，林慕传",
+              "rich_text": "<em>清朝</em>第一宠臣，林慕传",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "康熙年间一名小吏林慕。九子夺嫡乱世，认准四阿哥胤禛。\n 助他步步为营，成为清宫第一宠臣。\n可权倾朝野，我心中只装一人——那位选秀场上一见倾心的温婉秀女。一生一世，独宠一人。\n待四爷登基，我弃官归隐，携她安稳余生。",
+              "author": "之禺",
+              "book_id": "7612633686176959550",
+              "book_name": "清朝第一宠臣，林慕传",
+              "category": "历史古代",
+              "copyright_info": "版权信息：本书的数字版权由 之禺 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-03-02T20:26:41+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7612633693789635134",
+              "first_chapter_item_id": "7612633693789635134",
+              "first_chapter_title": "第1章 适逢康熙朝，选秀遇佳人",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618220350454628926",
+              "last_chapter_item_id": "7618220350454628926",
+              "last_chapter_title": "第9章 叹石榴垂红，表孤心向道",
+              "last_chapter_update_time": "1773755200",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "16",
+              "recommend_group_id": "7612633686176959550",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603190956495CCC9A6F427CCDF179B5\",\"rank\":\"1\",\"normal_session_id\":\"9951bd41-075a-482c-8cea-7b108fd3ffed\",\"cold_start_session_id\":\"f16a4ced-d2c0-48ed-85f3-fe4feed08691\"}",
+              "read_progress": "0",
+              "serial_count": "9",
+              "source": "之禺",
+              "tags": "历史古代,古代",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/204442ac45b7dddae642b92281249d67~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=DLR03qdO%2B5fg90tyiiXUY7rr%2FVQ%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "39845",
+              "score": "0",
+              "role": "林慕,苏存",
+              "category_schema": "[{\"category_id\":273,\"name\":\"历史古代\",\"schema\":\"dragon1967://newCategoryDetail?id=273&name=历史古代&genre_type=0&gender=1&source=detail\"},{\"category_id\":758,\"name\":\"古代\",\"schema\":\"dragon1967://newCategoryDetail?id=758&name=古代&genre_type=0&gender=1&source=detail\"},{\"category_id\":503,\"name\":\"清朝\",\"schema\":\"dragon1967://newCategoryDetail?id=503&name=清朝&genre_type=0&gender=1&source=detail\"},{\"category_id\":389,\"name\":\"单女主\",\"schema\":\"dragon1967://newCategoryDetail?id=389&name=单女主&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "2",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773755212",
+              "authorize_type": "0",
+              "media_id": "1854021622521866",
+              "original_book_name": "清朝第一宠臣，林慕传",
+              "length_type": "0",
+              "keep_publish_days": "1",
+              "thumb_uri": "novel-pic/204442ac45b7dddae642b92281249d67",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/204442ac45b7dddae642b92281249d67~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069410&x-signature=OM9A%2BJ3P3uUYTVweAzaKiRBxWHU%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "历史古代,单女主",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":100454}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#183048",
+              "read_count_all": "16",
+              "shelf_cnt_history": "978",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2503\":1772458292,\"507427\":1772458354,\"35\":1772458292,\"2329\":1772458292,\"8704\":1772458292,\"8662\":1772458292,\"510893\":1772458292,\"1967\":1772458292,\"507386\":1772458354,\"8703\":1772458292,\"13\":1772458292,\"1128\":1772458292}",
+              "category_v2_map": {
+                "503": true,
+                "389": true,
+                "758": true,
+                "273": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/204442ac45b7dddae642b92281249d67~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=DLR03qdO%2B5fg90tyiiXUY7rr%2FVQ%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7612631284841452862,
+                  "AuthorName": "之禺"
+                }
+              ],
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/204442ac45b7dddae642b92281249d67~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069410&x-signature=1pKwLUkQ5MX9gPdRAxRmq%2BvlzAE%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "康熙年间一名小吏林慕。九子夺嫡乱世，认准四阿哥胤禛。\n 助他步步为营，成为清宫第一宠臣。\n可权倾朝野，我心中只装一人——那位选秀场上一见倾心的温婉秀女。一生一世，独宠一人。\n待四爷登基，我弃官归隐，携她安稳余生。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/204442ac45b7dddae642b92281249d67~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=Qop51jdwp%2FCkZ0kHclDuHFzXdJY%3D",
+              "raw_book_name": "清朝第一宠臣，林慕传"
+            }
+          ],
+          "search_attached_info": "8721138789164478711:58:0:2985653749:clks####3@202603190955178E4D7F705118A75C1002",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "4.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "16人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史古代",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：之禺",
+                "rich_text": "作者：之禺",
+                "high_light_position": []
+              },
+              {
+                "text": "康熙年间一名小吏林慕。九子夺嫡乱世，认准四阿哥胤禛。  助他步步为营，成为清宫第一宠臣。 可权倾朝野，我心中只装一人——那位选秀场上一见倾心的温婉秀女。一生一世，独宠一人。 待四爷登基，我弃官归隐，携她安稳余生。",
+                "rich_text": "康熙年间一名小吏林慕。九子夺嫡乱世，认准四阿哥胤禛。\n 助他步步为营，成为<em>清</em>宫第一宠臣。\n可权倾<em>朝</em>野，我心中只装一人——那位选秀场上一见倾心的温婉秀女。一生一世，独宠一人。\n待四爷登基，我弃官归隐，携她安稳余生。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1059,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7424955474463689753",
+          "search_result_id": "7424955474463689753",
+          "search_high_light": {
+            "title": {
+              "text": "清穿之七阿哥的奋斗人生",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "现代人尹佑遭遇车祸，在死后重生为康熙第七子胤祐。他生而有疾，母妃也不得宠，胤祐在后宫生存的秘诀就是给自己立个不争不抢的人设。 在胤祐人设的作用下，康熙认为他孝悌忠信，太子把他当成最亲近的兄弟，就连未来的雍正也夸他宠辱不惊，性情至真，是个值得信任的人。",
+              "rich_text": "现代人尹佑遭遇车祸，在死后重生为康熙第七子胤祐。他生而有疾，母妃也不得宠，胤祐在后宫生存的秘诀就是给自己立个不争不抢的人设。\n在胤祐人设的作用下，康熙认为他孝悌忠信，太子把他当成最亲近的兄弟，就连未来的雍正也夸他宠辱不惊，性情至真，是个值得信任的人。",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "现代人尹佑遭遇车祸，在死后重生为康熙第七子胤祐。他生而有疾，母妃也不得宠，胤祐在后宫生存的秘诀就是给自己立个不争不抢的人设。\n在胤祐人设的作用下，康熙认为他孝悌忠信，太子把他当成最亲近的兄弟，就连未来的雍正也夸他宠辱不惊，性情至真，是个值得信任的人。",
+              "author": "芒果不加酱",
+              "book_id": "7424955474463689753",
+              "book_name": "清穿之七阿哥的奋斗人生",
+              "category": "古风世情",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-10-13T02:19:22+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7434917594219430424",
+              "first_chapter_item_id": "7434917594219430424",
+              "first_chapter_title": "第1章 穿成胤祐",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7498280372094894616",
+              "last_chapter_item_id": "7498280372094894616",
+              "last_chapter_title": "第226章 后世",
+              "last_chapter_update_time": "1745850574",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "4470",
+              "recommend_group_id": "7424955474463689753",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"202603190956495CCC9A6F427CCDF179B5\",\"rank\":\"1\",\"normal_session_id\":\"9951bd41-075a-482c-8cea-7b108fd3ffed\",\"cold_start_session_id\":\"f16a4ced-d2c0-48ed-85f3-fe4feed08691\"}",
+              "read_progress": "0",
+              "serial_count": "226",
+              "source": "番茄小说",
+              "tags": "古风世情,古代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b293b225c6f00ab1da8af984f6a049e0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=OFJAsMYh%2BLqztxN6B%2B7eHwzJ3e8%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "500110",
+              "score": "8.8",
+              "exclusive": "1",
+              "role": "胤祐",
+              "category_schema": "[{\"category_id\":1139,\"name\":\"古风世情\",\"schema\":\"dragon1967://newCategoryDetail?id=1139&name=古风世情&genre_type=0&gender=0&source=detail\"},{\"category_id\":5,\"name\":\"古代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=5&name=古代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=0&source=detail\"},{\"category_id\":1317,\"name\":\"古言权谋\",\"schema\":\"dragon1967://newCategoryDetail?id=1317&name=古言权谋&genre_type=0&gender=0&source=detail\"},{\"category_id\":484,\"name\":\"HE\",\"schema\":\"dragon1967://newCategoryDetail?id=484&name=HE&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "551",
+              "sub_info": "4470人在读",
+              "last_publish_time": "1745942664",
+              "authorize_type": "1",
+              "media_id": "1767952599810062",
+              "original_book_name": "清穿之皇子生存攻略",
+              "length_type": "1",
+              "op_tag": "535,536,1156,1160,900,531",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/b293b225c6f00ab1da8af984f6a049e0",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/71659a6a994aaa664c887864938346f0",
+              "data_rate": "",
+              "all_bookshelf_count": "398",
+              "pure_category_tags": "古风世情,HE",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#182028",
+              "read_count_all": "446151",
+              "shelf_cnt_history": "51927",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1967\":1731109207,\"596084\":1733385914,\"8704\":1747760169,\"8662\":1731109207,\"8661\":1733385914,\"510893\":1731109207,\"1319\":1733367007,\"13\":1731109207,\"35\":1731109207,\"6589\":1733385914,\"507386\":1741856456,\"638505\":1733385914,\"3040\":1733385914,\"1128\":1731109207,\"507427\":1741856456,\"8703\":1744883344,\"2329\":1731109207,\"2503\":1731109207}",
+              "category_v2_map": {
+                "1139": true,
+                "484": true,
+                "1317": true,
+                "5": true,
+                "37": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b293b225c6f00ab1da8af984f6a049e0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=OFJAsMYh%2BLqztxN6B%2B7eHwzJ3e8%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7241535865120363780,
+                  "AuthorName": "芒果不加酱"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/71659a6a994aaa664c887864938346f0~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069410&x-signature=Oxkk3kbaYNjEtSWij6AoIYXN74k%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "现代人尹佑遭遇车祸，在死后重生为康熙第七子胤祐。他生而有疾，母妃也不得宠，胤祐在后宫生存的秘诀就是给自己立个不争不抢的人设。\n在胤祐人设的作用下，康熙认为他孝悌忠信，太子把他当成最亲近的兄弟，就连未来的雍正也夸他宠辱不惊，性情至真，是个值得信任的人。",
+              "read_page_progress": "0",
+              "read_cnt_text": "4470人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b293b225c6f00ab1da8af984f6a049e0~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069410&x-signature=LHLdBYeMQP585YsXf6oBTlsGZhw%3D",
+              "raw_book_name": "清穿之七阿哥的奋斗人生",
+              "color_audio_dominate": "#312724"
+            }
+          ],
+          "search_attached_info": "8721138789164478711:59:0:2487349121:clks####3@202603190955178E4D7F705118A75C1002",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "50.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4470人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "古风世情",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：芒果不加酱",
+                "rich_text": "作者：芒果不加酱",
+                "high_light_position": []
+              },
+              {
+                "text": "现代人尹佑遭遇车祸，在死后重生为康熙第七子胤祐。他生而有疾，母妃也不得宠，胤祐在后宫生存的秘诀就是给自己立个不争不抢的人设。 在胤祐人设的作用下，康熙认为他孝悌忠信，太子把他当成最亲近的兄弟，就连未来的雍正也夸他宠辱不惊，性情至真，是个值得信任的人。",
+                "rich_text": "现代人尹佑遭遇车祸，在死后重生为康熙第七子胤祐。他生而有疾，母妃也不得宠，胤祐在后宫生存的秘诀就是给自己立个不争不抢的人设。\n在胤祐人设的作用下，康熙认为他孝悌忠信，太子把他当成最亲近的兄弟，就连未来的雍正也夸他宠辱不惊，性情至真，是个值得信任的人。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "60",
+      "search_id": "clks####3@202603190955178E4D7F705118A75C1002",
+      "query": "清朝",
+      "next_offset": 60,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@202603190955178E4D7F705118A75C1002",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"202603190956495CCC9A6F427CCDF179B5\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@202603190955178E4D7F705118A75C1002",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@202603190955178E4D7F705118A75C1002",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "202603190956495CCC9A6F427CCDF179B5"
+}

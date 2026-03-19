@@ -1,0 +1,2602 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@2026031910361858B7500BB18223216638",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@2026031910361858B7500BB18223216638",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@2026031910361858B7500BB18223216638",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@2026031910361858B7500BB18223216638",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@2026031910361858B7500BB18223216638",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@2026031910361858B7500BB18223216638",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1001,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7538691315794463769",
+          "search_result_id": "7538691315794463769",
+          "search_high_light": {
+            "abstract": {
+              "text": "...后身穿+大佬+演技+娱乐圈+行侠仗义 .（无cp无cp无cp）     暗十一，皇朝最锋利的刀，血战秦龙山，万箭穿心而死。     再睁眼，便成了现代社会的一名三无人士。     没有身份，没有钱，饿了三天的暗十一站在便利店里面无表情地拿起一袋面包丢了两个铜板，接着报警器响了。     暗十一：“……？”     为了温饱，上街卖艺，被星探发现，便走上了演员之路。     武戏？——他一剑光寒，全网沸腾：“这特么居然不是特效吗？！”     文戏？——权谋宫斗？他演的反派一个眼神让导演腿软：“你…真没杀过人？”     有人想潜规则？反手把大佬送橘子里。     娱乐圈最年轻的传奇影帝，背景成谜，人脉通天。     暗十一（萧景辰）说：“本官来此一世，既要护百姓安康，也要走出星辰大道！” （不会写简介，直接看正文吧，其实就是个单纯的爽文。）",
+              "rich_text": "顶级暗卫+死后身穿+大佬+演技+<em>娱乐圈</em>+行侠仗义\n.（无cp无cp无cp）\n    暗十一，皇朝最锋利的刀，血战秦龙山，万箭穿心而死。\n    再睁眼，便成了现代社会的一名三无人士。\n    没有身份，没有钱，饿了三天的暗十一站在便利店里面无表情地拿起一袋面包丢了两个铜板，接着报警器响了。\n    暗十一：“……？”\n    为了温饱，上街卖艺，被星探发现，便走上了演员之路。\n    武戏？——他一剑光寒，全网沸腾：“这特么居然不是特效吗？！”\n    文戏？——权谋宫斗？他演的反派一个眼神让导演腿软：“你…真没杀过人？”\n    有人想潜规则？反手把大佬送橘子里。\n    <em>娱乐圈</em>最年轻的传奇影帝，背景成谜，人脉通天。\n    暗十一（萧景辰）说：“本官来此一世，既要护百姓安康，也要走出星辰大道！”\n（不会写简介，直接看正文吧，其实就是个单纯的爽文。）",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ],
+                [
+                  288,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "用暗卫技能在娱乐圈封神",
+              "rich_text": "用暗卫技能在<em>娱乐圈</em>封神",
+              "high_light_position": [
+                [
+                  6,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "顶级暗卫+死后身穿+大佬+演技+娱乐圈+行侠仗义\n.（无cp无cp无cp）\n    暗十一，皇朝最锋利的刀，血战秦龙山，万箭穿心而死。\n    再睁眼，便成了现代社会的一名三无人士。\n    没有身份，没有钱，饿了三天的暗十一站在便利店里面无表情地拿起一袋面包丢了两个铜板，接着报警器响了。\n    暗十一：“……？”\n    为了温饱，上街卖艺，被星探发现，便走上了演员之路。\n    武戏？——他一剑光寒，全网沸腾：“这特么居然不是特效吗？！”\n    文戏？——权谋宫斗？他演的反派一个眼神让导演腿软：“你…真没杀过人？”\n    有人想潜规则？反手把大佬送橘子里。\n    娱乐圈最年轻的传奇影帝，背景成谜，人脉通天。\n    暗十一（萧景辰）说：“本官来此一世，既要护百姓安康，也要走出星辰大道！”\n（不会写简介，直接看正文吧，其实就是个单纯的爽文。）",
+              "author": "正在码字的小鸽",
+              "book_id": "7538691315794463769",
+              "book_name": "用暗卫技能在娱乐圈封神",
+              "category": "星光璀璨",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-08-15T14:12:31+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7539166220629590553",
+              "first_chapter_item_id": "7539166220629590553",
+              "first_chapter_title": "第1章 秦龙夜雨，忠骨埋锋",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618439840291373593",
+              "last_chapter_item_id": "7618439840291373593",
+              "last_chapter_title": "第362章 李家饭局（二合一章节）",
+              "last_chapter_update_time": "1773815522",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "25356",
+              "recommend_group_id": "7538691315794463769",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910362458B7500BB182232169FE\",\"rank\":\"1\",\"normal_session_id\":\"bd0c3e1a-137a-43d4-8680-8e019e3ce9a0\",\"cold_start_session_id\":\"92eaaf7d-7748-4cfc-8637-e6b18ad91236\"}",
+              "read_progress": "0",
+              "serial_count": "362",
+              "source": "番茄小说",
+              "tags": "星光璀璨,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e42ad46a831aa56976f8e25dd9ee9aba~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=qoALHt7maxlrXljybSNVz0FXGMA%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "707141",
+              "score": "8.9",
+              "exclusive": "1",
+              "role": "萧景辰",
+              "category_schema": "[{\"category_id\":745,\"name\":\"星光璀璨\",\"schema\":\"dragon1967://newCategoryDetail?id=745&name=星光璀璨&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=0&source=detail\"},{\"category_id\":43,\"name\":\"娱乐圈\",\"schema\":\"dragon1967://newCategoryDetail?id=43&name=娱乐圈&genre_type=0&gender=0&source=detail\"},{\"category_id\":392,\"name\":\"无CP\",\"schema\":\"dragon1967://newCategoryDetail?id=392&name=无CP&genre_type=0&gender=0&source=detail\"},{\"category_id\":486,\"name\":\"明星\",\"schema\":\"dragon1967://newCategoryDetail?id=486&name=明星&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7566519142237359128]",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "4583",
+              "sub_info": "2.6万人在读",
+              "last_publish_time": "1773815534",
+              "authorize_type": "1",
+              "media_id": "1826120665381899",
+              "original_book_name": "古穿今之暗卫重生在娱乐圈杀疯了",
+              "length_type": "0",
+              "op_tag": "531,535,536",
+              "keep_publish_days": "8",
+              "thumb_uri": "novel-pic/e42ad46a831aa56976f8e25dd9ee9aba",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/c90af2c9852edab9f7face3a29ecbcaa",
+              "data_rate": "",
+              "all_bookshelf_count": "4201",
+              "pure_category_tags": "星光璀璨,明星",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#181820",
+              "read_count_all": "633709",
+              "shelf_cnt_history": "135273",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1967\":1755349093,\"8662\":1755349093,\"2503\":1755349093,\"13\":1755349093,\"507386\":1755349155,\"6589\":1755357273,\"8661\":1755357273,\"510893\":1755349093,\"507427\":1755349155,\"1128\":1755349093,\"2329\":1755349093,\"3040\":1755357273,\"8704\":1755349093,\"35\":1755349093,\"8703\":1755349093,\"596084\":1755357273,\"638505\":1755357273}",
+              "category_v2_map": {
+                "392": true,
+                "3": true,
+                "486": true,
+                "745": true,
+                "37": true,
+                "43": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e42ad46a831aa56976f8e25dd9ee9aba~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=qoALHt7maxlrXljybSNVz0FXGMA%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7480177709847434521,
+                  "AuthorName": "正在码字的小鸽"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/c90af2c9852edab9f7face3a29ecbcaa~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071784&x-signature=U7%2B4rLQir5rnQIBtnnetARRZraU%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "顶级暗卫+死后身穿+大佬+演技+娱乐圈+行侠仗义\n.（无cp无cp无cp）\n    暗十一，皇朝最锋利的刀，血战秦龙山，万箭穿心而死。\n    再睁眼，便成了现代社会的一名三无人士。\n    没有身份，没有钱，饿了三天的暗十一站在便利店里面无表情地拿起一袋面包丢了两个铜板，接着报警器响了。\n    暗十一：“……？”\n    为了温饱，上街卖艺，被星探发现，便走上了演员之路。\n    武戏？——他一剑光寒，全网沸腾：“这特么居然不是特效吗？！”\n    文戏？——权谋宫斗？他演的反派一个眼神让导演腿软：“你…真没杀过人？”\n    有人想潜规则？反手把大佬送橘子里。\n    娱乐圈最年轻的传奇影帝，背景成谜，人脉通天。\n    暗十一（萧景辰）说：“本官来此一世，既要护百姓安康，也要走出星辰大道！”\n（不会写简介，直接看正文吧，其实就是个单纯的爽文。）",
+              "read_page_progress": "0",
+              "read_cnt_text": "2.6万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e42ad46a831aa56976f8e25dd9ee9aba~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=8GzzUusWUZ79cz7BmJ5ryC170Lk%3D",
+              "raw_book_name": "用暗卫技能在娱乐圈封神",
+              "color_audio_dominate": "#202225",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "17609296486649574894:1:0:1405997120:clks####3@2026031910361858B7500BB18223216638",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "70.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "星光璀璨",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：正在码字的小鸽",
+                "rich_text": "作者：正在码字的小鸽",
+                "high_light_position": []
+              },
+              {
+                "text": "...后身穿+大佬+演技+娱乐圈+行侠仗义 .（无cp无cp无cp）     暗十一，皇朝最锋利的刀，血战秦龙山，万箭穿心而死。     再睁眼，便成了现代社会的一名三无人士。     没有身份，没有钱，饿了三天的暗十一站在便利店里面无表情地拿起一袋面包丢了两个铜板，接着报警器响了。     暗十一：“……？”     为了温饱，上街卖艺，被星探发现，便走上了演员之路。     武戏？——他一剑光寒，全网沸腾：“这特么居然不是特效吗？！”     文戏？——权谋宫斗？他演的反派一个眼神让导演腿软：“你…真没杀过人？”     有人想潜规则？反手把大佬送橘子里。     娱乐圈最年轻的传奇影帝，背景成谜，人脉通天。     暗十一（萧景辰）说：“本官来此一世，既要护百姓安康，也要走出星辰大道！” （不会写简介，直接看正文吧，其实就是个单纯的爽文。）",
+                "rich_text": "顶级暗卫+死后身穿+大佬+演技+<em>娱乐圈</em>+行侠仗义\n.（无cp无cp无cp）\n    暗十一，皇朝最锋利的刀，血战秦龙山，万箭穿心而死。\n    再睁眼，便成了现代社会的一名三无人士。\n    没有身份，没有钱，饿了三天的暗十一站在便利店里面无表情地拿起一袋面包丢了两个铜板，接着报警器响了。\n    暗十一：“……？”\n    为了温饱，上街卖艺，被星探发现，便走上了演员之路。\n    武戏？——他一剑光寒，全网沸腾：“这特么居然不是特效吗？！”\n    文戏？——权谋宫斗？他演的反派一个眼神让导演腿软：“你…真没杀过人？”\n    有人想潜规则？反手把大佬送橘子里。\n    <em>娱乐圈</em>最年轻的传奇影帝，背景成谜，人脉通天。\n    暗十一（萧景辰）说：“本官来此一世，既要护百姓安康，也要走出星辰大道！”\n（不会写简介，直接看正文吧，其实就是个单纯的爽文。）",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ],
+                  [
+                    288,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1002,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7552608106916629528",
+          "search_result_id": "7552608106916629528",
+          "search_high_light": {
+            "abstract": {
+              "text": "【无系统+无cp+全能天才+颜C+只和粉丝双向奔赴+先天爱豆圣体+爽文】 祁灵阳在家休养三个月，怎料被无良堂兄坑去参与男团选秀。 起初只想熬过四个月走人，不料遇见偏爱他的向日葵。 那就C位出道吧。 …… 向日葵：他永远是最亮的一颗星，向日葵永远会偏向太阳！ 祁灵阳：南波万和向日葵，我早就做了选择。 ～ 绑定buff中，先天爱豆圣体+1。",
+              "rich_text": "【无系统+无cp+全能天才+颜C+只和粉丝双向奔赴+先天爱豆圣体+爽文】\n祁灵阳在家休养三个月，怎料被无良堂兄坑去参与男团选秀。\n起初只想熬过四个月走人，不料遇见偏爱他的向日葵。\n那就C位出道吧。\n……\n向日葵：他永远是最亮的一颗星，向日葵永远会偏向太阳！\n祁灵阳：南波万和向日葵，我早就做了选择。\n～\n绑定buff中，先天爱豆圣体+1。",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "男团选秀：啊？媚粉天才？我吗？",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【无系统+无cp+全能天才+颜C+只和粉丝双向奔赴+先天爱豆圣体+爽文】\n祁灵阳在家休养三个月，怎料被无良堂兄坑去参与男团选秀。\n起初只想熬过四个月走人，不料遇见偏爱他的向日葵。\n那就C位出道吧。\n……\n向日葵：他永远是最亮的一颗星，向日葵永远会偏向太阳！\n祁灵阳：南波万和向日葵，我早就做了选择。\n～\n绑定buff中，先天爱豆圣体+1。",
+              "author": "你这个毒妇",
+              "book_id": "7552608106916629528",
+              "book_name": "男团选秀：啊？媚粉天才？我吗？",
+              "category": "星光璀璨",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-09-22T02:16:47+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7552747987798065688",
+              "first_chapter_item_id": "7552747987798065688",
+              "first_chapter_title": "第1章 被坑去男团选秀了",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7617516236242436633",
+              "last_chapter_item_id": "7617516236242436633",
+              "last_chapter_title": "第185章 灵阳，我好想告诉你一个惊天大秘密——~",
+              "last_chapter_update_time": "1773591302",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "45348",
+              "recommend_group_id": "7552608106916629528",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910362458B7500BB182232169FE\",\"rank\":\"1\",\"normal_session_id\":\"bd0c3e1a-137a-43d4-8680-8e019e3ce9a0\",\"cold_start_session_id\":\"92eaaf7d-7748-4cfc-8637-e6b18ad91236\"}",
+              "read_progress": "0",
+              "serial_count": "185",
+              "source": "番茄小说",
+              "tags": "星光璀璨,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0e5b1c9df0bae5089051c30a82a9f461~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=L2QDdyXi%2Fo%2FFdRCl%2FEFPtBkvxWU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "399636",
+              "score": "9.1",
+              "exclusive": "1",
+              "role": "祁灵阳",
+              "category_schema": "[{\"category_id\":745,\"name\":\"星光璀璨\",\"schema\":\"dragon1967://newCategoryDetail?id=745&name=星光璀璨&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":90,\"name\":\"天才\",\"schema\":\"dragon1967://newCategoryDetail?id=90&name=天才&genre_type=0&gender=0&source=detail\"},{\"category_id\":43,\"name\":\"娱乐圈\",\"schema\":\"dragon1967://newCategoryDetail?id=43&name=娱乐圈&genre_type=0&gender=0&source=detail\"},{\"category_id\":392,\"name\":\"无CP\",\"schema\":\"dragon1967://newCategoryDetail?id=392&name=无CP&genre_type=0&gender=0&source=detail\"},{\"category_id\":856,\"name\":\"全能\",\"schema\":\"dragon1967://newCategoryDetail?id=856&name=全能&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "4049",
+              "sub_info": "4.6万人在读",
+              "last_publish_time": "1773592897",
+              "authorize_type": "1",
+              "media_id": "1732692330146819",
+              "original_book_name": "被坑去男团选秀后，我C位出道",
+              "length_type": "0",
+              "op_tag": "531,535,536",
+              "keep_publish_days": "1",
+              "thumb_uri": "novel-pic/0e5b1c9df0bae5089051c30a82a9f461",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/0b7f432058d67234af921107a12add26",
+              "data_rate": "",
+              "all_bookshelf_count": "6878",
+              "pure_category_tags": "星光璀璨,全能",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#402018",
+              "read_count_all": "421557",
+              "shelf_cnt_history": "91583",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507427\":1758511505,\"6589\":1758965336,\"35\":1758511456,\"2503\":1758511456,\"596084\":1758965336,\"8662\":1758511456,\"2329\":1758511456,\"8703\":1758511456,\"638505\":1758965336,\"8661\":1758965336,\"13\":1758511456,\"1128\":1758511456,\"507386\":1758511505,\"8704\":1758511456,\"3040\":1758965336,\"510893\":1758511456,\"1967\":1758511456}",
+              "category_v2_map": {
+                "43": true,
+                "90": true,
+                "856": true,
+                "745": true,
+                "3": true,
+                "392": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0e5b1c9df0bae5089051c30a82a9f461~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=L2QDdyXi%2Fo%2FFdRCl%2FEFPtBkvxWU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7102325825520801037,
+                  "AuthorName": "你这个毒妇"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/0b7f432058d67234af921107a12add26~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071784&x-signature=XYHET50A5sFwGiWvACzdhNg%2FOz4%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【无系统+无cp+全能天才+颜C+只和粉丝双向奔赴+先天爱豆圣体+爽文】\n祁灵阳在家休养三个月，怎料被无良堂兄坑去参与男团选秀。\n起初只想熬过四个月走人，不料遇见偏爱他的向日葵。\n那就C位出道吧。\n……\n向日葵：他永远是最亮的一颗星，向日葵永远会偏向太阳！\n祁灵阳：南波万和向日葵，我早就做了选择。\n～\n绑定buff中，先天爱豆圣体+1。",
+              "read_page_progress": "0",
+              "read_cnt_text": "4.6万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0e5b1c9df0bae5089051c30a82a9f461~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=EKwGVCp6OqAnQtE64yMuhQ4t2lM%3D",
+              "raw_book_name": "男团选秀：啊？媚粉天才？我吗？",
+              "color_audio_dominate": "#1B2330",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "17609296486649574894:2:0:2199981763:clks####3@2026031910361858B7500BB18223216638",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "40.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "星光璀璨",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：你这个毒妇",
+                "rich_text": "作者：你这个毒妇",
+                "high_light_position": []
+              },
+              {
+                "text": "【无系统+无cp+全能天才+颜C+只和粉丝双向奔赴+先天爱豆圣体+爽文】 祁灵阳在家休养三个月，怎料被无良堂兄坑去参与男团选秀。 起初只想熬过四个月走人，不料遇见偏爱他的向日葵。 那就C位出道吧。 …… 向日葵：他永远是最亮的一颗星，向日葵永远会偏向太阳！ 祁灵阳：南波万和向日葵，我早就做了选择。 ～ 绑定buff中，先天爱豆圣体+1。",
+                "rich_text": "【无系统+无cp+全能天才+颜C+只和粉丝双向奔赴+先天爱豆圣体+爽文】\n祁灵阳在家休养三个月，怎料被无良堂兄坑去参与男团选秀。\n起初只想熬过四个月走人，不料遇见偏爱他的向日葵。\n那就C位出道吧。\n……\n向日葵：他永远是最亮的一颗星，向日葵永远会偏向太阳！\n祁灵阳：南波万和向日葵，我早就做了选择。\n～\n绑定buff中，先天爱豆圣体+1。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1003,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7189083374374358051",
+          "search_result_id": "7189083374374358051",
+          "search_high_light": {
+            "title": {
+              "text": "诱她轻喃",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "...男女主都有嘴】 【双娱乐圈+直播恋综、闪婚+隐婚、甜宠+双洁he】 沈宴南、简梨不和是娱乐圈公认的秘密，双方唯粉撕得头破血流，两位正主更是避嫌到不在任何活动上共同露面。 再次一同出现是在某颁奖礼，外面粉丝吵得多火热，后台休息室的两人亲得就有多难舍。 对简梨偷偷摸摸行为很不满意的某人：“有必要提醒一下沈太太，我们合法的。” 简梨：差点忘了…… —— 被坑上恋综的简梨，本想借着沈宴南的手拒掉，谁想这人明里毫无反应，暗中突然空降 最后告白夜。 一众男嘉宾齐刷刷站在简梨面前，最后到的沈影帝慢条斯理地走来：“留在这，还是跟我走？” 简梨握住伸到面前的手，“走！” 当晚，@沈宴南：已婚——配图结婚证 网友一：这年头拍恋综敬业到这种地步？？ 网友二：我断网了吗？去了趟乡下俩死对头结婚了？？ 网友三：只有我发现结婚日期是三年前？！！ 简梨随后转发：和你在一起的三年，每天都很幸福！ 网友们：？？？",
+              "rich_text": "【全糖无虐无误会、男女主都有嘴】\n【双<em>娱乐圈</em>+直播恋综、闪婚+隐婚、甜宠+双洁he】\n沈宴南、简梨不和是<em>娱乐圈</em>公认的秘密，双方唯粉撕得头破血流，两位正主更是避嫌到不在任何活动上共同露面。\n再次一同出现是在某颁奖礼，外面粉丝吵得多火热，后台休息室的两人亲得就有多难舍。\n对简梨偷偷摸摸行为很不满意的某人：“有必要提醒一下沈太太，我们合法的。”\n简梨：差点忘了……\n——\n被坑上恋综的简梨，本想借着沈宴南的手拒掉，谁想这人明里毫无反应，暗中突然空降\n最后告白夜。\n一众男嘉宾齐刷刷站在简梨面前，最后到的沈影帝慢条斯理地走来：“留在这，还是跟我走？”\n简梨握住伸到面前的手，“走！”\n当晚，@沈宴南：已婚——配图结婚证\n网友一：这年头拍恋综敬业到这种地步？？\n网友二：我断网了吗？去了趟乡下俩死对头结婚了？？\n网友三：只有我发现结婚日期是三年前？！！\n简梨随后转发：和你在一起的三年，每天都很幸福！\n网友们：？？？",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ],
+                [
+                  46,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【全糖无虐无误会、男女主都有嘴】\n【双娱乐圈+直播恋综、闪婚+隐婚、甜宠+双洁he】\n沈宴南、简梨不和是娱乐圈公认的秘密，双方唯粉撕得头破血流，两位正主更是避嫌到不在任何活动上共同露面。\n再次一同出现是在某颁奖礼，外面粉丝吵得多火热，后台休息室的两人亲得就有多难舍。\n对简梨偷偷摸摸行为很不满意的某人：“有必要提醒一下沈太太，我们合法的。”\n简梨：差点忘了……\n——\n被坑上恋综的简梨，本想借着沈宴南的手拒掉，谁想这人明里毫无反应，暗中突然空降\n最后告白夜。\n一众男嘉宾齐刷刷站在简梨面前，最后到的沈影帝慢条斯理地走来：“留在这，还是跟我走？”\n简梨握住伸到面前的手，“走！”\n当晚，@沈宴南：已婚——配图结婚证\n网友一：这年头拍恋综敬业到这种地步？？\n网友二：我断网了吗？去了趟乡下俩死对头结婚了？？\n网友三：只有我发现结婚日期是三年前？！！\n简梨随后转发：和你在一起的三年，每天都很幸福！\n网友们：？？？",
+              "author": "匪鱼",
+              "book_id": "7189083374374358051",
+              "book_name": "诱她轻喃",
+              "category": "星光璀璨",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-01-16T11:15:09+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7304599965962076734",
+              "first_chapter_item_id": "7304599965962076734",
+              "first_chapter_title": "第1章 咱俩合法的",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7365862115380298265",
+              "last_chapter_item_id": "7365862115380298265",
+              "last_chapter_title": "第119章 番外副cp篇2",
+              "last_chapter_update_time": "1714998786",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "14620",
+              "recommend_group_id": "7189083374374358051",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910362458B7500BB182232169FE\",\"rank\":\"1\",\"normal_session_id\":\"bd0c3e1a-137a-43d4-8680-8e019e3ce9a0\",\"cold_start_session_id\":\"92eaaf7d-7748-4cfc-8637-e6b18ad91236\"}",
+              "read_progress": "0",
+              "serial_count": "119",
+              "source": "番茄小说",
+              "tags": "星光璀璨,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/f4abe31a9a7b58ed7de70de09dec6466~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=aG2vXvHDOsPj%2BR8UobgIgkH7flI%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "242358",
+              "score": "9.1",
+              "exclusive": "1",
+              "role": "沈宴南,简梨",
+              "category_schema": "[{\"category_id\":745,\"name\":\"星光璀璨\",\"schema\":\"dragon1967://newCategoryDetail?id=745&name=星光璀璨&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":96,\"name\":\"甜宠\",\"schema\":\"dragon1967://newCategoryDetail?id=96&name=甜宠&genre_type=0&gender=0&source=detail\"},{\"category_id\":43,\"name\":\"娱乐圈\",\"schema\":\"dragon1967://newCategoryDetail?id=43&name=娱乐圈&genre_type=0&gender=0&source=detail\"},{\"category_id\":69,\"name\":\"直播\",\"schema\":\"dragon1967://newCategoryDetail?id=69&name=直播&genre_type=0&gender=0&source=detail\"},{\"category_id\":466,\"name\":\"闪婚\",\"schema\":\"dragon1967://newCategoryDetail?id=466&name=闪婚&genre_type=0&gender=0&source=detail\"},{\"category_id\":467,\"name\":\"隐婚\",\"schema\":\"dragon1967://newCategoryDetail?id=467&name=隐婚&genre_type=0&gender=0&source=detail\"},{\"category_id\":484,\"name\":\"HE\",\"schema\":\"dragon1967://newCategoryDetail?id=484&name=HE&genre_type=0&gender=0&source=detail\"},{\"category_id\":486,\"name\":\"明星\",\"schema\":\"dragon1967://newCategoryDetail?id=486&name=明星&genre_type=0&gender=0&source=detail\"},{\"category_id\":702,\"name\":\"双洁\",\"schema\":\"dragon1967://newCategoryDetail?id=702&name=双洁&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "1114",
+              "sub_info": "1.5万人在读",
+              "last_publish_time": "1714998802",
+              "authorize_type": "1",
+              "media_id": "1709855665332224",
+              "original_book_name": "瞒着娱乐圈闪婚死对头，被撩疯了",
+              "length_type": "1",
+              "op_tag": "535,846,531,536,873,935,934,857,920,1076,1139,1135",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/f4abe31a9a7b58ed7de70de09dec6466",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o71b7b6b79ef3b758071baac4674388c6~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071784&x-signature=UAj0d%2FDuYwPOR%2BKcZS7uFg9b%2FLg%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "2891",
+              "pure_category_tags": "星光璀璨,双洁",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e8e8d8",
+              "read_count_all": "781447",
+              "shelf_cnt_history": "174687",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"426946\":1736165010,\"638505\":1724840581,\"3040\":1709620362,\"510893\":1689853013,\"2329\":1673838915,\"2503\":1673838915,\"1319\":1709618825,\"35\":1673838915,\"596084\":1715069686,\"8661\":1709620362,\"1128\":1673838915,\"507386\":1741857538,\"8662\":1673838915,\"1967\":1673838915,\"8703\":1744962220,\"6589\":1709620362,\"13\":1673838915,\"8704\":1747734857,\"507427\":1741857538}",
+              "category_v2_map": {
+                "3": true,
+                "96": true,
+                "466": true,
+                "43": true,
+                "745": true,
+                "702": true,
+                "467": true,
+                "69": true,
+                "484": true,
+                "486": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/f4abe31a9a7b58ed7de70de09dec6466~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=aG2vXvHDOsPj%2BR8UobgIgkH7flI%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7003648324225996066,
+                  "AuthorName": "匪鱼"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "晨昏热恋",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o71b7b6b79ef3b758071baac4674388c6~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071784&x-signature=0rlyfBH%2FdxyO%2FeUpCk6bwgfVClo%3D",
+              "reputation_thumb_uri": "novel-pic-r/36eb82f184345984939295602209d8da",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【全糖无虐无误会、男女主都有嘴】\n【双娱乐圈+直播恋综、闪婚+隐婚、甜宠+双洁he】\n沈宴南、简梨不和是娱乐圈公认的秘密，双方唯粉撕得头破血流，两位正主更是避嫌到不在任何活动上共同露面。\n再次一同出现是在某颁奖礼，外面粉丝吵得多火热，后台休息室的两人亲得就有多难舍。\n对简梨偷偷摸摸行为很不满意的某人：“有必要提醒一下沈太太，我们合法的。”\n简梨：差点忘了……\n——\n被坑上恋综的简梨，本想借着沈宴南的手拒掉，谁想这人明里毫无反应，暗中突然空降\n最后告白夜。\n一众男嘉宾齐刷刷站在简梨面前，最后到的沈影帝慢条斯理地走来：“留在这，还是跟我走？”\n简梨握住伸到面前的手，“走！”\n当晚，@沈宴南：已婚——配图结婚证\n网友一：这年头拍恋综敬业到这种地步？？\n网友二：我断网了吗？去了趟乡下俩死对头结婚了？？\n网友三：只有我发现结婚日期是三年前？！！\n简梨随后转发：和你在一起的三年，每天都很幸福！\n网友们：？？？",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.5万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/f4abe31a9a7b58ed7de70de09dec6466~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=V6Y2%2BP1enE4FMaKvPI2aRtMq6IY%3D",
+              "raw_book_name": "诱她轻喃",
+              "color_audio_dominate": "#342928"
+            }
+          ],
+          "search_attached_info": "17609296486649574894:3:0:3438738180:clks####3@2026031910361858B7500BB18223216638",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "24.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "星光璀璨",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：匪鱼",
+                "rich_text": "作者：匪鱼",
+                "high_light_position": []
+              },
+              {
+                "text": "...男女主都有嘴】 【双娱乐圈+直播恋综、闪婚+隐婚、甜宠+双洁he】 沈宴南、简梨不和是娱乐圈公认的秘密，双方唯粉撕得头破血流，两位正主更是避嫌到不在任何活动上共同露面。 再次一同出现是在某颁奖礼，外面粉丝吵得多火热，后台休息室的两人亲得就有多难舍。 对简梨偷偷摸摸行为很不满意的某人：“有必要提醒一下沈太太，我们合法的。” 简梨：差点忘了…… —— 被坑上恋综的简梨，本想借着沈宴南的手拒掉，谁想这人明里毫无反应，暗中突然空降 最后告白夜。 一众男嘉宾齐刷刷站在简梨面前，最后到的沈影帝慢条斯理地走来：“留在这，还是跟我走？” 简梨握住伸到面前的手，“走！” 当晚，@沈宴南：已婚——配图结婚证 网友一：这年头拍恋综敬业到这种地步？？ 网友二：我断网了吗？去了趟乡下俩死对头结婚了？？ 网友三：只有我发现结婚日期是三年前？！！ 简梨随后转发：和你在一起的三年，每天都很幸福！ 网友们：？？？",
+                "rich_text": "【全糖无虐无误会、男女主都有嘴】\n【双<em>娱乐圈</em>+直播恋综、闪婚+隐婚、甜宠+双洁he】\n沈宴南、简梨不和是<em>娱乐圈</em>公认的秘密，双方唯粉撕得头破血流，两位正主更是避嫌到不在任何活动上共同露面。\n再次一同出现是在某颁奖礼，外面粉丝吵得多火热，后台休息室的两人亲得就有多难舍。\n对简梨偷偷摸摸行为很不满意的某人：“有必要提醒一下沈太太，我们合法的。”\n简梨：差点忘了……\n——\n被坑上恋综的简梨，本想借着沈宴南的手拒掉，谁想这人明里毫无反应，暗中突然空降\n最后告白夜。\n一众男嘉宾齐刷刷站在简梨面前，最后到的沈影帝慢条斯理地走来：“留在这，还是跟我走？”\n简梨握住伸到面前的手，“走！”\n当晚，@沈宴南：已婚——配图结婚证\n网友一：这年头拍恋综敬业到这种地步？？\n网友二：我断网了吗？去了趟乡下俩死对头结婚了？？\n网友三：只有我发现结婚日期是三年前？！！\n简梨随后转发：和你在一起的三年，每天都很幸福！\n网友们：？？？",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ],
+                  [
+                    46,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1004,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7222831811242494988",
+          "search_result_id": "7222831811242494988",
+          "search_high_light": {
+            "title": {
+              "text": "致命女特工，娱乐圈杀疯了",
+              "rich_text": "致命女特工，<em>娱乐圈</em>杀疯了",
+              "high_light_position": [
+                [
+                  6,
+                  3
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【女主马甲一层一层，国际特工、IT高手、神厨、演技卓绝、金牌编剧、超一线设计师】...魂穿十八线小渣星。 娱乐界毒瘤、人称【恶之花】的糊咖程灵，参加《绝境求生》综艺节目，被全网嘲讽，坐等看她闹笑话。 开拍后，野外出现了一条蛇。 节目组和观众：啊啊啊啊啊啊啊，救命！ 程灵喜上眉梢：啊！好吃的！ 可爱的小松鼠抱着干果，其他嘉宾：松鼠鼠，好可爱！ 程灵盯着干果：打劫！ 松鼠的储藏室都被洗劫一空。 程灵设下圈套抓了一只野兔，烤来吃。 小鲜肉怒斥：你居然吃兔兔！ 程灵冷笑：你特么离我的兔子远一点，我怕把你舍利子烤出来。 半夜江影帝发烧，哼哼唧唧，程灵反手一块吸足水的姨妈巾扔到额头降温。 嘉宾X（上节目前）：谁会第一个被淘汰？必然是程灵。 嘉宾X（上节目后）：我他妈饿得前胸贴后背，程灵居然在吃着烤串，唱着歌！ …… 众人：……程灵拿的是什么剧本啊！！！ 导演：早说了，没有剧本啊啊啊啊啊！ 节目开播前，观众：程灵塑料假脸恶之花！【呕吐.jpg】【爆炸.jpg】滚出节目组！ 节目开播后：导演能不能多给我灵女王一些镜头？谢谢。 程灵：男人，只会影响我拔刀的速度。 江起澜：我帮你磨刀。并连夜写论文《磨刀对速度的重要性》",
+              "rich_text": "【搞笑+高智商+身手奇佳+打脸+马甲+双强】CP江起澜\n国际顶级特工魂穿十八线小渣星。\n<em>娱乐</em>界毒瘤、人称【恶之花】的糊咖程灵，参加《绝境求生》综艺节目，被全网嘲讽，坐等看她闹笑话。\n开拍后，野外出现了一条蛇。\n节目组和观众：啊啊啊啊啊啊啊，救命！\n程灵喜上眉梢：啊！好吃的！\n可爱的小松鼠抱着干果，其他嘉宾：松鼠鼠，好可爱！\n程灵盯着干果：打劫！\n松鼠的储藏室都被洗劫一空。\n程灵设下<em>圈</em>套抓了一只野兔，烤来吃。\n小鲜肉怒斥：你居然吃兔兔！\n程灵冷笑：你特么离我的兔子远一点，我怕把你舍利子烤出来。\n半夜江影帝发烧，哼哼唧唧，程灵反手一块吸足水的姨妈巾扔到额头降温。\n嘉宾X（上节目前）：谁会第一个被淘汰？必然是程灵。\n嘉宾X（上节目后）：我他妈饿得前胸贴后背，程灵居然在吃着烤串，唱着歌！\n……\n众人：……程灵拿的是什么剧本啊！！！\n导演：早说了，没有剧本啊啊啊啊啊！\n节目开播前，观众：程灵塑料假脸恶之花！【呕吐.jpg】【爆炸.jpg】滚出节目组！\n节目开播后：导演能不能多给我灵女王一些镜头？谢谢。\n程灵：男人，只会影响我拔刀的速度。\n江起澜：我帮你磨刀。并连夜写论文《磨刀对速度的重要性》",
+              "high_light_position": [
+                [
+                  53,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【搞笑+高智商+身手奇佳+打脸+马甲+双强】CP江起澜\n国际顶级特工魂穿十八线小渣星。\n娱乐界毒瘤、人称【恶之花】的糊咖程灵，参加《绝境求生》综艺节目，被全网嘲讽，坐等看她闹笑话。\n开拍后，野外出现了一条蛇。\n节目组和观众：啊啊啊啊啊啊啊，救命！\n程灵喜上眉梢：啊！好吃的！\n可爱的小松鼠抱着干果，其他嘉宾：松鼠鼠，好可爱！\n程灵盯着干果：打劫！\n松鼠的储藏室都被洗劫一空。\n程灵设下圈套抓了一只野兔，烤来吃。\n小鲜肉怒斥：你居然吃兔兔！\n程灵冷笑：你特么离我的兔子远一点，我怕把你舍利子烤出来。\n半夜江影帝发烧，哼哼唧唧，程灵反手一块吸足水的姨妈巾扔到额头降温。\n嘉宾X（上节目前）：谁会第一个被淘汰？必然是程灵。\n嘉宾X（上节目后）：我他妈饿得前胸贴后背，程灵居然在吃着烤串，唱着歌！\n……\n众人：……程灵拿的是什么剧本啊！！！\n导演：早说了，没有剧本啊啊啊啊啊！\n节目开播前，观众：程灵塑料假脸恶之花！【呕吐.jpg】【爆炸.jpg】滚出节目组！\n节目开播后：导演能不能多给我灵女王一些镜头？谢谢。\n程灵：男人，只会影响我拔刀的速度。\n江起澜：我帮你磨刀。并连夜写论文《磨刀对速度的重要性》",
+              "author": "不夜侯云黎",
+              "book_id": "7222831811242494988",
+              "book_name": "致命女特工，娱乐圈杀疯了",
+              "category": "星光璀璨",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-04-17T09:56:19+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7223210007695884861",
+              "first_chapter_item_id": "7223210007695884861",
+              "first_chapter_title": "第1章 累了",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7356241955375825432",
+              "last_chapter_item_id": "7356241955375825432",
+              "last_chapter_title": "番外——最终章",
+              "last_chapter_update_time": "1712817578",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "47043",
+              "recommend_group_id": "7222831811242494988",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910362458B7500BB182232169FE\",\"rank\":\"1\",\"normal_session_id\":\"bd0c3e1a-137a-43d4-8680-8e019e3ce9a0\",\"cold_start_session_id\":\"92eaaf7d-7748-4cfc-8637-e6b18ad91236\"}",
+              "read_progress": "0",
+              "serial_count": "830",
+              "source": "番茄小说",
+              "tags": "星光璀璨,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/06c1aebb15bcf6ca5bb853cfb590880b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=U%2FoNtTe4WdI%2FCC0tbhlleR%2BSdIk%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1324318",
+              "score": "9.4",
+              "exclusive": "1",
+              "role": "程灵,江起澜",
+              "category_schema": "[{\"category_id\":745,\"name\":\"星光璀璨\",\"schema\":\"dragon1967://newCategoryDetail?id=745&name=星光璀璨&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=0&source=detail\"},{\"category_id\":43,\"name\":\"娱乐圈\",\"schema\":\"dragon1967://newCategoryDetail?id=43&name=娱乐圈&genre_type=0&gender=0&source=detail\"},{\"category_id\":457,\"name\":\"虐渣\",\"schema\":\"dragon1967://newCategoryDetail?id=457&name=虐渣&genre_type=0&gender=0&source=detail\"},{\"category_id\":486,\"name\":\"明星\",\"schema\":\"dragon1967://newCategoryDetail?id=486&name=明星&genre_type=0&gender=0&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=0&source=detail\"},{\"category_id\":778,\"name\":\"搞笑轻松\",\"schema\":\"dragon1967://newCategoryDetail?id=778&name=搞笑轻松&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7278244601364925498,7279367142649187388,7540970639583087678]",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "21209",
+              "sub_info": "4.8万人在读",
+              "last_publish_time": "1712817584",
+              "authorize_type": "1",
+              "media_id": "1682934051166208",
+              "original_book_name": "魂穿十八线，女特工娱乐圈杀疯了",
+              "length_type": "0",
+              "op_tag": "536,304,1072,444,873,871,305,307,302,1600,966,245,1403,1139,372,900,373,1136,1586,535,859",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/06c1aebb15bcf6ca5bb853cfb590880b",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/40b5761ff7601dc304ccd2b845e64164",
+              "data_rate": "",
+              "all_bookshelf_count": "10826",
+              "pure_category_tags": "星光璀璨,搞笑轻松",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#201818",
+              "read_count_all": "3597453",
+              "shelf_cnt_history": "962496",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"13\":1681696584,\"8661\":1692676047,\"596084\":1714098051,\"3040\":1692676047,\"510893\":1689649033,\"507427\":1741865466,\"426946\":1736164527,\"638505\":1724901428,\"8662\":1681696584,\"1967\":1681696584,\"6589\":1681904381,\"8703\":1744967843,\"35\":1681696584,\"2329\":1681696584,\"2503\":1681696584,\"507386\":1741865466,\"1128\":1681696584,\"8704\":1747301065}",
+              "category_v2_map": {
+                "745": true,
+                "37": true,
+                "778": true,
+                "43": true,
+                "486": true,
+                "522": true,
+                "457": true,
+                "3": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/06c1aebb15bcf6ca5bb853cfb590880b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=U%2FoNtTe4WdI%2FCC0tbhlleR%2BSdIk%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6914866815445243143,
+                  "AuthorName": "不夜侯云黎"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "魅影特工",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/40b5761ff7601dc304ccd2b845e64164~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071784&x-signature=IpRQaqwQ2i2408yMIvFusDPziWc%3D",
+              "reputation_thumb_uri": "novel-pic-r/fe433fbd5a0e809601d6a2679aacb524",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【搞笑+高智商+身手奇佳+打脸+马甲+双强】CP江起澜\n国际顶级特工魂穿十八线小渣星。\n娱乐界毒瘤、人称【恶之花】的糊咖程灵，参加《绝境求生》综艺节目，被全网嘲讽，坐等看她闹笑话。\n开拍后，野外出现了一条蛇。\n节目组和观众：啊啊啊啊啊啊啊，救命！\n程灵喜上眉梢：啊！好吃的！\n可爱的小松鼠抱着干果，其他嘉宾：松鼠鼠，好可爱！\n程灵盯着干果：打劫！\n松鼠的储藏室都被洗劫一空。\n程灵设下圈套抓了一只野兔，烤来吃。\n小鲜肉怒斥：你居然吃兔兔！\n程灵冷笑：你特么离我的兔子远一点，我怕把你舍利子烤出来。\n半夜江影帝发烧，哼哼唧唧，程灵反手一块吸足水的姨妈巾扔到额头降温。\n嘉宾X（上节目前）：谁会第一个被淘汰？必然是程灵。\n嘉宾X（上节目后）：我他妈饿得前胸贴后背，程灵居然在吃着烤串，唱着歌！\n……\n众人：……程灵拿的是什么剧本啊！！！\n导演：早说了，没有剧本啊啊啊啊啊！\n节目开播前，观众：程灵塑料假脸恶之花！【呕吐.jpg】【爆炸.jpg】滚出节目组！\n节目开播后：导演能不能多给我灵女王一些镜头？谢谢。\n程灵：男人，只会影响我拔刀的速度。\n江起澜：我帮你磨刀。并连夜写论文《磨刀对速度的重要性》",
+              "read_page_progress": "0",
+              "read_cnt_text": "4.8万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/06c1aebb15bcf6ca5bb853cfb590880b~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=3OF6cjB3RDtU25vgfJv8n6W60cw%3D",
+              "raw_book_name": "致命女特工，娱乐圈杀疯了",
+              "color_audio_dominate": "#F1DBDA"
+            }
+          ],
+          "search_attached_info": "17609296486649574894:4:0:959669933:clks####3@2026031910361858B7500BB18223216638",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "43人二刷",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "132.4万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "星光璀璨",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：不夜侯云黎",
+                "rich_text": "作者：不夜侯云黎",
+                "high_light_position": []
+              },
+              {
+                "text": "【女主马甲一层一层，国际特工、IT高手、神厨、演技卓绝、金牌编剧、超一线设计师】...魂穿十八线小渣星。 娱乐界毒瘤、人称【恶之花】的糊咖程灵，参加《绝境求生》综艺节目，被全网嘲讽，坐等看她闹笑话。 开拍后，野外出现了一条蛇。 节目组和观众：啊啊啊啊啊啊啊，救命！ 程灵喜上眉梢：啊！好吃的！ 可爱的小松鼠抱着干果，其他嘉宾：松鼠鼠，好可爱！ 程灵盯着干果：打劫！ 松鼠的储藏室都被洗劫一空。 程灵设下圈套抓了一只野兔，烤来吃。 小鲜肉怒斥：你居然吃兔兔！ 程灵冷笑：你特么离我的兔子远一点，我怕把你舍利子烤出来。 半夜江影帝发烧，哼哼唧唧，程灵反手一块吸足水的姨妈巾扔到额头降温。 嘉宾X（上节目前）：谁会第一个被淘汰？必然是程灵。 嘉宾X（上节目后）：我他妈饿得前胸贴后背，程灵居然在吃着烤串，唱着歌！ …… 众人：……程灵拿的是什么剧本啊！！！ 导演：早说了，没有剧本啊啊啊啊啊！ 节目开播前，观众：程灵塑料假脸恶之花！【呕吐.jpg】【爆炸.jpg】滚出节目组！ 节目开播后：导演能不能多给我灵女王一些镜头？谢谢。 程灵：男人，只会影响我拔刀的速度。 江起澜：我帮你磨刀。并连夜写论文《磨刀对速度的重要性》",
+                "rich_text": "【搞笑+高智商+身手奇佳+打脸+马甲+双强】CP江起澜\n国际顶级特工魂穿十八线小渣星。\n<em>娱乐</em>界毒瘤、人称【恶之花】的糊咖程灵，参加《绝境求生》综艺节目，被全网嘲讽，坐等看她闹笑话。\n开拍后，野外出现了一条蛇。\n节目组和观众：啊啊啊啊啊啊啊，救命！\n程灵喜上眉梢：啊！好吃的！\n可爱的小松鼠抱着干果，其他嘉宾：松鼠鼠，好可爱！\n程灵盯着干果：打劫！\n松鼠的储藏室都被洗劫一空。\n程灵设下<em>圈</em>套抓了一只野兔，烤来吃。\n小鲜肉怒斥：你居然吃兔兔！\n程灵冷笑：你特么离我的兔子远一点，我怕把你舍利子烤出来。\n半夜江影帝发烧，哼哼唧唧，程灵反手一块吸足水的姨妈巾扔到额头降温。\n嘉宾X（上节目前）：谁会第一个被淘汰？必然是程灵。\n嘉宾X（上节目后）：我他妈饿得前胸贴后背，程灵居然在吃着烤串，唱着歌！\n……\n众人：……程灵拿的是什么剧本啊！！！\n导演：早说了，没有剧本啊啊啊啊啊！\n节目开播前，观众：程灵塑料假脸恶之花！【呕吐.jpg】【爆炸.jpg】滚出节目组！\n节目开播后：导演能不能多给我灵女王一些镜头？谢谢。\n程灵：男人，只会影响我拔刀的速度。\n江起澜：我帮你磨刀。并连夜写论文《磨刀对速度的重要性》",
+                "high_light_position": [
+                  [
+                    53,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1005,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7588091497489107992",
+          "search_result_id": "7588091497489107992",
+          "search_high_light": {
+            "abstract": {
+              "text": "【文抄公+娱乐圈+穿越+穿越+歌曲+影视+爽文】 颜卿穿成憋屈真千金，开局就断亲。 开挂系统上线，一首《伤不起》走红网络。 《香水有毒》奠定蓝星第一失恋姐称号。 网友：被伤的多深才会有如此感悟啊？ 颜卿：毁谤！她们毁谤我啊！俺是母胎搜咯！连男人的手都没牵过啊！ （ps：各位读者宝子，本文精选许多老歌，如何不合口味还请见谅，作者不会给女主安排cp，可以放心观看(⌯︎¤̴̶̷̀ω¤̴̶̷́)✧︎）",
+              "rich_text": "【文抄公+<em>娱乐圈</em>+穿越+穿越+歌曲+影视+爽文】\n颜卿穿成憋屈真千金，开局就断亲。\n开挂系统上线，一首《伤不起》走红网络。\n《香水有毒》奠定蓝星第一失恋姐称号。\n网友：被伤的多深才会有如此感悟啊？\n颜卿：毁谤！她们毁谤我啊！俺是母胎搜咯！连男人的手都没牵过啊！\n（ps：各位读者宝子，本文精选许多老歌，如何不合口味还请见谅，作者不会给女主安排cp，可以放心观看(⌯︎¤̴̶̷̀ω¤̴̶̷́)✧︎）",
+              "high_light_position": [
+                [
+                  5,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "文娱：一大波神曲即将来袭",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【文抄公+娱乐圈+穿越+穿越+歌曲+影视+爽文】\n颜卿穿成憋屈真千金，开局就断亲。\n开挂系统上线，一首《伤不起》走红网络。\n《香水有毒》奠定蓝星第一失恋姐称号。\n网友：被伤的多深才会有如此感悟啊？\n颜卿：毁谤！她们毁谤我啊！俺是母胎搜咯！连男人的手都没牵过啊！\n（ps：各位读者宝子，本文精选许多老歌，如何不合口味还请见谅，作者不会给女主安排cp，可以放心观看(⌯︎¤̴̶̷̀ω¤̴̶̷́)✧︎）",
+              "author": "淅沥沥沥",
+              "book_id": "7588091497489107992",
+              "book_name": "文娱：一大波神曲即将来袭",
+              "category": "星光璀璨",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-12-26T17:10:27+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7588091537578279448",
+              "first_chapter_item_id": "7588091537578279448",
+              "first_chapter_title": "第 1章 穿成真千金",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7614857620142178841",
+              "last_chapter_item_id": "7614857620142178841",
+              "last_chapter_title": "第 181章再苦不能苦孩子啊",
+              "last_chapter_update_time": "1773236653",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "71028",
+              "recommend_group_id": "7588091497489107992",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910362458B7500BB182232169FE\",\"rank\":\"1\",\"normal_session_id\":\"bd0c3e1a-137a-43d4-8680-8e019e3ce9a0\",\"cold_start_session_id\":\"92eaaf7d-7748-4cfc-8637-e6b18ad91236\"}",
+              "read_progress": "0",
+              "serial_count": "181",
+              "source": "番茄小说",
+              "tags": "星光璀璨,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/cc503b889541fb7bafc35ba9058924b3~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=rACpvYW3V1LYLIRaintrUQpxMJ4%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "369130",
+              "score": "7.4",
+              "exclusive": "1",
+              "role": "颜卿",
+              "category_schema": "[{\"category_id\":745,\"name\":\"星光璀璨\",\"schema\":\"dragon1967://newCategoryDetail?id=745&name=星光璀璨&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=0&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=0&source=detail\"},{\"category_id\":43,\"name\":\"娱乐圈\",\"schema\":\"dragon1967://newCategoryDetail?id=43&name=娱乐圈&genre_type=0&gender=0&source=detail\"},{\"category_id\":844,\"name\":\"真假千金\",\"schema\":\"dragon1967://newCategoryDetail?id=844&name=真假千金&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7616148975225162777]",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "14698",
+              "sub_info": "7.2万人在读",
+              "last_publish_time": "1773236662",
+              "authorize_type": "1",
+              "media_id": "1731699830898701",
+              "original_book_name": "文娱：神曲一响真千金征服娱乐圈",
+              "length_type": "0",
+              "op_tag": "531,535,536",
+              "keep_publish_days": "1",
+              "thumb_uri": "novel-pic/cc503b889541fb7bafc35ba9058924b3",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/08ee3ca961a6e21fa7c45a229fbd89a4",
+              "data_rate": "",
+              "all_bookshelf_count": "8809",
+              "pure_category_tags": "星光璀璨,真假千金",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e8f0c8",
+              "read_count_all": "585199",
+              "shelf_cnt_history": "112193",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2329\":1766841135,\"8661\":1767595809,\"507386\":1766841197,\"8704\":1766841135,\"1967\":1766841135,\"3040\":1767595809,\"596084\":1767595809,\"6589\":1767595809,\"510893\":1766841135,\"13\":1766841135,\"2503\":1766841135,\"507427\":1766841197,\"8662\":1766841135,\"35\":1766841135,\"638505\":1767595809,\"8703\":1766841135,\"1128\":1766841135}",
+              "category_v2_map": {
+                "745": true,
+                "37": true,
+                "43": true,
+                "3": true,
+                "19": true,
+                "844": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/cc503b889541fb7bafc35ba9058924b3~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=rACpvYW3V1LYLIRaintrUQpxMJ4%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7170296655256753415,
+                  "AuthorName": "淅沥沥沥"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/08ee3ca961a6e21fa7c45a229fbd89a4~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071784&x-signature=Ck6F8Z%2FOchmAT5lpbIW96U3OdRc%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【文抄公+娱乐圈+穿越+穿越+歌曲+影视+爽文】\n颜卿穿成憋屈真千金，开局就断亲。\n开挂系统上线，一首《伤不起》走红网络。\n《香水有毒》奠定蓝星第一失恋姐称号。\n网友：被伤的多深才会有如此感悟啊？\n颜卿：毁谤！她们毁谤我啊！俺是母胎搜咯！连男人的手都没牵过啊！\n（ps：各位读者宝子，本文精选许多老歌，如何不合口味还请见谅，作者不会给女主安排cp，可以放心观看(⌯︎¤̴̶̷̀ω¤̴̶̷́)✧︎）",
+              "read_page_progress": "0",
+              "read_cnt_text": "7.2万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/cc503b889541fb7bafc35ba9058924b3~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=txF6rexAkppID2Me1EFFKAa6Ew8%3D",
+              "raw_book_name": "文娱：一大波神曲即将来袭",
+              "color_audio_dominate": "#742BA4",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "17609296486649574894:5:0:3770154501:clks####3@2026031910361858B7500BB18223216638",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "36.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "7万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "星光璀璨",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：淅沥沥沥",
+                "rich_text": "作者：淅沥沥沥",
+                "high_light_position": []
+              },
+              {
+                "text": "【文抄公+娱乐圈+穿越+穿越+歌曲+影视+爽文】 颜卿穿成憋屈真千金，开局就断亲。 开挂系统上线，一首《伤不起》走红网络。 《香水有毒》奠定蓝星第一失恋姐称号。 网友：被伤的多深才会有如此感悟啊？ 颜卿：毁谤！她们毁谤我啊！俺是母胎搜咯！连男人的手都没牵过啊！ （ps：各位读者宝子，本文精选许多老歌，如何不合口味还请见谅，作者不会给女主安排cp，可以放心观看(⌯︎¤̴̶̷̀ω¤̴̶̷́)✧︎）",
+                "rich_text": "【文抄公+<em>娱乐圈</em>+穿越+穿越+歌曲+影视+爽文】\n颜卿穿成憋屈真千金，开局就断亲。\n开挂系统上线，一首《伤不起》走红网络。\n《香水有毒》奠定蓝星第一失恋姐称号。\n网友：被伤的多深才会有如此感悟啊？\n颜卿：毁谤！她们毁谤我啊！俺是母胎搜咯！连男人的手都没牵过啊！\n（ps：各位读者宝子，本文精选许多老歌，如何不合口味还请见谅，作者不会给女主安排cp，可以放心观看(⌯︎¤̴̶̷̀ω¤̴̶̷́)✧︎）",
+                "high_light_position": [
+                  [
+                    5,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1006,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7526812477347073086",
+          "search_result_id": "7526812477347073086",
+          "search_high_light": {
+            "title": {
+              "text": "娱乐圈花瓶？拜托她是高考状元",
+              "rich_text": "<em>娱乐圈</em>花瓶？拜托她是高考状元",
+              "high_light_position": [
+                [
+                  0,
+                  3
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...and顶级醋王】 【娱乐圈顶流女星x京圈恋爱脑霸总】 【爽文+娱乐圈+穿书+打脸+综艺+双强+超级甜文】 许听鱼作为全国高考状元，在赶去庆功宴的路上被一辆大货车创飞了。 一醒来就变成了自己看过的一本早期玛丽苏甜宠文里的恶毒女配，那种明明家境优渥长的漂亮，却非要和小白花抢装货影帝，最后被众人厌弃的恶毒女配。 穿来的时候她正坐在高考考场上，面前摆着一张干干净净的高考卷子。 哟呵？这不专业对口了吗？ --- 网友：据知情人士爆料您的高考成绩是惊人的0分。 许听鱼：哦，我是屏蔽生 --- 网友：听说许小姐高中的时候一直暗恋乔影帝，还动用家里关系想要和影帝…… 许听鱼：你有钱你不点男模？ --- 导演：观众投票想让听鱼和简辞一组…… 孟白周：投我和许老师的凭投票界面截图去孟氏集团领钱 观众：豹豹猫猫我出生啦！",
+              "rich_text": "【顶级魅魔and顶级醋王】\n【<em>娱乐圈</em>顶流女星x京<em>圈</em>恋爱脑霸总】\n【爽文+<em>娱乐圈</em>+穿书+打脸+综艺+双强+超级甜文】\n许听鱼作为全国高考状元，在赶去庆功宴的路上被一辆大货车创飞了。\n一醒来就变成了自己看过的一本早期玛丽苏甜宠文里的恶毒女配，那种明明家境优渥长的漂亮，却非要和小白花抢装货影帝，最后被众人厌弃的恶毒女配。\n穿来的时候她正坐在高考考场上，面前摆着一张干干净净的高考卷子。\n哟呵？这不专业对口了吗？\n---\n网友：据知情人士爆料您的高考成绩是惊人的0分。\n许听鱼：哦，我是屏蔽生\n---\n网友：听说许小姐高中的时候一直暗恋乔影帝，还动用家里关系想要和影帝……\n许听鱼：你有钱你不点男模？\n---\n导演：观众投票想让听鱼和简辞一组……\n孟白周：投我和许老师的凭投票界面截图去孟氏集团领钱\n观众：豹豹猫猫我出生啦！",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ],
+                [
+                  34,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【顶级魅魔and顶级醋王】\n【娱乐圈顶流女星x京圈恋爱脑霸总】\n【爽文+娱乐圈+穿书+打脸+综艺+双强+超级甜文】\n许听鱼作为全国高考状元，在赶去庆功宴的路上被一辆大货车创飞了。\n一醒来就变成了自己看过的一本早期玛丽苏甜宠文里的恶毒女配，那种明明家境优渥长的漂亮，却非要和小白花抢装货影帝，最后被众人厌弃的恶毒女配。\n穿来的时候她正坐在高考考场上，面前摆着一张干干净净的高考卷子。\n哟呵？这不专业对口了吗？\n---\n网友：据知情人士爆料您的高考成绩是惊人的0分。\n许听鱼：哦，我是屏蔽生\n---\n网友：听说许小姐高中的时候一直暗恋乔影帝，还动用家里关系想要和影帝……\n许听鱼：你有钱你不点男模？\n---\n导演：观众投票想让听鱼和简辞一组……\n孟白周：投我和许老师的凭投票界面截图去孟氏集团领钱\n观众：豹豹猫猫我出生啦！",
+              "author": "祈舟舟",
+              "book_id": "7526812477347073086",
+              "book_name": "娱乐圈花瓶？拜托她是高考状元",
+              "category": "星光璀璨",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-07-14T13:56:34+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7528078535970275902",
+              "first_chapter_item_id": "7528078535970275902",
+              "first_chapter_title": "1，重生在了高考考场上？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7587426295642849854",
+              "last_chapter_item_id": "7587426295642849854",
+              "last_chapter_title": "143，世界是鲜活的，她也是（完）",
+              "last_chapter_update_time": "1766590823",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "135535",
+              "recommend_group_id": "7526812477347073086",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910362458B7500BB182232169FE\",\"rank\":\"1\",\"normal_session_id\":\"bd0c3e1a-137a-43d4-8680-8e019e3ce9a0\",\"cold_start_session_id\":\"92eaaf7d-7748-4cfc-8637-e6b18ad91236\"}",
+              "read_progress": "0",
+              "serial_count": "143",
+              "source": "番茄小说",
+              "tags": "星光璀璨,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/fa5395f4f7963206727e8b1a8fd0fdc7~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=1eFNbdkEwhFtAm8rucvJKGiuDmE%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "275652",
+              "score": "8.9",
+              "exclusive": "1",
+              "role": "许听鱼,孟白周",
+              "category_schema": "[{\"category_id\":745,\"name\":\"星光璀璨\",\"schema\":\"dragon1967://newCategoryDetail?id=745&name=星光璀璨&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":43,\"name\":\"娱乐圈\",\"schema\":\"dragon1967://newCategoryDetail?id=43&name=娱乐圈&genre_type=0&gender=0&source=detail\"},{\"category_id\":382,\"name\":\"穿书\",\"schema\":\"dragon1967://newCategoryDetail?id=382&name=穿书&genre_type=0&gender=0&source=detail\"},{\"category_id\":486,\"name\":\"明星\",\"schema\":\"dragon1967://newCategoryDetail?id=486&name=明星&genre_type=0&gender=0&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7618482136554687513]",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "27605",
+              "sub_info": "13.6万人在读",
+              "last_publish_time": "1766590836",
+              "authorize_type": "1",
+              "media_id": "1713254082457614",
+              "original_book_name": "当高考状元穿成娱乐圈黑红女星",
+              "length_type": "1",
+              "op_tag": "535,536,989",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/fa5395f4f7963206727e8b1a8fd0fdc7",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/54d02d00dbf499392310b0bee8e74ea5",
+              "data_rate": "",
+              "all_bookshelf_count": "36913",
+              "pure_category_tags": "星光璀璨,打脸",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#f8e0d0",
+              "read_count_all": "1566683",
+              "shelf_cnt_history": "499114",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507427\":1753012477,\"8704\":1753012415,\"13\":1753012415,\"1967\":1753012415,\"638505\":1753243469,\"596084\":1753243469,\"1319\":1753165363,\"510893\":1753012415,\"2329\":1753012415,\"8703\":1753012415,\"8661\":1753243469,\"6589\":1753243469,\"507386\":1753012477,\"35\":1753012415,\"1128\":1753012415,\"2503\":1753012415,\"8662\":1753012415,\"3040\":1753243469}",
+              "category_v2_map": {
+                "486": true,
+                "3": true,
+                "43": true,
+                "382": true,
+                "522": true,
+                "745": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/fa5395f4f7963206727e8b1a8fd0fdc7~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=1eFNbdkEwhFtAm8rucvJKGiuDmE%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7041191549287273760,
+                  "AuthorName": "祈舟舟"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/54d02d00dbf499392310b0bee8e74ea5~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071784&x-signature=EvOpN05nHhQ3ejfkDio2SZBdhQI%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【顶级魅魔and顶级醋王】\n【娱乐圈顶流女星x京圈恋爱脑霸总】\n【爽文+娱乐圈+穿书+打脸+综艺+双强+超级甜文】\n许听鱼作为全国高考状元，在赶去庆功宴的路上被一辆大货车创飞了。\n一醒来就变成了自己看过的一本早期玛丽苏甜宠文里的恶毒女配，那种明明家境优渥长的漂亮，却非要和小白花抢装货影帝，最后被众人厌弃的恶毒女配。\n穿来的时候她正坐在高考考场上，面前摆着一张干干净净的高考卷子。\n哟呵？这不专业对口了吗？\n---\n网友：据知情人士爆料您的高考成绩是惊人的0分。\n许听鱼：哦，我是屏蔽生\n---\n网友：听说许小姐高中的时候一直暗恋乔影帝，还动用家里关系想要和影帝……\n许听鱼：你有钱你不点男模？\n---\n导演：观众投票想让听鱼和简辞一组……\n孟白周：投我和许老师的凭投票界面截图去孟氏集团领钱\n观众：豹豹猫猫我出生啦！",
+              "read_page_progress": "0",
+              "read_cnt_text": "13.6万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/fa5395f4f7963206727e8b1a8fd0fdc7~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=EayABZfq8HNFur%2ByYGn7J7YIFLc%3D",
+              "raw_book_name": "娱乐圈花瓶？拜托她是高考状元",
+              "color_audio_dominate": "#D7CBC4",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "17609296486649574894:6:0:1588649883:clks####3@2026031910361858B7500BB18223216638",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "27.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "13万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "星光璀璨",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：祈舟舟",
+                "rich_text": "作者：祈舟舟",
+                "high_light_position": []
+              },
+              {
+                "text": "...and顶级醋王】 【娱乐圈顶流女星x京圈恋爱脑霸总】 【爽文+娱乐圈+穿书+打脸+综艺+双强+超级甜文】 许听鱼作为全国高考状元，在赶去庆功宴的路上被一辆大货车创飞了。 一醒来就变成了自己看过的一本早期玛丽苏甜宠文里的恶毒女配，那种明明家境优渥长的漂亮，却非要和小白花抢装货影帝，最后被众人厌弃的恶毒女配。 穿来的时候她正坐在高考考场上，面前摆着一张干干净净的高考卷子。 哟呵？这不专业对口了吗？ --- 网友：据知情人士爆料您的高考成绩是惊人的0分。 许听鱼：哦，我是屏蔽生 --- 网友：听说许小姐高中的时候一直暗恋乔影帝，还动用家里关系想要和影帝…… 许听鱼：你有钱你不点男模？ --- 导演：观众投票想让听鱼和简辞一组…… 孟白周：投我和许老师的凭投票界面截图去孟氏集团领钱 观众：豹豹猫猫我出生啦！",
+                "rich_text": "【顶级魅魔and顶级醋王】\n【<em>娱乐圈</em>顶流女星x京<em>圈</em>恋爱脑霸总】\n【爽文+<em>娱乐圈</em>+穿书+打脸+综艺+双强+超级甜文】\n许听鱼作为全国高考状元，在赶去庆功宴的路上被一辆大货车创飞了。\n一醒来就变成了自己看过的一本早期玛丽苏甜宠文里的恶毒女配，那种明明家境优渥长的漂亮，却非要和小白花抢装货影帝，最后被众人厌弃的恶毒女配。\n穿来的时候她正坐在高考考场上，面前摆着一张干干净净的高考卷子。\n哟呵？这不专业对口了吗？\n---\n网友：据知情人士爆料您的高考成绩是惊人的0分。\n许听鱼：哦，我是屏蔽生\n---\n网友：听说许小姐高中的时候一直暗恋乔影帝，还动用家里关系想要和影帝……\n许听鱼：你有钱你不点男模？\n---\n导演：观众投票想让听鱼和简辞一组……\n孟白周：投我和许老师的凭投票界面截图去孟氏集团领钱\n观众：豹豹猫猫我出生啦！",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ],
+                  [
+                    34,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1007,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7210411775949278266",
+          "search_result_id": "7210411775949278266",
+          "search_high_light": {
+            "alias": {
+              "text": "爆红娱乐圈",
+              "rich_text": "爆红<em>娱乐圈</em>",
+              "high_light_position": [
+                [
+                  2,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "爆红娱乐圈（别名：影后从学霸开始）",
+              "rich_text": "爆红<em>娱乐圈</em>（别名：影后从学霸开始）",
+              "high_light_position": [
+                [
+                  2,
+                  3
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【重生后，她只想摆脱原身，过自己想的生活】...+重生+系统+爽文+娱乐圈+专心搞事业+无cp】     顶级豪门千金，名气享誉国际，殿堂奖项加身，宋满月是魔都豪门宋家向外炫耀的名片，更是魔都豪门千金们的学习标杆。     国内关于宋满月夺得殿堂级奖项的新闻铺天盖地，未婚夫豪掷上亿赠送私人飞机示爱的标题还挂在微博头条。     这分明是令人羡艳的得意时刻，宋满月却在回国途中命殒空难。     再次睁眼，宋满月带着系统重生在平行世界的学渣女高中身上，凭借前世所学和原身独一无二的惊人美貌，宋满月将原身的一手烂牌打成王炸！     整治重男轻女扒皮吸血的父母，以学渣之身逆袭夺得省级大奖，靠省状元的成绩进入京城顶级学府。     就在宋满月满怀希望开始自由自在新生活时，突然而来的系统任务，让她这个大学霸迈入娱乐圈。     学历、美貌、情商、才华…     凭借这些碾压旁人的优势，宋满月在娱乐圈爆红成名，成为全民心头的白月光…                 （非传统文学，架空世界略有私设，有些内容略微夸张。）",
+              "rich_text": "【架空+重生+系统+爽文+<em>娱乐圈</em>+专心搞事业+无cp】\n    顶级豪门千金，名气享誉国际，殿堂奖项加身，宋满月是魔都豪门宋家向外炫耀的名片，更是魔都豪门千金们的学习标杆。\n    国内关于宋满月夺得殿堂级奖项的新闻铺天盖地，未婚夫豪掷上亿赠送私人飞机示爱的标题还挂在微博头条。\n    这分明是令人羡艳的得意时刻，宋满月却在回国途中命殒空难。\n    再次睁眼，宋满月带着系统重生在平行世界的学渣女高中身上，凭借前世所学和原身独一无二的惊人美貌，宋满月将原身的一手烂牌打成王炸！\n    整治重男轻女扒皮吸血的父母，以学渣之身逆袭夺得省级大奖，靠省状元的成绩进入京城顶级学府。\n    就在宋满月满怀希望开始自由自在新生活时，突然而来的系统任务，让她这个大学霸迈入<em>娱乐圈</em>。\n    学历、美貌、情商、才华…\n    凭借这些碾压旁人的优势，宋满月在<em>娱乐圈</em>爆红成名，成为全民心头的白月光…\n    \n    \n    \n\n（非传统文学，架空世界略有私设，有些内容略微夸张。）",
+              "high_light_position": [
+                [
+                  34,
+                  3
+                ],
+                [
+                  354,
+                  3
+                ],
+                [
+                  396,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【架空+重生+系统+爽文+娱乐圈+专心搞事业+无cp】\n    顶级豪门千金，名气享誉国际，殿堂奖项加身，宋满月是魔都豪门宋家向外炫耀的名片，更是魔都豪门千金们的学习标杆。\n    国内关于宋满月夺得殿堂级奖项的新闻铺天盖地，未婚夫豪掷上亿赠送私人飞机示爱的标题还挂在微博头条。\n    这分明是令人羡艳的得意时刻，宋满月却在回国途中命殒空难。\n    再次睁眼，宋满月带着系统重生在平行世界的学渣女高中身上，凭借前世所学和原身独一无二的惊人美貌，宋满月将原身的一手烂牌打成王炸！\n    整治重男轻女扒皮吸血的父母，以学渣之身逆袭夺得省级大奖，靠省状元的成绩进入京城顶级学府。\n    就在宋满月满怀希望开始自由自在新生活时，突然而来的系统任务，让她这个大学霸迈入娱乐圈。\n    学历、美貌、情商、才华…\n    凭借这些碾压旁人的优势，宋满月在娱乐圈爆红成名，成为全民心头的白月光…\n    \n    \n    \n\n（非传统文学，架空世界略有私设，有些内容略微夸张。）",
+              "author": "莫问灵犀",
+              "book_id": "7210411775949278266",
+              "book_name": "影后从学霸开始",
+              "category": "星光璀璨",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-03-14T22:40:14+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7210411801886851618",
+              "first_chapter_item_id": "7210411801886851618",
+              "first_chapter_title": "第1章 空难",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7322850966477210174",
+              "last_chapter_item_id": "7322850966477210174",
+              "last_chapter_title": "番外 脆脆鲨作者的一点碎碎念",
+              "last_chapter_update_time": "1704985218",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "19891",
+              "recommend_group_id": "7210411775949278266",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910362458B7500BB182232169FE\",\"rank\":\"1\",\"normal_session_id\":\"bd0c3e1a-137a-43d4-8680-8e019e3ce9a0\",\"cold_start_session_id\":\"92eaaf7d-7748-4cfc-8637-e6b18ad91236\"}",
+              "read_progress": "0",
+              "serial_count": "538",
+              "source": "番茄小说",
+              "tags": "星光璀璨,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/72939ed17d7b4fb241ea1b64fe5976e8~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=A1MvXMRZQ5t%2BT5JS3RKATTfMw%2BI%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1142728",
+              "score": "9.3",
+              "exclusive": "1",
+              "role": "宋满月",
+              "category_schema": "[{\"category_id\":745,\"name\":\"星光璀璨\",\"schema\":\"dragon1967://newCategoryDetail?id=745&name=星光璀璨&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=0&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=0&source=detail\"},{\"category_id\":4,\"name\":\"校园\",\"schema\":\"dragon1967://newCategoryDetail?id=4&name=校园&genre_type=0&gender=0&source=detail\"},{\"category_id\":43,\"name\":\"娱乐圈\",\"schema\":\"dragon1967://newCategoryDetail?id=43&name=娱乐圈&genre_type=0&gender=0&source=detail\"},{\"category_id\":82,\"name\":\"学霸\",\"schema\":\"dragon1967://newCategoryDetail?id=82&name=学霸&genre_type=0&gender=0&source=detail\"},{\"category_id\":392,\"name\":\"无CP\",\"schema\":\"dragon1967://newCategoryDetail?id=392&name=无CP&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7328332635057949758]",
+              "book_type": "0",
+              "alias_name": "爆红娱乐圈",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "10121",
+              "sub_info": "2万人在读",
+              "last_publish_time": "1704985226",
+              "authorize_type": "1",
+              "media_id": "1760080985909263",
+              "original_book_name": "舞蹈皇后她爆红娱乐圈",
+              "length_type": "0",
+              "op_tag": "302,235,1403,535,873,966,443,309,245,870,855,1134,531,536,1139,1076,1072",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/72939ed17d7b4fb241ea1b64fe5976e8",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/4e5a5af053b676a20f6cde491ca91a4a",
+              "data_rate": "",
+              "all_bookshelf_count": "2748",
+              "pure_category_tags": "星光璀璨,无CP",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "",
+              "read_count_all": "2406929",
+              "shelf_cnt_history": "531467",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8704\":1747611252,\"2503\":1678804821,\"1967\":1678804821,\"426946\":1736164435,\"13\":1678804821,\"8661\":1681192277,\"638505\":1724901057,\"510893\":1689666520,\"3040\":1681192277,\"35\":1678804821,\"8662\":1678804821,\"2329\":1678804821,\"507386\":1744959543,\"6589\":1678969055,\"507427\":1744959543,\"1128\":1678804821,\"8703\":1744959543,\"596084\":1715151605}",
+              "category_v2_map": {
+                "82": true,
+                "392": true,
+                "3": true,
+                "36": true,
+                "4": true,
+                "745": true,
+                "19": true,
+                "43": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/72939ed17d7b4fb241ea1b64fe5976e8~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=A1MvXMRZQ5t%2BT5JS3RKATTfMw%2BI%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7210411776448402725,
+                  "AuthorName": "莫问灵犀"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/4e5a5af053b676a20f6cde491ca91a4a~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071784&x-signature=Lmm3uKfdfJQLo5hxwLftXQId6dc%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【架空+重生+系统+爽文+娱乐圈+专心搞事业+无cp】\n    顶级豪门千金，名气享誉国际，殿堂奖项加身，宋满月是魔都豪门宋家向外炫耀的名片，更是魔都豪门千金们的学习标杆。\n    国内关于宋满月夺得殿堂级奖项的新闻铺天盖地，未婚夫豪掷上亿赠送私人飞机示爱的标题还挂在微博头条。\n    这分明是令人羡艳的得意时刻，宋满月却在回国途中命殒空难。\n    再次睁眼，宋满月带着系统重生在平行世界的学渣女高中身上，凭借前世所学和原身独一无二的惊人美貌，宋满月将原身的一手烂牌打成王炸！\n    整治重男轻女扒皮吸血的父母，以学渣之身逆袭夺得省级大奖，靠省状元的成绩进入京城顶级学府。\n    就在宋满月满怀希望开始自由自在新生活时，突然而来的系统任务，让她这个大学霸迈入娱乐圈。\n    学历、美貌、情商、才华…\n    凭借这些碾压旁人的优势，宋满月在娱乐圈爆红成名，成为全民心头的白月光…\n    \n    \n    \n\n（非传统文学，架空世界略有私设，有些内容略微夸张。）",
+              "read_page_progress": "0",
+              "read_cnt_text": "2万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/72939ed17d7b4fb241ea1b64fe5976e8~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=U7189ocsxaXWBGCC%2BOJQ0m6b%2Beo%3D",
+              "cell_content_raw_alias": "爆红娱乐圈",
+              "raw_book_name": "影后从学霸开始",
+              "color_audio_dominate": "#D3DAE1"
+            }
+          ],
+          "search_attached_info": "17609296486649574894:7:0:1759092952:clks####3@2026031910361858B7500BB18223216638",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "17人二刷",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "114.3万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "星光璀璨",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：莫问灵犀",
+                "rich_text": "作者：莫问灵犀",
+                "high_light_position": []
+              },
+              {
+                "text": "【重生后，她只想摆脱原身，过自己想的生活】...+重生+系统+爽文+娱乐圈+专心搞事业+无cp】     顶级豪门千金，名气享誉国际，殿堂奖项加身，宋满月是魔都豪门宋家向外炫耀的名片，更是魔都豪门千金们的学习标杆。     国内关于宋满月夺得殿堂级奖项的新闻铺天盖地，未婚夫豪掷上亿赠送私人飞机示爱的标题还挂在微博头条。     这分明是令人羡艳的得意时刻，宋满月却在回国途中命殒空难。     再次睁眼，宋满月带着系统重生在平行世界的学渣女高中身上，凭借前世所学和原身独一无二的惊人美貌，宋满月将原身的一手烂牌打成王炸！     整治重男轻女扒皮吸血的父母，以学渣之身逆袭夺得省级大奖，靠省状元的成绩进入京城顶级学府。     就在宋满月满怀希望开始自由自在新生活时，突然而来的系统任务，让她这个大学霸迈入娱乐圈。     学历、美貌、情商、才华…     凭借这些碾压旁人的优势，宋满月在娱乐圈爆红成名，成为全民心头的白月光…                 （非传统文学，架空世界略有私设，有些内容略微夸张。）",
+                "rich_text": "【架空+重生+系统+爽文+<em>娱乐圈</em>+专心搞事业+无cp】\n    顶级豪门千金，名气享誉国际，殿堂奖项加身，宋满月是魔都豪门宋家向外炫耀的名片，更是魔都豪门千金们的学习标杆。\n    国内关于宋满月夺得殿堂级奖项的新闻铺天盖地，未婚夫豪掷上亿赠送私人飞机示爱的标题还挂在微博头条。\n    这分明是令人羡艳的得意时刻，宋满月却在回国途中命殒空难。\n    再次睁眼，宋满月带着系统重生在平行世界的学渣女高中身上，凭借前世所学和原身独一无二的惊人美貌，宋满月将原身的一手烂牌打成王炸！\n    整治重男轻女扒皮吸血的父母，以学渣之身逆袭夺得省级大奖，靠省状元的成绩进入京城顶级学府。\n    就在宋满月满怀希望开始自由自在新生活时，突然而来的系统任务，让她这个大学霸迈入<em>娱乐圈</em>。\n    学历、美貌、情商、才华…\n    凭借这些碾压旁人的优势，宋满月在<em>娱乐圈</em>爆红成名，成为全民心头的白月光…\n    \n    \n    \n\n（非传统文学，架空世界略有私设，有些内容略微夸张。）",
+                "high_light_position": [
+                  [
+                    34,
+                    3
+                  ],
+                  [
+                    354,
+                    3
+                  ],
+                  [
+                    396,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1008,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7560524867305475097",
+          "search_result_id": "7560524867305475097",
+          "search_high_light": {
+            "title": {
+              "text": "娱乐圈特案组（别名：律师退圈当顶流，我拿法律来屠榜）",
+              "rich_text": "<em>娱乐圈</em>特案组（别名：律师退<em>圈</em>当顶流，我拿法律来屠榜）",
+              "high_light_position": [
+                [
+                  0,
+                  3
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...就业，一脚踏入混乱的娱乐圈。  影帝递来阴阳合同？ 她反手送上《劳动法》《型法》全套解读。  资本想用协议设局？ 她将计就计，在条款里埋下回旋镖。 最终，猎人与猎物的身份，就此互换。  当对家粉丝全网黑她“滚出娱乐圈”时，乔灵默默更新了微博。 一张律师执业证，一张医师资格证。  配文：抱歉，你们的规矩我不懂。我的规矩，就是法律。",
+              "rich_text": "\n前世精英律师乔灵，重生成了被医闹致死的同名医生。\n面对想用三十万了事的凶手家属，她当场背《刑法》，怼得凶手家属哑口无言。\n\n心灰意冷，她持证再就业，一脚踏入混乱的<em>娱乐圈</em>。\n\n影帝递来阴阳合同？\n她反手送上《劳动法》《型法》全套解读。\n\n资本想用协议设局？\n她将计就计，在条款里埋下回旋镖。\n最终，猎人与猎物的身份，就此互换。\n\n当对家粉丝全网黑她“滚出<em>娱乐圈</em>”时，乔灵默默更新了微博。\n一张律师执业证，一张医师资格证。\n\n配文：抱歉，你们的规矩我不懂。我的规矩，就是法律。",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ],
+                [
+                  108,
+                  3
+                ]
+              ]
+            },
+            "alias": {
+              "text": "娱乐圈特案组",
+              "rich_text": "<em>娱乐圈</em>特案组",
+              "high_light_position": [
+                [
+                  0,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "\n前世精英律师乔灵，重生成了被医闹致死的同名医生。\n面对想用三十万了事的凶手家属，她当场背《刑法》，怼得凶手家属哑口无言。\n\n心灰意冷，她持证再就业，一脚踏入混乱的娱乐圈。\n\n影帝递来阴阳合同？\n她反手送上《劳动法》《型法》全套解读。\n\n资本想用协议设局？\n她将计就计，在条款里埋下回旋镖。\n最终，猎人与猎物的身份，就此互换。\n\n当对家粉丝全网黑她“滚出娱乐圈”时，乔灵默默更新了微博。\n一张律师执业证，一张医师资格证。\n\n配文：抱歉，你们的规矩我不懂。我的规矩，就是法律。",
+              "author": "寒夜中的鸢鸟",
+              "book_id": "7560524867305475097",
+              "book_name": "律师退圈当顶流，我拿法律来屠榜",
+              "category": "星光璀璨",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-10-13T10:17:51+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7560525138416910873",
+              "first_chapter_item_id": "7560525138416910873",
+              "first_chapter_title": "第1章 被医闹砸死了",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618441661835641406",
+              "last_chapter_item_id": "7618441661835641406",
+              "last_chapter_title": "第242章 双方的行动，完全不在一个频道上",
+              "last_chapter_update_time": "1773806813",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "134468",
+              "recommend_group_id": "7560524867305475097",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910362458B7500BB182232169FE\",\"rank\":\"1\",\"normal_session_id\":\"bd0c3e1a-137a-43d4-8680-8e019e3ce9a0\",\"cold_start_session_id\":\"92eaaf7d-7748-4cfc-8637-e6b18ad91236\"}",
+              "read_progress": "0",
+              "serial_count": "342",
+              "source": "番茄小说",
+              "tags": "星光璀璨,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d3666b3addb69f7d9d126c4971fe9282~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=fgsWH3Cf7yrR5aEvIDLaGZNwU6c%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "744271",
+              "score": "9.0",
+              "exclusive": "1",
+              "role": "乔灵,蒋谨舟",
+              "category_schema": "[{\"category_id\":745,\"name\":\"星光璀璨\",\"schema\":\"dragon1967://newCategoryDetail?id=745&name=星光璀璨&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=0&source=detail\"},{\"category_id\":43,\"name\":\"娱乐圈\",\"schema\":\"dragon1967://newCategoryDetail?id=43&name=娱乐圈&genre_type=0&gender=0&source=detail\"},{\"category_id\":486,\"name\":\"明星\",\"schema\":\"dragon1967://newCategoryDetail?id=486&name=明星&genre_type=0&gender=0&source=detail\"},{\"category_id\":488,\"name\":\"律师\",\"schema\":\"dragon1967://newCategoryDetail?id=488&name=律师&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7600299483145980952,7603198420915866686]",
+              "book_type": "0",
+              "alias_name": "娱乐圈特案组",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "43277",
+              "sub_info": "13.5万人在读",
+              "last_publish_time": "1773807030",
+              "authorize_type": "1",
+              "media_id": "1844245676767241",
+              "original_book_name": "做顶流，从整顿娱乐圈合同开始",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "157",
+              "thumb_uri": "novel-pic/d3666b3addb69f7d9d126c4971fe9282",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/ebbd7a7bdc9f61f563596230d102a058",
+              "data_rate": "",
+              "all_bookshelf_count": "33655",
+              "pure_category_tags": "星光璀璨,律师",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#382018",
+              "read_count_all": "720905",
+              "shelf_cnt_history": "207669",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2503\":1760322396,\"35\":1760322396,\"1967\":1760322396,\"638505\":1760505495,\"6589\":1760505495,\"507386\":1760322458,\"2329\":1760322396,\"1128\":1760322396,\"510893\":1760322396,\"13\":1760322396,\"8662\":1760322396,\"507427\":1760322458,\"3040\":1760505495,\"8704\":1760322396,\"8703\":1760322396,\"596084\":1760505495,\"8661\":1760505495}",
+              "category_v2_map": {
+                "488": true,
+                "745": true,
+                "3": true,
+                "43": true,
+                "486": true,
+                "36": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d3666b3addb69f7d9d126c4971fe9282~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=fgsWH3Cf7yrR5aEvIDLaGZNwU6c%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7560524869834642713,
+                  "AuthorName": "寒夜中的鸢鸟"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/ebbd7a7bdc9f61f563596230d102a058~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071784&x-signature=uDDfK%2F2K9hrCPpcBosHI9EzOeHc%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "\n前世精英律师乔灵，重生成了被医闹致死的同名医生。\n面对想用三十万了事的凶手家属，她当场背《刑法》，怼得凶手家属哑口无言。\n\n心灰意冷，她持证再就业，一脚踏入混乱的娱乐圈。\n\n影帝递来阴阳合同？\n她反手送上《劳动法》《型法》全套解读。\n\n资本想用协议设局？\n她将计就计，在条款里埋下回旋镖。\n最终，猎人与猎物的身份，就此互换。\n\n当对家粉丝全网黑她“滚出娱乐圈”时，乔灵默默更新了微博。\n一张律师执业证，一张医师资格证。\n\n配文：抱歉，你们的规矩我不懂。我的规矩，就是法律。",
+              "read_page_progress": "0",
+              "read_cnt_text": "13.5万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d3666b3addb69f7d9d126c4971fe9282~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=zri5VInDsfamiJokPw8oz8eJvT8%3D",
+              "cell_content_raw_alias": "娱乐圈特案组",
+              "raw_book_name": "律师退圈当顶流，我拿法律来屠榜",
+              "color_audio_dominate": "#2E2014",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "17609296486649574894:8:0:3269399698:clks####3@2026031910361858B7500BB18223216638",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "74.4万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "13万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "星光璀璨",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：寒夜中的鸢鸟",
+                "rich_text": "作者：寒夜中的鸢鸟",
+                "high_light_position": []
+              },
+              {
+                "text": "...就业，一脚踏入混乱的娱乐圈。  影帝递来阴阳合同？ 她反手送上《劳动法》《型法》全套解读。  资本想用协议设局？ 她将计就计，在条款里埋下回旋镖。 最终，猎人与猎物的身份，就此互换。  当对家粉丝全网黑她“滚出娱乐圈”时，乔灵默默更新了微博。 一张律师执业证，一张医师资格证。  配文：抱歉，你们的规矩我不懂。我的规矩，就是法律。",
+                "rich_text": "\n前世精英律师乔灵，重生成了被医闹致死的同名医生。\n面对想用三十万了事的凶手家属，她当场背《刑法》，怼得凶手家属哑口无言。\n\n心灰意冷，她持证再就业，一脚踏入混乱的<em>娱乐圈</em>。\n\n影帝递来阴阳合同？\n她反手送上《劳动法》《型法》全套解读。\n\n资本想用协议设局？\n她将计就计，在条款里埋下回旋镖。\n最终，猎人与猎物的身份，就此互换。\n\n当对家粉丝全网黑她“滚出<em>娱乐圈</em>”时，乔灵默默更新了微博。\n一张律师执业证，一张医师资格证。\n\n配文：抱歉，你们的规矩我不懂。我的规矩，就是法律。",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ],
+                  [
+                    108,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1009,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7121305376426822695",
+          "search_result_id": "7121305376426822695",
+          "search_high_light": {
+            "abstract": {
+              "text": "【我的世界只有你，其余全是渣男】...【1v1甜宠＋穿书＋娱乐圈＋沙雕＋渣男火葬场】 时染穿书了，成了一本娱乐圈万人迷团宠文里被全网黑的女明星。 原主参加了一个直播恋综，里面一个两个三个男嘉宾，都是书中女主的裙下之臣，还都是渣过她的那种。至于那个冷冰冰的影帝呢，被原主各种倒贴营销，恐怕对她避之不及。 时染：……这娱乐圈，不待也罢。 于是时染放飞自我，在恋综上怼天怼地，只等着男女主牵手成功，综艺结束后退圈养老。 没想到……剧情发展跟她想象的有点不一样？ 粉丝们：西方可以没有耶路撒冷，但娱乐圈不能失去时染！ 移情别恋的霸总男主：“原来我爱的是你。” 欺骗过她感情的疯批顶流：“我后悔了，复合吧，尊严我不要了。” 别有用心接近她的白切黑小爱豆：“他们好渣，不像我，只会心疼姐姐。” 时染：谢邀，我对回收垃圾不感兴趣。 三人：…… - 谢辞渊作为传奇影帝，手握无数资本，禁欲冷漠，被誉为娱乐圈高岭之花。 纵然参加恋综，粉丝也坚信哥哥独美，不会对任何女人动心。 直到有天。世人眼里高不可攀的影帝，微博发了一张照片。 照片上，男人亲吻女人的眉眼，眼尾缱绻温柔。 谢辞渊：【我是你的@时染】 全网炸了：啊啊啊我磕到真的了！ 【貌美沙雕顶流女明星x对外冷淡对内火热超宠妻影帝】",
+              "rich_text": "全本完结【1v1甜宠＋穿书＋<em>娱乐圈</em>＋沙雕＋渣男火葬场】\n时染穿书了，成了一本<em>娱乐圈</em>万人迷团宠文里被全网黑的女明星。\n原主参加了一个直播恋综，里面一个两个三个男嘉宾，都是书中女主的裙下之臣，还都是渣过她的那种。至于那个冷冰冰的影帝呢，被原主各种倒贴营销，恐怕对她避之不及。\n时染：……这<em>娱乐圈</em>，不待也罢。\n于是时染放飞自我，在恋综上怼天怼地，只等着男女主牵手成功，综艺结束后退<em>圈</em>养老。\n没想到……剧情发展跟她想象的有点不一样？\n粉丝们：西方可以没有耶路撒冷，但<em>娱乐圈</em>不能失去时染！\n移情别恋的霸总男主：“原来我爱的是你。”\n欺骗过她感情的疯批顶流：“我后悔了，复合吧，尊严我不要了。”\n别有用心接近她的白切黑小爱豆：“他们好渣，不像我，只会心疼姐姐。”\n时染：谢邀，我对回收垃圾不感兴趣。\n三人：……\n-\n谢辞渊作为传奇影帝，手握无数资本，禁欲冷漠，被誉为<em>娱乐圈</em>高岭之花。\n纵然参加恋综，粉丝也坚信哥哥独美，不会对任何女人动心。\n直到有天。世人眼里高不可攀的影帝，微博发了一张照片。\n照片上，男人亲吻女人的眉眼，眼尾缱绻温柔。\n谢辞渊：【我是你的@时染】\n全网炸了：啊啊啊我磕到真的了！\n【貌美沙雕顶流女明星x对外冷淡对内火热超宠妻影帝】",
+              "high_light_position": [
+                [
+                  29,
+                  3
+                ],
+                [
+                  53,
+                  3
+                ],
+                [
+                  157,
+                  3
+                ],
+                [
+                  244,
+                  3
+                ],
+                [
+                  392,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "发疯整顿娱乐圈，颠颠的，很安心",
+              "rich_text": "发疯整顿<em>娱乐圈</em>，颠颠的，很安心",
+              "high_light_position": [
+                [
+                  4,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "全本完结【1v1甜宠＋穿书＋娱乐圈＋沙雕＋渣男火葬场】\n时染穿书了，成了一本娱乐圈万人迷团宠文里被全网黑的女明星。\n原主参加了一个直播恋综，里面一个两个三个男嘉宾，都是书中女主的裙下之臣，还都是渣过她的那种。至于那个冷冰冰的影帝呢，被原主各种倒贴营销，恐怕对她避之不及。\n时染：……这娱乐圈，不待也罢。\n于是时染放飞自我，在恋综上怼天怼地，只等着男女主牵手成功，综艺结束后退圈养老。\n没想到……剧情发展跟她想象的有点不一样？\n粉丝们：西方可以没有耶路撒冷，但娱乐圈不能失去时染！\n移情别恋的霸总男主：“原来我爱的是你。”\n欺骗过她感情的疯批顶流：“我后悔了，复合吧，尊严我不要了。”\n别有用心接近她的白切黑小爱豆：“他们好渣，不像我，只会心疼姐姐。”\n时染：谢邀，我对回收垃圾不感兴趣。\n三人：……\n-\n谢辞渊作为传奇影帝，手握无数资本，禁欲冷漠，被誉为娱乐圈高岭之花。\n纵然参加恋综，粉丝也坚信哥哥独美，不会对任何女人动心。\n直到有天。世人眼里高不可攀的影帝，微博发了一张照片。\n照片上，男人亲吻女人的眉眼，眼尾缱绻温柔。\n谢辞渊：【我是你的@时染】\n全网炸了：啊啊啊我磕到真的了！\n【貌美沙雕顶流女明星x对外冷淡对内火热超宠妻影帝】",
+              "author": "柚子星球",
+              "book_id": "7121305376426822695",
+              "book_name": "发疯整顿娱乐圈，颠颠的，很安心",
+              "category": "星光璀璨",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2022-07-17T19:41:54+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7122064461975945763",
+              "first_chapter_item_id": "7122064461975945763",
+              "first_chapter_title": "第1章 穿成人人喊打的绿茶",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7247073221986484739",
+              "last_chapter_item_id": "7247073221986484739",
+              "last_chapter_title": "第494章 君埋泉下泥销骨，我寄人间雪满头（完）",
+              "last_chapter_update_time": "1687473797",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "54783",
+              "recommend_group_id": "7121305376426822695",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910362458B7500BB182232169FE\",\"rank\":\"1\",\"normal_session_id\":\"bd0c3e1a-137a-43d4-8680-8e019e3ce9a0\",\"cold_start_session_id\":\"92eaaf7d-7748-4cfc-8637-e6b18ad91236\"}",
+              "read_progress": "0",
+              "serial_count": "494",
+              "source": "番茄小说",
+              "tags": "星光璀璨,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/96f8b9a166d9e1e5c92570b686fd7de2~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=o9tfFkCpR3Qh%2Fh1boAglZkNpRfU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1015624",
+              "score": "9.5",
+              "exclusive": "1",
+              "role": "时染,谢辞渊",
+              "category_schema": "[{\"category_id\":745,\"name\":\"星光璀璨\",\"schema\":\"dragon1967://newCategoryDetail?id=745&name=星光璀璨&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=0&source=detail\"},{\"category_id\":30,\"name\":\"宠妻\",\"schema\":\"dragon1967://newCategoryDetail?id=30&name=宠妻&genre_type=0&gender=0&source=detail\"},{\"category_id\":96,\"name\":\"甜宠\",\"schema\":\"dragon1967://newCategoryDetail?id=96&name=甜宠&genre_type=0&gender=0&source=detail\"},{\"category_id\":43,\"name\":\"娱乐圈\",\"schema\":\"dragon1967://newCategoryDetail?id=43&name=娱乐圈&genre_type=0&gender=0&source=detail\"},{\"category_id\":69,\"name\":\"直播\",\"schema\":\"dragon1967://newCategoryDetail?id=69&name=直播&genre_type=0&gender=0&source=detail\"},{\"category_id\":382,\"name\":\"穿书\",\"schema\":\"dragon1967://newCategoryDetail?id=382&name=穿书&genre_type=0&gender=0&source=detail\"},{\"category_id\":468,\"name\":\"冰山\",\"schema\":\"dragon1967://newCategoryDetail?id=468&name=冰山&genre_type=0&gender=0&source=detail\"},{\"category_id\":473,\"name\":\"豪门世家\",\"schema\":\"dragon1967://newCategoryDetail?id=473&name=豪门世家&genre_type=0&gender=0&source=detail\"},{\"category_id\":486,\"name\":\"明星\",\"schema\":\"dragon1967://newCategoryDetail?id=486&name=明星&genre_type=0&gender=0&source=detail\"},{\"category_id\":852,\"name\":\"魂穿\",\"schema\":\"dragon1967://newCategoryDetail?id=852&name=魂穿&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7268157688612768830,7553914033468869656]",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "13360",
+              "sub_info": "5.5万人在读",
+              "last_publish_time": "1687473804",
+              "authorize_type": "1",
+              "media_id": "1624441917312003",
+              "original_book_name": "渣过我的前任们上恋综后，我红了",
+              "length_type": "0",
+              "op_tag": "190,235,216,198,966,183,234,184,211,536,1076,245,873,1139,444,311,900,535,218,1403,855,869",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/96f8b9a166d9e1e5c92570b686fd7de2",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/6af5f7d9ee50c362ae2a7017b3c6d0c0",
+              "data_rate": "",
+              "all_bookshelf_count": "11281",
+              "pure_category_tags": "星光璀璨,魂穿",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e8d8d0",
+              "read_count_all": "11109698",
+              "shelf_cnt_history": "3636661",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8661\":1681450147,\"6589\":1665988206,\"1967\":1658059318,\"638505\":1724849233,\"8704\":1747734911,\"426946\":1736165400,\"510893\":1689649040,\"507427\":1744962674,\"8703\":1744962674,\"8662\":1667468994,\"507386\":1744962674,\"1112\":1693461363,\"596084\":1714028662,\"3040\":1661139745}",
+              "category_v2_map": {
+                "43": true,
+                "69": true,
+                "852": true,
+                "382": true,
+                "486": true,
+                "473": true,
+                "30": true,
+                "37": true,
+                "745": true,
+                "3": true,
+                "468": true,
+                "96": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/96f8b9a166d9e1e5c92570b686fd7de2~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=o9tfFkCpR3Qh%2Fh1boAglZkNpRfU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7062250112919016718,
+                  "AuthorName": "柚子星球"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "半城星光",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/6af5f7d9ee50c362ae2a7017b3c6d0c0~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071784&x-signature=NAkpvZ7tyEqAddaMXKmi8U6IrQ8%3D",
+              "reputation_thumb_uri": "novel-pic-r/feb777c9f4ce995736330959909bb27b",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "全本完结【1v1甜宠＋穿书＋娱乐圈＋沙雕＋渣男火葬场】\n时染穿书了，成了一本娱乐圈万人迷团宠文里被全网黑的女明星。\n原主参加了一个直播恋综，里面一个两个三个男嘉宾，都是书中女主的裙下之臣，还都是渣过她的那种。至于那个冷冰冰的影帝呢，被原主各种倒贴营销，恐怕对她避之不及。\n时染：……这娱乐圈，不待也罢。\n于是时染放飞自我，在恋综上怼天怼地，只等着男女主牵手成功，综艺结束后退圈养老。\n没想到……剧情发展跟她想象的有点不一样？\n粉丝们：西方可以没有耶路撒冷，但娱乐圈不能失去时染！\n移情别恋的霸总男主：“原来我爱的是你。”\n欺骗过她感情的疯批顶流：“我后悔了，复合吧，尊严我不要了。”\n别有用心接近她的白切黑小爱豆：“他们好渣，不像我，只会心疼姐姐。”\n时染：谢邀，我对回收垃圾不感兴趣。\n三人：……\n-\n谢辞渊作为传奇影帝，手握无数资本，禁欲冷漠，被誉为娱乐圈高岭之花。\n纵然参加恋综，粉丝也坚信哥哥独美，不会对任何女人动心。\n直到有天。世人眼里高不可攀的影帝，微博发了一张照片。\n照片上，男人亲吻女人的眉眼，眼尾缱绻温柔。\n谢辞渊：【我是你的@时染】\n全网炸了：啊啊啊我磕到真的了！\n【貌美沙雕顶流女明星x对外冷淡对内火热超宠妻影帝】",
+              "read_page_progress": "0",
+              "read_cnt_text": "5.5万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/96f8b9a166d9e1e5c92570b686fd7de2~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071784&x-signature=v5kBpflZle5Mu4wquFcbBXN5m3U%3D",
+              "raw_book_name": "发疯整顿娱乐圈，颠颠的，很安心",
+              "related_bookids": "{\"8662\":{\"205\":[7385399216891251774]},\"3040\":{\"205\":[7385399216891251774]},\"1967\":{\"205\":[7385399216891251774]},\"507386\":{\"205\":[7385399216891251774]},\"507427\":{\"205\":[7385399216891251774]}}",
+              "color_audio_dominate": "#221E15"
+            }
+          ],
+          "search_attached_info": "17609296486649574894:9:0:696183235:clks####3@2026031910361858B7500BB18223216638",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "168人二刷",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "101.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "5万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "星光璀璨",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：柚子星球",
+                "rich_text": "作者：柚子星球",
+                "high_light_position": []
+              },
+              {
+                "text": "【我的世界只有你，其余全是渣男】...【1v1甜宠＋穿书＋娱乐圈＋沙雕＋渣男火葬场】 时染穿书了，成了一本娱乐圈万人迷团宠文里被全网黑的女明星。 原主参加了一个直播恋综，里面一个两个三个男嘉宾，都是书中女主的裙下之臣，还都是渣过她的那种。至于那个冷冰冰的影帝呢，被原主各种倒贴营销，恐怕对她避之不及。 时染：……这娱乐圈，不待也罢。 于是时染放飞自我，在恋综上怼天怼地，只等着男女主牵手成功，综艺结束后退圈养老。 没想到……剧情发展跟她想象的有点不一样？ 粉丝们：西方可以没有耶路撒冷，但娱乐圈不能失去时染！ 移情别恋的霸总男主：“原来我爱的是你。” 欺骗过她感情的疯批顶流：“我后悔了，复合吧，尊严我不要了。” 别有用心接近她的白切黑小爱豆：“他们好渣，不像我，只会心疼姐姐。” 时染：谢邀，我对回收垃圾不感兴趣。 三人：…… - 谢辞渊作为传奇影帝，手握无数资本，禁欲冷漠，被誉为娱乐圈高岭之花。 纵然参加恋综，粉丝也坚信哥哥独美，不会对任何女人动心。 直到有天。世人眼里高不可攀的影帝，微博发了一张照片。 照片上，男人亲吻女人的眉眼，眼尾缱绻温柔。 谢辞渊：【我是你的@时染】 全网炸了：啊啊啊我磕到真的了！ 【貌美沙雕顶流女明星x对外冷淡对内火热超宠妻影帝】",
+                "rich_text": "全本完结【1v1甜宠＋穿书＋<em>娱乐圈</em>＋沙雕＋渣男火葬场】\n时染穿书了，成了一本<em>娱乐圈</em>万人迷团宠文里被全网黑的女明星。\n原主参加了一个直播恋综，里面一个两个三个男嘉宾，都是书中女主的裙下之臣，还都是渣过她的那种。至于那个冷冰冰的影帝呢，被原主各种倒贴营销，恐怕对她避之不及。\n时染：……这<em>娱乐圈</em>，不待也罢。\n于是时染放飞自我，在恋综上怼天怼地，只等着男女主牵手成功，综艺结束后退<em>圈</em>养老。\n没想到……剧情发展跟她想象的有点不一样？\n粉丝们：西方可以没有耶路撒冷，但<em>娱乐圈</em>不能失去时染！\n移情别恋的霸总男主：“原来我爱的是你。”\n欺骗过她感情的疯批顶流：“我后悔了，复合吧，尊严我不要了。”\n别有用心接近她的白切黑小爱豆：“他们好渣，不像我，只会心疼姐姐。”\n时染：谢邀，我对回收垃圾不感兴趣。\n三人：……\n-\n谢辞渊作为传奇影帝，手握无数资本，禁欲冷漠，被誉为<em>娱乐圈</em>高岭之花。\n纵然参加恋综，粉丝也坚信哥哥独美，不会对任何女人动心。\n直到有天。世人眼里高不可攀的影帝，微博发了一张照片。\n照片上，男人亲吻女人的眉眼，眼尾缱绻温柔。\n谢辞渊：【我是你的@时染】\n全网炸了：啊啊啊我磕到真的了！\n【貌美沙雕顶流女明星x对外冷淡对内火热超宠妻影帝】",
+                "high_light_position": [
+                  [
+                    29,
+                    3
+                  ],
+                  [
+                    53,
+                    3
+                  ],
+                  [
+                    157,
+                    3
+                  ],
+                  [
+                    244,
+                    3
+                  ],
+                  [
+                    392,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "10",
+      "search_id": "clks####3@2026031910361858B7500BB18223216638",
+      "query": "娱乐圈",
+      "next_offset": 10,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@2026031910361858B7500BB18223216638",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"2026031910362458B7500BB182232169FE\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@2026031910361858B7500BB18223216638",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@2026031910361858B7500BB18223216638",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "2026031910362458B7500BB182232169FE"
+}

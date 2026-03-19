@@ -1,0 +1,2782 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@202603191054451DD44ACA77C2C704B81F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@202603191054451DD44ACA77C2C704B81F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@202603191054451DD44ACA77C2C704B81F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@202603191054451DD44ACA77C2C704B81F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@202603191054451DD44ACA77C2C704B81F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@202603191054451DD44ACA77C2C704B81F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1050,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7292709103887977535",
+          "search_result_id": "7292709103887977535",
+          "search_high_light": {
+            "abstract": {
+              "text": "...忠实于正史文献，凡是历史人物正史文献记载不详或无或记载与当时情节有背于逻辑关系时，便以野史、当地传说、戏曲故事等弥补充盈，使内容逻辑更加清晰，故事跌宕起伏。 本书战争一场接一场，应接不暇，战争场面恢宏磅礴、精彩刺激。作品中英雄人物故事描写刻画详细，打斗对决精彩纷呈，个个栩栩如生。 作品语言采用新颖之法，古今相融、诙谐幽默 ，写古道今，归纳点评。使读者在工作、学习闲暇之余，能非常轻松愉悦了解记忆汉朝及此相关大量古今中外历史、文化、军事、政治、地理、文物等方面知识。",
+              "rich_text": "秦末，天下大乱，群雄崛起，陈胜、项梁、项羽、章邯、刘邦无数英雄大爆发、大现世。\n该书战争场面恢宏磅礴，一场接一场，场场爆\n雷，无尿点。英雄人物刻画栩栩如生，英雄人\n物对决，精彩刺激纷呈，故事跌宕起伏、脍炙\n人口，文笔诙谐幽默、<em>古</em>今相通、归纳点评。\n读后让人酣畅淋漓、回味无穷，各类知识一下\n就消化于脑，非常值得阅读的一本书。\n本书忠实于正<em>史</em>文献，凡是<em>历史</em>人物正<em>史</em>文献记载不详或无或记载与当时情节有背于逻辑关系时，便以野<em>史</em>、当地传说、戏曲故事等弥补充盈，使内容逻辑更加清晰，故事跌宕起伏。\n本书战争一场接一场，应接不暇，战争场面恢宏磅礴、精彩刺激。作品中英雄人物故事描写刻画详细，打斗对决精彩纷呈，个个栩栩如生。\n作品语言采用新颖之法，<em>古</em>今相融、诙谐幽默 ，写<em>古</em>道今，归纳点评。使读者在工作、学习闲暇之余，能非常轻松愉悦了解记忆汉朝及此相关大量<em>古</em>今中外<em>历史</em>、文化、军事、政治、地理、文物等方面知识。",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  213,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "汉朝之秦末楚汉争霸",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "秦末，天下大乱，群雄崛起，陈胜、项梁、项羽、章邯、刘邦无数英雄大爆发、大现世。\n该书战争场面恢宏磅礴，一场接一场，场场爆\n雷，无尿点。英雄人物刻画栩栩如生，英雄人\n物对决，精彩刺激纷呈，故事跌宕起伏、脍炙\n人口，文笔诙谐幽默、古今相通、归纳点评。\n读后让人酣畅淋漓、回味无穷，各类知识一下\n就消化于脑，非常值得阅读的一本书。\n本书忠实于正史文献，凡是历史人物正史文献记载不详或无或记载与当时情节有背于逻辑关系时，便以野史、当地传说、戏曲故事等弥补充盈，使内容逻辑更加清晰，故事跌宕起伏。\n本书战争一场接一场，应接不暇，战争场面恢宏磅礴、精彩刺激。作品中英雄人物故事描写刻画详细，打斗对决精彩纷呈，个个栩栩如生。\n作品语言采用新颖之法，古今相融、诙谐幽默 ，写古道今，归纳点评。使读者在工作、学习闲暇之余，能非常轻松愉悦了解记忆汉朝及此相关大量古今中外历史、文化、军事、政治、地理、文物等方面知识。",
+              "author": "黔中刀客",
+              "book_id": "7292709103887977535",
+              "book_name": "汉朝之秦末楚汉争霸",
+              "category": "历史古代",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-10-22T17:15:54+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7292710520942461459",
+              "first_chapter_item_id": "7292710520942461459",
+              "first_chapter_title": "第1章 刘邦创业发家 厄运却当沛主",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7561307225348653593",
+              "last_chapter_item_id": "7561307225348653593",
+              "last_chapter_title": "地466章 胡亥检阅秦军与楚戏水决战",
+              "last_chapter_update_time": "1760517549",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "940",
+              "recommend_group_id": "7292709103887977535",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319105556B815CB5A7C2A644AB1DE\",\"rank\":\"1\",\"normal_session_id\":\"d977768c-56b9-4086-b6e4-1027111ce27e\",\"cold_start_session_id\":\"117e0015-1d68-4f4a-920d-741865644eee\"}",
+              "read_progress": "0",
+              "serial_count": "466",
+              "source": "番茄小说",
+              "tags": "历史古代,历史",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/415c33c3eac65374a7409222f09bb0ba~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=dXQ7s14nAozMz3Gm1hdaaD9hpKU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1072119",
+              "score": "8.3",
+              "exclusive": "1",
+              "role": "刘邦",
+              "category_schema": "[{\"category_id\":273,\"name\":\"历史古代\",\"schema\":\"dragon1967://newCategoryDetail?id=273&name=历史古代&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "63",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1760517560",
+              "authorize_type": "1",
+              "media_id": "1780446376720388",
+              "original_book_name": "汉朝时期那些事",
+              "length_type": "0",
+              "op_tag": "846,873,536,888,535,1125,1121",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/415c33c3eac65374a7409222f09bb0ba",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/12df5522cb0ce925e3531817a3bfa81a",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "历史古代,历史",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#281810",
+              "read_count_all": "43763",
+              "shelf_cnt_history": "2028",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507386\":1744129637,\"8661\":1699015359,\"1967\":1697968322,\"638505\":1724834826,\"507427\":1744129637,\"2329\":1697968322,\"2503\":1697968322,\"596084\":1715067918,\"6589\":1699015359,\"8662\":1697968322,\"510893\":1697968322,\"8703\":1744945170,\"8704\":1747113978,\"3040\":1699015359,\"13\":1697968322,\"1128\":1697968322,\"35\":1697968322}",
+              "category_v2_map": {
+                "12": true,
+                "273": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/415c33c3eac65374a7409222f09bb0ba~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=dXQ7s14nAozMz3Gm1hdaaD9hpKU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7292709104412267817,
+                  "AuthorName": "黔中刀客"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/12df5522cb0ce925e3531817a3bfa81a~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779072956&x-signature=lJKTiN8wnfo%2F0SwIpu7tz2hVOhY%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "秦末，天下大乱，群雄崛起，陈胜、项梁、项羽、章邯、刘邦无数英雄大爆发、大现世。\n该书战争场面恢宏磅礴，一场接一场，场场爆\n雷，无尿点。英雄人物刻画栩栩如生，英雄人\n物对决，精彩刺激纷呈，故事跌宕起伏、脍炙\n人口，文笔诙谐幽默、古今相通、归纳点评。\n读后让人酣畅淋漓、回味无穷，各类知识一下\n就消化于脑，非常值得阅读的一本书。\n本书忠实于正史文献，凡是历史人物正史文献记载不详或无或记载与当时情节有背于逻辑关系时，便以野史、当地传说、戏曲故事等弥补充盈，使内容逻辑更加清晰，故事跌宕起伏。\n本书战争一场接一场，应接不暇，战争场面恢宏磅礴、精彩刺激。作品中英雄人物故事描写刻画详细，打斗对决精彩纷呈，个个栩栩如生。\n作品语言采用新颖之法，古今相融、诙谐幽默 ，写古道今，归纳点评。使读者在工作、学习闲暇之余，能非常轻松愉悦了解记忆汉朝及此相关大量古今中外历史、文化、军事、政治、地理、文物等方面知识。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/415c33c3eac65374a7409222f09bb0ba~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=0UcY2UhU0nVdW5CLCs5BYu4rbn8%3D",
+              "raw_book_name": "汉朝之秦末楚汉争霸",
+              "color_audio_dominate": "#F5E8B3"
+            }
+          ],
+          "search_attached_info": "9383785476741382834:50:0:3255763120:clks####3@202603191054451DD44ACA77C2C704B81F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "107.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "940人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史古代",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：黔中刀客",
+                "rich_text": "作者：黔中刀客",
+                "high_light_position": []
+              },
+              {
+                "text": "...忠实于正史文献，凡是历史人物正史文献记载不详或无或记载与当时情节有背于逻辑关系时，便以野史、当地传说、戏曲故事等弥补充盈，使内容逻辑更加清晰，故事跌宕起伏。 本书战争一场接一场，应接不暇，战争场面恢宏磅礴、精彩刺激。作品中英雄人物故事描写刻画详细，打斗对决精彩纷呈，个个栩栩如生。 作品语言采用新颖之法，古今相融、诙谐幽默 ，写古道今，归纳点评。使读者在工作、学习闲暇之余，能非常轻松愉悦了解记忆汉朝及此相关大量古今中外历史、文化、军事、政治、地理、文物等方面知识。",
+                "rich_text": "秦末，天下大乱，群雄崛起，陈胜、项梁、项羽、章邯、刘邦无数英雄大爆发、大现世。\n该书战争场面恢宏磅礴，一场接一场，场场爆\n雷，无尿点。英雄人物刻画栩栩如生，英雄人\n物对决，精彩刺激纷呈，故事跌宕起伏、脍炙\n人口，文笔诙谐幽默、<em>古</em>今相通、归纳点评。\n读后让人酣畅淋漓、回味无穷，各类知识一下\n就消化于脑，非常值得阅读的一本书。\n本书忠实于正<em>史</em>文献，凡是<em>历史</em>人物正<em>史</em>文献记载不详或无或记载与当时情节有背于逻辑关系时，便以野<em>史</em>、当地传说、戏曲故事等弥补充盈，使内容逻辑更加清晰，故事跌宕起伏。\n本书战争一场接一场，应接不暇，战争场面恢宏磅礴、精彩刺激。作品中英雄人物故事描写刻画详细，打斗对决精彩纷呈，个个栩栩如生。\n作品语言采用新颖之法，<em>古</em>今相融、诙谐幽默 ，写<em>古</em>道今，归纳点评。使读者在工作、学习闲暇之余，能非常轻松愉悦了解记忆汉朝及此相关大量<em>古</em>今中外<em>历史</em>、文化、军事、政治、地理、文物等方面知识。",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    213,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1051,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7469756548235938840",
+          "search_result_id": "7469756548235938840",
+          "search_high_light": {
+            "abstract": {
+              "text": "李鸿获得了放映提问历史视频的系统。 在抽到的历史片段上，播放历史视频，提问历史问题。 正在金陵抵抗的士兵们，在看到了倭国会进行金陵大屠杀后，纷纷开始了拼死的抵抗。 二战前，众多的发国民众在看到本国居然被得国轻易击败的信息，一个个都不可置信的倒在了地上。 而美术生看到了自己击败发国，血洗耻辱的那段信息后，也是异常的兴奋。 在洪武年间。 朱元璋看着面前的第一个问题，秦始皇死后第几年，都城咸阳被攻破。 看着选项上那一个个短暂的时间。 信心十足的写上了答案。 并且在心里狠狠的嘲讽了一下秦始皇。 但是面对第二个问题，明太祖朱元璋死后第几年，都城金陵被攻破的问题。 看着那和第一个问题一样短暂没有变过的选项。 直接愣在了原地。",
+              "rich_text": "李鸿获得了放映提问<em>历史</em>视频的系统。\n在抽到的<em>历史</em>片段上，播放<em>历史</em>视频，提问<em>历史</em>问题。\n正在金陵抵抗的士兵们，在看到了倭国会进行金陵大屠杀后，纷纷开始了拼死的抵抗。\n二战前，众多的发国民众在看到本国居然被得国轻易击败的信息，一个个都不可置信的倒在了地上。\n而美术生看到了自己击败发国，血洗耻辱的那段信息后，也是异常的兴奋。\n在洪武年间。\n朱元璋看着面前的第一个问题，秦始皇死后第几年，都城咸阳被攻破。\n看着选项上那一个个短暂的时间。\n信心十足的写上了答案。\n并且在心里狠狠的嘲讽了一下秦始皇。\n但是面对第二个问题，明太祖朱元璋死后第几年，都城金陵被攻破的问题。\n看着那和第一个问题一样短暂没有变过的选项。\n直接愣在了原地。",
+              "high_light_position": [
+                [
+                  9,
+                  2
+                ],
+                [
+                  22,
+                  2
+                ],
+                [
+                  30,
+                  2
+                ],
+                [
+                  37,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "天幕，在上世纪，放映近现代历史",
+              "rich_text": "天幕，在上世纪，放映近现<em>代历史</em>",
+              "high_light_position": [
+                [
+                  12,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "李鸿获得了放映提问历史视频的系统。\n在抽到的历史片段上，播放历史视频，提问历史问题。\n正在金陵抵抗的士兵们，在看到了倭国会进行金陵大屠杀后，纷纷开始了拼死的抵抗。\n二战前，众多的发国民众在看到本国居然被得国轻易击败的信息，一个个都不可置信的倒在了地上。\n而美术生看到了自己击败发国，血洗耻辱的那段信息后，也是异常的兴奋。\n在洪武年间。\n朱元璋看着面前的第一个问题，秦始皇死后第几年，都城咸阳被攻破。\n看着选项上那一个个短暂的时间。\n信心十足的写上了答案。\n并且在心里狠狠的嘲讽了一下秦始皇。\n但是面对第二个问题，明太祖朱元璋死后第几年，都城金陵被攻破的问题。\n看着那和第一个问题一样短暂没有变过的选项。\n直接愣在了原地。",
+              "author": "一个土豆片子",
+              "book_id": "7469756548235938840",
+              "book_name": "天幕，在上世纪，放映近现代历史",
+              "category": "历史脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-02-10T19:50:25+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7469773405558948414",
+              "first_chapter_item_id": "7469773405558948414",
+              "first_chapter_title": "第1章 放映二战历史",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618530498410725950",
+              "last_chapter_item_id": "7618530498410725950",
+              "last_chapter_title": "第687章 1936末，第一题",
+              "last_chapter_update_time": "1773827634",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "56419",
+              "recommend_group_id": "7469756548235938840",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319105556B815CB5A7C2A644AB1DE\",\"rank\":\"1\",\"normal_session_id\":\"d977768c-56b9-4086-b6e4-1027111ce27e\",\"cold_start_session_id\":\"117e0015-1d68-4f4a-920d-741865644eee\"}",
+              "read_progress": "0",
+              "serial_count": "687",
+              "source": "番茄小说",
+              "tags": "历史脑洞,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4b4d85fe330083b086ec953af20427ac~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=WXCPj%2FWz%2B5WSaVJzOClKNchXdhY%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1425319",
+              "score": "8.2",
+              "exclusive": "1",
+              "role": "李鸿",
+              "category_schema": "[{\"category_id\":272,\"name\":\"历史脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=272&name=历史脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7535355967475551294]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "4700",
+              "sub_info": "5.7万人在读",
+              "last_publish_time": "1773828771",
+              "authorize_type": "1",
+              "media_id": "1814149541482506",
+              "original_book_name": "天幕放映：在二战前，放二战历史",
+              "length_type": "0",
+              "op_tag": "531,535,536,999,994,1125,1119",
+              "keep_publish_days": "24",
+              "thumb_uri": "novel-pic/4b4d85fe330083b086ec953af20427ac",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/ce8e665c030c79395c1f2572e686a0d2",
+              "data_rate": "",
+              "all_bookshelf_count": "2221",
+              "pure_category_tags": "历史脑洞,历史",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#607080",
+              "read_count_all": "785623",
+              "shelf_cnt_history": "101531",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8662\":1739194729,\"1967\":1739194729,\"1128\":1739194729,\"3040\":1739269990,\"2503\":1739194729,\"8661\":1739269990,\"8704\":1747109691,\"507427\":1741776338,\"13\":1739194729,\"638505\":1739269990,\"35\":1739194729,\"8703\":1744967571,\"596084\":1739269990,\"2329\":1739194729,\"507386\":1741776338,\"6589\":1739269990,\"510893\":1739194729}",
+              "category_v2_map": {
+                "272": true,
+                "19": true,
+                "37": true,
+                "12": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4b4d85fe330083b086ec953af20427ac~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=WXCPj%2FWz%2B5WSaVJzOClKNchXdhY%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7469756548776989976,
+                  "AuthorName": "一个土豆片子"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/ce8e665c030c79395c1f2572e686a0d2~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779072956&x-signature=8QcREZN4wQrOutKoKDqQw8ouw7s%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "李鸿获得了放映提问历史视频的系统。\n在抽到的历史片段上，播放历史视频，提问历史问题。\n正在金陵抵抗的士兵们，在看到了倭国会进行金陵大屠杀后，纷纷开始了拼死的抵抗。\n二战前，众多的发国民众在看到本国居然被得国轻易击败的信息，一个个都不可置信的倒在了地上。\n而美术生看到了自己击败发国，血洗耻辱的那段信息后，也是异常的兴奋。\n在洪武年间。\n朱元璋看着面前的第一个问题，秦始皇死后第几年，都城咸阳被攻破。\n看着选项上那一个个短暂的时间。\n信心十足的写上了答案。\n并且在心里狠狠的嘲讽了一下秦始皇。\n但是面对第二个问题，明太祖朱元璋死后第几年，都城金陵被攻破的问题。\n看着那和第一个问题一样短暂没有变过的选项。\n直接愣在了原地。",
+              "read_page_progress": "0",
+              "read_cnt_text": "5.7万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4b4d85fe330083b086ec953af20427ac~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=g2oKgme%2B8jsXDA3mAzFlHwsTIpg%3D",
+              "raw_book_name": "天幕，在上世纪，放映近现代历史",
+              "color_audio_dominate": "#302917"
+            }
+          ],
+          "search_attached_info": "9383785476741382834:51:0:4100940997:clks####3@202603191054451DD44ACA77C2C704B81F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "142.5万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "5万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：一个土豆片子",
+                "rich_text": "作者：一个土豆片子",
+                "high_light_position": []
+              },
+              {
+                "text": "李鸿获得了放映提问历史视频的系统。 在抽到的历史片段上，播放历史视频，提问历史问题。 正在金陵抵抗的士兵们，在看到了倭国会进行金陵大屠杀后，纷纷开始了拼死的抵抗。 二战前，众多的发国民众在看到本国居然被得国轻易击败的信息，一个个都不可置信的倒在了地上。 而美术生看到了自己击败发国，血洗耻辱的那段信息后，也是异常的兴奋。 在洪武年间。 朱元璋看着面前的第一个问题，秦始皇死后第几年，都城咸阳被攻破。 看着选项上那一个个短暂的时间。 信心十足的写上了答案。 并且在心里狠狠的嘲讽了一下秦始皇。 但是面对第二个问题，明太祖朱元璋死后第几年，都城金陵被攻破的问题。 看着那和第一个问题一样短暂没有变过的选项。 直接愣在了原地。",
+                "rich_text": "李鸿获得了放映提问<em>历史</em>视频的系统。\n在抽到的<em>历史</em>片段上，播放<em>历史</em>视频，提问<em>历史</em>问题。\n正在金陵抵抗的士兵们，在看到了倭国会进行金陵大屠杀后，纷纷开始了拼死的抵抗。\n二战前，众多的发国民众在看到本国居然被得国轻易击败的信息，一个个都不可置信的倒在了地上。\n而美术生看到了自己击败发国，血洗耻辱的那段信息后，也是异常的兴奋。\n在洪武年间。\n朱元璋看着面前的第一个问题，秦始皇死后第几年，都城咸阳被攻破。\n看着选项上那一个个短暂的时间。\n信心十足的写上了答案。\n并且在心里狠狠的嘲讽了一下秦始皇。\n但是面对第二个问题，明太祖朱元璋死后第几年，都城金陵被攻破的问题。\n看着那和第一个问题一样短暂没有变过的选项。\n直接愣在了原地。",
+                "high_light_position": [
+                  [
+                    9,
+                    2
+                  ],
+                  [
+                    22,
+                    2
+                  ],
+                  [
+                    30,
+                    2
+                  ],
+                  [
+                    37,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1052,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7384710227737709592",
+          "search_result_id": "7384710227737709592",
+          "search_high_light": {
+            "title": {
+              "text": "明成祖，诸葛亮，我都救定了",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "...天穿越+慢节奏+拯救历史人物+毫无存在感的系统】 随着自家医馆一起穿越到秦岭深处的李中孚，还没搞清楚状况就被史上最稳太子朱标找上门儿。 原来医馆的门连接着千千万万个门，千万里外乃至其它世界的人都可以通过某扇被赋予随机穿越功能的门来到医馆求医。 什么？常氏要难产而死？那必须救啊！ 李中孚的种种奇异之处，引起了朱元璋注意，没过几天，他也经常来医馆串门了。 又过了几天，永乐二十二年即将病逝榆木川的永乐大帝朱棣也无意中过来了。 场面一下子热闹了起来。 看着穿着龙袍的朱棣，朱元璋二话不说就脱下了鞋子。 随后就连诸葛亮、李世民、秦皇汉武等英豪也都陆续来到了医馆。 随着历朝历代的历史人物越聚越多，各平行世界全都发生了变化。",
+              "rich_text": "【诸天穿越+慢节奏+拯救<em>历史</em>人物+毫无存在感的系统】\n随着自家医馆一起穿越到秦岭深处的李中孚，还没搞清楚状况就被<em>史</em>上最稳太子朱标找上门儿。\n原来医馆的门连接着千千万万个门，千万里外乃至其它世界的人都可以通过某扇被赋予随机穿越功能的门来到医馆求医。\n什么？常氏要难产而死？那必须救啊！\n李中孚的种种奇异之处，引起了朱元璋注意，没过几天，他也经常来医馆串门了。\n又过了几天，永乐二十二年即将病逝榆木川的永乐大帝朱棣也无意中过来了。\n场面一下子热闹了起来。\n看着穿着龙袍的朱棣，朱元璋二话不说就脱下了鞋子。\n随后就连诸葛亮、李世民、秦皇汉武等英豪也都陆续来到了医馆。\n随着<em>历</em>朝<em>历代</em>的<em>历史</em>人物越聚越多，各平行世界全都发生了变化。",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  286,
+                  2
+                ],
+                [
+                  289,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【诸天穿越+慢节奏+拯救历史人物+毫无存在感的系统】\n随着自家医馆一起穿越到秦岭深处的李中孚，还没搞清楚状况就被史上最稳太子朱标找上门儿。\n原来医馆的门连接着千千万万个门，千万里外乃至其它世界的人都可以通过某扇被赋予随机穿越功能的门来到医馆求医。\n什么？常氏要难产而死？那必须救啊！\n李中孚的种种奇异之处，引起了朱元璋注意，没过几天，他也经常来医馆串门了。\n又过了几天，永乐二十二年即将病逝榆木川的永乐大帝朱棣也无意中过来了。\n场面一下子热闹了起来。\n看着穿着龙袍的朱棣，朱元璋二话不说就脱下了鞋子。\n随后就连诸葛亮、李世民、秦皇汉武等英豪也都陆续来到了医馆。\n随着历朝历代的历史人物越聚越多，各平行世界全都发生了变化。",
+              "author": "封侯书生",
+              "book_id": "7384710227737709592",
+              "book_name": "明成祖，诸葛亮，我都救定了",
+              "category": "历史脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-06-26T15:27:15+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7384710321677550104",
+              "first_chapter_item_id": "7384710321677550104",
+              "first_chapter_title": "第1章 与朱标的相遇",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7459233651914457662",
+              "last_chapter_item_id": "7459233651914457662",
+              "last_chapter_title": "番外 穿越的医馆",
+              "last_chapter_update_time": "1736738259",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "11200",
+              "recommend_group_id": "7384710227737709592",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319105556B815CB5A7C2A644AB1DE\",\"rank\":\"1\",\"normal_session_id\":\"d977768c-56b9-4086-b6e4-1027111ce27e\",\"cold_start_session_id\":\"117e0015-1d68-4f4a-920d-741865644eee\"}",
+              "read_progress": "0",
+              "serial_count": "384",
+              "source": "番茄小说",
+              "tags": "历史脑洞,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/327ee7b88f3d0849d96af3fa0373d5c3~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=zpEEq3XuuuYubnpZJRaKGwA%2FhRE%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "815942",
+              "score": "8.2",
+              "exclusive": "1",
+              "role": "李中孚,朱元璋",
+              "category_schema": "[{\"category_id\":272,\"name\":\"历史脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=272&name=历史脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"},{\"category_id\":71,\"name\":\"诸天万界\",\"schema\":\"dragon1967://newCategoryDetail?id=71&name=诸天万界&genre_type=0&gender=1&source=detail\"},{\"category_id\":67,\"name\":\"三国\",\"schema\":\"dragon1967://newCategoryDetail?id=67&name=三国&genre_type=0&gender=1&source=detail\"},{\"category_id\":73,\"name\":\"大唐\",\"schema\":\"dragon1967://newCategoryDetail?id=73&name=大唐&genre_type=0&gender=1&source=detail\"},{\"category_id\":126,\"name\":\"明朝\",\"schema\":\"dragon1967://newCategoryDetail?id=126&name=明朝&genre_type=0&gender=1&source=detail\"},{\"category_id\":377,\"name\":\"大秦\",\"schema\":\"dragon1967://newCategoryDetail?id=377&name=大秦&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "3313",
+              "sub_info": "1.2万人在读",
+              "last_publish_time": "1736738269",
+              "authorize_type": "1",
+              "media_id": "1738933932923916",
+              "original_book_name": "我家医馆通古代，朱标上门求医",
+              "length_type": "1",
+              "op_tag": "531,535,536,245,999,1125",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/327ee7b88f3d0849d96af3fa0373d5c3",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/4e02f83967f7a7181448bf4f46893f35",
+              "data_rate": "",
+              "all_bookshelf_count": "765",
+              "pure_category_tags": "历史脑洞,大秦",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#282828",
+              "read_count_all": "1621116",
+              "shelf_cnt_history": "205515",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"35\":1719386959,\"1128\":1719386959,\"8661\":1719817751,\"8662\":1719386959,\"510893\":1719386959,\"3040\":1719817751,\"1319\":1719816148,\"426946\":1736164938,\"596084\":1719817751,\"13\":1719386959,\"638505\":1724767287,\"507386\":1744945904,\"8704\":1747725144,\"2329\":1719386959,\"8703\":1744945904,\"2503\":1719386959,\"6589\":1719817751,\"1967\":1719386959,\"507427\":1744945904}",
+              "category_v2_map": {
+                "272": true,
+                "19": true,
+                "377": true,
+                "37": true,
+                "12": true,
+                "67": true,
+                "71": true,
+                "73": true,
+                "126": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/327ee7b88f3d0849d96af3fa0373d5c3~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=zpEEq3XuuuYubnpZJRaKGwA%2FhRE%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7122675693963449636,
+                  "AuthorName": "封侯书生"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/4e02f83967f7a7181448bf4f46893f35~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779072956&x-signature=Qztr6IAMSmmdasomY%2BN%2FGxM%2FlMk%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【诸天穿越+慢节奏+拯救历史人物+毫无存在感的系统】\n随着自家医馆一起穿越到秦岭深处的李中孚，还没搞清楚状况就被史上最稳太子朱标找上门儿。\n原来医馆的门连接着千千万万个门，千万里外乃至其它世界的人都可以通过某扇被赋予随机穿越功能的门来到医馆求医。\n什么？常氏要难产而死？那必须救啊！\n李中孚的种种奇异之处，引起了朱元璋注意，没过几天，他也经常来医馆串门了。\n又过了几天，永乐二十二年即将病逝榆木川的永乐大帝朱棣也无意中过来了。\n场面一下子热闹了起来。\n看着穿着龙袍的朱棣，朱元璋二话不说就脱下了鞋子。\n随后就连诸葛亮、李世民、秦皇汉武等英豪也都陆续来到了医馆。\n随着历朝历代的历史人物越聚越多，各平行世界全都发生了变化。",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.2万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/327ee7b88f3d0849d96af3fa0373d5c3~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=z3MTEufJzM5lH3Jli9lvtZW3%2B%2Bw%3D",
+              "raw_book_name": "明成祖，诸葛亮，我都救定了",
+              "related_bookids": "{\"1967\":{\"205\":[]},\"507386\":{\"205\":[]},\"507427\":{\"205\":[]},\"8662\":{\"205\":[]},\"3040\":{\"205\":[]}}",
+              "color_audio_dominate": "#3F1813"
+            }
+          ],
+          "search_attached_info": "9383785476741382834:52:0:327863936:clks####3@202603191054451DD44ACA77C2C704B81F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "81.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：封侯书生",
+                "rich_text": "作者：封侯书生",
+                "high_light_position": []
+              },
+              {
+                "text": "...天穿越+慢节奏+拯救历史人物+毫无存在感的系统】 随着自家医馆一起穿越到秦岭深处的李中孚，还没搞清楚状况就被史上最稳太子朱标找上门儿。 原来医馆的门连接着千千万万个门，千万里外乃至其它世界的人都可以通过某扇被赋予随机穿越功能的门来到医馆求医。 什么？常氏要难产而死？那必须救啊！ 李中孚的种种奇异之处，引起了朱元璋注意，没过几天，他也经常来医馆串门了。 又过了几天，永乐二十二年即将病逝榆木川的永乐大帝朱棣也无意中过来了。 场面一下子热闹了起来。 看着穿着龙袍的朱棣，朱元璋二话不说就脱下了鞋子。 随后就连诸葛亮、李世民、秦皇汉武等英豪也都陆续来到了医馆。 随着历朝历代的历史人物越聚越多，各平行世界全都发生了变化。",
+                "rich_text": "【诸天穿越+慢节奏+拯救<em>历史</em>人物+毫无存在感的系统】\n随着自家医馆一起穿越到秦岭深处的李中孚，还没搞清楚状况就被<em>史</em>上最稳太子朱标找上门儿。\n原来医馆的门连接着千千万万个门，千万里外乃至其它世界的人都可以通过某扇被赋予随机穿越功能的门来到医馆求医。\n什么？常氏要难产而死？那必须救啊！\n李中孚的种种奇异之处，引起了朱元璋注意，没过几天，他也经常来医馆串门了。\n又过了几天，永乐二十二年即将病逝榆木川的永乐大帝朱棣也无意中过来了。\n场面一下子热闹了起来。\n看着穿着龙袍的朱棣，朱元璋二话不说就脱下了鞋子。\n随后就连诸葛亮、李世民、秦皇汉武等英豪也都陆续来到了医馆。\n随着<em>历</em>朝<em>历代</em>的<em>历史</em>人物越聚越多，各平行世界全都发生了变化。",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    286,
+                    2
+                  ],
+                  [
+                    289,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1053,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7212257900700371968",
+          "search_result_id": "7212257900700371968",
+          "search_high_light": {
+            "title": {
+              "text": "惊现金榜盘点历史，震惊历朝诸皇",
+              "rich_text": "惊现金榜盘点<em>历史</em>，震惊<em>历</em>朝诸皇",
+              "high_light_position": [
+                [
+                  6,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【开局盘点十大意难平帝王，却不料被陛下赐死】盘点历史意难平。  每一个令世人意难平的人物都会上榜。  开局盘点十大意难平帝王。  秦始皇意难平：“孤要大秦千秋万代，世世相传，却不料二世而亡。”  朱棣意难平：“难道我一生的功绩，洗不清我靖难的罪名吗？”  崇祯意难平：“朕登基十七年，上干天怒，致逆贼直逼京师。朕死后以发覆面，任贼分裂朕尸，勿伤百姓一人！”  盘点十大忠臣意难平。  辛弃疾意难平：“了却君王天下事，赢得生前身后名，可怜白发生。”  岳飞意难平：“臣一生精忠报国，抵御金国，却不曾想在国复之后被陛下赐死。”  于谦意难平：“粉身碎骨浑不怕，要留清白在人间。”  这一刻，诸天万界的帝王们怒火中烧，忠臣良将，竟受如此大辱？",
+              "rich_text": "盘点<em>历史</em>意难平。\n\n每一个令世人意难平的人物都会上榜。\n\n开局盘点十大意难平帝王。\n\n秦始皇意难平：“孤要大秦千秋万<em>代</em>，世世相传，却不料二世而亡。”\n\n朱棣意难平：“难道我一生的功绩，洗不清我靖难的罪名吗？”\n\n崇祯意难平：“朕登基十七年，上干天怒，致逆贼直逼京师。朕死后以发覆面，任贼分裂朕尸，勿伤百姓一人！”\n\n盘点十大忠臣意难平。\n\n辛弃疾意难平：“了却君王天下事，赢得生前身后名，可怜白发生。”\n\n岳飞意难平：“臣一生精忠报国，抵御金国，却不曾想在国复之后被陛下赐死。”\n\n于谦意难平：“粉身碎骨浑不怕，要留清白在人间。”\n\n这一刻，诸天万界的帝王们怒火中烧，忠臣良将，竟受如此大辱？",
+              "high_light_position": [
+                [
+                  24,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "盘点历史意难平。\n\n每一个令世人意难平的人物都会上榜。\n\n开局盘点十大意难平帝王。\n\n秦始皇意难平：“孤要大秦千秋万代，世世相传，却不料二世而亡。”\n\n朱棣意难平：“难道我一生的功绩，洗不清我靖难的罪名吗？”\n\n崇祯意难平：“朕登基十七年，上干天怒，致逆贼直逼京师。朕死后以发覆面，任贼分裂朕尸，勿伤百姓一人！”\n\n盘点十大忠臣意难平。\n\n辛弃疾意难平：“了却君王天下事，赢得生前身后名，可怜白发生。”\n\n岳飞意难平：“臣一生精忠报国，抵御金国，却不曾想在国复之后被陛下赐死。”\n\n于谦意难平：“粉身碎骨浑不怕，要留清白在人间。”\n\n这一刻，诸天万界的帝王们怒火中烧，忠臣良将，竟受如此大辱？",
+              "author": "范行一",
+              "book_id": "7212257900700371968",
+              "book_name": "惊现金榜盘点历史，震惊历朝诸皇",
+              "category": "历史脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-03-19T22:04:09+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7215982521220727331",
+              "first_chapter_item_id": "7215982521220727331",
+              "first_chapter_title": "第1章 金榜现世，皇帝们震惊",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7365395975986233880",
+              "last_chapter_item_id": "7365395975986233880",
+              "last_chapter_title": "第770章 奖励张居正一个朱标，开启大明新章程",
+              "last_chapter_update_time": "1714889929",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "25772",
+              "recommend_group_id": "7212257900700371968",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319105556B815CB5A7C2A644AB1DE\",\"rank\":\"1\",\"normal_session_id\":\"d977768c-56b9-4086-b6e4-1027111ce27e\",\"cold_start_session_id\":\"117e0015-1d68-4f4a-920d-741865644eee\"}",
+              "read_progress": "0",
+              "serial_count": "770",
+              "source": "番茄小说",
+              "tags": "历史脑洞,历史",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7bc6ec491ca8bd408dadda52b4a4c69f~tplv-shrink:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=wV4Apw6L%2FutU0WurfiNnfb0d6f8%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1653231",
+              "score": "8.2",
+              "exclusive": "1",
+              "role": "秦明",
+              "category_schema": "[{\"category_id\":272,\"name\":\"历史脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=272&name=历史脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"},{\"category_id\":71,\"name\":\"诸天万界\",\"schema\":\"dragon1967://newCategoryDetail?id=71&name=诸天万界&genre_type=0&gender=1&source=detail\"},{\"category_id\":453,\"name\":\"开局\",\"schema\":\"dragon1967://newCategoryDetail?id=453&name=开局&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "4083",
+              "sub_info": "2.6万人在读",
+              "last_publish_time": "1715162406",
+              "authorize_type": "1",
+              "media_id": "1722760772555791",
+              "original_book_name": "盘点历史意难平，皇帝们直接泪崩",
+              "length_type": "0",
+              "op_tag": "535,536,245,501,873,853,346,868,235,999,994,1125,1123",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/7bc6ec491ca8bd408dadda52b4a4c69f",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/6e208a083881bdff47105768c633d154",
+              "data_rate": "",
+              "all_bookshelf_count": "1588",
+              "pure_category_tags": "历史脑洞,开局",
+              "related_comic_bookids": "",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e8e8e8",
+              "read_count_all": "2642552",
+              "shelf_cnt_history": "331797",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"638505\":1724839667,\"2329\":1679235164,\"1967\":1679235164,\"8703\":1744944165,\"1128\":1679235164,\"6589\":1680615019,\"510893\":1689657461,\"596084\":1715076079,\"426946\":1736164813,\"35\":1679235164,\"507386\":1744944165,\"8661\":1681186575,\"2503\":1679235164,\"507427\":1744944165,\"13\":1679235164,\"1112\":1693462077,\"8662\":1679235164,\"8704\":1747725270,\"3040\":1681186575}",
+              "category_v2_map": {
+                "272": true,
+                "453": true,
+                "12": true,
+                "71": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7bc6ec491ca8bd408dadda52b4a4c69f~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=BLDP8qrl1ggJ7s2uLKrRa7WMe6I%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7056577241525785856,
+                  "AuthorName": "范行一"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "金榜盘点历史",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/6e208a083881bdff47105768c633d154~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779072956&x-signature=b5HR6zVLO7Vx6Sptzbhe6i%2F%2F684%3D",
+              "reputation_thumb_uri": "novel-pic-r/ac87e55529235a7c615bec62897264e6",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "盘点历史意难平。\n\n每一个令世人意难平的人物都会上榜。\n\n开局盘点十大意难平帝王。\n\n秦始皇意难平：“孤要大秦千秋万代，世世相传，却不料二世而亡。”\n\n朱棣意难平：“难道我一生的功绩，洗不清我靖难的罪名吗？”\n\n崇祯意难平：“朕登基十七年，上干天怒，致逆贼直逼京师。朕死后以发覆面，任贼分裂朕尸，勿伤百姓一人！”\n\n盘点十大忠臣意难平。\n\n辛弃疾意难平：“了却君王天下事，赢得生前身后名，可怜白发生。”\n\n岳飞意难平：“臣一生精忠报国，抵御金国，却不曾想在国复之后被陛下赐死。”\n\n于谦意难平：“粉身碎骨浑不怕，要留清白在人间。”\n\n这一刻，诸天万界的帝王们怒火中烧，忠臣良将，竟受如此大辱？",
+              "read_page_progress": "0",
+              "read_cnt_text": "2.6万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7bc6ec491ca8bd408dadda52b4a4c69f~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=kwhRXl1UKYlW6tYBBfXrt0%2FL064%3D",
+              "raw_book_name": "惊现金榜盘点历史，震惊历朝诸皇",
+              "color_audio_dominate": "#E8E5D4"
+            }
+          ],
+          "search_attached_info": "9383785476741382834:53:0:8767311:clks####3@202603191054451DD44ACA77C2C704B81F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "165.3万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：范行一",
+                "rich_text": "作者：范行一",
+                "high_light_position": []
+              },
+              {
+                "text": "【开局盘点十大意难平帝王，却不料被陛下赐死】盘点历史意难平。  每一个令世人意难平的人物都会上榜。  开局盘点十大意难平帝王。  秦始皇意难平：“孤要大秦千秋万代，世世相传，却不料二世而亡。”  朱棣意难平：“难道我一生的功绩，洗不清我靖难的罪名吗？”  崇祯意难平：“朕登基十七年，上干天怒，致逆贼直逼京师。朕死后以发覆面，任贼分裂朕尸，勿伤百姓一人！”  盘点十大忠臣意难平。  辛弃疾意难平：“了却君王天下事，赢得生前身后名，可怜白发生。”  岳飞意难平：“臣一生精忠报国，抵御金国，却不曾想在国复之后被陛下赐死。”  于谦意难平：“粉身碎骨浑不怕，要留清白在人间。”  这一刻，诸天万界的帝王们怒火中烧，忠臣良将，竟受如此大辱？",
+                "rich_text": "盘点<em>历史</em>意难平。\n\n每一个令世人意难平的人物都会上榜。\n\n开局盘点十大意难平帝王。\n\n秦始皇意难平：“孤要大秦千秋万<em>代</em>，世世相传，却不料二世而亡。”\n\n朱棣意难平：“难道我一生的功绩，洗不清我靖难的罪名吗？”\n\n崇祯意难平：“朕登基十七年，上干天怒，致逆贼直逼京师。朕死后以发覆面，任贼分裂朕尸，勿伤百姓一人！”\n\n盘点十大忠臣意难平。\n\n辛弃疾意难平：“了却君王天下事，赢得生前身后名，可怜白发生。”\n\n岳飞意难平：“臣一生精忠报国，抵御金国，却不曾想在国复之后被陛下赐死。”\n\n于谦意难平：“粉身碎骨浑不怕，要留清白在人间。”\n\n这一刻，诸天万界的帝王们怒火中烧，忠臣良将，竟受如此大辱？",
+                "high_light_position": [
+                  [
+                    24,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1054,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7369812314838535193",
+          "search_result_id": "7369812314838535193",
+          "search_high_light": {
+            "abstract": {
+              "text": "... ，他的手机直通历朝历代。 刷【桂花树下桂花猫！】 诗圣诗仙集体侧目，永远佩服当代网友的才情！ 刷【教育的长期性和滞后性！】 历朝历代的读书人傻眼了，拥有阅历之后方得茅塞顿开！ 刷【为什么喜欢苏东坡？】 历朝历代人民目瞪口呆，这样的弟弟给我来一沓！ 刷【历史超燃混剪！】 古人全破防，热血沸腾，泪洒当场，这是什么神仙台词？ 燃是燃，可………… 秦始皇：我大秦亡了。 刘彻：我大汉亡了。 康熙：我大清也亡了。",
+              "rich_text": "好好的富二<em>代</em>不当，非要当社畜的黎洛，\n他不知道的是 ，他的手机直通<em>历</em>朝<em>历代</em>。\n刷【桂花树下桂花猫！】\n诗圣诗仙集体侧目，永远佩服当<em>代</em>网友的才情！\n刷【教育的长期性和滞后性！】\n<em>历</em>朝<em>历代</em>的读书人傻眼了，拥有阅<em>历</em>之后方得茅塞顿开！\n刷【为什么喜欢苏东坡？】\n<em>历</em>朝<em>历代</em>人民目瞪口呆，这样的弟弟给我来一沓！\n刷【<em>历史</em>超燃混剪！】\n<em>古</em>人全破防，热血沸腾，泪洒当场，这是什么神仙台词？\n燃是燃，可…………\n秦始皇：我大秦亡了。\n刘彻：我大汉亡了。\n康熙：我大清也亡了。",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  68,
+                  2
+                ],
+                [
+                  107,
+                  2
+                ],
+                [
+                  130,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "天幕通古代，给帝王一点震憾！",
+              "rich_text": "天幕通<em>古代</em>，给帝王一点震憾！",
+              "high_light_position": [
+                [
+                  3,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "好好的富二代不当，非要当社畜的黎洛，\n他不知道的是 ，他的手机直通历朝历代。\n刷【桂花树下桂花猫！】\n诗圣诗仙集体侧目，永远佩服当代网友的才情！\n刷【教育的长期性和滞后性！】\n历朝历代的读书人傻眼了，拥有阅历之后方得茅塞顿开！\n刷【为什么喜欢苏东坡？】\n历朝历代人民目瞪口呆，这样的弟弟给我来一沓！\n刷【历史超燃混剪！】\n古人全破防，热血沸腾，泪洒当场，这是什么神仙台词？\n燃是燃，可…………\n秦始皇：我大秦亡了。\n刘彻：我大汉亡了。\n康熙：我大清也亡了。",
+              "author": "小天宝",
+              "book_id": "7369812314838535193",
+              "book_name": "天幕通古代，给帝王一点震憾！",
+              "category": "历史脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-05-17T11:55:44+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7369812319414518297",
+              "first_chapter_item_id": "7369812319414518297",
+              "first_chapter_title": "第1章 桂花树下桂花猫",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618536984981537342",
+              "last_chapter_item_id": "7618536984981537342",
+              "last_chapter_title": "第791 章贺知章：唐朝最幸福的诗人",
+              "last_chapter_update_time": "1773829962",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "63741",
+              "recommend_group_id": "7369812314838535193",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319105556B815CB5A7C2A644AB1DE\",\"rank\":\"1\",\"normal_session_id\":\"d977768c-56b9-4086-b6e4-1027111ce27e\",\"cold_start_session_id\":\"117e0015-1d68-4f4a-920d-741865644eee\"}",
+              "read_progress": "0",
+              "serial_count": "792",
+              "source": "番茄小说",
+              "tags": "历史脑洞,历史",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c032cb513153702dd937ff3c880a1749~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=Yj8LgRW2VM4eRnFfFouY9qlBfgs%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1821148",
+              "score": "8.1",
+              "exclusive": "1",
+              "role": "黎洛,老秦",
+              "category_schema": "[{\"category_id\":272,\"name\":\"历史脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=272&name=历史脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"},{\"category_id\":71,\"name\":\"诸天万界\",\"schema\":\"dragon1967://newCategoryDetail?id=71&name=诸天万界&genre_type=0&gender=1&source=detail\"},{\"category_id\":69,\"name\":\"直播\",\"schema\":\"dragon1967://newCategoryDetail?id=69&name=直播&genre_type=0&gender=1&source=detail\"},{\"category_id\":377,\"name\":\"大秦\",\"schema\":\"dragon1967://newCategoryDetail?id=377&name=大秦&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7502468571453213721]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "5686",
+              "sub_info": "6.4万人在读",
+              "last_publish_time": "1773829974",
+              "authorize_type": "1",
+              "media_id": "1704854169311235",
+              "original_book_name": "短视频通古代：全员破防",
+              "length_type": "0",
+              "op_tag": "889,536,888,531,535,245,995",
+              "keep_publish_days": "15",
+              "thumb_uri": "novel-pic/c032cb513153702dd937ff3c880a1749",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/0ac07c4e13c4793cceda3434bb21d441",
+              "data_rate": "",
+              "all_bookshelf_count": "2795",
+              "pure_category_tags": "历史脑洞,大秦",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#481810",
+              "read_count_all": "1615439",
+              "shelf_cnt_history": "181515",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507427\":1741781877,\"638505\":1724770541,\"8662\":1715919544,\"35\":1715919544,\"13\":1715919544,\"3040\":1716014337,\"1128\":1715919544,\"510893\":1715919544,\"596084\":1716014337,\"8704\":1747354030,\"1967\":1715919544,\"2329\":1715919544,\"2503\":1715919544,\"507386\":1741781877,\"6589\":1716014337,\"8661\":1716014337,\"8703\":1744954651}",
+              "category_v2_map": {
+                "377": true,
+                "272": true,
+                "12": true,
+                "69": true,
+                "71": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c032cb513153702dd937ff3c880a1749~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=Yj8LgRW2VM4eRnFfFouY9qlBfgs%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7243694785947505976,
+                  "AuthorName": "小天宝"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/0ac07c4e13c4793cceda3434bb21d441~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779072956&x-signature=0q%2BhWZ1MlCQTppzKCMrYZyldqNk%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "好好的富二代不当，非要当社畜的黎洛，\n他不知道的是 ，他的手机直通历朝历代。\n刷【桂花树下桂花猫！】\n诗圣诗仙集体侧目，永远佩服当代网友的才情！\n刷【教育的长期性和滞后性！】\n历朝历代的读书人傻眼了，拥有阅历之后方得茅塞顿开！\n刷【为什么喜欢苏东坡？】\n历朝历代人民目瞪口呆，这样的弟弟给我来一沓！\n刷【历史超燃混剪！】\n古人全破防，热血沸腾，泪洒当场，这是什么神仙台词？\n燃是燃，可…………\n秦始皇：我大秦亡了。\n刘彻：我大汉亡了。\n康熙：我大清也亡了。",
+              "read_page_progress": "0",
+              "read_cnt_text": "6.4万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c032cb513153702dd937ff3c880a1749~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=85CytgKY5h%2FadjqlHS2FNfhs1ds%3D",
+              "raw_book_name": "天幕通古代，给帝王一点震憾！",
+              "color_audio_dominate": "#3D0603"
+            }
+          ],
+          "search_attached_info": "9383785476741382834:54:0:2898754057:clks####3@202603191054451DD44ACA77C2C704B81F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "182.1万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "6万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：小天宝",
+                "rich_text": "作者：小天宝",
+                "high_light_position": []
+              },
+              {
+                "text": "... ，他的手机直通历朝历代。 刷【桂花树下桂花猫！】 诗圣诗仙集体侧目，永远佩服当代网友的才情！ 刷【教育的长期性和滞后性！】 历朝历代的读书人傻眼了，拥有阅历之后方得茅塞顿开！ 刷【为什么喜欢苏东坡？】 历朝历代人民目瞪口呆，这样的弟弟给我来一沓！ 刷【历史超燃混剪！】 古人全破防，热血沸腾，泪洒当场，这是什么神仙台词？ 燃是燃，可………… 秦始皇：我大秦亡了。 刘彻：我大汉亡了。 康熙：我大清也亡了。",
+                "rich_text": "好好的富二<em>代</em>不当，非要当社畜的黎洛，\n他不知道的是 ，他的手机直通<em>历</em>朝<em>历代</em>。\n刷【桂花树下桂花猫！】\n诗圣诗仙集体侧目，永远佩服当<em>代</em>网友的才情！\n刷【教育的长期性和滞后性！】\n<em>历</em>朝<em>历代</em>的读书人傻眼了，拥有阅<em>历</em>之后方得茅塞顿开！\n刷【为什么喜欢苏东坡？】\n<em>历</em>朝<em>历代</em>人民目瞪口呆，这样的弟弟给我来一沓！\n刷【<em>历史</em>超燃混剪！】\n<em>古</em>人全破防，热血沸腾，泪洒当场，这是什么神仙台词？\n燃是燃，可…………\n秦始皇：我大秦亡了。\n刘彻：我大汉亡了。\n康熙：我大清也亡了。",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    68,
+                    2
+                  ],
+                  [
+                    107,
+                    2
+                  ],
+                  [
+                    130,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1055,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7614030100668894270",
+          "search_result_id": "7614030100668894270",
+          "search_high_light": {
+            "abstract": {
+              "text": "【无系统+杀伐极度果断+纯粹黑暗谋略+无女主】 穿越到大旱三年的地狱乱世，开局只有一具随时会病死的残破身躯，和一群饿疯了的流寇手下。 面对城外十万绝望的灾民和即将围城的官军，顾长风做了一个极其荒诞的决定： 打开粮仓，当众施粥！ 所有人都以为他是个心怀天下的圣母书生，直到…… 第一天，他熬最稠的肉羹，但只给城墙上的守军吃，让他们看着城下的人饿死； 第五天，他熬最清的薄水，让十万灾民为了抢一口水互相撕咬，主动替他淘汰掉老弱病残； 第十天，当几万人饿得只剩最后一口气，趴在城门外哀求时。 顾长风命人抬出两百石雪白的大米，当着所有人的面……一把火烧了！ “你们以为我是来救人的？” 病弱的书生擦去嘴角的黑血，俯瞰着城下绝望的炼狱，轻声冷笑： “我只是在教你们，在这乱世里，怎么乖乖当一条替我咬死所有敌人的狗。”",
+              "rich_text": "【无系统+杀伐极度果断+纯粹黑暗谋略+无女主】\n穿越到大旱三年的地狱乱世，开局只有一具随时会病死的残破身躯，和一群饿疯了的流寇手下。\n面对城外十万绝望的灾民和即将围城的官军，顾长风做了一个极其荒诞的决定：\n打开粮仓，当众施粥！\n所有人都以为他是个心怀天下的圣母书生，直到……\n第一天，他熬最稠的肉羹，但只给城墙上的守军吃，让他们看着城下的人饿死；\n第五天，他熬最清的薄水，让十万灾民为了抢一口水互相撕咬，主动替他淘汰掉老弱病残；\n第十天，当几万人饿得只剩最后一口气，趴在城门外哀求时。\n顾长风命人抬出两百石雪白的大米，当着所有人的面……一把火烧了！\n“你们以为我是来救人的？”\n病弱的书生擦去嘴角的黑血，俯瞰着城下绝望的炼狱，轻声冷笑：\n“我只是在教你们，在这乱世里，怎么乖乖当一条替我咬死所有敌人的狗。”",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "毒士谋国：开局教反贼做人",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【无系统+杀伐极度果断+纯粹黑暗谋略+无女主】\n穿越到大旱三年的地狱乱世，开局只有一具随时会病死的残破身躯，和一群饿疯了的流寇手下。\n面对城外十万绝望的灾民和即将围城的官军，顾长风做了一个极其荒诞的决定：\n打开粮仓，当众施粥！\n所有人都以为他是个心怀天下的圣母书生，直到……\n第一天，他熬最稠的肉羹，但只给城墙上的守军吃，让他们看着城下的人饿死；\n第五天，他熬最清的薄水，让十万灾民为了抢一口水互相撕咬，主动替他淘汰掉老弱病残；\n第十天，当几万人饿得只剩最后一口气，趴在城门外哀求时。\n顾长风命人抬出两百石雪白的大米，当着所有人的面……一把火烧了！\n“你们以为我是来救人的？”\n病弱的书生擦去嘴角的黑血，俯瞰着城下绝望的炼狱，轻声冷笑：\n“我只是在教你们，在这乱世里，怎么乖乖当一条替我咬死所有敌人的狗。”",
+              "author": "庙堂铁蛋",
+              "book_id": "7614030100668894270",
+              "book_name": "毒士谋国：开局教反贼做人",
+              "category": "历史脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-03-06T14:45:29+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7614030731462853182",
+              "first_chapter_item_id": "7614030731462853182",
+              "first_chapter_title": "第1章 渴血的囚徒与发黑的井",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618479308276761150",
+              "last_chapter_item_id": "7618479308276761150",
+              "last_chapter_title": "第40章 白麻漫城迎屠夫！让那柄杀人的刀找不到下落的理由！",
+              "last_chapter_update_time": "1773815471",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "3100",
+              "recommend_group_id": "7614030100668894270",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319105556B815CB5A7C2A644AB1DE\",\"rank\":\"1\",\"normal_session_id\":\"d977768c-56b9-4086-b6e4-1027111ce27e\",\"cold_start_session_id\":\"117e0015-1d68-4f4a-920d-741865644eee\"}",
+              "read_progress": "0",
+              "serial_count": "40",
+              "source": "番茄小说",
+              "tags": "历史脑洞",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/a40dd6bdbb8faed09252e3cff8ab929e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=nJXdBuLbJfK5m773N754%2BKOubNE%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "160991",
+              "score": "0",
+              "exclusive": "1",
+              "role": "顾长风",
+              "category_schema": "[{\"category_id\":272,\"name\":\"历史脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=272&name=历史脑洞&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "356",
+              "sub_info": "3100人在读",
+              "last_publish_time": "1773853208",
+              "authorize_type": "1",
+              "media_id": "1760157380397069",
+              "original_book_name": "毒士谋国：开局教反贼做人",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "14",
+              "thumb_uri": "novel-pic/ai/a40dd6bdbb8faed09252e3cff8ab929e",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/a40dd6bdbb8faed09252e3cff8ab929e~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779072956&x-signature=gHEURmrv7anmG1olTo%2BVbF2KvcI%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "580",
+              "pure_category_tags": "历史脑洞",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#484840",
+              "read_count_all": "3100",
+              "shelf_cnt_history": "1039",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507386\":1772780703,\"510893\":1772780658,\"6589\":1772795292,\"596084\":1772795292,\"1967\":1772780658,\"2329\":1772780658,\"8704\":1772780658,\"35\":1772780658,\"507427\":1772780703,\"3040\":1772795292,\"8661\":1772795292,\"8662\":1772780658,\"2503\":1772780658,\"1128\":1772780658,\"13\":1772780658,\"8703\":1772780658,\"638505\":1772795292}",
+              "category_v2_map": {
+                "272": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/a40dd6bdbb8faed09252e3cff8ab929e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=nJXdBuLbJfK5m773N754%2BKOubNE%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7209654243672724748,
+                  "AuthorName": "庙堂铁蛋"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/a40dd6bdbb8faed09252e3cff8ab929e~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779072956&x-signature=0wWIZhhaDRN1MfxnR7B7Ot1WIm0%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【无系统+杀伐极度果断+纯粹黑暗谋略+无女主】\n穿越到大旱三年的地狱乱世，开局只有一具随时会病死的残破身躯，和一群饿疯了的流寇手下。\n面对城外十万绝望的灾民和即将围城的官军，顾长风做了一个极其荒诞的决定：\n打开粮仓，当众施粥！\n所有人都以为他是个心怀天下的圣母书生，直到……\n第一天，他熬最稠的肉羹，但只给城墙上的守军吃，让他们看着城下的人饿死；\n第五天，他熬最清的薄水，让十万灾民为了抢一口水互相撕咬，主动替他淘汰掉老弱病残；\n第十天，当几万人饿得只剩最后一口气，趴在城门外哀求时。\n顾长风命人抬出两百石雪白的大米，当着所有人的面……一把火烧了！\n“你们以为我是来救人的？”\n病弱的书生擦去嘴角的黑血，俯瞰着城下绝望的炼狱，轻声冷笑：\n“我只是在教你们，在这乱世里，怎么乖乖当一条替我咬死所有敌人的狗。”",
+              "read_page_progress": "0",
+              "read_cnt_text": "3100人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/a40dd6bdbb8faed09252e3cff8ab929e~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=MMLKPUi1qXxTIn6Pb85rjWl0tcg%3D",
+              "raw_book_name": "毒士谋国：开局教反贼做人",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "9383785476741382834:55:0:1485365910:clks####3@202603191054451DD44ACA77C2C704B81F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "16.1万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3100人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：庙堂铁蛋",
+                "rich_text": "作者：庙堂铁蛋",
+                "high_light_position": []
+              },
+              {
+                "text": "【无系统+杀伐极度果断+纯粹黑暗谋略+无女主】 穿越到大旱三年的地狱乱世，开局只有一具随时会病死的残破身躯，和一群饿疯了的流寇手下。 面对城外十万绝望的灾民和即将围城的官军，顾长风做了一个极其荒诞的决定： 打开粮仓，当众施粥！ 所有人都以为他是个心怀天下的圣母书生，直到…… 第一天，他熬最稠的肉羹，但只给城墙上的守军吃，让他们看着城下的人饿死； 第五天，他熬最清的薄水，让十万灾民为了抢一口水互相撕咬，主动替他淘汰掉老弱病残； 第十天，当几万人饿得只剩最后一口气，趴在城门外哀求时。 顾长风命人抬出两百石雪白的大米，当着所有人的面……一把火烧了！ “你们以为我是来救人的？” 病弱的书生擦去嘴角的黑血，俯瞰着城下绝望的炼狱，轻声冷笑： “我只是在教你们，在这乱世里，怎么乖乖当一条替我咬死所有敌人的狗。”",
+                "rich_text": "【无系统+杀伐极度果断+纯粹黑暗谋略+无女主】\n穿越到大旱三年的地狱乱世，开局只有一具随时会病死的残破身躯，和一群饿疯了的流寇手下。\n面对城外十万绝望的灾民和即将围城的官军，顾长风做了一个极其荒诞的决定：\n打开粮仓，当众施粥！\n所有人都以为他是个心怀天下的圣母书生，直到……\n第一天，他熬最稠的肉羹，但只给城墙上的守军吃，让他们看着城下的人饿死；\n第五天，他熬最清的薄水，让十万灾民为了抢一口水互相撕咬，主动替他淘汰掉老弱病残；\n第十天，当几万人饿得只剩最后一口气，趴在城门外哀求时。\n顾长风命人抬出两百石雪白的大米，当着所有人的面……一把火烧了！\n“你们以为我是来救人的？”\n病弱的书生擦去嘴角的黑血，俯瞰着城下绝望的炼狱，轻声冷笑：\n“我只是在教你们，在这乱世里，怎么乖乖当一条替我咬死所有敌人的狗。”",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1056,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7312653018908855306",
+          "search_result_id": "7312653018908855306",
+          "search_high_light": {
+            "abstract": {
+              "text": "...视频将会同步到十万个历史侧的世界同步播放。 第一个视频就是神州军工的视频。 一众皇帝：黄帝历4720年的神州军工？恩，让我们康康这未来神州的军事，是这么个情况？ 神州军工：谁在胡说八道，我就给他一电炮。 各朝皇帝，无数古人：6",
+              "rich_text": "陆远迷迷糊糊绑定了一个系统，他刷到的短视频将会同步到十万个<em>历史</em>侧的世界同步播放。\n第一个视频就是神州军工的视频。\n一众皇帝：黄帝<em>历</em>4720年的神州军工？恩，让我们康康这未来神州的军事，是这么个情况？\n神州军工：谁在胡说八道，我就给他一电炮。\n各朝皇帝，无数<em>古</em>人：6",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "天幕：海外遍地银山金树，速抢",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "陆远迷迷糊糊绑定了一个系统，他刷到的短视频将会同步到十万个历史侧的世界同步播放。\n第一个视频就是神州军工的视频。\n一众皇帝：黄帝历4720年的神州军工？恩，让我们康康这未来神州的军事，是这么个情况？\n神州军工：谁在胡说八道，我就给他一电炮。\n各朝皇帝，无数古人：6",
+              "author": "叶落潇湘",
+              "book_id": "7312653018908855306",
+              "book_name": "天幕：海外遍地银山金树，速抢",
+              "category": "历史脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-12-15T11:08:29+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7312653111536353843",
+              "first_chapter_item_id": "7312653111536353843",
+              "first_chapter_title": "第1章 让朕康康这么个事？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7431433702619480638",
+              "last_chapter_item_id": "7431433702619480638",
+              "last_chapter_title": "第284章 终章",
+              "last_chapter_update_time": "1730300386",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "5387",
+              "recommend_group_id": "7312653018908855306",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319105556B815CB5A7C2A644AB1DE\",\"rank\":\"1\",\"normal_session_id\":\"d977768c-56b9-4086-b6e4-1027111ce27e\",\"cold_start_session_id\":\"117e0015-1d68-4f4a-920d-741865644eee\"}",
+              "read_progress": "0",
+              "serial_count": "284",
+              "source": "番茄小说",
+              "tags": "历史脑洞,系统",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/93f60549952468609736a9e5847b898b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=h6z7iG6bEFzXj%2BAzlueXVQCgaSc%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "713049",
+              "score": "8.2",
+              "exclusive": "1",
+              "role": "陆远",
+              "category_schema": "[{\"category_id\":272,\"name\":\"历史脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=272&name=历史脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"},{\"category_id\":69,\"name\":\"直播\",\"schema\":\"dragon1967://newCategoryDetail?id=69&name=直播&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "693",
+              "sub_info": "5387人在读",
+              "last_publish_time": "1730300395",
+              "authorize_type": "1",
+              "media_id": "1718398908764172",
+              "original_book_name": "短视频通古代，震惊古人几千年",
+              "length_type": "1",
+              "op_tag": "245,531,996,994,900,536,888,873,856,1125,535",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/93f60549952468609736a9e5847b898b",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/0c2e34d40c3b8dbe02c5f29651564156",
+              "data_rate": "",
+              "all_bookshelf_count": "258",
+              "pure_category_tags": "历史脑洞,直播",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#382820",
+              "read_count_all": "801518",
+              "shelf_cnt_history": "66299",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"638505\":1724840209,\"1319\":1702870213,\"426946\":1736165124,\"2329\":1702610293,\"1967\":1702610293,\"8704\":1747724509,\"596084\":1715068162,\"6589\":1702882499,\"3040\":1702882499,\"8703\":1744965281,\"507386\":1744965281,\"510893\":1702610293,\"2503\":1702610293,\"507427\":1744965281,\"35\":1702610293,\"8661\":1702882499,\"1128\":1702610293,\"8662\":1702610293,\"13\":1702610293}",
+              "category_v2_map": {
+                "272": true,
+                "12": true,
+                "69": true,
+                "19": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/93f60549952468609736a9e5847b898b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=h6z7iG6bEFzXj%2BAzlueXVQCgaSc%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7038571580850443560,
+                  "AuthorName": "叶落潇湘"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/0c2e34d40c3b8dbe02c5f29651564156~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779072956&x-signature=tBDsuJzkHKPYVHLbFWU4ItDHikQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "陆远迷迷糊糊绑定了一个系统，他刷到的短视频将会同步到十万个历史侧的世界同步播放。\n第一个视频就是神州军工的视频。\n一众皇帝：黄帝历4720年的神州军工？恩，让我们康康这未来神州的军事，是这么个情况？\n神州军工：谁在胡说八道，我就给他一电炮。\n各朝皇帝，无数古人：6",
+              "read_page_progress": "0",
+              "read_cnt_text": "5387人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/93f60549952468609736a9e5847b898b~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=7i5ZSEY2xywfICG10Z%2Fv6YhxV30%3D",
+              "raw_book_name": "天幕：海外遍地银山金树，速抢",
+              "color_audio_dominate": "#341B14"
+            }
+          ],
+          "search_attached_info": "9383785476741382834:56:0:2807420652:clks####3@202603191054451DD44ACA77C2C704B81F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "71.3万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "5387人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：叶落潇湘",
+                "rich_text": "作者：叶落潇湘",
+                "high_light_position": []
+              },
+              {
+                "text": "...视频将会同步到十万个历史侧的世界同步播放。 第一个视频就是神州军工的视频。 一众皇帝：黄帝历4720年的神州军工？恩，让我们康康这未来神州的军事，是这么个情况？ 神州军工：谁在胡说八道，我就给他一电炮。 各朝皇帝，无数古人：6",
+                "rich_text": "陆远迷迷糊糊绑定了一个系统，他刷到的短视频将会同步到十万个<em>历史</em>侧的世界同步播放。\n第一个视频就是神州军工的视频。\n一众皇帝：黄帝<em>历</em>4720年的神州军工？恩，让我们康康这未来神州的军事，是这么个情况？\n神州军工：谁在胡说八道，我就给他一电炮。\n各朝皇帝，无数<em>古</em>人：6",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1057,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7576187261448899609",
+          "search_result_id": "7576187261448899609",
+          "search_high_light": {
+            "title": {
+              "text": "古代帝王KPI实录",
+              "rich_text": "<em>古代</em>帝王KPI实录",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "从大秦到清末，古代朝堂竟是大型职场修罗场！ 嬴政是高压 KPI 卷王 CEO，一边 “并购” 六国，一边被徐福骗走 “求仙经费”；子婴入职 46 天接破产烂摊子，杀赵高全靠演技；刘邦草根创业逆袭，项羽是暴躁竞品被按头 PK；李世民天天被魏征怼成 “受气老板”，武则天打破天花板当女 CEO；张居正改革当 “背锅总监”，万历三十年不上朝躺平摸鱼；乾隆沉迷盖章当 “文创狂魔”，和珅贪腐成 “职场巨贪天花板”；洪秀全起义搞 “基层罢工”，李鸿章签条约沦为 “背锅侠”；溥仪三岁登基三次下岗，比打工人还惨！ 李斯、魏征、张居正、曾国藩等顶级打工人，或当 COO 搞改革，或做纪检总监怼老板；起义军是跨界竞品，变法是危机自救，连投降都得练 30 度鞠躬演技！ 全朝代帝王 + 打工人集体沙雕吐槽，正史不乱编，职场黑话玩梗飞起，笑到劈叉还能秒记历史考点，从大秦到太平天国的生存实录，错过悔哭！",
+              "rich_text": "从大秦到清末，<em>古代</em>朝堂竟是大型职场修罗场！\n嬴政是高压 KPI 卷王 CEO，一边 “并购” 六国，一边被徐福骗走 “求仙经费”；子婴入职 46 天接破产烂摊子，杀赵高全靠演技；刘邦草根创业逆袭，项羽是暴躁竞品被按头 PK；李世民天天被魏征怼成 “受气老板”，武则天打破天花板当女 CEO；张居正改革当 “背锅总监”，万<em>历</em>三十年不上朝躺平摸鱼；乾隆沉迷盖章当 “文创狂魔”，和珅贪腐成 “职场巨贪天花板”；洪秀全起义搞 “基层罢工”，李鸿章签条约沦为 “背锅侠”；溥仪三岁登基三次下岗，比打工人还惨！\n李斯、魏征、张居正、曾国藩等顶级打工人，或当 COO 搞改革，或做纪检总监怼老板；起义军是跨界竞品，变法是危机自救，连投降都得练 30 度鞠躬演技！\n全朝<em>代</em>帝王 + 打工人集体沙雕吐槽，正<em>史</em>不乱编，职场黑话玩梗飞起，笑到劈叉还能秒记<em>历史</em>考点，从大秦到太平天国的生存实录，错过悔哭！",
+              "high_light_position": [
+                [
+                  7,
+                  2
+                ],
+                [
+                  367,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "从大秦到清末，古代朝堂竟是大型职场修罗场！\n嬴政是高压 KPI 卷王 CEO，一边 “并购” 六国，一边被徐福骗走 “求仙经费”；子婴入职 46 天接破产烂摊子，杀赵高全靠演技；刘邦草根创业逆袭，项羽是暴躁竞品被按头 PK；李世民天天被魏征怼成 “受气老板”，武则天打破天花板当女 CEO；张居正改革当 “背锅总监”，万历三十年不上朝躺平摸鱼；乾隆沉迷盖章当 “文创狂魔”，和珅贪腐成 “职场巨贪天花板”；洪秀全起义搞 “基层罢工”，李鸿章签条约沦为 “背锅侠”；溥仪三岁登基三次下岗，比打工人还惨！\n李斯、魏征、张居正、曾国藩等顶级打工人，或当 COO 搞改革，或做纪检总监怼老板；起义军是跨界竞品，变法是危机自救，连投降都得练 30 度鞠躬演技！\n全朝代帝王 + 打工人集体沙雕吐槽，正史不乱编，职场黑话玩梗飞起，笑到劈叉还能秒记历史考点，从大秦到太平天国的生存实录，错过悔哭！",
+              "author": "冀中活佛",
+              "book_id": "7576187261448899609",
+              "book_name": "古代帝王KPI实录",
+              "category": "历史古代",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-11-24T15:15:56+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7576950001159389720",
+              "first_chapter_item_id": "7576950001159389720",
+              "first_chapter_title": "第1章 大秦集团：霸道总裁的极限施压：把几辈子KPI并作一届干 1",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7612470973010297368",
+              "last_chapter_item_id": "7612470973010297368",
+              "last_chapter_title": "第237章 石虎：史上最残暴CEO：把公司文化带向深渊",
+              "last_chapter_update_time": "1773880831",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "23",
+              "recommend_group_id": "7576187261448899609",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319105556B815CB5A7C2A644AB1DE\",\"rank\":\"1\",\"normal_session_id\":\"d977768c-56b9-4086-b6e4-1027111ce27e\",\"cold_start_session_id\":\"117e0015-1d68-4f4a-920d-741865644eee\"}",
+              "read_progress": "0",
+              "serial_count": "237",
+              "source": "番茄小说",
+              "tags": "历史古代,历史",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe5b5583585fb19b509f7a14b7b3a768e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=sVoaad8zQVtvev7JM%2Bgxz4sIDRw%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1197105",
+              "score": "0",
+              "exclusive": "1",
+              "role": "皇帝们,打工仔",
+              "category_schema": "[{\"category_id\":273,\"name\":\"历史古代\",\"schema\":\"dragon1967://newCategoryDetail?id=273&name=历史古代&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"},{\"category_id\":126,\"name\":\"明朝\",\"schema\":\"dragon1967://newCategoryDetail?id=126&name=明朝&genre_type=0&gender=1&source=detail\"},{\"category_id\":377,\"name\":\"大秦\",\"schema\":\"dragon1967://newCategoryDetail?id=377&name=大秦&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773880840",
+              "authorize_type": "1",
+              "media_id": "1781440900673539",
+              "original_book_name": "古代帝王KPI实录",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "114",
+              "thumb_uri": "novel-pic/p2oe5b5583585fb19b509f7a14b7b3a768e",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe5b5583585fb19b509f7a14b7b3a768e~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779072956&x-signature=bmqO1%2F7lX6DXCXV14%2F1OHbpZUTI%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "历史古代,大秦",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#d8d8c8",
+              "read_count_all": "182",
+              "shelf_cnt_history": "968",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8704\":1764147830,\"638505\":1764163352,\"596084\":1764163352,\"2503\":1764147830,\"8662\":1764147830,\"507427\":1764147892,\"3040\":1764163352,\"6589\":1764163352,\"8661\":1764163352,\"1967\":1764147830,\"8703\":1764147830,\"507386\":1764147892,\"35\":1764147830,\"1128\":1764147830,\"13\":1764147830,\"2329\":1764147830,\"510893\":1764147830}",
+              "category_v2_map": {
+                "12": true,
+                "377": true,
+                "273": true,
+                "126": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe5b5583585fb19b509f7a14b7b3a768e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=sVoaad8zQVtvev7JM%2Bgxz4sIDRw%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7571097573612606744,
+                  "AuthorName": "冀中活佛"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe5b5583585fb19b509f7a14b7b3a768e~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779072956&x-signature=ArF0rOjUTryjk8lDJGf1OLK63i4%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "从大秦到清末，古代朝堂竟是大型职场修罗场！\n嬴政是高压 KPI 卷王 CEO，一边 “并购” 六国，一边被徐福骗走 “求仙经费”；子婴入职 46 天接破产烂摊子，杀赵高全靠演技；刘邦草根创业逆袭，项羽是暴躁竞品被按头 PK；李世民天天被魏征怼成 “受气老板”，武则天打破天花板当女 CEO；张居正改革当 “背锅总监”，万历三十年不上朝躺平摸鱼；乾隆沉迷盖章当 “文创狂魔”，和珅贪腐成 “职场巨贪天花板”；洪秀全起义搞 “基层罢工”，李鸿章签条约沦为 “背锅侠”；溥仪三岁登基三次下岗，比打工人还惨！\n李斯、魏征、张居正、曾国藩等顶级打工人，或当 COO 搞改革，或做纪检总监怼老板；起义军是跨界竞品，变法是危机自救，连投降都得练 30 度鞠躬演技！\n全朝代帝王 + 打工人集体沙雕吐槽，正史不乱编，职场黑话玩梗飞起，笑到劈叉还能秒记历史考点，从大秦到太平天国的生存实录，错过悔哭！",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe5b5583585fb19b509f7a14b7b3a768e~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=yA9ML2npm0hLCMBboZJCMq9QWa8%3D",
+              "raw_book_name": "古代帝王KPI实录",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "9383785476741382834:57:0:3493256809:clks####3@202603191054451DD44ACA77C2C704B81F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "119.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "23人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史古代",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：冀中活佛",
+                "rich_text": "作者：冀中活佛",
+                "high_light_position": []
+              },
+              {
+                "text": "从大秦到清末，古代朝堂竟是大型职场修罗场！ 嬴政是高压 KPI 卷王 CEO，一边 “并购” 六国，一边被徐福骗走 “求仙经费”；子婴入职 46 天接破产烂摊子，杀赵高全靠演技；刘邦草根创业逆袭，项羽是暴躁竞品被按头 PK；李世民天天被魏征怼成 “受气老板”，武则天打破天花板当女 CEO；张居正改革当 “背锅总监”，万历三十年不上朝躺平摸鱼；乾隆沉迷盖章当 “文创狂魔”，和珅贪腐成 “职场巨贪天花板”；洪秀全起义搞 “基层罢工”，李鸿章签条约沦为 “背锅侠”；溥仪三岁登基三次下岗，比打工人还惨！ 李斯、魏征、张居正、曾国藩等顶级打工人，或当 COO 搞改革，或做纪检总监怼老板；起义军是跨界竞品，变法是危机自救，连投降都得练 30 度鞠躬演技！ 全朝代帝王 + 打工人集体沙雕吐槽，正史不乱编，职场黑话玩梗飞起，笑到劈叉还能秒记历史考点，从大秦到太平天国的生存实录，错过悔哭！",
+                "rich_text": "从大秦到清末，<em>古代</em>朝堂竟是大型职场修罗场！\n嬴政是高压 KPI 卷王 CEO，一边 “并购” 六国，一边被徐福骗走 “求仙经费”；子婴入职 46 天接破产烂摊子，杀赵高全靠演技；刘邦草根创业逆袭，项羽是暴躁竞品被按头 PK；李世民天天被魏征怼成 “受气老板”，武则天打破天花板当女 CEO；张居正改革当 “背锅总监”，万<em>历</em>三十年不上朝躺平摸鱼；乾隆沉迷盖章当 “文创狂魔”，和珅贪腐成 “职场巨贪天花板”；洪秀全起义搞 “基层罢工”，李鸿章签条约沦为 “背锅侠”；溥仪三岁登基三次下岗，比打工人还惨！\n李斯、魏征、张居正、曾国藩等顶级打工人，或当 COO 搞改革，或做纪检总监怼老板；起义军是跨界竞品，变法是危机自救，连投降都得练 30 度鞠躬演技！\n全朝<em>代</em>帝王 + 打工人集体沙雕吐槽，正<em>史</em>不乱编，职场黑话玩梗飞起，笑到劈叉还能秒记<em>历史</em>考点，从大秦到太平天国的生存实录，错过悔哭！",
+                "high_light_position": [
+                  [
+                    7,
+                    2
+                  ],
+                  [
+                    367,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1058,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7611500956361968702",
+          "search_result_id": "7611500956361968702",
+          "search_high_light": {
+            "title": {
+              "text": "朕的怂包太师，算出了汉唐盛世",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "赵孟远，国防大学战略研究生，一觉醒来穿成南宋临安小吏，外号“赵泥鳅”——怂，滑，遇事就躲。 本想继续摸鱼躺平，到点下班，谁知随手在账本里藏的几处“错别字”，竟被当朝宰相虞允文看出门道。从此被迫上岗：给皇帝讲地理（用椰子）、搞经济（让金国通货膨胀）、练新军（三千人打到金国叫爸爸）。 他用后勤学算赢战争，用数据分析预判蒙古崛起。人人都说他怂，但他怂着怂着，就把南宋算成了汉唐盛世。 至于感情？书铺姑娘在等他，金国宗室女为他叛国，江湖侠女亲完就跑——可到最后，他心里只有一个会怼他的卖书姑娘。 怂是真的怂，算也是真的准。",
+              "rich_text": "赵孟远，国防大学战略研究生，一觉醒来穿成南宋临安小吏，外号“赵泥鳅”——怂，滑，遇事就躲。\n本想继续摸鱼躺平，到点下班，谁知随手在账本里藏的几处“错别字”，竟被当朝宰相虞允文看出门道。从此被迫上岗：给皇帝讲地理（用椰子）、搞经济（让金国通货膨胀）、练新军（三千人打到金国叫爸爸）。\n他用后勤学算赢战争，用数据分析预判蒙<em>古</em>崛起。人人都说他怂，但他怂着怂着，就把南宋算成了汉唐盛世。\n至于感情？书铺姑娘在等他，金国宗室女为他叛国，江湖侠女亲完就跑——可到最后，他心里只有一个会怼他的卖书姑娘。\n怂是真的怂，算也是真的准。",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "赵孟远，国防大学战略研究生，一觉醒来穿成南宋临安小吏，外号“赵泥鳅”——怂，滑，遇事就躲。\n本想继续摸鱼躺平，到点下班，谁知随手在账本里藏的几处“错别字”，竟被当朝宰相虞允文看出门道。从此被迫上岗：给皇帝讲地理（用椰子）、搞经济（让金国通货膨胀）、练新军（三千人打到金国叫爸爸）。\n他用后勤学算赢战争，用数据分析预判蒙古崛起。人人都说他怂，但他怂着怂着，就把南宋算成了汉唐盛世。\n至于感情？书铺姑娘在等他，金国宗室女为他叛国，江湖侠女亲完就跑——可到最后，他心里只有一个会怼他的卖书姑娘。\n怂是真的怂，算也是真的准。",
+              "author": "青简遗墨",
+              "book_id": "7611500956361968702",
+              "book_name": "朕的怂包太师，算出了汉唐盛世",
+              "category": "历史古代",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-27T19:11:07+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7611501034887709246",
+              "first_chapter_item_id": "7611501034887709246",
+              "first_chapter_title": "第1章 穿越从脸着地开始",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618511189353431576",
+              "last_chapter_item_id": "7618511189353431576",
+              "last_chapter_title": "第73章 内鬼疑云",
+              "last_chapter_update_time": "1773822885",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "270",
+              "recommend_group_id": "7611500956361968702",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319105556B815CB5A7C2A644AB1DE\",\"rank\":\"1\",\"normal_session_id\":\"d977768c-56b9-4086-b6e4-1027111ce27e\",\"cold_start_session_id\":\"117e0015-1d68-4f4a-920d-741865644eee\"}",
+              "read_progress": "0",
+              "serial_count": "73",
+              "source": "番茄小说",
+              "tags": "历史古代,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/3339a0f8e11bbf83326a5ac3b0c36903~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=G076SPWz01qyCmWTGvlbwltYPbI%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "302480",
+              "score": "0",
+              "exclusive": "1",
+              "role": "赵孟远",
+              "category_schema": "[{\"category_id\":273,\"name\":\"历史古代\",\"schema\":\"dragon1967://newCategoryDetail?id=273&name=历史古代&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":501,\"name\":\"宋朝\",\"schema\":\"dragon1967://newCategoryDetail?id=501&name=宋朝&genre_type=0&gender=1&source=detail\"},{\"category_id\":852,\"name\":\"魂穿\",\"schema\":\"dragon1967://newCategoryDetail?id=852&name=魂穿&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "9",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773822895",
+              "authorize_type": "1",
+              "media_id": "1704542204136461",
+              "original_book_name": "朕的怂包太师，算出了汉唐盛世",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "20",
+              "thumb_uri": "novel-pic/3339a0f8e11bbf83326a5ac3b0c36903",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/3339a0f8e11bbf83326a5ac3b0c36903~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779072956&x-signature=CMiNcCo%2BEV3WWNEGbO51NJqaSXg%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "历史古代,魂穿",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#f8e0c0",
+              "read_count_all": "366",
+              "shelf_cnt_history": "1008",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2503\":1772191458,\"1128\":1772191458,\"1967\":1772191458,\"510893\":1772191458,\"35\":1772191458,\"596084\":1772283584,\"8662\":1772191458,\"507386\":1772191506,\"8661\":1772283584,\"13\":1772191458,\"8703\":1772191458,\"6589\":1772283584,\"3040\":1772283584,\"507427\":1772191506,\"2329\":1772191458,\"8704\":1772191458,\"638505\":1772283584}",
+              "category_v2_map": {
+                "91": true,
+                "852": true,
+                "273": true,
+                "12": true,
+                "37": true,
+                "501": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/3339a0f8e11bbf83326a5ac3b0c36903~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=G076SPWz01qyCmWTGvlbwltYPbI%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7610609721275323710,
+                  "AuthorName": "青简遗墨"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/3339a0f8e11bbf83326a5ac3b0c36903~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779072956&x-signature=nWvwGRYfnIWphFO6nhqCRlTzrVg%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "赵孟远，国防大学战略研究生，一觉醒来穿成南宋临安小吏，外号“赵泥鳅”——怂，滑，遇事就躲。\n本想继续摸鱼躺平，到点下班，谁知随手在账本里藏的几处“错别字”，竟被当朝宰相虞允文看出门道。从此被迫上岗：给皇帝讲地理（用椰子）、搞经济（让金国通货膨胀）、练新军（三千人打到金国叫爸爸）。\n他用后勤学算赢战争，用数据分析预判蒙古崛起。人人都说他怂，但他怂着怂着，就把南宋算成了汉唐盛世。\n至于感情？书铺姑娘在等他，金国宗室女为他叛国，江湖侠女亲完就跑——可到最后，他心里只有一个会怼他的卖书姑娘。\n怂是真的怂，算也是真的准。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/3339a0f8e11bbf83326a5ac3b0c36903~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=X%2B%2BqytIf5Ca%2BA17PyQonusxLiXY%3D",
+              "raw_book_name": "朕的怂包太师，算出了汉唐盛世",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "9383785476741382834:58:0:45457745:clks####3@202603191054451DD44ACA77C2C704B81F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "30.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "270人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "历史古代",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：青简遗墨",
+                "rich_text": "作者：青简遗墨",
+                "high_light_position": []
+              },
+              {
+                "text": "赵孟远，国防大学战略研究生，一觉醒来穿成南宋临安小吏，外号“赵泥鳅”——怂，滑，遇事就躲。 本想继续摸鱼躺平，到点下班，谁知随手在账本里藏的几处“错别字”，竟被当朝宰相虞允文看出门道。从此被迫上岗：给皇帝讲地理（用椰子）、搞经济（让金国通货膨胀）、练新军（三千人打到金国叫爸爸）。 他用后勤学算赢战争，用数据分析预判蒙古崛起。人人都说他怂，但他怂着怂着，就把南宋算成了汉唐盛世。 至于感情？书铺姑娘在等他，金国宗室女为他叛国，江湖侠女亲完就跑——可到最后，他心里只有一个会怼他的卖书姑娘。 怂是真的怂，算也是真的准。",
+                "rich_text": "赵孟远，国防大学战略研究生，一觉醒来穿成南宋临安小吏，外号“赵泥鳅”——怂，滑，遇事就躲。\n本想继续摸鱼躺平，到点下班，谁知随手在账本里藏的几处“错别字”，竟被当朝宰相虞允文看出门道。从此被迫上岗：给皇帝讲地理（用椰子）、搞经济（让金国通货膨胀）、练新军（三千人打到金国叫爸爸）。\n他用后勤学算赢战争，用数据分析预判蒙<em>古</em>崛起。人人都说他怂，但他怂着怂着，就把南宋算成了汉唐盛世。\n至于感情？书铺姑娘在等他，金国宗室女为他叛国，江湖侠女亲完就跑——可到最后，他心里只有一个会怼他的卖书姑娘。\n怂是真的怂，算也是真的准。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1059,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7174739573791001612",
+          "search_result_id": "7174739573791001612",
+          "search_high_light": {
+            "title": {
+              "text": "弹幕来自未来，全民看我改变历史",
+              "rich_text": "弹幕来自未来，全民看我改变<em>历史</em>",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【我觉醒了改变历史系统，直播时，历史竟也留下了无数关于我的传说】如果你能穿越改变历史，你会做些什么？ “我想告诉雍正，别选妃啦，同一时期的西边都要工业化了，他努努力，争点气，多搞科学，这个时候，上四休三的就是我们啦！” “要是能穿越大明朝，绝对不能让朱祁镇上位，这样大明没准就不会衰亡！大明千秋万载！” “穿到南宋，完颜构滚啊！没了他完颜构，岳武穆，怎么可能保不下汉人江山。” “三国的话，丞相诶，撤掉马谡啊，咱北伐夺取江山。是高端局。” “还有大秦朝，我要把世界地图，交给嬴政！大秦绝不应二世而亡！” “要是能穿越到八十多年前，我想去一趟金陵，把那三十万人，都带走……” 我叫林珏，在电视台工作，因为和领导吵架，被派去网宣组，搞起了深夜直播，没想到，我却觉醒了改变吧！历史系统！于是我一边深夜直播，一边穿越一段段历史……直到历史上，竟然也留下了无数关于我的传说！有人认为我是永生者！我也成了时间刺客！大夏历史里的作弊器！",
+              "rich_text": "如果你能穿越改变<em>历史</em>，你会做些什么？\n“我想告诉雍正，别选妃啦，同一时期的西边都要工业化了，他努努力，争点气，多搞科学，这个时候，上四休三的就是我们啦！”\n“要是能穿越大明朝，绝对不能让朱祁镇上位，这样大明没准就不会衰亡！大明千秋万载！”\n“穿到南宋，完颜构滚啊！没了他完颜构，岳武穆，怎么可能保不下汉人江山。”\n“三国的话，丞相诶，撤掉马谡啊，咱北伐夺取江山。是高端局。”\n“还有大秦朝，我要把世界地图，交给嬴政！大秦绝不应二世而亡！”\n“要是能穿越到八十多年前，我想去一趟金陵，把那三十万人，都带走……”\n我叫林珏，在电视台工作，因为和领导吵架，被派去网宣组，搞起了深夜直播，没想到，我却觉醒了改变吧！<em>历史</em>系统！于是我一边深夜直播，一边穿越一段段<em>历史</em>……直到<em>历史</em>上，竟然也留下了无数关于我的传说！有人认为我是永生者！我也成了时间刺客！大夏<em>历史</em>里的作弊器！",
+              "high_light_position": [
+                [
+                  7,
+                  2
+                ],
+                [
+                  16,
+                  2
+                ],
+                [
+                  40,
+                  2
+                ],
+                [
+                  335,
+                  2
+                ],
+                [
+                  357,
+                  2
+                ],
+                [
+                  363,
+                  2
+                ],
+                [
+                  403,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "如果你能穿越改变历史，你会做些什么？\n“我想告诉雍正，别选妃啦，同一时期的西边都要工业化了，他努努力，争点气，多搞科学，这个时候，上四休三的就是我们啦！”\n“要是能穿越大明朝，绝对不能让朱祁镇上位，这样大明没准就不会衰亡！大明千秋万载！”\n“穿到南宋，完颜构滚啊！没了他完颜构，岳武穆，怎么可能保不下汉人江山。”\n“三国的话，丞相诶，撤掉马谡啊，咱北伐夺取江山。是高端局。”\n“还有大秦朝，我要把世界地图，交给嬴政！大秦绝不应二世而亡！”\n“要是能穿越到八十多年前，我想去一趟金陵，把那三十万人，都带走……”\n我叫林珏，在电视台工作，因为和领导吵架，被派去网宣组，搞起了深夜直播，没想到，我却觉醒了改变吧！历史系统！于是我一边深夜直播，一边穿越一段段历史……直到历史上，竟然也留下了无数关于我的传说！有人认为我是永生者！我也成了时间刺客！大夏历史里的作弊器！",
+              "author": "馒头豆沙包",
+              "book_id": "7174739573791001612",
+              "book_name": "弹幕来自未来，全民看我改变历史",
+              "category": "抗战谍战",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2022-12-08T19:33:53+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7174747246171750923",
+              "first_chapter_item_id": "7174747246171750923",
+              "first_chapter_title": "第1章 深夜直播！改变吧！历史？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7239730016248922657",
+              "last_chapter_item_id": "7239730016248922657",
+              "last_chapter_title": "第476章 最终道具，乾坤一掷；感谢有历史！",
+              "last_chapter_update_time": "1685631223",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "9308",
+              "recommend_group_id": "7174739573791001612",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319105556B815CB5A7C2A644AB1DE\",\"rank\":\"1\",\"normal_session_id\":\"d977768c-56b9-4086-b6e4-1027111ce27e\",\"cold_start_session_id\":\"117e0015-1d68-4f4a-920d-741865644eee\"}",
+              "read_progress": "0",
+              "serial_count": "476",
+              "source": "番茄小说",
+              "tags": "抗战谍战,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/28cc68c0b193fef49db71f85c0cc607d~tplv-81nmtwyey9-superreso-aifit:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=69BYeK1vWufc7BNIar75xA92xVk%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1048796",
+              "score": "9.2",
+              "exclusive": "1",
+              "role": "林珏,李延唐",
+              "category_schema": "[{\"category_id\":504,\"name\":\"抗战谍战\",\"schema\":\"dragon1967://newCategoryDetail?id=504&name=抗战谍战&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":12,\"name\":\"历史\",\"schema\":\"dragon1967://newCategoryDetail?id=12&name=历史&genre_type=0&gender=1&source=detail\"},{\"category_id\":69,\"name\":\"直播\",\"schema\":\"dragon1967://newCategoryDetail?id=69&name=直播&genre_type=0&gender=1&source=detail\"},{\"category_id\":452,\"name\":\"架空\",\"schema\":\"dragon1967://newCategoryDetail?id=452&name=架空&genre_type=0&gender=1&source=detail\"},{\"category_id\":850,\"name\":\"无脑爽\",\"schema\":\"dragon1967://newCategoryDetail?id=850&name=无脑爽&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1416",
+              "sub_info": "9308人在读",
+              "last_publish_time": "1685631353",
+              "authorize_type": "1",
+              "media_id": "1726906556349443",
+              "original_book_name": "祖宗诶！选妃呢？历史作弊器来喽",
+              "length_type": "0",
+              "op_tag": "535,1035,1125,1403,873,235,198,218,856,871,234,1119,536,500",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/28cc68c0b193fef49db71f85c0cc607d",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0d5b2faeb14437d47c570095b0454ebb~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779072956&x-signature=awzm5M2lplVDb8R%2FhKENa5SpeaA%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "1240",
+              "pure_category_tags": "抗战谍战,无脑爽",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#381828",
+              "read_count_all": "3480270",
+              "shelf_cnt_history": "583362",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1967\":1670500889,\"3040\":1681185274,\"1128\":1670500889,\"2503\":1670500889,\"507386\":1744885003,\"510893\":1689688375,\"183213\":1691134251,\"8661\":1681185274,\"8704\":1747728719,\"2329\":1670500889,\"1112\":1693470112,\"426946\":1736164635,\"8662\":1670500889,\"6589\":1677069573,\"4836\":1691134251,\"638505\":1724849210,\"13\":1670500889,\"596084\":1715157553,\"35\":1670500889,\"507427\":1744885003,\"8703\":1744885003}",
+              "category_v2_map": {
+                "850": true,
+                "504": true,
+                "452": true,
+                "1": true,
+                "37": true,
+                "19": true,
+                "12": true,
+                "69": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/28cc68c0b193fef49db71f85c0cc607d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=EZwtfVDMnaz%2B9N6Vo47xEdyV0T8%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7077437861754049822,
+                  "AuthorName": "馒头豆沙包"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0d5b2faeb14437d47c570095b0454ebb~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779072956&x-signature=vApUpmyU5Ap9%2BQfuTD5KmtQ0jss%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "如果你能穿越改变历史，你会做些什么？\n“我想告诉雍正，别选妃啦，同一时期的西边都要工业化了，他努努力，争点气，多搞科学，这个时候，上四休三的就是我们啦！”\n“要是能穿越大明朝，绝对不能让朱祁镇上位，这样大明没准就不会衰亡！大明千秋万载！”\n“穿到南宋，完颜构滚啊！没了他完颜构，岳武穆，怎么可能保不下汉人江山。”\n“三国的话，丞相诶，撤掉马谡啊，咱北伐夺取江山。是高端局。”\n“还有大秦朝，我要把世界地图，交给嬴政！大秦绝不应二世而亡！”\n“要是能穿越到八十多年前，我想去一趟金陵，把那三十万人，都带走……”\n我叫林珏，在电视台工作，因为和领导吵架，被派去网宣组，搞起了深夜直播，没想到，我却觉醒了改变吧！历史系统！于是我一边深夜直播，一边穿越一段段历史……直到历史上，竟然也留下了无数关于我的传说！有人认为我是永生者！我也成了时间刺客！大夏历史里的作弊器！",
+              "read_page_progress": "0",
+              "read_cnt_text": "9308人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/28cc68c0b193fef49db71f85c0cc607d~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779072956&x-signature=arObsXD1W7uMRfyBFHzX7fe%2Ba%2BE%3D",
+              "raw_book_name": "弹幕来自未来，全民看我改变历史",
+              "color_audio_dominate": "#3A3028"
+            }
+          ],
+          "search_attached_info": "9383785476741382834:59:0:1483395544:clks####3@202603191054451DD44ACA77C2C704B81F",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "14人二刷",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "104.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "9308人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "抗战谍战",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：馒头豆沙包",
+                "rich_text": "作者：馒头豆沙包",
+                "high_light_position": []
+              },
+              {
+                "text": "【我觉醒了改变历史系统，直播时，历史竟也留下了无数关于我的传说】如果你能穿越改变历史，你会做些什么？ “我想告诉雍正，别选妃啦，同一时期的西边都要工业化了，他努努力，争点气，多搞科学，这个时候，上四休三的就是我们啦！” “要是能穿越大明朝，绝对不能让朱祁镇上位，这样大明没准就不会衰亡！大明千秋万载！” “穿到南宋，完颜构滚啊！没了他完颜构，岳武穆，怎么可能保不下汉人江山。” “三国的话，丞相诶，撤掉马谡啊，咱北伐夺取江山。是高端局。” “还有大秦朝，我要把世界地图，交给嬴政！大秦绝不应二世而亡！” “要是能穿越到八十多年前，我想去一趟金陵，把那三十万人，都带走……” 我叫林珏，在电视台工作，因为和领导吵架，被派去网宣组，搞起了深夜直播，没想到，我却觉醒了改变吧！历史系统！于是我一边深夜直播，一边穿越一段段历史……直到历史上，竟然也留下了无数关于我的传说！有人认为我是永生者！我也成了时间刺客！大夏历史里的作弊器！",
+                "rich_text": "如果你能穿越改变<em>历史</em>，你会做些什么？\n“我想告诉雍正，别选妃啦，同一时期的西边都要工业化了，他努努力，争点气，多搞科学，这个时候，上四休三的就是我们啦！”\n“要是能穿越大明朝，绝对不能让朱祁镇上位，这样大明没准就不会衰亡！大明千秋万载！”\n“穿到南宋，完颜构滚啊！没了他完颜构，岳武穆，怎么可能保不下汉人江山。”\n“三国的话，丞相诶，撤掉马谡啊，咱北伐夺取江山。是高端局。”\n“还有大秦朝，我要把世界地图，交给嬴政！大秦绝不应二世而亡！”\n“要是能穿越到八十多年前，我想去一趟金陵，把那三十万人，都带走……”\n我叫林珏，在电视台工作，因为和领导吵架，被派去网宣组，搞起了深夜直播，没想到，我却觉醒了改变吧！<em>历史</em>系统！于是我一边深夜直播，一边穿越一段段<em>历史</em>……直到<em>历史</em>上，竟然也留下了无数关于我的传说！有人认为我是永生者！我也成了时间刺客！大夏<em>历史</em>里的作弊器！",
+                "high_light_position": [
+                  [
+                    7,
+                    2
+                  ],
+                  [
+                    16,
+                    2
+                  ],
+                  [
+                    40,
+                    2
+                  ],
+                  [
+                    335,
+                    2
+                  ],
+                  [
+                    357,
+                    2
+                  ],
+                  [
+                    363,
+                    2
+                  ],
+                  [
+                    403,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "60",
+      "search_id": "clks####3@202603191054451DD44ACA77C2C704B81F",
+      "query": "历史古代",
+      "next_offset": 60,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@202603191054451DD44ACA77C2C704B81F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"20260319105556B815CB5A7C2A644AB1DE\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@202603191054451DD44ACA77C2C704B81F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@202603191054451DD44ACA77C2C704B81F",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "20260319105556B815CB5A7C2A644AB1DE"
+}

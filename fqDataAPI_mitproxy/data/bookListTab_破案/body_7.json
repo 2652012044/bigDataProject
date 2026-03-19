@@ -1,0 +1,2688 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@202603190957324B988CFE8B9AF0906113",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@202603190957324B988CFE8B9AF0906113",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@202603190957324B988CFE8B9AF0906113",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@202603190957324B988CFE8B9AF0906113",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@202603190957324B988CFE8B9AF0906113",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@202603190957324B988CFE8B9AF0906113",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1040,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "6983297848636869645",
+          "search_result_id": "6983297848636869645",
+          "search_high_light": {
+            "title": {
+              "text": "侯大利刑侦笔记大全集（全9册）",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "【书名很吸引人，刑侦笔记很吸引人，但看完本书后，我们这些吃瓜群众却哭笑不得】...理学之大成的教科书式破案小说！有时真相让人毛骨悚然，有时真相让人热泪盈眶。《侯卫东官场笔记》作者全新悬疑力作。 39桩大案要案、68个犯罪现场、107种侦查手段、614位涉案人员，侯大利这本刑侦笔记，将为您重现真实的案发现场，还原每一桩命案从调查、取证、抓捕到侦破的全过程。 16年为爱追凶，几次直面生死，侯大利把大脑磨炼成电脑，把眼睛淬炼成显微镜，逐一锁定案发现场和尸检中的关键信息。凭借变态级的观察力，他往往透过庞杂的社会关系，率先圈定凶手的行为特征和成长环境，将其缉拿归案。怀着命案必破的信念，侯大利从一个菜鸟迅速成长为行走的刑侦教科书。 翻开本书，带您见识教科书式的破案手法和刑侦智慧！",
+              "rich_text": "一部集侦查学、痕迹学、社会学、尸体解剖学、犯罪心理学之大成的教科书式<em>破案</em>小说！有时真相让人毛骨悚然，有时真相让人热泪盈眶。《侯卫东官场笔记》作者全新悬疑力作。\n39桩大<em>案</em>要<em>案</em>、68个犯罪现场、107种侦查手段、614位涉<em>案</em>人员，侯大利这本刑侦笔记，将为您重现真实的<em>案</em>发现场，还原每一桩命<em>案</em>从调查、取证、抓捕到侦<em>破</em>的全过程。\n16年为爱追凶，几次直面生死，侯大利把大脑磨炼成电脑，把眼睛淬炼成显微镜，逐一锁定<em>案</em>发现场和尸检中的关键信息。凭借变态级的观察力，他往往透过庞杂的社会关系，率先圈定凶手的行为特征和成长环境，将其缉拿归<em>案</em>。怀着命<em>案</em>必<em>破</em>的信念，侯大利从一个菜鸟迅速成长为行走的刑侦教科书。\n翻开本书，带您见识教科书式的<em>破案</em>手法和刑侦智慧！",
+              "high_light_position": [
+                [
+                  51,
+                  2
+                ],
+                [
+                  328,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "一部集侦查学、痕迹学、社会学、尸体解剖学、犯罪心理学之大成的教科书式破案小说！有时真相让人毛骨悚然，有时真相让人热泪盈眶。《侯卫东官场笔记》作者全新悬疑力作。\n39桩大案要案、68个犯罪现场、107种侦查手段、614位涉案人员，侯大利这本刑侦笔记，将为您重现真实的案发现场，还原每一桩命案从调查、取证、抓捕到侦破的全过程。\n16年为爱追凶，几次直面生死，侯大利把大脑磨炼成电脑，把眼睛淬炼成显微镜，逐一锁定案发现场和尸检中的关键信息。凭借变态级的观察力，他往往透过庞杂的社会关系，率先圈定凶手的行为特征和成长环境，将其缉拿归案。怀着命案必破的信念，侯大利从一个菜鸟迅速成长为行走的刑侦教科书。\n翻开本书，带您见识教科书式的破案手法和刑侦智慧！",
+              "author": "小桥老树",
+              "book_id": "6983297848636869645",
+              "book_name": "侯大利刑侦笔记大全集（全9册）",
+              "category": "精品小说",
+              "complete_category": "悬疑",
+              "copyright_info": "版权信息：本书的数字版权由 上海读客 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2021-07-10T22:02:13+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7433617535125179454",
+              "first_chapter_item_id": "7433617535125179454",
+              "first_chapter_title": "扉页",
+              "genre": "6",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7433617661830908990",
+              "last_chapter_item_id": "7433617661830908990",
+              "last_chapter_title": "尾声",
+              "last_chapter_update_time": "1730773984",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "9803",
+              "recommend_group_id": "6983297848636869645",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319095910CD2CD28EFCCDD448ACE0\",\"rank\":\"1\",\"normal_session_id\":\"6f7ecf6e-eeba-4847-8346-1b0462415d7c\",\"cold_start_session_id\":\"40225cad-af5d-49da-ae49-640f21189427\"}",
+              "read_progress": "0",
+              "serial_count": "104",
+              "source": "上海读客",
+              "tags": "精品小说,悬疑推理",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b27ef6190ba283c9761cfc7a2bc3aca9~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=C4FVd1GvSMXJn3ncXvTXhPiSWPo%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "160",
+              "update_status": "0",
+              "word_number": "1865186",
+              "score": "9.6",
+              "role": "侯大利,田甜",
+              "category_schema": "[{\"category_id\":970,\"name\":\"精品小说\",\"schema\":\"dragon1967://newCategoryDetail?id=970&name=精品小说&genre_type=0&gender=1&source=detail\"},{\"category_id\":165,\"name\":\"悬疑推理\",\"schema\":\"dragon1967://newCategoryDetail?id=165&name=悬疑推理&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7038866060463836168]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "3031",
+              "sub_info": "98.3万人读过",
+              "chapter_number": "104",
+              "last_publish_time": "1730773991",
+              "authorize_type": "0",
+              "media_id": "1833151161621511",
+              "original_book_name": "侯大利刑侦笔记大全集（全9册）",
+              "length_type": "0",
+              "op_tag": "529,1088,261,535,374,1494,954,537,480,752,422,753,1090,428,531,1491,430,1493",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/b27ef6190ba283c9761cfc7a2bc3aca9",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b27ef6190ba283c9761cfc7a2bc3aca9~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069550&x-signature=Eqo9sQ2%2FnCz5EKf%2Ba2%2FV8HRfh88%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "2663",
+              "pure_category_tags": "精品小说,悬疑推理",
+              "related_comic_bookids": "",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "1",
+              "show_vip_tag": null,
+              "color_dominate": "#382810",
+              "read_count_all": "982080",
+              "shelf_cnt_history": "336937",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"596084\":1723187271,\"8661\":1688745691,\"1967\":1625927255,\"2503\":1683690696,\"6589\":1715417350,\"507427\":1723435379,\"507386\":1755852161,\"720868\":1755852161}",
+              "category_v2_map": {
+                "970": true,
+                "165": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b27ef6190ba283c9761cfc7a2bc3aca9~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=C4FVd1GvSMXJn3ncXvTXhPiSWPo%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6903764094956868872,
+                  "AuthorName": "小桥老树"
+                }
+              ],
+              "product_id": "3663554126735908712",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b27ef6190ba283c9761cfc7a2bc3aca9~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069550&x-signature=c%2FczpLqyU%2B2xL8bXQIRHhmBCTco%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "tts_type": "",
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "982080",
+                "sub_text": "累计阅读",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                },
+                "short_sub_text": "读过"
+              },
+              "read_cnt_fallback_threshold": "1",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "982080",
+              "read_cnt_sub_text": "累计阅读",
+              "read_cnt_short_sub_text": "读过",
+              "book_abstract_v2": "一部集侦查学、痕迹学、社会学、尸体解剖学、犯罪心理学之大成的教科书式破案小说！有时真相让人毛骨悚然，有时真相让人热泪盈眶。《侯卫东官场笔记》作者全新悬疑力作。\n39桩大案要案、68个犯罪现场、107种侦查手段、614位涉案人员，侯大利这本刑侦笔记，将为您重现真实的案发现场，还原每一桩命案从调查、取证、抓捕到侦破的全过程。\n16年为爱追凶，几次直面生死，侯大利把大脑磨炼成电脑，把眼睛淬炼成显微镜，逐一锁定案发现场和尸检中的关键信息。凭借变态级的观察力，他往往透过庞杂的社会关系，率先圈定凶手的行为特征和成长环境，将其缉拿归案。怀着命案必破的信念，侯大利从一个菜鸟迅速成长为行走的刑侦教科书。\n翻开本书，带您见识教科书式的破案手法和刑侦智慧！",
+              "read_page_progress": "0",
+              "read_cnt_text": "98.3万人读过",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/b27ef6190ba283c9761cfc7a2bc3aca9~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=idMzjkFNk%2FUzv5BPAguwnKvHXdM%3D",
+              "raw_book_name": "侯大利刑侦笔记大全集（全9册）",
+              "color_audio_dominate": "#363023"
+            }
+          ],
+          "search_attached_info": "10022215108782417276:40:0:420370422:clks####3@202603190957324B988CFE8B9AF0906113",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "186.5万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "98万人读过",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "精品小说",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            },
+            {
+              "Content": "上海读客",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 8,
+              "RecommendTagTypeNew": 6
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：小桥老树",
+                "rich_text": "作者：小桥老树",
+                "high_light_position": []
+              },
+              {
+                "text": "【书名很吸引人，刑侦笔记很吸引人，但看完本书后，我们这些吃瓜群众却哭笑不得】...理学之大成的教科书式破案小说！有时真相让人毛骨悚然，有时真相让人热泪盈眶。《侯卫东官场笔记》作者全新悬疑力作。 39桩大案要案、68个犯罪现场、107种侦查手段、614位涉案人员，侯大利这本刑侦笔记，将为您重现真实的案发现场，还原每一桩命案从调查、取证、抓捕到侦破的全过程。 16年为爱追凶，几次直面生死，侯大利把大脑磨炼成电脑，把眼睛淬炼成显微镜，逐一锁定案发现场和尸检中的关键信息。凭借变态级的观察力，他往往透过庞杂的社会关系，率先圈定凶手的行为特征和成长环境，将其缉拿归案。怀着命案必破的信念，侯大利从一个菜鸟迅速成长为行走的刑侦教科书。 翻开本书，带您见识教科书式的破案手法和刑侦智慧！",
+                "rich_text": "一部集侦查学、痕迹学、社会学、尸体解剖学、犯罪心理学之大成的教科书式<em>破案</em>小说！有时真相让人毛骨悚然，有时真相让人热泪盈眶。《侯卫东官场笔记》作者全新悬疑力作。\n39桩大<em>案</em>要<em>案</em>、68个犯罪现场、107种侦查手段、614位涉<em>案</em>人员，侯大利这本刑侦笔记，将为您重现真实的<em>案</em>发现场，还原每一桩命<em>案</em>从调查、取证、抓捕到侦<em>破</em>的全过程。\n16年为爱追凶，几次直面生死，侯大利把大脑磨炼成电脑，把眼睛淬炼成显微镜，逐一锁定<em>案</em>发现场和尸检中的关键信息。凭借变态级的观察力，他往往透过庞杂的社会关系，率先圈定凶手的行为特征和成长环境，将其缉拿归<em>案</em>。怀着命<em>案</em>必<em>破</em>的信念，侯大利从一个菜鸟迅速成长为行走的刑侦教科书。\n翻开本书，带您见识教科书式的<em>破案</em>手法和刑侦智慧！",
+                "high_light_position": [
+                  [
+                    51,
+                    2
+                  ],
+                  [
+                    328,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1041,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7596730443899096089",
+          "search_result_id": "7596730443899096089",
+          "search_high_light": {
+            "abstract": {
+              "text": "...提示”系统，左手神探破案，右手风水镇煞，从监狱起步震惊刑侦界！ 刑侦大队队长陈野穿越回1996年，身份竟是一名刚入职的狱警。他觉醒了“罪恶提示系统”（提示类系统），不仅能看到罪犯头顶的罪恶值，还能在案发现场看到关键线索的“高亮提示”，甚至能通过风水望气术洞察凶宅阴煞...... ",
+              "rich_text": "穿越90年代成为狱警，手握“罪恶提示”系统，左手神探<em>破案</em>，右手风水镇煞，从监狱起步震惊刑侦界！\n刑侦大队队长陈野穿越回1996年，身份竟是一名刚入职的狱警。他觉醒了“罪恶提示系统”（提示类系统），不仅能看到罪犯头顶的罪恶值，还能在<em>案</em>发现场看到关键线索的“高亮提示”，甚至能通过风水望气术洞察凶宅阴煞......\n",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "九零：开局镇狱，风水破案",
+              "rich_text": "九零：开局镇狱，风水<em>破案</em>",
+              "high_light_position": [
+                [
+                  10,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "穿越90年代成为狱警，手握“罪恶提示”系统，左手神探破案，右手风水镇煞，从监狱起步震惊刑侦界！\n刑侦大队队长陈野穿越回1996年，身份竟是一名刚入职的狱警。他觉醒了“罪恶提示系统”（提示类系统），不仅能看到罪犯头顶的罪恶值，还能在案发现场看到关键线索的“高亮提示”，甚至能通过风水望气术洞察凶宅阴煞......\n",
+              "author": "侠客行881354",
+              "book_id": "7596730443899096089",
+              "book_name": "九零：开局镇狱，风水破案",
+              "category": "悬疑灵异",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-18T23:53:59+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7596938482166350361",
+              "first_chapter_item_id": "7596938482166350361",
+              "first_chapter_title": "第1章 开局成了杀人嫌犯",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618564689496130072",
+              "last_chapter_item_id": "7618564689496130072",
+              "last_chapter_title": "第227章 烈火局，档案室里的绝户计",
+              "last_chapter_update_time": "1773835568",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "211",
+              "recommend_group_id": "7596730443899096089",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319095910CD2CD28EFCCDD448ACE0\",\"rank\":\"1\",\"normal_session_id\":\"6f7ecf6e-eeba-4847-8346-1b0462415d7c\",\"cold_start_session_id\":\"40225cad-af5d-49da-ae49-640f21189427\"}",
+              "read_progress": "0",
+              "serial_count": "227",
+              "source": "番茄小说",
+              "tags": "悬疑灵异,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odb679c5e8d285a71bc81c9c798868988~tplv-shrink:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=mz5u6K3Pk3J%2FLuQowlf8b9wwIo0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "470357",
+              "score": "6.8",
+              "exclusive": "1",
+              "role": "陈野,苏冷",
+              "category_schema": "[{\"category_id\":751,\"name\":\"悬疑灵异\",\"schema\":\"dragon1967://newCategoryDetail?id=751&name=悬疑灵异&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":10,\"name\":\"悬疑\",\"schema\":\"dragon1967://newCategoryDetail?id=10&name=悬疑&genre_type=0&gender=1&source=detail\"},{\"category_id\":61,\"name\":\"推理\",\"schema\":\"dragon1967://newCategoryDetail?id=61&name=推理&genre_type=0&gender=1&source=detail\"},{\"category_id\":505,\"name\":\"破案\",\"schema\":\"dragon1967://newCategoryDetail?id=505&name=破案&genre_type=0&gender=1&source=detail\"},{\"category_id\":1455,\"name\":\"风水秘术\",\"schema\":\"dragon1967://newCategoryDetail?id=1455&name=风水秘术&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "114",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773835798",
+              "authorize_type": "1",
+              "media_id": "1746022480466957",
+              "original_book_name": "九零：开局镇狱，风水破案",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "59",
+              "thumb_uri": "novel-pic/p2odb679c5e8d285a71bc81c9c798868988",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odb679c5e8d285a71bc81c9c798868988~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069550&x-signature=kXdzt0SSsBp7Dda0Xosboy3Suz4%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "悬疑灵异,风水秘术",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#181828",
+              "read_count_all": "2476",
+              "shelf_cnt_history": "999",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"6589\":1769171922,\"3040\":1769171922,\"510893\":1768800468,\"8661\":1769171922,\"596084\":1769171922,\"507427\":1768800530,\"2329\":1768800468,\"2503\":1768800468,\"638505\":1769171922,\"8704\":1768800468,\"35\":1768800468,\"507386\":1768800530,\"8703\":1768800468,\"1967\":1768800468,\"13\":1768800468,\"1128\":1768800468,\"8662\":1768800468}",
+              "category_v2_map": {
+                "1455": true,
+                "751": true,
+                "37": true,
+                "61": true,
+                "10": true,
+                "505": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odb679c5e8d285a71bc81c9c798868988~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=CHxkXdSuPIv7GkJ4kJZFTtdqgfU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7481509755278611737,
+                  "AuthorName": "侠客行881354"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odb679c5e8d285a71bc81c9c798868988~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069550&x-signature=7Zs3KMPMAIK7rR5GpJSqP0CTC9U%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "穿越90年代成为狱警，手握“罪恶提示”系统，左手神探破案，右手风水镇煞，从监狱起步震惊刑侦界！\n刑侦大队队长陈野穿越回1996年，身份竟是一名刚入职的狱警。他觉醒了“罪恶提示系统”（提示类系统），不仅能看到罪犯头顶的罪恶值，还能在案发现场看到关键线索的“高亮提示”，甚至能通过风水望气术洞察凶宅阴煞......\n",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2odb679c5e8d285a71bc81c9c798868988~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=G%2FUvM9YTgqLgZM7lK2%2F9z1fvJ6M%3D",
+              "raw_book_name": "九零：开局镇狱，风水破案",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "10022215108782417276:41:0:3730620836:clks####3@202603190957324B988CFE8B9AF0906113",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "47.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "211人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "悬疑灵异",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：侠客行881354",
+                "rich_text": "作者：侠客行881354",
+                "high_light_position": []
+              },
+              {
+                "text": "...提示”系统，左手神探破案，右手风水镇煞，从监狱起步震惊刑侦界！ 刑侦大队队长陈野穿越回1996年，身份竟是一名刚入职的狱警。他觉醒了“罪恶提示系统”（提示类系统），不仅能看到罪犯头顶的罪恶值，还能在案发现场看到关键线索的“高亮提示”，甚至能通过风水望气术洞察凶宅阴煞...... ",
+                "rich_text": "穿越90年代成为狱警，手握“罪恶提示”系统，左手神探<em>破案</em>，右手风水镇煞，从监狱起步震惊刑侦界！\n刑侦大队队长陈野穿越回1996年，身份竟是一名刚入职的狱警。他觉醒了“罪恶提示系统”（提示类系统），不仅能看到罪犯头顶的罪恶值，还能在<em>案</em>发现场看到关键线索的“高亮提示”，甚至能通过风水望气术洞察凶宅阴煞......\n",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1042,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7591003774726982681",
+          "search_result_id": "7591003774726982681",
+          "search_high_light": {
+            "title": {
+              "text": "你一个警察用道术破案？这合理吗",
+              "rich_text": "你一个警察用道术<em>破案</em>？这合理吗",
+              "high_light_position": [
+                [
+                  8,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...时只说过一句话。 【破案增加道士等级】 之后无论秦风怎么问，系统仿佛死了一样不再说话。 岗前培训时， 刑警老刘：“作为警察，要摒弃一切鬼神之说！” “所有离奇案件必须建立在科学依据上，进行合理推理。” 秦风：“刘哥，我有不同的意见！” ？？？ 老刘：“小伙子你的思想很危险啊！” 秦风：“我相信这世上有科学解释不了的东西~” 老刘：“真有诡那玩意儿的话，从此之后你的话我当圣旨来执行！” “……” 当天接到群众报警，郊区废弃井内发现一具腐尸。 眼看又是一桩悬案… 这时秦风想起死系统说的话，他便决定一试！ 在众人不解的目光下， 秦风双手结印，口中默念咒语。 下一秒，腐烂的尸体竟然坐起来了！ 老刘：我没做梦吧？ 队长：这…这是在做什么？ 群众：卧槽！诈尸了！ 秦风：各位莫慌，我只是让死者亲自开口说出凶手而已~ ？？？ ！！！ 队长：你一个警察用道术破案？这合理吗！ （破案与灵异结合，并不只是单一的破案~介意者慎入~）",
+              "rich_text": "身为道士的秦风，意外穿越到平行世界。\n成为市警察局刑侦队一名实习警察。\n作为穿越者，他同样有系统。\n但秦风感觉这系统有点死了。\n因为穿过来时只说过一句话。\n【<em>破案</em>增加道士等级】\n之后无论秦风怎么问，系统仿佛死了一样不再说话。\n岗前培训时，\n刑警老刘：“作为警察，要摒弃一切鬼神之说！”\n“所有离奇<em>案</em>件必须建立在科学依据上，进行合理推理。”\n秦风：“刘哥，我有不同的意见！”\n？？？\n老刘：“小伙子你的思想很危险啊！”\n秦风：“我相信这世上有科学解释不了的东西~”\n老刘：“真有诡那玩意儿的话，从此之后你的话我当圣旨来执行！”\n“……”\n当天接到群众报警，郊区废弃井内发现一具腐尸。\n眼看又是一桩悬<em>案</em>…\n这时秦风想起死系统说的话，他便决定一试！\n在众人不解的目光下，\n秦风双手结印，口中默念咒语。\n下一秒，腐烂的尸体竟然坐起来了！\n老刘：我没做梦吧？\n队长：这…这是在做什么？\n群众：卧槽！诈尸了！\n秦风：各位莫慌，我只是让死者亲自开口说出凶手而已~\n？？？\n！！！\n队长：你一个警察用道术<em>破案</em>？这合理吗！\n（<em>破案</em>与灵异结合，并不只是单一的<em>破案</em>~介意者慎入~）",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  378,
+                  2
+                ],
+                [
+                  388,
+                  2
+                ],
+                [
+                  403,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "身为道士的秦风，意外穿越到平行世界。\n成为市警察局刑侦队一名实习警察。\n作为穿越者，他同样有系统。\n但秦风感觉这系统有点死了。\n因为穿过来时只说过一句话。\n【破案增加道士等级】\n之后无论秦风怎么问，系统仿佛死了一样不再说话。\n岗前培训时，\n刑警老刘：“作为警察，要摒弃一切鬼神之说！”\n“所有离奇案件必须建立在科学依据上，进行合理推理。”\n秦风：“刘哥，我有不同的意见！”\n？？？\n老刘：“小伙子你的思想很危险啊！”\n秦风：“我相信这世上有科学解释不了的东西~”\n老刘：“真有诡那玩意儿的话，从此之后你的话我当圣旨来执行！”\n“……”\n当天接到群众报警，郊区废弃井内发现一具腐尸。\n眼看又是一桩悬案…\n这时秦风想起死系统说的话，他便决定一试！\n在众人不解的目光下，\n秦风双手结印，口中默念咒语。\n下一秒，腐烂的尸体竟然坐起来了！\n老刘：我没做梦吧？\n队长：这…这是在做什么？\n群众：卧槽！诈尸了！\n秦风：各位莫慌，我只是让死者亲自开口说出凶手而已~\n？？？\n！！！\n队长：你一个警察用道术破案？这合理吗！\n（破案与灵异结合，并不只是单一的破案~介意者慎入~）",
+              "author": "天山文",
+              "book_id": "7591003774726982681",
+              "book_name": "你一个警察用道术破案？这合理吗",
+              "category": "悬疑灵异",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-03T13:31:35+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7591003849184264729",
+              "first_chapter_item_id": "7591003849184264729",
+              "first_chapter_title": "第1章 我可以让尸体开口说话",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7599261110998417945",
+              "last_chapter_item_id": "7599261110998417945",
+              "last_chapter_title": "第68章 大结局",
+              "last_chapter_update_time": "1769340891",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "773",
+              "recommend_group_id": "7591003774726982681",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319095910CD2CD28EFCCDD448ACE0\",\"rank\":\"1\",\"normal_session_id\":\"6f7ecf6e-eeba-4847-8346-1b0462415d7c\",\"cold_start_session_id\":\"40225cad-af5d-49da-ae49-640f21189427\"}",
+              "read_progress": "0",
+              "serial_count": "68",
+              "source": "番茄小说",
+              "tags": "悬疑灵异,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c880c39137fcc8ea123d83f18196c86d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=e%2FBAemPzUjLtBNYfoJFBl71Yd7w%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "144404",
+              "score": "0",
+              "exclusive": "1",
+              "role": "秦风",
+              "category_schema": "[{\"category_id\":751,\"name\":\"悬疑灵异\",\"schema\":\"dragon1967://newCategoryDetail?id=751&name=悬疑灵异&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":10,\"name\":\"悬疑\",\"schema\":\"dragon1967://newCategoryDetail?id=10&name=悬疑&genre_type=0&gender=1&source=detail\"},{\"category_id\":61,\"name\":\"推理\",\"schema\":\"dragon1967://newCategoryDetail?id=61&name=推理&genre_type=0&gender=1&source=detail\"},{\"category_id\":505,\"name\":\"破案\",\"schema\":\"dragon1967://newCategoryDetail?id=505&name=破案&genre_type=0&gender=1&source=detail\"},{\"category_id\":1455,\"name\":\"风水秘术\",\"schema\":\"dragon1967://newCategoryDetail?id=1455&name=风水秘术&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "266",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1769340900",
+              "authorize_type": "1",
+              "media_id": "1771667101687819",
+              "original_book_name": "你一个警察用道术破案？这合理吗",
+              "length_type": "1",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/c880c39137fcc8ea123d83f18196c86d",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/4bd17d95f36ebd636189f53f03480b53",
+              "data_rate": "",
+              "all_bookshelf_count": "138",
+              "pure_category_tags": "悬疑灵异,风水秘术",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#182028",
+              "read_count_all": "12644",
+              "shelf_cnt_history": "1850",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"13\":1767418601,\"510893\":1767418601,\"596084\":1767587053,\"8704\":1767418601,\"1967\":1767418601,\"507386\":1767418654,\"35\":1767418601,\"2329\":1767418601,\"507427\":1767418654,\"8703\":1767418601,\"3040\":1767587053,\"8661\":1767587053,\"2503\":1767418601,\"1128\":1767418601,\"638505\":1767587053,\"8662\":1767418601,\"6589\":1767587053}",
+              "category_v2_map": {
+                "61": true,
+                "505": true,
+                "1455": true,
+                "751": true,
+                "10": true,
+                "37": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c880c39137fcc8ea123d83f18196c86d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=e%2FBAemPzUjLtBNYfoJFBl71Yd7w%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7260846618847483176,
+                  "AuthorName": "天山文"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/4bd17d95f36ebd636189f53f03480b53~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069550&x-signature=sbInpShqBn4IgMXm%2FSHXvCt6FR8%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "身为道士的秦风，意外穿越到平行世界。\n成为市警察局刑侦队一名实习警察。\n作为穿越者，他同样有系统。\n但秦风感觉这系统有点死了。\n因为穿过来时只说过一句话。\n【破案增加道士等级】\n之后无论秦风怎么问，系统仿佛死了一样不再说话。\n岗前培训时，\n刑警老刘：“作为警察，要摒弃一切鬼神之说！”\n“所有离奇案件必须建立在科学依据上，进行合理推理。”\n秦风：“刘哥，我有不同的意见！”\n？？？\n老刘：“小伙子你的思想很危险啊！”\n秦风：“我相信这世上有科学解释不了的东西~”\n老刘：“真有诡那玩意儿的话，从此之后你的话我当圣旨来执行！”\n“……”\n当天接到群众报警，郊区废弃井内发现一具腐尸。\n眼看又是一桩悬案…\n这时秦风想起死系统说的话，他便决定一试！\n在众人不解的目光下，\n秦风双手结印，口中默念咒语。\n下一秒，腐烂的尸体竟然坐起来了！\n老刘：我没做梦吧？\n队长：这…这是在做什么？\n群众：卧槽！诈尸了！\n秦风：各位莫慌，我只是让死者亲自开口说出凶手而已~\n？？？\n！！！\n队长：你一个警察用道术破案？这合理吗！\n（破案与灵异结合，并不只是单一的破案~介意者慎入~）",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c880c39137fcc8ea123d83f18196c86d~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=jBi8x%2FXe%2BmNojho3%2BTd70%2F3BMRo%3D",
+              "raw_book_name": "你一个警察用道术破案？这合理吗",
+              "color_audio_dominate": "#223C3C",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "10022215108782417276:42:0:2502266145:clks####3@202603190957324B988CFE8B9AF0906113",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "14.4万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "773人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "悬疑灵异",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：天山文",
+                "rich_text": "作者：天山文",
+                "high_light_position": []
+              },
+              {
+                "text": "...时只说过一句话。 【破案增加道士等级】 之后无论秦风怎么问，系统仿佛死了一样不再说话。 岗前培训时， 刑警老刘：“作为警察，要摒弃一切鬼神之说！” “所有离奇案件必须建立在科学依据上，进行合理推理。” 秦风：“刘哥，我有不同的意见！” ？？？ 老刘：“小伙子你的思想很危险啊！” 秦风：“我相信这世上有科学解释不了的东西~” 老刘：“真有诡那玩意儿的话，从此之后你的话我当圣旨来执行！” “……” 当天接到群众报警，郊区废弃井内发现一具腐尸。 眼看又是一桩悬案… 这时秦风想起死系统说的话，他便决定一试！ 在众人不解的目光下， 秦风双手结印，口中默念咒语。 下一秒，腐烂的尸体竟然坐起来了！ 老刘：我没做梦吧？ 队长：这…这是在做什么？ 群众：卧槽！诈尸了！ 秦风：各位莫慌，我只是让死者亲自开口说出凶手而已~ ？？？ ！！！ 队长：你一个警察用道术破案？这合理吗！ （破案与灵异结合，并不只是单一的破案~介意者慎入~）",
+                "rich_text": "身为道士的秦风，意外穿越到平行世界。\n成为市警察局刑侦队一名实习警察。\n作为穿越者，他同样有系统。\n但秦风感觉这系统有点死了。\n因为穿过来时只说过一句话。\n【<em>破案</em>增加道士等级】\n之后无论秦风怎么问，系统仿佛死了一样不再说话。\n岗前培训时，\n刑警老刘：“作为警察，要摒弃一切鬼神之说！”\n“所有离奇<em>案</em>件必须建立在科学依据上，进行合理推理。”\n秦风：“刘哥，我有不同的意见！”\n？？？\n老刘：“小伙子你的思想很危险啊！”\n秦风：“我相信这世上有科学解释不了的东西~”\n老刘：“真有诡那玩意儿的话，从此之后你的话我当圣旨来执行！”\n“……”\n当天接到群众报警，郊区废弃井内发现一具腐尸。\n眼看又是一桩悬<em>案</em>…\n这时秦风想起死系统说的话，他便决定一试！\n在众人不解的目光下，\n秦风双手结印，口中默念咒语。\n下一秒，腐烂的尸体竟然坐起来了！\n老刘：我没做梦吧？\n队长：这…这是在做什么？\n群众：卧槽！诈尸了！\n秦风：各位莫慌，我只是让死者亲自开口说出凶手而已~\n？？？\n！！！\n队长：你一个警察用道术<em>破案</em>？这合理吗！\n（<em>破案</em>与灵异结合，并不只是单一的<em>破案</em>~介意者慎入~）",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    378,
+                    2
+                  ],
+                  [
+                    388,
+                    2
+                  ],
+                  [
+                    403,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1043,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7603300589514001432",
+          "search_result_id": "7603300589514001432",
+          "search_high_light": {
+            "title": {
+              "text": "刑侦追凶系统",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "秦风意外觉醒刑侦系统，从此与法医林瑶搭档，破解一桩桩离奇案件。血色婚礼、雨夜抛尸、密室毒杀……每个现场都藏着人性的深渊。当真相触及黑暗边缘，系统成为他唯一的利刃。而这场正义与罪恶的较量，才刚刚开始。",
+              "rich_text": "秦风意外觉醒刑侦系统，从此与法医林瑶搭档，<em>破</em>解一桩桩离奇<em>案</em>件。血色婚礼、雨夜抛尸、密室毒杀……每个现场都藏着人性的深渊。当真相触及黑暗边缘，系统成为他唯一的利刃。而这场正义与罪恶的较量，才刚刚开始。",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "秦风意外觉醒刑侦系统，从此与法医林瑶搭档，破解一桩桩离奇案件。血色婚礼、雨夜抛尸、密室毒杀……每个现场都藏着人性的深渊。当真相触及黑暗边缘，系统成为他唯一的利刃。而这场正义与罪恶的较量，才刚刚开始。",
+              "author": "空间之神哦",
+              "book_id": "7603300589514001432",
+              "book_name": "刑侦追凶系统",
+              "category": "悬疑脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-05T16:49:30+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7603300809824027160",
+              "first_chapter_item_id": "7603300809824027160",
+              "first_chapter_title": "第1章 系统激活",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618679783991280152",
+              "last_chapter_item_id": "7618679783991280152",
+              "last_chapter_title": "第52章 罪链终结",
+              "last_chapter_update_time": "1773862173",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "447",
+              "recommend_group_id": "7603300589514001432",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319095910CD2CD28EFCCDD448ACE0\",\"rank\":\"1\",\"normal_session_id\":\"6f7ecf6e-eeba-4847-8346-1b0462415d7c\",\"cold_start_session_id\":\"40225cad-af5d-49da-ae49-640f21189427\"}",
+              "read_progress": "0",
+              "serial_count": "52",
+              "source": "番茄小说",
+              "tags": "悬疑脑洞,系统",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e20d82afe5d4f759854c17e67379cb48~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=MPE7o31ekeMVBW8lGHUYk59nf2w%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "266638",
+              "score": "0",
+              "exclusive": "1",
+              "role": "秦风",
+              "category_schema": "[{\"category_id\":539,\"name\":\"悬疑脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=539&name=悬疑脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":10,\"name\":\"悬疑\",\"schema\":\"dragon1967://newCategoryDetail?id=10&name=悬疑&genre_type=0&gender=1&source=detail\"},{\"category_id\":505,\"name\":\"破案\",\"schema\":\"dragon1967://newCategoryDetail?id=505&name=破案&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "168",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773862182",
+              "authorize_type": "1",
+              "media_id": "1810409376491532",
+              "original_book_name": "刑侦追凶系统",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "43",
+              "thumb_uri": "novel-pic/e20d82afe5d4f759854c17e67379cb48",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e20d82afe5d4f759854c17e67379cb48~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069550&x-signature=DZowfmzBlX0q9xB0Zarl8HBVgCc%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "悬疑脑洞,破案",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#182020",
+              "read_count_all": "621",
+              "shelf_cnt_history": "1011",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"510893\":1770281494,\"8704\":1770281494,\"13\":1770281494,\"2503\":1770281494,\"8662\":1770281494,\"1128\":1770281494,\"8703\":1770281494,\"8661\":1770371109,\"35\":1770281494,\"1967\":1770281494,\"507386\":1770281546,\"507427\":1770281546,\"6589\":1770371109,\"596084\":1770371109,\"638505\":1770371109,\"2329\":1770281494,\"3040\":1770371109}",
+              "category_v2_map": {
+                "505": true,
+                "19": true,
+                "539": true,
+                "10": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e20d82afe5d4f759854c17e67379cb48~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=MPE7o31ekeMVBW8lGHUYk59nf2w%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7415437382146594073,
+                  "AuthorName": "空间之神哦"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e20d82afe5d4f759854c17e67379cb48~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069550&x-signature=MsO5PMPYgp%2F8W1I1SEZkn7Ig%2FVI%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "秦风意外觉醒刑侦系统，从此与法医林瑶搭档，破解一桩桩离奇案件。血色婚礼、雨夜抛尸、密室毒杀……每个现场都藏着人性的深渊。当真相触及黑暗边缘，系统成为他唯一的利刃。而这场正义与罪恶的较量，才刚刚开始。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e20d82afe5d4f759854c17e67379cb48~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=cGqJcTWDkoVjaeAXUreipQi6cNE%3D",
+              "raw_book_name": "刑侦追凶系统",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "10022215108782417276:43:0:2551286818:clks####3@202603190957324B988CFE8B9AF0906113",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "26.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "447人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "悬疑脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：空间之神哦",
+                "rich_text": "作者：空间之神哦",
+                "high_light_position": []
+              },
+              {
+                "text": "秦风意外觉醒刑侦系统，从此与法医林瑶搭档，破解一桩桩离奇案件。血色婚礼、雨夜抛尸、密室毒杀……每个现场都藏着人性的深渊。当真相触及黑暗边缘，系统成为他唯一的利刃。而这场正义与罪恶的较量，才刚刚开始。",
+                "rich_text": "秦风意外觉醒刑侦系统，从此与法医林瑶搭档，<em>破</em>解一桩桩离奇<em>案</em>件。血色婚礼、雨夜抛尸、密室毒杀……每个现场都藏着人性的深渊。当真相触及黑暗边缘，系统成为他唯一的利刃。而这场正义与罪恶的较量，才刚刚开始。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1044,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7459988565502463038",
+          "search_result_id": "7459988565502463038",
+          "search_high_light": {
+            "abstract": {
+              "text": "【听心声+刑侦剧+破案+单元剧+单女主】修炼千年的渡劫期高手渡劫失败，穿越到一名刑侦队队长杨明身上，靠着前世功法，竟然可以偷听嫌疑人心声。 听到嫌疑人的心声，杨明很快就锁定了真凶，轻松破案。 杨明每破一件案子，就能得到一定的修为值，提升修为，觉醒其他技能，继续协助破案。 随着破案越来越多，他的实力也开始逐渐恢复。 与此同时，杨明发现看似毫无关联的一桩桩案件，背后却一直有一双黑手……",
+              "rich_text": "【听心声+刑侦剧+<em>破案</em>+单元剧+单女主】修炼千年的渡劫期高手渡劫失败，穿越到一名刑侦队队长杨明身上，靠着前世功法，竟然可以偷听嫌疑人心声。\n听到嫌疑人的心声，杨明很快就锁定了真凶，轻松<em>破案</em>。\n杨明每<em>破</em>一件<em>案</em>子，就能得到一定的修为值，提升修为，觉醒其他技能，继续协助<em>破案</em>。\n随着<em>破案</em>越来越多，他的实力也开始逐渐恢复。\n与此同时，杨明发现看似毫无关联的一桩桩<em>案</em>件，背后却一直有一双黑手……",
+              "high_light_position": [
+                [
+                  9,
+                  2
+                ],
+                [
+                  92,
+                  2
+                ],
+                [
+                  132,
+                  2
+                ],
+                [
+                  138,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "刑侦：我听心声疯狂破案",
+              "rich_text": "刑侦：我听心声疯狂<em>破案</em>",
+              "high_light_position": [
+                [
+                  9,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【听心声+刑侦剧+破案+单元剧+单女主】修炼千年的渡劫期高手渡劫失败，穿越到一名刑侦队队长杨明身上，靠着前世功法，竟然可以偷听嫌疑人心声。\n听到嫌疑人的心声，杨明很快就锁定了真凶，轻松破案。\n杨明每破一件案子，就能得到一定的修为值，提升修为，觉醒其他技能，继续协助破案。\n随着破案越来越多，他的实力也开始逐渐恢复。\n与此同时，杨明发现看似毫无关联的一桩桩案件，背后却一直有一双黑手……",
+              "author": "就爱吃臭豆腐",
+              "book_id": "7459988565502463038",
+              "book_name": "刑侦：我听心声疯狂破案",
+              "category": "悬疑灵异",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-01-15T12:05:39+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7459989009125605950",
+              "first_chapter_item_id": "7459989009125605950",
+              "first_chapter_title": "第1章 我能听到嫌疑人心声",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618599591578976830",
+              "last_chapter_item_id": "7618599591578976830",
+              "last_chapter_title": "第334章 江振涛摊牌了，似乎他也是一个受害者",
+              "last_chapter_update_time": "1773843516",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "1529",
+              "recommend_group_id": "7459988565502463038",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319095910CD2CD28EFCCDD448ACE0\",\"rank\":\"1\",\"normal_session_id\":\"6f7ecf6e-eeba-4847-8346-1b0462415d7c\",\"cold_start_session_id\":\"40225cad-af5d-49da-ae49-640f21189427\"}",
+              "read_progress": "0",
+              "serial_count": "334",
+              "source": "番茄小说",
+              "tags": "悬疑灵异,穿越",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/a5e88af01573e29a3d24cbed301173a6~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=SJoUT7VePf8DjAdG0za9rI7Ucc0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1091033",
+              "score": "0",
+              "exclusive": "1",
+              "role": "杨明,叶宁",
+              "category_schema": "[{\"category_id\":751,\"name\":\"悬疑灵异\",\"schema\":\"dragon1967://newCategoryDetail?id=751&name=悬疑灵异&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":10,\"name\":\"悬疑\",\"schema\":\"dragon1967://newCategoryDetail?id=10&name=悬疑&genre_type=0&gender=1&source=detail\"},{\"category_id\":61,\"name\":\"推理\",\"schema\":\"dragon1967://newCategoryDetail?id=61&name=推理&genre_type=0&gender=1&source=detail\"},{\"category_id\":389,\"name\":\"单女主\",\"schema\":\"dragon1967://newCategoryDetail?id=389&name=单女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":505,\"name\":\"破案\",\"schema\":\"dragon1967://newCategoryDetail?id=505&name=破案&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "346",
+              "sub_info": "1529人在读",
+              "last_publish_time": "1773843662",
+              "authorize_type": "1",
+              "media_id": "1689661173274632",
+              "original_book_name": "狙击神探：听嫌疑人心声破案",
+              "length_type": "0",
+              "op_tag": "531,535,536,1016,1118,1115",
+              "keep_publish_days": "25",
+              "thumb_uri": "novel-pic/ai/a5e88af01573e29a3d24cbed301173a6",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7b2285316e9e743000b15ea035498123~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069550&x-signature=E3vppkaLKFBIZIHYqZK8loxL1xA%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "192",
+              "pure_category_tags": "悬疑灵异,破案",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#384048",
+              "read_count_all": "69871",
+              "shelf_cnt_history": "6145",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1128\":1736914217,\"8704\":1747145918,\"507427\":1741820125,\"8661\":1737103457,\"13\":1736914217,\"8662\":1736914217,\"2329\":1736914217,\"35\":1736914217,\"638505\":1737103457,\"1967\":1736914217,\"2503\":1736914217,\"8703\":1744886047,\"510893\":1736914217,\"507386\":1741820125,\"3040\":1737103457,\"596084\":1737103457,\"6589\":1737103457}",
+              "category_v2_map": {
+                "505": true,
+                "751": true,
+                "37": true,
+                "61": true,
+                "389": true,
+                "10": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/a5e88af01573e29a3d24cbed301173a6~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=SJoUT7VePf8DjAdG0za9rI7Ucc0%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6923101346098844936,
+                  "AuthorName": "就爱吃臭豆腐"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o7b2285316e9e743000b15ea035498123~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069550&x-signature=8j1KhPFFHD95F2vpvdyf31xkJBU%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【听心声+刑侦剧+破案+单元剧+单女主】修炼千年的渡劫期高手渡劫失败，穿越到一名刑侦队队长杨明身上，靠着前世功法，竟然可以偷听嫌疑人心声。\n听到嫌疑人的心声，杨明很快就锁定了真凶，轻松破案。\n杨明每破一件案子，就能得到一定的修为值，提升修为，觉醒其他技能，继续协助破案。\n随着破案越来越多，他的实力也开始逐渐恢复。\n与此同时，杨明发现看似毫无关联的一桩桩案件，背后却一直有一双黑手……",
+              "read_page_progress": "0",
+              "read_cnt_text": "1529人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/a5e88af01573e29a3d24cbed301173a6~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=N1gJlFTqWu8UiMRJQvU3qA2yffI%3D",
+              "raw_book_name": "刑侦：我听心声疯狂破案",
+              "color_audio_dominate": "#30200F"
+            }
+          ],
+          "search_attached_info": "10022215108782417276:44:0:49863739:clks####3@202603190957324B988CFE8B9AF0906113",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "109.1万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1529人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "悬疑灵异",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：就爱吃臭豆腐",
+                "rich_text": "作者：就爱吃臭豆腐",
+                "high_light_position": []
+              },
+              {
+                "text": "【听心声+刑侦剧+破案+单元剧+单女主】修炼千年的渡劫期高手渡劫失败，穿越到一名刑侦队队长杨明身上，靠着前世功法，竟然可以偷听嫌疑人心声。 听到嫌疑人的心声，杨明很快就锁定了真凶，轻松破案。 杨明每破一件案子，就能得到一定的修为值，提升修为，觉醒其他技能，继续协助破案。 随着破案越来越多，他的实力也开始逐渐恢复。 与此同时，杨明发现看似毫无关联的一桩桩案件，背后却一直有一双黑手……",
+                "rich_text": "【听心声+刑侦剧+<em>破案</em>+单元剧+单女主】修炼千年的渡劫期高手渡劫失败，穿越到一名刑侦队队长杨明身上，靠着前世功法，竟然可以偷听嫌疑人心声。\n听到嫌疑人的心声，杨明很快就锁定了真凶，轻松<em>破案</em>。\n杨明每<em>破</em>一件<em>案</em>子，就能得到一定的修为值，提升修为，觉醒其他技能，继续协助<em>破案</em>。\n随着<em>破案</em>越来越多，他的实力也开始逐渐恢复。\n与此同时，杨明发现看似毫无关联的一桩桩<em>案</em>件，背后却一直有一双黑手……",
+                "high_light_position": [
+                  [
+                    9,
+                    2
+                  ],
+                  [
+                    92,
+                    2
+                  ],
+                  [
+                    132,
+                    2
+                  ],
+                  [
+                    138,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1045,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7069684764726266916",
+          "search_result_id": "7069684764726266916",
+          "search_high_light": {
+            "abstract": {
+              "text": "【拨开层层迷雾，妙手解奇案】你听过最恐怖的案子是什么？尸仙娘娘，医大色魔，人头盆栽，七号楼僵尸婴儿……世间本无鬼，妙手雪冤屈。传奇仵作宋阳，携弟子强势出山，拨开层层迷雾……",
+              "rich_text": "你听过最恐怖的<em>案</em>子是什么？尸仙娘娘，医大色魔，人头盆栽，七号楼僵尸婴儿……世间本无鬼，妙手雪冤屈。传奇仵作宋阳，携弟子强势出山，拨开层层迷雾……",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "猎罪神探",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "你听过最恐怖的案子是什么？尸仙娘娘，医大色魔，人头盆栽，七号楼僵尸婴儿……世间本无鬼，妙手雪冤屈。传奇仵作宋阳，携弟子强势出山，拨开层层迷雾……",
+              "author": "道门老九",
+              "book_id": "7069684764726266916",
+              "book_name": "猎罪神探",
+              "category": "悬疑灵异",
+              "copyright_info": "版权信息：本书的数字版权由 磨铁图书 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2022-02-28T17:07:34+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7069685477573397518",
+              "first_chapter_item_id": "7069685477573397518",
+              "first_chapter_title": "第1卷 江北残刀",
+              "genre": "6",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7181351782017141816",
+              "last_chapter_item_id": "7181351782017141816",
+              "last_chapter_title": "第七十五章 小熊之舞",
+              "last_chapter_update_time": "1672038757",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "5272",
+              "recommend_group_id": "7069684764726266916",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319095910CD2CD28EFCCDD448ACE0\",\"rank\":\"1\",\"normal_session_id\":\"6f7ecf6e-eeba-4847-8346-1b0462415d7c\",\"cold_start_session_id\":\"40225cad-af5d-49da-ae49-640f21189427\"}",
+              "read_progress": "0",
+              "serial_count": "78",
+              "source": "磨铁图书",
+              "tags": "悬疑灵异,悬疑",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e812083cc9b9b82665e4cc9e60666922~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=xC6qh2C7c%2F3%2FCQLzutulp6f2ED4%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "160",
+              "update_status": "0",
+              "word_number": "201682",
+              "score": "9.3",
+              "role": "",
+              "category_schema": "[{\"category_id\":751,\"name\":\"悬疑灵异\",\"schema\":\"dragon1967://newCategoryDetail?id=751&name=悬疑灵异&genre_type=0&gender=2&source=detail\"},{\"category_id\":10,\"name\":\"悬疑\",\"schema\":\"dragon1967://newCategoryDetail?id=10&name=悬疑&genre_type=0&gender=2&source=detail\"},{\"category_id\":61,\"name\":\"推理\",\"schema\":\"dragon1967://newCategoryDetail?id=61&name=推理&genre_type=0&gender=2&source=detail\"},{\"category_id\":970,\"name\":\"精品小说\",\"schema\":\"dragon1967://newCategoryDetail?id=970&name=精品小说&genre_type=0&gender=2&source=detail\"},{\"category_id\":165,\"name\":\"悬疑推理\",\"schema\":\"dragon1967://newCategoryDetail?id=165&name=悬疑推理&genre_type=0&gender=2&source=detail\"},{\"category_id\":871,\"name\":\"第一人称\",\"schema\":\"dragon1967://newCategoryDetail?id=871&name=第一人称&genre_type=0&gender=2&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "author_id": "50493099476",
+              "gender": "2",
+              "is_ebook": "1",
+              "listen_count": "682",
+              "sub_info": "88.2万人读过",
+              "chapter_number": "78",
+              "last_publish_time": "1672038762",
+              "recommend_tags": [
+                "磨铁图书"
+              ],
+              "authorize_type": "0",
+              "media_id": "1689309576633352",
+              "original_book_name": "猎罪神探",
+              "length_type": "1",
+              "op_tag": "531,261,1494,1491,1475,543,430,374,954,422,883,298",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/e812083cc9b9b82665e4cc9e60666922",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e812083cc9b9b82665e4cc9e60666922~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069550&x-signature=jBFWvjCcUlJZ7M0U3yowOw3tUn8%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "788",
+              "pure_category_tags": "悬疑灵异,第一人称",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "1",
+              "show_vip_tag": null,
+              "recommend_tag_info": [
+                {
+                  "RecommendText": "磨铁图书",
+                  "RecommendType": 8
+                }
+              ],
+              "color_dominate": "#d8c0b8",
+              "read_count_all": "881708",
+              "shelf_cnt_history": "170343",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1967\":1646377402}",
+              "category_v2_map": {
+                "10": true,
+                "751": true,
+                "970": true,
+                "61": true,
+                "871": true,
+                "165": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e812083cc9b9b82665e4cc9e60666922~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=xC6qh2C7c%2F3%2FCQLzutulp6f2ED4%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7184382040488285477,
+                  "AuthorName": "道门老九"
+                }
+              ],
+              "product_id": "",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e812083cc9b9b82665e4cc9e60666922~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069550&x-signature=lZUcCNrGhTwhRmRuVUX9DTgy3kY%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "tts_type": "",
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "881708",
+                "sub_text": "累计阅读",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                },
+                "short_sub_text": "读过"
+              },
+              "read_cnt_fallback_threshold": "1",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "881708",
+              "read_cnt_sub_text": "累计阅读",
+              "read_cnt_short_sub_text": "读过",
+              "book_abstract_v2": "你听过最恐怖的案子是什么？尸仙娘娘，医大色魔，人头盆栽，七号楼僵尸婴儿……世间本无鬼，妙手雪冤屈。传奇仵作宋阳，携弟子强势出山，拨开层层迷雾……",
+              "read_page_progress": "0",
+              "read_cnt_text": "88.2万人读过",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/e812083cc9b9b82665e4cc9e60666922~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=ESHBvZseC92PUeEg2e6VDC8thuk%3D",
+              "raw_book_name": "猎罪神探",
+              "color_audio_dominate": "#1B171B"
+            }
+          ],
+          "search_attached_info": "10022215108782417276:45:0:3851183570:clks####3@202603190957324B988CFE8B9AF0906113",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "20.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "88万人读过",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "悬疑灵异",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            },
+            {
+              "Content": "磨铁图书",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 8,
+              "RecommendTagTypeNew": 6
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：道门老九",
+                "rich_text": "作者：道门老九",
+                "high_light_position": []
+              },
+              {
+                "text": "【拨开层层迷雾，妙手解奇案】你听过最恐怖的案子是什么？尸仙娘娘，医大色魔，人头盆栽，七号楼僵尸婴儿……世间本无鬼，妙手雪冤屈。传奇仵作宋阳，携弟子强势出山，拨开层层迷雾……",
+                "rich_text": "你听过最恐怖的<em>案</em>子是什么？尸仙娘娘，医大色魔，人头盆栽，七号楼僵尸婴儿……世间本无鬼，妙手雪冤屈。传奇仵作宋阳，携弟子强势出山，拨开层层迷雾……",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1046,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7569073681503112216",
+          "search_result_id": "7569073681503112216",
+          "search_high_light": {
+            "abstract": {
+              "text": "我叫徐坤。蔡徐坤的徐，蔡徐坤的坤。 所以总有人叫我“蔡同志” 当凶手们还在琢磨“蔡同志”是哪号人物时，我的枪口已经抵住了他们的后腰。 码头碎尸、豪门毒杀、网红直播离奇坠亡……一桩桩看似完美的犯罪，在我眼里全是漏洞。 他们以为天衣无缝？我专撕衣服。老刑警说我有双“罪眼”，能看透人心最脏的角落。其实我只是比变态更懂变态的逻辑——比如那个专挑雨夜作案的连环杀手，他每次出现，监控里总会闪过一双限量版球鞋。 “蔡哥，查过了，全市只卖了十双。” 我拉开车门，把配枪拍在副驾上： “走，带你去问问另外九位‘收藏家’——为什么偏偏留在凶案现场看热闹？”",
+              "rich_text": "我叫徐坤。蔡徐坤的徐，蔡徐坤的坤。\n所以总有人叫我“蔡同志”\n当凶手们还在琢磨“蔡同志”是哪号人物时，我的枪口已经抵住了他们的后腰。\n码头碎尸、豪门毒杀、网红直播离奇坠亡……一桩桩看似完美的犯罪，在我眼里全是漏洞。\n他们以为天衣无缝？我专撕衣服。老刑警说我有双“罪眼”，能看透人心最脏的角落。其实我只是比变态更懂变态的逻辑——比如那个专挑雨夜作<em>案</em>的连环杀手，他每次出现，监控里总会闪过一双限量版球鞋。\n“蔡哥，查过了，全市只卖了十双。”\n我拉开车门，把配枪拍在副驾上：\n“走，带你去问问另外九位‘收藏家’——为什么偏偏留在凶<em>案</em>现场看热闹？”",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "刑警队：重案六组",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "我叫徐坤。蔡徐坤的徐，蔡徐坤的坤。\n所以总有人叫我“蔡同志”\n当凶手们还在琢磨“蔡同志”是哪号人物时，我的枪口已经抵住了他们的后腰。\n码头碎尸、豪门毒杀、网红直播离奇坠亡……一桩桩看似完美的犯罪，在我眼里全是漏洞。\n他们以为天衣无缝？我专撕衣服。老刑警说我有双“罪眼”，能看透人心最脏的角落。其实我只是比变态更懂变态的逻辑——比如那个专挑雨夜作案的连环杀手，他每次出现，监控里总会闪过一双限量版球鞋。\n“蔡哥，查过了，全市只卖了十双。”\n我拉开车门，把配枪拍在副驾上：\n“走，带你去问问另外九位‘收藏家’——为什么偏偏留在凶案现场看热闹？”",
+              "author": "大逆罪人",
+              "book_id": "7569073681503112216",
+              "book_name": "刑警队：重案六组",
+              "category": "悬疑脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-11-05T11:11:37+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7569073772834062872",
+              "first_chapter_item_id": "7569073772834062872",
+              "first_chapter_title": "第1章 头部主播的离奇死亡",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7612273922557362712",
+              "last_chapter_item_id": "7612273922557362712",
+              "last_chapter_title": "第321章 药瓶里的慢性毒",
+              "last_chapter_update_time": "1772370653",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "2437",
+              "recommend_group_id": "7569073681503112216",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319095910CD2CD28EFCCDD448ACE0\",\"rank\":\"1\",\"normal_session_id\":\"6f7ecf6e-eeba-4847-8346-1b0462415d7c\",\"cold_start_session_id\":\"40225cad-af5d-49da-ae49-640f21189427\"}",
+              "read_progress": "0",
+              "serial_count": "319",
+              "source": "番茄小说",
+              "tags": "悬疑脑洞,悬疑",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8ded0df9c0ef47a10995ab83859e5342~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=jBkm2IEvhfXYDIx9GhFczhTO1cU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "818764",
+              "score": "0",
+              "exclusive": "1",
+              "role": "徐坤,李卫星",
+              "category_schema": "[{\"category_id\":539,\"name\":\"悬疑脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=539&name=悬疑脑洞&genre_type=0&gender=2&source=detail\"},{\"category_id\":10,\"name\":\"悬疑\",\"schema\":\"dragon1967://newCategoryDetail?id=10&name=悬疑&genre_type=0&gender=2&source=detail\"},{\"category_id\":506,\"name\":\"神探\",\"schema\":\"dragon1967://newCategoryDetail?id=506&name=神探&genre_type=0&gender=2&source=detail\"},{\"category_id\":505,\"name\":\"破案\",\"schema\":\"dragon1967://newCategoryDetail?id=505&name=破案&genre_type=0&gender=2&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "2",
+              "is_ebook": "1",
+              "listen_count": "937",
+              "sub_info": "2437人在读",
+              "last_publish_time": "1773849621",
+              "authorize_type": "1",
+              "media_id": "1761353008711694",
+              "original_book_name": "刑警队：重案六组",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "135",
+              "thumb_uri": "novel-pic/p2o8ded0df9c0ef47a10995ab83859e5342",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/431fc0e3cc00b55ec3e868b675276424",
+              "data_rate": "",
+              "all_bookshelf_count": "217",
+              "pure_category_tags": "悬疑脑洞,破案",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#283840",
+              "read_count_all": "16188",
+              "shelf_cnt_history": "1958",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2329\":1762312422,\"510893\":1762312422,\"1967\":1762312422,\"3040\":1762488147,\"8661\":1762488147,\"8662\":1762312422,\"638505\":1762488147,\"13\":1762312422,\"8704\":1762312422,\"507386\":1762312483,\"35\":1762312422,\"596084\":1762488147,\"8703\":1762312422,\"507427\":1762312483,\"2503\":1762312422,\"1128\":1762312422,\"6589\":1762488411}",
+              "category_v2_map": {
+                "10": true,
+                "506": true,
+                "539": true,
+                "505": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8ded0df9c0ef47a10995ab83859e5342~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=jBkm2IEvhfXYDIx9GhFczhTO1cU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7418264718562841918,
+                  "AuthorName": "大逆罪人"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/431fc0e3cc00b55ec3e868b675276424~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069550&x-signature=3dc3oWXKsl3sl3WcY%2Bjwsjh%2FP18%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "我叫徐坤。蔡徐坤的徐，蔡徐坤的坤。\n所以总有人叫我“蔡同志”\n当凶手们还在琢磨“蔡同志”是哪号人物时，我的枪口已经抵住了他们的后腰。\n码头碎尸、豪门毒杀、网红直播离奇坠亡……一桩桩看似完美的犯罪，在我眼里全是漏洞。\n他们以为天衣无缝？我专撕衣服。老刑警说我有双“罪眼”，能看透人心最脏的角落。其实我只是比变态更懂变态的逻辑——比如那个专挑雨夜作案的连环杀手，他每次出现，监控里总会闪过一双限量版球鞋。\n“蔡哥，查过了，全市只卖了十双。”\n我拉开车门，把配枪拍在副驾上：\n“走，带你去问问另外九位‘收藏家’——为什么偏偏留在凶案现场看热闹？”",
+              "read_page_progress": "0",
+              "read_cnt_text": "2437人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o8ded0df9c0ef47a10995ab83859e5342~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=OyE3wIrkkTl%2BwGj5ty4JaFFb3to%3D",
+              "raw_book_name": "刑警队：重案六组",
+              "color_audio_dominate": "#2B373E",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "10022215108782417276:46:0:1279718982:clks####3@202603190957324B988CFE8B9AF0906113",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "81.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2437人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "悬疑脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：大逆罪人",
+                "rich_text": "作者：大逆罪人",
+                "high_light_position": []
+              },
+              {
+                "text": "我叫徐坤。蔡徐坤的徐，蔡徐坤的坤。 所以总有人叫我“蔡同志” 当凶手们还在琢磨“蔡同志”是哪号人物时，我的枪口已经抵住了他们的后腰。 码头碎尸、豪门毒杀、网红直播离奇坠亡……一桩桩看似完美的犯罪，在我眼里全是漏洞。 他们以为天衣无缝？我专撕衣服。老刑警说我有双“罪眼”，能看透人心最脏的角落。其实我只是比变态更懂变态的逻辑——比如那个专挑雨夜作案的连环杀手，他每次出现，监控里总会闪过一双限量版球鞋。 “蔡哥，查过了，全市只卖了十双。” 我拉开车门，把配枪拍在副驾上： “走，带你去问问另外九位‘收藏家’——为什么偏偏留在凶案现场看热闹？”",
+                "rich_text": "我叫徐坤。蔡徐坤的徐，蔡徐坤的坤。\n所以总有人叫我“蔡同志”\n当凶手们还在琢磨“蔡同志”是哪号人物时，我的枪口已经抵住了他们的后腰。\n码头碎尸、豪门毒杀、网红直播离奇坠亡……一桩桩看似完美的犯罪，在我眼里全是漏洞。\n他们以为天衣无缝？我专撕衣服。老刑警说我有双“罪眼”，能看透人心最脏的角落。其实我只是比变态更懂变态的逻辑——比如那个专挑雨夜作<em>案</em>的连环杀手，他每次出现，监控里总会闪过一双限量版球鞋。\n“蔡哥，查过了，全市只卖了十双。”\n我拉开车门，把配枪拍在副驾上：\n“走，带你去问问另外九位‘收藏家’——为什么偏偏留在凶<em>案</em>现场看热闹？”",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1047,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7468970591819680792",
+          "search_result_id": "7468970591819680792",
+          "search_high_light": {
+            "title": {
+              "text": "破案现场",
+              "rich_text": "<em>破案</em>现场",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "历时八年追踪，这个幽灵终于终结在这个早上，被号称为当时中国第一案——苏湘渝特大系列持枪抢劫杀人案件终于成功告破！时间锁定在6时50分，一个戴着墨镜、背着背包的中年男子一边走路一边打电话，走到重庆覃家岗镇邮政储蓄所前面，就是这个人，先后在重庆、长沙、南京作案十起，开枪二十四次，杀死十一人。",
+              "rich_text": "历时八年追踪，这个幽灵终于终结在这个早上，被号称为当时中国第一<em>案</em>——苏湘渝特大系列持枪抢劫杀人<em>案</em>件终于成功告<em>破</em>！时间锁定在6时50分，一个戴着墨镜、背着背包的中年男子一边走路一边打电话，走到重庆覃家岗镇邮政储蓄所前面，就是这个人，先后在重庆、长沙、南京作<em>案</em>十起，开枪二十四次，杀死十一人。",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "历时八年追踪，这个幽灵终于终结在这个早上，被号称为当时中国第一案——苏湘渝特大系列持枪抢劫杀人案件终于成功告破！时间锁定在6时50分，一个戴着墨镜、背着背包的中年男子一边走路一边打电话，走到重庆覃家岗镇邮政储蓄所前面，就是这个人，先后在重庆、长沙、南京作案十起，开枪二十四次，杀死十一人。",
+              "author": "易卓奇",
+              "book_id": "7468970591819680792",
+              "book_name": "破案现场",
+              "category": "悬疑灵异",
+              "copyright_info": "版权信息：本书的数字版权由 联通沃悦读 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-02-18T21:06:54+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7472904177966926872",
+              "first_chapter_item_id": "7472904177966926872",
+              "first_chapter_title": "第一部 共和国大案：引子",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7472904182589033496",
+              "last_chapter_item_id": "7472904182589033496",
+              "last_chapter_title": "八、神探亨特张",
+              "last_chapter_update_time": "1739923815",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "10",
+              "recommend_group_id": "7468970591819680792",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319095910CD2CD28EFCCDD448ACE0\",\"rank\":\"1\",\"normal_session_id\":\"6f7ecf6e-eeba-4847-8346-1b0462415d7c\",\"cold_start_session_id\":\"40225cad-af5d-49da-ae49-640f21189427\"}",
+              "read_progress": "0",
+              "serial_count": "69",
+              "source": "联通沃悦读",
+              "tags": "悬疑灵异,悬疑",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/99466ce563010e35d6550cb0befbe6ee~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=%2BMAS8s6PKF2Zt1YwS4I7cmxfu7c%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "176618",
+              "score": "0",
+              "role": "龙文进",
+              "category_schema": "[{\"category_id\":751,\"name\":\"悬疑灵异\",\"schema\":\"dragon1967://newCategoryDetail?id=751&name=悬疑灵异&genre_type=0&gender=1&source=detail\"},{\"category_id\":10,\"name\":\"悬疑\",\"schema\":\"dragon1967://newCategoryDetail?id=10&name=悬疑&genre_type=0&gender=1&source=detail\"},{\"category_id\":61,\"name\":\"推理\",\"schema\":\"dragon1967://newCategoryDetail?id=61&name=推理&genre_type=0&gender=1&source=detail\"},{\"category_id\":505,\"name\":\"破案\",\"schema\":\"dragon1967://newCategoryDetail?id=505&name=破案&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1739929694",
+              "authorize_type": "0",
+              "media_id": "1576971040333838",
+              "original_book_name": "破案现场",
+              "length_type": "1",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/99466ce563010e35d6550cb0befbe6ee",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/99466ce563010e35d6550cb0befbe6ee~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069550&x-signature=jjgg1HbfeHTlKO3yw%2FWGUpNPA%2Fw%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "悬疑灵异,破案",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#d8e0e8",
+              "read_count_all": "131",
+              "shelf_cnt_history": "962",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8662\":1739929739,\"8661\":1739929739,\"507386\":1745493816,\"596084\":1739929739,\"3040\":1739929739,\"507427\":1745493816,\"13\":1739929739,\"1967\":1739929739,\"638505\":1739929739,\"1319\":1739929739,\"1128\":1739929739,\"2329\":1739929739,\"6589\":1739929739,\"2503\":1739929739,\"510893\":1739929739,\"35\":1739929739,\"8703\":1745908995}",
+              "category_v2_map": {
+                "751": true,
+                "10": true,
+                "61": true,
+                "505": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/99466ce563010e35d6550cb0befbe6ee~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=%2BMAS8s6PKF2Zt1YwS4I7cmxfu7c%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6903325964772578573,
+                  "AuthorName": "易卓奇"
+                }
+              ],
+              "platform_book_id": "11122118",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/99466ce563010e35d6550cb0befbe6ee~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069550&x-signature=H7YD8OrVWVRB2uNukb4RllhLJi0%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "tts_type": "",
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "历时八年追踪，这个幽灵终于终结在这个早上，被号称为当时中国第一案——苏湘渝特大系列持枪抢劫杀人案件终于成功告破！时间锁定在6时50分，一个戴着墨镜、背着背包的中年男子一边走路一边打电话，走到重庆覃家岗镇邮政储蓄所前面，就是这个人，先后在重庆、长沙、南京作案十起，开枪二十四次，杀死十一人。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/99466ce563010e35d6550cb0befbe6ee~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=p1IJv8bROXAjS2Xk5MKkfX%2Bi0nw%3D",
+              "raw_book_name": "破案现场"
+            }
+          ],
+          "search_attached_info": "10022215108782417276:47:0:2060437056:clks####3@202603190957324B988CFE8B9AF0906113",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "17.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "10人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "悬疑灵异",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：易卓奇",
+                "rich_text": "作者：易卓奇",
+                "high_light_position": []
+              },
+              {
+                "text": "历时八年追踪，这个幽灵终于终结在这个早上，被号称为当时中国第一案——苏湘渝特大系列持枪抢劫杀人案件终于成功告破！时间锁定在6时50分，一个戴着墨镜、背着背包的中年男子一边走路一边打电话，走到重庆覃家岗镇邮政储蓄所前面，就是这个人，先后在重庆、长沙、南京作案十起，开枪二十四次，杀死十一人。",
+                "rich_text": "历时八年追踪，这个幽灵终于终结在这个早上，被号称为当时中国第一<em>案</em>——苏湘渝特大系列持枪抢劫杀人<em>案</em>件终于成功告<em>破</em>！时间锁定在6时50分，一个戴着墨镜、背着背包的中年男子一边走路一边打电话，走到重庆覃家岗镇邮政储蓄所前面，就是这个人，先后在重庆、长沙、南京作<em>案</em>十起，开枪二十四次，杀死十一人。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1048,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7506347592347814937",
+          "search_result_id": "7506347592347814937",
+          "search_high_light": {
+            "abstract": {
+              "text": "警大新生江砚舟攥着祖传螭龙玉佩登上高铁，笔记本里夹着“白银案”资料。S级通缉犯挟持人质时，玉佩渗出血色流光，神捕系统在他视网膜投下青铜罗盘。 子弹擦耳而过，江砚舟却看清毒蝎头顶98%的罪恶值。更令他心悸的，是女警苏璃铮颈间沉香手串的幽香——竟与系统激活时缠绕他的檀雾如出一辙。 “重案组特聘顾问，会用枪吗？”苏璃铮的钢笔尖戳在他「形意拳传人」的字样上。随着神捕雷达将城市化为犯罪热力图，江砚舟发现苏璃铮的每次行动都踩在系统红线上。读心术破解毒枭账户，真言术撕开卧底警花的双重身份，时空凝滞定格飞向她的子弹——二十年器官黑网终于露出冰山一角。 慈善晚宴上，总在案发现场留白山茶的世家子顾明渊，用香槟杯映出江砚舟的脸：“若这颗子弹先废你双腿，苏小姐可会多看我一眼？” 当江砚舟用真言术逼出顾明渊的最后谎言，系统警报轰鸣。他突然看懂苏璃铮办公室《千里江山图》的暗格——整座警局承重墙里，竟埋着顾明渊送的“定情信物”：一吨C4炸药。",
+              "rich_text": "警大新生江砚舟攥着祖传螭龙玉佩登上高铁，笔记本里夹着“白银<em>案</em>”资料。S级通缉犯挟持人质时，玉佩渗出血色流光，神捕系统在他视网膜投下青铜罗盘。\n子弹擦耳而过，江砚舟却看清毒蝎头顶98%的罪恶值。更令他心悸的，是女警苏璃铮颈间沉香手串的幽香——竟与系统激活时缠绕他的檀雾如出一辙。\n“重<em>案</em>组特聘顾问，会用枪吗？”苏璃铮的钢笔尖戳在他「形意拳传人」的字样上。随着神捕雷达将城市化为犯罪热力图，江砚舟发现苏璃铮的每次行动都踩在系统红线上。读心术<em>破</em>解毒枭账户，真言术撕开卧底警花的双重身份，时空凝滞定格飞向她的子弹——二十年器官黑网终于露出冰山一角。\n慈善晚宴上，总在<em>案</em>发现场留白山茶的世家子顾明渊，用香槟杯映出江砚舟的脸：“若这颗子弹先废你双腿，苏小姐可会多看我一眼？”\n当江砚舟用真言术逼出顾明渊的最后谎言，系统警报轰鸣。他突然看懂苏璃铮办公室《千里江山图》的暗格——整座警局承重墙里，竟埋着顾明渊送的“定情信物”：一吨C4炸药。",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "破案续命：我靠神探系统横扫重案",
+              "rich_text": "<em>破案</em>续命：我靠神探系统横扫重<em>案</em>",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "警大新生江砚舟攥着祖传螭龙玉佩登上高铁，笔记本里夹着“白银案”资料。S级通缉犯挟持人质时，玉佩渗出血色流光，神捕系统在他视网膜投下青铜罗盘。\n子弹擦耳而过，江砚舟却看清毒蝎头顶98%的罪恶值。更令他心悸的，是女警苏璃铮颈间沉香手串的幽香——竟与系统激活时缠绕他的檀雾如出一辙。\n“重案组特聘顾问，会用枪吗？”苏璃铮的钢笔尖戳在他「形意拳传人」的字样上。随着神捕雷达将城市化为犯罪热力图，江砚舟发现苏璃铮的每次行动都踩在系统红线上。读心术破解毒枭账户，真言术撕开卧底警花的双重身份，时空凝滞定格飞向她的子弹——二十年器官黑网终于露出冰山一角。\n慈善晚宴上，总在案发现场留白山茶的世家子顾明渊，用香槟杯映出江砚舟的脸：“若这颗子弹先废你双腿，苏小姐可会多看我一眼？”\n当江砚舟用真言术逼出顾明渊的最后谎言，系统警报轰鸣。他突然看懂苏璃铮办公室《千里江山图》的暗格——整座警局承重墙里，竟埋着顾明渊送的“定情信物”：一吨C4炸药。",
+              "author": "玄枢局",
+              "book_id": "7506347592347814937",
+              "book_name": "破案续命：我靠神探系统横扫重案",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-05-20T10:22:21+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7506358228389724697",
+              "first_chapter_item_id": "7506358228389724697",
+              "first_chapter_title": "第1章 死亡倒计时与神探觉醒（开局超级大章）",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7518510811799634494",
+              "last_chapter_item_id": "7518510811799634494",
+              "last_chapter_title": "第40章 烛照永夜：新纪元的守望（终局）",
+              "last_chapter_update_time": "1750539755",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "3",
+              "recommend_group_id": "7506347592347814937",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319095910CD2CD28EFCCDD448ACE0\",\"rank\":\"1\",\"normal_session_id\":\"6f7ecf6e-eeba-4847-8346-1b0462415d7c\",\"cold_start_session_id\":\"40225cad-af5d-49da-ae49-640f21189427\"}",
+              "read_progress": "0",
+              "serial_count": "40",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3f37cfaac748df828f844f2b1b99c698~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=2%2BCrcMLL%2BTSu7LDy%2BrqY%2BAKA%2Bcs%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "266501",
+              "score": "0",
+              "exclusive": "1",
+              "role": "江砚舟,苏璃铮",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=1&source=detail\"},{\"category_id\":518,\"name\":\"特工\",\"schema\":\"dragon1967://newCategoryDetail?id=518&name=特工&genre_type=0&gender=1&source=detail\"},{\"category_id\":864,\"name\":\"副本\",\"schema\":\"dragon1967://newCategoryDetail?id=864&name=副本&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "2",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1750539769",
+              "authorize_type": "1",
+              "media_id": "1667199793372174",
+              "original_book_name": "破案续命：我靠神探系统横扫重案",
+              "length_type": "1",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2o3f37cfaac748df828f844f2b1b99c698",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3f37cfaac748df828f844f2b1b99c698~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069550&x-signature=ciFCrqONtojaMuYmcdvmxSoD1v0%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市脑洞,黑科技",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#a01010",
+              "read_count_all": "982",
+              "shelf_cnt_history": "963",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"510893\":1747710615,\"2329\":1747710615,\"8662\":1747710615,\"3040\":1748317849,\"596084\":1748317849,\"13\":1747710615,\"2503\":1747710615,\"35\":1747710615,\"638505\":1748317849,\"8704\":1747710615,\"1967\":1747710615,\"1128\":1747710615,\"6589\":1748317849,\"8661\":1748317849,\"507427\":1747710677,\"8703\":1747710615,\"507386\":1747710677}",
+              "category_v2_map": {
+                "854": true,
+                "262": true,
+                "516": true,
+                "19": true,
+                "1": true,
+                "518": true,
+                "864": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3f37cfaac748df828f844f2b1b99c698~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=2%2BCrcMLL%2BTSu7LDy%2BrqY%2BAKA%2Bcs%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7490026571739190590,
+                  "AuthorName": "玄枢局"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3f37cfaac748df828f844f2b1b99c698~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069550&x-signature=q01O3zZMV7TCynwKsdbkWkCse8g%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "警大新生江砚舟攥着祖传螭龙玉佩登上高铁，笔记本里夹着“白银案”资料。S级通缉犯挟持人质时，玉佩渗出血色流光，神捕系统在他视网膜投下青铜罗盘。\n子弹擦耳而过，江砚舟却看清毒蝎头顶98%的罪恶值。更令他心悸的，是女警苏璃铮颈间沉香手串的幽香——竟与系统激活时缠绕他的檀雾如出一辙。\n“重案组特聘顾问，会用枪吗？”苏璃铮的钢笔尖戳在他「形意拳传人」的字样上。随着神捕雷达将城市化为犯罪热力图，江砚舟发现苏璃铮的每次行动都踩在系统红线上。读心术破解毒枭账户，真言术撕开卧底警花的双重身份，时空凝滞定格飞向她的子弹——二十年器官黑网终于露出冰山一角。\n慈善晚宴上，总在案发现场留白山茶的世家子顾明渊，用香槟杯映出江砚舟的脸：“若这颗子弹先废你双腿，苏小姐可会多看我一眼？”\n当江砚舟用真言术逼出顾明渊的最后谎言，系统警报轰鸣。他突然看懂苏璃铮办公室《千里江山图》的暗格——整座警局承重墙里，竟埋着顾明渊送的“定情信物”：一吨C4炸药。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3f37cfaac748df828f844f2b1b99c698~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=FzzDFF6GhHC%2BCv43E4s%2FYmYkN%2BI%3D",
+              "raw_book_name": "破案续命：我靠神探系统横扫重案",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "10022215108782417276:48:0:2602142445:clks####3@202603190957324B988CFE8B9AF0906113",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "26.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：玄枢局",
+                "rich_text": "作者：玄枢局",
+                "high_light_position": []
+              },
+              {
+                "text": "警大新生江砚舟攥着祖传螭龙玉佩登上高铁，笔记本里夹着“白银案”资料。S级通缉犯挟持人质时，玉佩渗出血色流光，神捕系统在他视网膜投下青铜罗盘。 子弹擦耳而过，江砚舟却看清毒蝎头顶98%的罪恶值。更令他心悸的，是女警苏璃铮颈间沉香手串的幽香——竟与系统激活时缠绕他的檀雾如出一辙。 “重案组特聘顾问，会用枪吗？”苏璃铮的钢笔尖戳在他「形意拳传人」的字样上。随着神捕雷达将城市化为犯罪热力图，江砚舟发现苏璃铮的每次行动都踩在系统红线上。读心术破解毒枭账户，真言术撕开卧底警花的双重身份，时空凝滞定格飞向她的子弹——二十年器官黑网终于露出冰山一角。 慈善晚宴上，总在案发现场留白山茶的世家子顾明渊，用香槟杯映出江砚舟的脸：“若这颗子弹先废你双腿，苏小姐可会多看我一眼？” 当江砚舟用真言术逼出顾明渊的最后谎言，系统警报轰鸣。他突然看懂苏璃铮办公室《千里江山图》的暗格——整座警局承重墙里，竟埋着顾明渊送的“定情信物”：一吨C4炸药。",
+                "rich_text": "警大新生江砚舟攥着祖传螭龙玉佩登上高铁，笔记本里夹着“白银<em>案</em>”资料。S级通缉犯挟持人质时，玉佩渗出血色流光，神捕系统在他视网膜投下青铜罗盘。\n子弹擦耳而过，江砚舟却看清毒蝎头顶98%的罪恶值。更令他心悸的，是女警苏璃铮颈间沉香手串的幽香——竟与系统激活时缠绕他的檀雾如出一辙。\n“重<em>案</em>组特聘顾问，会用枪吗？”苏璃铮的钢笔尖戳在他「形意拳传人」的字样上。随着神捕雷达将城市化为犯罪热力图，江砚舟发现苏璃铮的每次行动都踩在系统红线上。读心术<em>破</em>解毒枭账户，真言术撕开卧底警花的双重身份，时空凝滞定格飞向她的子弹——二十年器官黑网终于露出冰山一角。\n慈善晚宴上，总在<em>案</em>发现场留白山茶的世家子顾明渊，用香槟杯映出江砚舟的脸：“若这颗子弹先废你双腿，苏小姐可会多看我一眼？”\n当江砚舟用真言术逼出顾明渊的最后谎言，系统警报轰鸣。他突然看懂苏璃铮办公室《千里江山图》的暗格——整座警局承重墙里，竟埋着顾明渊送的“定情信物”：一吨C4炸药。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1049,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7599221626315492377",
+          "search_result_id": "7599221626315492377",
+          "search_high_light": {
+            "title": {
+              "text": "探案就变强，美女警花追着我跑",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "...统】，只要送单遇案，破案就变强！ 首单奖励【盛世美颜丹】，当他在审讯室摘下口罩的那一刻。 警花看呆：这特么是嫌疑人？这分明是谪仙下凡！ 从此，林默在送外卖的路上越跑越偏： 给校花送奶茶，顺手破了坠楼悬案。 帮女总裁送文件，挖出豪门惊天黑幕。 连去好莱坞送个披萨，都能顺便拿回世界神探金奖！ 暴力警花、清纯校花、温柔御姐、顶流网红、冰山女总、国际影后…… 面对六大女神的全球通缉和围追堵截，林默骑着小电驴瑟瑟发抖： “美女们请自重，我真的只是个送外卖的！”",
+              "rich_text": "【都市爽文+多女主+探<em>案</em>系统+虐渣搞笑】\n林默是个满脸麻子、自卑到不敢摘口罩的底层外卖员。\n一次送餐误入凶<em>案</em>现场，被暴力警花苏晴当成变态杀手死死按住。\n这一按，却激活了【外卖神探系统】，只要送单遇<em>案</em>，<em>破案</em>就变强！\n首单奖励【盛世美颜丹】，当他在审讯室摘下口罩的那一刻。\n警花看呆：这特么是嫌疑人？这分明是谪仙下凡！\n从此，林默在送外卖的路上越跑越偏：\n给校花送奶茶，顺手<em>破</em>了坠楼悬<em>案</em>。\n帮女总裁送文件，挖出豪门惊天黑幕。\n连去好莱坞送个披萨，都能顺便拿回世界神探金奖！\n暴力警花、清纯校花、温柔御姐、顶流网红、冰山女总、国际影后……\n面对六大女神的全球通缉和围追堵截，林默骑着小电驴瑟瑟发抖：\n“美女们请自重，我真的只是个送外卖的！”",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【都市爽文+多女主+探案系统+虐渣搞笑】\n林默是个满脸麻子、自卑到不敢摘口罩的底层外卖员。\n一次送餐误入凶案现场，被暴力警花苏晴当成变态杀手死死按住。\n这一按，却激活了【外卖神探系统】，只要送单遇案，破案就变强！\n首单奖励【盛世美颜丹】，当他在审讯室摘下口罩的那一刻。\n警花看呆：这特么是嫌疑人？这分明是谪仙下凡！\n从此，林默在送外卖的路上越跑越偏：\n给校花送奶茶，顺手破了坠楼悬案。\n帮女总裁送文件，挖出豪门惊天黑幕。\n连去好莱坞送个披萨，都能顺便拿回世界神探金奖！\n暴力警花、清纯校花、温柔御姐、顶流网红、冰山女总、国际影后……\n面对六大女神的全球通缉和围追堵截，林默骑着小电驴瑟瑟发抖：\n“美女们请自重，我真的只是个送外卖的！”",
+              "author": "枕木艮",
+              "book_id": "7599221626315492377",
+              "book_name": "探案就变强，美女警花追着我跑",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-25T17:01:02+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7599221701393531417",
+              "first_chapter_item_id": "7599221701393531417",
+              "first_chapter_title": "第1章 这外卖员不像好人",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7616906466468823614",
+              "last_chapter_item_id": "7616906466468823614",
+              "last_chapter_title": "第160章 外卖之神",
+              "last_chapter_update_time": "1773450130",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "2291",
+              "recommend_group_id": "7599221626315492377",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260319095910CD2CD28EFCCDD448ACE0\",\"rank\":\"1\",\"normal_session_id\":\"6f7ecf6e-eeba-4847-8346-1b0462415d7c\",\"cold_start_session_id\":\"40225cad-af5d-49da-ae49-640f21189427\"}",
+              "read_progress": "0",
+              "serial_count": "160",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4794bbf3aade80f64f37f26004783d77~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=wuvEeKab3GtHjtLGGdAPdYUvgK4%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "401705",
+              "score": "0",
+              "exclusive": "1",
+              "role": "林默,苏晴",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"},{\"category_id\":385,\"name\":\"校花\",\"schema\":\"dragon1967://newCategoryDetail?id=385&name=校花&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "540",
+              "sub_info": "2291人在读",
+              "last_publish_time": "1773475281",
+              "authorize_type": "1",
+              "media_id": "1851997342118923",
+              "original_book_name": "探案就变强，美女警花追着我跑",
+              "length_type": "1",
+              "op_tag": "305,535,536",
+              "keep_publish_days": "20",
+              "thumb_uri": "novel-pic/p2o4794bbf3aade80f64f37f26004783d77",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4794bbf3aade80f64f37f26004783d77~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779069550&x-signature=gFYPYd0qZ2Fgfv1pOJhJ%2BE%2BwrjQ%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "444",
+              "pure_category_tags": "都市脑洞,校花",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#182038",
+              "read_count_all": "7401",
+              "shelf_cnt_history": "1290",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507427\":1769331947,\"6589\":1769349606,\"8704\":1769331886,\"35\":1769331886,\"638505\":1769349606,\"13\":1769331886,\"507386\":1769331947,\"1967\":1769331886,\"8703\":1769331886,\"3040\":1769349606,\"8661\":1769349606,\"510893\":1769331886,\"1128\":1769331886,\"2329\":1769331886,\"596084\":1769349606,\"8662\":1769331886,\"2503\":1769331886}",
+              "category_v2_map": {
+                "1": true,
+                "516": true,
+                "19": true,
+                "91": true,
+                "262": true,
+                "522": true,
+                "385": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4794bbf3aade80f64f37f26004783d77~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=wuvEeKab3GtHjtLGGdAPdYUvgK4%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7585852356386886974,
+                  "AuthorName": "枕木艮"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4794bbf3aade80f64f37f26004783d77~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779069550&x-signature=freVJc8zjxsXLFj8210hZYw7VhM%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【都市爽文+多女主+探案系统+虐渣搞笑】\n林默是个满脸麻子、自卑到不敢摘口罩的底层外卖员。\n一次送餐误入凶案现场，被暴力警花苏晴当成变态杀手死死按住。\n这一按，却激活了【外卖神探系统】，只要送单遇案，破案就变强！\n首单奖励【盛世美颜丹】，当他在审讯室摘下口罩的那一刻。\n警花看呆：这特么是嫌疑人？这分明是谪仙下凡！\n从此，林默在送外卖的路上越跑越偏：\n给校花送奶茶，顺手破了坠楼悬案。\n帮女总裁送文件，挖出豪门惊天黑幕。\n连去好莱坞送个披萨，都能顺便拿回世界神探金奖！\n暴力警花、清纯校花、温柔御姐、顶流网红、冰山女总、国际影后……\n面对六大女神的全球通缉和围追堵截，林默骑着小电驴瑟瑟发抖：\n“美女们请自重，我真的只是个送外卖的！”",
+              "read_page_progress": "0",
+              "read_cnt_text": "2291人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4794bbf3aade80f64f37f26004783d77~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779069550&x-signature=0R1AlH2a14fU6W7zumhLCMLrWAA%3D",
+              "raw_book_name": "探案就变强，美女警花追着我跑",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "10022215108782417276:49:0:2236321236:clks####3@202603190957324B988CFE8B9AF0906113",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "40.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2291人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：枕木艮",
+                "rich_text": "作者：枕木艮",
+                "high_light_position": []
+              },
+              {
+                "text": "...统】，只要送单遇案，破案就变强！ 首单奖励【盛世美颜丹】，当他在审讯室摘下口罩的那一刻。 警花看呆：这特么是嫌疑人？这分明是谪仙下凡！ 从此，林默在送外卖的路上越跑越偏： 给校花送奶茶，顺手破了坠楼悬案。 帮女总裁送文件，挖出豪门惊天黑幕。 连去好莱坞送个披萨，都能顺便拿回世界神探金奖！ 暴力警花、清纯校花、温柔御姐、顶流网红、冰山女总、国际影后…… 面对六大女神的全球通缉和围追堵截，林默骑着小电驴瑟瑟发抖： “美女们请自重，我真的只是个送外卖的！”",
+                "rich_text": "【都市爽文+多女主+探<em>案</em>系统+虐渣搞笑】\n林默是个满脸麻子、自卑到不敢摘口罩的底层外卖员。\n一次送餐误入凶<em>案</em>现场，被暴力警花苏晴当成变态杀手死死按住。\n这一按，却激活了【外卖神探系统】，只要送单遇<em>案</em>，<em>破案</em>就变强！\n首单奖励【盛世美颜丹】，当他在审讯室摘下口罩的那一刻。\n警花看呆：这特么是嫌疑人？这分明是谪仙下凡！\n从此，林默在送外卖的路上越跑越偏：\n给校花送奶茶，顺手<em>破</em>了坠楼悬<em>案</em>。\n帮女总裁送文件，挖出豪门惊天黑幕。\n连去好莱坞送个披萨，都能顺便拿回世界神探金奖！\n暴力警花、清纯校花、温柔御姐、顶流网红、冰山女总、国际影后……\n面对六大女神的全球通缉和围追堵截，林默骑着小电驴瑟瑟发抖：\n“美女们请自重，我真的只是个送外卖的！”",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "50",
+      "search_id": "clks####3@202603190957324B988CFE8B9AF0906113",
+      "query": "破案",
+      "next_offset": 50,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@202603190957324B988CFE8B9AF0906113",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"20260319095910CD2CD28EFCCDD448ACE0\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@202603190957324B988CFE8B9AF0906113",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@202603190957324B988CFE8B9AF0906113",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "20260319095910CD2CD28EFCCDD448ACE0"
+}

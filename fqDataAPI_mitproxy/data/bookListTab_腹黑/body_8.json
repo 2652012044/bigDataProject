@@ -1,0 +1,2635 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@20260319103137B601043C61BD18EF3F28",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@20260319103137B601043C61BD18EF3F28",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@20260319103137B601043C61BD18EF3F28",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@20260319103137B601043C61BD18EF3F28",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@20260319103137B601043C61BD18EF3F28",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@20260319103137B601043C61BD18EF3F28",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1050,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7426658295399582745",
+          "search_result_id": "7426658295399582745",
+          "search_high_light": {
+            "title": {
+              "text": "腹黑丞相总是威胁朕",
+              "rich_text": "<em>腹黑</em>丞相总是威胁朕",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...美人皇帝x见钱眼开的腹黑丞相，1v1 he】 夜流筲一朝穿成黎国的病美人太子，一醒来逆臣谋反，让他捡了便宜第一日就登上了皇位。 当皇帝什么都好，只是朝中丞相权倾朝野一手遮天说一不二。 见面第一次，丞相说:“当皇帝可以，但是微臣想感受感受当皇后一人之下万人之上是什么感觉。” 见面第二次，他说:“帮忙也可以，但各国进献的珍宝尽数纳入我府中。” …… 1.夜流筲（shao第一声，只想活着 越卿（很狗，很不要脸，实力宠妻） 2.甜！爽！宠！欢乐多多，私设较多，有修仙元素，1v1 he！",
+              "rich_text": "【努力活着的阳光美人皇帝x见钱眼开的<em>腹黑</em>丞相，1v1 he】\n夜流筲一朝穿成黎国的病美人太子，一醒来逆臣谋反，让他捡了便宜第一日就登上了皇位。\n当皇帝什么都好，只是朝中丞相权倾朝野一手遮天说一不二。\n见面第一次，丞相说:“当皇帝可以，但是微臣想感受感受当皇后一人之下万人之上是什么感觉。”\n见面第二次，他说:“帮忙也可以，但各国进献的珍宝尽数纳入我府中。”\n……\n1.夜流筲（shao第一声，只想活着\n越卿（很狗，很不要脸，实力宠妻）\n2.甜！爽！宠！欢乐多多，私设较多，有修仙元素，1v1 he！",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【努力活着的阳光美人皇帝x见钱眼开的腹黑丞相，1v1 he】\n夜流筲一朝穿成黎国的病美人太子，一醒来逆臣谋反，让他捡了便宜第一日就登上了皇位。\n当皇帝什么都好，只是朝中丞相权倾朝野一手遮天说一不二。\n见面第一次，丞相说:“当皇帝可以，但是微臣想感受感受当皇后一人之下万人之上是什么感觉。”\n见面第二次，他说:“帮忙也可以，但各国进献的珍宝尽数纳入我府中。”\n……\n1.夜流筲（shao第一声，只想活着\n越卿（很狗，很不要脸，实力宠妻）\n2.甜！爽！宠！欢乐多多，私设较多，有修仙元素，1v1 he！",
+              "author": "白月光不是缸",
+              "book_id": "7426658295399582745",
+              "book_name": "腹黑丞相总是威胁朕",
+              "category": "双男主",
+              "copyright_info": "版权信息：本书的数字版权由 书耽 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-10-18T18:32:19+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7428880505476500542",
+              "first_chapter_item_id": "7428880505476500542",
+              "first_chapter_title": "第1章 朕见爱卿貌美如花",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7428880501483506750",
+              "last_chapter_item_id": "7428880501483506750",
+              "last_chapter_title": "番外3（完结）",
+              "last_chapter_update_time": "1729675005",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "72",
+              "recommend_group_id": "7426658295399582745",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910330267F2356FF8ADCA604351\",\"rank\":\"1\",\"normal_session_id\":\"ef1069bb-7245-40b5-a27f-f510cf10b0fe\",\"cold_start_session_id\":\"8e5fcbb7-125f-4a04-a896-1d16c39c7457\"}",
+              "read_progress": "0",
+              "serial_count": "92",
+              "source": "书耽",
+              "tags": "双男主,宠妻",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7658a5b81e5dfa1e4ee176b96ae308b7~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=zPRaqQVQIk3Ls8OE%2F3OLoIlKxBI%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "242387",
+              "score": "0",
+              "role": "夜流筲,越卿",
+              "category_schema": "[{\"category_id\":275,\"name\":\"双男主\",\"schema\":\"dragon1967://newCategoryDetail?id=275&name=双男主&genre_type=0&gender=0&source=detail\"},{\"category_id\":30,\"name\":\"宠妻\",\"schema\":\"dragon1967://newCategoryDetail?id=30&name=宠妻&genre_type=0&gender=0&source=detail\"},{\"category_id\":92,\"name\":\"腹黑\",\"schema\":\"dragon1967://newCategoryDetail?id=92&name=腹黑&genre_type=0&gender=0&source=detail\"},{\"category_id\":1012,\"name\":\"纯爱\",\"schema\":\"dragon1967://newCategoryDetail?id=1012&name=纯爱&genre_type=0&gender=0&source=detail\"},{\"category_id\":758,\"name\":\"古代\",\"schema\":\"dragon1967://newCategoryDetail?id=758&name=古代&genre_type=0&gender=0&source=detail\"},{\"category_id\":464,\"name\":\"异世穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=464&name=异世穿越&genre_type=0&gender=0&source=detail\"},{\"category_id\":852,\"name\":\"魂穿\",\"schema\":\"dragon1967://newCategoryDetail?id=852&name=魂穿&genre_type=0&gender=0&source=detail\"},{\"category_id\":834,\"name\":\"1v1\",\"schema\":\"dragon1967://newCategoryDetail?id=834&name=1v1&genre_type=0&gender=0&source=detail\"},{\"category_id\":484,\"name\":\"HE\",\"schema\":\"dragon1967://newCategoryDetail?id=484&name=HE&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "2",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1729687593",
+              "authorize_type": "0",
+              "media_id": "1766219769339911",
+              "original_book_name": "腹黑丞相总是威胁朕",
+              "length_type": "1",
+              "op_tag": "1053",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/7658a5b81e5dfa1e4ee176b96ae308b7",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7658a5b81e5dfa1e4ee176b96ae308b7~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071582&x-signature=jk5rXLrHbF40HMABDAYdiO%2B2ehg%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "双男主,HE",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#302820",
+              "read_count_all": "9097",
+              "shelf_cnt_history": "1977",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"510893\":1729687654,\"2503\":1729687654,\"13\":1729687654,\"1967\":1729687654,\"507386\":1743646568,\"8703\":1745909260,\"1128\":1729687654,\"35\":1729687654,\"2329\":1729687654,\"8704\":1747725407,\"596084\":1729687654,\"6589\":1729687654,\"638505\":1729687654,\"8661\":1729687654,\"507427\":1743646568,\"3040\":1729687654,\"8662\":1729687654}",
+              "category_v2_map": {
+                "92": true,
+                "758": true,
+                "852": true,
+                "834": true,
+                "30": true,
+                "464": true,
+                "1012": true,
+                "484": true,
+                "275": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7658a5b81e5dfa1e4ee176b96ae308b7~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=zPRaqQVQIk3Ls8OE%2F3OLoIlKxBI%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7427061621001819417,
+                  "AuthorName": "白月光不是缸"
+                }
+              ],
+              "platform_book_id": "100634216",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7658a5b81e5dfa1e4ee176b96ae308b7~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071582&x-signature=Mm%2FpRxHANKCFvNDu%2FArXAI25syM%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "tts_type": "",
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【努力活着的阳光美人皇帝x见钱眼开的腹黑丞相，1v1 he】\n夜流筲一朝穿成黎国的病美人太子，一醒来逆臣谋反，让他捡了便宜第一日就登上了皇位。\n当皇帝什么都好，只是朝中丞相权倾朝野一手遮天说一不二。\n见面第一次，丞相说:“当皇帝可以，但是微臣想感受感受当皇后一人之下万人之上是什么感觉。”\n见面第二次，他说:“帮忙也可以，但各国进献的珍宝尽数纳入我府中。”\n……\n1.夜流筲（shao第一声，只想活着\n越卿（很狗，很不要脸，实力宠妻）\n2.甜！爽！宠！欢乐多多，私设较多，有修仙元素，1v1 he！",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7658a5b81e5dfa1e4ee176b96ae308b7~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=lre5djIVnWVfPbsCuD6TzvdaBGs%3D",
+              "raw_book_name": "腹黑丞相总是威胁朕",
+              "color_audio_dominate": "#3B2E24"
+            }
+          ],
+          "search_attached_info": "3484117898584904071:50:0:1810552736:clks####3@20260319103137B601043C61BD18EF3F28",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "24.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "72人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "双男主",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：白月光不是缸",
+                "rich_text": "作者：白月光不是缸",
+                "high_light_position": []
+              },
+              {
+                "text": "...美人皇帝x见钱眼开的腹黑丞相，1v1 he】 夜流筲一朝穿成黎国的病美人太子，一醒来逆臣谋反，让他捡了便宜第一日就登上了皇位。 当皇帝什么都好，只是朝中丞相权倾朝野一手遮天说一不二。 见面第一次，丞相说:“当皇帝可以，但是微臣想感受感受当皇后一人之下万人之上是什么感觉。” 见面第二次，他说:“帮忙也可以，但各国进献的珍宝尽数纳入我府中。” …… 1.夜流筲（shao第一声，只想活着 越卿（很狗，很不要脸，实力宠妻） 2.甜！爽！宠！欢乐多多，私设较多，有修仙元素，1v1 he！",
+                "rich_text": "【努力活着的阳光美人皇帝x见钱眼开的<em>腹黑</em>丞相，1v1 he】\n夜流筲一朝穿成黎国的病美人太子，一醒来逆臣谋反，让他捡了便宜第一日就登上了皇位。\n当皇帝什么都好，只是朝中丞相权倾朝野一手遮天说一不二。\n见面第一次，丞相说:“当皇帝可以，但是微臣想感受感受当皇后一人之下万人之上是什么感觉。”\n见面第二次，他说:“帮忙也可以，但各国进献的珍宝尽数纳入我府中。”\n……\n1.夜流筲（shao第一声，只想活着\n越卿（很狗，很不要脸，实力宠妻）\n2.甜！爽！宠！欢乐多多，私设较多，有修仙元素，1v1 he！",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1051,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7492355636504562712",
+          "search_result_id": "7492355636504562712",
+          "search_high_light": {
+            "abstract": {
+              "text": "螳螂捕蝉，反被“蝉”噬。 【1v1双洁+校园+坏种与病娇+囚禁强制爱（高亮加粗，能接受再入）+HE】 宋亦坏透了。 作为精神病院出来的反社会人格， 损人利己的事他常干。 某一天，酒吧里来了一个冷脸帅哥。 巧了，正是他最恶心的那位尖子生学神。 宋亦游戏输了上前搭讪，之后的许多天更是层层布局，各种引诱，终于将人追到了手。 皎大校草？清冷学神？无人能染指？ 嗤。还不是被他拉下神坛。 他觉得没意思，没多久便想潇洒抽身，临走还不忘冷酷又不失风度地宣告： “Game over，景叙别。” 活像一个运筹帷幄的掌控者，玩腻了就能随时离开，无情无义。 ……… 但事情，似乎并不像他想得那么简单。 当昔日那个处于被动方的人将他逼入狭小空间， 撕下禁欲面具的那刻， 他忽然意识到，从始至终， 自己才是那个早已深陷牢笼的猎物。 坏了，玩脱了…… - 手腕被铐牢，少年指尖捏在他唇下，轻笑着重复他的诉求。 “分手？” 可惜。 ——游戏，才刚刚开始。 * （大学校园、人物均已成年） ↑懂得都懂，反弹",
+              "rich_text": "螳螂捕蝉，反被“蝉”噬。\n【1v1双洁+校园+坏种与病娇+囚禁强制爱（高亮加粗，能接受再入）+HE】\n宋亦坏透了。\n作为精神病院出来的反社会人格，\n损人利己的事他常干。\n某一天，酒吧里来了一个冷脸帅哥。\n巧了，正是他最恶心的那位尖子生学神。\n宋亦游戏输了上前搭讪，之后的许多天更是层层布局，各种引诱，终于将人追到了手。\n皎大校草？清冷学神？无人能染指？\n嗤。还不是被他拉下神坛。\n他觉得没意思，没多久便想潇洒抽身，临走还不忘冷酷又不失风度地宣告：\n“Game over，景叙别。”\n活像一个运筹帷幄的掌控者，玩腻了就能随时离开，无情无义。\n………\n但事情，似乎并不像他想得那么简单。\n当昔日那个处于被动方的人将他逼入狭小空间，\n撕下禁欲面具的那刻，\n他忽然意识到，从始至终，\n自己才是那个早已深陷牢笼的猎物。\n坏了，玩脱了……\n-\n手腕被铐牢，少年指尖捏在他唇下，轻笑着重复他的诉求。\n“分手？”\n可惜。\n——游戏，才刚刚开始。\n*\n（大学校园、人物均已成年）\n↑懂得都懂，反弹",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "天生坏种撩到病娇学神后",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "螳螂捕蝉，反被“蝉”噬。\n【1v1双洁+校园+坏种与病娇+囚禁强制爱（高亮加粗，能接受再入）+HE】\n宋亦坏透了。\n作为精神病院出来的反社会人格，\n损人利己的事他常干。\n某一天，酒吧里来了一个冷脸帅哥。\n巧了，正是他最恶心的那位尖子生学神。\n宋亦游戏输了上前搭讪，之后的许多天更是层层布局，各种引诱，终于将人追到了手。\n皎大校草？清冷学神？无人能染指？\n嗤。还不是被他拉下神坛。\n他觉得没意思，没多久便想潇洒抽身，临走还不忘冷酷又不失风度地宣告：\n“Game over，景叙别。”\n活像一个运筹帷幄的掌控者，玩腻了就能随时离开，无情无义。\n………\n但事情，似乎并不像他想得那么简单。\n当昔日那个处于被动方的人将他逼入狭小空间，\n撕下禁欲面具的那刻，\n他忽然意识到，从始至终，\n自己才是那个早已深陷牢笼的猎物。\n坏了，玩脱了……\n-\n手腕被铐牢，少年指尖捏在他唇下，轻笑着重复他的诉求。\n“分手？”\n可惜。\n——游戏，才刚刚开始。\n*\n（大学校园、人物均已成年）\n↑懂得都懂，反弹",
+              "author": "戏榆",
+              "book_id": "7492355636504562712",
+              "book_name": "天生坏种撩到病娇学神后",
+              "category": "双男主",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-04-12T17:26:25+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7508715826610979352",
+              "first_chapter_item_id": "7508715826610979352",
+              "first_chapter_title": "第1章 一起烂掉叭｜受阴暗批攻真病娇 精神三观都有问题 不喜勿看",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7552233447817757208",
+              "last_chapter_item_id": "7552233447817757208",
+              "last_chapter_title": "第135章 补偿（正文完）",
+              "last_chapter_update_time": "1758391417",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "18493",
+              "recommend_group_id": "7492355636504562712",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910330267F2356FF8ADCA604351\",\"rank\":\"1\",\"normal_session_id\":\"ef1069bb-7245-40b5-a27f-f510cf10b0fe\",\"cold_start_session_id\":\"8e5fcbb7-125f-4a04-a896-1d16c39c7457\"}",
+              "read_progress": "0",
+              "serial_count": "135",
+              "source": "番茄小说",
+              "tags": "双男主,病娇",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9dbb44484fe5d74fa46e7e9de4dc9d01~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=xeiA3rkJdz5Ft4dKuvNASepyj4U%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "258477",
+              "score": "9.1",
+              "exclusive": "1",
+              "role": "宋亦,景叙别",
+              "category_schema": "[{\"category_id\":275,\"name\":\"双男主\",\"schema\":\"dragon1967://newCategoryDetail?id=275&name=双男主&genre_type=0&gender=0&source=detail\"},{\"category_id\":380,\"name\":\"病娇\",\"schema\":\"dragon1967://newCategoryDetail?id=380&name=病娇&genre_type=0&gender=0&source=detail\"},{\"category_id\":702,\"name\":\"双洁\",\"schema\":\"dragon1967://newCategoryDetail?id=702&name=双洁&genre_type=0&gender=0&source=detail\"},{\"category_id\":757,\"name\":\"现代\",\"schema\":\"dragon1967://newCategoryDetail?id=757&name=现代&genre_type=0&gender=0&source=detail\"},{\"category_id\":834,\"name\":\"1v1\",\"schema\":\"dragon1967://newCategoryDetail?id=834&name=1v1&genre_type=0&gender=0&source=detail\"},{\"category_id\":1012,\"name\":\"纯爱\",\"schema\":\"dragon1967://newCategoryDetail?id=1012&name=纯爱&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "1170",
+              "sub_info": "1.9万人在读",
+              "last_publish_time": "1758391424",
+              "authorize_type": "1",
+              "media_id": "1801566522537994",
+              "original_book_name": "病娇预热",
+              "length_type": "1",
+              "op_tag": "531,535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/9dbb44484fe5d74fa46e7e9de4dc9d01",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/5a2044c9dee98255df8329f5035e0316",
+              "data_rate": "",
+              "all_bookshelf_count": "4607",
+              "pure_category_tags": "双男主,纯爱",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#181010",
+              "read_count_all": "302712",
+              "shelf_cnt_history": "109430",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"35\":1748233617,\"507427\":1748233679,\"8704\":1748233617,\"3040\":1748934318,\"8703\":1748233617,\"8662\":1748233617,\"1128\":1748233617,\"2503\":1748233617,\"1967\":1748233617,\"13\":1748233617,\"596084\":1748934318,\"8661\":1748934318,\"2329\":1748233617,\"1319\":1748921629,\"638505\":1748934318,\"6589\":1748934318,\"507386\":1748233679,\"510893\":1748233617}",
+              "category_v2_map": {
+                "702": true,
+                "757": true,
+                "834": true,
+                "275": true,
+                "1012": true,
+                "380": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9dbb44484fe5d74fa46e7e9de4dc9d01~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=xeiA3rkJdz5Ft4dKuvNASepyj4U%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7379221188238644542,
+                  "AuthorName": "戏榆"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/5a2044c9dee98255df8329f5035e0316~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071582&x-signature=Q%2B2WRRyLFmZfCyl7pI%2BTDyGTmxQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "螳螂捕蝉，反被“蝉”噬。\n【1v1双洁+校园+坏种与病娇+囚禁强制爱（高亮加粗，能接受再入）+HE】\n宋亦坏透了。\n作为精神病院出来的反社会人格，\n损人利己的事他常干。\n某一天，酒吧里来了一个冷脸帅哥。\n巧了，正是他最恶心的那位尖子生学神。\n宋亦游戏输了上前搭讪，之后的许多天更是层层布局，各种引诱，终于将人追到了手。\n皎大校草？清冷学神？无人能染指？\n嗤。还不是被他拉下神坛。\n他觉得没意思，没多久便想潇洒抽身，临走还不忘冷酷又不失风度地宣告：\n“Game over，景叙别。”\n活像一个运筹帷幄的掌控者，玩腻了就能随时离开，无情无义。\n………\n但事情，似乎并不像他想得那么简单。\n当昔日那个处于被动方的人将他逼入狭小空间，\n撕下禁欲面具的那刻，\n他忽然意识到，从始至终，\n自己才是那个早已深陷牢笼的猎物。\n坏了，玩脱了……\n-\n手腕被铐牢，少年指尖捏在他唇下，轻笑着重复他的诉求。\n“分手？”\n可惜。\n——游戏，才刚刚开始。\n*\n（大学校园、人物均已成年）\n↑懂得都懂，反弹",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.9万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9dbb44484fe5d74fa46e7e9de4dc9d01~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=r2WTgu0GmkOnwvPkCiE%2FZppFLNc%3D",
+              "raw_book_name": "天生坏种撩到病娇学神后",
+              "color_audio_dominate": "#252725",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "3484117898584904071:51:0:1728853508:clks####3@20260319103137B601043C61BD18EF3F28",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "25.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "双男主",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：戏榆",
+                "rich_text": "作者：戏榆",
+                "high_light_position": []
+              },
+              {
+                "text": "螳螂捕蝉，反被“蝉”噬。 【1v1双洁+校园+坏种与病娇+囚禁强制爱（高亮加粗，能接受再入）+HE】 宋亦坏透了。 作为精神病院出来的反社会人格， 损人利己的事他常干。 某一天，酒吧里来了一个冷脸帅哥。 巧了，正是他最恶心的那位尖子生学神。 宋亦游戏输了上前搭讪，之后的许多天更是层层布局，各种引诱，终于将人追到了手。 皎大校草？清冷学神？无人能染指？ 嗤。还不是被他拉下神坛。 他觉得没意思，没多久便想潇洒抽身，临走还不忘冷酷又不失风度地宣告： “Game over，景叙别。” 活像一个运筹帷幄的掌控者，玩腻了就能随时离开，无情无义。 ……… 但事情，似乎并不像他想得那么简单。 当昔日那个处于被动方的人将他逼入狭小空间， 撕下禁欲面具的那刻， 他忽然意识到，从始至终， 自己才是那个早已深陷牢笼的猎物。 坏了，玩脱了…… - 手腕被铐牢，少年指尖捏在他唇下，轻笑着重复他的诉求。 “分手？” 可惜。 ——游戏，才刚刚开始。 * （大学校园、人物均已成年） ↑懂得都懂，反弹",
+                "rich_text": "螳螂捕蝉，反被“蝉”噬。\n【1v1双洁+校园+坏种与病娇+囚禁强制爱（高亮加粗，能接受再入）+HE】\n宋亦坏透了。\n作为精神病院出来的反社会人格，\n损人利己的事他常干。\n某一天，酒吧里来了一个冷脸帅哥。\n巧了，正是他最恶心的那位尖子生学神。\n宋亦游戏输了上前搭讪，之后的许多天更是层层布局，各种引诱，终于将人追到了手。\n皎大校草？清冷学神？无人能染指？\n嗤。还不是被他拉下神坛。\n他觉得没意思，没多久便想潇洒抽身，临走还不忘冷酷又不失风度地宣告：\n“Game over，景叙别。”\n活像一个运筹帷幄的掌控者，玩腻了就能随时离开，无情无义。\n………\n但事情，似乎并不像他想得那么简单。\n当昔日那个处于被动方的人将他逼入狭小空间，\n撕下禁欲面具的那刻，\n他忽然意识到，从始至终，\n自己才是那个早已深陷牢笼的猎物。\n坏了，玩脱了……\n-\n手腕被铐牢，少年指尖捏在他唇下，轻笑着重复他的诉求。\n“分手？”\n可惜。\n——游戏，才刚刚开始。\n*\n（大学校园、人物均已成年）\n↑懂得都懂，反弹",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1052,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7516129746225220632",
+          "search_result_id": "7516129746225220632",
+          "search_high_light": {
+            "title": {
+              "text": "腹黑女遇到腹黑男",
+              "rich_text": "<em>腹黑</em>女遇到<em>腹黑</em>男",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  5,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...到爱的滋味，爱上不该爱的男人，痛失孩子，从天真变成一系列的腹黑女。解除误会最后的重归于好。",
+              "rich_text": "有着对自己打骂的父亲，尝到爱的滋味，爱上不该爱的男人，痛失孩子，从天真变成一系列的<em>腹黑</em>女。解除误会最后的重归于好。",
+              "high_light_position": [
+                [
+                  32,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "有着对自己打骂的父亲，尝到爱的滋味，爱上不该爱的男人，痛失孩子，从天真变成一系列的腹黑女。解除误会最后的重归于好。",
+              "author": "榴莲和肉",
+              "book_id": "7516129746225220632",
+              "book_name": "腹黑女遇到腹黑男",
+              "category": "豪门总裁",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-06-15T19:02:06+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7516130176158155288",
+              "first_chapter_item_id": "7516130176158155288",
+              "first_chapter_title": "第1章 产生逃离的想法",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7530138146047001112",
+              "last_chapter_item_id": "7530138146047001112",
+              "last_chapter_title": "第84章 一家四口出来野餐",
+              "last_chapter_update_time": "1753248321",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "7",
+              "recommend_group_id": "7516129746225220632",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910330267F2356FF8ADCA604351\",\"rank\":\"1\",\"normal_session_id\":\"ef1069bb-7245-40b5-a27f-f510cf10b0fe\",\"cold_start_session_id\":\"8e5fcbb7-125f-4a04-a896-1d16c39c7457\"}",
+              "read_progress": "0",
+              "serial_count": "84",
+              "source": "番茄小说",
+              "tags": "豪门总裁,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0d909e9d0dac40877747ec9faac690cf~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=VQ9yTgLZVgF16T77nQ4rmBkX75c%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "107678",
+              "score": "0",
+              "exclusive": "1",
+              "role": "安苒,季晏礼",
+              "category_schema": "[{\"category_id\":748,\"name\":\"豪门总裁\",\"schema\":\"dragon1967://newCategoryDetail?id=748&name=豪门总裁&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":29,\"name\":\"总裁\",\"schema\":\"dragon1967://newCategoryDetail?id=29&name=总裁&genre_type=0&gender=0&source=detail\"},{\"category_id\":92,\"name\":\"腹黑\",\"schema\":\"dragon1967://newCategoryDetail?id=92&name=腹黑&genre_type=0&gender=0&source=detail\"},{\"category_id\":473,\"name\":\"豪门世家\",\"schema\":\"dragon1967://newCategoryDetail?id=473&name=豪门世家&genre_type=0&gender=0&source=detail\"},{\"category_id\":34,\"name\":\"婚恋\",\"schema\":\"dragon1967://newCategoryDetail?id=34&name=婚恋&genre_type=0&gender=0&source=detail\"},{\"category_id\":475,\"name\":\"破镜重圆\",\"schema\":\"dragon1967://newCategoryDetail?id=475&name=破镜重圆&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "2",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1753248331",
+              "authorize_type": "1",
+              "media_id": "1834990923310105",
+              "original_book_name": "腹黑女遇到腹黑男",
+              "length_type": "1",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2o0d909e9d0dac40877747ec9faac690cf",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0d909e9d0dac40877747ec9faac690cf~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071582&x-signature=wjj%2FdQtYH7EKOME8GJEd1PRcut4%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "豪门总裁,破镜重圆",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#202020",
+              "read_count_all": "120",
+              "shelf_cnt_history": "973",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1128\":1749998177,\"2329\":1749998177,\"8662\":1749998177,\"507427\":1749998240,\"8703\":1749998177,\"596084\":1751603080,\"8661\":1751603080,\"6589\":1751603080,\"1967\":1749998177,\"35\":1749998177,\"8704\":1749998177,\"3040\":1751603080,\"638505\":1751603080,\"13\":1749998177,\"507386\":1749998240,\"2503\":1749998177,\"510893\":1749998177}",
+              "category_v2_map": {
+                "29": true,
+                "92": true,
+                "748": true,
+                "473": true,
+                "34": true,
+                "475": true,
+                "3": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0d909e9d0dac40877747ec9faac690cf~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=VQ9yTgLZVgF16T77nQ4rmBkX75c%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7516129746804036888,
+                  "AuthorName": "榴莲和肉"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0d909e9d0dac40877747ec9faac690cf~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071582&x-signature=6EGwzTethtrCSvk%2BKwMA2E2LYeQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "有着对自己打骂的父亲，尝到爱的滋味，爱上不该爱的男人，痛失孩子，从天真变成一系列的腹黑女。解除误会最后的重归于好。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o0d909e9d0dac40877747ec9faac690cf~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=TuASmDys2m35pfZDbOQ1WslwixY%3D",
+              "raw_book_name": "腹黑女遇到腹黑男",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "3484117898584904071:52:0:3185521240:clks####3@20260319103137B601043C61BD18EF3F28",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "10.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "7人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "豪门总裁",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：榴莲和肉",
+                "rich_text": "作者：榴莲和肉",
+                "high_light_position": []
+              },
+              {
+                "text": "...到爱的滋味，爱上不该爱的男人，痛失孩子，从天真变成一系列的腹黑女。解除误会最后的重归于好。",
+                "rich_text": "有着对自己打骂的父亲，尝到爱的滋味，爱上不该爱的男人，痛失孩子，从天真变成一系列的<em>腹黑</em>女。解除误会最后的重归于好。",
+                "high_light_position": [
+                  [
+                    32,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1053,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7491136615453051928",
+          "search_result_id": "7491136615453051928",
+          "search_high_light": {
+            "abstract": {
+              "text": "（一个纸片人觉醒挣脱剧情安排，再谈个年下弟弟的言情故事） 【男主阴暗绿茶又疯又抢VS女主清醒搞钱大小姐，年下，双洁。】 宋枕星发现自己只是豪门言情小说里被网暴自杀的小配角后，决心撕掉柔弱小白花的标签。 反手捅渣男，搞钱搞事业，还顺手养了个容貌绝色的穷大学生。 被养的陆狰20岁，很乖很听话，很茶很黏人，动不动就眼眶泛红地看她。 “姐姐，我错了，我保证听话。” “姐姐，你身上怎么这么香？” …… 某一天，她苏醒在陌生地方，双手被反绑椅后。 陆狰在她面前蹲下来，眼中再无温顺，只剩森冷阴鸷—— “姐姐，我做你挂件这么久，是不是该换换位了？” “姐姐，你现在回头看我一眼，我就不弄死他。” 原来他不穷，他是陆家下任家主，动动手就可以捏死所有的人物。 他也不乖，他……只想占有她，不惜一切手段。",
+              "rich_text": "（一个纸片人觉醒挣脱剧情安排，再谈个年下弟弟的言情故事）\n【男主阴暗绿茶又疯又抢VS女主清醒搞钱大小姐，年下，双洁。】\n宋枕星发现自己只是豪门言情小说里被网暴自杀的小配角后，决心撕掉柔弱小白花的标签。\n反手捅渣男，搞钱搞事业，还顺手养了个容貌绝色的穷大学生。\n被养的陆狰20岁，很乖很听话，很茶很黏人，动不动就眼眶泛红地看她。\n“姐姐，我错了，我保证听话。”\n“姐姐，你身上怎么这么香？”\n……\n某一天，她苏醒在陌生地方，双手被反绑椅后。\n陆狰在她面前蹲下来，眼中再无温顺，只剩森冷阴鸷——\n“姐姐，我做你挂件这么久，是不是该换换位了？”\n“姐姐，你现在回头看我一眼，我就不弄死他。”\n原来他不穷，他是陆家下任家主，动动手就可以捏死所有的人物。\n他也不乖，他……只想占有她，不惜一切手段。",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "玩够了吗！",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "（一个纸片人觉醒挣脱剧情安排，再谈个年下弟弟的言情故事）\n【男主阴暗绿茶又疯又抢VS女主清醒搞钱大小姐，年下，双洁。】\n宋枕星发现自己只是豪门言情小说里被网暴自杀的小配角后，决心撕掉柔弱小白花的标签。\n反手捅渣男，搞钱搞事业，还顺手养了个容貌绝色的穷大学生。\n被养的陆狰20岁，很乖很听话，很茶很黏人，动不动就眼眶泛红地看她。\n“姐姐，我错了，我保证听话。”\n“姐姐，你身上怎么这么香？”\n……\n某一天，她苏醒在陌生地方，双手被反绑椅后。\n陆狰在她面前蹲下来，眼中再无温顺，只剩森冷阴鸷——\n“姐姐，我做你挂件这么久，是不是该换换位了？”\n“姐姐，你现在回头看我一眼，我就不弄死他。”\n原来他不穷，他是陆家下任家主，动动手就可以捏死所有的人物。\n他也不乖，他……只想占有她，不惜一切手段。",
+              "author": "九棂",
+              "book_id": "7491136615453051928",
+              "book_name": "玩够了吗！",
+              "category": "豪门总裁",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-04-09T10:35:59+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7491136964515594776",
+              "first_chapter_item_id": "7491136964515594776",
+              "first_chapter_title": "第1章 我感觉有人在暗中窥视我",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7589578050212200984",
+              "last_chapter_item_id": "7589578050212200984",
+              "last_chapter_title": "番外：宋陆陆其人（完）",
+              "last_chapter_update_time": "1767086579",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "17827",
+              "recommend_group_id": "7491136615453051928",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910330267F2356FF8ADCA604351\",\"rank\":\"1\",\"normal_session_id\":\"ef1069bb-7245-40b5-a27f-f510cf10b0fe\",\"cold_start_session_id\":\"8e5fcbb7-125f-4a04-a896-1d16c39c7457\"}",
+              "read_progress": "0",
+              "serial_count": "427",
+              "source": "番茄小说",
+              "tags": "豪门总裁,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d12205a2fc891fc932df333331d70f36~tplv-shrink:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=VvGfO%2FWHdD%2FZeEGwAK7zbE1O7zU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "878018",
+              "score": "9.2",
+              "exclusive": "1",
+              "role": "宋枕星,陆狰",
+              "category_schema": "[{\"category_id\":748,\"name\":\"豪门总裁\",\"schema\":\"dragon1967://newCategoryDetail?id=748&name=豪门总裁&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":457,\"name\":\"虐渣\",\"schema\":\"dragon1967://newCategoryDetail?id=457&name=虐渣&genre_type=0&gender=0&source=detail\"},{\"category_id\":519,\"name\":\"大小姐\",\"schema\":\"dragon1967://newCategoryDetail?id=519&name=大小姐&genre_type=0&gender=0&source=detail\"},{\"category_id\":702,\"name\":\"双洁\",\"schema\":\"dragon1967://newCategoryDetail?id=702&name=双洁&genre_type=0&gender=0&source=detail\"},{\"category_id\":829,\"name\":\"年下\",\"schema\":\"dragon1967://newCategoryDetail?id=829&name=年下&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "1676",
+              "sub_info": "1.8万人在读",
+              "last_publish_time": "1767086589",
+              "authorize_type": "1",
+              "media_id": "1664463277166606",
+              "original_book_name": "脱笼",
+              "length_type": "1",
+              "op_tag": "531,535,536,989",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/d12205a2fc891fc932df333331d70f36",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c2fa9b53f2fcd81069acd3be72f30c72~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071582&x-signature=uED6Q%2FI1Ze95Ye4cE8oJf6TSppk%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "2818",
+              "pure_category_tags": "豪门总裁,年下",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#080038",
+              "read_count_all": "249801",
+              "shelf_cnt_history": "59064",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8703\":1744953082,\"6589\":1744190435,\"1128\":1744166412,\"8704\":1747756568,\"507427\":1744166472,\"8661\":1744190435,\"596084\":1744190435,\"1319\":1744180245,\"2329\":1744166412,\"507386\":1744166472,\"510893\":1744166412,\"3040\":1744190435,\"1967\":1744166412,\"35\":1744166412,\"638505\":1744190435,\"8662\":1744166412,\"2503\":1744166412,\"13\":1744166412}",
+              "category_v2_map": {
+                "3": true,
+                "457": true,
+                "702": true,
+                "748": true,
+                "519": true,
+                "829": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d12205a2fc891fc932df333331d70f36~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=4jWsmF2LaxPDcjhYN9rJksXwPWI%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6914862135394702605,
+                  "AuthorName": "九棂"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "破笼！",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/c2fa9b53f2fcd81069acd3be72f30c72~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071582&x-signature=Y17%2Fu7B%2Bqw7M9FU5lvlGJWJSMOk%3D",
+              "reputation_thumb_uri": "novel-pic-r/83a8f17b46f342387b9a37b88124931f",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "（一个纸片人觉醒挣脱剧情安排，再谈个年下弟弟的言情故事）\n【男主阴暗绿茶又疯又抢VS女主清醒搞钱大小姐，年下，双洁。】\n宋枕星发现自己只是豪门言情小说里被网暴自杀的小配角后，决心撕掉柔弱小白花的标签。\n反手捅渣男，搞钱搞事业，还顺手养了个容貌绝色的穷大学生。\n被养的陆狰20岁，很乖很听话，很茶很黏人，动不动就眼眶泛红地看她。\n“姐姐，我错了，我保证听话。”\n“姐姐，你身上怎么这么香？”\n……\n某一天，她苏醒在陌生地方，双手被反绑椅后。\n陆狰在她面前蹲下来，眼中再无温顺，只剩森冷阴鸷——\n“姐姐，我做你挂件这么久，是不是该换换位了？”\n“姐姐，你现在回头看我一眼，我就不弄死他。”\n原来他不穷，他是陆家下任家主，动动手就可以捏死所有的人物。\n他也不乖，他……只想占有她，不惜一切手段。",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.8万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d12205a2fc891fc932df333331d70f36~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=TtG0bG3M2dXWjO%2FU3ADV4xR0tYU%3D",
+              "raw_book_name": "玩够了吗！",
+              "related_bookids": "{\"1967\":{\"261\":[7560580577611484185,7572522089165360152,7605855549686549528],\"203\":[7530130991134821401,7560532217726782489,7561294658526006297,7579670591674780696,7585145906475846718,7605917655538600984]},\"507386\":{\"261\":[7560580577611484185,7572522089165360152,7605855549686549528],\"203\":[7530130991134821401,7560532217726782489,7561294658526006297,7579670591674780696,7585145906475846718,7605917655538600984]},\"507427\":{\"261\":[7560580577611484185,7572522089165360152,7605855549686549528],\"203\":[7530130991134821401,7560532217726782489,7561294658526006297,7579670591674780696,7585145906475846718,7605917655538600984]},\"8662\":{\"203\":[7530130991134821401,7560532217726782489,7561294658526006297,7579670591674780696,7585145906475846718,7605917655538600984],\"261\":[7560580577611484185,7572522089165360152,7605855549686549528]},\"3040\":{\"261\":[7560580577611484185,7572522089165360152,7605855549686549528],\"203\":[7530130991134821401,7560532217726782489,7561294658526006297,7579670591674780696,7585145906475846718,7605917655538600984]}}",
+              "color_audio_dominate": "#574A3C",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "3484117898584904071:53:0:246578953:clks####3@20260319103137B601043C61BD18EF3F28",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "“细糠”",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "87.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "豪门总裁",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：九棂",
+                "rich_text": "作者：九棂",
+                "high_light_position": []
+              },
+              {
+                "text": "（一个纸片人觉醒挣脱剧情安排，再谈个年下弟弟的言情故事） 【男主阴暗绿茶又疯又抢VS女主清醒搞钱大小姐，年下，双洁。】 宋枕星发现自己只是豪门言情小说里被网暴自杀的小配角后，决心撕掉柔弱小白花的标签。 反手捅渣男，搞钱搞事业，还顺手养了个容貌绝色的穷大学生。 被养的陆狰20岁，很乖很听话，很茶很黏人，动不动就眼眶泛红地看她。 “姐姐，我错了，我保证听话。” “姐姐，你身上怎么这么香？” …… 某一天，她苏醒在陌生地方，双手被反绑椅后。 陆狰在她面前蹲下来，眼中再无温顺，只剩森冷阴鸷—— “姐姐，我做你挂件这么久，是不是该换换位了？” “姐姐，你现在回头看我一眼，我就不弄死他。” 原来他不穷，他是陆家下任家主，动动手就可以捏死所有的人物。 他也不乖，他……只想占有她，不惜一切手段。",
+                "rich_text": "（一个纸片人觉醒挣脱剧情安排，再谈个年下弟弟的言情故事）\n【男主阴暗绿茶又疯又抢VS女主清醒搞钱大小姐，年下，双洁。】\n宋枕星发现自己只是豪门言情小说里被网暴自杀的小配角后，决心撕掉柔弱小白花的标签。\n反手捅渣男，搞钱搞事业，还顺手养了个容貌绝色的穷大学生。\n被养的陆狰20岁，很乖很听话，很茶很黏人，动不动就眼眶泛红地看她。\n“姐姐，我错了，我保证听话。”\n“姐姐，你身上怎么这么香？”\n……\n某一天，她苏醒在陌生地方，双手被反绑椅后。\n陆狰在她面前蹲下来，眼中再无温顺，只剩森冷阴鸷——\n“姐姐，我做你挂件这么久，是不是该换换位了？”\n“姐姐，你现在回头看我一眼，我就不弄死他。”\n原来他不穷，他是陆家下任家主，动动手就可以捏死所有的人物。\n他也不乖，他……只想占有她，不惜一切手段。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1054,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7574543901835398206",
+          "search_result_id": "7574543901835398206",
+          "search_high_light": {
+            "abstract": {
+              "text": "白月兮穿成了一本虐身虐心古早文里的女主，已和男主定下婚约！ 　　可这书里的男主就是典型的空调烂-瓜，婚前有通房不说，婚后还会纳好多妾。 　　这也就罢了，男主偶尔查案归来，还会带回一些柔弱孤女，让女主帮忙安置，不愿离去的孤女最终都成了他的通房… 　　作为现代人的白月兮只想切掉这-瓜！ 　　渣狗男人绝对不能要！ 　　她深知两家婚约毁不了，于是只能试着换人。 　　男主的那个弟弟陆景之未有过通房，书里的他不近女色，到死都没娶亲。 　　成亲对象若是换成他，倒是可以。 　　只是陆景之是书里的大反派，还是个杀人不眨眼、喜怒无常的疯批，勾引他…会不会小命不保？ 　　婚期渐近，先撩再说！ 　　她原以为撩拨之路道阻且长。 　　谁知撩了几次后，那向来阴郁的陆景之指腹摩挲过她的脸，声线喑哑危险：“嫂嫂，你说…待会儿我大哥闯进来，看见我躺在他未来夫人的床上，会是个…什么表情？嗯？” 　　红帐暖烛间，白月兮终于惊恐发现——这疯批似乎比原著描写得还要不对劲！ 　　现在跑…还来得及吗？",
+              "rich_text": "白月兮穿成了一本虐身虐心古早文里的女主，已和男主定下婚约！\n　　可这书里的男主就是典型的空调烂-瓜，婚前有通房不说，婚后还会纳好多妾。\n　　这也就罢了，男主偶尔查案归来，还会带回一些柔弱孤女，让女主帮忙安置，不愿离去的孤女最终都成了他的通房…\n　　作为现代人的白月兮只想切掉这-瓜！\n　　渣狗男人绝对不能要！\n　　她深知两家婚约毁不了，于是只能试着换人。\n　　男主的那个弟弟陆景之未有过通房，书里的他不近女色，到死都没娶亲。\n　　成亲对象若是换成他，倒是可以。\n　　只是陆景之是书里的大反派，还是个杀人不眨眼、喜怒无常的疯批，勾引他…会不会小命不保？\n　　婚期渐近，先撩再说！\n　　她原以为撩拨之路道阻且长。\n　　谁知撩了几次后，那向来阴郁的陆景之指<em>腹</em>摩挲过她的脸，声线喑哑危险：“嫂嫂，你说…待会儿我大哥闯进来，看见我躺在他未来夫人的床上，会是个…什么表情？嗯？”\n　　红帐暖烛间，白月兮终于惊恐发现——这疯批似乎比原著描写得还要不对劲！\n　　现在跑…还来得及吗？",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "夺兄妻！扑权臣怀里哭，他红温了",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "白月兮穿成了一本虐身虐心古早文里的女主，已和男主定下婚约！\n　　可这书里的男主就是典型的空调烂-瓜，婚前有通房不说，婚后还会纳好多妾。\n　　这也就罢了，男主偶尔查案归来，还会带回一些柔弱孤女，让女主帮忙安置，不愿离去的孤女最终都成了他的通房…\n　　作为现代人的白月兮只想切掉这-瓜！\n　　渣狗男人绝对不能要！\n　　她深知两家婚约毁不了，于是只能试着换人。\n　　男主的那个弟弟陆景之未有过通房，书里的他不近女色，到死都没娶亲。\n　　成亲对象若是换成他，倒是可以。\n　　只是陆景之是书里的大反派，还是个杀人不眨眼、喜怒无常的疯批，勾引他…会不会小命不保？\n　　婚期渐近，先撩再说！\n　　她原以为撩拨之路道阻且长。\n　　谁知撩了几次后，那向来阴郁的陆景之指腹摩挲过她的脸，声线喑哑危险：“嫂嫂，你说…待会儿我大哥闯进来，看见我躺在他未来夫人的床上，会是个…什么表情？嗯？”\n　　红帐暖烛间，白月兮终于惊恐发现——这疯批似乎比原著描写得还要不对劲！\n　　现在跑…还来得及吗？",
+              "author": "安小爷",
+              "book_id": "7574543901835398206",
+              "book_name": "夺兄妻！扑权臣怀里哭，他红温了",
+              "category": "宫斗宅斗",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-11-20T04:58:52+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7574543960681480766",
+              "first_chapter_item_id": "7574543960681480766",
+              "first_chapter_title": "第1章 穿成古早虐文女主",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7600649643864621630",
+              "last_chapter_item_id": "7600649643864621630",
+              "last_chapter_title": "圆满大结局",
+              "last_chapter_update_time": "1769972131",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "17882",
+              "recommend_group_id": "7574543901835398206",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910330267F2356FF8ADCA604351\",\"rank\":\"1\",\"normal_session_id\":\"ef1069bb-7245-40b5-a27f-f510cf10b0fe\",\"cold_start_session_id\":\"8e5fcbb7-125f-4a04-a896-1d16c39c7457\"}",
+              "read_progress": "0",
+              "serial_count": "208",
+              "source": "番茄小说",
+              "tags": "宫斗宅斗,古代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/8eb5424786ea33c8b0b2f1d378333c73~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=hogMESze7l1pUXke5Vtzf0ewXk4%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "530007",
+              "score": "7.7",
+              "exclusive": "1",
+              "role": "白月兮,陆景之",
+              "category_schema": "[{\"category_id\":246,\"name\":\"宫斗宅斗\",\"schema\":\"dragon1967://newCategoryDetail?id=246&name=宫斗宅斗&genre_type=0&gender=0&source=detail\"},{\"category_id\":5,\"name\":\"古代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=5&name=古代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":247,\"name\":\"医术\",\"schema\":\"dragon1967://newCategoryDetail?id=247&name=医术&genre_type=0&gender=0&source=detail\"},{\"category_id\":369,\"name\":\"反派\",\"schema\":\"dragon1967://newCategoryDetail?id=369&name=反派&genre_type=0&gender=0&source=detail\"},{\"category_id\":382,\"name\":\"穿书\",\"schema\":\"dragon1967://newCategoryDetail?id=382&name=穿书&genre_type=0&gender=0&source=detail\"},{\"category_id\":1459,\"name\":\"攻略反派\",\"schema\":\"dragon1967://newCategoryDetail?id=1459&name=攻略反派&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "6207",
+              "sub_info": "1.8万人在读",
+              "last_publish_time": "1769972141",
+              "authorize_type": "1",
+              "media_id": "1770726070903811",
+              "original_book_name": "踹掉空调男主，勾搭疯批反派",
+              "length_type": "1",
+              "op_tag": "305,535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/8eb5424786ea33c8b0b2f1d378333c73",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/370e915b2aae20bf9c1f02aceda394bb",
+              "data_rate": "",
+              "all_bookshelf_count": "3361",
+              "pure_category_tags": "宫斗宅斗,攻略反派",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#102840",
+              "read_count_all": "122693",
+              "shelf_cnt_history": "20958",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"510893\":1763598604,\"507427\":1763598664,\"3040\":1764558610,\"35\":1763598604,\"2329\":1763598604,\"13\":1763598604,\"1967\":1763598604,\"8661\":1764558610,\"2503\":1763598604,\"8662\":1763598604,\"8703\":1763598604,\"8704\":1763598604,\"507386\":1763598664,\"596084\":1764558610,\"6589\":1764558610,\"638505\":1764558610,\"1128\":1763598604}",
+              "category_v2_map": {
+                "382": true,
+                "247": true,
+                "369": true,
+                "1459": true,
+                "246": true,
+                "5": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/8eb5424786ea33c8b0b2f1d378333c73~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=hogMESze7l1pUXke5Vtzf0ewXk4%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7254396745210139938,
+                  "AuthorName": "安小爷"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/370e915b2aae20bf9c1f02aceda394bb~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071582&x-signature=%2FX%2Bi8Yy%2FJpvTjvu9ZWiIZBPopOs%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "白月兮穿成了一本虐身虐心古早文里的女主，已和男主定下婚约！\n　　可这书里的男主就是典型的空调烂-瓜，婚前有通房不说，婚后还会纳好多妾。\n　　这也就罢了，男主偶尔查案归来，还会带回一些柔弱孤女，让女主帮忙安置，不愿离去的孤女最终都成了他的通房…\n　　作为现代人的白月兮只想切掉这-瓜！\n　　渣狗男人绝对不能要！\n　　她深知两家婚约毁不了，于是只能试着换人。\n　　男主的那个弟弟陆景之未有过通房，书里的他不近女色，到死都没娶亲。\n　　成亲对象若是换成他，倒是可以。\n　　只是陆景之是书里的大反派，还是个杀人不眨眼、喜怒无常的疯批，勾引他…会不会小命不保？\n　　婚期渐近，先撩再说！\n　　她原以为撩拨之路道阻且长。\n　　谁知撩了几次后，那向来阴郁的陆景之指腹摩挲过她的脸，声线喑哑危险：“嫂嫂，你说…待会儿我大哥闯进来，看见我躺在他未来夫人的床上，会是个…什么表情？嗯？”\n　　红帐暖烛间，白月兮终于惊恐发现——这疯批似乎比原著描写得还要不对劲！\n　　现在跑…还来得及吗？",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.8万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/8eb5424786ea33c8b0b2f1d378333c73~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=gc816eIVBBKbWVaDEMykojnJ1Ow%3D",
+              "raw_book_name": "夺兄妻！扑权臣怀里哭，他红温了",
+              "color_audio_dominate": "#211C26",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "3484117898584904071:54:0:3228360232:clks####3@20260319103137B601043C61BD18EF3F28",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "53.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "宫斗宅斗",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：安小爷",
+                "rich_text": "作者：安小爷",
+                "high_light_position": []
+              },
+              {
+                "text": "白月兮穿成了一本虐身虐心古早文里的女主，已和男主定下婚约！ 　　可这书里的男主就是典型的空调烂-瓜，婚前有通房不说，婚后还会纳好多妾。 　　这也就罢了，男主偶尔查案归来，还会带回一些柔弱孤女，让女主帮忙安置，不愿离去的孤女最终都成了他的通房… 　　作为现代人的白月兮只想切掉这-瓜！ 　　渣狗男人绝对不能要！ 　　她深知两家婚约毁不了，于是只能试着换人。 　　男主的那个弟弟陆景之未有过通房，书里的他不近女色，到死都没娶亲。 　　成亲对象若是换成他，倒是可以。 　　只是陆景之是书里的大反派，还是个杀人不眨眼、喜怒无常的疯批，勾引他…会不会小命不保？ 　　婚期渐近，先撩再说！ 　　她原以为撩拨之路道阻且长。 　　谁知撩了几次后，那向来阴郁的陆景之指腹摩挲过她的脸，声线喑哑危险：“嫂嫂，你说…待会儿我大哥闯进来，看见我躺在他未来夫人的床上，会是个…什么表情？嗯？” 　　红帐暖烛间，白月兮终于惊恐发现——这疯批似乎比原著描写得还要不对劲！ 　　现在跑…还来得及吗？",
+                "rich_text": "白月兮穿成了一本虐身虐心古早文里的女主，已和男主定下婚约！\n　　可这书里的男主就是典型的空调烂-瓜，婚前有通房不说，婚后还会纳好多妾。\n　　这也就罢了，男主偶尔查案归来，还会带回一些柔弱孤女，让女主帮忙安置，不愿离去的孤女最终都成了他的通房…\n　　作为现代人的白月兮只想切掉这-瓜！\n　　渣狗男人绝对不能要！\n　　她深知两家婚约毁不了，于是只能试着换人。\n　　男主的那个弟弟陆景之未有过通房，书里的他不近女色，到死都没娶亲。\n　　成亲对象若是换成他，倒是可以。\n　　只是陆景之是书里的大反派，还是个杀人不眨眼、喜怒无常的疯批，勾引他…会不会小命不保？\n　　婚期渐近，先撩再说！\n　　她原以为撩拨之路道阻且长。\n　　谁知撩了几次后，那向来阴郁的陆景之指<em>腹</em>摩挲过她的脸，声线喑哑危险：“嫂嫂，你说…待会儿我大哥闯进来，看见我躺在他未来夫人的床上，会是个…什么表情？嗯？”\n　　红帐暖烛间，白月兮终于惊恐发现——这疯批似乎比原著描写得还要不对劲！\n　　现在跑…还来得及吗？",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1055,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7344186113424116761",
+          "search_result_id": "7344186113424116761",
+          "search_high_light": {
+            "abstract": {
+              "text": "（骂了他们可不能骂我了呀） ［病娇+拉丝张力+明撩暗钓+圈套与禁区+双洁+HE+1V1］ 夜倾，南城谁人不知大小姐冰肌玉骨，明眸皓齿，但性格叛逆顽劣，又疯又毒，谁惹谁倒霉，如一朵绽放的百合，带着毒。 大小姐十八岁那年一副油画被拍出高价，名震画坛。 油作极致疯狂，被全网疯传。 所有人都在等大小姐下一副惊世骇作，但没人知道夜倾陷入了迷茫低谷 ，再无灵感。大小姐向来随性，并不在意 。但被大学导师吵的实在没办法。 去了一家素描画室找灵感。 舞台中央的少年一张贵气逼人的俊脸，垂睫是孤清寡言，抿唇也勾人眼，只是单单往中间一坐，便就是一副明耀璀璨的“世界名画。” 不可否认的，她消失了近半年的灵感来了。少年的方方面面，都无比符合她对美学独特的破坏欲。 所以……她设了一场局，一场以身犯险的局。 “哥哥，好喜欢你啊。” “好想跟哥哥永远在一起。” 这样的情话数不胜数，迟寂本也不信，谁家姑娘会冲到大马路上碰瓷 ，明言失忆。 但后来——他信了。 无数个夜晚，他们极致缠绵。她所有的要求他都答应。 直到那天宾利的车穿透雨雾，他才知道她有多高不可攀口中无一句真话 连爱他都是假的。 —— “哥哥，游戏结束，你输了。”",
+              "rich_text": "（骂了他们可不能骂我了呀）\n［病娇+拉丝张力+明撩暗钓+圈套与禁区+双洁+HE+1V1］\n夜倾，南城谁人不知大小姐冰肌玉骨，明眸皓齿，但性格叛逆顽劣，又疯又毒，谁惹谁倒霉，如一朵绽放的百合，带着毒。\n大小姐十八岁那年一副油画被拍出高价，名震画坛。\n油作极致疯狂，被全网疯传。\n所有人都在等大小姐下一副惊世骇作，但没人知道夜倾陷入了迷茫低谷 ，再无灵感。大小姐向来随性，并不在意 。但被大学导师吵的实在没办法。\n去了一家素描画室找灵感。\n舞台中央的少年一张贵气逼人的俊脸，垂睫是孤清寡言，抿唇也勾人眼，只是单单往中间一坐，便就是一副明耀璀璨的“世界名画。”\n不可否认的，她消失了近半年的灵感来了。少年的方方面面，都无比符合她对美学独特的破坏欲。\n所以……她设了一场局，一场以身犯险的局。\n“哥哥，好喜欢你啊。”\n“好想跟哥哥永远在一起。”\n这样的情话数不胜数，迟寂本也不信，谁家姑娘会冲到大马路上碰瓷 ，明言失忆。\n但后来——他信了。\n无数个夜晚，他们极致缠绵。她所有的要求他都答应。\n直到那天宾利的车穿透雨雾，他才知道她有多高不可攀口中无一句真话 连爱他都是假的。\n——\n“哥哥，游戏结束，你输了。”",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "被病娇大小姐强取豪夺了",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "（骂了他们可不能骂我了呀）\n［病娇+拉丝张力+明撩暗钓+圈套与禁区+双洁+HE+1V1］\n夜倾，南城谁人不知大小姐冰肌玉骨，明眸皓齿，但性格叛逆顽劣，又疯又毒，谁惹谁倒霉，如一朵绽放的百合，带着毒。\n大小姐十八岁那年一副油画被拍出高价，名震画坛。\n油作极致疯狂，被全网疯传。\n所有人都在等大小姐下一副惊世骇作，但没人知道夜倾陷入了迷茫低谷 ，再无灵感。大小姐向来随性，并不在意 。但被大学导师吵的实在没办法。\n去了一家素描画室找灵感。\n舞台中央的少年一张贵气逼人的俊脸，垂睫是孤清寡言，抿唇也勾人眼，只是单单往中间一坐，便就是一副明耀璀璨的“世界名画。”\n不可否认的，她消失了近半年的灵感来了。少年的方方面面，都无比符合她对美学独特的破坏欲。\n所以……她设了一场局，一场以身犯险的局。\n“哥哥，好喜欢你啊。”\n“好想跟哥哥永远在一起。”\n这样的情话数不胜数，迟寂本也不信，谁家姑娘会冲到大马路上碰瓷 ，明言失忆。\n但后来——他信了。\n无数个夜晚，他们极致缠绵。她所有的要求他都答应。\n直到那天宾利的车穿透雨雾，他才知道她有多高不可攀口中无一句真话 连爱他都是假的。\n——\n“哥哥，游戏结束，你输了。”",
+              "author": "汐临",
+              "book_id": "7344186113424116761",
+              "book_name": "被病娇大小姐强取豪夺了",
+              "category": "豪门总裁",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-03-09T10:32:59+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7355815839787926041",
+              "first_chapter_item_id": "7355815839787926041",
+              "first_chapter_title": "第1章“让你撞上去，没听见。”",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7397752269296386585",
+              "last_chapter_item_id": "7397752269296386585",
+              "last_chapter_title": "第166章“全文完”",
+              "last_chapter_update_time": "1722434800",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "1149",
+              "recommend_group_id": "7344186113424116761",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910330267F2356FF8ADCA604351\",\"rank\":\"1\",\"normal_session_id\":\"ef1069bb-7245-40b5-a27f-f510cf10b0fe\",\"cold_start_session_id\":\"8e5fcbb7-125f-4a04-a896-1d16c39c7457\"}",
+              "read_progress": "0",
+              "serial_count": "166",
+              "source": "番茄小说",
+              "tags": "豪门总裁,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oaa4fcf583bb8603ac979b13e1d7b358b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=4rssVNi3923zw%2BrLpz%2FGSqYC%2F5o%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "328441",
+              "score": "7.3",
+              "exclusive": "1",
+              "role": "夜倾,迟寂",
+              "category_schema": "[{\"category_id\":748,\"name\":\"豪门总裁\",\"schema\":\"dragon1967://newCategoryDetail?id=748&name=豪门总裁&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":380,\"name\":\"病娇\",\"schema\":\"dragon1967://newCategoryDetail?id=380&name=病娇&genre_type=0&gender=0&source=detail\"},{\"category_id\":473,\"name\":\"豪门世家\",\"schema\":\"dragon1967://newCategoryDetail?id=473&name=豪门世家&genre_type=0&gender=0&source=detail\"},{\"category_id\":484,\"name\":\"HE\",\"schema\":\"dragon1967://newCategoryDetail?id=484&name=HE&genre_type=0&gender=0&source=detail\"},{\"category_id\":519,\"name\":\"大小姐\",\"schema\":\"dragon1967://newCategoryDetail?id=519&name=大小姐&genre_type=0&gender=0&source=detail\"},{\"category_id\":702,\"name\":\"双洁\",\"schema\":\"dragon1967://newCategoryDetail?id=702&name=双洁&genre_type=0&gender=0&source=detail\"},{\"category_id\":834,\"name\":\"1v1\",\"schema\":\"dragon1967://newCategoryDetail?id=834&name=1v1&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "31",
+              "sub_info": "1149人在读",
+              "last_publish_time": "1722436158",
+              "authorize_type": "1",
+              "media_id": "1770461220254735",
+              "original_book_name": "被病娇大小姐强取豪夺了",
+              "length_type": "1",
+              "op_tag": "536,888,1032,873,305,889,846,535",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2oaa4fcf583bb8603ac979b13e1d7b358b",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oaa4fcf583bb8603ac979b13e1d7b358b~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071582&x-signature=5J1OjPrC1N0M7eKUsVtZry5bCws%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "豪门总裁,1v1",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#284890",
+              "read_count_all": "249378",
+              "shelf_cnt_history": "25185",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2329\":1712672011,\"507427\":1743081379,\"8661\":1713282083,\"2503\":1712672011,\"1128\":1712672011,\"638505\":1724811050,\"507386\":1743081379,\"510893\":1712672011,\"8703\":1744958643,\"13\":1712672011,\"426946\":1736165512,\"35\":1712672011,\"8662\":1712672011,\"3040\":1713282083,\"596084\":1715092017,\"8704\":1747357738,\"6589\":1713282083,\"1967\":1712672011}",
+              "category_v2_map": {
+                "702": true,
+                "3": true,
+                "484": true,
+                "834": true,
+                "748": true,
+                "380": true,
+                "473": true,
+                "519": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oaa4fcf583bb8603ac979b13e1d7b358b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=4rssVNi3923zw%2BrLpz%2FGSqYC%2F5o%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7251822616715990304,
+                  "AuthorName": "汐临"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oaa4fcf583bb8603ac979b13e1d7b358b~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071582&x-signature=oHlzEkl%2Fav6vcLSE3bj2URcpWDs%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "（骂了他们可不能骂我了呀）\n［病娇+拉丝张力+明撩暗钓+圈套与禁区+双洁+HE+1V1］\n夜倾，南城谁人不知大小姐冰肌玉骨，明眸皓齿，但性格叛逆顽劣，又疯又毒，谁惹谁倒霉，如一朵绽放的百合，带着毒。\n大小姐十八岁那年一副油画被拍出高价，名震画坛。\n油作极致疯狂，被全网疯传。\n所有人都在等大小姐下一副惊世骇作，但没人知道夜倾陷入了迷茫低谷 ，再无灵感。大小姐向来随性，并不在意 。但被大学导师吵的实在没办法。\n去了一家素描画室找灵感。\n舞台中央的少年一张贵气逼人的俊脸，垂睫是孤清寡言，抿唇也勾人眼，只是单单往中间一坐，便就是一副明耀璀璨的“世界名画。”\n不可否认的，她消失了近半年的灵感来了。少年的方方面面，都无比符合她对美学独特的破坏欲。\n所以……她设了一场局，一场以身犯险的局。\n“哥哥，好喜欢你啊。”\n“好想跟哥哥永远在一起。”\n这样的情话数不胜数，迟寂本也不信，谁家姑娘会冲到大马路上碰瓷 ，明言失忆。\n但后来——他信了。\n无数个夜晚，他们极致缠绵。她所有的要求他都答应。\n直到那天宾利的车穿透雨雾，他才知道她有多高不可攀口中无一句真话 连爱他都是假的。\n——\n“哥哥，游戏结束，你输了。”",
+              "read_page_progress": "0",
+              "read_cnt_text": "1149人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oaa4fcf583bb8603ac979b13e1d7b358b~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=djlHrhJAJ2i2p3VJ%2FfK18jAewhg%3D",
+              "raw_book_name": "被病娇大小姐强取豪夺了",
+              "color_audio_dominate": "#29468C"
+            }
+          ],
+          "search_attached_info": "3484117898584904071:55:0:3854303888:clks####3@20260319103137B601043C61BD18EF3F28",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "32.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1149人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "豪门总裁",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：汐临",
+                "rich_text": "作者：汐临",
+                "high_light_position": []
+              },
+              {
+                "text": "（骂了他们可不能骂我了呀） ［病娇+拉丝张力+明撩暗钓+圈套与禁区+双洁+HE+1V1］ 夜倾，南城谁人不知大小姐冰肌玉骨，明眸皓齿，但性格叛逆顽劣，又疯又毒，谁惹谁倒霉，如一朵绽放的百合，带着毒。 大小姐十八岁那年一副油画被拍出高价，名震画坛。 油作极致疯狂，被全网疯传。 所有人都在等大小姐下一副惊世骇作，但没人知道夜倾陷入了迷茫低谷 ，再无灵感。大小姐向来随性，并不在意 。但被大学导师吵的实在没办法。 去了一家素描画室找灵感。 舞台中央的少年一张贵气逼人的俊脸，垂睫是孤清寡言，抿唇也勾人眼，只是单单往中间一坐，便就是一副明耀璀璨的“世界名画。” 不可否认的，她消失了近半年的灵感来了。少年的方方面面，都无比符合她对美学独特的破坏欲。 所以……她设了一场局，一场以身犯险的局。 “哥哥，好喜欢你啊。” “好想跟哥哥永远在一起。” 这样的情话数不胜数，迟寂本也不信，谁家姑娘会冲到大马路上碰瓷 ，明言失忆。 但后来——他信了。 无数个夜晚，他们极致缠绵。她所有的要求他都答应。 直到那天宾利的车穿透雨雾，他才知道她有多高不可攀口中无一句真话 连爱他都是假的。 —— “哥哥，游戏结束，你输了。”",
+                "rich_text": "（骂了他们可不能骂我了呀）\n［病娇+拉丝张力+明撩暗钓+圈套与禁区+双洁+HE+1V1］\n夜倾，南城谁人不知大小姐冰肌玉骨，明眸皓齿，但性格叛逆顽劣，又疯又毒，谁惹谁倒霉，如一朵绽放的百合，带着毒。\n大小姐十八岁那年一副油画被拍出高价，名震画坛。\n油作极致疯狂，被全网疯传。\n所有人都在等大小姐下一副惊世骇作，但没人知道夜倾陷入了迷茫低谷 ，再无灵感。大小姐向来随性，并不在意 。但被大学导师吵的实在没办法。\n去了一家素描画室找灵感。\n舞台中央的少年一张贵气逼人的俊脸，垂睫是孤清寡言，抿唇也勾人眼，只是单单往中间一坐，便就是一副明耀璀璨的“世界名画。”\n不可否认的，她消失了近半年的灵感来了。少年的方方面面，都无比符合她对美学独特的破坏欲。\n所以……她设了一场局，一场以身犯险的局。\n“哥哥，好喜欢你啊。”\n“好想跟哥哥永远在一起。”\n这样的情话数不胜数，迟寂本也不信，谁家姑娘会冲到大马路上碰瓷 ，明言失忆。\n但后来——他信了。\n无数个夜晚，他们极致缠绵。她所有的要求他都答应。\n直到那天宾利的车穿透雨雾，他才知道她有多高不可攀口中无一句真话 连爱他都是假的。\n——\n“哥哥，游戏结束，你输了。”",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1056,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7499003416476126233",
+          "search_result_id": "7499003416476126233",
+          "search_high_light": {
+            "abstract": {
+              "text": "...高岭之花 占有欲强 腹黑太子爷】 【男主疯批强制 又争又抢又强 / 男二追妻火葬场】 贺凛川有多“馋”江漪？ 在她成人礼那天，他就盯上她了。 在他的暗示下，两家长辈谈起了联姻之事。说笑间，就定下了婚约。 奈何，江漪早已心有所属。 十岁那年，父母离婚，把江漪当成球一样踢来踢去时，爷爷将她接回了老宅。 她每每偷偷哭泣，都是顾濯穿过两家的诺大庭院，来到身旁，哄她，陪她，等爷爷回家。 从那以后，顾濯这个名字，便藏进了少女书包夹层的日记里，随着时光流淌，渐起涟漪。 而在江漪眼里，贺凛川只是顾濯的一个朋友，而已。 她没想过有一天，她会和贺凛川协议结婚，明明白纸黑字写着：婚期一年，互不干涉，恪守界限。 贺凛川却在顾濯的生日宴上醋意大发，将她抵进游轮旋转楼梯的暗影，近乎掠夺地啃噬着她的呼吸。 骨节分明的手指掐住她后颈，指间碾过被吻得红肿的唇瓣，声音暗哑：“江漪，顾濯能给你的，我能给得更野、更疯。\"",
+              "rich_text": "（已完结＊喜欢强制爱可入。）\n【深陷泥潭 不屈不挠 带刺小公主VS高岭之花 占有欲强 <em>腹黑</em>太子爷】\n【男主疯批强制 又争又抢又强 / 男二追妻火葬场】\n贺凛川有多“馋”江漪？\n在她成人礼那天，他就盯上她了。\n在他的暗示下，两家长辈谈起了联姻之事。说笑间，就定下了婚约。\n奈何，江漪早已心有所属。\n十岁那年，父母离婚，把江漪当成球一样踢来踢去时，爷爷将她接回了老宅。\n她每每偷偷哭泣，都是顾濯穿过两家的诺大庭院，来到身旁，哄她，陪她，等爷爷回家。\n从那以后，顾濯这个名字，便藏进了少女书包夹层的日记里，随着时光流淌，渐起涟漪。\n而在江漪眼里，贺凛川只是顾濯的一个朋友，而已。\n她没想过有一天，她会和贺凛川协议结婚，明明白纸<em>黑</em>字写着：婚期一年，互不干涉，恪守界限。\n贺凛川却在顾濯的生日宴上醋意大发，将她抵进游轮旋转楼梯的暗影，近乎掠夺地啃噬着她的呼吸。\n骨节分明的手指掐住她后颈，指间碾过被吻得红肿的唇瓣，声音暗哑：“江漪，顾濯能给你的，我能给得更野、更疯。\"",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "纠缠！失控！禁欲贺总已馋疯！",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "（已完结＊喜欢强制爱可入。）\n【深陷泥潭 不屈不挠 带刺小公主VS高岭之花 占有欲强 腹黑太子爷】\n【男主疯批强制 又争又抢又强 / 男二追妻火葬场】\n贺凛川有多“馋”江漪？\n在她成人礼那天，他就盯上她了。\n在他的暗示下，两家长辈谈起了联姻之事。说笑间，就定下了婚约。\n奈何，江漪早已心有所属。\n十岁那年，父母离婚，把江漪当成球一样踢来踢去时，爷爷将她接回了老宅。\n她每每偷偷哭泣，都是顾濯穿过两家的诺大庭院，来到身旁，哄她，陪她，等爷爷回家。\n从那以后，顾濯这个名字，便藏进了少女书包夹层的日记里，随着时光流淌，渐起涟漪。\n而在江漪眼里，贺凛川只是顾濯的一个朋友，而已。\n她没想过有一天，她会和贺凛川协议结婚，明明白纸黑字写着：婚期一年，互不干涉，恪守界限。\n贺凛川却在顾濯的生日宴上醋意大发，将她抵进游轮旋转楼梯的暗影，近乎掠夺地啃噬着她的呼吸。\n骨节分明的手指掐住她后颈，指间碾过被吻得红肿的唇瓣，声音暗哑：“江漪，顾濯能给你的，我能给得更野、更疯。\"",
+              "author": "蘭亭叙",
+              "book_id": "7499003416476126233",
+              "book_name": "纠缠！失控！禁欲贺总已馋疯！",
+              "category": "豪门总裁",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-04-30T15:23:12+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7499111551975047705",
+              "first_chapter_item_id": "7499111551975047705",
+              "first_chapter_title": "第1章 刺猬",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7558495350453961278",
+              "last_chapter_item_id": "7558495350453961278",
+              "last_chapter_title": "第234章 完结感言",
+              "last_chapter_update_time": "1759852675",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "3387",
+              "recommend_group_id": "7499003416476126233",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910330267F2356FF8ADCA604351\",\"rank\":\"1\",\"normal_session_id\":\"ef1069bb-7245-40b5-a27f-f510cf10b0fe\",\"cold_start_session_id\":\"8e5fcbb7-125f-4a04-a896-1d16c39c7457\"}",
+              "read_progress": "0",
+              "serial_count": "234",
+              "source": "番茄小说",
+              "tags": "豪门总裁,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4cbcd4c86f1a0e22ec2532837051921f~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=wG3VmD5Fg8tehy1nWghtenv9N6I%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "512014",
+              "score": "7.7",
+              "exclusive": "1",
+              "role": "江漪,贺凛川",
+              "category_schema": "[{\"category_id\":748,\"name\":\"豪门总裁\",\"schema\":\"dragon1967://newCategoryDetail?id=748&name=豪门总裁&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":29,\"name\":\"总裁\",\"schema\":\"dragon1967://newCategoryDetail?id=29&name=总裁&genre_type=0&gender=0&source=detail\"},{\"category_id\":92,\"name\":\"腹黑\",\"schema\":\"dragon1967://newCategoryDetail?id=92&name=腹黑&genre_type=0&gender=0&source=detail\"},{\"category_id\":616,\"name\":\"追妻火葬场\",\"schema\":\"dragon1967://newCategoryDetail?id=616&name=追妻火葬场&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "513",
+              "sub_info": "3387人在读",
+              "last_publish_time": "1759852685",
+              "authorize_type": "1",
+              "media_id": "1737015345084428",
+              "original_book_name": "掌心难逃！腹黑太子爷占有欲爆表",
+              "length_type": "1",
+              "op_tag": "305,535,536,900",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/4cbcd4c86f1a0e22ec2532837051921f",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe1dafb3aff70b0ee9cd0324c309dd41e~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071582&x-signature=%2FqXCCmYk%2Bm0f3nYzWHoK968Q86Y%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "453",
+              "pure_category_tags": "豪门总裁,追妻火葬场",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#101020",
+              "read_count_all": "300056",
+              "shelf_cnt_history": "40076",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"510893\":1746057147,\"638505\":1747210875,\"6589\":1747210875,\"8703\":1746057147,\"1128\":1746057147,\"507386\":1746057209,\"35\":1746057147,\"507427\":1746057209,\"596084\":1747210875,\"8704\":1747129638,\"1967\":1746057147,\"2329\":1746057147,\"8662\":1746057147,\"3040\":1747210875,\"8661\":1747210875,\"13\":1746057147,\"2503\":1746057147}",
+              "category_v2_map": {
+                "29": true,
+                "92": true,
+                "748": true,
+                "616": true,
+                "3": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4cbcd4c86f1a0e22ec2532837051921f~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=wG3VmD5Fg8tehy1nWghtenv9N6I%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7288908003326039331,
+                  "AuthorName": "蘭亭叙"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oe1dafb3aff70b0ee9cd0324c309dd41e~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071582&x-signature=gt4bVN08zLyThYtLphcdEjw%2FcGc%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "（已完结＊喜欢强制爱可入。）\n【深陷泥潭 不屈不挠 带刺小公主VS高岭之花 占有欲强 腹黑太子爷】\n【男主疯批强制 又争又抢又强 / 男二追妻火葬场】\n贺凛川有多“馋”江漪？\n在她成人礼那天，他就盯上她了。\n在他的暗示下，两家长辈谈起了联姻之事。说笑间，就定下了婚约。\n奈何，江漪早已心有所属。\n十岁那年，父母离婚，把江漪当成球一样踢来踢去时，爷爷将她接回了老宅。\n她每每偷偷哭泣，都是顾濯穿过两家的诺大庭院，来到身旁，哄她，陪她，等爷爷回家。\n从那以后，顾濯这个名字，便藏进了少女书包夹层的日记里，随着时光流淌，渐起涟漪。\n而在江漪眼里，贺凛川只是顾濯的一个朋友，而已。\n她没想过有一天，她会和贺凛川协议结婚，明明白纸黑字写着：婚期一年，互不干涉，恪守界限。\n贺凛川却在顾濯的生日宴上醋意大发，将她抵进游轮旋转楼梯的暗影，近乎掠夺地啃噬着她的呼吸。\n骨节分明的手指掐住她后颈，指间碾过被吻得红肿的唇瓣，声音暗哑：“江漪，顾濯能给你的，我能给得更野、更疯。\"",
+              "read_page_progress": "0",
+              "read_cnt_text": "3387人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4cbcd4c86f1a0e22ec2532837051921f~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=DkNtkXM2sVqn88MnNsiwBTM2bHs%3D",
+              "raw_book_name": "纠缠！失控！禁欲贺总已馋疯！",
+              "color_audio_dominate": "#2F241A",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "3484117898584904071:56:0:675467965:clks####3@20260319103137B601043C61BD18EF3F28",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "51.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3387人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "豪门总裁",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：蘭亭叙",
+                "rich_text": "作者：蘭亭叙",
+                "high_light_position": []
+              },
+              {
+                "text": "...高岭之花 占有欲强 腹黑太子爷】 【男主疯批强制 又争又抢又强 / 男二追妻火葬场】 贺凛川有多“馋”江漪？ 在她成人礼那天，他就盯上她了。 在他的暗示下，两家长辈谈起了联姻之事。说笑间，就定下了婚约。 奈何，江漪早已心有所属。 十岁那年，父母离婚，把江漪当成球一样踢来踢去时，爷爷将她接回了老宅。 她每每偷偷哭泣，都是顾濯穿过两家的诺大庭院，来到身旁，哄她，陪她，等爷爷回家。 从那以后，顾濯这个名字，便藏进了少女书包夹层的日记里，随着时光流淌，渐起涟漪。 而在江漪眼里，贺凛川只是顾濯的一个朋友，而已。 她没想过有一天，她会和贺凛川协议结婚，明明白纸黑字写着：婚期一年，互不干涉，恪守界限。 贺凛川却在顾濯的生日宴上醋意大发，将她抵进游轮旋转楼梯的暗影，近乎掠夺地啃噬着她的呼吸。 骨节分明的手指掐住她后颈，指间碾过被吻得红肿的唇瓣，声音暗哑：“江漪，顾濯能给你的，我能给得更野、更疯。\"",
+                "rich_text": "（已完结＊喜欢强制爱可入。）\n【深陷泥潭 不屈不挠 带刺小公主VS高岭之花 占有欲强 <em>腹黑</em>太子爷】\n【男主疯批强制 又争又抢又强 / 男二追妻火葬场】\n贺凛川有多“馋”江漪？\n在她成人礼那天，他就盯上她了。\n在他的暗示下，两家长辈谈起了联姻之事。说笑间，就定下了婚约。\n奈何，江漪早已心有所属。\n十岁那年，父母离婚，把江漪当成球一样踢来踢去时，爷爷将她接回了老宅。\n她每每偷偷哭泣，都是顾濯穿过两家的诺大庭院，来到身旁，哄她，陪她，等爷爷回家。\n从那以后，顾濯这个名字，便藏进了少女书包夹层的日记里，随着时光流淌，渐起涟漪。\n而在江漪眼里，贺凛川只是顾濯的一个朋友，而已。\n她没想过有一天，她会和贺凛川协议结婚，明明白纸<em>黑</em>字写着：婚期一年，互不干涉，恪守界限。\n贺凛川却在顾濯的生日宴上醋意大发，将她抵进游轮旋转楼梯的暗影，近乎掠夺地啃噬着她的呼吸。\n骨节分明的手指掐住她后颈，指间碾过被吻得红肿的唇瓣，声音暗哑：“江漪，顾濯能给你的，我能给得更野、更疯。\"",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1057,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7503474954478832664",
+          "search_result_id": "7503474954478832664",
+          "search_high_light": {
+            "abstract": {
+              "text": "【1V1双洁+破镜重圆+外冷乖仔X毒舌拽哥+he】（正文完结） 盛夷光四年前从弹幕得知，他只是一本小说里爱而不得的恶毒反派，他的存在只为了衬托官配的爱有多深，爱有多真。 他因此和裴度分手，说尽了难听的话，做好了翻脸成仇，老死不相往来的准备。 可四年后，一场醉酒，打乱了计划。 盛夷光看到躺在身边的裴度，果断爬起来跑路。 他确定，现场没留下任何能够证明他身份的线索。 裴度想破脑袋也不会想到他的身上。 但是。 裴度报警了。 盛夷光被迫站在裴度面前，承认昨晚犯下的错。 他不解。 你是别人的官配，为什么抓着我不放？？？",
+              "rich_text": "【1V1双洁+破镜重圆+外冷乖仔X毒舌拽哥+he】（正文完结）\n盛夷光四年前从弹幕得知，他只是一本小说里爱而不得的恶毒反派，他的存在只为了衬托官配的爱有多深，爱有多真。\n他因此和裴度分手，说尽了难听的话，做好了翻脸成仇，老死不相往来的准备。\n可四年后，一场醉酒，打乱了计划。\n盛夷光看到躺在身边的裴度，果断爬起来跑路。\n他确定，现场没留下任何能够证明他身份的线索。\n裴度想破脑袋也不会想到他的身上。\n但是。\n裴度报警了。\n盛夷光被迫站在裴度面前，承认昨晚犯下的错。\n他不解。\n你是别人的官配，为什么抓着我不放？？？",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "不复合，就亲哭",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【1V1双洁+破镜重圆+外冷乖仔X毒舌拽哥+he】（正文完结）\n盛夷光四年前从弹幕得知，他只是一本小说里爱而不得的恶毒反派，他的存在只为了衬托官配的爱有多深，爱有多真。\n他因此和裴度分手，说尽了难听的话，做好了翻脸成仇，老死不相往来的准备。\n可四年后，一场醉酒，打乱了计划。\n盛夷光看到躺在身边的裴度，果断爬起来跑路。\n他确定，现场没留下任何能够证明他身份的线索。\n裴度想破脑袋也不会想到他的身上。\n但是。\n裴度报警了。\n盛夷光被迫站在裴度面前，承认昨晚犯下的错。\n他不解。\n你是别人的官配，为什么抓着我不放？？？",
+              "author": "梅子瞎了",
+              "book_id": "7503474954478832664",
+              "book_name": "不复合，就亲哭",
+              "category": "双男主",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-05-12T16:35:03+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7503477260024807960",
+              "first_chapter_item_id": "7503477260024807960",
+              "first_chapter_title": "第1章 不敢说好久不见",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7539631783705330200",
+              "last_chapter_item_id": "7539631783705330200",
+              "last_chapter_title": "第171章 大学番外（49）",
+              "last_chapter_update_time": "1755457371",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "108133",
+              "recommend_group_id": "7503474954478832664",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910330267F2356FF8ADCA604351\",\"rank\":\"1\",\"normal_session_id\":\"ef1069bb-7245-40b5-a27f-f510cf10b0fe\",\"cold_start_session_id\":\"8e5fcbb7-125f-4a04-a896-1d16c39c7457\"}",
+              "read_progress": "0",
+              "serial_count": "171",
+              "source": "番茄小说",
+              "tags": "双男主,破镜重圆",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a5a0620f07dbc3a687b273356faf8658~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=FO4YSiPwKERoFm5egfcALeUDORw%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "395119",
+              "score": "9.3",
+              "exclusive": "1",
+              "role": "盛夷光,裴度",
+              "category_schema": "[{\"category_id\":275,\"name\":\"双男主\",\"schema\":\"dragon1967://newCategoryDetail?id=275&name=双男主&genre_type=0&gender=0&source=detail\"},{\"category_id\":475,\"name\":\"破镜重圆\",\"schema\":\"dragon1967://newCategoryDetail?id=475&name=破镜重圆&genre_type=0&gender=0&source=detail\"},{\"category_id\":702,\"name\":\"双洁\",\"schema\":\"dragon1967://newCategoryDetail?id=702&name=双洁&genre_type=0&gender=0&source=detail\"},{\"category_id\":757,\"name\":\"现代\",\"schema\":\"dragon1967://newCategoryDetail?id=757&name=现代&genre_type=0&gender=0&source=detail\"},{\"category_id\":834,\"name\":\"1v1\",\"schema\":\"dragon1967://newCategoryDetail?id=834&name=1v1&genre_type=0&gender=0&source=detail\"},{\"category_id\":1012,\"name\":\"纯爱\",\"schema\":\"dragon1967://newCategoryDetail?id=1012&name=纯爱&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7541255096663804952]",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "8486",
+              "sub_info": "10.9万人在读",
+              "last_publish_time": "1755457381",
+              "authorize_type": "1",
+              "media_id": "1667311879392270",
+              "original_book_name": "清冷美人？不，他是顶级魅魔",
+              "length_type": "1",
+              "op_tag": "900,531,535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/a5a0620f07dbc3a687b273356faf8658",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/0522e700c39065a8f057b4fb53efd544",
+              "data_rate": "",
+              "all_bookshelf_count": "23775",
+              "pure_category_tags": "双男主,纯爱",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#081050",
+              "read_count_all": "2721501",
+              "shelf_cnt_history": "854510",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2329\":1747039606,\"510893\":1747039606,\"8704\":1747105822,\"35\":1747039606,\"8661\":1747126080,\"2503\":1747039606,\"1319\":1747108015,\"507427\":1747039666,\"3040\":1747126080,\"596084\":1747126080,\"638505\":1747126080,\"13\":1747039606,\"8703\":1747039606,\"507386\":1747039666,\"8662\":1747039606,\"1967\":1747039606,\"6589\":1747126080,\"1128\":1747039606}",
+              "category_v2_map": {
+                "757": true,
+                "275": true,
+                "834": true,
+                "1012": true,
+                "475": true,
+                "702": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a5a0620f07dbc3a687b273356faf8658~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=FO4YSiPwKERoFm5egfcALeUDORw%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6914887059555489038,
+                  "AuthorName": "梅子瞎了"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/0522e700c39065a8f057b4fb53efd544~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071582&x-signature=OJNLAuKk%2F0N7IcBGeozdkrRcv1Y%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【1V1双洁+破镜重圆+外冷乖仔X毒舌拽哥+he】（正文完结）\n盛夷光四年前从弹幕得知，他只是一本小说里爱而不得的恶毒反派，他的存在只为了衬托官配的爱有多深，爱有多真。\n他因此和裴度分手，说尽了难听的话，做好了翻脸成仇，老死不相往来的准备。\n可四年后，一场醉酒，打乱了计划。\n盛夷光看到躺在身边的裴度，果断爬起来跑路。\n他确定，现场没留下任何能够证明他身份的线索。\n裴度想破脑袋也不会想到他的身上。\n但是。\n裴度报警了。\n盛夷光被迫站在裴度面前，承认昨晚犯下的错。\n他不解。\n你是别人的官配，为什么抓着我不放？？？",
+              "read_page_progress": "0",
+              "read_cnt_text": "10.9万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a5a0620f07dbc3a687b273356faf8658~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=rOB54S8Ka%2Bj452HBifFpzkUOGX4%3D",
+              "raw_book_name": "不复合，就亲哭",
+              "color_audio_dominate": "#57628F",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "3484117898584904071:57:0:2408324113:clks####3@20260319103137B601043C61BD18EF3F28",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "“细糠”",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "39.5万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "10万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "双男主",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：梅子瞎了",
+                "rich_text": "作者：梅子瞎了",
+                "high_light_position": []
+              },
+              {
+                "text": "【1V1双洁+破镜重圆+外冷乖仔X毒舌拽哥+he】（正文完结） 盛夷光四年前从弹幕得知，他只是一本小说里爱而不得的恶毒反派，他的存在只为了衬托官配的爱有多深，爱有多真。 他因此和裴度分手，说尽了难听的话，做好了翻脸成仇，老死不相往来的准备。 可四年后，一场醉酒，打乱了计划。 盛夷光看到躺在身边的裴度，果断爬起来跑路。 他确定，现场没留下任何能够证明他身份的线索。 裴度想破脑袋也不会想到他的身上。 但是。 裴度报警了。 盛夷光被迫站在裴度面前，承认昨晚犯下的错。 他不解。 你是别人的官配，为什么抓着我不放？？？",
+                "rich_text": "【1V1双洁+破镜重圆+外冷乖仔X毒舌拽哥+he】（正文完结）\n盛夷光四年前从弹幕得知，他只是一本小说里爱而不得的恶毒反派，他的存在只为了衬托官配的爱有多深，爱有多真。\n他因此和裴度分手，说尽了难听的话，做好了翻脸成仇，老死不相往来的准备。\n可四年后，一场醉酒，打乱了计划。\n盛夷光看到躺在身边的裴度，果断爬起来跑路。\n他确定，现场没留下任何能够证明他身份的线索。\n裴度想破脑袋也不会想到他的身上。\n但是。\n裴度报警了。\n盛夷光被迫站在裴度面前，承认昨晚犯下的错。\n他不解。\n你是别人的官配，为什么抓着我不放？？？",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1058,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7576856194896104473",
+          "search_result_id": "7576856194896104473",
+          "search_high_light": {
+            "abstract": {
+              "text": "...睿智能打忠犬总裁vs腹黑强势偏执长公主】 【双女主+游戏穿书+女扮男装+双强互宠+1v1+HE】 被心腹与对手联手搞垮的CEO江念禾，走投无路选择了地狱难度权谋游戏，本想赚笔快钱翻身。 怎料一睁眼，穿成开局必死的小混混！ 【警告：目标人物沈诗弈若死亡，玩家即刻抹杀，现实肉身同步消亡！】 【阵营人数：我方1人，敌方穿越者999人】 * 沈诗弈是谁？ 是曾艳绝京华的大靖长公主，遭奸人陷害，失忆、毁容、失声，沦为通敌叛国的罪奴。 * 为了活命，江念禾被迫开启「宠公主」模式： 她说缺钱，江念禾反手成为大靖首富 她说要造反，江念禾披甲上阵横扫千军万马 她说想做女皇，江念禾为她谋划，助她加冕称帝 * 本以为只是一场保命交易，等任务完成就溜之大吉。 直到某天，沈诗弈勾着她的下巴，媚眼如丝，笑意缱绻又带着偏执的占有：“我说，我想要你呢？” 江念禾：！！！ 好家伙，原来从始至终，她才是公主的终极猎物！ * 后来世人皆知，女皇沈诗弈睥睨天下，唯独对那位江皇后宠得没边。 江念禾人生信条只有一个—— 公主说的都对，公主想要，公主得到！",
+              "rich_text": "【睿智能打忠犬总裁vs<em>腹黑</em>强势偏执长公主】\n【双女主+游戏穿书+女扮男装+双强互宠+1v1+HE】\n被心<em>腹</em>与对手联手搞垮的CEO江念禾，走投无路选择了地狱难度权谋游戏，本想赚笔快钱翻身。\n怎料一睁眼，穿成开局必死的小混混！\n【警告：目标人物沈诗弈若死亡，玩家即刻抹杀，现实肉身同步消亡！】\n【阵营人数：我方1人，敌方穿越者999人】\n*\n沈诗弈是谁？\n是曾艳绝京华的大靖长公主，遭奸人陷害，失忆、毁容、失声，沦为通敌叛国的罪奴。\n*\n为了活命，江念禾被迫开启「宠公主」模式：\n她说缺钱，江念禾反手成为大靖首富\n她说要造反，江念禾披甲上阵横扫千军万马\n她说想做女皇，江念禾为她谋划，助她加冕称帝\n*\n本以为只是一场保命交易，等任务完成就溜之大吉。\n直到某天，沈诗弈勾着她的下巴，媚眼如丝，笑意缱绻又带着偏执的占有：“我说，我想要你呢？”\n江念禾：！！！\n好家伙，原来从始至终，她才是公主的终极猎物！\n*\n后来世人皆知，女皇沈诗弈睥睨天下，唯独对那位江皇后宠得没边。\n江念禾人生信条只有一个——\n公主说的都对，公主想要，公主得到！",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "地狱游戏里，被偏执公主驯服",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【睿智能打忠犬总裁vs腹黑强势偏执长公主】\n【双女主+游戏穿书+女扮男装+双强互宠+1v1+HE】\n被心腹与对手联手搞垮的CEO江念禾，走投无路选择了地狱难度权谋游戏，本想赚笔快钱翻身。\n怎料一睁眼，穿成开局必死的小混混！\n【警告：目标人物沈诗弈若死亡，玩家即刻抹杀，现实肉身同步消亡！】\n【阵营人数：我方1人，敌方穿越者999人】\n*\n沈诗弈是谁？\n是曾艳绝京华的大靖长公主，遭奸人陷害，失忆、毁容、失声，沦为通敌叛国的罪奴。\n*\n为了活命，江念禾被迫开启「宠公主」模式：\n她说缺钱，江念禾反手成为大靖首富\n她说要造反，江念禾披甲上阵横扫千军万马\n她说想做女皇，江念禾为她谋划，助她加冕称帝\n*\n本以为只是一场保命交易，等任务完成就溜之大吉。\n直到某天，沈诗弈勾着她的下巴，媚眼如丝，笑意缱绻又带着偏执的占有：“我说，我想要你呢？”\n江念禾：！！！\n好家伙，原来从始至终，她才是公主的终极猎物！\n*\n后来世人皆知，女皇沈诗弈睥睨天下，唯独对那位江皇后宠得没边。\n江念禾人生信条只有一个——\n公主说的都对，公主想要，公主得到！",
+              "author": "人间夕拾",
+              "book_id": "7576856194896104473",
+              "book_name": "地狱游戏里，被偏执公主驯服",
+              "category": "双女主",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-11-26T10:31:45+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7576856327960412697",
+              "first_chapter_item_id": "7576856327960412697",
+              "first_chapter_title": "第1章 什么？开局殒命！",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618611969235943961",
+              "last_chapter_item_id": "7618611969235943961",
+              "last_chapter_title": "第185章 情人",
+              "last_chapter_update_time": "1773848271",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "1708",
+              "recommend_group_id": "7576856194896104473",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910330267F2356FF8ADCA604351\",\"rank\":\"1\",\"normal_session_id\":\"ef1069bb-7245-40b5-a27f-f510cf10b0fe\",\"cold_start_session_id\":\"8e5fcbb7-125f-4a04-a896-1d16c39c7457\"}",
+              "read_progress": "0",
+              "serial_count": "184",
+              "source": "番茄小说",
+              "tags": "双女主,系统",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/77c59b03f706518c1569d9e09c7ce79f~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=Bnb%2BJigo%2B5RAKs5NdYPLO%2FGsLJ0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "420316",
+              "score": "7.1",
+              "exclusive": "1",
+              "role": "江念禾,沈诗弈",
+              "category_schema": "[{\"category_id\":704,\"name\":\"双女主\",\"schema\":\"dragon1967://newCategoryDetail?id=704&name=双女主&genre_type=0&gender=0&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=0&source=detail\"},{\"category_id\":30,\"name\":\"宠妻\",\"schema\":\"dragon1967://newCategoryDetail?id=30&name=宠妻&genre_type=0&gender=0&source=detail\"},{\"category_id\":96,\"name\":\"甜宠\",\"schema\":\"dragon1967://newCategoryDetail?id=96&name=甜宠&genre_type=0&gender=0&source=detail\"},{\"category_id\":92,\"name\":\"腹黑\",\"schema\":\"dragon1967://newCategoryDetail?id=92&name=腹黑&genre_type=0&gender=0&source=detail\"},{\"category_id\":83,\"name\":\"公主\",\"schema\":\"dragon1967://newCategoryDetail?id=83&name=公主&genre_type=0&gender=0&source=detail\"},{\"category_id\":1012,\"name\":\"纯爱\",\"schema\":\"dragon1967://newCategoryDetail?id=1012&name=纯爱&genre_type=0&gender=0&source=detail\"},{\"category_id\":758,\"name\":\"古代\",\"schema\":\"dragon1967://newCategoryDetail?id=758&name=古代&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "114",
+              "sub_info": "1708人在读",
+              "last_publish_time": "1773848333",
+              "authorize_type": "1",
+              "media_id": "1847585476245516",
+              "original_book_name": "穿成游戏炮灰，被腹黑公主宠入骨",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "1",
+              "thumb_uri": "novel-pic/77c59b03f706518c1569d9e09c7ce79f",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob8d22923a1e0d10888b1354341db7c53~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071582&x-signature=dDvpP%2FYiSmQIxV%2F0UecG6%2Bt3KVU%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "219",
+              "pure_category_tags": "双女主,古代",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#281810",
+              "read_count_all": "16801",
+              "shelf_cnt_history": "5703",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8703\":1764125400,\"6589\":1764514866,\"8704\":1764125400,\"2503\":1764125400,\"13\":1764125400,\"510893\":1764125400,\"3040\":1764514866,\"507427\":1764125462,\"2329\":1764125400,\"35\":1764125400,\"8661\":1764514866,\"1128\":1764125400,\"8662\":1764125400,\"596084\":1764514866,\"638505\":1764514866,\"507386\":1764125462,\"1967\":1764125400}",
+              "category_v2_map": {
+                "758": true,
+                "83": true,
+                "30": true,
+                "1012": true,
+                "19": true,
+                "96": true,
+                "704": true,
+                "92": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/77c59b03f706518c1569d9e09c7ce79f~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=Bnb%2BJigo%2B5RAKs5NdYPLO%2FGsLJ0%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7576674807807235353,
+                  "AuthorName": "人间夕拾"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2ob8d22923a1e0d10888b1354341db7c53~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071582&x-signature=H5l7rU5rgWp7cBW%2B7bezO9IfuRU%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【睿智能打忠犬总裁vs腹黑强势偏执长公主】\n【双女主+游戏穿书+女扮男装+双强互宠+1v1+HE】\n被心腹与对手联手搞垮的CEO江念禾，走投无路选择了地狱难度权谋游戏，本想赚笔快钱翻身。\n怎料一睁眼，穿成开局必死的小混混！\n【警告：目标人物沈诗弈若死亡，玩家即刻抹杀，现实肉身同步消亡！】\n【阵营人数：我方1人，敌方穿越者999人】\n*\n沈诗弈是谁？\n是曾艳绝京华的大靖长公主，遭奸人陷害，失忆、毁容、失声，沦为通敌叛国的罪奴。\n*\n为了活命，江念禾被迫开启「宠公主」模式：\n她说缺钱，江念禾反手成为大靖首富\n她说要造反，江念禾披甲上阵横扫千军万马\n她说想做女皇，江念禾为她谋划，助她加冕称帝\n*\n本以为只是一场保命交易，等任务完成就溜之大吉。\n直到某天，沈诗弈勾着她的下巴，媚眼如丝，笑意缱绻又带着偏执的占有：“我说，我想要你呢？”\n江念禾：！！！\n好家伙，原来从始至终，她才是公主的终极猎物！\n*\n后来世人皆知，女皇沈诗弈睥睨天下，唯独对那位江皇后宠得没边。\n江念禾人生信条只有一个——\n公主说的都对，公主想要，公主得到！",
+              "read_page_progress": "0",
+              "read_cnt_text": "1708人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/77c59b03f706518c1569d9e09c7ce79f~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=Dj%2F94WXUHA0REcUg3DO4PhodF0w%3D",
+              "raw_book_name": "地狱游戏里，被偏执公主驯服",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "3484117898584904071:58:0:3236100104:clks####3@20260319103137B601043C61BD18EF3F28",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "42.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1708人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "双女主",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：人间夕拾",
+                "rich_text": "作者：人间夕拾",
+                "high_light_position": []
+              },
+              {
+                "text": "...睿智能打忠犬总裁vs腹黑强势偏执长公主】 【双女主+游戏穿书+女扮男装+双强互宠+1v1+HE】 被心腹与对手联手搞垮的CEO江念禾，走投无路选择了地狱难度权谋游戏，本想赚笔快钱翻身。 怎料一睁眼，穿成开局必死的小混混！ 【警告：目标人物沈诗弈若死亡，玩家即刻抹杀，现实肉身同步消亡！】 【阵营人数：我方1人，敌方穿越者999人】 * 沈诗弈是谁？ 是曾艳绝京华的大靖长公主，遭奸人陷害，失忆、毁容、失声，沦为通敌叛国的罪奴。 * 为了活命，江念禾被迫开启「宠公主」模式： 她说缺钱，江念禾反手成为大靖首富 她说要造反，江念禾披甲上阵横扫千军万马 她说想做女皇，江念禾为她谋划，助她加冕称帝 * 本以为只是一场保命交易，等任务完成就溜之大吉。 直到某天，沈诗弈勾着她的下巴，媚眼如丝，笑意缱绻又带着偏执的占有：“我说，我想要你呢？” 江念禾：！！！ 好家伙，原来从始至终，她才是公主的终极猎物！ * 后来世人皆知，女皇沈诗弈睥睨天下，唯独对那位江皇后宠得没边。 江念禾人生信条只有一个—— 公主说的都对，公主想要，公主得到！",
+                "rich_text": "【睿智能打忠犬总裁vs<em>腹黑</em>强势偏执长公主】\n【双女主+游戏穿书+女扮男装+双强互宠+1v1+HE】\n被心<em>腹</em>与对手联手搞垮的CEO江念禾，走投无路选择了地狱难度权谋游戏，本想赚笔快钱翻身。\n怎料一睁眼，穿成开局必死的小混混！\n【警告：目标人物沈诗弈若死亡，玩家即刻抹杀，现实肉身同步消亡！】\n【阵营人数：我方1人，敌方穿越者999人】\n*\n沈诗弈是谁？\n是曾艳绝京华的大靖长公主，遭奸人陷害，失忆、毁容、失声，沦为通敌叛国的罪奴。\n*\n为了活命，江念禾被迫开启「宠公主」模式：\n她说缺钱，江念禾反手成为大靖首富\n她说要造反，江念禾披甲上阵横扫千军万马\n她说想做女皇，江念禾为她谋划，助她加冕称帝\n*\n本以为只是一场保命交易，等任务完成就溜之大吉。\n直到某天，沈诗弈勾着她的下巴，媚眼如丝，笑意缱绻又带着偏执的占有：“我说，我想要你呢？”\n江念禾：！！！\n好家伙，原来从始至终，她才是公主的终极猎物！\n*\n后来世人皆知，女皇沈诗弈睥睨天下，唯独对那位江皇后宠得没边。\n江念禾人生信条只有一个——\n公主说的都对，公主想要，公主得到！",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1059,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7195354328771595322",
+          "search_result_id": "7195354328771595322",
+          "search_high_light": {
+            "abstract": {
+              "text": "【女主并不是真正的席恋玥，后面会有交代】【女频文】特别提示:女主并不是真正的席恋玥，后面会有交代。 因为一张相似的容颜，她代人受过。 四年牢狱折磨不算，出狱后，仍旧逃脱不掉现实的泥沼。 被迫跳入食人鱼池塘，做实验活体，与藏獒犬搏斗，被打断双腿。 种种迫害之后，当真相被一一揭开，那些曾经凌虐过她的男人们竟纷纷悔不当初，卑微的跪地自残祈求原谅。 彼时，她挽着此生挚爱男人的手臂，笑得冷漠。 原谅？ 笑话！ 她会将他们曾经加注在自己身上的所有痛苦折磨，连本带息，全部奉还！",
+              "rich_text": "【女频文】特别提示:女主并不是真正的席恋玥，后面会有交代。\n因为一张相似的容颜，她代人受过。\n四年牢狱折磨不算，出狱后，仍旧逃脱不掉现实的泥沼。\n被迫跳入食人鱼池塘，做实验活体，与藏獒犬搏斗，被打断双腿。\n种种迫害之后，当真相被一一揭开，那些曾经凌虐过她的男人们竟纷纷悔不当初，卑微的跪地自残祈求原谅。\n彼时，她挽着此生挚爱男人的手臂，笑得冷漠。\n原谅？\n笑话！\n她会将他们曾经加注在自己身上的所有痛苦折磨，连本带息，全部奉还！",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "血染，傲骨野玫瑰",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【女频文】特别提示:女主并不是真正的席恋玥，后面会有交代。\n因为一张相似的容颜，她代人受过。\n四年牢狱折磨不算，出狱后，仍旧逃脱不掉现实的泥沼。\n被迫跳入食人鱼池塘，做实验活体，与藏獒犬搏斗，被打断双腿。\n种种迫害之后，当真相被一一揭开，那些曾经凌虐过她的男人们竟纷纷悔不当初，卑微的跪地自残祈求原谅。\n彼时，她挽着此生挚爱男人的手臂，笑得冷漠。\n原谅？\n笑话！\n她会将他们曾经加注在自己身上的所有痛苦折磨，连本带息，全部奉还！",
+              "author": "君落轻",
+              "book_id": "7195354328771595322",
+              "book_name": "血染，傲骨野玫瑰",
+              "category": "豪门总裁",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-02-02T08:49:39+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7195357853454959138",
+              "first_chapter_item_id": "7195357853454959138",
+              "first_chapter_title": "第1章 非人折磨",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7225510223321137675",
+              "last_chapter_item_id": "7225510223321137675",
+              "last_chapter_title": "第135章 终章",
+              "last_chapter_update_time": "1682491238",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "2704",
+              "recommend_group_id": "7195354328771595322",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031910330267F2356FF8ADCA604351\",\"rank\":\"1\",\"normal_session_id\":\"ef1069bb-7245-40b5-a27f-f510cf10b0fe\",\"cold_start_session_id\":\"8e5fcbb7-125f-4a04-a896-1d16c39c7457\"}",
+              "read_progress": "0",
+              "serial_count": "135",
+              "source": "番茄小说",
+              "tags": "豪门总裁,现代言情",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/fba86e5cb4f4d0e38308d87d8b87aa6e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=j0K9kdTCbi%2FljnxQ8KByQAtf1EU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "282842",
+              "score": "9.0",
+              "exclusive": "1",
+              "role": "席恋玥,冷修",
+              "category_schema": "[{\"category_id\":748,\"name\":\"豪门总裁\",\"schema\":\"dragon1967://newCategoryDetail?id=748&name=豪门总裁&genre_type=0&gender=0&source=detail\"},{\"category_id\":3,\"name\":\"现代言情\",\"schema\":\"dragon1967://newCategoryDetail?id=3&name=现代言情&genre_type=0&gender=0&source=detail\"},{\"category_id\":95,\"name\":\"虐文\",\"schema\":\"dragon1967://newCategoryDetail?id=95&name=虐文&genre_type=0&gender=0&source=detail\"},{\"category_id\":473,\"name\":\"豪门世家\",\"schema\":\"dragon1967://newCategoryDetail?id=473&name=豪门世家&genre_type=0&gender=0&source=detail\"},{\"category_id\":484,\"name\":\"HE\",\"schema\":\"dragon1967://newCategoryDetail?id=484&name=HE&genre_type=0&gender=0&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "0",
+              "is_ebook": "1",
+              "listen_count": "631",
+              "sub_info": "2704人在读",
+              "last_publish_time": "1682491245",
+              "authorize_type": "1",
+              "media_id": "1735831830339584",
+              "original_book_name": "肆宠而娇！",
+              "length_type": "1",
+              "op_tag": "1071,1596,1597,1598,228,272,305,352,458,529,535,536,856,863,871,873,920,984",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/fba86e5cb4f4d0e38308d87d8b87aa6e",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a48cd406541d00998e2f2567c6b3e908~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779071582&x-signature=GU5rZg37GK8ePRQ2nPbLqpc6hXw%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "391",
+              "pure_category_tags": "豪门总裁,HE",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#180000",
+              "read_count_all": "787681",
+              "shelf_cnt_history": "123315",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"13\":1675298984,\"507386\":1741858101,\"638505\":1724851248,\"426946\":1736165407,\"3040\":1681192650,\"6589\":1677088471,\"35\":1675298984,\"507427\":1741858101,\"8661\":1681192650,\"8704\":1747734471,\"510893\":1689688015,\"2503\":1675298984,\"2329\":1675298984,\"1967\":1675298984,\"1128\":1675298984,\"8703\":1744956624,\"596084\":1715156380,\"8662\":1675298984}",
+              "category_v2_map": {
+                "484": true,
+                "748": true,
+                "3": true,
+                "95": true,
+                "473": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/fba86e5cb4f4d0e38308d87d8b87aa6e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=j0K9kdTCbi%2FljnxQ8KByQAtf1EU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7110167554252870925,
+                  "AuthorName": "君落轻"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a48cd406541d00998e2f2567c6b3e908~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779071582&x-signature=VMNt8MdRj%2BiGW7jJfxtpoXdKD%2FQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【女频文】特别提示:女主并不是真正的席恋玥，后面会有交代。\n因为一张相似的容颜，她代人受过。\n四年牢狱折磨不算，出狱后，仍旧逃脱不掉现实的泥沼。\n被迫跳入食人鱼池塘，做实验活体，与藏獒犬搏斗，被打断双腿。\n种种迫害之后，当真相被一一揭开，那些曾经凌虐过她的男人们竟纷纷悔不当初，卑微的跪地自残祈求原谅。\n彼时，她挽着此生挚爱男人的手臂，笑得冷漠。\n原谅？\n笑话！\n她会将他们曾经加注在自己身上的所有痛苦折磨，连本带息，全部奉还！",
+              "read_page_progress": "0",
+              "read_cnt_text": "2704人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/fba86e5cb4f4d0e38308d87d8b87aa6e~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779071582&x-signature=EcrmnSid5GE9Mf%2BDEqAMjguycjI%3D",
+              "raw_book_name": "血染，傲骨野玫瑰",
+              "related_bookids": "{\"8662\":{\"203\":[7566191245664472126]},\"3040\":{\"203\":[7566191245664472126]},\"1967\":{\"203\":[7566191245664472126]},\"507386\":{\"203\":[7566191245664472126]},\"507427\":{\"203\":[7566191245664472126]}}",
+              "color_audio_dominate": "#2C2022"
+            }
+          ],
+          "search_attached_info": "3484117898584904071:59:0:782989435:clks####3@20260319103137B601043C61BD18EF3F28",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短剧原著",
+              "Priority": 15,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "28.3万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2704人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "豪门总裁",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：君落轻",
+                "rich_text": "作者：君落轻",
+                "high_light_position": []
+              },
+              {
+                "text": "【女主并不是真正的席恋玥，后面会有交代】【女频文】特别提示:女主并不是真正的席恋玥，后面会有交代。 因为一张相似的容颜，她代人受过。 四年牢狱折磨不算，出狱后，仍旧逃脱不掉现实的泥沼。 被迫跳入食人鱼池塘，做实验活体，与藏獒犬搏斗，被打断双腿。 种种迫害之后，当真相被一一揭开，那些曾经凌虐过她的男人们竟纷纷悔不当初，卑微的跪地自残祈求原谅。 彼时，她挽着此生挚爱男人的手臂，笑得冷漠。 原谅？ 笑话！ 她会将他们曾经加注在自己身上的所有痛苦折磨，连本带息，全部奉还！",
+                "rich_text": "【女频文】特别提示:女主并不是真正的席恋玥，后面会有交代。\n因为一张相似的容颜，她代人受过。\n四年牢狱折磨不算，出狱后，仍旧逃脱不掉现实的泥沼。\n被迫跳入食人鱼池塘，做实验活体，与藏獒犬搏斗，被打断双腿。\n种种迫害之后，当真相被一一揭开，那些曾经凌虐过她的男人们竟纷纷悔不当初，卑微的跪地自残祈求原谅。\n彼时，她挽着此生挚爱男人的手臂，笑得冷漠。\n原谅？\n笑话！\n她会将他们曾经加注在自己身上的所有痛苦折磨，连本带息，全部奉还！",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "60",
+      "search_id": "clks####3@20260319103137B601043C61BD18EF3F28",
+      "query": "腹黑",
+      "next_offset": 60,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@20260319103137B601043C61BD18EF3F28",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"2026031910330267F2356FF8ADCA604351\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@20260319103137B601043C61BD18EF3F28",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@20260319103137B601043C61BD18EF3F28",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "2026031910330267F2356FF8ADCA604351"
+}
