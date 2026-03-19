@@ -1248,47 +1248,61 @@ class ControlPanel(tk.Tk):
             btn.config(state="disabled", text="推送中…")
 
         def worker():
-            logs = []
             ok   = True
             try:
                 tmp_path    = f"/data/local/tmp/{remote_name}"
                 system_path = f"/system/etc/security/cacerts/{remote_name}"
 
-                # step 1: push
+                # step 1: adb root — 以 root 身份重启 adbd
                 r = subprocess.run(
-                    ["adb", "-s", serial, "push", local_cert, tmp_path],
+                    ["adb", "-s", serial, "root"],
                     capture_output=True, text=True, timeout=15,
                 )
-                logs.append(r.stdout.strip() or r.stderr.strip())
+                # "adbd is already running as root" 也视为成功
                 if r.returncode != 0:
-                    raise RuntimeError(f"push 失败: {r.stderr.strip()}")
+                    raise RuntimeError(f"adb root 失败: {r.stderr.strip() or r.stdout.strip()}")
 
-                # step 2: remount /system
-                subprocess.run(
-                    ["adb", "-s", serial, "shell", "su -c 'mount -o remount,rw /system'"],
-                    capture_output=True, timeout=10,
-                )
-
-                # step 3: cp to cacerts
+                # step 2: adb remount — 正确解除 /system 只读（处理 dm-verity）
                 r = subprocess.run(
-                    ["adb", "-s", serial, "shell",
-                     f"su -c 'cp {tmp_path} {system_path}'"],
-                    capture_output=True, text=True, timeout=10,
+                    ["adb", "-s", serial, "remount"],
+                    capture_output=True, text=True, timeout=15,
                 )
                 if r.returncode != 0:
-                    raise RuntimeError(f"cp 失败: {r.stderr.strip()}")
+                    # 部分模拟器 remount 输出在 stdout
+                    out = (r.stdout + r.stderr).lower()
+                    if "remount succeeded" not in out and "already" not in out:
+                        raise RuntimeError(f"adb remount 失败: {r.stdout.strip()} {r.stderr.strip()}")
+
+                # step 3: 直接 push 到系统证书目录（remount 后无需 su cp）
+                r = subprocess.run(
+                    ["adb", "-s", serial, "push", local_cert, system_path],
+                    capture_output=True, text=True, timeout=15,
+                )
+                if r.returncode != 0:
+                    # push 直接失败则回退：用 su cp 方式
+                    r2 = subprocess.run(
+                        ["adb", "-s", serial, "push", local_cert, tmp_path],
+                        capture_output=True, text=True, timeout=15,
+                    )
+                    if r2.returncode != 0:
+                        raise RuntimeError(f"push 失败: {r2.stderr.strip()}")
+                    r3 = subprocess.run(
+                        ["adb", "-s", serial, "shell",
+                         f"su -c 'mount -o remount,rw /system && cp {tmp_path} {system_path}'"],
+                        capture_output=True, text=True, timeout=15,
+                    )
+                    if r3.returncode != 0:
+                        raise RuntimeError(f"cp 失败: {r3.stderr.strip()}")
 
                 # step 4: chmod
                 subprocess.run(
-                    ["adb", "-s", serial, "shell",
-                     f"su -c 'chmod 644 {system_path}'"],
+                    ["adb", "-s", serial, "shell", f"chmod 644 {system_path}"],
                     capture_output=True, timeout=10,
                 )
 
-                # step 5: 重启安全存储服务使证书生效
+                # step 5: 重启安全存储服务使证书立即生效
                 subprocess.run(
-                    ["adb", "-s", serial, "shell",
-                     "su -c 'stop installd; start installd'"],
+                    ["adb", "-s", serial, "shell", "stop installd; start installd"],
                     capture_output=True, timeout=15,
                 )
 
