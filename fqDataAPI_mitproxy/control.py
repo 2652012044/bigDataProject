@@ -1202,58 +1202,74 @@ class ControlPanel(tk.Tk):
         threading.Thread(target=worker, daemon=True).start()
 
     def _push_cert(self, idx: int):
-        """将 mitmproxy CA 证书推送并安装到指定模拟器。
+        """将本机 mitmproxy CA 证书推送并安装到指定模拟器。
 
-        证书查找优先级：
-          1. Docker/c8750f0d.0  — 本地 mitmdump 证书的 Android 格式（subject_hash_old 预计算）
-          2. Docker/mitmproxy-ca-cert.cer — 备用
-          3. 用户手动选择
-
-        安装步骤：
-          1. adb push 证书文件到 /data/local/tmp/
-          2. cp 到 /system/etc/security/cacerts/<hash>.0（需要 root 权限）
-          3. chmod 644
-          4. 重启 installd 使证书立即生效
+        流程：
+          1. 查找本机 mitmproxy PEM 证书（~/.mitmproxy/ 或 Docker 目录或用户手选）
+          2. 用 openssl 计算 subject_hash_old，生成 <hash>.0 文件（Android 格式）
+          3. adb root + adb remount（尝试）
+          4. push 到 /system/etc/security/cacerts/<hash>.0
+          5. chmod 644 + 重启 installd
         """
-        serial   = SLOTS[idx]["emulator_serial"]
-        cert_dir = os.path.join(BASE_DIR, "Docker")
+        serial = SLOTS[idx]["emulator_serial"]
 
-        # 按优先级查找证书
-        candidates = [
-            (os.path.join(cert_dir, "c8750f0d.0"),          "c8750f0d.0"),
-            (os.path.join(cert_dir, "mitmproxy-ca-cert.cer"), "mitmproxy-ca-cert.cer"),
+        # 查找 PEM 证书优先级：本机 ~/.mitmproxy/ → Docker 目录 → 用户手选
+        mitmproxy_dir = os.path.join(os.path.expanduser("~"), ".mitmproxy")
+        docker_dir    = os.path.join(BASE_DIR, "Docker")
+        pem_candidates = [
+            os.path.join(mitmproxy_dir, "mitmproxy-ca-cert.pem"),
+            os.path.join(docker_dir,    "mitmproxy-ca-cert.pem"),
+            os.path.join(docker_dir,    "mitmproxy-ca-cert.cer"),
         ]
-        local_cert  = None
-        remote_name = None
-        for path, name in candidates:
-            if os.path.isfile(path):
-                local_cert  = path
-                remote_name = name
+        pem_path = None
+        for p in pem_candidates:
+            if os.path.isfile(p):
+                pem_path = p
                 break
 
-        # 均不存在则让用户手动选择
-        if local_cert is None:
-            local_cert = tkinter.filedialog.askopenfilename(
+        if pem_path is None:
+            pem_path = tkinter.filedialog.askopenfilename(
                 parent=self,
-                title="选择 mitmproxy CA 证书文件",
-                filetypes=[("PEM/CRT/0 文件", "*.pem *.crt *.cer *.0"), ("所有文件", "*.*")],
+                title="选择 mitmproxy CA 证书（PEM 格式）",
+                filetypes=[("PEM/CRT 文件", "*.pem *.crt *.cer"), ("所有文件", "*.*")],
                 initialdir=BASE_DIR,
             )
-            if not local_cert:
+            if not pem_path:
                 return
-            remote_name = os.path.basename(local_cert)
 
         btn = self._cards[idx].get("e_cert_btn")
         if btn:
             btn.config(state="disabled", text="推送中…")
 
         def worker():
-            ok   = True
+            ok  = True
+            tmp_cert_path = None
             try:
+                import tempfile
+
+                # step 1: 用 openssl 计算 subject_hash_old
+                r = subprocess.run(
+                    ["openssl", "x509", "-subject_hash_old", "-noout", "-in", pem_path],
+                    capture_output=True, text=True, timeout=10,
+                )
+                if r.returncode != 0:
+                    raise RuntimeError(
+                        f"openssl 计算证书 hash 失败: {r.stderr.strip()}\n"
+                        "请确认 openssl 已安装并加入 PATH。"
+                    )
+                cert_hash  = r.stdout.strip()
+                remote_name = f"{cert_hash}.0"
+
+                # step 2: 生成 <hash>.0 临时文件（Android 系统证书格式，内容同 PEM）
+                tmp_dir = tempfile.mkdtemp()
+                tmp_cert_path = os.path.join(tmp_dir, remote_name)
+                import shutil
+                shutil.copy2(pem_path, tmp_cert_path)
+
                 tmp_path    = f"/data/local/tmp/{remote_name}"
                 system_path = f"/system/etc/security/cacerts/{remote_name}"
 
-                # step 1: adb root — 以 root 身份重启 adbd
+                # step 3: adb root
                 r = subprocess.run(
                     ["adb", "-s", serial, "root"],
                     capture_output=True, text=True, timeout=15,
@@ -1261,23 +1277,21 @@ class ControlPanel(tk.Tk):
                 if r.returncode != 0:
                     raise RuntimeError(f"adb root 失败: {r.stderr.strip() or r.stdout.strip()}")
 
-                # step 2: adb remount — 尝试解除 /system 只读；部分模拟器虚拟磁盘会
-                # 报 I/O error，此处仅作尝试，失败不中断后续流程
+                # step 4: adb remount（尝试，逍遥模拟器虚拟磁盘可能报 I/O error，忽略）
                 subprocess.run(
                     ["adb", "-s", serial, "remount"],
                     capture_output=True, text=True, timeout=15,
                 )
 
-                # step 3: 优先直接 push 到系统证书目录
+                # step 5: 优先直接 push 到系统证书目录
                 r = subprocess.run(
-                    ["adb", "-s", serial, "push", local_cert, system_path],
+                    ["adb", "-s", serial, "push", tmp_cert_path, system_path],
                     capture_output=True, text=True, timeout=15,
                 )
                 if r.returncode != 0:
-                    # push 到系统路径失败时，改用 push→tmp + su cp（不再尝试 mount，
-                    # 因为逍遥模拟器虚拟块设备不支持 remount，会报 I/O error）
+                    # 回退：push 到 /tmp 再 su cp
                     r2 = subprocess.run(
-                        ["adb", "-s", serial, "push", local_cert, tmp_path],
+                        ["adb", "-s", serial, "push", tmp_cert_path, tmp_path],
                         capture_output=True, text=True, timeout=15,
                     )
                     if r2.returncode != 0:
@@ -1290,22 +1304,30 @@ class ControlPanel(tk.Tk):
                     if r3.returncode != 0:
                         raise RuntimeError(f"cp 失败: {r3.stderr.strip()}")
 
-                # step 4: chmod
+                # step 6: chmod
                 subprocess.run(
                     ["adb", "-s", serial, "shell", f"chmod 644 {system_path}"],
                     capture_output=True, timeout=10,
                 )
 
-                # step 5: 重启安全存储服务使证书立即生效
+                # step 7: 重启安全存储服务使证书立即生效
                 subprocess.run(
                     ["adb", "-s", serial, "shell", "stop installd; start installd"],
                     capture_output=True, timeout=15,
                 )
 
-                msg = f"证书已成功安装到 {serial}\n{system_path}"
+                msg = f"证书已成功安装到 {serial}\n{system_path}\n(hash: {cert_hash})"
             except Exception as e:
                 ok  = False
                 msg = f"证书安装失败\n{e}\n请确认模拟器已 root 且 adb 已连接。"
+            finally:
+                # 清理临时文件
+                if tmp_cert_path and os.path.isfile(tmp_cert_path):
+                    try:
+                        os.remove(tmp_cert_path)
+                        os.rmdir(os.path.dirname(tmp_cert_path))
+                    except OSError:
+                        pass
 
             def done():
                 if btn:
