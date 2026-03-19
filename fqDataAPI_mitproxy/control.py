@@ -1258,28 +1258,24 @@ class ControlPanel(tk.Tk):
                     ["adb", "-s", serial, "root"],
                     capture_output=True, text=True, timeout=15,
                 )
-                # "adbd is already running as root" 也视为成功
                 if r.returncode != 0:
                     raise RuntimeError(f"adb root 失败: {r.stderr.strip() or r.stdout.strip()}")
 
-                # step 2: adb remount — 正确解除 /system 只读（处理 dm-verity）
-                r = subprocess.run(
+                # step 2: adb remount — 尝试解除 /system 只读；部分模拟器虚拟磁盘会
+                # 报 I/O error，此处仅作尝试，失败不中断后续流程
+                subprocess.run(
                     ["adb", "-s", serial, "remount"],
                     capture_output=True, text=True, timeout=15,
                 )
-                if r.returncode != 0:
-                    # 部分模拟器 remount 输出在 stdout
-                    out = (r.stdout + r.stderr).lower()
-                    if "remount succeeded" not in out and "already" not in out:
-                        raise RuntimeError(f"adb remount 失败: {r.stdout.strip()} {r.stderr.strip()}")
 
-                # step 3: 直接 push 到系统证书目录（remount 后无需 su cp）
+                # step 3: 优先直接 push 到系统证书目录
                 r = subprocess.run(
                     ["adb", "-s", serial, "push", local_cert, system_path],
                     capture_output=True, text=True, timeout=15,
                 )
                 if r.returncode != 0:
-                    # push 直接失败则回退：用 su cp 方式
+                    # push 到系统路径失败时，改用 push→tmp + su cp（不再尝试 mount，
+                    # 因为逍遥模拟器虚拟块设备不支持 remount，会报 I/O error）
                     r2 = subprocess.run(
                         ["adb", "-s", serial, "push", local_cert, tmp_path],
                         capture_output=True, text=True, timeout=15,
@@ -1288,7 +1284,7 @@ class ControlPanel(tk.Tk):
                         raise RuntimeError(f"push 失败: {r2.stderr.strip()}")
                     r3 = subprocess.run(
                         ["adb", "-s", serial, "shell",
-                         f"su -c 'mount -o remount,rw /system && cp {tmp_path} {system_path}'"],
+                         f"su -c 'cp {tmp_path} {system_path}'"],
                         capture_output=True, text=True, timeout=15,
                     )
                     if r3.returncode != 0:
