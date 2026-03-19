@@ -1,0 +1,62 @@
+{
+  "job_id": "20260319_153613",
+  "job_label": "获取类型书单",
+  "slot_name": "实例 0",
+  "serial": "127.0.0.1:21503",
+  "updated_at": "2026-03-19 15:43:15",
+  "status": "done",
+  "total": 3,
+  "completed": 3,
+  "units": [
+    {
+      "task_key": "getBookListByTypeAPI",
+      "param": [
+        "群像",
+        "120"
+      ]
+    },
+    {
+      "task_key": "getBookListByTypeAPI",
+      "param": [
+        "红楼衍生",
+        "120"
+      ]
+    },
+    {
+      "task_key": "getBookListByTypeAPI",
+      "param": [
+        "谍战",
+        "120"
+      ]
+    }
+  ],
+  "configs": [
+    {
+      "task_key": "getBookListByTypeAPI",
+      "params": [
+        [
+          "群像",
+          "120"
+        ]
+      ]
+    },
+    {
+      "task_key": "getBookListByTypeAPI",
+      "params": [
+        [
+          "红楼衍生",
+          "120"
+        ]
+      ]
+    },
+    {
+      "task_key": "getBookListByTypeAPI",
+      "params": [
+        [
+          "谍战",
+          "120"
+        ]
+      ]
+    }
+  ]
+}

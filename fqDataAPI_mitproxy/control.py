@@ -843,6 +843,9 @@ class ControlPanel(tk.Tk):
         )
         job_start_btn.pack(side="right", padx=(2, 0))
 
+        # 证书按鈕绑定 idx（此处 emu_w 已包含 e_cert_btn）
+        emu_w["e_cert_btn"].config(command=lambda i=idx: self._push_cert(i))
+
         return {
             "outer":        outer,
             "badge":        badge,
@@ -915,7 +918,16 @@ class ControlPanel(tk.Tk):
             bg=ITEM, fg=SUB,
         )
         e_pr.pack(anchor="w", pady=(3, 0))
-        return box, {"e_st": e_st, "e_pr": e_pr}
+        # 推送证书按钮（idx 在 _make_card 中通过 config 绑定）
+        e_cert_btn = tk.Button(
+            box, text="🛡 推送证书",
+            font=("Microsoft YaHei UI", 7),
+            bg=ITEM, fg=YELLOW,
+            activebackground=BORDER, activeforeground=TEXT,
+            relief="flat", padx=6, pady=1, cursor="hand2",
+        )
+        e_cert_btn.pack(anchor="w", pady=(4, 0))
+        return box, {"e_st": e_st, "e_pr": e_pr, "e_cert_btn": e_cert_btn}
 
     # ────── 状态应用 ──────
 
@@ -1186,6 +1198,114 @@ class ControlPanel(tk.Tk):
                 print(f"[enable_proxy idx={idx}] 异常: {e}")
             finally:
                 self.after(0, self._trigger_refresh)
+
+        threading.Thread(target=worker, daemon=True).start()
+
+    def _push_cert(self, idx: int):
+        """将 mitmproxy CA 证书推送并安装到指定模拟器。
+
+        证书查找优先级：
+          1. Docker/c8750f0d.0  — 本地 mitmdump 证书的 Android 格式（subject_hash_old 预计算）
+          2. Docker/mitmproxy-ca-cert.cer — 备用
+          3. 用户手动选择
+
+        安装步骤：
+          1. adb push 证书文件到 /data/local/tmp/
+          2. cp 到 /system/etc/security/cacerts/<hash>.0（需要 root 权限）
+          3. chmod 644
+          4. 重启 installd 使证书立即生效
+        """
+        serial   = SLOTS[idx]["emulator_serial"]
+        cert_dir = os.path.join(BASE_DIR, "Docker")
+
+        # 按优先级查找证书
+        candidates = [
+            (os.path.join(cert_dir, "c8750f0d.0"),          "c8750f0d.0"),
+            (os.path.join(cert_dir, "mitmproxy-ca-cert.cer"), "mitmproxy-ca-cert.cer"),
+        ]
+        local_cert  = None
+        remote_name = None
+        for path, name in candidates:
+            if os.path.isfile(path):
+                local_cert  = path
+                remote_name = name
+                break
+
+        # 均不存在则让用户手动选择
+        if local_cert is None:
+            local_cert = tkinter.filedialog.askopenfilename(
+                parent=self,
+                title="选择 mitmproxy CA 证书文件",
+                filetypes=[("PEM/CRT/0 文件", "*.pem *.crt *.cer *.0"), ("所有文件", "*.*")],
+                initialdir=BASE_DIR,
+            )
+            if not local_cert:
+                return
+            remote_name = os.path.basename(local_cert)
+
+        btn = self._cards[idx].get("e_cert_btn")
+        if btn:
+            btn.config(state="disabled", text="推送中…")
+
+        def worker():
+            logs = []
+            ok   = True
+            try:
+                tmp_path    = f"/data/local/tmp/{remote_name}"
+                system_path = f"/system/etc/security/cacerts/{remote_name}"
+
+                # step 1: push
+                r = subprocess.run(
+                    ["adb", "-s", serial, "push", local_cert, tmp_path],
+                    capture_output=True, text=True, timeout=15,
+                )
+                logs.append(r.stdout.strip() or r.stderr.strip())
+                if r.returncode != 0:
+                    raise RuntimeError(f"push 失败: {r.stderr.strip()}")
+
+                # step 2: remount /system
+                subprocess.run(
+                    ["adb", "-s", serial, "shell", "su -c 'mount -o remount,rw /system'"],
+                    capture_output=True, timeout=10,
+                )
+
+                # step 3: cp to cacerts
+                r = subprocess.run(
+                    ["adb", "-s", serial, "shell",
+                     f"su -c 'cp {tmp_path} {system_path}'"],
+                    capture_output=True, text=True, timeout=10,
+                )
+                if r.returncode != 0:
+                    raise RuntimeError(f"cp 失败: {r.stderr.strip()}")
+
+                # step 4: chmod
+                subprocess.run(
+                    ["adb", "-s", serial, "shell",
+                     f"su -c 'chmod 644 {system_path}'"],
+                    capture_output=True, timeout=10,
+                )
+
+                # step 5: 重启安全存储服务使证书生效
+                subprocess.run(
+                    ["adb", "-s", serial, "shell",
+                     "su -c 'stop installd; start installd'"],
+                    capture_output=True, timeout=15,
+                )
+
+                msg = f"证书已成功安装到 {serial}\n{system_path}"
+            except Exception as e:
+                ok  = False
+                msg = f"证书安装失败\n{e}\n请确认模拟器已 root 且 adb 已连接。"
+
+            def done():
+                if btn:
+                    btn.config(state="normal", text="🛡 推送证书")
+                if ok:
+                    tkinter.messagebox.showinfo("证书安装成功", msg)
+                else:
+                    tkinter.messagebox.showerror("证书安装失败", msg)
+
+            self.after(0, done)
 
         threading.Thread(target=worker, daemon=True).start()
 
@@ -1864,7 +1984,8 @@ class ParamExtractDialog(tk.Toplevel):
 
         self._mode = mode
         self._items: list[str] = []
-        self._check_vars: list[tk.BooleanVar] = []
+        self._check_vars: list[tk.BooleanVar] = []   # 不再使用，保留以兼容旧接口
+        self._listbox: "tk.Listbox | None" = None     # 高性能列表控件
 
         # ── 文件选择行 ──
         file_row = tk.Frame(self, bg=BG)
@@ -1971,24 +2092,30 @@ class ParamExtractDialog(tk.Toplevel):
             command=self._select_range,
         ).pack(side="left", padx=(8, 0))
 
-        # ── 列表区域（带滚动） ──
+        # ── 列表区域（tk.Listbox 天生支持万级条目，性能远超 Checkbutton） ──
         list_outer = tk.Frame(self, bg=BORDER, padx=1, pady=1)
         list_outer.pack(fill="both", expand=True, padx=14, pady=(2, 6))
-        canvas = tk.Canvas(list_outer, bg=ITEM, bd=0, highlightthickness=0)
-        scrollbar = tk.Scrollbar(list_outer, orient="vertical", command=canvas.yview)
-        self._list_frame = tk.Frame(canvas, bg=ITEM)
-        self._list_frame.bind(
-            "<Configure>",
-            lambda e: canvas.configure(scrollregion=canvas.bbox("all")),
+        lb_scroll_y = tk.Scrollbar(list_outer, orient="vertical", bg=ITEM, troughcolor=HDR)
+        lb_scroll_x = tk.Scrollbar(list_outer, orient="horizontal", bg=ITEM, troughcolor=HDR)
+        self._listbox = tk.Listbox(
+            list_outer,
+            selectmode="extended",
+            font=("Microsoft YaHei UI", 9),
+            bg=ITEM, fg=TEXT,
+            selectbackground=BORDER, selectforeground=GREEN,
+            activestyle="none", highlightthickness=0, bd=0,
+            yscrollcommand=lb_scroll_y.set,
+            xscrollcommand=lb_scroll_x.set,
+            exportselection=False,
         )
-        canvas.create_window((0, 0), window=self._list_frame, anchor="nw")
-        canvas.configure(yscrollcommand=scrollbar.set)
-        scrollbar.pack(side="right", fill="y")
-        canvas.pack(fill="both", expand=True)
-        # 鼠标滚轮
-        canvas.bind_all("<MouseWheel>",
-            lambda e: canvas.yview_scroll(-1 * (e.delta // 120), "units"))
-        self._canvas = canvas
+        lb_scroll_y.config(command=self._listbox.yview)
+        lb_scroll_x.config(command=self._listbox.xview)
+        lb_scroll_y.pack(side="right", fill="y")
+        lb_scroll_x.pack(side="bottom", fill="x")
+        self._listbox.pack(fill="both", expand=True)
+        self._listbox.bind("<<ListboxSelect>>", lambda _: self._update_count())
+        self._listbox.bind("<MouseWheel>",
+            lambda e: self._listbox.yview_scroll(-1 * (e.delta // 120), "units"))
 
         # ── 底部按钮 ──
         footer = tk.Frame(self, bg=HDR, pady=8)
@@ -2089,63 +2216,62 @@ class ParamExtractDialog(tk.Toplevel):
     # ── 列表构建 ──
 
     def _rebuild_checklist(self):
-        for w in self._list_frame.winfo_children():
-            w.destroy()
-        self._check_vars.clear()
-        for name in self._items:
-            var = tk.BooleanVar(value=True)
-            var.trace_add("write", lambda *_: self._update_count())
-            self._check_vars.append(var)
-            tk.Checkbutton(
-                self._list_frame, text=name,
-                variable=var,
-                font=("Microsoft YaHei UI", 9),
-                bg=ITEM, fg=TEXT,
-                selectcolor=CARD, activebackground=ITEM, activeforeground=TEXT,
-                anchor="w", padx=8, pady=2,
-            ).pack(fill="x")
+        """Listbox 方案：一次性将所有条目插入，默认全选。"""
+        lb = self._listbox
+        lb.delete(0, "end")
+        if self._items:
+            lb.insert("end", *self._items)
+            lb.selection_set(0, "end")
         self._update_count()
 
     def _update_count(self):
-        sel = sum(1 for v in self._check_vars if v.get())
-        self._count_lbl.config(text=f"{sel} / {len(self._items)}")
+        sel   = len(self._listbox.curselection())
+        total = self._listbox.size()
+        self._count_lbl.config(text=f"{sel} / {total}")
 
     def _sel_all(self):
-        for v in self._check_vars:
-            v.set(True)
+        self._listbox.selection_set(0, "end")
+        self._update_count()
 
     def _desel_all(self):
-        for v in self._check_vars:
-            v.set(False)
+        self._listbox.selection_clear(0, "end")
+        self._update_count()
 
     def _invert_sel(self):
-        for v in self._check_vars:
-            v.set(not v.get())
+        lb    = self._listbox
+        sel   = set(lb.curselection())
+        total = lb.size()
+        lb.selection_clear(0, "end")
+        for i in range(total):
+            if i not in sel:
+                lb.selection_set(i)
+        self._update_count()
 
     def _select_range(self):
-        """According to the range inputs, deselect all then select items in [start, end]."""
         try:
             start = int(self._range_start_var.get().strip())
             end   = int(self._range_end_var.get().strip())
         except ValueError:
             tkinter.messagebox.showerror("参数错误", "请输入整数范围", parent=self)
             return
-        total = len(self._check_vars)
+        total = self._listbox.size()
         if total == 0:
             return
-        # 将 1-indexed 用户输入限制到实际范围
         start = max(1, start)
         end   = min(total, end)
         if start > end:
             tkinter.messagebox.showerror("参数错误", f"起始序号不能大于结束序号，当前共 {total} 条", parent=self)
             return
-        for i, v in enumerate(self._check_vars):
-            v.set(start - 1 <= i <= end - 1)
+        self._listbox.selection_clear(0, "end")
+        self._listbox.selection_set(start - 1, end - 1)
+        self._listbox.see(start - 1)
+        self._update_count()
 
     # ── 导出 ──
 
     def _export(self):
-        selected = [name for name, var in zip(self._items, self._check_vars) if var.get()]
+        sel_indices = self._listbox.curselection()
+        selected    = [self._listbox.get(i) for i in sel_indices]
         if not selected:
             tkinter.messagebox.showwarning("未选择", "请至少选择一项", parent=self)
             return
