@@ -1,0 +1,2561 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@20260318170435AE8737C39399AE35726E",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@20260318170435AE8737C39399AE35726E",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@20260318170435AE8737C39399AE35726E",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@20260318170435AE8737C39399AE35726E",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@20260318170435AE8737C39399AE35726E",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@20260318170435AE8737C39399AE35726E",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1020,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7588140695005711384",
+          "search_result_id": "7588140695005711384",
+          "search_high_light": {
+            "abstract": {
+              "text": "...爆发，世界毁灭，文明断层。 万年后新的世界以国士为尊——刻画史前文明之物，即可引动国运，成就无上强者！ ",
+              "rich_text": "杀伐果<em>断</em> + 知识碾压 + 卡牌创新 + 快意恩仇 + 幕后黑手+百国争霸\n核战爆发，世界毁灭，文明<em>断层</em>。\n万年后新的世界以国士为尊——刻画史前文明之物，即可引动国运，成就无上强者！\n",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "国运：我的卡牌来自古华夏",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "杀伐果断 + 知识碾压 + 卡牌创新 + 快意恩仇 + 幕后黑手+百国争霸\n核战爆发，世界毁灭，文明断层。\n万年后新的世界以国士为尊——刻画史前文明之物，即可引动国运，成就无上强者！\n",
+              "author": "华夏十万年",
+              "book_id": "7588140695005711384",
+              "book_name": "国运：我的卡牌来自古华夏",
+              "category": "都市高武",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-12-26T20:21:22+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7588140851444859416",
+              "first_chapter_item_id": "7588140851444859416",
+              "first_chapter_title": "第1章 报仇不隔夜",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7603564448128696856",
+              "last_chapter_item_id": "7603564448128696856",
+              "last_chapter_title": "第116章 一人镇国",
+              "last_chapter_update_time": "1770342988",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "2832",
+              "recommend_group_id": "7588140695005711384",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817052577E5A4126322E05FB2E3\",\"rank\":\"1\",\"normal_session_id\":\"48b18a30-8739-4906-a6a3-6c9d02150dc0\",\"cold_start_session_id\":\"8b9b69a1-13ed-464b-af46-3b8e18dea8f6\"}",
+              "read_progress": "0",
+              "serial_count": "116",
+              "source": "番茄小说",
+              "tags": "都市高武,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/f86539265a23663c500577b87b2f9400~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=PgFzg2TLrB9nym9FSZUlTELlduM%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "247447",
+              "score": "0",
+              "exclusive": "1",
+              "role": "周青",
+              "category_schema": "[{\"category_id\":1014,\"name\":\"都市高武\",\"schema\":\"dragon1967://newCategoryDetail?id=1014&name=都市高武&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":496,\"name\":\"国运\",\"schema\":\"dragon1967://newCategoryDetail?id=496&name=国运&genre_type=0&gender=1&source=detail\"},{\"category_id\":500,\"name\":\"断层\",\"schema\":\"dragon1967://newCategoryDetail?id=500&name=断层&genre_type=0&gender=1&source=detail\"},{\"category_id\":837,\"name\":\"争霸\",\"schema\":\"dragon1967://newCategoryDetail?id=837&name=争霸&genre_type=0&gender=1&source=detail\"},{\"category_id\":874,\"name\":\"卡牌\",\"schema\":\"dragon1967://newCategoryDetail?id=874&name=卡牌&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1003",
+              "sub_info": "2832人在读",
+              "last_publish_time": "1770393692",
+              "authorize_type": "1",
+              "media_id": "1756910608643080",
+              "original_book_name": "国运：我的卡牌来自古华夏",
+              "length_type": "1",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/f86539265a23663c500577b87b2f9400",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/f86539265a23663c500577b87b2f9400~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008726&x-signature=hVjxF6qD%2FjcdD2ZvEmbrRiSh5wY%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "303",
+              "pure_category_tags": "都市高武,卡牌",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#181818",
+              "read_count_all": "7113",
+              "shelf_cnt_history": "977",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2503\":1766752235,\"13\":1766752235,\"2329\":1766752235,\"638505\":1766824592,\"3040\":1766824592,\"1967\":1766752235,\"1128\":1766752235,\"510893\":1766752235,\"596084\":1766824592,\"8703\":1766752235,\"8704\":1766752235,\"8662\":1766752235,\"507386\":1766752282,\"8661\":1766824592,\"6589\":1766824592,\"35\":1766752235,\"507427\":1766752282}",
+              "category_v2_map": {
+                "496": true,
+                "874": true,
+                "1014": true,
+                "500": true,
+                "837": true,
+                "1": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/f86539265a23663c500577b87b2f9400~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=PgFzg2TLrB9nym9FSZUlTELlduM%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7572577372633830718,
+                  "AuthorName": "华夏十万年"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/f86539265a23663c500577b87b2f9400~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008726&x-signature=D4izc2PyjUlFXn0Fhnui7EVgXGU%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "杀伐果断 + 知识碾压 + 卡牌创新 + 快意恩仇 + 幕后黑手+百国争霸\n核战爆发，世界毁灭，文明断层。\n万年后新的世界以国士为尊——刻画史前文明之物，即可引动国运，成就无上强者！\n",
+              "read_page_progress": "0",
+              "read_cnt_text": "2832人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/f86539265a23663c500577b87b2f9400~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=SSAR1IaO5aBm9aPSTvltBkGiAf8%3D",
+              "raw_book_name": "国运：我的卡牌来自古华夏",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "15722716694676744836:20:0:4276993348:clks####3@20260318170435AE8737C39399AE35726E",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "24.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2832人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市高武",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：华夏十万年",
+                "rich_text": "作者：华夏十万年",
+                "high_light_position": []
+              },
+              {
+                "text": "...爆发，世界毁灭，文明断层。 万年后新的世界以国士为尊——刻画史前文明之物，即可引动国运，成就无上强者！ ",
+                "rich_text": "杀伐果<em>断</em> + 知识碾压 + 卡牌创新 + 快意恩仇 + 幕后黑手+百国争霸\n核战爆发，世界毁灭，文明<em>断层</em>。\n万年后新的世界以国士为尊——刻画史前文明之物，即可引动国运，成就无上强者！\n",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1021,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7603637477907106841",
+          "search_result_id": "7603637477907106841",
+          "search_high_light": {
+            "abstract": {
+              "text": "国运竞技场降临，全球绑定历史人物作为副本。当别国挑战英雄史诗时，龙国面对的，却是被篡改的“暴君始皇”、“奸雄曹操”、“昏君隋炀”……举国绝望。 社畜林霄，于绝境中觉醒【文明真理】系统。当代表在直播中讨伐“魔化始皇”时，林霄的反向直播间，却向全球展示了始皇灯下统一文字、车同轨的沉重背影； 当举世唾骂曹操“挟天子以令诸侯”时，林霄的镜头对准了官渡之战前，那个为天下止戈而甘负骂名的孤独身影…… 以真实，战虚妄。当国运游戏最终揭开狰狞面目，欲吞噬文明本源时，林霄身后，那些曾被曲解的“历史人物”，于真实长河中，缓缓睁开了眼睛。 “谁言，历史任由尔等涂抹？”",
+              "rich_text": "国运竞技场降临，全球绑定历史人物作为副本。当别国挑战英雄史诗时，龙国面对的，却是被篡改的“暴君始皇”、“奸雄曹操”、“昏君隋炀”……举国绝望。\n社畜林霄，于绝境中觉醒【文明真理】系统。当代表在直播中讨伐“魔化始皇”时，林霄的反向直播间，却向全球展示了始皇灯下统一文字、车同轨的沉重背影；\n当举世唾骂曹操“挟天子以令诸侯”时，林霄的镜头对准了官渡之战前，那个为天下止戈而甘负骂名的孤独身影……\n以真实，战虚妄。当国运游戏最终揭开狰狞面目，欲吞噬文明本源时，林霄身后，那些曾被曲解的“历史人物”，于真实长河中，缓缓睁开了眼睛。\n“谁言，历史任由尔等涂抹？”",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "国运欺诈？我直播真历史引爆全球",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "国运竞技场降临，全球绑定历史人物作为副本。当别国挑战英雄史诗时，龙国面对的，却是被篡改的“暴君始皇”、“奸雄曹操”、“昏君隋炀”……举国绝望。\n社畜林霄，于绝境中觉醒【文明真理】系统。当代表在直播中讨伐“魔化始皇”时，林霄的反向直播间，却向全球展示了始皇灯下统一文字、车同轨的沉重背影；\n当举世唾骂曹操“挟天子以令诸侯”时，林霄的镜头对准了官渡之战前，那个为天下止戈而甘负骂名的孤独身影……\n以真实，战虚妄。当国运游戏最终揭开狰狞面目，欲吞噬文明本源时，林霄身后，那些曾被曲解的“历史人物”，于真实长河中，缓缓睁开了眼睛。\n“谁言，历史任由尔等涂抹？”",
+              "author": "那一眼的风景",
+              "book_id": "7603637477907106841",
+              "book_name": "国运欺诈？我直播真历史引爆全球",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-06T14:36:48+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7603637835232461337",
+              "first_chapter_item_id": "7603637835232461337",
+              "first_chapter_title": "第1章 绝境直播，始皇非魔",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7616940787699302937",
+              "last_chapter_item_id": "7616940787699302937",
+              "last_chapter_title": "第119章 薪火不灭，文明永恒",
+              "last_chapter_update_time": "1773463503",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "351",
+              "recommend_group_id": "7603637477907106841",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817052577E5A4126322E05FB2E3\",\"rank\":\"1\",\"normal_session_id\":\"48b18a30-8739-4906-a6a3-6c9d02150dc0\",\"cold_start_session_id\":\"8b9b69a1-13ed-464b-af46-3b8e18dea8f6\"}",
+              "read_progress": "0",
+              "serial_count": "119",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0c27f4a4c054295d8d6c3d4141f39305~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=mQBWu3jYTFbQeIn8msdtWdqU6H8%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "864384",
+              "score": "0",
+              "exclusive": "1",
+              "role": "林霄",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":69,\"name\":\"直播\",\"schema\":\"dragon1967://newCategoryDetail?id=69&name=直播&genre_type=0&gender=1&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=1&source=detail\"},{\"category_id\":496,\"name\":\"国运\",\"schema\":\"dragon1967://newCategoryDetail?id=496&name=国运&genre_type=0&gender=1&source=detail\"},{\"category_id\":864,\"name\":\"副本\",\"schema\":\"dragon1967://newCategoryDetail?id=864&name=副本&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "43",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773597673",
+              "authorize_type": "1",
+              "media_id": "1855491049831434",
+              "original_book_name": "国运欺诈？我直播真历史引爆全球",
+              "length_type": "1",
+              "op_tag": "535,536",
+              "keep_publish_days": "39",
+              "thumb_uri": "novel-pic/0c27f4a4c054295d8d6c3d4141f39305",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0c27f4a4c054295d8d6c3d4141f39305~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008726&x-signature=CqtyDLtVB3VU0murWvusv0ic5sk%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市脑洞,副本",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#282010",
+              "read_count_all": "543",
+              "shelf_cnt_history": "1012",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2503\":1770361606,\"6589\":1770371984,\"1128\":1770361606,\"510893\":1770361606,\"638505\":1770371984,\"3040\":1770371984,\"8703\":1770361606,\"8704\":1770361606,\"507386\":1770361663,\"8661\":1770371984,\"596084\":1770371984,\"8662\":1770361606,\"1967\":1770361606,\"35\":1770361606,\"2329\":1770361606,\"507427\":1770361663,\"13\":1770361606}",
+              "category_v2_map": {
+                "262": true,
+                "1": true,
+                "19": true,
+                "516": true,
+                "69": true,
+                "496": true,
+                "864": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0c27f4a4c054295d8d6c3d4141f39305~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=mQBWu3jYTFbQeIn8msdtWdqU6H8%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7600093395565958425,
+                  "AuthorName": "那一眼的风景"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0c27f4a4c054295d8d6c3d4141f39305~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008726&x-signature=6HgBIsmXa0TEPbr4hVC4A%2FmFwsg%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "国运竞技场降临，全球绑定历史人物作为副本。当别国挑战英雄史诗时，龙国面对的，却是被篡改的“暴君始皇”、“奸雄曹操”、“昏君隋炀”……举国绝望。\n社畜林霄，于绝境中觉醒【文明真理】系统。当代表在直播中讨伐“魔化始皇”时，林霄的反向直播间，却向全球展示了始皇灯下统一文字、车同轨的沉重背影；\n当举世唾骂曹操“挟天子以令诸侯”时，林霄的镜头对准了官渡之战前，那个为天下止戈而甘负骂名的孤独身影……\n以真实，战虚妄。当国运游戏最终揭开狰狞面目，欲吞噬文明本源时，林霄身后，那些曾被曲解的“历史人物”，于真实长河中，缓缓睁开了眼睛。\n“谁言，历史任由尔等涂抹？”",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0c27f4a4c054295d8d6c3d4141f39305~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=NBNguxifdUERus8kRlbXJGZfAsk%3D",
+              "raw_book_name": "国运欺诈？我直播真历史引爆全球",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "15722716694676744836:21:0:1202178853:clks####3@20260318170435AE8737C39399AE35726E",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "86.4万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "351人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：那一眼的风景",
+                "rich_text": "作者：那一眼的风景",
+                "high_light_position": []
+              },
+              {
+                "text": "国运竞技场降临，全球绑定历史人物作为副本。当别国挑战英雄史诗时，龙国面对的，却是被篡改的“暴君始皇”、“奸雄曹操”、“昏君隋炀”……举国绝望。 社畜林霄，于绝境中觉醒【文明真理】系统。当代表在直播中讨伐“魔化始皇”时，林霄的反向直播间，却向全球展示了始皇灯下统一文字、车同轨的沉重背影； 当举世唾骂曹操“挟天子以令诸侯”时，林霄的镜头对准了官渡之战前，那个为天下止戈而甘负骂名的孤独身影…… 以真实，战虚妄。当国运游戏最终揭开狰狞面目，欲吞噬文明本源时，林霄身后，那些曾被曲解的“历史人物”，于真实长河中，缓缓睁开了眼睛。 “谁言，历史任由尔等涂抹？”",
+                "rich_text": "国运竞技场降临，全球绑定历史人物作为副本。当别国挑战英雄史诗时，龙国面对的，却是被篡改的“暴君始皇”、“奸雄曹操”、“昏君隋炀”……举国绝望。\n社畜林霄，于绝境中觉醒【文明真理】系统。当代表在直播中讨伐“魔化始皇”时，林霄的反向直播间，却向全球展示了始皇灯下统一文字、车同轨的沉重背影；\n当举世唾骂曹操“挟天子以令诸侯”时，林霄的镜头对准了官渡之战前，那个为天下止戈而甘负骂名的孤独身影……\n以真实，战虚妄。当国运游戏最终揭开狰狞面目，欲吞噬文明本源时，林霄身后，那些曾被曲解的“历史人物”，于真实长河中，缓缓睁开了眼睛。\n“谁言，历史任由尔等涂抹？”",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1022,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7594125744175860760",
+          "search_result_id": "7594125744175860760",
+          "search_high_light": {
+            "abstract": {
+              "text": "...擂台时代，华夏国文明断层，无神可唤，无仙可招，连续三年资源垫底，濒临崩溃。 杨宸，一个为妹妹医药费发愁的高三学生，在校园擂台上被外邦传承者肆意羞辱，骂他是“无祖无宗的废物”。极致的愤怒，激活了祖传玉佩中沉睡的记忆——他，竟是古代明朝，那位写下“滚滚长江东逝水”的明朝状元，杨慎！ 前尘苏醒，文道重开。杨宸发现，这方世界的超凡之力，竟藏于被遗忘的汉字笔墨之间！樱花忍者结印唤火？他凌空书写一个“潦”字，大雨倾盆浇灭！西方圣骑士冲锋？他口诵《国殇》，召唤大秦锐士虚影，列阵向前！ 从校园到市赛，从全国选拔到全球国运擂台，他以诗词为剑，文章为甲，史书为阵。当外星文明露出收割的獠牙，诸国神明皆尽俯首，唯杨宸一步踏出，身后五千载文脉长河显化，孔孟言仁，李杜诗剑，秦皇汉武踏碎时空而来。 他提笔，指向星空：“我华夏并非无道。今日，便以这浩然文道，为亿万同胞——逆天改命！”",
+              "rich_text": "#系统 #国运 #文明竞争 \n国运擂台时代，华夏国文明<em>断层</em>，无神可唤，无仙可招，连续三年资源垫底，濒临崩溃。\n杨宸，一个为妹妹医药费发愁的高三学生，在校园擂台上被外邦传承者肆意羞辱，骂他是“无祖无宗的废物”。极致的愤怒，激活了祖传玉佩中沉睡的记忆——他，竟是古代明朝，那位写下“滚滚长江东逝水”的明朝状元，杨慎！\n前尘苏醒，文道重开。杨宸发现，这方世界的超凡之力，竟藏于被遗忘的汉字笔墨之间！樱花忍者结印唤火？他凌空书写一个“潦”字，大雨倾盆浇灭！西方圣骑士冲锋？他口诵《国殇》，召唤大秦锐士虚影，列阵向前！\n从校园到市赛，从全国选拔到全球国运擂台，他以诗词为剑，文章为甲，史书为阵。当外星文明露出收割的獠牙，诸国神明皆尽俯首，唯杨宸一步踏出，身后五千载文脉长河显化，孔孟言仁，李杜诗剑，秦皇汉武踏碎时空而来。\n他提笔，指向星空：“我华夏并非无道。今日，便以这浩然文道，为亿万同胞——逆天改命！”",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "身负状元才，我为华夏改国运",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "#系统 #国运 #文明竞争 \n国运擂台时代，华夏国文明断层，无神可唤，无仙可招，连续三年资源垫底，濒临崩溃。\n杨宸，一个为妹妹医药费发愁的高三学生，在校园擂台上被外邦传承者肆意羞辱，骂他是“无祖无宗的废物”。极致的愤怒，激活了祖传玉佩中沉睡的记忆——他，竟是古代明朝，那位写下“滚滚长江东逝水”的明朝状元，杨慎！\n前尘苏醒，文道重开。杨宸发现，这方世界的超凡之力，竟藏于被遗忘的汉字笔墨之间！樱花忍者结印唤火？他凌空书写一个“潦”字，大雨倾盆浇灭！西方圣骑士冲锋？他口诵《国殇》，召唤大秦锐士虚影，列阵向前！\n从校园到市赛，从全国选拔到全球国运擂台，他以诗词为剑，文章为甲，史书为阵。当外星文明露出收割的獠牙，诸国神明皆尽俯首，唯杨宸一步踏出，身后五千载文脉长河显化，孔孟言仁，李杜诗剑，秦皇汉武踏碎时空而来。\n他提笔，指向星空：“我华夏并非无道。今日，便以这浩然文道，为亿万同胞——逆天改命！”",
+              "author": "兮博",
+              "book_id": "7594125744175860760",
+              "book_name": "身负状元才，我为华夏改国运",
+              "category": "都市高武",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-11T23:26:25+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7594126896644751896",
+              "first_chapter_item_id": "7594126896644751896",
+              "first_chapter_title": "第1章 绝境·百万药费",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7613962776783880729",
+              "last_chapter_item_id": "7613962776783880729",
+              "last_chapter_title": "第72章 钥匙的颤动",
+              "last_chapter_update_time": "1772763888",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "3",
+              "recommend_group_id": "7594125744175860760",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817052577E5A4126322E05FB2E3\",\"rank\":\"1\",\"normal_session_id\":\"48b18a30-8739-4906-a6a3-6c9d02150dc0\",\"cold_start_session_id\":\"8b9b69a1-13ed-464b-af46-3b8e18dea8f6\"}",
+              "read_progress": "0",
+              "serial_count": "72",
+              "source": "番茄小说",
+              "tags": "都市高武,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5ae100d727020e230e54bddb6ebc3c0d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=JJX1D%2FXe0AZovjFpWvHn7HwKcpY%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "165887",
+              "score": "0",
+              "exclusive": "1",
+              "role": "杨宸",
+              "category_schema": "[{\"category_id\":1014,\"name\":\"都市高武\",\"schema\":\"dragon1967://newCategoryDetail?id=1014&name=都市高武&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":496,\"name\":\"国运\",\"schema\":\"dragon1967://newCategoryDetail?id=496&name=国运&genre_type=0&gender=1&source=detail\"},{\"category_id\":500,\"name\":\"断层\",\"schema\":\"dragon1967://newCategoryDetail?id=500&name=断层&genre_type=0&gender=1&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1772763900",
+              "authorize_type": "1",
+              "media_id": "1765752506004480",
+              "original_book_name": "身负状元才，我为华夏改国运",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2o5ae100d727020e230e54bddb6ebc3c0d",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5ae100d727020e230e54bddb6ebc3c0d~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008726&x-signature=k8UPV7n2DH7Z20d9wUNUnLH5qyI%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市高武,都市异能",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#103840",
+              "read_count_all": "253",
+              "shelf_cnt_history": "1017",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507427\":1768145668,\"8703\":1768145623,\"3040\":1768183503,\"6589\":1768183631,\"13\":1768145623,\"510893\":1768145623,\"1128\":1768145623,\"8662\":1768145623,\"2503\":1768145623,\"8661\":1768183503,\"2329\":1768145623,\"638505\":1768183503,\"596084\":1768183503,\"1967\":1768145623,\"507386\":1768145668,\"35\":1768145623,\"8704\":1768145623}",
+              "category_v2_map": {
+                "1014": true,
+                "1": true,
+                "496": true,
+                "500": true,
+                "516": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5ae100d727020e230e54bddb6ebc3c0d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=JJX1D%2FXe0AZovjFpWvHn7HwKcpY%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7575474863628883262,
+                  "AuthorName": "兮博"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5ae100d727020e230e54bddb6ebc3c0d~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008726&x-signature=tlTVJImDUhqxAbVhf5Q28IHUgmw%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "#系统 #国运 #文明竞争 \n国运擂台时代，华夏国文明断层，无神可唤，无仙可招，连续三年资源垫底，濒临崩溃。\n杨宸，一个为妹妹医药费发愁的高三学生，在校园擂台上被外邦传承者肆意羞辱，骂他是“无祖无宗的废物”。极致的愤怒，激活了祖传玉佩中沉睡的记忆——他，竟是古代明朝，那位写下“滚滚长江东逝水”的明朝状元，杨慎！\n前尘苏醒，文道重开。杨宸发现，这方世界的超凡之力，竟藏于被遗忘的汉字笔墨之间！樱花忍者结印唤火？他凌空书写一个“潦”字，大雨倾盆浇灭！西方圣骑士冲锋？他口诵《国殇》，召唤大秦锐士虚影，列阵向前！\n从校园到市赛，从全国选拔到全球国运擂台，他以诗词为剑，文章为甲，史书为阵。当外星文明露出收割的獠牙，诸国神明皆尽俯首，唯杨宸一步踏出，身后五千载文脉长河显化，孔孟言仁，李杜诗剑，秦皇汉武踏碎时空而来。\n他提笔，指向星空：“我华夏并非无道。今日，便以这浩然文道，为亿万同胞——逆天改命！”",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5ae100d727020e230e54bddb6ebc3c0d~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=NPD7SLIdjhg%2BZnuC9dl3hvNiut4%3D",
+              "raw_book_name": "身负状元才，我为华夏改国运",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "15722716694676744836:22:0:2112337386:clks####3@20260318170435AE8737C39399AE35726E",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "16.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市高武",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：兮博",
+                "rich_text": "作者：兮博",
+                "high_light_position": []
+              },
+              {
+                "text": "...擂台时代，华夏国文明断层，无神可唤，无仙可招，连续三年资源垫底，濒临崩溃。 杨宸，一个为妹妹医药费发愁的高三学生，在校园擂台上被外邦传承者肆意羞辱，骂他是“无祖无宗的废物”。极致的愤怒，激活了祖传玉佩中沉睡的记忆——他，竟是古代明朝，那位写下“滚滚长江东逝水”的明朝状元，杨慎！ 前尘苏醒，文道重开。杨宸发现，这方世界的超凡之力，竟藏于被遗忘的汉字笔墨之间！樱花忍者结印唤火？他凌空书写一个“潦”字，大雨倾盆浇灭！西方圣骑士冲锋？他口诵《国殇》，召唤大秦锐士虚影，列阵向前！ 从校园到市赛，从全国选拔到全球国运擂台，他以诗词为剑，文章为甲，史书为阵。当外星文明露出收割的獠牙，诸国神明皆尽俯首，唯杨宸一步踏出，身后五千载文脉长河显化，孔孟言仁，李杜诗剑，秦皇汉武踏碎时空而来。 他提笔，指向星空：“我华夏并非无道。今日，便以这浩然文道，为亿万同胞——逆天改命！”",
+                "rich_text": "#系统 #国运 #文明竞争 \n国运擂台时代，华夏国文明<em>断层</em>，无神可唤，无仙可招，连续三年资源垫底，濒临崩溃。\n杨宸，一个为妹妹医药费发愁的高三学生，在校园擂台上被外邦传承者肆意羞辱，骂他是“无祖无宗的废物”。极致的愤怒，激活了祖传玉佩中沉睡的记忆——他，竟是古代明朝，那位写下“滚滚长江东逝水”的明朝状元，杨慎！\n前尘苏醒，文道重开。杨宸发现，这方世界的超凡之力，竟藏于被遗忘的汉字笔墨之间！樱花忍者结印唤火？他凌空书写一个“潦”字，大雨倾盆浇灭！西方圣骑士冲锋？他口诵《国殇》，召唤大秦锐士虚影，列阵向前！\n从校园到市赛，从全国选拔到全球国运擂台，他以诗词为剑，文章为甲，史书为阵。当外星文明露出收割的獠牙，诸国神明皆尽俯首，唯杨宸一步踏出，身后五千载文脉长河显化，孔孟言仁，李杜诗剑，秦皇汉武踏碎时空而来。\n他提笔，指向星空：“我华夏并非无道。今日，便以这浩然文道，为亿万同胞——逆天改命！”",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1023,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7575869759124687934",
+          "search_result_id": "7575869759124687934",
+          "search_high_light": {
+            "title": {
+              "text": "在没有历史的世界做历史游戏",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "穿越者林枫来到历史断层的平行世界，创立洪荒游戏，凭借前世知识重现华夏史诗。从《大秦》到《汉武大帝》，他用极致沉浸的游戏震撼世界。当新作《三国鼎立》面临创作瓶颈时，他毅然选择最难的道路——以“乱世求生”为核心，让玩家从饥荒中的流民起步，在白骨露野的废墟里挣扎求生。当那句“苍天已死，黄天当立”响彻云霄，当英雄传奇与残酷现实激烈碰撞，一部颠覆传统的三国史诗就此展开。这是游戏与历史的完美融合，更是文明火种的重燃。",
+              "rich_text": "穿越者林枫来到历史<em>断层</em>的平行世界，创立洪荒游戏，凭借前世知识重现华夏史诗。从《大秦》到《汉武大帝》，他用极致沉浸的游戏震撼世界。当新作《三国鼎立》面临创作瓶颈时，他毅然选择最难的道路——以“乱世求生”为核心，让玩家从饥荒中的流民起步，在白骨露野的废墟里挣扎求生。当那句“苍天已死，黄天当立”响彻云霄，当英雄传奇与残酷现实激烈碰撞，一部颠覆传统的三国史诗就此展开。这是游戏与历史的完美融合，更是文明火种的重燃。",
+              "high_light_position": [
+                [
+                  9,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "穿越者林枫来到历史断层的平行世界，创立洪荒游戏，凭借前世知识重现华夏史诗。从《大秦》到《汉武大帝》，他用极致沉浸的游戏震撼世界。当新作《三国鼎立》面临创作瓶颈时，他毅然选择最难的道路——以“乱世求生”为核心，让玩家从饥荒中的流民起步，在白骨露野的废墟里挣扎求生。当那句“苍天已死，黄天当立”响彻云霄，当英雄传奇与残酷现实激烈碰撞，一部颠覆传统的三国史诗就此展开。这是游戏与历史的完美融合，更是文明火种的重燃。",
+              "author": "ws小丑",
+              "book_id": "7575869759124687934",
+              "book_name": "在没有历史的世界做历史游戏",
+              "category": "都市种田",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-11-23T18:43:52+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7575869766888342078",
+              "first_chapter_item_id": "7575869766888342078",
+              "first_chapter_title": "第1章 空白的历史与燃烧的怒火",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7614189753985925694",
+              "last_chapter_item_id": "7614189753985925694",
+              "last_chapter_title": "第325章 天宝·那一个开始变的人",
+              "last_chapter_update_time": "1772816728",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "2207",
+              "recommend_group_id": "7575869759124687934",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817052577E5A4126322E05FB2E3\",\"rank\":\"1\",\"normal_session_id\":\"48b18a30-8739-4906-a6a3-6c9d02150dc0\",\"cold_start_session_id\":\"8b9b69a1-13ed-464b-af46-3b8e18dea8f6\"}",
+              "read_progress": "0",
+              "serial_count": "324",
+              "source": "番茄小说",
+              "tags": "都市种田,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/37e952f5f42939aa0477e9da56e53667~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=wF3%2FPiYkzhiwrT3sKSLWA8butTw%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "798531",
+              "score": "0",
+              "exclusive": "1",
+              "role": "林枫,苏瑾",
+              "category_schema": "[{\"category_id\":263,\"name\":\"都市种田\",\"schema\":\"dragon1967://newCategoryDetail?id=263&name=都市种田&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":66,\"name\":\"洪荒\",\"schema\":\"dragon1967://newCategoryDetail?id=66&name=洪荒&genre_type=0&gender=1&source=detail\"},{\"category_id\":500,\"name\":\"断层\",\"schema\":\"dragon1967://newCategoryDetail?id=500&name=断层&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "221",
+              "sub_info": "2207人在读",
+              "last_publish_time": "1772856065",
+              "authorize_type": "1",
+              "media_id": "1621079440091144",
+              "original_book_name": "历史断层，我掏出华夏历史游戏",
+              "length_type": "0",
+              "op_tag": "531,535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/37e952f5f42939aa0477e9da56e53667",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/5908cfea5c1105b47063624bf793b5ec~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008726&x-signature=lwYmfVB83p2HZXoub6YfODa1UHI%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "179",
+              "pure_category_tags": "都市种田,断层",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#505050",
+              "read_count_all": "37665",
+              "shelf_cnt_history": "3706",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2503\":1764149313,\"596084\":1764314611,\"8703\":1764149313,\"507386\":1764149361,\"13\":1764149313,\"6589\":1764314611,\"3040\":1764314611,\"638505\":1764314611,\"507427\":1764149361,\"8662\":1764149313,\"2329\":1764149313,\"35\":1764149313,\"1128\":1764149313,\"8661\":1764314611,\"510893\":1764149313,\"1967\":1764149313,\"8704\":1764149313}",
+              "category_v2_map": {
+                "66": true,
+                "37": true,
+                "263": true,
+                "1": true,
+                "500": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/37e952f5f42939aa0477e9da56e53667~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=wF3%2FPiYkzhiwrT3sKSLWA8butTw%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7076710002185999619,
+                  "AuthorName": "ws小丑"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/5908cfea5c1105b47063624bf793b5ec~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008726&x-signature=OG8HpVJF6u4YFBJr9Ae6F6CFBdQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "穿越者林枫来到历史断层的平行世界，创立洪荒游戏，凭借前世知识重现华夏史诗。从《大秦》到《汉武大帝》，他用极致沉浸的游戏震撼世界。当新作《三国鼎立》面临创作瓶颈时，他毅然选择最难的道路——以“乱世求生”为核心，让玩家从饥荒中的流民起步，在白骨露野的废墟里挣扎求生。当那句“苍天已死，黄天当立”响彻云霄，当英雄传奇与残酷现实激烈碰撞，一部颠覆传统的三国史诗就此展开。这是游戏与历史的完美融合，更是文明火种的重燃。",
+              "read_page_progress": "0",
+              "read_cnt_text": "2207人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/37e952f5f42939aa0477e9da56e53667~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=eHxnRlNg1GlBmMuPzvpeHXeneXU%3D",
+              "raw_book_name": "在没有历史的世界做历史游戏",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "15722716694676744836:23:0:1488508305:clks####3@20260318170435AE8737C39399AE35726E",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "79.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2207人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市种田",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：ws小丑",
+                "rich_text": "作者：ws小丑",
+                "high_light_position": []
+              },
+              {
+                "text": "穿越者林枫来到历史断层的平行世界，创立洪荒游戏，凭借前世知识重现华夏史诗。从《大秦》到《汉武大帝》，他用极致沉浸的游戏震撼世界。当新作《三国鼎立》面临创作瓶颈时，他毅然选择最难的道路——以“乱世求生”为核心，让玩家从饥荒中的流民起步，在白骨露野的废墟里挣扎求生。当那句“苍天已死，黄天当立”响彻云霄，当英雄传奇与残酷现实激烈碰撞，一部颠覆传统的三国史诗就此展开。这是游戏与历史的完美融合，更是文明火种的重燃。",
+                "rich_text": "穿越者林枫来到历史<em>断层</em>的平行世界，创立洪荒游戏，凭借前世知识重现华夏史诗。从《大秦》到《汉武大帝》，他用极致沉浸的游戏震撼世界。当新作《三国鼎立》面临创作瓶颈时，他毅然选择最难的道路——以“乱世求生”为核心，让玩家从饥荒中的流民起步，在白骨露野的废墟里挣扎求生。当那句“苍天已死，黄天当立”响彻云霄，当英雄传奇与残酷现实激烈碰撞，一部颠覆传统的三国史诗就此展开。这是游戏与历史的完美融合，更是文明火种的重燃。",
+                "high_light_position": [
+                  [
+                    9,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1024,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7605609923581316121",
+          "search_result_id": "7605609923581316121",
+          "search_high_light": {
+            "abstract": {
+              "text": "高级位面降临，命运之神睁开眼。 七百三十国被拖入秘境战场——以本国历史底蕴为刀，胜者掠夺国运，败者文明抹除。 夏国连输七阵。 古籍焚毁，龙脉断绝，连兵马俑手里的武器名叫什么都答不上来。 弹幕说：那个连自己神仙名字都记不全的国家，灭了吧。 然后我站出来了。 摸金校尉第八十二代传人，祖传《陵谱》里装着四百座无名的墓。 他们嘲笑夏国没神话。 我把龟山汉墓搬进战场，刘注等了两千年的星宿棋局，困得西洋骑士跪地认输。 他们嘲笑夏国没史诗。 我敲响曾侯乙编钟，一钟双音，正律为君变律为杀。二十四百年前的乐正从陪葬棺里坐起来，接过我的槌。 他们说夏国的神早死光了。 半决赛，我只开了始皇陵的东阙。 水银兵马俑列阵而出，甲胄上凝着两千两百年的杀意。 ——我不是来复仇的。 我是来告诉那些史书无载、坟冢无碑、无人祭扫的人： 后世有人记得你们。 每一颗星宿，每一道编钟音，每一尊水银俑。 你们不是无名。 你们是夏国，最后的秘境。",
+              "rich_text": "高级位面降临，命运之神睁开眼。\n七百三十国被拖入秘境战场——以本国历史底蕴为刀，胜者掠夺国运，败者文明抹除。\n夏国连输七阵。\n古籍焚毁，龙脉<em>断</em>绝，连兵马俑手里的武器名叫什么都答不上来。\n弹幕说：那个连自己神仙名字都记不全的国家，灭了吧。\n然后我站出来了。\n摸金校尉第八十二代传人，祖传《陵谱》里装着四百座无名的墓。\n他们嘲笑夏国没神话。\n我把龟山汉墓搬进战场，刘注等了两千年的星宿棋局，困得西洋骑士跪地认输。\n他们嘲笑夏国没史诗。\n我敲响曾侯乙编钟，一钟双音，正律为君变律为杀。二十四百年前的乐正从陪葬棺里坐起来，接过我的槌。\n他们说夏国的神早死光了。\n半决赛，我只开了始皇陵的东阙。\n水银兵马俑列阵而出，甲胄上凝着两千两百年的杀意。\n——我不是来复仇的。\n我是来告诉那些史书无载、坟冢无碑、无人祭扫的人：\n后世有人记得你们。\n每一颗星宿，每一道编钟音，每一尊水银俑。\n你们不是无名。\n你们是夏国，最后的秘境。",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "国陵：我在秘境复活五千年",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "高级位面降临，命运之神睁开眼。\n七百三十国被拖入秘境战场——以本国历史底蕴为刀，胜者掠夺国运，败者文明抹除。\n夏国连输七阵。\n古籍焚毁，龙脉断绝，连兵马俑手里的武器名叫什么都答不上来。\n弹幕说：那个连自己神仙名字都记不全的国家，灭了吧。\n然后我站出来了。\n摸金校尉第八十二代传人，祖传《陵谱》里装着四百座无名的墓。\n他们嘲笑夏国没神话。\n我把龟山汉墓搬进战场，刘注等了两千年的星宿棋局，困得西洋骑士跪地认输。\n他们嘲笑夏国没史诗。\n我敲响曾侯乙编钟，一钟双音，正律为君变律为杀。二十四百年前的乐正从陪葬棺里坐起来，接过我的槌。\n他们说夏国的神早死光了。\n半决赛，我只开了始皇陵的东阙。\n水银兵马俑列阵而出，甲胄上凝着两千两百年的杀意。\n——我不是来复仇的。\n我是来告诉那些史书无载、坟冢无碑、无人祭扫的人：\n后世有人记得你们。\n每一颗星宿，每一道编钟音，每一尊水银俑。\n你们不是无名。\n你们是夏国，最后的秘境。",
+              "author": "喜欢报春鸟的刀郎",
+              "book_id": "7605609923581316121",
+              "book_name": "国陵：我在秘境复活五千年",
+              "category": "都市高武",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-11T22:10:54+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7605610099570115097",
+              "first_chapter_item_id": "7605610099570115097",
+              "first_chapter_title": "第1章 蓝光之后，夏国成了倒数第一",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618188351329272344",
+              "last_chapter_item_id": "7618188351329272344",
+              "last_chapter_title": "第15章 林深处",
+              "last_chapter_update_time": "1773747764",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "128",
+              "recommend_group_id": "7605609923581316121",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817052577E5A4126322E05FB2E3\",\"rank\":\"1\",\"normal_session_id\":\"48b18a30-8739-4906-a6a3-6c9d02150dc0\",\"cold_start_session_id\":\"8b9b69a1-13ed-464b-af46-3b8e18dea8f6\"}",
+              "read_progress": "0",
+              "serial_count": "65",
+              "source": "番茄小说",
+              "tags": "都市高武,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o99329831eb0e6fc6b2184c70bf4a6ec5~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=DvU6BAWU3cekaXoLFQKyKI%2BzOAk%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "225038",
+              "score": "0",
+              "exclusive": "1",
+              "role": "张不禄",
+              "category_schema": "[{\"category_id\":1014,\"name\":\"都市高武\",\"schema\":\"dragon1967://newCategoryDetail?id=1014&name=都市高武&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":17,\"name\":\"鉴宝\",\"schema\":\"dragon1967://newCategoryDetail?id=17&name=鉴宝&genre_type=0&gender=1&source=detail\"},{\"category_id\":81,\"name\":\"盗墓\",\"schema\":\"dragon1967://newCategoryDetail?id=81&name=盗墓&genre_type=0&gender=1&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=1&source=detail\"},{\"category_id\":864,\"name\":\"副本\",\"schema\":\"dragon1967://newCategoryDetail?id=864&name=副本&genre_type=0&gender=1&source=detail\"},{\"category_id\":496,\"name\":\"国运\",\"schema\":\"dragon1967://newCategoryDetail?id=496&name=国运&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "8",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773747776",
+              "authorize_type": "1",
+              "media_id": "1606609521529870",
+              "original_book_name": "国陵：我在秘境复活五千年",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "20",
+              "thumb_uri": "novel-pic/p2o99329831eb0e6fc6b2184c70bf4a6ec5",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o99329831eb0e6fc6b2184c70bf4a6ec5~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008726&x-signature=EbofhawRpO8G%2F1IQ5SKvlFDy51g%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市高武,国运",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#182828",
+              "read_count_all": "298",
+              "shelf_cnt_history": "1011",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"13\":1770819178,\"1967\":1770819178,\"35\":1770819178,\"510893\":1770819178,\"2329\":1770819178,\"8662\":1770819178,\"8704\":1770819178,\"8703\":1770819178,\"1128\":1770819178,\"8661\":1770863025,\"3040\":1770863025,\"507386\":1770819224,\"2503\":1770819178,\"507427\":1770819224,\"596084\":1770863025,\"638505\":1770863025,\"6589\":1770863025}",
+              "category_v2_map": {
+                "496": true,
+                "516": true,
+                "864": true,
+                "81": true,
+                "1014": true,
+                "1": true,
+                "17": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o99329831eb0e6fc6b2184c70bf4a6ec5~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=DvU6BAWU3cekaXoLFQKyKI%2BzOAk%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7589277689094100248,
+                  "AuthorName": "喜欢报春鸟的刀郎"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o99329831eb0e6fc6b2184c70bf4a6ec5~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008726&x-signature=6OHeYTW97eYIanCg%2Bxn3Q9VLa6E%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "高级位面降临，命运之神睁开眼。\n七百三十国被拖入秘境战场——以本国历史底蕴为刀，胜者掠夺国运，败者文明抹除。\n夏国连输七阵。\n古籍焚毁，龙脉断绝，连兵马俑手里的武器名叫什么都答不上来。\n弹幕说：那个连自己神仙名字都记不全的国家，灭了吧。\n然后我站出来了。\n摸金校尉第八十二代传人，祖传《陵谱》里装着四百座无名的墓。\n他们嘲笑夏国没神话。\n我把龟山汉墓搬进战场，刘注等了两千年的星宿棋局，困得西洋骑士跪地认输。\n他们嘲笑夏国没史诗。\n我敲响曾侯乙编钟，一钟双音，正律为君变律为杀。二十四百年前的乐正从陪葬棺里坐起来，接过我的槌。\n他们说夏国的神早死光了。\n半决赛，我只开了始皇陵的东阙。\n水银兵马俑列阵而出，甲胄上凝着两千两百年的杀意。\n——我不是来复仇的。\n我是来告诉那些史书无载、坟冢无碑、无人祭扫的人：\n后世有人记得你们。\n每一颗星宿，每一道编钟音，每一尊水银俑。\n你们不是无名。\n你们是夏国，最后的秘境。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o99329831eb0e6fc6b2184c70bf4a6ec5~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=7Kvz94Iw%2FySf0x%2Fsmb63egqkF0c%3D",
+              "raw_book_name": "国陵：我在秘境复活五千年",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "15722716694676744836:24:0:1990991910:clks####3@20260318170435AE8737C39399AE35726E",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "22.5万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "128人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市高武",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：喜欢报春鸟的刀郎",
+                "rich_text": "作者：喜欢报春鸟的刀郎",
+                "high_light_position": []
+              },
+              {
+                "text": "高级位面降临，命运之神睁开眼。 七百三十国被拖入秘境战场——以本国历史底蕴为刀，胜者掠夺国运，败者文明抹除。 夏国连输七阵。 古籍焚毁，龙脉断绝，连兵马俑手里的武器名叫什么都答不上来。 弹幕说：那个连自己神仙名字都记不全的国家，灭了吧。 然后我站出来了。 摸金校尉第八十二代传人，祖传《陵谱》里装着四百座无名的墓。 他们嘲笑夏国没神话。 我把龟山汉墓搬进战场，刘注等了两千年的星宿棋局，困得西洋骑士跪地认输。 他们嘲笑夏国没史诗。 我敲响曾侯乙编钟，一钟双音，正律为君变律为杀。二十四百年前的乐正从陪葬棺里坐起来，接过我的槌。 他们说夏国的神早死光了。 半决赛，我只开了始皇陵的东阙。 水银兵马俑列阵而出，甲胄上凝着两千两百年的杀意。 ——我不是来复仇的。 我是来告诉那些史书无载、坟冢无碑、无人祭扫的人： 后世有人记得你们。 每一颗星宿，每一道编钟音，每一尊水银俑。 你们不是无名。 你们是夏国，最后的秘境。",
+                "rich_text": "高级位面降临，命运之神睁开眼。\n七百三十国被拖入秘境战场——以本国历史底蕴为刀，胜者掠夺国运，败者文明抹除。\n夏国连输七阵。\n古籍焚毁，龙脉<em>断</em>绝，连兵马俑手里的武器名叫什么都答不上来。\n弹幕说：那个连自己神仙名字都记不全的国家，灭了吧。\n然后我站出来了。\n摸金校尉第八十二代传人，祖传《陵谱》里装着四百座无名的墓。\n他们嘲笑夏国没神话。\n我把龟山汉墓搬进战场，刘注等了两千年的星宿棋局，困得西洋骑士跪地认输。\n他们嘲笑夏国没史诗。\n我敲响曾侯乙编钟，一钟双音，正律为君变律为杀。二十四百年前的乐正从陪葬棺里坐起来，接过我的槌。\n他们说夏国的神早死光了。\n半决赛，我只开了始皇陵的东阙。\n水银兵马俑列阵而出，甲胄上凝着两千两百年的杀意。\n——我不是来复仇的。\n我是来告诉那些史书无载、坟冢无碑、无人祭扫的人：\n后世有人记得你们。\n每一颗星宿，每一道编钟音，每一尊水银俑。\n你们不是无名。\n你们是夏国，最后的秘境。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1025,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7606902224878324761",
+          "search_result_id": "7606902224878324761",
+          "search_high_light": {
+            "title": {
+              "text": "蓝星推演：我震惊全球",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "【幕后大佬+家国热血+全球破防+无敌爽文+科幻星际】 被上司窃取核心科研成果，扣上学术造假的帽子扫地出门，林衍的人生跌入谷底。 空有一身顶尖学识与满腔报国之志，却被资本与权力联手堵死了所有前路。  就在这时，【无限未来推演系统】绑定成功！ 他可自由推演蓝星任意未来分支，生成的推演视频，强制覆盖全球78亿块电子屏，无法屏蔽、无法关闭、更无法溯源！ 西方百年信息霸权，在他面前形同虚设！  黄石火山灭世、核废水葬海、小行星撞蓝星、太阳耀斑瘫痪文明…… 林衍藏在幕后，一次次推演灭世未来，投喂跨时代黑科技，带龙国撕碎西方百年枷锁，领航人类文明绝境求生。  CIA、MI6把全球翻烂，都找不到这位幕后执棋者。 直到高等文明探测器潜入太阳系，人类迎来星际生死危机，他们才终于知道—— 那个以一己之力改写蓝星命运的人，竟是蜗居出租屋的26岁青年林衍！  身份曝光，举国震动！ 林衍临危受命，出任人类星际计划总负责人，手握全球最高权限，号令全人类爆兵备战！ 可控核聚变全面商用、星际战舰批量下水、月球基地拔地而起、太阳系防线全面成型！ 他要带龙国傲立星际，带人类文明冲出高等文明的圈养牢笼，问鼎星辰大海！",
+              "rich_text": "【幕后大佬+家国热血+全球破防+无敌爽文+科幻星际】\n被上司窃取核心科研成果，扣上学术造假的帽子扫地出门，林衍的人生跌入谷底。\n空有一身顶尖学识与满腔报国之志，却被资本与权力联手堵死了所有前路。\n\n就在这时，【无限未来推演系统】绑定成功！\n他可自由推演蓝星任意未来分支，生成的推演视频，强制覆盖全球78亿块电子屏，无法屏蔽、无法关闭、更无法溯源！\n西方百年信息霸权，在他面前形同虚设！\n\n黄石火山灭世、核废水葬海、小行星撞蓝星、太阳耀斑瘫痪文明……\n林衍藏在幕后，一次次推演灭世未来，投喂跨时代黑科技，带龙国撕碎西方百年枷锁，领航人类文明绝境求生。\n\nCIA、MI6把全球翻烂，都找不到这位幕后执棋者。\n直到高等文明探测器潜入太阳系，人类迎来星际生死危机，他们才终于知道——\n那个以一己之力改写蓝星命运的人，竟是蜗居出租屋的26岁青年林衍！\n\n身份曝光，举国震动！\n林衍临危受命，出任人类星际计划总负责人，手握全球最高权限，号令全人类爆兵备战！\n可控核聚变全面商用、星际战舰批量下水、月球基地拔地而起、太阳系防线全面成型！\n他要带龙国傲立星际，带人类文明冲出高等文明的圈养牢笼，问鼎星辰大海！",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【幕后大佬+家国热血+全球破防+无敌爽文+科幻星际】\n被上司窃取核心科研成果，扣上学术造假的帽子扫地出门，林衍的人生跌入谷底。\n空有一身顶尖学识与满腔报国之志，却被资本与权力联手堵死了所有前路。\n\n就在这时，【无限未来推演系统】绑定成功！\n他可自由推演蓝星任意未来分支，生成的推演视频，强制覆盖全球78亿块电子屏，无法屏蔽、无法关闭、更无法溯源！\n西方百年信息霸权，在他面前形同虚设！\n\n黄石火山灭世、核废水葬海、小行星撞蓝星、太阳耀斑瘫痪文明……\n林衍藏在幕后，一次次推演灭世未来，投喂跨时代黑科技，带龙国撕碎西方百年枷锁，领航人类文明绝境求生。\n\nCIA、MI6把全球翻烂，都找不到这位幕后执棋者。\n直到高等文明探测器潜入太阳系，人类迎来星际生死危机，他们才终于知道——\n那个以一己之力改写蓝星命运的人，竟是蜗居出租屋的26岁青年林衍！\n\n身份曝光，举国震动！\n林衍临危受命，出任人类星际计划总负责人，手握全球最高权限，号令全人类爆兵备战！\n可控核聚变全面商用、星际战舰批量下水、月球基地拔地而起、太阳系防线全面成型！\n他要带龙国傲立星际，带人类文明冲出高等文明的圈养牢笼，问鼎星辰大海！",
+              "author": "我喝冰啤酒",
+              "book_id": "7606902224878324761",
+              "book_name": "蓝星推演：我震惊全球",
+              "category": "科幻末世",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-15T09:45:41+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7607254913982136857",
+              "first_chapter_item_id": "7607254913982136857",
+              "first_chapter_title": "第1章 推演系统绑定！全球直播灭世未来",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618073731243459097",
+              "last_chapter_item_id": "7618073731243459097",
+              "last_chapter_title": "第94章 终局之战将至！全同盟全民备战",
+              "last_chapter_update_time": "1773721048",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "1676",
+              "recommend_group_id": "7606902224878324761",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817052577E5A4126322E05FB2E3\",\"rank\":\"1\",\"normal_session_id\":\"48b18a30-8739-4906-a6a3-6c9d02150dc0\",\"cold_start_session_id\":\"8b9b69a1-13ed-464b-af46-3b8e18dea8f6\"}",
+              "read_progress": "0",
+              "serial_count": "94",
+              "source": "番茄小说",
+              "tags": "科幻末世,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/1e495d32a7458319c7a7795fc817d6e0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=vUsBS0vqNM9ZONB%2BrILu%2F136T4o%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "246945",
+              "score": "0",
+              "exclusive": "1",
+              "role": "林衍",
+              "category_schema": "[{\"category_id\":8,\"name\":\"科幻末世\",\"schema\":\"dragon1967://newCategoryDetail?id=8&name=科幻末世&genre_type=0&gender=2&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=2&source=detail\"},{\"category_id\":90,\"name\":\"天才\",\"schema\":\"dragon1967://newCategoryDetail?id=90&name=天才&genre_type=0&gender=2&source=detail\"},{\"category_id\":77,\"name\":\"星际\",\"schema\":\"dragon1967://newCategoryDetail?id=77&name=星际&genre_type=0&gender=2&source=detail\"},{\"category_id\":496,\"name\":\"国运\",\"schema\":\"dragon1967://newCategoryDetail?id=496&name=国运&genre_type=0&gender=2&source=detail\"},{\"category_id\":391,\"name\":\"无女主\",\"schema\":\"dragon1967://newCategoryDetail?id=391&name=无女主&genre_type=0&gender=2&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=2&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "2",
+              "is_ebook": "1",
+              "listen_count": "307",
+              "sub_info": "1676人在读",
+              "last_publish_time": "1773806449",
+              "authorize_type": "1",
+              "media_id": "1670098676829195",
+              "original_book_name": "蓝星推演：我震惊全球",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "32",
+              "thumb_uri": "novel-pic/1e495d32a7458319c7a7795fc817d6e0",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/1e495d32a7458319c7a7795fc817d6e0~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008726&x-signature=pWh7hiBFMKeKfrp%2FtM7UfHnklSs%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "272",
+              "pure_category_tags": "科幻末世,黑科技",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#102028",
+              "read_count_all": "2268",
+              "shelf_cnt_history": "1031",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"35\":1771120433,\"510893\":1771120433,\"1128\":1771120433,\"8704\":1771120433,\"2503\":1771120433,\"8662\":1771120433,\"596084\":1771940151,\"638505\":1771940151,\"1967\":1771120433,\"8661\":1771940151,\"6589\":1771940151,\"2329\":1771120433,\"507386\":1771120484,\"13\":1771120433,\"8703\":1771120433,\"507427\":1771120484,\"3040\":1771940151}",
+              "category_v2_map": {
+                "854": true,
+                "8": true,
+                "1": true,
+                "90": true,
+                "391": true,
+                "496": true,
+                "77": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/1e495d32a7458319c7a7795fc817d6e0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=vUsBS0vqNM9ZONB%2BrILu%2F136T4o%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7606086784316871961,
+                  "AuthorName": "我喝冰啤酒"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/1e495d32a7458319c7a7795fc817d6e0~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008726&x-signature=Sut%2B%2B2LYmtzVFTfGbUZvCH8xEkI%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【幕后大佬+家国热血+全球破防+无敌爽文+科幻星际】\n被上司窃取核心科研成果，扣上学术造假的帽子扫地出门，林衍的人生跌入谷底。\n空有一身顶尖学识与满腔报国之志，却被资本与权力联手堵死了所有前路。\n\n就在这时，【无限未来推演系统】绑定成功！\n他可自由推演蓝星任意未来分支，生成的推演视频，强制覆盖全球78亿块电子屏，无法屏蔽、无法关闭、更无法溯源！\n西方百年信息霸权，在他面前形同虚设！\n\n黄石火山灭世、核废水葬海、小行星撞蓝星、太阳耀斑瘫痪文明……\n林衍藏在幕后，一次次推演灭世未来，投喂跨时代黑科技，带龙国撕碎西方百年枷锁，领航人类文明绝境求生。\n\nCIA、MI6把全球翻烂，都找不到这位幕后执棋者。\n直到高等文明探测器潜入太阳系，人类迎来星际生死危机，他们才终于知道——\n那个以一己之力改写蓝星命运的人，竟是蜗居出租屋的26岁青年林衍！\n\n身份曝光，举国震动！\n林衍临危受命，出任人类星际计划总负责人，手握全球最高权限，号令全人类爆兵备战！\n可控核聚变全面商用、星际战舰批量下水、月球基地拔地而起、太阳系防线全面成型！\n他要带龙国傲立星际，带人类文明冲出高等文明的圈养牢笼，问鼎星辰大海！",
+              "read_page_progress": "0",
+              "read_cnt_text": "1676人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/1e495d32a7458319c7a7795fc817d6e0~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=uXsPd6xNZbQ0sZTkYIwWy2aO5vc%3D",
+              "raw_book_name": "蓝星推演：我震惊全球",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "15722716694676744836:25:0:4237405724:clks####3@20260318170435AE8737C39399AE35726E",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "24.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1676人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "科幻末世",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：我喝冰啤酒",
+                "rich_text": "作者：我喝冰啤酒",
+                "high_light_position": []
+              },
+              {
+                "text": "【幕后大佬+家国热血+全球破防+无敌爽文+科幻星际】 被上司窃取核心科研成果，扣上学术造假的帽子扫地出门，林衍的人生跌入谷底。 空有一身顶尖学识与满腔报国之志，却被资本与权力联手堵死了所有前路。  就在这时，【无限未来推演系统】绑定成功！ 他可自由推演蓝星任意未来分支，生成的推演视频，强制覆盖全球78亿块电子屏，无法屏蔽、无法关闭、更无法溯源！ 西方百年信息霸权，在他面前形同虚设！  黄石火山灭世、核废水葬海、小行星撞蓝星、太阳耀斑瘫痪文明…… 林衍藏在幕后，一次次推演灭世未来，投喂跨时代黑科技，带龙国撕碎西方百年枷锁，领航人类文明绝境求生。  CIA、MI6把全球翻烂，都找不到这位幕后执棋者。 直到高等文明探测器潜入太阳系，人类迎来星际生死危机，他们才终于知道—— 那个以一己之力改写蓝星命运的人，竟是蜗居出租屋的26岁青年林衍！  身份曝光，举国震动！ 林衍临危受命，出任人类星际计划总负责人，手握全球最高权限，号令全人类爆兵备战！ 可控核聚变全面商用、星际战舰批量下水、月球基地拔地而起、太阳系防线全面成型！ 他要带龙国傲立星际，带人类文明冲出高等文明的圈养牢笼，问鼎星辰大海！",
+                "rich_text": "【幕后大佬+家国热血+全球破防+无敌爽文+科幻星际】\n被上司窃取核心科研成果，扣上学术造假的帽子扫地出门，林衍的人生跌入谷底。\n空有一身顶尖学识与满腔报国之志，却被资本与权力联手堵死了所有前路。\n\n就在这时，【无限未来推演系统】绑定成功！\n他可自由推演蓝星任意未来分支，生成的推演视频，强制覆盖全球78亿块电子屏，无法屏蔽、无法关闭、更无法溯源！\n西方百年信息霸权，在他面前形同虚设！\n\n黄石火山灭世、核废水葬海、小行星撞蓝星、太阳耀斑瘫痪文明……\n林衍藏在幕后，一次次推演灭世未来，投喂跨时代黑科技，带龙国撕碎西方百年枷锁，领航人类文明绝境求生。\n\nCIA、MI6把全球翻烂，都找不到这位幕后执棋者。\n直到高等文明探测器潜入太阳系，人类迎来星际生死危机，他们才终于知道——\n那个以一己之力改写蓝星命运的人，竟是蜗居出租屋的26岁青年林衍！\n\n身份曝光，举国震动！\n林衍临危受命，出任人类星际计划总负责人，手握全球最高权限，号令全人类爆兵备战！\n可控核聚变全面商用、星际战舰批量下水、月球基地拔地而起、太阳系防线全面成型！\n他要带龙国傲立星际，带人类文明冲出高等文明的圈养牢笼，问鼎星辰大海！",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1026,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7372395662047972376",
+          "search_result_id": "7372395662047972376",
+          "search_high_light": {
+            "abstract": {
+              "text": "【国运+全民觉醒+御器师+凶兽+文物国宝+无敌】 你有没有想过，华夏文物全是神器？ 镇国之宝后母戊鼎，其实是极道帝兵？ 八千年前的贾湖骨笛，其实主人是伏羲？ 帝陵前的石辟邪，其实是准帝级神兽？ …… 当凶兽入侵，魔神降临，蓝星如何应对？ 当以鹰国为首的西方对华夏进行技术封锁，我们没有基因战士，拿什么翻盘？ 大学生林野在刘秀陵前捡到传国玉玺，由此得知华夏文物皆是神器的秘密。 他觉醒四大神器，手执越王勾践剑，头戴青铜面具，身穿金缕玉衣，头悬后母戊鼎，秒杀六级凶兽。 自此华夏开启全民御器师计划，华夏人手一件神器。 曾侯乙编钟队、兵马俑战队…… 华夏御器师：犯华夏者，虽远必诛，剑锋所指，斩一切来犯之敌！ 华夏：垂死病中惊坐起，列强竟是我自己？",
+              "rich_text": "【国运+全民觉醒+御器师+凶兽+文物国宝+无敌】\n你有没有想过，华夏文物全是神器？\n镇国之宝后母戊鼎，其实是极道帝兵？\n八千年前的贾湖骨笛，其实主人是伏羲？\n帝陵前的石辟邪，其实是准帝级神兽？\n……\n当凶兽入侵，魔神降临，蓝星如何应对？\n当以鹰国为首的西方对华夏进行技术封锁，我们没有基因战士，拿什么翻盘？\n大学生林野在刘秀陵前捡到传国玉玺，由此得知华夏文物皆是神器的秘密。\n他觉醒四大神器，手执越王勾践剑，头戴青铜面具，身穿金缕玉衣，头悬后母戊鼎，秒杀六级凶兽。\n自此华夏开启全民御器师计划，华夏人手一件神器。\n曾侯乙编钟队、兵马俑战队……\n华夏御器师：犯华夏者，虽远必诛，剑锋所指，斩一切来犯之敌！\n华夏：垂死病中惊坐起，列强竟是我自己？",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "开局传国玉玺，华夏有我无敌",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【国运+全民觉醒+御器师+凶兽+文物国宝+无敌】\n你有没有想过，华夏文物全是神器？\n镇国之宝后母戊鼎，其实是极道帝兵？\n八千年前的贾湖骨笛，其实主人是伏羲？\n帝陵前的石辟邪，其实是准帝级神兽？\n……\n当凶兽入侵，魔神降临，蓝星如何应对？\n当以鹰国为首的西方对华夏进行技术封锁，我们没有基因战士，拿什么翻盘？\n大学生林野在刘秀陵前捡到传国玉玺，由此得知华夏文物皆是神器的秘密。\n他觉醒四大神器，手执越王勾践剑，头戴青铜面具，身穿金缕玉衣，头悬后母戊鼎，秒杀六级凶兽。\n自此华夏开启全民御器师计划，华夏人手一件神器。\n曾侯乙编钟队、兵马俑战队……\n华夏御器师：犯华夏者，虽远必诛，剑锋所指，斩一切来犯之敌！\n华夏：垂死病中惊坐起，列强竟是我自己？",
+              "author": "唐风宋骨",
+              "book_id": "7372395662047972376",
+              "book_name": "开局传国玉玺，华夏有我无敌",
+              "category": "都市高武",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-05-24T11:00:27+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7377670354262573593",
+              "first_chapter_item_id": "7377670354262573593",
+              "first_chapter_title": "第 1 章 华夏文物全是神器？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7483548156785869336",
+              "last_chapter_item_id": "7483548156785869336",
+              "last_chapter_title": "第 137 章 星空再见（大结局）",
+              "last_chapter_update_time": "1742714370",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "121",
+              "recommend_group_id": "7372395662047972376",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817052577E5A4126322E05FB2E3\",\"rank\":\"1\",\"normal_session_id\":\"48b18a30-8739-4906-a6a3-6c9d02150dc0\",\"cold_start_session_id\":\"8b9b69a1-13ed-464b-af46-3b8e18dea8f6\"}",
+              "read_progress": "0",
+              "serial_count": "137",
+              "source": "番茄小说",
+              "tags": "都市高武,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/ff3279eef2cfa24471ad3dad250d7cab~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=o2POT%2BD2YejZC%2FKIc5wMHaXyAJ0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "316271",
+              "score": "0",
+              "exclusive": "1",
+              "role": "林野,叶龙",
+              "category_schema": "[{\"category_id\":1014,\"name\":\"都市高武\",\"schema\":\"dragon1967://newCategoryDetail?id=1014&name=都市高武&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":384,\"name\":\"无敌\",\"schema\":\"dragon1967://newCategoryDetail?id=384&name=无敌&genre_type=0&gender=1&source=detail\"},{\"category_id\":496,\"name\":\"国运\",\"schema\":\"dragon1967://newCategoryDetail?id=496&name=国运&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "16",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1742714381",
+              "authorize_type": "1",
+              "media_id": "1592354329894915",
+              "original_book_name": "举国文物皆神器，文明华夏惹不起",
+              "length_type": "1",
+              "op_tag": "531,535,536,1029,1127,1132",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/ai/ff3279eef2cfa24471ad3dad250d7cab",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2e073f7dc52e597d8a83a807803f7359~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008726&x-signature=Cox%2BkrokmClkly3VZNhSOQb6%2B1E%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市高武,国运",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#686058",
+              "read_count_all": "55799",
+              "shelf_cnt_history": "4593",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507386\":1741786450,\"507427\":1741786450,\"3040\":1720057109,\"6589\":1720057109,\"13\":1719891997,\"2329\":1719891997,\"8662\":1719891997,\"596084\":1720057109,\"8661\":1720057109,\"35\":1719891997,\"8703\":1744883802,\"8704\":1747727431,\"2503\":1719891997,\"1128\":1719891997,\"638505\":1724849974,\"510893\":1719891997,\"1967\":1719891997}",
+              "category_v2_map": {
+                "496": true,
+                "1014": true,
+                "1": true,
+                "384": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/ff3279eef2cfa24471ad3dad250d7cab~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=o2POT%2BD2YejZC%2FKIc5wMHaXyAJ0%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7051430712582345992,
+                  "AuthorName": "唐风宋骨"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2e073f7dc52e597d8a83a807803f7359~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008726&x-signature=JqeVw%2BVDm%2FVhF7mRoQvtuV2JFgs%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【国运+全民觉醒+御器师+凶兽+文物国宝+无敌】\n你有没有想过，华夏文物全是神器？\n镇国之宝后母戊鼎，其实是极道帝兵？\n八千年前的贾湖骨笛，其实主人是伏羲？\n帝陵前的石辟邪，其实是准帝级神兽？\n……\n当凶兽入侵，魔神降临，蓝星如何应对？\n当以鹰国为首的西方对华夏进行技术封锁，我们没有基因战士，拿什么翻盘？\n大学生林野在刘秀陵前捡到传国玉玺，由此得知华夏文物皆是神器的秘密。\n他觉醒四大神器，手执越王勾践剑，头戴青铜面具，身穿金缕玉衣，头悬后母戊鼎，秒杀六级凶兽。\n自此华夏开启全民御器师计划，华夏人手一件神器。\n曾侯乙编钟队、兵马俑战队……\n华夏御器师：犯华夏者，虽远必诛，剑锋所指，斩一切来犯之敌！\n华夏：垂死病中惊坐起，列强竟是我自己？",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/ff3279eef2cfa24471ad3dad250d7cab~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=xYcDSZZCBDl6kO%2F4CkUjIKNNLPM%3D",
+              "raw_book_name": "开局传国玉玺，华夏有我无敌",
+              "color_audio_dominate": "#61211A"
+            }
+          ],
+          "search_attached_info": "15722716694676744836:26:0:2444620507:clks####3@20260318170435AE8737C39399AE35726E",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "31.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "121人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市高武",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：唐风宋骨",
+                "rich_text": "作者：唐风宋骨",
+                "high_light_position": []
+              },
+              {
+                "text": "【国运+全民觉醒+御器师+凶兽+文物国宝+无敌】 你有没有想过，华夏文物全是神器？ 镇国之宝后母戊鼎，其实是极道帝兵？ 八千年前的贾湖骨笛，其实主人是伏羲？ 帝陵前的石辟邪，其实是准帝级神兽？ …… 当凶兽入侵，魔神降临，蓝星如何应对？ 当以鹰国为首的西方对华夏进行技术封锁，我们没有基因战士，拿什么翻盘？ 大学生林野在刘秀陵前捡到传国玉玺，由此得知华夏文物皆是神器的秘密。 他觉醒四大神器，手执越王勾践剑，头戴青铜面具，身穿金缕玉衣，头悬后母戊鼎，秒杀六级凶兽。 自此华夏开启全民御器师计划，华夏人手一件神器。 曾侯乙编钟队、兵马俑战队…… 华夏御器师：犯华夏者，虽远必诛，剑锋所指，斩一切来犯之敌！ 华夏：垂死病中惊坐起，列强竟是我自己？",
+                "rich_text": "【国运+全民觉醒+御器师+凶兽+文物国宝+无敌】\n你有没有想过，华夏文物全是神器？\n镇国之宝后母戊鼎，其实是极道帝兵？\n八千年前的贾湖骨笛，其实主人是伏羲？\n帝陵前的石辟邪，其实是准帝级神兽？\n……\n当凶兽入侵，魔神降临，蓝星如何应对？\n当以鹰国为首的西方对华夏进行技术封锁，我们没有基因战士，拿什么翻盘？\n大学生林野在刘秀陵前捡到传国玉玺，由此得知华夏文物皆是神器的秘密。\n他觉醒四大神器，手执越王勾践剑，头戴青铜面具，身穿金缕玉衣，头悬后母戊鼎，秒杀六级凶兽。\n自此华夏开启全民御器师计划，华夏人手一件神器。\n曾侯乙编钟队、兵马俑战队……\n华夏御器师：犯华夏者，虽远必诛，剑锋所指，斩一切来犯之敌！\n华夏：垂死病中惊坐起，列强竟是我自己？",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1027,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7610260062438706201",
+          "search_result_id": "7610260062438706201",
+          "search_high_light": {
+            "title": {
+              "text": "国运擂台从修复竹简开始",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "国运擂台。 这是人类步入公元纪年以来，最为神秘、也最决定未来的规则。 每隔一纪，十二载，世界各国的国运具现为一名“守护者”，代表一国气运、底蕴与未来潜力，登台比试。胜者，国运昌隆，未来十二载风调雨顺，科技腾飞。败者，国运折损，轻则天灾频仍，重则山河易主",
+              "rich_text": "国运擂台。\n这是人类步入公元纪年以来，最为神秘、也最决定未来的规则。\n每隔一纪，十二载，世界各国的国运具现为一名“守护者”，代表一国气运、底蕴与未来潜力，登台比试。胜者，国运昌隆，未来十二载风调雨顺，科技腾飞。败者，国运折损，轻则天灾频仍，重则山河易主",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "国运擂台。\n这是人类步入公元纪年以来，最为神秘、也最决定未来的规则。\n每隔一纪，十二载，世界各国的国运具现为一名“守护者”，代表一国气运、底蕴与未来潜力，登台比试。胜者，国运昌隆，未来十二载风调雨顺，科技腾飞。败者，国运折损，轻则天灾频仍，重则山河易主",
+              "author": "喜欢竹叶松的月心",
+              "book_id": "7610260062438706201",
+              "book_name": "国运擂台从修复竹简开始",
+              "category": "都市高武",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-24T10:55:48+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7610261712578544153",
+              "first_chapter_item_id": "7610261712578544153",
+              "first_chapter_title": "第一章：除夕惊变",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7612248720142238233",
+              "last_chapter_item_id": "7612248720142238233",
+              "last_chapter_title": "第8章 镇渊",
+              "last_chapter_update_time": "1772364788",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "12",
+              "recommend_group_id": "7610260062438706201",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817052577E5A4126322E05FB2E3\",\"rank\":\"1\",\"normal_session_id\":\"48b18a30-8739-4906-a6a3-6c9d02150dc0\",\"cold_start_session_id\":\"8b9b69a1-13ed-464b-af46-3b8e18dea8f6\"}",
+              "read_progress": "0",
+              "serial_count": "45",
+              "source": "番茄小说",
+              "tags": "都市高武,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/29f9de6997e8479b66f6833c1a9ffea0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=n97PSd%2Bwjyjc46t0XNrXR9oLgpo%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "233851",
+              "score": "0",
+              "exclusive": "1",
+              "role": "陆明渊",
+              "category_schema": "[{\"category_id\":1014,\"name\":\"都市高武\",\"schema\":\"dragon1967://newCategoryDetail?id=1014&name=都市高武&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=1&source=detail\"},{\"category_id\":864,\"name\":\"副本\",\"schema\":\"dragon1967://newCategoryDetail?id=864&name=副本&genre_type=0&gender=1&source=detail\"},{\"category_id\":875,\"name\":\"山海经\",\"schema\":\"dragon1967://newCategoryDetail?id=875&name=山海经&genre_type=0&gender=1&source=detail\"},{\"category_id\":496,\"name\":\"国运\",\"schema\":\"dragon1967://newCategoryDetail?id=496&name=国运&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "2",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1772748392",
+              "authorize_type": "1",
+              "media_id": "1857973645402123",
+              "original_book_name": "国运擂台从修复竹简开始",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/29f9de6997e8479b66f6833c1a9ffea0",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/29f9de6997e8479b66f6833c1a9ffea0~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008726&x-signature=CPgSL8RRnLnExJ6PqcgiWyOZE10%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市高武,国运",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#383020",
+              "read_count_all": "109",
+              "shelf_cnt_history": "950",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"638505\":1772026380,\"1128\":1771902194,\"8703\":1771902194,\"13\":1771902194,\"8661\":1772026380,\"2503\":1771902194,\"8662\":1771902194,\"8704\":1771902194,\"596084\":1772026380,\"6589\":1772026380,\"507427\":1771902240,\"35\":1771902194,\"2329\":1771902194,\"3040\":1772026380,\"510893\":1771902194,\"1967\":1771902194,\"507386\":1771902240}",
+              "category_v2_map": {
+                "864": true,
+                "496": true,
+                "1014": true,
+                "875": true,
+                "1": true,
+                "516": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/29f9de6997e8479b66f6833c1a9ffea0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=n97PSd%2Bwjyjc46t0XNrXR9oLgpo%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7610260063705371929,
+                  "AuthorName": "喜欢竹叶松的月心"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/29f9de6997e8479b66f6833c1a9ffea0~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008726&x-signature=%2B8pQ6vA8SPOKjORBTKar5FZ7dw0%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "国运擂台。\n这是人类步入公元纪年以来，最为神秘、也最决定未来的规则。\n每隔一纪，十二载，世界各国的国运具现为一名“守护者”，代表一国气运、底蕴与未来潜力，登台比试。胜者，国运昌隆，未来十二载风调雨顺，科技腾飞。败者，国运折损，轻则天灾频仍，重则山河易主",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/29f9de6997e8479b66f6833c1a9ffea0~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=hvcAdz0sXZjkh9%2Bmqn0hPFL1K84%3D",
+              "raw_book_name": "国运擂台从修复竹简开始",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "15722716694676744836:27:0:3934819529:clks####3@20260318170435AE8737C39399AE35726E",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "23.4万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "12人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市高武",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：喜欢竹叶松的月心",
+                "rich_text": "作者：喜欢竹叶松的月心",
+                "high_light_position": []
+              },
+              {
+                "text": "国运擂台。 这是人类步入公元纪年以来，最为神秘、也最决定未来的规则。 每隔一纪，十二载，世界各国的国运具现为一名“守护者”，代表一国气运、底蕴与未来潜力，登台比试。胜者，国运昌隆，未来十二载风调雨顺，科技腾飞。败者，国运折损，轻则天灾频仍，重则山河易主",
+                "rich_text": "国运擂台。\n这是人类步入公元纪年以来，最为神秘、也最决定未来的规则。\n每隔一纪，十二载，世界各国的国运具现为一名“守护者”，代表一国气运、底蕴与未来潜力，登台比试。胜者，国运昌隆，未来十二载风调雨顺，科技腾飞。败者，国运折损，轻则天灾频仍，重则山河易主",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1028,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7564686305037126718",
+          "search_result_id": "7564686305037126718",
+          "search_high_light": {
+            "title": {
+              "text": "我即华夏",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "【国运】+【直播】+【无敌】+【神话】+【都市】+【热血】 我叫李大年。当外敌环伺，当同胞迷茫，他们问我，华夏的希望在哪？我站上讲台，指了指自己。我，就是华夏五千年不灭的薪火；我，就是华夏百折不挠的脊梁！从今天起，我即华夏，华夏即我！",
+              "rich_text": "【国运】+【直播】+【无敌】+【神话】+【都市】+【热血】\n我叫李大年。当外敌环伺，当同胞迷茫，他们问我，华夏的希望在哪？我站上讲台，指了指自己。我，就是华夏五千年不灭的薪火；我，就是华夏百折不挠的脊梁！从今天起，我即华夏，华夏即我！",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【国运】+【直播】+【无敌】+【神话】+【都市】+【热血】\n我叫李大年。当外敌环伺，当同胞迷茫，他们问我，华夏的希望在哪？我站上讲台，指了指自己。我，就是华夏五千年不灭的薪火；我，就是华夏百折不挠的脊梁！从今天起，我即华夏，华夏即我！",
+              "author": "玄幻墨白",
+              "book_id": "7564686305037126718",
+              "book_name": "我即华夏",
+              "category": "都市高武",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-10-24T15:26:21+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7564708680919171646",
+              "first_chapter_item_id": "7564708680919171646",
+              "first_chapter_title": "第1章 华夏绝境，神秘讲师力挽狂澜！",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7593255226170163774",
+              "last_chapter_item_id": "7593255226170163774",
+              "last_chapter_title": "第52章 华夏叙事，定义规则",
+              "last_chapter_update_time": "1767942529",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "0",
+              "recommend_group_id": "7564686305037126718",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817052577E5A4126322E05FB2E3\",\"rank\":\"1\",\"normal_session_id\":\"48b18a30-8739-4906-a6a3-6c9d02150dc0\",\"cold_start_session_id\":\"8b9b69a1-13ed-464b-af46-3b8e18dea8f6\"}",
+              "read_progress": "0",
+              "serial_count": "52",
+              "source": "番茄小说",
+              "tags": "都市高武,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3f72af83d60bb3ea2fd5ccc2b7bfec8c~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=WmDFTAm8BLakIX%2Bc%2Be7CIgm9JgE%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "129336",
+              "score": "0",
+              "exclusive": "1",
+              "role": "李大年,楚灵均",
+              "category_schema": "[{\"category_id\":1014,\"name\":\"都市高武\",\"schema\":\"dragon1967://newCategoryDetail?id=1014&name=都市高武&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":69,\"name\":\"直播\",\"schema\":\"dragon1967://newCategoryDetail?id=69&name=直播&genre_type=0&gender=1&source=detail\"},{\"category_id\":496,\"name\":\"国运\",\"schema\":\"dragon1967://newCategoryDetail?id=496&name=国运&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1767942539",
+              "authorize_type": "1",
+              "media_id": "1831727097000970",
+              "original_book_name": "我即华夏",
+              "length_type": "1",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2o3f72af83d60bb3ea2fd5ccc2b7bfec8c",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3f72af83d60bb3ea2fd5ccc2b7bfec8c~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008726&x-signature=F39n7h3CdeF4w%2Bm6bizEWC4LGOk%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市高武,国运",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#88b8e0",
+              "read_count_all": "429",
+              "shelf_cnt_history": "985",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8704\":1761296197,\"507386\":1761296242,\"507427\":1761296242,\"2329\":1761296197,\"2503\":1761296197,\"13\":1761296197,\"510893\":1761296197,\"596084\":1761367956,\"8661\":1761367956,\"35\":1761296197,\"1128\":1761296197,\"638505\":1761367956,\"6589\":1761367956,\"3040\":1761367956,\"8703\":1761296197,\"8662\":1761296197,\"1967\":1761296197}",
+              "category_v2_map": {
+                "1014": true,
+                "69": true,
+                "1": true,
+                "496": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3f72af83d60bb3ea2fd5ccc2b7bfec8c~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=WmDFTAm8BLakIX%2Bc%2Be7CIgm9JgE%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7503008314058364185,
+                  "AuthorName": "玄幻墨白"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3f72af83d60bb3ea2fd5ccc2b7bfec8c~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008726&x-signature=gvuP3sKoclA%2FZ2o80NTT2664oWQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【国运】+【直播】+【无敌】+【神话】+【都市】+【热血】\n我叫李大年。当外敌环伺，当同胞迷茫，他们问我，华夏的希望在哪？我站上讲台，指了指自己。我，就是华夏五千年不灭的薪火；我，就是华夏百折不挠的脊梁！从今天起，我即华夏，华夏即我！",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3f72af83d60bb3ea2fd5ccc2b7bfec8c~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=%2Fjh8Bl5fJ136uraOVjuqGVnN2rw%3D",
+              "raw_book_name": "我即华夏",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "15722716694676744836:28:0:2302827380:clks####3@20260318170435AE8737C39399AE35726E",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "12.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "都市高武",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：玄幻墨白",
+                "rich_text": "作者：玄幻墨白",
+                "high_light_position": []
+              },
+              {
+                "text": "【国运】+【直播】+【无敌】+【神话】+【都市】+【热血】 我叫李大年。当外敌环伺，当同胞迷茫，他们问我，华夏的希望在哪？我站上讲台，指了指自己。我，就是华夏五千年不灭的薪火；我，就是华夏百折不挠的脊梁！从今天起，我即华夏，华夏即我！",
+                "rich_text": "【国运】+【直播】+【无敌】+【神话】+【都市】+【热血】\n我叫李大年。当外敌环伺，当同胞迷茫，他们问我，华夏的希望在哪？我站上讲台，指了指自己。我，就是华夏五千年不灭的薪火；我，就是华夏百折不挠的脊梁！从今天起，我即华夏，华夏即我！",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1029,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7575598407603997720",
+          "search_result_id": "7575598407603997720",
+          "search_high_light": {
+            "abstract": {
+              "text": "全球神战开启，华夏无神，陷入绝境！世人绝望呐喊：“我们的神明何在？” 陈末淡然一笑：“没有，那就编一个！” 他言出法随，无头战神刑天舞动干戚，杀得诸神溃散；灭世海啸袭来，世人嗤笑：“一只猴子也配称神？” 下一刻，齐天大圣的金箍棒横贯天地，滔天巨浪瞬间平息，仿佛从未存在……",
+              "rich_text": "全球神战开启，华夏无神，陷入绝境！世人绝望呐喊：“我们的神明何在？”\n陈末淡然一笑：“没有，那就编一个！”\n他言出法随，无头战神刑天舞动干戚，杀得诸神溃散；灭世海啸袭来，世人嗤笑：“一只猴子也配称神？”\n下一刻，齐天大圣的金箍棒横贯天地，滔天巨浪瞬间平息，仿佛从未存在……",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "华夏无神？我来编！",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "全球神战开启，华夏无神，陷入绝境！世人绝望呐喊：“我们的神明何在？”\n陈末淡然一笑：“没有，那就编一个！”\n他言出法随，无头战神刑天舞动干戚，杀得诸神溃散；灭世海啸袭来，世人嗤笑：“一只猴子也配称神？”\n下一刻，齐天大圣的金箍棒横贯天地，滔天巨浪瞬间平息，仿佛从未存在……",
+              "author": "迷城的尘埃",
+              "book_id": "7575598407603997720",
+              "book_name": "华夏无神？我来编！",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-11-23T01:10:53+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7575598459089076760",
+              "first_chapter_item_id": "7575598459089076760",
+              "first_chapter_title": "第1章 重生",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7584649772309414425",
+              "last_chapter_item_id": "7584649772309414425",
+              "last_chapter_title": "第103章 最终章：我以我血铸新章",
+              "last_chapter_update_time": "1767336283",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "2",
+              "recommend_group_id": "7575598407603997720",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817052577E5A4126322E05FB2E3\",\"rank\":\"1\",\"normal_session_id\":\"48b18a30-8739-4906-a6a3-6c9d02150dc0\",\"cold_start_session_id\":\"8b9b69a1-13ed-464b-af46-3b8e18dea8f6\"}",
+              "read_progress": "0",
+              "serial_count": "103",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4356f7f11b3297526f15040282b966d4~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=iIgg4cpDXv%2FEGSLTnnLVeKmNzCk%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "223205",
+              "score": "0",
+              "exclusive": "1",
+              "role": "陈末,王雪",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=1&source=detail\"},{\"category_id\":514,\"name\":\"灵气复苏\",\"schema\":\"dragon1967://newCategoryDetail?id=514&name=灵气复苏&genre_type=0&gender=1&source=detail\"},{\"category_id\":515,\"name\":\"末日求生\",\"schema\":\"dragon1967://newCategoryDetail?id=515&name=末日求生&genre_type=0&gender=1&source=detail\"},{\"category_id\":875,\"name\":\"山海经\",\"schema\":\"dragon1967://newCategoryDetail?id=875&name=山海经&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1767336291",
+              "authorize_type": "1",
+              "media_id": "1731440406514696",
+              "original_book_name": "华夏无神？我来编！",
+              "length_type": "1",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2o4356f7f11b3297526f15040282b966d4",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4356f7f11b3297526f15040282b966d4~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008726&x-signature=LVHsrktvxhGvFg%2Fd8rhHG68anIk%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市脑洞,山海经",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#202828",
+              "read_count_all": "417",
+              "shelf_cnt_history": "1017",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"6589\":1763985724,\"3040\":1763985724,\"596084\":1763985724,\"638505\":1763985724,\"2503\":1763844041,\"507386\":1763844103,\"1967\":1763844041,\"35\":1763844041,\"8662\":1763844041,\"8661\":1763985724,\"510893\":1763844041,\"2329\":1763844041,\"8703\":1763844041,\"8704\":1763844041,\"1128\":1763844041,\"507427\":1763844103,\"13\":1763844041}",
+              "category_v2_map": {
+                "875": true,
+                "262": true,
+                "515": true,
+                "36": true,
+                "516": true,
+                "514": true,
+                "1": true,
+                "19": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4356f7f11b3297526f15040282b966d4~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=iIgg4cpDXv%2FEGSLTnnLVeKmNzCk%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7423369937994913049,
+                  "AuthorName": "迷城的尘埃"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4356f7f11b3297526f15040282b966d4~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008726&x-signature=h9EIT8uQAw5nJyME6Y1vvgFqAdQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "全球神战开启，华夏无神，陷入绝境！世人绝望呐喊：“我们的神明何在？”\n陈末淡然一笑：“没有，那就编一个！”\n他言出法随，无头战神刑天舞动干戚，杀得诸神溃散；灭世海啸袭来，世人嗤笑：“一只猴子也配称神？”\n下一刻，齐天大圣的金箍棒横贯天地，滔天巨浪瞬间平息，仿佛从未存在……",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o4356f7f11b3297526f15040282b966d4~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008726&x-signature=QIxpcJ5iPo%2BqtOKz3KbG9vaCH3Q%3D",
+              "raw_book_name": "华夏无神？我来编！",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "15722716694676744836:29:0:2641335350:clks####3@20260318170435AE8737C39399AE35726E",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "22.3万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：迷城的尘埃",
+                "rich_text": "作者：迷城的尘埃",
+                "high_light_position": []
+              },
+              {
+                "text": "全球神战开启，华夏无神，陷入绝境！世人绝望呐喊：“我们的神明何在？” 陈末淡然一笑：“没有，那就编一个！” 他言出法随，无头战神刑天舞动干戚，杀得诸神溃散；灭世海啸袭来，世人嗤笑：“一只猴子也配称神？” 下一刻，齐天大圣的金箍棒横贯天地，滔天巨浪瞬间平息，仿佛从未存在……",
+                "rich_text": "全球神战开启，华夏无神，陷入绝境！世人绝望呐喊：“我们的神明何在？”\n陈末淡然一笑：“没有，那就编一个！”\n他言出法随，无头战神刑天舞动干戚，杀得诸神溃散；灭世海啸袭来，世人嗤笑：“一只猴子也配称神？”\n下一刻，齐天大圣的金箍棒横贯天地，滔天巨浪瞬间平息，仿佛从未存在……",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "30",
+      "search_id": "clks####3@20260318170435AE8737C39399AE35726E",
+      "query": "断层",
+      "next_offset": 30,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@20260318170435AE8737C39399AE35726E",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"2026031817052577E5A4126322E05FB2E3\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@20260318170435AE8737C39399AE35726E",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@20260318170435AE8737C39399AE35726E",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "2026031817052577E5A4126322E05FB2E3"
+}

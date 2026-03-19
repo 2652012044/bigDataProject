@@ -8,7 +8,7 @@ from mitmproxy import http
 
 
 CONTROL_HOST = "mitm.capture"
-DEFAULT_CAPTURE_HOSTS = "api5-normal-sinfonlineb.fqnovel.com"
+DEFAULT_CAPTURE_HOSTS = "fqnovel.com"
 
 
 class CaptureController:
@@ -52,7 +52,8 @@ class CaptureController:
     def _should_capture(self, host: str) -> bool:
         if not self._capture_hosts:
             return True
-        return host.lower() in self._capture_hosts
+        h = host.lower()
+        return any(h == ch or h.endswith("." + ch) for ch in self._capture_hosts)
 
     def request(self, flow: http.HTTPFlow) -> None:
         if flow.request.pretty_host != CONTROL_HOST:

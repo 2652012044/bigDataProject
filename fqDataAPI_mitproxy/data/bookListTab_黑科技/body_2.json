@@ -1,0 +1,2632 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1001,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7574328259144338456",
+          "search_result_id": "7574328259144338456",
+          "search_high_light": {
+            "abstract": {
+              "text": "【黑科技+科技强国+超级巨企+科技垄断+星际工业+文明跃迁+纯科幻+无女主】 从《一种基于超高能量密度与可以用于制作极致安全固态电池的“无限一号”纳米复合材料》论文开始，周衍和他的无限集团带领华国，带领人类走向星际时代。 纳米固态电池，电浆发动机，空天战机，无线输电网络，可控核聚变，端粒酶延长技术，超导悬浮城，太空电梯，曲率航行，戴森球，真空零点能，黑洞引擎，时空质能转换...... 浩瀚宇宙终有人类一席之地。 《无限科技集团编年史》： “保护伞，维兰德—汤谷，哈弗克，巨神集团，沃特集团，简泰克，神罗公司，寰宇巨企......诚然这些都是科幻作品中的超级公司，但要和我们比起来就如蜉蝣与青天之别”无限科技创始人周衍，在无限集团成立5000周年庆典上的讲话。",
+              "rich_text": "【<em>黑科技</em>+<em>科技</em>强国+超级巨企+<em>科技</em>垄断+星际工业+文明跃迁+纯<em>科</em>幻+无女主】\n从《一种基于超高能量密度与可以用于制作极致安全固态电池的“无限一号”纳米复合材料》论文开始，周衍和他的无限集团带领华国，带领人类走向星际时代。\n纳米固态电池，电浆发动机，空天战机，无线输电网络，可控核聚变，端粒酶延长<em>技</em>术，超导悬浮城，太空电梯，曲率航行，戴森球，真空零点能，<em>黑</em>洞引擎，时空质能转换......\n浩瀚宇宙终有人类一席之地。\n《无限<em>科技</em>集团编年史》：\n“保护伞，维兰德—汤谷，哈弗克，巨神集团，沃特集团，简泰克，神罗公司，寰宇巨企......诚然这些都是<em>科</em>幻作品中的超级公司，但要和我们比起来就如蜉蝣与青天之别”无限<em>科技</em>创始人周衍，在无限集团成立5000周年庆典上的讲话。",
+              "high_light_position": [
+                [
+                  1,
+                  3
+                ],
+                [
+                  5,
+                  2
+                ],
+                [
+                  15,
+                  2
+                ],
+                [
+                  211,
+                  2
+                ],
+                [
+                  303,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "宇宙级巨企：从纳米固态电池开始",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【黑科技+科技强国+超级巨企+科技垄断+星际工业+文明跃迁+纯科幻+无女主】\n从《一种基于超高能量密度与可以用于制作极致安全固态电池的“无限一号”纳米复合材料》论文开始，周衍和他的无限集团带领华国，带领人类走向星际时代。\n纳米固态电池，电浆发动机，空天战机，无线输电网络，可控核聚变，端粒酶延长技术，超导悬浮城，太空电梯，曲率航行，戴森球，真空零点能，黑洞引擎，时空质能转换......\n浩瀚宇宙终有人类一席之地。\n《无限科技集团编年史》：\n“保护伞，维兰德—汤谷，哈弗克，巨神集团，沃特集团，简泰克，神罗公司，寰宇巨企......诚然这些都是科幻作品中的超级公司，但要和我们比起来就如蜉蝣与青天之别”无限科技创始人周衍，在无限集团成立5000周年庆典上的讲话。",
+              "author": "拨云见阳",
+              "book_id": "7574328259144338456",
+              "book_name": "宇宙级巨企：从纳米固态电池开始",
+              "category": "科幻末世",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-11-19T15:02:04+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7574335631128543768",
+              "first_chapter_item_id": "7574335631128543768",
+              "first_chapter_title": "第1章 这就把能源行业给颠覆了？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7617675867614888472",
+              "last_chapter_item_id": "7617675867614888472",
+              "last_chapter_title": "第392章 派出增援",
+              "last_chapter_update_time": "1773628443",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "52893",
+              "recommend_group_id": "7574328259144338456",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817024882A01B408D3961E68E9D\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "392",
+              "source": "番茄小说",
+              "tags": "科幻末世,天才",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/8da5dd4ee7820f0a878f8cf1027e40a1~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=58BZHrv%2BSNpEKEL7tcGqwf0mWo4%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "918378",
+              "score": "6.5",
+              "exclusive": "1",
+              "role": "周衍",
+              "category_schema": "[{\"category_id\":8,\"name\":\"科幻末世\",\"schema\":\"dragon1967://newCategoryDetail?id=8&name=科幻末世&genre_type=0&gender=1&source=detail\"},{\"category_id\":90,\"name\":\"天才\",\"schema\":\"dragon1967://newCategoryDetail?id=90&name=天才&genre_type=0&gender=1&source=detail\"},{\"category_id\":77,\"name\":\"星际\",\"schema\":\"dragon1967://newCategoryDetail?id=77&name=星际&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7613674964314508350]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "6581",
+              "sub_info": "5.3万人在读",
+              "last_publish_time": "1773756159",
+              "authorize_type": "1",
+              "media_id": "1825000598192138",
+              "original_book_name": "超级黑科技：我打造了宇宙级企业",
+              "length_type": "0",
+              "op_tag": "531,535,536",
+              "keep_publish_days": "119",
+              "thumb_uri": "novel-pic/8da5dd4ee7820f0a878f8cf1027e40a1",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/7aabf8b95061afd0fbe6423940f9ac2b",
+              "data_rate": "",
+              "all_bookshelf_count": "4995",
+              "pure_category_tags": "科幻末世,黑科技",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#084070",
+              "read_count_all": "320304",
+              "shelf_cnt_history": "46108",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2503\":1763537608,\"6589\":1763610189,\"13\":1763537608,\"1128\":1763537608,\"8704\":1763537608,\"3040\":1763610189,\"8661\":1763610189,\"35\":1763537608,\"507427\":1763537668,\"1967\":1763537608,\"8703\":1763537608,\"596084\":1763610189,\"8662\":1763537608,\"2329\":1763537608,\"510893\":1763537608,\"507386\":1763537668,\"638505\":1763610189}",
+              "category_v2_map": {
+                "8": true,
+                "77": true,
+                "90": true,
+                "854": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/8da5dd4ee7820f0a878f8cf1027e40a1~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=58BZHrv%2BSNpEKEL7tcGqwf0mWo4%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7477212632848553240,
+                  "AuthorName": "拨云见阳"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/7aabf8b95061afd0fbe6423940f9ac2b~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008569&x-signature=kmAp76OFH%2FbdiTaHrLWtVy39b9w%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【黑科技+科技强国+超级巨企+科技垄断+星际工业+文明跃迁+纯科幻+无女主】\n从《一种基于超高能量密度与可以用于制作极致安全固态电池的“无限一号”纳米复合材料》论文开始，周衍和他的无限集团带领华国，带领人类走向星际时代。\n纳米固态电池，电浆发动机，空天战机，无线输电网络，可控核聚变，端粒酶延长技术，超导悬浮城，太空电梯，曲率航行，戴森球，真空零点能，黑洞引擎，时空质能转换......\n浩瀚宇宙终有人类一席之地。\n《无限科技集团编年史》：\n“保护伞，维兰德—汤谷，哈弗克，巨神集团，沃特集团，简泰克，神罗公司，寰宇巨企......诚然这些都是科幻作品中的超级公司，但要和我们比起来就如蜉蝣与青天之别”无限科技创始人周衍，在无限集团成立5000周年庆典上的讲话。",
+              "read_page_progress": "0",
+              "read_cnt_text": "5.3万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/8da5dd4ee7820f0a878f8cf1027e40a1~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=KQ4V2PNwk8V8PZpz%2Fukzwk42d6o%3D",
+              "raw_book_name": "宇宙级巨企：从纳米固态电池开始",
+              "color_audio_dominate": "#15253E",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:1:0:1288044309:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "91.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "5万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "科幻末世",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：拨云见阳",
+                "rich_text": "作者：拨云见阳",
+                "high_light_position": []
+              },
+              {
+                "text": "【黑科技+科技强国+超级巨企+科技垄断+星际工业+文明跃迁+纯科幻+无女主】 从《一种基于超高能量密度与可以用于制作极致安全固态电池的“无限一号”纳米复合材料》论文开始，周衍和他的无限集团带领华国，带领人类走向星际时代。 纳米固态电池，电浆发动机，空天战机，无线输电网络，可控核聚变，端粒酶延长技术，超导悬浮城，太空电梯，曲率航行，戴森球，真空零点能，黑洞引擎，时空质能转换...... 浩瀚宇宙终有人类一席之地。 《无限科技集团编年史》： “保护伞，维兰德—汤谷，哈弗克，巨神集团，沃特集团，简泰克，神罗公司，寰宇巨企......诚然这些都是科幻作品中的超级公司，但要和我们比起来就如蜉蝣与青天之别”无限科技创始人周衍，在无限集团成立5000周年庆典上的讲话。",
+                "rich_text": "【<em>黑科技</em>+<em>科技</em>强国+超级巨企+<em>科技</em>垄断+星际工业+文明跃迁+纯<em>科</em>幻+无女主】\n从《一种基于超高能量密度与可以用于制作极致安全固态电池的“无限一号”纳米复合材料》论文开始，周衍和他的无限集团带领华国，带领人类走向星际时代。\n纳米固态电池，电浆发动机，空天战机，无线输电网络，可控核聚变，端粒酶延长<em>技</em>术，超导悬浮城，太空电梯，曲率航行，戴森球，真空零点能，<em>黑</em>洞引擎，时空质能转换......\n浩瀚宇宙终有人类一席之地。\n《无限<em>科技</em>集团编年史》：\n“保护伞，维兰德—汤谷，哈弗克，巨神集团，沃特集团，简泰克，神罗公司，寰宇巨企......诚然这些都是<em>科</em>幻作品中的超级公司，但要和我们比起来就如蜉蝣与青天之别”无限<em>科技</em>创始人周衍，在无限集团成立5000周年庆典上的讲话。",
+                "high_light_position": [
+                  [
+                    1,
+                    3
+                  ],
+                  [
+                    5,
+                    2
+                  ],
+                  [
+                    15,
+                    2
+                  ],
+                  [
+                    211,
+                    2
+                  ],
+                  [
+                    303,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1002,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7250760921138596896",
+          "search_result_id": "7250760921138596896",
+          "search_high_light": {
+            "title": {
+              "text": "我靠打爆学霸兑换黑科技",
+              "rich_text": "我靠打爆学霸兑换<em>黑科技</em>",
+              "high_light_position": [
+                [
+                  8,
+                  3
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【怨念值突破百万，这学霸的怨念值，真能无敌了？】【学霸+黑科技+科技兴国+战恐局】 高中生宋河得到“学霸怨念系统”，只要搞崩学霸们的心态，就能兑换各种黑科技。 于是，宋河不断让学霸们破大防： “你怒拿年级第一，全体学霸排名倒退，怨念值＋10000！” “你因科研成果获得特殊津贴，待遇高过你的老师，怨念值＋1000！” “全班第二丁阳泽得知他暗恋的女神是你的舔狗，心态爆炸，怨念值＋800！” “你宣布对不友好国家进行技术封锁，怨念值＋4亿！” “你积累的怨念值突破十万点，获得技能过目不忘！” “你积累的怨念值突破百万点，获得延寿基因技术！” “你积累的怨念值突破千万点，获得星际飞船样本！” 宋河难绷，你们学霸这么容易破防的？再这么下去，我可真要无敌了……",
+              "rich_text": "【学霸+<em>黑科技</em>+<em>科技</em>兴国+战恐局】\n高中生宋河得到“学霸怨念系统”，只要搞崩学霸们的心态，就能兑换各种<em>黑科技</em>。\n于是，宋河不断让学霸们破大防：\n“你怒拿年级第一，全体学霸排名倒退，怨念值＋10000！”\n“你因<em>科</em>研成果获得特殊津贴，待遇高过你的老师，怨念值＋1000！”\n“全班第二丁阳泽得知他暗恋的女神是你的舔狗，心态爆炸，怨念值＋800！”\n“你宣布对不友好国家进行<em>技</em>术封锁，怨念值＋4亿！”\n“你积累的怨念值突破十万点，获得<em>技</em>能过目不忘！”\n“你积累的怨念值突破百万点，获得延寿基因<em>技</em>术！”\n“你积累的怨念值突破千万点，获得星际飞船样本！”\n宋河难绷，你们学霸这么容易破防的？再这么下去，我可真要无敌了……",
+              "high_light_position": [
+                [
+                  28,
+                  3
+                ],
+                [
+                  32,
+                  2
+                ],
+                [
+                  75,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【学霸+黑科技+科技兴国+战恐局】\n高中生宋河得到“学霸怨念系统”，只要搞崩学霸们的心态，就能兑换各种黑科技。\n于是，宋河不断让学霸们破大防：\n“你怒拿年级第一，全体学霸排名倒退，怨念值＋10000！”\n“你因科研成果获得特殊津贴，待遇高过你的老师，怨念值＋1000！”\n“全班第二丁阳泽得知他暗恋的女神是你的舔狗，心态爆炸，怨念值＋800！”\n“你宣布对不友好国家进行技术封锁，怨念值＋4亿！”\n“你积累的怨念值突破十万点，获得技能过目不忘！”\n“你积累的怨念值突破百万点，获得延寿基因技术！”\n“你积累的怨念值突破千万点，获得星际飞船样本！”\n宋河难绷，你们学霸这么容易破防的？再这么下去，我可真要无敌了……",
+              "author": "吃肉的熊猫",
+              "book_id": "7250760921138596896",
+              "book_name": "我靠打爆学霸兑换黑科技",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-07-01T16:15:32+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7250761233379525120",
+              "first_chapter_item_id": "7250761233379525120",
+              "first_chapter_title": "第1章 这新生有点东西",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7523844917760623129",
+              "last_chapter_item_id": "7523844917760623129",
+              "last_chapter_title": "第1880章 完结感言",
+              "last_chapter_update_time": "1751782322",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "182328",
+              "recommend_group_id": "7250760921138596896",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817024882A01B408D3961E68E9D\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "1883",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p9-reading-sign.fqnovelpic.com/novel-pic/p2oc6ac799285e111db30001d0e9cccb983~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=s3IBxh8HKJv0reMhOo8aS29IEkw%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "4554195",
+              "score": "9.4",
+              "exclusive": "1",
+              "role": "宋河",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":82,\"name\":\"学霸\",\"schema\":\"dragon1967://newCategoryDetail?id=82&name=学霸&genre_type=0&gender=1&source=detail\"},{\"category_id\":384,\"name\":\"无敌\",\"schema\":\"dragon1967://newCategoryDetail?id=384&name=无敌&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7281156699518946366,7535550808658545689]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "60121",
+              "sub_info": "18.3万人在读",
+              "last_publish_time": "1751782331",
+              "authorize_type": "1",
+              "media_id": "1659245883781134",
+              "original_book_name": "我靠打爆学霸兑换黑科技",
+              "length_type": "0",
+              "op_tag": "1030,1403,346,304,900,966,418,892,498,535,292,536,1167,1035,1164,859,245",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2oc6ac799285e111db30001d0e9cccb983",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/54db195c1bda569a280d9db5b67482a4",
+              "data_rate": "",
+              "all_bookshelf_count": "36349",
+              "pure_category_tags": "都市脑洞,黑科技",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#304838",
+              "read_count_all": "7212893",
+              "shelf_cnt_history": "1833784",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1967\":1688202254,\"510893\":1689671087,\"35\":1688202254,\"8704\":1747146912,\"13\":1688202254,\"6589\":1688639956,\"638505\":1724771443,\"8661\":1692675938,\"3040\":1692675938,\"2503\":1688202254,\"8662\":1688202254,\"2329\":1688202254,\"596084\":1714097944,\"8703\":1744953549,\"1128\":1688202254,\"1112\":1693461325,\"507427\":1741788960,\"507386\":1741788960}",
+              "category_v2_map": {
+                "82": true,
+                "262": true,
+                "384": true,
+                "854": true,
+                "1": true,
+                "19": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oc6ac799285e111db30001d0e9cccb983~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=wKQEHe%2F8Q9pPYmibSHfEaskZmT4%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6914895214100354317,
+                  "AuthorName": "吃肉的熊猫"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/54db195c1bda569a280d9db5b67482a4~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008569&x-signature=xvQlYayprTnYMOGoD01SCqm0Sxw%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【学霸+黑科技+科技兴国+战恐局】\n高中生宋河得到“学霸怨念系统”，只要搞崩学霸们的心态，就能兑换各种黑科技。\n于是，宋河不断让学霸们破大防：\n“你怒拿年级第一，全体学霸排名倒退，怨念值＋10000！”\n“你因科研成果获得特殊津贴，待遇高过你的老师，怨念值＋1000！”\n“全班第二丁阳泽得知他暗恋的女神是你的舔狗，心态爆炸，怨念值＋800！”\n“你宣布对不友好国家进行技术封锁，怨念值＋4亿！”\n“你积累的怨念值突破十万点，获得技能过目不忘！”\n“你积累的怨念值突破百万点，获得延寿基因技术！”\n“你积累的怨念值突破千万点，获得星际飞船样本！”\n宋河难绷，你们学霸这么容易破防的？再这么下去，我可真要无敌了……",
+              "read_page_progress": "0",
+              "read_cnt_text": "18.3万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oc6ac799285e111db30001d0e9cccb983~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=XWLfwVBqwYmbfmsI0c9kCvSXgks%3D",
+              "raw_book_name": "我靠打爆学霸兑换黑科技",
+              "related_bookids": "{\"1967\":{\"261\":[7597413371536739352],\"205\":[7541291355834698814,7595125269304724505,7602932057517345816,7600679719243091006],\"203\":[7404680178086972441,7597439903990811673]},\"507386\":{\"205\":[7541291355834698814,7588798824357841982,7595125269304724505,7602932057517345816],\"203\":[7404680178086972441,7597439903990811673],\"261\":[7597413371536739352]},\"507427\":{\"203\":[7404680178086972441,7597439903990811673],\"205\":[7541291355834698814,7588798824357841982,7595125269304724505,7602932057517345816],\"261\":[7597413371536739352]},\"8662\":{\"203\":[7404680178086972441,7597439903990811673],\"261\":[7597413371536739352],\"205\":[7541291355834698814,7588798824357841982,7595125269304724505,7602932057517345816]},\"3040\":{\"203\":[7404680178086972441,7597439903990811673],\"205\":[7541291355834698814,7588798824357841982,7595125269304724505,7602932057517345816],\"261\":[7597413371536739352]}}",
+              "color_audio_dominate": "#112636"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:2:0:857129386:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "番茄爆书",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "455.4万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "18万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：吃肉的熊猫",
+                "rich_text": "作者：吃肉的熊猫",
+                "high_light_position": []
+              },
+              {
+                "text": "【怨念值突破百万，这学霸的怨念值，真能无敌了？】【学霸+黑科技+科技兴国+战恐局】 高中生宋河得到“学霸怨念系统”，只要搞崩学霸们的心态，就能兑换各种黑科技。 于是，宋河不断让学霸们破大防： “你怒拿年级第一，全体学霸排名倒退，怨念值＋10000！” “你因科研成果获得特殊津贴，待遇高过你的老师，怨念值＋1000！” “全班第二丁阳泽得知他暗恋的女神是你的舔狗，心态爆炸，怨念值＋800！” “你宣布对不友好国家进行技术封锁，怨念值＋4亿！” “你积累的怨念值突破十万点，获得技能过目不忘！” “你积累的怨念值突破百万点，获得延寿基因技术！” “你积累的怨念值突破千万点，获得星际飞船样本！” 宋河难绷，你们学霸这么容易破防的？再这么下去，我可真要无敌了……",
+                "rich_text": "【学霸+<em>黑科技</em>+<em>科技</em>兴国+战恐局】\n高中生宋河得到“学霸怨念系统”，只要搞崩学霸们的心态，就能兑换各种<em>黑科技</em>。\n于是，宋河不断让学霸们破大防：\n“你怒拿年级第一，全体学霸排名倒退，怨念值＋10000！”\n“你因<em>科</em>研成果获得特殊津贴，待遇高过你的老师，怨念值＋1000！”\n“全班第二丁阳泽得知他暗恋的女神是你的舔狗，心态爆炸，怨念值＋800！”\n“你宣布对不友好国家进行<em>技</em>术封锁，怨念值＋4亿！”\n“你积累的怨念值突破十万点，获得<em>技</em>能过目不忘！”\n“你积累的怨念值突破百万点，获得延寿基因<em>技</em>术！”\n“你积累的怨念值突破千万点，获得星际飞船样本！”\n宋河难绷，你们学霸这么容易破防的？再这么下去，我可真要无敌了……",
+                "high_light_position": [
+                  [
+                    28,
+                    3
+                  ],
+                  [
+                    32,
+                    2
+                  ],
+                  [
+                    75,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1003,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7174743629074795532",
+          "search_result_id": "7174743629074795532",
+          "search_high_light": {
+            "title": {
+              "text": "黑科技：我继承了全宇宙科技遗产",
+              "rich_text": "<em>黑科技</em>：我继承了全宇宙<em>科技</em>遗产",
+              "high_light_position": [
+                [
+                  0,
+                  3
+                ],
+                [
+                  11,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【他，就是科技界的黑马！】...sa发函：我们和前沿科技抗争到底！不死不休！ 于是，nasa解散了。 新京日报：“战舰制造业和空间旅游业已成为拉动经济增长的新马车！” 湛江新报：“机动装甲工业作为新兴行业正在蒸蒸日上！” 华中社：“前沿集团又一次成为全球科技先锋！当之无愧的民营科技企业典范！” “我这一生，就是步入哪个行业，就会给那个行业带来不可挽回损失的一生。” 王烁言。",
+              "rich_text": "什么？王烁要搞游戏？于是，企鹅垮了。\n什么？王烁要搞人工智能？于是，人工智能概念股崩盘了。\n什么？王烁要进军宇宙，搞航空公司？nasa发函：我们和前沿<em>科技</em>抗争到底！不死不休！\n于是，nasa解散了。\n新京日报：“战舰制造业和空间旅游业已成为拉动经济增长的新马车！”\n湛江新报：“机动装甲工业作为新兴行业正在蒸蒸日上！”\n华中社：“前沿集团又一次成为全球<em>科技</em>先锋！当之无愧的民营<em>科技</em>企业典范！”\n“我这一生，就是步入哪个行业，就会给那个行业带来不可挽回损失的一生。”\n王烁言。",
+              "high_light_position": [
+                [
+                  5,
+                  2
+                ],
+                [
+                  26,
+                  2
+                ],
+                [
+                  127,
+                  2
+                ],
+                [
+                  139,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "什么？王烁要搞游戏？于是，企鹅垮了。\n什么？王烁要搞人工智能？于是，人工智能概念股崩盘了。\n什么？王烁要进军宇宙，搞航空公司？nasa发函：我们和前沿科技抗争到底！不死不休！\n于是，nasa解散了。\n新京日报：“战舰制造业和空间旅游业已成为拉动经济增长的新马车！”\n湛江新报：“机动装甲工业作为新兴行业正在蒸蒸日上！”\n华中社：“前沿集团又一次成为全球科技先锋！当之无愧的民营科技企业典范！”\n“我这一生，就是步入哪个行业，就会给那个行业带来不可挽回损失的一生。”\n王烁言。",
+              "author": "怪味花生豆",
+              "book_id": "7174743629074795532",
+              "book_name": "黑科技：我继承了全宇宙科技遗产",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2022-12-08T19:49:37+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7174743786625761830",
+              "first_chapter_item_id": "7174743786625761830",
+              "first_chapter_title": "第1章 楔子及不明物体",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7617460171639374398",
+              "last_chapter_item_id": "7617460171639374398",
+              "last_chapter_title": "第904章 热火朝天的工地们",
+              "last_chapter_update_time": "1773681442",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "27429",
+              "recommend_group_id": "7174743629074795532",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817024882A01B408D3961E68E9D\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "905",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a522a810d5a8f1da4d10cee1b6e3085e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=MN7mX61tak5vQLBSIgBxM5O4eKE%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "2254229",
+              "score": "7.8",
+              "exclusive": "1",
+              "role": "王烁,陈欣",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7516846515000724542]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "6029",
+              "sub_info": "2.8万人在读",
+              "last_publish_time": "1773681451",
+              "authorize_type": "1",
+              "media_id": "1751644777319435",
+              "original_book_name": "我就是黑科技",
+              "length_type": "0",
+              "op_tag": "1600,1167,1586,531,1161,245,857,500,536,873,234,871,342,535,1030,292",
+              "keep_publish_days": "2",
+              "thumb_uri": "novel-pic/a522a810d5a8f1da4d10cee1b6e3085e",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/bdf7fecf915621e6ddaa4de7fabbc0a6",
+              "data_rate": "",
+              "all_bookshelf_count": "2924",
+              "pure_category_tags": "都市脑洞,打脸",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#006870",
+              "read_count_all": "985035",
+              "shelf_cnt_history": "146349",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507427\":1741806586,\"1128\":1670500663,\"510893\":1689743102,\"2329\":1670500663,\"3040\":1681192425,\"6589\":1677079924,\"2503\":1670500663,\"8704\":1747463210,\"1967\":1670500663,\"35\":1670500663,\"8703\":1744959847,\"8661\":1681192425,\"638505\":1724780743,\"8662\":1670500663,\"507386\":1741806586,\"13\":1670500663,\"596084\":1715136366}",
+              "category_v2_map": {
+                "19": true,
+                "262": true,
+                "1": true,
+                "522": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a522a810d5a8f1da4d10cee1b6e3085e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=MN7mX61tak5vQLBSIgBxM5O4eKE%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7174743629531976998,
+                  "AuthorName": "怪味花生豆"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/bdf7fecf915621e6ddaa4de7fabbc0a6~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008569&x-signature=kH0qg2zkiTywft6FQZTSqAwODyk%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "什么？王烁要搞游戏？于是，企鹅垮了。\n什么？王烁要搞人工智能？于是，人工智能概念股崩盘了。\n什么？王烁要进军宇宙，搞航空公司？nasa发函：我们和前沿科技抗争到底！不死不休！\n于是，nasa解散了。\n新京日报：“战舰制造业和空间旅游业已成为拉动经济增长的新马车！”\n湛江新报：“机动装甲工业作为新兴行业正在蒸蒸日上！”\n华中社：“前沿集团又一次成为全球科技先锋！当之无愧的民营科技企业典范！”\n“我这一生，就是步入哪个行业，就会给那个行业带来不可挽回损失的一生。”\n王烁言。",
+              "read_page_progress": "0",
+              "read_cnt_text": "2.8万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a522a810d5a8f1da4d10cee1b6e3085e~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=7cm2rHHhYLpb46BJCmjiSDBj%2B0I%3D",
+              "raw_book_name": "黑科技：我继承了全宇宙科技遗产",
+              "color_audio_dominate": "#1A738B"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:3:0:4064999518:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "225.4万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：怪味花生豆",
+                "rich_text": "作者：怪味花生豆",
+                "high_light_position": []
+              },
+              {
+                "text": "【他，就是科技界的黑马！】...sa发函：我们和前沿科技抗争到底！不死不休！ 于是，nasa解散了。 新京日报：“战舰制造业和空间旅游业已成为拉动经济增长的新马车！” 湛江新报：“机动装甲工业作为新兴行业正在蒸蒸日上！” 华中社：“前沿集团又一次成为全球科技先锋！当之无愧的民营科技企业典范！” “我这一生，就是步入哪个行业，就会给那个行业带来不可挽回损失的一生。” 王烁言。",
+                "rich_text": "什么？王烁要搞游戏？于是，企鹅垮了。\n什么？王烁要搞人工智能？于是，人工智能概念股崩盘了。\n什么？王烁要进军宇宙，搞航空公司？nasa发函：我们和前沿<em>科技</em>抗争到底！不死不休！\n于是，nasa解散了。\n新京日报：“战舰制造业和空间旅游业已成为拉动经济增长的新马车！”\n湛江新报：“机动装甲工业作为新兴行业正在蒸蒸日上！”\n华中社：“前沿集团又一次成为全球<em>科技</em>先锋！当之无愧的民营<em>科技</em>企业典范！”\n“我这一生，就是步入哪个行业，就会给那个行业带来不可挽回损失的一生。”\n王烁言。",
+                "high_light_position": [
+                  [
+                    5,
+                    2
+                  ],
+                  [
+                    26,
+                    2
+                  ],
+                  [
+                    127,
+                    2
+                  ],
+                  [
+                    139,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1004,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7551381197197151294",
+          "search_result_id": "7551381197197151294",
+          "search_high_light": {
+            "alias": {
+              "text": "我神话级黑科技",
+              "rich_text": "我神话级<em>黑科技</em>",
+              "high_light_position": [
+                [
+                  4,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "我神话级黑科技（别名：这叫模型？一炮干穿航母）",
+              "rich_text": "我神话级<em>黑科技</em>（别名：这叫模型？一炮干穿航母）",
+              "high_light_position": [
+                [
+                  4,
+                  3
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "作为国防科技大学的尖子生。 刚刚觉醒大忽悠系统的赵辰，就被局座邀请加入了战忽局。 正好，战忽局的工作就是忽悠，死的说成活的，黑的说成白的。 而赵辰的大忽悠系统，只要不断忽悠就能获得奖励。 从此，赵辰在忽悠的道路上一发不可收拾！ 央妈军事频道的采访上，赵辰大手一挥。 目前我们和老美的军事差距还很大，越是这个时候越要学会梭哈。 梭哈是一种智慧，我们投资五千亿没到研发机甲。 我们投资两万亿美刀研发第七代战斗机！ 我们投资五万亿研发南天门神秘计划！ 全世界都被赵辰的忽悠给带的跑偏了。 越是忽悠，赵辰获得的奖励也就越多。 从此，赵辰在大忽悠的道路上是越走越远！",
+              "rich_text": "作为国防<em>科技</em>大学的尖子生。\n刚刚觉醒大忽悠系统的赵辰，就被局座邀请加入了战忽局。\n正好，战忽局的工作就是忽悠，死的说成活的，<em>黑</em>的说成白的。\n而赵辰的大忽悠系统，只要不断忽悠就能获得奖励。\n从此，赵辰在忽悠的道路上一发不可收拾！\n央妈军事频道的采访上，赵辰大手一挥。\n目前我们和老美的军事差距还很大，越是这个时候越要学会梭哈。\n梭哈是一种智慧，我们投资五千亿没到研发机甲。\n我们投资两万亿美刀研发第七代战斗机！\n我们投资五万亿研发南天门神秘计划！\n全世界都被赵辰的忽悠给带的跑偏了。\n越是忽悠，赵辰获得的奖励也就越多。\n从此，赵辰在大忽悠的道路上是越走越远！",
+              "high_light_position": [
+                [
+                  4,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "作为国防科技大学的尖子生。\n刚刚觉醒大忽悠系统的赵辰，就被局座邀请加入了战忽局。\n正好，战忽局的工作就是忽悠，死的说成活的，黑的说成白的。\n而赵辰的大忽悠系统，只要不断忽悠就能获得奖励。\n从此，赵辰在忽悠的道路上一发不可收拾！\n央妈军事频道的采访上，赵辰大手一挥。\n目前我们和老美的军事差距还很大，越是这个时候越要学会梭哈。\n梭哈是一种智慧，我们投资五千亿没到研发机甲。\n我们投资两万亿美刀研发第七代战斗机！\n我们投资五万亿研发南天门神秘计划！\n全世界都被赵辰的忽悠给带的跑偏了。\n越是忽悠，赵辰获得的奖励也就越多。\n从此，赵辰在大忽悠的道路上是越走越远！",
+              "author": "辽北狠人范德彪",
+              "book_id": "7551381197197151294",
+              "book_name": "这叫模型？一炮干穿航母",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 酷匠小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-09-18T18:57:32+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7551409614718241816",
+              "first_chapter_item_id": "7551409614718241816",
+              "first_chapter_title": "第1章 大忽悠系统？我直接加入战忽局！",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618256986840255512",
+              "last_chapter_item_id": "7618256986840255512",
+              "last_chapter_title": "第804章 又有新情况",
+              "last_chapter_update_time": "1773764553",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "11413",
+              "recommend_group_id": "7551381197197151294",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817024882A01B408D3961E68E9D\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "804",
+              "source": "酷匠小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p9-reading-sign.fqnovelpic.com/novel-pic/6bd028b06638d979b7f02db52f7c8fb6~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=Vuc0qcloGyjc4W89dKpbJw4WnUQ%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1669479",
+              "score": "6.4",
+              "role": "赵辰",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":69,\"name\":\"直播\",\"schema\":\"dragon1967://newCategoryDetail?id=69&name=直播&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "alias_name": "我神话级黑科技",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1757",
+              "sub_info": "1.2万人在读",
+              "last_publish_time": "1773765246",
+              "authorize_type": "0",
+              "media_id": "1585551339039757",
+              "original_book_name": "战忽局大忽悠？我神话级黑科技专家！",
+              "length_type": "0",
+              "op_tag": "305",
+              "keep_publish_days": "1",
+              "thumb_uri": "novel-pic/6bd028b06638d979b7f02db52f7c8fb6",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/96b50168e99582c2ba4da1ceebdb92df",
+              "data_rate": "",
+              "all_bookshelf_count": "1364",
+              "pure_category_tags": "都市脑洞,黑科技",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#102840",
+              "read_count_all": "207392",
+              "shelf_cnt_history": "29999",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507427\":1758695187,\"1967\":1758695126,\"6589\":1758695126,\"13\":1758695126,\"1319\":1758695126,\"8703\":1758695126,\"35\":1758695126,\"8661\":1758695126,\"8662\":1758695126,\"2503\":1758695126,\"596084\":1758695126,\"3040\":1758695126,\"507386\":1758695187,\"2329\":1758695126,\"1128\":1758695126,\"510893\":1758695126,\"638505\":1758695126}",
+              "category_v2_map": {
+                "1": true,
+                "19": true,
+                "854": true,
+                "37": true,
+                "69": true,
+                "262": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6bd028b06638d979b7f02db52f7c8fb6~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=T5c2CoAPt0LzInj3xPpcR%2BBAGs4%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7281599028872090941,
+                  "AuthorName": "辽北狠人范德彪"
+                }
+              ],
+              "platform_book_id": "106114",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/96b50168e99582c2ba4da1ceebdb92df~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008569&x-signature=z7MMd1vak%2B75SajcXCO5CpbzzS4%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "tts_type": "",
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "作为国防科技大学的尖子生。\n刚刚觉醒大忽悠系统的赵辰，就被局座邀请加入了战忽局。\n正好，战忽局的工作就是忽悠，死的说成活的，黑的说成白的。\n而赵辰的大忽悠系统，只要不断忽悠就能获得奖励。\n从此，赵辰在忽悠的道路上一发不可收拾！\n央妈军事频道的采访上，赵辰大手一挥。\n目前我们和老美的军事差距还很大，越是这个时候越要学会梭哈。\n梭哈是一种智慧，我们投资五千亿没到研发机甲。\n我们投资两万亿美刀研发第七代战斗机！\n我们投资五万亿研发南天门神秘计划！\n全世界都被赵辰的忽悠给带的跑偏了。\n越是忽悠，赵辰获得的奖励也就越多。\n从此，赵辰在大忽悠的道路上是越走越远！",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.2万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6bd028b06638d979b7f02db52f7c8fb6~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=L3%2F7q%2BZczEdh7HFeTt0pBTHF%2F2w%3D",
+              "cell_content_raw_alias": "我神话级黑科技",
+              "raw_book_name": "这叫模型？一炮干穿航母",
+              "color_audio_dominate": "#3E4151"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:4:0:1813326436:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "166.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：辽北狠人范德彪",
+                "rich_text": "作者：辽北狠人范德彪",
+                "high_light_position": []
+              },
+              {
+                "text": "作为国防科技大学的尖子生。 刚刚觉醒大忽悠系统的赵辰，就被局座邀请加入了战忽局。 正好，战忽局的工作就是忽悠，死的说成活的，黑的说成白的。 而赵辰的大忽悠系统，只要不断忽悠就能获得奖励。 从此，赵辰在忽悠的道路上一发不可收拾！ 央妈军事频道的采访上，赵辰大手一挥。 目前我们和老美的军事差距还很大，越是这个时候越要学会梭哈。 梭哈是一种智慧，我们投资五千亿没到研发机甲。 我们投资两万亿美刀研发第七代战斗机！ 我们投资五万亿研发南天门神秘计划！ 全世界都被赵辰的忽悠给带的跑偏了。 越是忽悠，赵辰获得的奖励也就越多。 从此，赵辰在大忽悠的道路上是越走越远！",
+                "rich_text": "作为国防<em>科技</em>大学的尖子生。\n刚刚觉醒大忽悠系统的赵辰，就被局座邀请加入了战忽局。\n正好，战忽局的工作就是忽悠，死的说成活的，<em>黑</em>的说成白的。\n而赵辰的大忽悠系统，只要不断忽悠就能获得奖励。\n从此，赵辰在忽悠的道路上一发不可收拾！\n央妈军事频道的采访上，赵辰大手一挥。\n目前我们和老美的军事差距还很大，越是这个时候越要学会梭哈。\n梭哈是一种智慧，我们投资五千亿没到研发机甲。\n我们投资两万亿美刀研发第七代战斗机！\n我们投资五万亿研发南天门神秘计划！\n全世界都被赵辰的忽悠给带的跑偏了。\n越是忽悠，赵辰获得的奖励也就越多。\n从此，赵辰在大忽悠的道路上是越走越远！",
+                "high_light_position": [
+                  [
+                    4,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1005,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7095751498717465632",
+          "search_result_id": "7095751498717465632",
+          "search_high_light": {
+            "title": {
+              "text": "辞职创业，利用黑科技改变全世界",
+              "rich_text": "辞职创业，利用<em>黑科技</em>改变全世界",
+              "high_light_position": [
+                [
+                  7,
+                  3
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【一步步的成就了一个商业帝国，推动国家的快速发展】【爽文+都市+商业+科技+科幻+军工+强国】 身体各项指标提升十倍； 金属材料性能提升十倍； 水稻生长时间加快十倍； …… 刘森运用获得的金手指提升着各种物品的属性，获得相应的知识，创建公司，研发新科技。 从最简单的酒水饮料开始积累资金，稳扎稳打。 同国内、外公司的竞争中，不断的发展进步。 碾压民用科技公司，并且涉及军工科技。 一步步的成就了一个商业帝国，推动国家的快速发展，使其站在了世界最顶端。",
+              "rich_text": "【爽文+都市+商业+<em>科技</em>+<em>科</em>幻+军工+强国】\n身体各项指标提升十倍；\n金属材料性能提升十倍；\n水稻生长时间加快十倍；\n……\n刘森运用获得的金手指提升着各种物品的属性，获得相应的知识，创建公司，研发新<em>科技</em>。\n从最简单的酒水饮料开始积累资金，稳扎稳打。\n同国内、外公司的竞争中，不断的发展进步。\n碾压民用<em>科技</em>公司，并且涉及军工<em>科技</em>。\n一步步的成就了一个商业帝国，推动国家的快速发展，使其站在了世界最顶端。",
+              "high_light_position": [
+                [
+                  35,
+                  2
+                ],
+                [
+                  124,
+                  2
+                ],
+                [
+                  175,
+                  2
+                ],
+                [
+                  186,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【爽文+都市+商业+科技+科幻+军工+强国】\n身体各项指标提升十倍；\n金属材料性能提升十倍；\n水稻生长时间加快十倍；\n……\n刘森运用获得的金手指提升着各种物品的属性，获得相应的知识，创建公司，研发新科技。\n从最简单的酒水饮料开始积累资金，稳扎稳打。\n同国内、外公司的竞争中，不断的发展进步。\n碾压民用科技公司，并且涉及军工科技。\n一步步的成就了一个商业帝国，推动国家的快速发展，使其站在了世界最顶端。",
+              "author": "醋溜小白菜",
+              "book_id": "7095751498717465632",
+              "book_name": "辞职创业，利用黑科技改变全世界",
+              "category": "都市种田",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2022-05-09T22:59:48+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7095760197230002702",
+              "first_chapter_item_id": "7095760197230002702",
+              "first_chapter_title": "第1章 不停闪烁的点",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618252158512661054",
+              "last_chapter_item_id": "7618252158512661054",
+              "last_chapter_title": "第1568章 成功率82%的方案",
+              "last_chapter_update_time": "1773762777",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "41530",
+              "recommend_group_id": "7095751498717465632",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817024882A01B408D3961E68E9D\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "1642",
+              "source": "番茄小说",
+              "tags": "都市种田,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/8f748a8fe6a79e55b4b38eeb17f71081~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=hokQECQoYN4vF6jmOGswCpXWk1A%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "3281149",
+              "score": "8.5",
+              "exclusive": "1",
+              "role": "刘森",
+              "category_schema": "[{\"category_id\":263,\"name\":\"都市种田\",\"schema\":\"dragon1967://newCategoryDetail?id=263&name=都市种田&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":23,\"name\":\"种田\",\"schema\":\"dragon1967://newCategoryDetail?id=23&name=种田&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "6306",
+              "sub_info": "4.2万人在读",
+              "last_publish_time": "1773762787",
+              "authorize_type": "1",
+              "media_id": "1732356701558784",
+              "original_book_name": "商业帝国：黑科技有亿点多",
+              "length_type": "0",
+              "op_tag": "347,499,190,184,869,536,856,535,183,1028,1024,1104,1099",
+              "keep_publish_days": "19",
+              "thumb_uri": "novel-pic/8f748a8fe6a79e55b4b38eeb17f71081",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/92b0c64ce86b0a52a774c7c44e1dd38d",
+              "data_rate": "",
+              "all_bookshelf_count": "2730",
+              "pure_category_tags": "都市种田,种田",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "0",
+              "show_vip_tag": null,
+              "color_dominate": "#102030",
+              "read_count_all": "1540710",
+              "shelf_cnt_history": "204942",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"3040\":1655105926,\"507386\":1741794513,\"8661\":1681445655,\"510893\":1689695958,\"1967\":1652109952,\"8703\":1744965717,\"6589\":1665988377,\"426946\":1670834029,\"8704\":1747148770,\"507427\":1741794513,\"596084\":1715096463,\"638505\":1724771619,\"183213\":1691648671}",
+              "category_v2_map": {
+                "23": true,
+                "19": true,
+                "1": true,
+                "263": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/8f748a8fe6a79e55b4b38eeb17f71081~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=hokQECQoYN4vF6jmOGswCpXWk1A%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7095751499388556548,
+                  "AuthorName": "醋溜小白菜"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/92b0c64ce86b0a52a774c7c44e1dd38d~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008569&x-signature=LyfKJf11ausk7DUe9qU%2Bip4eAfk%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【爽文+都市+商业+科技+科幻+军工+强国】\n身体各项指标提升十倍；\n金属材料性能提升十倍；\n水稻生长时间加快十倍；\n……\n刘森运用获得的金手指提升着各种物品的属性，获得相应的知识，创建公司，研发新科技。\n从最简单的酒水饮料开始积累资金，稳扎稳打。\n同国内、外公司的竞争中，不断的发展进步。\n碾压民用科技公司，并且涉及军工科技。\n一步步的成就了一个商业帝国，推动国家的快速发展，使其站在了世界最顶端。",
+              "read_page_progress": "0",
+              "read_cnt_text": "4.2万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/8f748a8fe6a79e55b4b38eeb17f71081~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=V%2FkIee7tIxK7gLWJMZGvavdzvYg%3D",
+              "raw_book_name": "辞职创业，利用黑科技改变全世界",
+              "related_bookids": "{\"1967\":{\"205\":[7582565081578212376]},\"507386\":{\"205\":[7582565081578212376]},\"507427\":{\"205\":[7582565081578212376]},\"8662\":{\"205\":[7582565081578212376]},\"3040\":{\"205\":[7582565081578212376]}}",
+              "color_audio_dominate": "#362723"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:5:0:2017335627:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短剧原著",
+              "Priority": 15,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "328.1万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市种田",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：醋溜小白菜",
+                "rich_text": "作者：醋溜小白菜",
+                "high_light_position": []
+              },
+              {
+                "text": "【一步步的成就了一个商业帝国，推动国家的快速发展】【爽文+都市+商业+科技+科幻+军工+强国】 身体各项指标提升十倍； 金属材料性能提升十倍； 水稻生长时间加快十倍； …… 刘森运用获得的金手指提升着各种物品的属性，获得相应的知识，创建公司，研发新科技。 从最简单的酒水饮料开始积累资金，稳扎稳打。 同国内、外公司的竞争中，不断的发展进步。 碾压民用科技公司，并且涉及军工科技。 一步步的成就了一个商业帝国，推动国家的快速发展，使其站在了世界最顶端。",
+                "rich_text": "【爽文+都市+商业+<em>科技</em>+<em>科</em>幻+军工+强国】\n身体各项指标提升十倍；\n金属材料性能提升十倍；\n水稻生长时间加快十倍；\n……\n刘森运用获得的金手指提升着各种物品的属性，获得相应的知识，创建公司，研发新<em>科技</em>。\n从最简单的酒水饮料开始积累资金，稳扎稳打。\n同国内、外公司的竞争中，不断的发展进步。\n碾压民用<em>科技</em>公司，并且涉及军工<em>科技</em>。\n一步步的成就了一个商业帝国，推动国家的快速发展，使其站在了世界最顶端。",
+                "high_light_position": [
+                  [
+                    35,
+                    2
+                  ],
+                  [
+                    124,
+                    2
+                  ],
+                  [
+                    175,
+                    2
+                  ],
+                  [
+                    186,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1006,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7324242366959733822",
+          "search_result_id": "7324242366959733822",
+          "search_high_light": {
+            "title": {
+              "text": "续写科技（别名：开局涡扇15，我带华夏杀疯了）",
+              "rich_text": "续写<em>科技</em>（别名：开局涡扇15，我带华夏杀疯了）",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【高科技+商业+军工+护国+三观正】 带着两千名各领域科学家的记忆，陈皓重生在2000年高考当天。 高考缺考总分180？ 破解数学领域十大猜想，排名前十高校疯狂抢人！ 开局老爸破产要跳楼？ 构建XP系统赚微软1亿美金！ 这一世，绝不让任何遗憾发生。 这一世。 要建立最强商业帝国。 要建设最强国防，问鼎军工之巅！",
+              "rich_text": "【高<em>科技</em>+商业+军工+护国+三观正】\n带着两千名各领域<em>科</em>学家的记忆，陈皓重生在2000年高考当天。\n高考缺考总分180？\n破解数学领域十大猜想，排名前十高校疯狂抢人！\n开局老爸破产要跳楼？\n构建XP系统赚微软1亿美金！\n这一世，绝不让任何遗憾发生。\n这一世。\n要建立最强商业帝国。\n要建设最强国防，问鼎军工之巅！",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            },
+            "alias": {
+              "text": "续写科技",
+              "rich_text": "续写<em>科技</em>",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【高科技+商业+军工+护国+三观正】\n带着两千名各领域科学家的记忆，陈皓重生在2000年高考当天。\n高考缺考总分180？\n破解数学领域十大猜想，排名前十高校疯狂抢人！\n开局老爸破产要跳楼？\n构建XP系统赚微软1亿美金！\n这一世，绝不让任何遗憾发生。\n这一世。\n要建立最强商业帝国。\n要建设最强国防，问鼎军工之巅！",
+              "author": "何日能躺平",
+              "book_id": "7324242366959733822",
+              "book_name": "开局涡扇15，我带华夏杀疯了",
+              "category": "都市种田",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-01-15T16:41:04+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7324526850493923902",
+              "first_chapter_item_id": "7324526850493923902",
+              "first_chapter_title": "第1章 重生在高考当天？不考了！",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7487068747673371161",
+              "last_chapter_item_id": "7487068747673371161",
+              "last_chapter_title": "45、兔子不吃窝边草？窝边有草何必满山跑！",
+              "last_chapter_update_time": "1743219182",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "66645",
+              "recommend_group_id": "7324242366959733822",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817024882A01B408D3961E68E9D\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "1132",
+              "source": "番茄小说",
+              "tags": "都市种田,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/322883fcfe636a1f5e7dbbdfd1aa3cdb~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=WoG5oimUF7up%2FjPXx174Ek4JpjA%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "2396813",
+              "score": "9.0",
+              "exclusive": "1",
+              "role": "陈皓",
+              "category_schema": "[{\"category_id\":263,\"name\":\"都市种田\",\"schema\":\"dragon1967://newCategoryDetail?id=263&name=都市种田&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7366130691517647934,7381654646986902590]",
+              "book_type": "0",
+              "alias_name": "续写科技",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "13804",
+              "sub_info": "6.7万人在读",
+              "last_publish_time": "1743912047",
+              "authorize_type": "1",
+              "media_id": "1570162571561985",
+              "original_book_name": "重生：全系专利，斩断欧美科技树",
+              "length_type": "0",
+              "op_tag": "869,888,984,1038,900,531,846,935,891,1104,859,966,535,889,536,873,934,245",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/322883fcfe636a1f5e7dbbdfd1aa3cdb",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/5b8304181c07cea8e4309b1f350855dd",
+              "data_rate": "",
+              "all_bookshelf_count": "8236",
+              "pure_category_tags": "都市种田,重生",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#181018",
+              "read_count_all": "5587819",
+              "shelf_cnt_history": "1068232",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"510893\":1705374955,\"3040\":1705583727,\"6589\":1705583727,\"1319\":1705460302,\"2329\":1705374955,\"2503\":1705374955,\"1128\":1705374955,\"8703\":1744963892,\"596084\":1714097944,\"507427\":1741820241,\"8662\":1705374955,\"8661\":1705583727,\"638505\":1724815764,\"1967\":1705374955,\"8704\":1747356290,\"13\":1705374955,\"507386\":1741820241,\"35\":1705374955}",
+              "category_v2_map": {
+                "36": true,
+                "263": true,
+                "1": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/322883fcfe636a1f5e7dbbdfd1aa3cdb~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=WoG5oimUF7up%2FjPXx174Ek4JpjA%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7179457770914059554,
+                  "AuthorName": "何日能躺平"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/5b8304181c07cea8e4309b1f350855dd~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008569&x-signature=wRhqhWYYGkhCqL0MZReiVXH96Io%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【高科技+商业+军工+护国+三观正】\n带着两千名各领域科学家的记忆，陈皓重生在2000年高考当天。\n高考缺考总分180？\n破解数学领域十大猜想，排名前十高校疯狂抢人！\n开局老爸破产要跳楼？\n构建XP系统赚微软1亿美金！\n这一世，绝不让任何遗憾发生。\n这一世。\n要建立最强商业帝国。\n要建设最强国防，问鼎军工之巅！",
+              "read_page_progress": "0",
+              "read_cnt_text": "6.7万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/322883fcfe636a1f5e7dbbdfd1aa3cdb~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=LDr0sclO0PaNOneY%2F9QjWsTk09o%3D",
+              "cell_content_raw_alias": "续写科技",
+              "raw_book_name": "开局涡扇15，我带华夏杀疯了",
+              "related_bookids": "{\"3040\":{\"203\":[7538676942745111614],\"205\":[7525755045455875134,7538740034405420057,7553202010711919641]},\"1967\":{\"205\":[7525755045455875134,7538740034405420057,7553202010711919641],\"203\":[7538676942745111614]},\"507386\":{\"205\":[7525755045455875134,7538740034405420057,7553202010711919641],\"203\":[7538676942745111614]},\"507427\":{\"205\":[7525755045455875134,7538740034405420057,7553202010711919641],\"203\":[7538676942745111614]},\"8662\":{\"205\":[7525755045455875134,7538740034405420057,7553202010711919641],\"203\":[7538676942745111614]}}",
+              "color_audio_dominate": "#22212F"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:6:0:1660989477:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短剧原著",
+              "Priority": 15,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "239.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "6万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市种田",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：何日能躺平",
+                "rich_text": "作者：何日能躺平",
+                "high_light_position": []
+              },
+              {
+                "text": "【高科技+商业+军工+护国+三观正】 带着两千名各领域科学家的记忆，陈皓重生在2000年高考当天。 高考缺考总分180？ 破解数学领域十大猜想，排名前十高校疯狂抢人！ 开局老爸破产要跳楼？ 构建XP系统赚微软1亿美金！ 这一世，绝不让任何遗憾发生。 这一世。 要建立最强商业帝国。 要建设最强国防，问鼎军工之巅！",
+                "rich_text": "【高<em>科技</em>+商业+军工+护国+三观正】\n带着两千名各领域<em>科</em>学家的记忆，陈皓重生在2000年高考当天。\n高考缺考总分180？\n破解数学领域十大猜想，排名前十高校疯狂抢人！\n开局老爸破产要跳楼？\n构建XP系统赚微软1亿美金！\n这一世，绝不让任何遗憾发生。\n这一世。\n要建立最强商业帝国。\n要建设最强国防，问鼎军工之巅！",
+                "high_light_position": [
+                  [
+                    2,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1007,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7323193688622910526",
+          "search_result_id": "7323193688622910526",
+          "search_high_light": {
+            "abstract": {
+              "text": "...300万字工业大摸底黑科技】【系统+大国重工+喊妈流+绝对爱国+无女主+攀科技】，本书又名【工业大摸底：开局制造阻拦索！】【工业大摸底：摸出来个南天门计划】。 第一卷：巨龙崛起已完结，280万字！ 第二卷：旧日陨落正在激情连载中，现在入坑你就是老粉！ 海军研发部拿着巨龙钢铁厂送审的钢索满脑子黑人问号？这特么不就是被鹰酱卡脖子的航母阻拦索吗？ 咱家民企生产的？搞了半天不是卡脖子，而是我特么毛衣穿反了？ 快！工业大摸底！ 你说什么？轨道轰炸机送快递？ 用T3000强度碳纤维造鱼竿？ 农用车爆改步战车？手搓导弹，造飞机？！ 汽车刷吸波隐身涂料？咱战斗机都没用上的哪种？ 快给查！巨龙钢铁的董事长是谁？ 还有这南天门计划是什么鬼？ 末日之役空天母舰？白帝空天战机？承影动力装甲？执政官铠甲？闪电风暴？太空轨道电磁炮？ 鹰酱：你真是工业大摸底？不是备战S3？ 祖国：都是民用科技，没什么技术含量。 鹰酱：骗人！歼星舰天天在外太空晃悠，火星基地都建起来，还说不是备战S3？",
+              "rich_text": "【全网唯一300万字工业大摸底<em>黑科技</em>】【系统+大国重工+喊妈流+绝对爱国+无女主+攀<em>科技</em>】，本书又名【工业大摸底：开局制造阻拦索！】【工业大摸底：摸出来个南天门计划】。\n第一卷：巨龙崛起已完结，280万字！\n第二卷：旧日陨落正在激情连载中，现在入坑你就是老粉！\n海军研发部拿着巨龙钢铁厂送审的钢索满脑子<em>黑</em>人问号？这特么不就是被鹰酱卡脖子的航母阻拦索吗？\n咱家民企生产的？搞了半天不是卡脖子，而是我特么毛衣穿反了？\n快！工业大摸底！\n你说什么？轨道轰炸机送快递？\n用T3000强度碳纤维造鱼竿？\n农用车爆改步战车？手搓导弹，造飞机？！\n汽车刷吸波隐身涂料？咱战斗机都没用上的哪种？\n快给查！巨龙钢铁的董事长是谁？\n还有这南天门计划是什么鬼？\n末日之役空天母舰？白帝空天战机？承影动力装甲？执政官铠甲？闪电风暴？太空轨道电磁炮？\n鹰酱：你真是工业大摸底？不是备战S3？\n祖国：都是民用<em>科技</em>，没什么<em>技</em>术含量。\n鹰酱：骗人！歼星舰天天在外太空晃悠，火星基地都建起来，还说不是备战S3？",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ],
+                [
+                  40,
+                  2
+                ],
+                [
+                  388,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "军工：从工业大摸底开始暴打全球",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【全网唯一300万字工业大摸底黑科技】【系统+大国重工+喊妈流+绝对爱国+无女主+攀科技】，本书又名【工业大摸底：开局制造阻拦索！】【工业大摸底：摸出来个南天门计划】。\n第一卷：巨龙崛起已完结，280万字！\n第二卷：旧日陨落正在激情连载中，现在入坑你就是老粉！\n海军研发部拿着巨龙钢铁厂送审的钢索满脑子黑人问号？这特么不就是被鹰酱卡脖子的航母阻拦索吗？\n咱家民企生产的？搞了半天不是卡脖子，而是我特么毛衣穿反了？\n快！工业大摸底！\n你说什么？轨道轰炸机送快递？\n用T3000强度碳纤维造鱼竿？\n农用车爆改步战车？手搓导弹，造飞机？！\n汽车刷吸波隐身涂料？咱战斗机都没用上的哪种？\n快给查！巨龙钢铁的董事长是谁？\n还有这南天门计划是什么鬼？\n末日之役空天母舰？白帝空天战机？承影动力装甲？执政官铠甲？闪电风暴？太空轨道电磁炮？\n鹰酱：你真是工业大摸底？不是备战S3？\n祖国：都是民用科技，没什么技术含量。\n鹰酱：骗人！歼星舰天天在外太空晃悠，火星基地都建起来，还说不是备战S3？",
+              "author": "半只凉鞋",
+              "book_id": "7323193688622910526",
+              "book_name": "军工：从工业大摸底开始暴打全球",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-01-12T20:51:40+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7323840651936662078",
+              "first_chapter_item_id": "7323840651936662078",
+              "first_chapter_title": "第1章 单根钢索十万？还美金？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618044141087228478",
+              "last_chapter_item_id": "7618044141087228478",
+              "last_chapter_title": "第1676章 见此签证，请予以放行！",
+              "last_chapter_update_time": "1773714338",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "102709",
+              "recommend_group_id": "7323193688622910526",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817024882A01B408D3961E68E9D\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "1676",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/139465f540549bcf6d00d51cfa4f1ec6~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=%2F8kuomlMd8fTLtTrDkUKU6Htp%2FU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "3406106",
+              "score": "8.1",
+              "exclusive": "1",
+              "role": "陆慎为,马泉林",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7438888912153496600]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "28053",
+              "sub_info": "10.3万人在读",
+              "last_publish_time": "1773792081",
+              "authorize_type": "1",
+              "media_id": "1627034566686734",
+              "original_book_name": "工业大摸底：开局制造阻拦索！",
+              "length_type": "0",
+              "op_tag": "984,1030,889,1033,1167,888,873,870,1403,1164,531,536,245,855,535",
+              "keep_publish_days": "18",
+              "thumb_uri": "novel-pic/139465f540549bcf6d00d51cfa4f1ec6",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/9e2fae5ed4a660f8f9222cf5ee8e588f",
+              "data_rate": "",
+              "all_bookshelf_count": "7582",
+              "pure_category_tags": "都市脑洞,系统",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#282828",
+              "read_count_all": "4276568",
+              "shelf_cnt_history": "654534",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"510893\":1705217634,\"507386\":1741816538,\"1128\":1705217634,\"35\":1705217634,\"8703\":1744964371,\"638505\":1724768806,\"1967\":1705217634,\"8704\":1747117046,\"13\":1705217634,\"3040\":1705450879,\"8661\":1705450879,\"507427\":1741816538,\"8662\":1705217634,\"2503\":1705217634,\"596084\":1714097944,\"2329\":1705217634,\"6589\":1705450879}",
+              "category_v2_map": {
+                "36": true,
+                "262": true,
+                "1": true,
+                "19": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/139465f540549bcf6d00d51cfa4f1ec6~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=%2F8kuomlMd8fTLtTrDkUKU6Htp%2FU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7002909768423576840,
+                  "AuthorName": "半只凉鞋"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "工业大摸底！",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/9e2fae5ed4a660f8f9222cf5ee8e588f~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008569&x-signature=MpFt8itvR8uMynqvyojWfnrwM1I%3D",
+              "reputation_thumb_uri": "novel-pic-r/d314f9f79a8987ee5ca96d267df9593c",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【全网唯一300万字工业大摸底黑科技】【系统+大国重工+喊妈流+绝对爱国+无女主+攀科技】，本书又名【工业大摸底：开局制造阻拦索！】【工业大摸底：摸出来个南天门计划】。\n第一卷：巨龙崛起已完结，280万字！\n第二卷：旧日陨落正在激情连载中，现在入坑你就是老粉！\n海军研发部拿着巨龙钢铁厂送审的钢索满脑子黑人问号？这特么不就是被鹰酱卡脖子的航母阻拦索吗？\n咱家民企生产的？搞了半天不是卡脖子，而是我特么毛衣穿反了？\n快！工业大摸底！\n你说什么？轨道轰炸机送快递？\n用T3000强度碳纤维造鱼竿？\n农用车爆改步战车？手搓导弹，造飞机？！\n汽车刷吸波隐身涂料？咱战斗机都没用上的哪种？\n快给查！巨龙钢铁的董事长是谁？\n还有这南天门计划是什么鬼？\n末日之役空天母舰？白帝空天战机？承影动力装甲？执政官铠甲？闪电风暴？太空轨道电磁炮？\n鹰酱：你真是工业大摸底？不是备战S3？\n祖国：都是民用科技，没什么技术含量。\n鹰酱：骗人！歼星舰天天在外太空晃悠，火星基地都建起来，还说不是备战S3？",
+              "read_page_progress": "0",
+              "read_cnt_text": "10.3万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/139465f540549bcf6d00d51cfa4f1ec6~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=OzV15FMvxgtquAmC%2FS8mJu2n%2Bf4%3D",
+              "raw_book_name": "军工：从工业大摸底开始暴打全球",
+              "related_bookids": "{\"507386\":{\"205\":[7598554046286285886]},\"507427\":{\"205\":[7598554046286285886]},\"8662\":{\"205\":[7598554046286285886]},\"3040\":{\"205\":[7598554046286285886]},\"1967\":{\"205\":[7598554046286285886]}}",
+              "color_audio_dominate": "#2D221B"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:7:0:1255629738:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "多人二刷",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "340.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "10万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：半只凉鞋",
+                "rich_text": "作者：半只凉鞋",
+                "high_light_position": []
+              },
+              {
+                "text": "...300万字工业大摸底黑科技】【系统+大国重工+喊妈流+绝对爱国+无女主+攀科技】，本书又名【工业大摸底：开局制造阻拦索！】【工业大摸底：摸出来个南天门计划】。 第一卷：巨龙崛起已完结，280万字！ 第二卷：旧日陨落正在激情连载中，现在入坑你就是老粉！ 海军研发部拿着巨龙钢铁厂送审的钢索满脑子黑人问号？这特么不就是被鹰酱卡脖子的航母阻拦索吗？ 咱家民企生产的？搞了半天不是卡脖子，而是我特么毛衣穿反了？ 快！工业大摸底！ 你说什么？轨道轰炸机送快递？ 用T3000强度碳纤维造鱼竿？ 农用车爆改步战车？手搓导弹，造飞机？！ 汽车刷吸波隐身涂料？咱战斗机都没用上的哪种？ 快给查！巨龙钢铁的董事长是谁？ 还有这南天门计划是什么鬼？ 末日之役空天母舰？白帝空天战机？承影动力装甲？执政官铠甲？闪电风暴？太空轨道电磁炮？ 鹰酱：你真是工业大摸底？不是备战S3？ 祖国：都是民用科技，没什么技术含量。 鹰酱：骗人！歼星舰天天在外太空晃悠，火星基地都建起来，还说不是备战S3？",
+                "rich_text": "【全网唯一300万字工业大摸底<em>黑科技</em>】【系统+大国重工+喊妈流+绝对爱国+无女主+攀<em>科技</em>】，本书又名【工业大摸底：开局制造阻拦索！】【工业大摸底：摸出来个南天门计划】。\n第一卷：巨龙崛起已完结，280万字！\n第二卷：旧日陨落正在激情连载中，现在入坑你就是老粉！\n海军研发部拿着巨龙钢铁厂送审的钢索满脑子<em>黑</em>人问号？这特么不就是被鹰酱卡脖子的航母阻拦索吗？\n咱家民企生产的？搞了半天不是卡脖子，而是我特么毛衣穿反了？\n快！工业大摸底！\n你说什么？轨道轰炸机送快递？\n用T3000强度碳纤维造鱼竿？\n农用车爆改步战车？手搓导弹，造飞机？！\n汽车刷吸波隐身涂料？咱战斗机都没用上的哪种？\n快给查！巨龙钢铁的董事长是谁？\n还有这南天门计划是什么鬼？\n末日之役空天母舰？白帝空天战机？承影动力装甲？执政官铠甲？闪电风暴？太空轨道电磁炮？\n鹰酱：你真是工业大摸底？不是备战S3？\n祖国：都是民用<em>科技</em>，没什么<em>技</em>术含量。\n鹰酱：骗人！歼星舰天天在外太空晃悠，火星基地都建起来，还说不是备战S3？",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ],
+                  [
+                    40,
+                    2
+                  ],
+                  [
+                    388,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1008,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7352722296810785854",
+          "search_result_id": "7352722296810785854",
+          "search_high_light": {
+            "abstract": {
+              "text": "...，从手机产业推动华夏科技的进步。 鹰酱：为什么我还没开始制裁他就能生产出光刻机了？ 大米：我感觉我活在陈尘的影子里？法务部出击！ 水果：割韭菜陈尘比我专业 华威：他说的那句遥遥领先为什么我这么熟悉？ 膏通：制裁！马上制裁！不然我得芯片就再也卖不出去了。 库克:什么，红星有新电池？买买买！ 红星有新屏幕？买买买！ 红星研发出了折叠屏？买买买！ 什么？国会要制裁红星？我不同意！这是在制裁我们水果！没了红星我们水果公司只能是二流公司！ 什么？红星不卖了？那完了，水果要倒闭了。",
+              "rich_text": "下面有请全面屏手机的开拓者，极速闪充的缔造者，水果手机的掘墓者，国产芯片的引领者，全球最大的手机厂商红星集团的话事者--陈尘！\n陈尘重生回到2011年接手一家手机公司，针对大米，背刺苹果，面对美国的制裁丝毫不慌反手就将美国制裁，从手机产业推动华夏<em>科技</em>的进步。\n鹰酱：为什么我还没开始制裁他就能生产出光刻机了？\n大米：我感觉我活在陈尘的影子里？法务部出击！\n水果：割韭菜陈尘比我专业\n华威：他说的那句遥遥领先为什么我这么熟悉？\n膏通：制裁！马上制裁！不然我得芯片就再也卖不出去了。\n库克:什么，红星有新电池？买买买！\n红星有新屏幕？买买买！\n红星研发出了折叠屏？买买买！\n什么？国会要制裁红星？我不同意！这是在制裁我们水果！没了红星我们水果公司只能是二流公司！\n什么？红星不卖了？那完了，水果要倒闭了。",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "山寨机？我反手发布全面屏手机！",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "下面有请全面屏手机的开拓者，极速闪充的缔造者，水果手机的掘墓者，国产芯片的引领者，全球最大的手机厂商红星集团的话事者--陈尘！\n陈尘重生回到2011年接手一家手机公司，针对大米，背刺苹果，面对美国的制裁丝毫不慌反手就将美国制裁，从手机产业推动华夏科技的进步。\n鹰酱：为什么我还没开始制裁他就能生产出光刻机了？\n大米：我感觉我活在陈尘的影子里？法务部出击！\n水果：割韭菜陈尘比我专业\n华威：他说的那句遥遥领先为什么我这么熟悉？\n膏通：制裁！马上制裁！不然我得芯片就再也卖不出去了。\n库克:什么，红星有新电池？买买买！\n红星有新屏幕？买买买！\n红星研发出了折叠屏？买买买！\n什么？国会要制裁红星？我不同意！这是在制裁我们水果！没了红星我们水果公司只能是二流公司！\n什么？红星不卖了？那完了，水果要倒闭了。",
+              "author": "尹阳君",
+              "book_id": "7352722296810785854",
+              "book_name": "山寨机？我反手发布全面屏手机！",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-04-01T10:37:45+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7352722510506361406",
+              "first_chapter_item_id": "7352722510506361406",
+              "first_chapter_title": "第1章 开局就要卖公司总部？",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7611053232793584190",
+              "last_chapter_item_id": "7611053232793584190",
+              "last_chapter_title": "番外 看好了星仔",
+              "last_chapter_update_time": "1772086677",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "71315",
+              "recommend_group_id": "7352722296810785854",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817024882A01B408D3961E68E9D\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "1583",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9223ef659b771010b9722c974475f3ab~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=2APeBecqibg9yBK%2BCVByHDXDcdE%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "3221623",
+              "score": "8.9",
+              "exclusive": "1",
+              "role": "陈尘,赵天雷",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7486483011895053337]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "22163",
+              "sub_info": "7.2万人在读",
+              "last_publish_time": "1772086687",
+              "authorize_type": "1",
+              "media_id": "1755437156553742",
+              "original_book_name": "黑科技：谁让他这么造手机的",
+              "length_type": "0",
+              "op_tag": "889,857,888,531,1164,1403,1030,1167,871,245,873,535,536,1035",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/9223ef659b771010b9722c974475f3ab",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/64ff2360c8faee84be643ec86e05b058",
+              "data_rate": "",
+              "all_bookshelf_count": "5350",
+              "pure_category_tags": "都市脑洞,黑科技",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#103060",
+              "read_count_all": "2684843",
+              "shelf_cnt_history": "367110",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"510893\":1711939547,\"8661\":1711950045,\"8703\":1744947917,\"1128\":1711939547,\"596084\":1715070876,\"6589\":1711950045,\"507386\":1741790790,\"35\":1711939547,\"2329\":1711939547,\"2503\":1711939547,\"8662\":1711939547,\"1967\":1711939547,\"8704\":1747152074,\"3040\":1711950045,\"13\":1711939547,\"638505\":1724774482,\"507427\":1741790790}",
+              "category_v2_map": {
+                "262": true,
+                "1": true,
+                "37": true,
+                "854": true,
+                "19": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9223ef659b771010b9722c974475f3ab~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=2APeBecqibg9yBK%2BCVByHDXDcdE%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7352722297444111678,
+                  "AuthorName": "尹阳君"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "我，手机教父",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/64ff2360c8faee84be643ec86e05b058~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008569&x-signature=nxrvWYb%2BNPAyKTb0Iqn4AfovH1Q%3D",
+              "reputation_thumb_uri": "novel-pic-r/4cb12009adb81085768a1af18d0aa8cf",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "下面有请全面屏手机的开拓者，极速闪充的缔造者，水果手机的掘墓者，国产芯片的引领者，全球最大的手机厂商红星集团的话事者--陈尘！\n陈尘重生回到2011年接手一家手机公司，针对大米，背刺苹果，面对美国的制裁丝毫不慌反手就将美国制裁，从手机产业推动华夏科技的进步。\n鹰酱：为什么我还没开始制裁他就能生产出光刻机了？\n大米：我感觉我活在陈尘的影子里？法务部出击！\n水果：割韭菜陈尘比我专业\n华威：他说的那句遥遥领先为什么我这么熟悉？\n膏通：制裁！马上制裁！不然我得芯片就再也卖不出去了。\n库克:什么，红星有新电池？买买买！\n红星有新屏幕？买买买！\n红星研发出了折叠屏？买买买！\n什么？国会要制裁红星？我不同意！这是在制裁我们水果！没了红星我们水果公司只能是二流公司！\n什么？红星不卖了？那完了，水果要倒闭了。",
+              "read_page_progress": "0",
+              "read_cnt_text": "7.2万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9223ef659b771010b9722c974475f3ab~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=XxZbwHcKtUw9sqR3B7AWQeFvJ%2Bw%3D",
+              "raw_book_name": "山寨机？我反手发布全面屏手机！",
+              "related_bookids": "{\"1967\":{\"203\":[7602175880068074520],\"261\":[7602203967442914366]},\"507386\":{\"203\":[7602175880068074520],\"261\":[7602203967442914366]},\"507427\":{\"261\":[7602203967442914366],\"203\":[7602175880068074520]},\"8662\":{\"203\":[7602175880068074520],\"261\":[7602203967442914366]},\"3040\":{\"203\":[7602175880068074520],\"261\":[7602203967442914366]}}",
+              "color_audio_dominate": "#252329"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:8:0:1760861470:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "多人二刷",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "322.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "7万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：尹阳君",
+                "rich_text": "作者：尹阳君",
+                "high_light_position": []
+              },
+              {
+                "text": "...，从手机产业推动华夏科技的进步。 鹰酱：为什么我还没开始制裁他就能生产出光刻机了？ 大米：我感觉我活在陈尘的影子里？法务部出击！ 水果：割韭菜陈尘比我专业 华威：他说的那句遥遥领先为什么我这么熟悉？ 膏通：制裁！马上制裁！不然我得芯片就再也卖不出去了。 库克:什么，红星有新电池？买买买！ 红星有新屏幕？买买买！ 红星研发出了折叠屏？买买买！ 什么？国会要制裁红星？我不同意！这是在制裁我们水果！没了红星我们水果公司只能是二流公司！ 什么？红星不卖了？那完了，水果要倒闭了。",
+                "rich_text": "下面有请全面屏手机的开拓者，极速闪充的缔造者，水果手机的掘墓者，国产芯片的引领者，全球最大的手机厂商红星集团的话事者--陈尘！\n陈尘重生回到2011年接手一家手机公司，针对大米，背刺苹果，面对美国的制裁丝毫不慌反手就将美国制裁，从手机产业推动华夏<em>科技</em>的进步。\n鹰酱：为什么我还没开始制裁他就能生产出光刻机了？\n大米：我感觉我活在陈尘的影子里？法务部出击！\n水果：割韭菜陈尘比我专业\n华威：他说的那句遥遥领先为什么我这么熟悉？\n膏通：制裁！马上制裁！不然我得芯片就再也卖不出去了。\n库克:什么，红星有新电池？买买买！\n红星有新屏幕？买买买！\n红星研发出了折叠屏？买买买！\n什么？国会要制裁红星？我不同意！这是在制裁我们水果！没了红星我们水果公司只能是二流公司！\n什么？红星不卖了？那完了，水果要倒闭了。",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1009,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7267879841288948792",
+          "search_result_id": "7267879841288948792",
+          "search_high_light": {
+            "abstract": {
+              "text": "【高考资格被取消，取消也罢，我直接向国家上交第六代战机图纸】...纸！ 　　再考上国家科技大学，还能获得可控核聚变技术！ 　　徐浩：“如今高考资格被取消，取消也罢，我直接向国家上交第六代战机图纸！” 　　随着图纸曝光，科学界直接震惊了！ 　　一个高三的学生，竟然研发出了第六代战斗机！ 　　更让科学界震惊的是，这样的天才，学校却因为那可笑的升学率，把他高考资格取消了。 　　顿时间，社会各界压力向学校铺面而来。 　　一时间，徐浩的班主任懵了，校长也懵了......",
+              "rich_text": "高考前夕，徐浩突然被班主任通知，因为他的成绩太差，高考资格被取消了。\n　　听到这个消息，徐浩愣住了。\n　　他们却不知道自己激活了系统，只要次次考试垫底，就可以获得第六代战机的研发图纸！\n　　再考上国家<em>科技</em>大学，还能获得可控核聚变<em>技</em>术！\n　　徐浩：“如今高考资格被取消，取消也罢，我直接向国家上交第六代战机图纸！”\n　　随着图纸曝光，<em>科</em>学界直接震惊了！\n　　一个高三的学生，竟然研发出了第六代战斗机！\n　　更让<em>科</em>学界震惊的是，这样的天才，学校却因为那可笑的升学率，把他高考资格取消了。\n　　顿时间，社会各界压力向学校铺面而来。\n　　一时间，徐浩的班主任懵了，校长也懵了......",
+              "high_light_position": [
+                [
+                  43,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "开局就造核聚变，你管这叫倒一",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "高考前夕，徐浩突然被班主任通知，因为他的成绩太差，高考资格被取消了。\n　　听到这个消息，徐浩愣住了。\n　　他们却不知道自己激活了系统，只要次次考试垫底，就可以获得第六代战机的研发图纸！\n　　再考上国家科技大学，还能获得可控核聚变技术！\n　　徐浩：“如今高考资格被取消，取消也罢，我直接向国家上交第六代战机图纸！”\n　　随着图纸曝光，科学界直接震惊了！\n　　一个高三的学生，竟然研发出了第六代战斗机！\n　　更让科学界震惊的是，这样的天才，学校却因为那可笑的升学率，把他高考资格取消了。\n　　顿时间，社会各界压力向学校铺面而来。\n　　一时间，徐浩的班主任懵了，校长也懵了......",
+              "author": "川昊明",
+              "book_id": "7267879841288948792",
+              "book_name": "开局就造核聚变，你管这叫倒一",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 酷匠小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-08-16T19:25:41+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7267879844774415397",
+              "first_chapter_item_id": "7267879844774415397",
+              "first_chapter_title": "第1章 开除学籍，取消高考资格！",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618418725472963646",
+              "last_chapter_item_id": "7618418725472963646",
+              "last_chapter_title": "第3464章 生存能力惊人",
+              "last_chapter_update_time": "1773801335",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "25371",
+              "recommend_group_id": "7267879841288948792",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817024882A01B408D3961E68E9D\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "3464",
+              "source": "酷匠小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/61f6112d77e81bf8e91db593bba78602~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=aIQQgeYkxAO1p9tix4PYGx9YvaM%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "7082825",
+              "score": "8.5",
+              "role": "徐浩,唐晓柔",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":90,\"name\":\"天才\",\"schema\":\"dragon1967://newCategoryDetail?id=90&name=天才&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"},{\"category_id\":496,\"name\":\"国运\",\"schema\":\"dragon1967://newCategoryDetail?id=496&name=国运&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7410338837525711934]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "7012",
+              "sub_info": "2.6万人在读",
+              "last_publish_time": "1773805130",
+              "authorize_type": "0",
+              "media_id": "1585551339039757",
+              "original_book_name": "取消我高考？研发六代战机震惊科学界！",
+              "length_type": "0",
+              "op_tag": "531,855,500,537,535,888,873,245,966,1167,1165",
+              "keep_publish_days": "15",
+              "thumb_uri": "novel-pic/61f6112d77e81bf8e91db593bba78602",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/d3b9ad55e4a7f15f3a3746b22e66bc63",
+              "data_rate": "",
+              "all_bookshelf_count": "3043",
+              "pure_category_tags": "都市脑洞,国运",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#103060",
+              "read_count_all": "2705869",
+              "shelf_cnt_history": "421917",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"35\":1692188491,\"1319\":1692188491,\"1128\":1692188491,\"1112\":1693466432,\"8662\":1692188491,\"2503\":1692188491,\"8661\":1692188491,\"507427\":1741790123,\"638505\":1724935796,\"1967\":1692188491,\"2329\":1692188491,\"596084\":1723462474,\"3040\":1692188491,\"13\":1692188491,\"6589\":1692188491,\"507386\":1741790123,\"510893\":1692188491,\"8703\":1745912441}",
+              "category_v2_map": {
+                "496": true,
+                "262": true,
+                "1": true,
+                "90": true,
+                "854": true,
+                "19": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/61f6112d77e81bf8e91db593bba78602~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=aIQQgeYkxAO1p9tix4PYGx9YvaM%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7172594856756253959,
+                  "AuthorName": "川昊明"
+                }
+              ],
+              "platform_book_id": "89977",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/d3b9ad55e4a7f15f3a3746b22e66bc63~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008569&x-signature=8Q7Sd2bpQXb7UdQaa3V0S7EQJnc%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "tts_type": "",
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "\"\"",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "高考前夕，徐浩突然被班主任通知，因为他的成绩太差，高考资格被取消了。\n　　听到这个消息，徐浩愣住了。\n　　他们却不知道自己激活了系统，只要次次考试垫底，就可以获得第六代战机的研发图纸！\n　　再考上国家科技大学，还能获得可控核聚变技术！\n　　徐浩：“如今高考资格被取消，取消也罢，我直接向国家上交第六代战机图纸！”\n　　随着图纸曝光，科学界直接震惊了！\n　　一个高三的学生，竟然研发出了第六代战斗机！\n　　更让科学界震惊的是，这样的天才，学校却因为那可笑的升学率，把他高考资格取消了。\n　　顿时间，社会各界压力向学校铺面而来。\n　　一时间，徐浩的班主任懵了，校长也懵了......",
+              "read_page_progress": "0",
+              "read_cnt_text": "2.6万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/61f6112d77e81bf8e91db593bba78602~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008569&x-signature=A4bqKB9VzZIOPecV%2BsuDhG7Pxfg%3D",
+              "raw_book_name": "开局就造核聚变，你管这叫倒一",
+              "color_audio_dominate": "#252121"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:9:0:1754607889:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "708.3万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：川昊明",
+                "rich_text": "作者：川昊明",
+                "high_light_position": []
+              },
+              {
+                "text": "【高考资格被取消，取消也罢，我直接向国家上交第六代战机图纸】...纸！ 　　再考上国家科技大学，还能获得可控核聚变技术！ 　　徐浩：“如今高考资格被取消，取消也罢，我直接向国家上交第六代战机图纸！” 　　随着图纸曝光，科学界直接震惊了！ 　　一个高三的学生，竟然研发出了第六代战斗机！ 　　更让科学界震惊的是，这样的天才，学校却因为那可笑的升学率，把他高考资格取消了。 　　顿时间，社会各界压力向学校铺面而来。 　　一时间，徐浩的班主任懵了，校长也懵了......",
+                "rich_text": "高考前夕，徐浩突然被班主任通知，因为他的成绩太差，高考资格被取消了。\n　　听到这个消息，徐浩愣住了。\n　　他们却不知道自己激活了系统，只要次次考试垫底，就可以获得第六代战机的研发图纸！\n　　再考上国家<em>科技</em>大学，还能获得可控核聚变<em>技</em>术！\n　　徐浩：“如今高考资格被取消，取消也罢，我直接向国家上交第六代战机图纸！”\n　　随着图纸曝光，<em>科</em>学界直接震惊了！\n　　一个高三的学生，竟然研发出了第六代战斗机！\n　　更让<em>科</em>学界震惊的是，这样的天才，学校却因为那可笑的升学率，把他高考资格取消了。\n　　顿时间，社会各界压力向学校铺面而来。\n　　一时间，徐浩的班主任懵了，校长也懵了......",
+                "high_light_position": [
+                  [
+                    43,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "10",
+      "search_id": "clks####3@20260318170243EEE0829DE02219CFE489",
+      "query": "黑科技",
+      "next_offset": 10,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"2026031817024882A01B408D3961E68E9D\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "2026031817024882A01B408D3961E68E9D"
+}

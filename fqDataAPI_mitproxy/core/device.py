@@ -1,6 +1,7 @@
 """
 设备管理模块 - 处理 ADB 连接和设备检测
 """
+import os
 import subprocess
 import json
 from typing import Optional
@@ -50,8 +51,8 @@ class DeviceManager:
         Returns:
             是否成功
         """
-        target_serial = device_serial or self.serial
-        
+        target_serial = device_serial or self.serial or os.environ.get("ANDROID_SERIAL")
+
         # 如果未指定，自动检测
         if not target_serial:
             devices = self.get_adb_devices()

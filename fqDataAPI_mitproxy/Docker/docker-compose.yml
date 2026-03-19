@@ -17,7 +17,7 @@ services:
     image: mitmproxy/mitmproxy:10.2.4
     environment:
       # 仅记录这些主机的流量（逗号分隔）。
-      - MITM_CAPTURE_HOSTS=${MITM_CAPTURE_HOSTS:-api5-normal-sinfonlineb.fqnovel.com}
+      - MITM_CAPTURE_HOSTS=${MITM_CAPTURE_HOSTS:-sinfonlineb.fqnovel.com}
       # 诊断模式默认关闭，避免混入非业务事件。
       - MITM_DEBUG_EVENTS=${MITM_DEBUG_EVENTS:-0}
     command:

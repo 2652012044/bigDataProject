@@ -75,11 +75,12 @@ def export_and_extract_user_info(logger, author_name: str) -> bool:
     logger.info("✓ mitmproxy 导出完成: %s", export_path)
 
     entries = normalize_entries(export_json)
+    logger.info("导出条目总数: %d", len(entries))
     matched = [
         entry
         for entry in entries
         if isinstance(entry.get("path"), str)
-        and "/reading/user/basic_info/get/" in entry.get("path", "")
+        and "/reading/user/basic_info/get" in entry.get("path", "")
     ]
 
     logger.info("user/basic_info/get 命中条数: %d", len(matched))
@@ -136,7 +137,7 @@ def main(author_name: str) -> bool:
     try:
         logger.info("\n[3] 执行自动化操作...")
 
-        # 正式开始前再次清空抓包，确保只抓本次流量
+        # 清空抓包，确保只抓本次流量
         logger.info("--- 清空 mitmproxy（自动化开始前）---")
         if not clear_capture_session(logger, required=True):
             return False

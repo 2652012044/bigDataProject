@@ -1,0 +1,2580 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@202603181655472179D14C3CCB1EE7B603",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@202603181655472179D14C3CCB1EE7B603",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@202603181655472179D14C3CCB1EE7B603",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@202603181655472179D14C3CCB1EE7B603",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@202603181655472179D14C3CCB1EE7B603",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@202603181655472179D14C3CCB1EE7B603",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1070,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7610409923540700185",
+          "search_result_id": "7610409923540700185",
+          "search_high_light": {
+            "abstract": {
+              "text": "我叫“刘离”。 从小就有个外号“颠沛流离”。 六年级时父母离婚，我从此过上“踢皮球“似的生活。 高中时被人欺负，被子上挤辣酱，床上泼尿的生活屡出不穷。 大学后本以为可以平稳地度过一生，可事与愿违在大三时，碰到了我一生都不想看见的人……。 注（以上内容纯属虚构，请勿当真）！！！",
+              "rich_text": "我叫“刘离”。\n从小就有个外号“颠沛流离”。\n六年级时父母离婚，我从此过上“踢皮球“似的生活。\n高中时被人欺负，被子上挤辣酱，床上泼尿的生活屡出不穷。\n大学后本以为可以平稳地度过一生，可事与愿违在大三时，碰到了我一生<em>都</em>不想看见的人……。\n注（以上内容纯属虚构，请勿当真）！！！",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "枭雄江湖路",
+              "rich_text": "枭雄<em>江湖</em>路",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "我叫“刘离”。\n从小就有个外号“颠沛流离”。\n六年级时父母离婚，我从此过上“踢皮球“似的生活。\n高中时被人欺负，被子上挤辣酱，床上泼尿的生活屡出不穷。\n大学后本以为可以平稳地度过一生，可事与愿违在大三时，碰到了我一生都不想看见的人……。\n注（以上内容纯属虚构，请勿当真）！！！",
+              "author": "只皮",
+              "book_id": "7610409923540700185",
+              "book_name": "枭雄江湖路",
+              "category": "都市日常",
+              "copyright_info": "版权信息：本书的数字版权由 只皮 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-24T20:37:21+08:00",
+              "creation_status": "4",
+              "first_chapter_group_id": "7610581363300778521",
+              "first_chapter_item_id": "7610581363300778521",
+              "first_chapter_title": "第1章 颠沛流离",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7610740393809805849",
+              "last_chapter_item_id": "7610740393809805849",
+              "last_chapter_title": "第2章 “三个王八”",
+              "last_chapter_update_time": "1772326034",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "1",
+              "recommend_group_id": "7610409923540700185",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260318165731F81474D666161BED0475\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "2",
+              "source": "只皮",
+              "tags": "都市日常",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a80e3baeca5713012a6bdff8d0342f30~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=yQG2IhRiqxr%2FgPuIYMoieqEa8HQ%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "4539",
+              "score": "0",
+              "role": "刘离",
+              "category_schema": "[{\"category_id\":261,\"name\":\"都市日常\",\"schema\":\"dragon1967://newCategoryDetail?id=261&name=都市日常&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1772326043",
+              "authorize_type": "0",
+              "media_id": "1824645455185929",
+              "original_book_name": "枭雄江湖路",
+              "length_type": "0",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/a80e3baeca5713012a6bdff8d0342f30",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a80e3baeca5713012a6bdff8d0342f30~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008251&x-signature=QDT80CLuJr1rO8o66xOO3LcGyR4%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市日常",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":100454}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#181820",
+              "read_count_all": "2",
+              "shelf_cnt_history": "965",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507427\":1772156858,\"13\":1772156813,\"2503\":1772156813,\"8662\":1772156813,\"1128\":1772156813,\"35\":1772156813,\"2329\":1772156813,\"510893\":1772156813,\"8704\":1772156813,\"1967\":1772156813,\"8703\":1772156813,\"507386\":1772156858}",
+              "category_v2_map": {
+                "261": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a80e3baeca5713012a6bdff8d0342f30~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=yQG2IhRiqxr%2FgPuIYMoieqEa8HQ%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7473830927643186456,
+                  "AuthorName": "只皮"
+                }
+              ],
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a80e3baeca5713012a6bdff8d0342f30~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008251&x-signature=Z3Vd8kh6KhUJYoghuWdoQwyqZVY%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "我叫“刘离”。\n从小就有个外号“颠沛流离”。\n六年级时父母离婚，我从此过上“踢皮球“似的生活。\n高中时被人欺负，被子上挤辣酱，床上泼尿的生活屡出不穷。\n大学后本以为可以平稳地度过一生，可事与愿违在大三时，碰到了我一生都不想看见的人……。\n注（以上内容纯属虚构，请勿当真）！！！",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a80e3baeca5713012a6bdff8d0342f30~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=92DoPJdqpcPKOFlIaaItDqaBwnU%3D",
+              "raw_book_name": "枭雄江湖路"
+            }
+          ],
+          "search_attached_info": "16613152020787311021:70:0:4126449754:clks####3@202603181655472179D14C3CCB1EE7B603",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "断更",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "4539字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市日常",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：只皮",
+                "rich_text": "作者：只皮",
+                "high_light_position": []
+              },
+              {
+                "text": "我叫“刘离”。 从小就有个外号“颠沛流离”。 六年级时父母离婚，我从此过上“踢皮球“似的生活。 高中时被人欺负，被子上挤辣酱，床上泼尿的生活屡出不穷。 大学后本以为可以平稳地度过一生，可事与愿违在大三时，碰到了我一生都不想看见的人……。 注（以上内容纯属虚构，请勿当真）！！！",
+                "rich_text": "我叫“刘离”。\n从小就有个外号“颠沛流离”。\n六年级时父母离婚，我从此过上“踢皮球“似的生活。\n高中时被人欺负，被子上挤辣酱，床上泼尿的生活屡出不穷。\n大学后本以为可以平稳地度过一生，可事与愿违在大三时，碰到了我一生<em>都</em>不想看见的人……。\n注（以上内容纯属虚构，请勿当真）！！！",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1071,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7608586383858338841",
+          "search_result_id": "7608586383858338841",
+          "search_high_light": {
+            "abstract": {
+              "text": "...城少年，初中辍学踏入江湖，以为拳头能闯天下，一朝赌球负债百万，众叛亲离，跌入谷底。 孤身闯澳门，在纸醉金迷的赌场里见过人性恶，也见过生死局，九死一生才爬出深渊。 他赚过泼天富贵，却看透了金钱与欲望的虚无。 散尽千金做公益，一身戾气归尘土，回到白山黑水间，和兄弟洗手上岸，做最踏实的正当生意。 从黑道混子到赌徒，从澳门枭雄到归乡善人，这一路，是地狱归来的救赎。 （警示：赌博毁家，黑道无路，正道才是归途）",
+              "rich_text": "东北小城少年，初中辍学踏入<em>江湖</em>，以为拳头能闯天下，一朝赌球负债百万，众叛亲离，跌入谷底。\n孤身闯澳门，在纸醉金迷的赌场里见过人性恶，也见过生死局，九死一生才爬出深渊。\n他赚过泼天富贵，却看透了金钱与欲望的虚无。\n散尽千金做公益，一身戾气归尘土，回到白山黑水间，和兄弟洗手上岸，做最踏实的正当生意。\n从黑道混子到赌徒，从澳门枭雄到归乡善人，这一路，是地狱归来的救赎。\n（警示：赌博毁家，黑道无路，正道才是归途）",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "澳城浪子：我从深渊归乡",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "东北小城少年，初中辍学踏入江湖，以为拳头能闯天下，一朝赌球负债百万，众叛亲离，跌入谷底。\n孤身闯澳门，在纸醉金迷的赌场里见过人性恶，也见过生死局，九死一生才爬出深渊。\n他赚过泼天富贵，却看透了金钱与欲望的虚无。\n散尽千金做公益，一身戾气归尘土，回到白山黑水间，和兄弟洗手上岸，做最踏实的正当生意。\n从黑道混子到赌徒，从澳门枭雄到归乡善人，这一路，是地狱归来的救赎。\n（警示：赌博毁家，黑道无路，正道才是归途）",
+              "author": "寂寞沙周",
+              "book_id": "7608586383858338841",
+              "book_name": "澳城浪子：我从深渊归乡",
+              "category": "都市日常",
+              "copyright_info": "版权信息：本书的数字版权由 寂寞沙周 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-19T22:41:05+08:00",
+              "creation_status": "4",
+              "first_chapter_group_id": "7608586425830752793",
+              "first_chapter_item_id": "7608586425830752793",
+              "first_chapter_title": "第1章 辍学的东北少年",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7608600894321459737",
+              "last_chapter_item_id": "7608600894321459737",
+              "last_chapter_title": "第6章 纸醉金迷，初心不改",
+              "last_chapter_update_time": "1771515543",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "1",
+              "recommend_group_id": "7608586383858338841",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260318165731F81474D666161BED0475\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "5",
+              "source": "寂寞沙周",
+              "tags": "都市日常,反派",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0876d3e9b8c8dcbea9a30f2a8ab09c92~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=Eq%2B9Hkg%2FHLyQVhKzSdT6uDArd3c%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "6914",
+              "score": "0",
+              "role": "陈峰",
+              "category_schema": "[{\"category_id\":261,\"name\":\"都市日常\",\"schema\":\"dragon1967://newCategoryDetail?id=261&name=都市日常&genre_type=0&gender=2&source=detail\"},{\"category_id\":369,\"name\":\"反派\",\"schema\":\"dragon1967://newCategoryDetail?id=369&name=反派&genre_type=0&gender=2&source=detail\"},{\"category_id\":871,\"name\":\"第一人称\",\"schema\":\"dragon1967://newCategoryDetail?id=871&name=第一人称&genre_type=0&gender=2&source=detail\"},{\"category_id\":837,\"name\":\"争霸\",\"schema\":\"dragon1967://newCategoryDetail?id=837&name=争霸&genre_type=0&gender=2&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "2",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1771515553",
+              "authorize_type": "0",
+              "media_id": "1857367389366283",
+              "original_book_name": "澳城浪子：我从深渊归乡",
+              "length_type": "0",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/0876d3e9b8c8dcbea9a30f2a8ab09c92",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0876d3e9b8c8dcbea9a30f2a8ab09c92~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008251&x-signature=W2epbUR0zXsl0sVWR8PuzQE61is%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市日常,争霸",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":100454}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e0e0e0",
+              "read_count_all": "1",
+              "shelf_cnt_history": "1033",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1128\":1771512580,\"8704\":1771512580,\"2503\":1771512580,\"2329\":1771512580,\"510893\":1771512580,\"507427\":1771512632,\"507386\":1771512632,\"35\":1771512580,\"1967\":1771512580,\"8662\":1771512580,\"13\":1771512580,\"8703\":1771512580}",
+              "category_v2_map": {
+                "369": true,
+                "837": true,
+                "261": true,
+                "871": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0876d3e9b8c8dcbea9a30f2a8ab09c92~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=Eq%2B9Hkg%2FHLyQVhKzSdT6uDArd3c%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7607777301803062553,
+                  "AuthorName": "寂寞沙周"
+                }
+              ],
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0876d3e9b8c8dcbea9a30f2a8ab09c92~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008251&x-signature=k7YsrBe%2FWpd3aUUzXtlDN4kY%2Bw4%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "东北小城少年，初中辍学踏入江湖，以为拳头能闯天下，一朝赌球负债百万，众叛亲离，跌入谷底。\n孤身闯澳门，在纸醉金迷的赌场里见过人性恶，也见过生死局，九死一生才爬出深渊。\n他赚过泼天富贵，却看透了金钱与欲望的虚无。\n散尽千金做公益，一身戾气归尘土，回到白山黑水间，和兄弟洗手上岸，做最踏实的正当生意。\n从黑道混子到赌徒，从澳门枭雄到归乡善人，这一路，是地狱归来的救赎。\n（警示：赌博毁家，黑道无路，正道才是归途）",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0876d3e9b8c8dcbea9a30f2a8ab09c92~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=ketewsUG9Q%2BuAWfTV7zweFamP0o%3D",
+              "raw_book_name": "澳城浪子：我从深渊归乡"
+            }
+          ],
+          "search_attached_info": "16613152020787311021:71:0:3816873992:clks####3@202603181655472179D14C3CCB1EE7B603",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "断更",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "6914字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市日常",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：寂寞沙周",
+                "rich_text": "作者：寂寞沙周",
+                "high_light_position": []
+              },
+              {
+                "text": "...城少年，初中辍学踏入江湖，以为拳头能闯天下，一朝赌球负债百万，众叛亲离，跌入谷底。 孤身闯澳门，在纸醉金迷的赌场里见过人性恶，也见过生死局，九死一生才爬出深渊。 他赚过泼天富贵，却看透了金钱与欲望的虚无。 散尽千金做公益，一身戾气归尘土，回到白山黑水间，和兄弟洗手上岸，做最踏实的正当生意。 从黑道混子到赌徒，从澳门枭雄到归乡善人，这一路，是地狱归来的救赎。 （警示：赌博毁家，黑道无路，正道才是归途）",
+                "rich_text": "东北小城少年，初中辍学踏入<em>江湖</em>，以为拳头能闯天下，一朝赌球负债百万，众叛亲离，跌入谷底。\n孤身闯澳门，在纸醉金迷的赌场里见过人性恶，也见过生死局，九死一生才爬出深渊。\n他赚过泼天富贵，却看透了金钱与欲望的虚无。\n散尽千金做公益，一身戾气归尘土，回到白山黑水间，和兄弟洗手上岸，做最踏实的正当生意。\n从黑道混子到赌徒，从澳门枭雄到归乡善人，这一路，是地狱归来的救赎。\n（警示：赌博毁家，黑道无路，正道才是归途）",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1072,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7589899522852015128",
+          "search_result_id": "7589899522852015128",
+          "search_high_light": {
+            "abstract": {
+              "text": "...秘势力盘根错节。  江湖上流传的武道再现，黑道不再是怕被打黑枪，更怕有天夜里有人提刀向天，一刀斩落首级。  姜超本是名普普通通刚高中毕业的男生，和自己的爷爷奶奶相依为命，靠着小姨接济才艰难生活。  卷入黑道，改变了他的人生。  且看一位懵懂少年是然后成长为一带枭雄，看淡风云，浪迹胭粉。  一身江湖气，满口女人香！  ［开篇不够刺激是因为要描写主角的成长史，所以不能上猛料］",
+              "rich_text": "<em>江</em>北，黑道作为一个隐秘势力盘根错节。\n\n<em>江湖</em>上流传的武道再现，黑道不再是怕被打黑枪，更怕有天夜里有人提刀向天，一刀斩落首级。\n\n姜超本是名普普通通刚高中毕业的男生，和自己的爷爷奶奶相依为命，靠着小姨接济才艰难生活。\n\n卷入黑道，改变了他的人生。\n\n且看一位懵懂少年是然后成长为一带枭雄，看淡风云，浪迹胭粉。\n\n一身<em>江湖</em>气，满口女人香！\n\n［开篇不够刺激是因为要描写主角的成长史，所以不能上猛料］",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  150,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "黑道：江湖浪子",
+              "rich_text": "黑道：<em>江湖</em>浪子",
+              "high_light_position": [
+                [
+                  3,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "江北，黑道作为一个隐秘势力盘根错节。\n\n江湖上流传的武道再现，黑道不再是怕被打黑枪，更怕有天夜里有人提刀向天，一刀斩落首级。\n\n姜超本是名普普通通刚高中毕业的男生，和自己的爷爷奶奶相依为命，靠着小姨接济才艰难生活。\n\n卷入黑道，改变了他的人生。\n\n且看一位懵懂少年是然后成长为一带枭雄，看淡风云，浪迹胭粉。\n\n一身江湖气，满口女人香！\n\n［开篇不够刺激是因为要描写主角的成长史，所以不能上猛料］",
+              "author": "飞天锦猪",
+              "book_id": "7589899522852015128",
+              "book_name": "黑道：江湖浪子",
+              "category": "都市日常",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-12-31T14:06:31+08:00",
+              "creation_status": "4",
+              "first_chapter_group_id": "7589899559661208088",
+              "first_chapter_item_id": "7589899559661208088",
+              "first_chapter_title": "第1章 小姨",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7590568580492558872",
+              "last_chapter_item_id": "7590568580492558872",
+              "last_chapter_title": "第9章 帮王二狗",
+              "last_chapter_update_time": "1767317138",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "0",
+              "recommend_group_id": "7589899522852015128",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260318165731F81474D666161BED0475\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "9",
+              "source": "番茄小说",
+              "tags": "都市日常,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of3f17718bd9d950d08994cbd2985ee35~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=TRAsP5Wn4KcMnGxvj%2FFxCpu0HeI%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "20067",
+              "score": "0",
+              "exclusive": "1",
+              "role": "姜超",
+              "category_schema": "[{\"category_id\":261,\"name\":\"都市日常\",\"schema\":\"dragon1967://newCategoryDetail?id=261&name=都市日常&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"},{\"category_id\":826,\"name\":\"黑道\",\"schema\":\"dragon1967://newCategoryDetail?id=826&name=黑道&genre_type=0&gender=1&source=detail\"},{\"category_id\":1460,\"name\":\"都市江湖\",\"schema\":\"dragon1967://newCategoryDetail?id=1460&name=都市江湖&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1767323027",
+              "authorize_type": "1",
+              "media_id": "1834063308432394",
+              "original_book_name": "黑道：江湖浪子",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2of3f17718bd9d950d08994cbd2985ee35",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of3f17718bd9d950d08994cbd2985ee35~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008251&x-signature=kcqNqDEk5LfS6j3hP3TlvrD3ANo%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市日常,都市江湖",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#282028",
+              "read_count_all": "15",
+              "shelf_cnt_history": "1005",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8703\":1767162110,\"596084\":1767345176,\"2503\":1767162110,\"2329\":1767162110,\"507386\":1767162155,\"13\":1767162110,\"3040\":1767345176,\"638505\":1767345176,\"8661\":1767345176,\"8662\":1767162110,\"1967\":1767162110,\"510893\":1767162110,\"507427\":1767162155,\"6589\":1767345176,\"8704\":1767162110,\"35\":1767162110,\"1128\":1767162110}",
+              "category_v2_map": {
+                "1460": true,
+                "261": true,
+                "1": true,
+                "522": true,
+                "826": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of3f17718bd9d950d08994cbd2985ee35~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=TRAsP5Wn4KcMnGxvj%2FFxCpu0HeI%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7512366208105059608,
+                  "AuthorName": "飞天锦猪"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of3f17718bd9d950d08994cbd2985ee35~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008251&x-signature=oYJ6PIIiNbjLkmbaEudiJtluTMM%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "江北，黑道作为一个隐秘势力盘根错节。\n\n江湖上流传的武道再现，黑道不再是怕被打黑枪，更怕有天夜里有人提刀向天，一刀斩落首级。\n\n姜超本是名普普通通刚高中毕业的男生，和自己的爷爷奶奶相依为命，靠着小姨接济才艰难生活。\n\n卷入黑道，改变了他的人生。\n\n且看一位懵懂少年是然后成长为一带枭雄，看淡风云，浪迹胭粉。\n\n一身江湖气，满口女人香！\n\n［开篇不够刺激是因为要描写主角的成长史，所以不能上猛料］",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2of3f17718bd9d950d08994cbd2985ee35~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=8IOiQZ7sxX7b%2FODr3ROBDQJSqoo%3D",
+              "raw_book_name": "黑道：江湖浪子",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "16613152020787311021:72:0:2448584898:clks####3@202603181655472179D14C3CCB1EE7B603",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "断更",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "2.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "都市日常",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：飞天锦猪",
+                "rich_text": "作者：飞天锦猪",
+                "high_light_position": []
+              },
+              {
+                "text": "...秘势力盘根错节。  江湖上流传的武道再现，黑道不再是怕被打黑枪，更怕有天夜里有人提刀向天，一刀斩落首级。  姜超本是名普普通通刚高中毕业的男生，和自己的爷爷奶奶相依为命，靠着小姨接济才艰难生活。  卷入黑道，改变了他的人生。  且看一位懵懂少年是然后成长为一带枭雄，看淡风云，浪迹胭粉。  一身江湖气，满口女人香！  ［开篇不够刺激是因为要描写主角的成长史，所以不能上猛料］",
+                "rich_text": "<em>江</em>北，黑道作为一个隐秘势力盘根错节。\n\n<em>江湖</em>上流传的武道再现，黑道不再是怕被打黑枪，更怕有天夜里有人提刀向天，一刀斩落首级。\n\n姜超本是名普普通通刚高中毕业的男生，和自己的爷爷奶奶相依为命，靠着小姨接济才艰难生活。\n\n卷入黑道，改变了他的人生。\n\n且看一位懵懂少年是然后成长为一带枭雄，看淡风云，浪迹胭粉。\n\n一身<em>江湖</em>气，满口女人香！\n\n［开篇不够刺激是因为要描写主角的成长史，所以不能上猛料］",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    150,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1073,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7515729646256655384",
+          "search_result_id": "7515729646256655384",
+          "search_high_light": {
+            "abstract": {
+              "text": "黑道三十年，真真假假，浮浮沉沉，根据主人公的相关经历进行改编，力求保证原汁原味，真实的黑道故事，持续更新中！真正的中国黑帮故事！不夸张，不科幻！",
+              "rich_text": "黑道三十年，真真假假，浮浮沉沉，根据主人公的相关经历进行改编，力求保证原汁原味，真实的黑道故事，持续更新中！真正的中国黑帮故事！不夸张，不科幻！",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "黑道往事：十年磨一剑",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "黑道三十年，真真假假，浮浮沉沉，根据主人公的相关经历进行改编，力求保证原汁原味，真实的黑道故事，持续更新中！真正的中国黑帮故事！不夸张，不科幻！",
+              "author": "吴剑华",
+              "book_id": "7515729646256655384",
+              "book_name": "黑道往事：十年磨一剑",
+              "category": "都市日常",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-06-14T17:09:31+08:00",
+              "creation_status": "4",
+              "first_chapter_group_id": "7516001571172254232",
+              "first_chapter_item_id": "7516001571172254232",
+              "first_chapter_title": "第1章 初入社会路",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7518957543754842648",
+              "last_chapter_item_id": "7518957543754842648",
+              "last_chapter_title": "第6章 春梅",
+              "last_chapter_update_time": "1750678284",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "0",
+              "recommend_group_id": "7515729646256655384",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260318165731F81474D666161BED0475\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "9",
+              "source": "番茄小说",
+              "tags": "都市日常,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3e76da5d8bceaa4a06c913d91e52f44e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=EtOB9a9v9tpZ2trRWw%2FOSaYfRH8%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "40257",
+              "score": "0",
+              "exclusive": "1",
+              "role": "陈华",
+              "category_schema": "[{\"category_id\":261,\"name\":\"都市日常\",\"schema\":\"dragon1967://newCategoryDetail?id=261&name=都市日常&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":826,\"name\":\"黑道\",\"schema\":\"dragon1967://newCategoryDetail?id=826&name=黑道&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1750678296",
+              "authorize_type": "1",
+              "media_id": "1834894929190921",
+              "original_book_name": "黑道往事：十年磨一剑",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2o3e76da5d8bceaa4a06c913d91e52f44e",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3e76da5d8bceaa4a06c913d91e52f44e~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008251&x-signature=KxEsiQ%2BqIUPNSKr%2Bhrypf8aMgYY%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市日常,黑道",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#d0b088",
+              "read_count_all": "5",
+              "shelf_cnt_history": "1004",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2329\":1749957919,\"1967\":1749957919,\"596084\":1750307759,\"8661\":1750307759,\"8662\":1749957919,\"2503\":1749957919,\"8703\":1749957919,\"1128\":1749957919,\"13\":1749957919,\"6589\":1750307759,\"8704\":1749957919,\"35\":1749957919,\"507386\":1749957981,\"507427\":1749957981,\"3040\":1750307759,\"638505\":1750307759,\"510893\":1749957919}",
+              "category_v2_map": {
+                "1": true,
+                "826": true,
+                "261": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3e76da5d8bceaa4a06c913d91e52f44e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=EtOB9a9v9tpZ2trRWw%2FOSaYfRH8%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7515729647548519704,
+                  "AuthorName": "吴剑华"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3e76da5d8bceaa4a06c913d91e52f44e~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008251&x-signature=4qc2epd0lcUeapZ0qNjAscm%2Fnd0%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "黑道三十年，真真假假，浮浮沉沉，根据主人公的相关经历进行改编，力求保证原汁原味，真实的黑道故事，持续更新中！真正的中国黑帮故事！不夸张，不科幻！",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3e76da5d8bceaa4a06c913d91e52f44e~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=3ss8oRHhJpcLNfJOBB4v2dN66iQ%3D",
+              "raw_book_name": "黑道往事：十年磨一剑",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "16613152020787311021:73:0:1058627315:clks####3@202603181655472179D14C3CCB1EE7B603",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "断更",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "4.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "都市日常",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：吴剑华",
+                "rich_text": "作者：吴剑华",
+                "high_light_position": []
+              },
+              {
+                "text": "黑道三十年，真真假假，浮浮沉沉，根据主人公的相关经历进行改编，力求保证原汁原味，真实的黑道故事，持续更新中！真正的中国黑帮故事！不夸张，不科幻！",
+                "rich_text": "黑道三十年，真真假假，浮浮沉沉，根据主人公的相关经历进行改编，力求保证原汁原味，真实的黑道故事，持续更新中！真正的中国黑帮故事！不夸张，不科幻！",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1074,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7611731047272680472",
+          "search_result_id": "7611731047272680472",
+          "search_high_light": {
+            "abstract": {
+              "text": "风格：校园起步 + 热血兄弟 + 街头厮杀 + 地下争霸 + 城市教父 + 跨省格局 + 最终隐退 主线：被欺学生 → 校园一哥 → 街头霸主 → 城区大佬 → 市级地下皇帝 → 省级教父 → 传奇隐退",
+              "rich_text": "风格：校园起步 + 热血兄弟 + 街头厮杀 + 地下争霸 + 城<em>市</em>教父 + 跨省格局 + 最终隐退\n主线：被欺学生 → 校园一哥 → 街头霸主 → 城区大佬 → <em>市</em>级地下皇帝 → 省级教父 → 传奇隐退",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "黑道从街头少年到地下教父",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "风格：校园起步 + 热血兄弟 + 街头厮杀 + 地下争霸 + 城市教父 + 跨省格局 + 最终隐退\n主线：被欺学生 → 校园一哥 → 街头霸主 → 城区大佬 → 市级地下皇帝 → 省级教父 → 传奇隐退",
+              "author": "城丹阁的邱玲珑",
+              "book_id": "7611731047272680472",
+              "book_name": "黑道从街头少年到地下教父",
+              "category": "都市日常",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-28T10:03:59+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7611731160334352920",
+              "first_chapter_item_id": "7611731160334352920",
+              "first_chapter_title": "第1章 这世道，不狠就死",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7612961045153333784",
+              "last_chapter_item_id": "7612961045153333784",
+              "last_chapter_title": "第154章 三省暗流，八方拜帖",
+              "last_chapter_update_time": "1772530686",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "564",
+              "recommend_group_id": "7611731047272680472",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260318165731F81474D666161BED0475\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "154",
+              "source": "番茄小说",
+              "tags": "都市日常,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6ce8757f4bb004eeb64e8faf95e8590e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=jcWHioLTK5EhMrkN7NE5RLzQ4eg%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "328258",
+              "score": "0",
+              "exclusive": "1",
+              "role": "林野",
+              "category_schema": "[{\"category_id\":261,\"name\":\"都市日常\",\"schema\":\"dragon1967://newCategoryDetail?id=261&name=都市日常&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":826,\"name\":\"黑道\",\"schema\":\"dragon1967://newCategoryDetail?id=826&name=黑道&genre_type=0&gender=1&source=detail\"},{\"category_id\":871,\"name\":\"第一人称\",\"schema\":\"dragon1967://newCategoryDetail?id=871&name=第一人称&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"},{\"category_id\":837,\"name\":\"争霸\",\"schema\":\"dragon1967://newCategoryDetail?id=837&name=争霸&genre_type=0&gender=1&source=detail\"},{\"category_id\":520,\"name\":\"大佬\",\"schema\":\"dragon1967://newCategoryDetail?id=520&name=大佬&genre_type=0&gender=1&source=detail\"},{\"category_id\":1460,\"name\":\"都市江湖\",\"schema\":\"dragon1967://newCategoryDetail?id=1460&name=都市江湖&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "112",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1772812995",
+              "authorize_type": "1",
+              "media_id": "1783339726386188",
+              "original_book_name": "黑道从街头少年到地下教父",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/6ce8757f4bb004eeb64e8faf95e8590e",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6ce8757f4bb004eeb64e8faf95e8590e~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008251&x-signature=zuj9J5i%2Bpjdh2eCjBIGGlXf%2BVSU%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市日常,都市江湖",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#202020",
+              "read_count_all": "602",
+              "shelf_cnt_history": "1049",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8661\":1772253669,\"596084\":1772253669,\"638505\":1772253669,\"8704\":1772245508,\"510893\":1772245508,\"507427\":1772245568,\"8703\":1772245508,\"1128\":1772245508,\"35\":1772245508,\"8662\":1772245508,\"2329\":1772245508,\"507386\":1772245568,\"3040\":1772253669,\"6589\":1772253669,\"2503\":1772245508,\"13\":1772245508,\"1967\":1772245508}",
+              "category_v2_map": {
+                "261": true,
+                "1": true,
+                "826": true,
+                "871": true,
+                "837": true,
+                "520": true,
+                "1460": true,
+                "522": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6ce8757f4bb004eeb64e8faf95e8590e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=jcWHioLTK5EhMrkN7NE5RLzQ4eg%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7611367856059454744,
+                  "AuthorName": "城丹阁的邱玲珑"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6ce8757f4bb004eeb64e8faf95e8590e~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008251&x-signature=rIxMSP35mYyoIiDpF%2BK6xjWwp5I%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "风格：校园起步 + 热血兄弟 + 街头厮杀 + 地下争霸 + 城市教父 + 跨省格局 + 最终隐退\n主线：被欺学生 → 校园一哥 → 街头霸主 → 城区大佬 → 市级地下皇帝 → 省级教父 → 传奇隐退",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/6ce8757f4bb004eeb64e8faf95e8590e~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=3qKciGwJwbTRrVcA%2FEgfMsUgiyo%3D",
+              "raw_book_name": "黑道从街头少年到地下教父",
+              "quality_rate": "20"
+            }
+          ],
+          "search_attached_info": "16613152020787311021:74:0:1861514955:clks####3@202603181655472179D14C3CCB1EE7B603",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "32.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "564人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市日常",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：城丹阁的邱玲珑",
+                "rich_text": "作者：城丹阁的邱玲珑",
+                "high_light_position": []
+              },
+              {
+                "text": "风格：校园起步 + 热血兄弟 + 街头厮杀 + 地下争霸 + 城市教父 + 跨省格局 + 最终隐退 主线：被欺学生 → 校园一哥 → 街头霸主 → 城区大佬 → 市级地下皇帝 → 省级教父 → 传奇隐退",
+                "rich_text": "风格：校园起步 + 热血兄弟 + 街头厮杀 + 地下争霸 + 城<em>市</em>教父 + 跨省格局 + 最终隐退\n主线：被欺学生 → 校园一哥 → 街头霸主 → 城区大佬 → <em>市</em>级地下皇帝 → 省级教父 → 传奇隐退",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1075,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7595888849838951449",
+          "search_result_id": "7595888849838951449",
+          "search_high_light": {
+            "abstract": {
+              "text": "...员的人生，权力斗争和江湖道义，人性挣扎为铺垫。期间经历了血腥争夺年代，背叛与复仇，集爱情一体的犯罪艺术题材剧情。",
+              "rich_text": "主角李东方从街头小混混一步一步崛起为黑道教父的经历，聚焦于黑帮组织的运作，帮派成员的人生，权力斗争和<em>江湖</em>道义，人性挣扎为铺垫。期间经历了血腥争夺年代，背叛与复仇，集爱情一体的犯罪艺术题材剧情。",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "黑道教父",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "主角李东方从街头小混混一步一步崛起为黑道教父的经历，聚焦于黑帮组织的运作，帮派成员的人生，权力斗争和江湖道义，人性挣扎为铺垫。期间经历了血腥争夺年代，背叛与复仇，集爱情一体的犯罪艺术题材剧情。",
+              "author": "北岛失约",
+              "book_id": "7595888849838951449",
+              "book_name": "黑道教父",
+              "category": "男频衍生",
+              "copyright_info": "版权信息：本书的数字版权由 北岛失约 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-16T17:28:10+08:00",
+              "creation_status": "4",
+              "first_chapter_group_id": "7595909845992096281",
+              "first_chapter_item_id": "7595909845992096281",
+              "first_chapter_title": "第1章 初见",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7596620488877556249",
+              "last_chapter_item_id": "7596620488877556249",
+              "last_chapter_title": "第8章 雨前狂暴",
+              "last_chapter_update_time": "1768751767",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "20",
+              "recommend_group_id": "7595888849838951449",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260318165731F81474D666161BED0475\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "8",
+              "source": "北岛失约",
+              "tags": "男频衍生,大佬",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9bf61c4e82d7ed7a3e09ae9eecf2654f~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=Oj99FGFDmqITIEhXfnJmT9x5d9k%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "13285",
+              "score": "0",
+              "role": "李东方",
+              "category_schema": "[{\"category_id\":1016,\"name\":\"男频衍生\",\"schema\":\"dragon1967://newCategoryDetail?id=1016&name=男频衍生&genre_type=0&gender=1&source=detail\"},{\"category_id\":520,\"name\":\"大佬\",\"schema\":\"dragon1967://newCategoryDetail?id=520&name=大佬&genre_type=0&gender=1&source=detail\"},{\"category_id\":871,\"name\":\"第一人称\",\"schema\":\"dragon1967://newCategoryDetail?id=871&name=第一人称&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "4",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1768751777",
+              "authorize_type": "0",
+              "media_id": "1854465045806089",
+              "original_book_name": "黑道教父",
+              "length_type": "0",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/9bf61c4e82d7ed7a3e09ae9eecf2654f",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9bf61c4e82d7ed7a3e09ae9eecf2654f~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008251&x-signature=tc%2F4VPbCy2JigWamIOD2QSWxq3w%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "男频衍生,第一人称",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":100454}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#181820",
+              "read_count_all": "172",
+              "shelf_cnt_history": "1037",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"13\":1768607631,\"507386\":1768607693,\"507427\":1768607693,\"1128\":1768607631,\"2503\":1768607631,\"8662\":1768607631,\"1967\":1768607631,\"8704\":1768607631,\"35\":1768607631,\"8703\":1768607631,\"510893\":1768607631,\"2329\":1768607631}",
+              "category_v2_map": {
+                "1016": true,
+                "520": true,
+                "871": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9bf61c4e82d7ed7a3e09ae9eecf2654f~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=Oj99FGFDmqITIEhXfnJmT9x5d9k%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7595888851063674137,
+                  "AuthorName": "北岛失约"
+                }
+              ],
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9bf61c4e82d7ed7a3e09ae9eecf2654f~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008251&x-signature=70IPi%2Bj%2BdZbmrWwY8PKEGzqr%2Bd8%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "主角李东方从街头小混混一步一步崛起为黑道教父的经历，聚焦于黑帮组织的运作，帮派成员的人生，权力斗争和江湖道义，人性挣扎为铺垫。期间经历了血腥争夺年代，背叛与复仇，集爱情一体的犯罪艺术题材剧情。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9bf61c4e82d7ed7a3e09ae9eecf2654f~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=4bHG2NWYppr5ZkGAVtuBohwvZlk%3D",
+              "raw_book_name": "黑道教父"
+            }
+          ],
+          "search_attached_info": "16613152020787311021:75:0:3020696602:clks####3@202603181655472179D14C3CCB1EE7B603",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "断更",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "1.3万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "20人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "男频衍生",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：北岛失约",
+                "rich_text": "作者：北岛失约",
+                "high_light_position": []
+              },
+              {
+                "text": "...员的人生，权力斗争和江湖道义，人性挣扎为铺垫。期间经历了血腥争夺年代，背叛与复仇，集爱情一体的犯罪艺术题材剧情。",
+                "rich_text": "主角李东方从街头小混混一步一步崛起为黑道教父的经历，聚焦于黑帮组织的运作，帮派成员的人生，权力斗争和<em>江湖</em>道义，人性挣扎为铺垫。期间经历了血腥争夺年代，背叛与复仇，集爱情一体的犯罪艺术题材剧情。",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1076,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7610235647550295065",
+          "search_result_id": "7610235647550295065",
+          "search_high_light": {
+            "abstract": {
+              "text": "90年代，江湖混乱，弱肉强食。 他曾是任人欺凌的懦弱少年，被踩在脚下，尊严扫地。 一朝觉醒，不再忍让，不再退缩。 凭一双铁拳，一腔狠劲，一群生死兄弟，从校园杀出，踏入腥风血雨的黑道。 收小弟，立规矩，抢地盘，斗恶霸，平纷争。 从三中校霸，到街区大哥，再到一城地下王者。 他不信天道，不信命运，只信手中刀、身边兄弟。 以狠立威，以义聚人，以血铺路。 从一文不名的少年，到威震四方的地下枭雄。 这一条路，铺满鲜血与荣耀，写尽江湖与传奇。 且看，少年陈凡，如何一步一步，登顶为王！",
+              "rich_text": "90年代，<em>江湖</em>混乱，弱肉强食。\n他曾是任人欺凌的懦弱少年，被踩在脚下，尊严扫地。\n一朝觉醒，不再忍让，不再退缩。\n凭一双铁拳，一腔狠劲，一群生死兄弟，从校园杀出，踏入腥风血雨的黑道。\n收小弟，立规矩，抢地盘，斗恶霸，平纷争。\n从三中校霸，到街区大哥，再到一城地下王者。\n他不信天道，不信命运，只信手中刀、身边兄弟。\n以狠立威，以义聚人，以血铺路。\n从一文不名的少年，到威震四方的地下枭雄。\n这一条路，铺满鲜血与荣耀，写尽<em>江湖</em>与传奇。\n且看，少年陈凡，如何一步一步，登顶为王！",
+              "high_light_position": [
+                [
+                  5,
+                  2
+                ],
+                [
+                  210,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "黑道风云少年为王",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "90年代，江湖混乱，弱肉强食。\n他曾是任人欺凌的懦弱少年，被踩在脚下，尊严扫地。\n一朝觉醒，不再忍让，不再退缩。\n凭一双铁拳，一腔狠劲，一群生死兄弟，从校园杀出，踏入腥风血雨的黑道。\n收小弟，立规矩，抢地盘，斗恶霸，平纷争。\n从三中校霸，到街区大哥，再到一城地下王者。\n他不信天道，不信命运，只信手中刀、身边兄弟。\n以狠立威，以义聚人，以血铺路。\n从一文不名的少年，到威震四方的地下枭雄。\n这一条路，铺满鲜血与荣耀，写尽江湖与传奇。\n且看，少年陈凡，如何一步一步，登顶为王！",
+              "author": "幽幽相思草",
+              "book_id": "7610235647550295065",
+              "book_name": "黑道风云少年为王",
+              "category": "都市日常",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-24T09:21:04+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7610235813310824985",
+              "first_chapter_item_id": "7610235813310824985",
+              "first_chapter_title": "第1章 从今天开始混江湖",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618250165333279257",
+              "last_chapter_item_id": "7618250165333279257",
+              "last_chapter_title": "第55章 文脉传薪，",
+              "last_chapter_update_time": "1773789303",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "8",
+              "recommend_group_id": "7610235647550295065",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260318165731F81474D666161BED0475\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "48",
+              "source": "番茄小说",
+              "tags": "都市日常,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/199a762c6ec416631c2596a86476f04b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=AE5J73NNBNJ5hnm5vt3nVuU6lfU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "307606",
+              "score": "0",
+              "exclusive": "1",
+              "role": "陈凡",
+              "category_schema": "[{\"category_id\":261,\"name\":\"都市日常\",\"schema\":\"dragon1967://newCategoryDetail?id=261&name=都市日常&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":826,\"name\":\"黑道\",\"schema\":\"dragon1967://newCategoryDetail?id=826&name=黑道&genre_type=0&gender=1&source=detail\"},{\"category_id\":837,\"name\":\"争霸\",\"schema\":\"dragon1967://newCategoryDetail?id=837&name=争霸&genre_type=0&gender=1&source=detail\"},{\"category_id\":830,\"name\":\"升级流\",\"schema\":\"dragon1967://newCategoryDetail?id=830&name=升级流&genre_type=0&gender=1&source=detail\"},{\"category_id\":1460,\"name\":\"都市江湖\",\"schema\":\"dragon1967://newCategoryDetail?id=1460&name=都市江湖&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "4",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773789316",
+              "authorize_type": "1",
+              "media_id": "1832228699658252",
+              "original_book_name": "黑道风云少年为王",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "23",
+              "thumb_uri": "novel-pic/199a762c6ec416631c2596a86476f04b",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/199a762c6ec416631c2596a86476f04b~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008251&x-signature=ttgoTOQvhegXNpXyfT7xYSh02CM%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市日常,都市江湖",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#282828",
+              "read_count_all": "39",
+              "shelf_cnt_history": "1042",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1128\":1771898188,\"507386\":1771898251,\"507427\":1771898251,\"2503\":1771898188,\"6589\":1771907279,\"638505\":1771907279,\"8661\":1771907279,\"510893\":1771898188,\"3040\":1771907279,\"1967\":1771898188,\"2329\":1771898188,\"8662\":1771898188,\"35\":1771898188,\"8703\":1771898188,\"13\":1771898188,\"8704\":1771898188,\"596084\":1771907279}",
+              "category_v2_map": {
+                "826": true,
+                "1460": true,
+                "261": true,
+                "1": true,
+                "837": true,
+                "830": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/199a762c6ec416631c2596a86476f04b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=AE5J73NNBNJ5hnm5vt3nVuU6lfU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7609826282565555481,
+                  "AuthorName": "幽幽相思草"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/199a762c6ec416631c2596a86476f04b~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008251&x-signature=4xg7WNa3Gd51coVZywYsc%2BDKODQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "90年代，江湖混乱，弱肉强食。\n他曾是任人欺凌的懦弱少年，被踩在脚下，尊严扫地。\n一朝觉醒，不再忍让，不再退缩。\n凭一双铁拳，一腔狠劲，一群生死兄弟，从校园杀出，踏入腥风血雨的黑道。\n收小弟，立规矩，抢地盘，斗恶霸，平纷争。\n从三中校霸，到街区大哥，再到一城地下王者。\n他不信天道，不信命运，只信手中刀、身边兄弟。\n以狠立威，以义聚人，以血铺路。\n从一文不名的少年，到威震四方的地下枭雄。\n这一条路，铺满鲜血与荣耀，写尽江湖与传奇。\n且看，少年陈凡，如何一步一步，登顶为王！",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/199a762c6ec416631c2596a86476f04b~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=dP9fAhvbF5Xxt50eVlmK8a7n7BE%3D",
+              "raw_book_name": "黑道风云少年为王",
+              "quality_rate": "20"
+            }
+          ],
+          "search_attached_info": "16613152020787311021:76:0:2670352939:clks####3@202603181655472179D14C3CCB1EE7B603",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "30.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "8人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市日常",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：幽幽相思草",
+                "rich_text": "作者：幽幽相思草",
+                "high_light_position": []
+              },
+              {
+                "text": "90年代，江湖混乱，弱肉强食。 他曾是任人欺凌的懦弱少年，被踩在脚下，尊严扫地。 一朝觉醒，不再忍让，不再退缩。 凭一双铁拳，一腔狠劲，一群生死兄弟，从校园杀出，踏入腥风血雨的黑道。 收小弟，立规矩，抢地盘，斗恶霸，平纷争。 从三中校霸，到街区大哥，再到一城地下王者。 他不信天道，不信命运，只信手中刀、身边兄弟。 以狠立威，以义聚人，以血铺路。 从一文不名的少年，到威震四方的地下枭雄。 这一条路，铺满鲜血与荣耀，写尽江湖与传奇。 且看，少年陈凡，如何一步一步，登顶为王！",
+                "rich_text": "90年代，<em>江湖</em>混乱，弱肉强食。\n他曾是任人欺凌的懦弱少年，被踩在脚下，尊严扫地。\n一朝觉醒，不再忍让，不再退缩。\n凭一双铁拳，一腔狠劲，一群生死兄弟，从校园杀出，踏入腥风血雨的黑道。\n收小弟，立规矩，抢地盘，斗恶霸，平纷争。\n从三中校霸，到街区大哥，再到一城地下王者。\n他不信天道，不信命运，只信手中刀、身边兄弟。\n以狠立威，以义聚人，以血铺路。\n从一文不名的少年，到威震四方的地下枭雄。\n这一条路，铺满鲜血与荣耀，写尽<em>江湖</em>与传奇。\n且看，少年陈凡，如何一步一步，登顶为王！",
+                "high_light_position": [
+                  [
+                    5,
+                    2
+                  ],
+                  [
+                    210,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1077,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7578526505068661784",
+          "search_result_id": "7578526505068661784",
+          "search_high_light": {
+            "abstract": {
+              "text": "新作品出炉，欢迎大家前往番茄小说阅读我的作品，希望大家能够喜欢，你们的关注是我写作的动力，我会努力讲好每个故事！",
+              "rich_text": "新作品出炉，欢迎大家前往番茄小说阅读我的作品，希望大家能够喜欢，你们的关注是我写作的动力，我会努力讲好每个故事！",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "黑道问鼎之途",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "新作品出炉，欢迎大家前往番茄小说阅读我的作品，希望大家能够喜欢，你们的关注是我写作的动力，我会努力讲好每个故事！",
+              "author": "shoughy",
+              "book_id": "7578526505068661784",
+              "book_name": "黑道问鼎之途",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-11-30T22:33:24+08:00",
+              "creation_status": "4",
+              "first_chapter_group_id": "7578526511322366488",
+              "first_chapter_item_id": "7578526511322366488",
+              "first_chapter_title": "第1章 绝境觉醒",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7578741282713895448",
+              "last_chapter_item_id": "7578741282713895448",
+              "last_chapter_title": "第7章 暗棋与反击",
+              "last_chapter_update_time": "1764563269",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "0",
+              "recommend_group_id": "7578526505068661784",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260318165731F81474D666161BED0475\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "7",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d2c2a22b9f4a0ae8a45556af26807fc6~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=AeBck1HGUVOemg6JXc3tnQlcgrU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "24632",
+              "score": "0",
+              "exclusive": "1",
+              "role": "林辰",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=1&source=detail\"},{\"category_id\":826,\"name\":\"黑道\",\"schema\":\"dragon1967://newCategoryDetail?id=826&name=黑道&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1764563281",
+              "authorize_type": "1",
+              "media_id": "1802985279789059",
+              "original_book_name": "黑道问鼎之途",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/d2c2a22b9f4a0ae8a45556af26807fc6",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d2c2a22b9f4a0ae8a45556af26807fc6~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008251&x-signature=MSs6MnQldjmYDMcBvMQUbD1Y%2Fns%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市脑洞,黑道",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e0e0e0",
+              "read_count_all": "6",
+              "shelf_cnt_history": "1006",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507386\":1764515084,\"35\":1764515023,\"8704\":1764515023,\"638505\":1765429293,\"1128\":1764515023,\"1967\":1764515023,\"13\":1764515023,\"8662\":1764515023,\"8703\":1764515023,\"507427\":1764515084,\"3040\":1765429293,\"6589\":1765429293,\"8661\":1765429293,\"2329\":1764515023,\"510893\":1764515023,\"2503\":1764515023,\"596084\":1765429293}",
+              "category_v2_map": {
+                "1": true,
+                "19": true,
+                "826": true,
+                "262": true,
+                "516": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d2c2a22b9f4a0ae8a45556af26807fc6~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=AeBck1HGUVOemg6JXc3tnQlcgrU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7578526506188559640,
+                  "AuthorName": "shoughy"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d2c2a22b9f4a0ae8a45556af26807fc6~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008251&x-signature=e3YfvZrJGdBC%2Bhdu4RxfLr9EPg8%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "新作品出炉，欢迎大家前往番茄小说阅读我的作品，希望大家能够喜欢，你们的关注是我写作的动力，我会努力讲好每个故事！",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d2c2a22b9f4a0ae8a45556af26807fc6~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=td6HPeWgMdeGXxw2bAuVsDwiCWk%3D",
+              "raw_book_name": "黑道问鼎之途",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "16613152020787311021:77:0:3243582056:clks####3@202603181655472179D14C3CCB1EE7B603",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "断更",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "2.5万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：shoughy",
+                "rich_text": "作者：shoughy",
+                "high_light_position": []
+              },
+              {
+                "text": "新作品出炉，欢迎大家前往番茄小说阅读我的作品，希望大家能够喜欢，你们的关注是我写作的动力，我会努力讲好每个故事！",
+                "rich_text": "新作品出炉，欢迎大家前往番茄小说阅读我的作品，希望大家能够喜欢，你们的关注是我写作的动力，我会努力讲好每个故事！",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1078,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7610301960322829337",
+          "search_result_id": "7610301960322829337",
+          "search_high_light": {
+            "abstract": {
+              "text": "...步一步走向一条未知的道路，什么是兄弟？什么是权利！在江湖中，我，陈起云，将重新进行定义！",
+              "rich_text": "被兄弟保护了三年，却一点长进没有，同学的霸凌，朋友的背叛，让陈起云一步一步走向一条未知的道路，什么是兄弟？什么是权利！在<em>江湖</em>中，我，陈起云，将重新进行定义！",
+              "high_light_position": [
+                [
+                  29,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "黑道，风起云涌",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "被兄弟保护了三年，却一点长进没有，同学的霸凌，朋友的背叛，让陈起云一步一步走向一条未知的道路，什么是兄弟？什么是权利！在江湖中，我，陈起云，将重新进行定义！",
+              "author": "平南路",
+              "book_id": "7610301960322829337",
+              "book_name": "黑道，风起云涌",
+              "category": "都市日常",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-24T13:38:24+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7610301966748484121",
+              "first_chapter_item_id": "7610301966748484121",
+              "first_chapter_title": "第1章 十五年前",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7617781529229394457",
+              "last_chapter_item_id": "7617781529229394457",
+              "last_chapter_title": "第54章 约定",
+              "last_chapter_update_time": "1773719182",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "4",
+              "recommend_group_id": "7610301960322829337",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260318165731F81474D666161BED0475\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "54",
+              "source": "番茄小说",
+              "tags": "都市日常,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/2a70f5dc3c6bf623c084c05de2741e95~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=AtadyOn%2FghHGFSUImrO%2FIn4PR3g%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "120853",
+              "score": "0",
+              "exclusive": "1",
+              "role": "陈起云,刑井天",
+              "category_schema": "[{\"category_id\":261,\"name\":\"都市日常\",\"schema\":\"dragon1967://newCategoryDetail?id=261&name=都市日常&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":871,\"name\":\"第一人称\",\"schema\":\"dragon1967://newCategoryDetail?id=871&name=第一人称&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773719193",
+              "authorize_type": "1",
+              "media_id": "1724364167028739",
+              "original_book_name": "黑道，风起云涌",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "22",
+              "thumb_uri": "novel-pic/2a70f5dc3c6bf623c084c05de2741e95",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/2a70f5dc3c6bf623c084c05de2741e95~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008251&x-signature=c2SKMS%2BVbYF1o4JZ%2FsJX4SMGxaY%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市日常,打脸",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#182020",
+              "read_count_all": "6",
+              "shelf_cnt_history": "1014",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8661\":1772034301,\"596084\":1772034301,\"35\":1771915790,\"507386\":1771915853,\"8704\":1771915790,\"1128\":1771915790,\"8662\":1771915790,\"3040\":1772034301,\"2503\":1771915790,\"8703\":1771915790,\"1967\":1771915790,\"13\":1771915790,\"638505\":1772034301,\"6589\":1772034301,\"2329\":1771915790,\"510893\":1771915790,\"507427\":1771915853}",
+              "category_v2_map": {
+                "1": true,
+                "871": true,
+                "261": true,
+                "522": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/2a70f5dc3c6bf623c084c05de2741e95~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=AtadyOn%2FghHGFSUImrO%2FIn4PR3g%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7610300106562082073,
+                  "AuthorName": "平南路"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/2a70f5dc3c6bf623c084c05de2741e95~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008251&x-signature=f7j0e9zZHqipNjJEC7NUVNcRlno%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "被兄弟保护了三年，却一点长进没有，同学的霸凌，朋友的背叛，让陈起云一步一步走向一条未知的道路，什么是兄弟？什么是权利！在江湖中，我，陈起云，将重新进行定义！",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/2a70f5dc3c6bf623c084c05de2741e95~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=wzEGQbQ3FGiBS%2F6Gs%2F9XYnr28Fo%3D",
+              "raw_book_name": "黑道，风起云涌",
+              "quality_rate": "20"
+            }
+          ],
+          "search_attached_info": "16613152020787311021:78:0:1186018551:clks####3@202603181655472179D14C3CCB1EE7B603",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "12.1万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市日常",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：平南路",
+                "rich_text": "作者：平南路",
+                "high_light_position": []
+              },
+              {
+                "text": "...步一步走向一条未知的道路，什么是兄弟？什么是权利！在江湖中，我，陈起云，将重新进行定义！",
+                "rich_text": "被兄弟保护了三年，却一点长进没有，同学的霸凌，朋友的背叛，让陈起云一步一步走向一条未知的道路，什么是兄弟？什么是权利！在<em>江湖</em>中，我，陈起云，将重新进行定义！",
+                "high_light_position": [
+                  [
+                    29,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1079,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7510449991689718846",
+          "search_result_id": "7510449991689718846",
+          "search_high_light": {
+            "title": {
+              "text": "都市铁拳震山河",
+              "rich_text": "<em>都市</em>铁拳震山河",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "现代都市背景下，一个出身贫寒的青年，凭借一身武艺和不屈的意志，在龙蛇混杂的大都市中打拼，最终成为一代枭雄，但也因此付出沉重代价的故事。",
+              "rich_text": "现代<em>都市</em>背景下，一个出身贫寒的青年，凭借一身武艺和不屈的意志，在龙蛇混杂的大<em>都市</em>中打拼，最终成为一代枭雄，但也因此付出沉重代价的故事。",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ],
+                [
+                  38,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "现代都市背景下，一个出身贫寒的青年，凭借一身武艺和不屈的意志，在龙蛇混杂的大都市中打拼，最终成为一代枭雄，但也因此付出沉重代价的故事。",
+              "author": "爱吃芝士焗虎虾的王岩",
+              "book_id": "7510449991689718846",
+              "book_name": "都市铁拳震山河",
+              "category": "都市日常",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-05-31T11:41:45+08:00",
+              "creation_status": "4",
+              "first_chapter_group_id": "7510450144614040126",
+              "first_chapter_item_id": "7510450144614040126",
+              "first_chapter_title": "第1章 英雄出少年",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7510452681253601854",
+              "last_chapter_item_id": "7510452681253601854",
+              "last_chapter_title": "第3章 霸业",
+              "last_chapter_update_time": "1748663683",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "0",
+              "recommend_group_id": "7510449991689718846",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"20260318165731F81474D666161BED0475\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "3",
+              "source": "番茄小说",
+              "tags": "都市日常,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o37286c5db03c610ee08c99dcab71f230~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=%2BIfcRUsId1xIcZStEq8MVjkAIv8%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "24857",
+              "score": "0",
+              "exclusive": "1",
+              "role": "马永峰",
+              "category_schema": "[{\"category_id\":261,\"name\":\"都市日常\",\"schema\":\"dragon1967://newCategoryDetail?id=261&name=都市日常&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":826,\"name\":\"黑道\",\"schema\":\"dragon1967://newCategoryDetail?id=826&name=黑道&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1748663818",
+              "authorize_type": "1",
+              "media_id": "1805688545472522",
+              "original_book_name": "都市铁拳震山河",
+              "length_type": "0",
+              "op_tag": "535,536,1699",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/p2o37286c5db03c610ee08c99dcab71f230",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o37286c5db03c610ee08c99dcab71f230~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008251&x-signature=FNVO%2FqsF2uZscZ5G5BVfslFOkJQ%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市日常,黑道",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e8e8e8",
+              "read_count_all": "99",
+              "shelf_cnt_history": "997",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1128\":1748663216,\"596084\":1749213617,\"510893\":1748663216,\"3040\":1749213617,\"638505\":1749213617,\"507427\":1748663278,\"8662\":1748663216,\"2329\":1748663216,\"8703\":1748663216,\"1967\":1748663216,\"507386\":1748663278,\"6589\":1749213617,\"8661\":1749213617,\"2503\":1748663216,\"35\":1748663216,\"8704\":1748663216,\"13\":1748663216}",
+              "category_v2_map": {
+                "1": true,
+                "826": true,
+                "261": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o37286c5db03c610ee08c99dcab71f230~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=%2BIfcRUsId1xIcZStEq8MVjkAIv8%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7396100737723274558,
+                  "AuthorName": "爱吃芝士焗虎虾的王岩"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o37286c5db03c610ee08c99dcab71f230~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008251&x-signature=aajIF6%2B%2BsclRtnjWCocpvcz0Y7w%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "现代都市背景下，一个出身贫寒的青年，凭借一身武艺和不屈的意志，在龙蛇混杂的大都市中打拼，最终成为一代枭雄，但也因此付出沉重代价的故事。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o37286c5db03c610ee08c99dcab71f230~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008251&x-signature=I7%2BbOL0wJZH2LLXUl2e%2FQix111M%3D",
+              "raw_book_name": "都市铁拳震山河",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "16613152020787311021:79:0:4103458960:clks####3@202603181655472179D14C3CCB1EE7B603",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "断更",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "2.5万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "都市日常",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：爱吃芝士焗虎虾的王岩",
+                "rich_text": "作者：爱吃芝士焗虎虾的王岩",
+                "high_light_position": []
+              },
+              {
+                "text": "现代都市背景下，一个出身贫寒的青年，凭借一身武艺和不屈的意志，在龙蛇混杂的大都市中打拼，最终成为一代枭雄，但也因此付出沉重代价的故事。",
+                "rich_text": "现代<em>都市</em>背景下，一个出身贫寒的青年，凭借一身武艺和不屈的意志，在龙蛇混杂的大<em>都市</em>中打拼，最终成为一代枭雄，但也因此付出沉重代价的故事。",
+                "high_light_position": [
+                  [
+                    2,
+                    2
+                  ],
+                  [
+                    38,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "80",
+      "search_id": "clks####3@202603181655472179D14C3CCB1EE7B603",
+      "query": "都市江湖",
+      "next_offset": 80,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@202603181655472179D14C3CCB1EE7B603",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"20260318165731F81474D666161BED0475\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@202603181655472179D14C3CCB1EE7B603",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@202603181655472179D14C3CCB1EE7B603",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "20260318165731F81474D666161BED0475"
+}

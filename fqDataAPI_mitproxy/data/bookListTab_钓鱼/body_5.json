@@ -1,0 +1,2883 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@20260318165918AC8834C0F5636A28A701",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@20260318165918AC8834C0F5636A28A701",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@20260318165918AC8834C0F5636A28A701",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@20260318165918AC8834C0F5636A28A701",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@20260318165918AC8834C0F5636A28A701",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@20260318165918AC8834C0F5636A28A701",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1010,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7514283910658804760",
+          "search_result_id": "7514283910658804760",
+          "search_high_light": {
+            "abstract": {
+              "text": "...无意中得到金手指。从钓鱼开始攒钱买船，然后开船出海钓鱼捕鱼，再然后买更大的船出更远的海捕更大更多的鱼。大海就是他的后花园！…… 【异能】+【钓鱼】+【捕鱼】+【海底宝藏】",
+              "rich_text": "杨启工作失利，心情低落。来到海边散心，无意中得到金手指。从<em>钓鱼</em>开始攒钱买船，然后开船出海<em>钓鱼</em>捕<em>鱼</em>，再然后买更大的船出更远的海捕更大更多的<em>鱼</em>。大海就是他的后花园！……\n【异能】+【<em>钓鱼</em>】+【捕<em>鱼</em>】+【海底宝藏】",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  28,
+                  2
+                ],
+                [
+                  73,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "异能让我成为职业钓鱼佬",
+              "rich_text": "异能让我成为职业<em>钓鱼</em>佬",
+              "high_light_position": [
+                [
+                  8,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "杨启工作失利，心情低落。来到海边散心，无意中得到金手指。从钓鱼开始攒钱买船，然后开船出海钓鱼捕鱼，再然后买更大的船出更远的海捕更大更多的鱼。大海就是他的后花园！……\n【异能】+【钓鱼】+【捕鱼】+【海底宝藏】",
+              "author": "搬砖的肥猫",
+              "book_id": "7514283910658804760",
+              "book_name": "异能让我成为职业钓鱼佬",
+              "category": "都市种田",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-06-10T19:39:19+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7516924903224787480",
+              "first_chapter_item_id": "7516924903224787480",
+              "first_chapter_title": "第1章 初获异能",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618131337760752152",
+              "last_chapter_item_id": "7618131337760752152",
+              "last_chapter_title": "第522章 鳡鱼",
+              "last_chapter_update_time": "1773760436",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "39315",
+              "recommend_group_id": "7514283910658804760",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031816593843E4ABC6AA828A7E92DF\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "524",
+              "source": "番茄小说",
+              "tags": "都市种田,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o37de661c8776dd8c3c0bd1067a6abad9~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=MFb4sYgN1YSyFefQwg7o2apC768%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "1070709",
+              "score": "7.9",
+              "exclusive": "1",
+              "role": "杨启",
+              "category_schema": "[{\"category_id\":263,\"name\":\"都市种田\",\"schema\":\"dragon1967://newCategoryDetail?id=263&name=都市种田&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":493,\"name\":\"钓鱼\",\"schema\":\"dragon1967://newCategoryDetail?id=493&name=钓鱼&genre_type=0&gender=1&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=1&source=detail\"},{\"category_id\":840,\"name\":\"发家致富\",\"schema\":\"dragon1967://newCategoryDetail?id=840&name=发家致富&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "9802",
+              "sub_info": "4万人在读",
+              "last_publish_time": "1773760447",
+              "authorize_type": "1",
+              "media_id": "1834541874487322",
+              "original_book_name": "异能让我成为职业钓鱼佬",
+              "length_type": "0",
+              "op_tag": "531,535,536",
+              "keep_publish_days": "44",
+              "thumb_uri": "novel-pic/p2o37de661c8776dd8c3c0bd1067a6abad9",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/c6b6e63facc470a006a09e9e9cb83909",
+              "data_rate": "",
+              "all_bookshelf_count": "5348",
+              "pure_category_tags": "都市种田,发家致富",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#c8c090",
+              "read_count_all": "450680",
+              "shelf_cnt_history": "64988",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1967\":1750676218,\"596084\":1751016750,\"638505\":1751016750,\"8704\":1750676218,\"510893\":1750676218,\"507427\":1750676264,\"6589\":1751016879,\"8703\":1750676218,\"507386\":1750676264,\"8661\":1751016750,\"13\":1750676218,\"2503\":1750676218,\"1128\":1750676218,\"8662\":1750676218,\"2329\":1750676218,\"35\":1750676218,\"3040\":1751016750}",
+              "category_v2_map": {
+                "1": true,
+                "516": true,
+                "493": true,
+                "840": true,
+                "263": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o37de661c8776dd8c3c0bd1067a6abad9~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=MFb4sYgN1YSyFefQwg7o2apC768%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7514283911820612888,
+                  "AuthorName": "搬砖的肥猫"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/c6b6e63facc470a006a09e9e9cb83909~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008378&x-signature=0OelRBSEYAPv0YTqWUNk5jKDrTE%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "杨启工作失利，心情低落。来到海边散心，无意中得到金手指。从钓鱼开始攒钱买船，然后开船出海钓鱼捕鱼，再然后买更大的船出更远的海捕更大更多的鱼。大海就是他的后花园！……\n【异能】+【钓鱼】+【捕鱼】+【海底宝藏】",
+              "read_page_progress": "0",
+              "read_cnt_text": "4万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o37de661c8776dd8c3c0bd1067a6abad9~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=iQBxhfua%2BQi9C5pdSIV%2BKXvDNng%3D",
+              "raw_book_name": "异能让我成为职业钓鱼佬",
+              "color_audio_dominate": "#24231E",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "8267779798625174881:10:0:1321760812:clks####3@20260318165918AC8834C0F5636A28A701",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "107.1万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市种田",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：搬砖的肥猫",
+                "rich_text": "作者：搬砖的肥猫",
+                "high_light_position": []
+              },
+              {
+                "text": "...无意中得到金手指。从钓鱼开始攒钱买船，然后开船出海钓鱼捕鱼，再然后买更大的船出更远的海捕更大更多的鱼。大海就是他的后花园！…… 【异能】+【钓鱼】+【捕鱼】+【海底宝藏】",
+                "rich_text": "杨启工作失利，心情低落。来到海边散心，无意中得到金手指。从<em>钓鱼</em>开始攒钱买船，然后开船出海<em>钓鱼</em>捕<em>鱼</em>，再然后买更大的船出更远的海捕更大更多的<em>鱼</em>。大海就是他的后花园！……\n【异能】+【<em>钓鱼</em>】+【捕<em>鱼</em>】+【海底宝藏】",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    28,
+                    2
+                  ],
+                  [
+                    73,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1011,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "6987676338018585607",
+          "search_result_id": "6987676338018585607",
+          "search_high_light": {
+            "abstract": {
+              "text": "【钓来了一网鱼竿，钓鱼佬发现，这鱼竿有它自己的想法】...现，这鱼竿有它自己的想法。 钓鱼、钓宝贝，什么都能钓。 从此，吕小鱼在钓鱼佬的路上一去不复返。",
+              "rich_text": "一网撒上来个<em>鱼</em>竿，慢慢的，吕小<em>鱼</em>发现，这<em>鱼</em>竿有它自己的想法。\n<em>钓鱼</em>、<em>钓</em>宝贝，什么都能<em>钓</em>。\n从此，吕小<em>鱼</em>在<em>钓鱼</em>佬的路上一去不复返。",
+              "high_light_position": [
+                [
+                  9,
+                  2
+                ],
+                [
+                  43,
+                  2
+                ],
+                [
+                  64,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "极品渔夫",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "一网撒上来个鱼竿，慢慢的，吕小鱼发现，这鱼竿有它自己的想法。\n钓鱼、钓宝贝，什么都能钓。\n从此，吕小鱼在钓鱼佬的路上一去不复返。",
+              "author": "不吃西瓜的驴",
+              "book_id": "6987676338018585607",
+              "book_name": "极品渔夫",
+              "category": "都市种田",
+              "complete_category": "男生/都市/都市生活",
+              "copyright_info": "版权信息：本书的数字版权由 塔读文学 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2021-07-28T20:36:03+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "6989962395493859847",
+              "first_chapter_item_id": "6989962395493859847",
+              "first_chapter_title": "第1章发黑水啦",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7036373175952736798",
+              "last_chapter_item_id": "7036373175952736798",
+              "last_chapter_title": "第513章大结局",
+              "last_chapter_update_time": "1638283311",
+              "latest_read_item_id": "0",
+              "platform": "1",
+              "read_count": "11541",
+              "recommend_group_id": "6987676338018585607",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031816593843E4ABC6AA828A7E92DF\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "513",
+              "source": "塔读文学",
+              "tags": "都市种田,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/9ff7c4cdd741576cba06ea40f2025a61~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=Xt2pDOtssF0wcNuitRf%2FOGCs2wA%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1057589",
+              "score": "9.0",
+              "role": "吕小鱼,西西",
+              "category_schema": "[{\"category_id\":263,\"name\":\"都市种田\",\"schema\":\"dragon1967://newCategoryDetail?id=263&name=都市种田&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":23,\"name\":\"种田\",\"schema\":\"dragon1967://newCategoryDetail?id=23&name=种田&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7316762893809650750,7325331882982624318]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "3542",
+              "sub_info": "1.2万人在读",
+              "chapter_number": "161",
+              "last_publish_time": "1638283318",
+              "authorize_type": "0",
+              "media_id": "50027746738",
+              "original_book_name": "极品渔夫",
+              "length_type": "0",
+              "op_tag": "245,869,535,191,471,164,966,346,856,537,873,1039,1104",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-images/9ff7c4cdd741576cba06ea40f2025a61",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-images/58e09d0e0f13c56bd94d16e46fa200a3",
+              "data_rate": "",
+              "all_bookshelf_count": "1377",
+              "pure_category_tags": "都市种田,种田",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#70a8d0",
+              "read_count_all": "1730743",
+              "shelf_cnt_history": "261217",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"507386\":1745495331,\"596084\":1723460630,\"8703\":1745908053,\"1967\":1627481293,\"2503\":1680488856,\"1112\":1693477082,\"3040\":1631176358,\"8704\":1747722773,\"507427\":1745495331,\"510893\":1689596094,\"8661\":1661337995,\"638505\":1724933918}",
+              "category_v2_map": {
+                "1": true,
+                "23": true,
+                "263": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/9ff7c4cdd741576cba06ea40f2025a61~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=Xt2pDOtssF0wcNuitRf%2FOGCs2wA%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6903833446125147399,
+                  "AuthorName": "不吃西瓜的驴"
+                }
+              ],
+              "platform_book_id": "817850",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-images/58e09d0e0f13c56bd94d16e46fa200a3~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008378&x-signature=ivcziUXajfjnLBv4L%2F8ukp72Fpc%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "一网撒上来个鱼竿，慢慢的，吕小鱼发现，这鱼竿有它自己的想法。\n钓鱼、钓宝贝，什么都能钓。\n从此，吕小鱼在钓鱼佬的路上一去不复返。",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.2万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-images/9ff7c4cdd741576cba06ea40f2025a61~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=qREo3pA9OBYR5LExibCfmR6dibI%3D",
+              "raw_book_name": "极品渔夫",
+              "color_audio_dominate": "#163EA5"
+            }
+          ],
+          "search_attached_info": "8267779798625174881:11:0:47509911:clks####3@20260318165918AC8834C0F5636A28A701",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "105.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市种田",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：不吃西瓜的驴",
+                "rich_text": "作者：不吃西瓜的驴",
+                "high_light_position": []
+              },
+              {
+                "text": "【钓来了一网鱼竿，钓鱼佬发现，这鱼竿有它自己的想法】...现，这鱼竿有它自己的想法。 钓鱼、钓宝贝，什么都能钓。 从此，吕小鱼在钓鱼佬的路上一去不复返。",
+                "rich_text": "一网撒上来个<em>鱼</em>竿，慢慢的，吕小<em>鱼</em>发现，这<em>鱼</em>竿有它自己的想法。\n<em>钓鱼</em>、<em>钓</em>宝贝，什么都能<em>钓</em>。\n从此，吕小<em>鱼</em>在<em>钓鱼</em>佬的路上一去不复返。",
+                "high_light_position": [
+                  [
+                    9,
+                    2
+                  ],
+                  [
+                    43,
+                    2
+                  ],
+                  [
+                    64,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1012,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7211207985282944032",
+          "search_result_id": "7211207985282944032",
+          "search_high_light": {
+            "abstract": {
+              "text": "【钓鱼、赶海、打鱼、养一只猫狗，这样的生活好像也挺不错的样子！】...愈人心。 苏叶发现，钓钓鱼、赶赶海、打打渔，再养一只阿猫阿狗，这样的生活好像也挺不错的样子，就是父母看自己的眼神好像越来越不对劲！ 第一天钓鱼，钓获大青斑，母亲喜笑颜开。 第二天钓鱼，钓获一箱全世界最好吃的黄脚腊，母亲一边忙碌杀鱼一边碎碎念。 第三天钓鱼，钓获一麻袋乌头鱼！母亲手中的刀闪烁着寒光，眼中已经有了杀气！ 不过，把鱼卖了好像也是个不错的选择？至此，苏叶开启了搞鱼卖钱的生活。 希望本文能给忙碌生活中的朋友们带来一丝欢乐。",
+              "rich_text": "休闲文(<em>钓鱼</em>+赶海)\n失业青年苏叶准备回家休息一段时间，大海，蓝天，白云，最能治愈人心。\n苏叶发现，<em>钓钓鱼</em>、赶赶海、打打渔，再养一只阿猫阿狗，这样的生活好像也挺不错的样子，就是父母看自己的眼神好像越来越不对劲！\n第一天<em>钓鱼</em>，<em>钓</em>获大青斑，母亲喜笑颜开。\n第二天<em>钓鱼</em>，<em>钓</em>获一箱全世界最好吃的黄脚腊，母亲一边忙碌杀<em>鱼</em>一边碎碎念。\n第三天<em>钓鱼</em>，<em>钓</em>获一麻袋乌头<em>鱼</em>！母亲手中的刀闪烁着寒光，眼中已经有了杀气！\n不过，把<em>鱼</em>卖了好像也是个不错的选择？至此，苏叶开启了搞<em>鱼</em>卖钱的生活。\n希望本文能给忙碌生活中的朋友们带来一丝欢乐。",
+              "high_light_position": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  45,
+                  3
+                ],
+                [
+                  104,
+                  2
+                ],
+                [
+                  124,
+                  2
+                ],
+                [
+                  160,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "钓鱼人生：从钓到大石斑鱼开始",
+              "rich_text": "<em>钓鱼</em>人生：从<em>钓</em>到大石斑<em>鱼</em>开始",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "休闲文(钓鱼+赶海)\n失业青年苏叶准备回家休息一段时间，大海，蓝天，白云，最能治愈人心。\n苏叶发现，钓钓鱼、赶赶海、打打渔，再养一只阿猫阿狗，这样的生活好像也挺不错的样子，就是父母看自己的眼神好像越来越不对劲！\n第一天钓鱼，钓获大青斑，母亲喜笑颜开。\n第二天钓鱼，钓获一箱全世界最好吃的黄脚腊，母亲一边忙碌杀鱼一边碎碎念。\n第三天钓鱼，钓获一麻袋乌头鱼！母亲手中的刀闪烁着寒光，眼中已经有了杀气！\n不过，把鱼卖了好像也是个不错的选择？至此，苏叶开启了搞鱼卖钱的生活。\n希望本文能给忙碌生活中的朋友们带来一丝欢乐。",
+              "author": "清茶乏味",
+              "book_id": "7211207985282944032",
+              "book_name": "钓鱼人生：从钓到大石斑鱼开始",
+              "category": "都市种田",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-03-17T02:09:56+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7217826587473871395",
+              "first_chapter_item_id": "7217826587473871395",
+              "first_chapter_title": "第1章 华人牌空气能生命探测眼镜",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7373341679811576344",
+              "last_chapter_item_id": "7373341679811576344",
+              "last_chapter_title": "第690章 在梦开始的地方种下种子",
+              "last_chapter_update_time": "1716739915",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "44169",
+              "recommend_group_id": "7211207985282944032",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031816593843E4ABC6AA828A7E92DF\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "690",
+              "source": "番茄小说",
+              "tags": "都市种田,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/2120d3e09db9434fb3dd3584a5d0ce50~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=T53qiOt6eYdNY21gGQAfVi%2Fyd%2F8%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1437764",
+              "score": "9.3",
+              "exclusive": "1",
+              "role": "苏叶",
+              "category_schema": "[{\"category_id\":263,\"name\":\"都市种田\",\"schema\":\"dragon1967://newCategoryDetail?id=263&name=都市种田&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":493,\"name\":\"钓鱼\",\"schema\":\"dragon1967://newCategoryDetail?id=493&name=钓鱼&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7356478161397304344]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "9695",
+              "sub_info": "4.5万人在读",
+              "last_publish_time": "1716739922",
+              "authorize_type": "1",
+              "media_id": "1673430348870664",
+              "original_book_name": "鱼获太多宰杀忙，母亲暴打泪两行",
+              "length_type": "0",
+              "op_tag": "304,531,245,854,966,501,873,536,346,535,1038,1102,1104",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/2120d3e09db9434fb3dd3584a5d0ce50",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/a2a258bc8bdca56cfa1ea59daaf3e2ed",
+              "data_rate": "",
+              "all_bookshelf_count": "4883",
+              "pure_category_tags": "都市种田,钓鱼",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#005880",
+              "read_count_all": "2407601",
+              "shelf_cnt_history": "338398",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2503\":1678990202,\"2329\":1678990202,\"6589\":1681959456,\"1967\":1678990202,\"1128\":1678990202,\"8703\":1744953218,\"8662\":1678990202,\"510893\":1689668849,\"3040\":1692675909,\"8704\":1747729367,\"1112\":1693467309,\"8661\":1692675909,\"596084\":1714098046,\"507427\":1742014295,\"507386\":1742014295,\"35\":1678990202,\"638505\":1724850291,\"426946\":1736164913,\"13\":1678990202}",
+              "category_v2_map": {
+                "263": true,
+                "1": true,
+                "493": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/2120d3e09db9434fb3dd3584a5d0ce50~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=T53qiOt6eYdNY21gGQAfVi%2Fyd%2F8%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 6921757527960982797,
+                  "AuthorName": "清茶乏味"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "钓鱼日记",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/a2a258bc8bdca56cfa1ea59daaf3e2ed~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008378&x-signature=xw%2BR2E9EcsZTniYIZSsxPqcnYQQ%3D",
+              "reputation_thumb_uri": "novel-pic-r/d82d93e94b19df439f1082166bf2f55e",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "休闲文(钓鱼+赶海)\n失业青年苏叶准备回家休息一段时间，大海，蓝天，白云，最能治愈人心。\n苏叶发现，钓钓鱼、赶赶海、打打渔，再养一只阿猫阿狗，这样的生活好像也挺不错的样子，就是父母看自己的眼神好像越来越不对劲！\n第一天钓鱼，钓获大青斑，母亲喜笑颜开。\n第二天钓鱼，钓获一箱全世界最好吃的黄脚腊，母亲一边忙碌杀鱼一边碎碎念。\n第三天钓鱼，钓获一麻袋乌头鱼！母亲手中的刀闪烁着寒光，眼中已经有了杀气！\n不过，把鱼卖了好像也是个不错的选择？至此，苏叶开启了搞鱼卖钱的生活。\n希望本文能给忙碌生活中的朋友们带来一丝欢乐。",
+              "read_page_progress": "0",
+              "read_cnt_text": "4.5万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/2120d3e09db9434fb3dd3584a5d0ce50~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=KtQPH5IVuD34rD0Yyn5TceHHyAE%3D",
+              "raw_book_name": "钓鱼人生：从钓到大石斑鱼开始",
+              "color_audio_dominate": "#252A2E"
+            }
+          ],
+          "search_attached_info": "8267779798625174881:12:0:2755712789:clks####3@20260318165918AC8834C0F5636A28A701",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "143.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市种田",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：清茶乏味",
+                "rich_text": "作者：清茶乏味",
+                "high_light_position": []
+              },
+              {
+                "text": "【钓鱼、赶海、打鱼、养一只猫狗，这样的生活好像也挺不错的样子！】...愈人心。 苏叶发现，钓钓鱼、赶赶海、打打渔，再养一只阿猫阿狗，这样的生活好像也挺不错的样子，就是父母看自己的眼神好像越来越不对劲！ 第一天钓鱼，钓获大青斑，母亲喜笑颜开。 第二天钓鱼，钓获一箱全世界最好吃的黄脚腊，母亲一边忙碌杀鱼一边碎碎念。 第三天钓鱼，钓获一麻袋乌头鱼！母亲手中的刀闪烁着寒光，眼中已经有了杀气！ 不过，把鱼卖了好像也是个不错的选择？至此，苏叶开启了搞鱼卖钱的生活。 希望本文能给忙碌生活中的朋友们带来一丝欢乐。",
+                "rich_text": "休闲文(<em>钓鱼</em>+赶海)\n失业青年苏叶准备回家休息一段时间，大海，蓝天，白云，最能治愈人心。\n苏叶发现，<em>钓钓鱼</em>、赶赶海、打打渔，再养一只阿猫阿狗，这样的生活好像也挺不错的样子，就是父母看自己的眼神好像越来越不对劲！\n第一天<em>钓鱼</em>，<em>钓</em>获大青斑，母亲喜笑颜开。\n第二天<em>钓鱼</em>，<em>钓</em>获一箱全世界最好吃的黄脚腊，母亲一边忙碌杀<em>鱼</em>一边碎碎念。\n第三天<em>钓鱼</em>，<em>钓</em>获一麻袋乌头<em>鱼</em>！母亲手中的刀闪烁着寒光，眼中已经有了杀气！\n不过，把<em>鱼</em>卖了好像也是个不错的选择？至此，苏叶开启了搞<em>鱼</em>卖钱的生活。\n希望本文能给忙碌生活中的朋友们带来一丝欢乐。",
+                "high_light_position": [
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    45,
+                    3
+                  ],
+                  [
+                    104,
+                    2
+                  ],
+                  [
+                    124,
+                    2
+                  ],
+                  [
+                    160,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1013,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7358307848691911742",
+          "search_result_id": "7358307848691911742",
+          "search_high_light": {
+            "abstract": {
+              "text": "...场系统，从此带领所有钓鱼佬走上人生巅峰。 多种系统奇幻奖励，打造震惊世界的神话钓场，全民钓鱼时代来临，开启最强钓鱼佬培训。 钓鱼呼吸法，解锁基因，开发人体潜力，钓鱼佬化身超级赛亚人，轻松拿捏亿万吨巨物。 诸多异能觉醒，法天象地，百毒不侵，金刚不坏，意念操控…… 绝世钓者携不灭钓体，先天钓鱼圣体，吞天魔体，五行钓体，阴阳钓体频频现世。 华夏古武传承现世，降龙十八钓，打鱼棒法，六脉神钓，独孤九钓，太极钓法，吞天魔钓，斩天拔竿斩… 钓场鱼种进化，变异巨物横行，白龙王鱼（变异白鲟），赤焰龙鲤（变异鲤鱼），赤眼碧鳞鱼（变异草鱼）相继出现。 基因生物研究，创造出青龙，龙型锦鲤，龙头罗非，吞天龙鲤，白虎破军鲨，朱雀焚天鲲，更有何罗鱼，赤儒鱼，冉遗鱼等神话生物现身钓区。 建立钓鱼佬等级制度，钓者，钓师，钓宗，钓王，钓皇，钓尊，钓帝，钓圣，钓神，无数钓鱼佬彻底疯狂。 那一日，星海暴动，星空摇摇欲坠，无数钓鱼佬自蓝星横空出世，以手中之竿，横扫星海。 我有一竿，钓天，钓地，钓苍生！ 呸！什么星海禁地，星空墓场？ 钓鱼佬啊我，这不是我梦寐以求的巨物钓区？ （本书纯属吹牛逼，勿与现实接轨）",
+              "rich_text": "农村小伙意外获得星际<em>钓</em>场系统，从此带领所有<em>钓鱼</em>佬走上人生巅峰。\n多种系统奇幻奖励，打造震惊世界的神话<em>钓</em>场，全民<em>钓鱼</em>时代来临，开启最强<em>钓鱼</em>佬培训。\n<em>钓鱼</em>呼吸法，解锁基因，开发人体潜力，<em>钓鱼</em>佬化身超级赛亚人，轻松拿捏亿万吨巨物。\n诸多异能觉醒，法天象地，百毒不侵，金刚不坏，意念操控……\n绝世<em>钓</em>者携不灭<em>钓</em>体，先天<em>钓鱼</em>圣体，吞天魔体，五行<em>钓</em>体，阴阳<em>钓</em>体频频现世。\n华夏古武传承现世，降龙十八<em>钓</em>，打<em>鱼</em>棒法，六脉神<em>钓</em>，独孤九<em>钓</em>，太极<em>钓</em>法，吞天魔<em>钓</em>，斩天拔竿斩…\n<em>钓</em>场<em>鱼</em>种进化，变异巨物横行，白龙王<em>鱼</em>（变异白鲟），赤焰龙鲤（变异鲤<em>鱼</em>），赤眼碧鳞<em>鱼</em>（变异草<em>鱼</em>）相继出现。\n基因生物研究，创造出青龙，龙型锦鲤，龙头罗非，吞天龙鲤，白虎破军鲨，朱雀焚天鲲，更有何罗<em>鱼</em>，赤儒<em>鱼</em>，冉遗<em>鱼</em>等神话生物现身<em>钓</em>区。\n建立<em>钓鱼</em>佬等级制度，<em>钓</em>者，<em>钓</em>师，<em>钓</em>宗，<em>钓</em>王，<em>钓</em>皇，<em>钓</em>尊，<em>钓</em>帝，<em>钓</em>圣，<em>钓</em>神，无数<em>钓鱼</em>佬彻底疯狂。\n那一日，星海暴动，星空摇摇欲坠，无数<em>钓鱼</em>佬自蓝星横空出世，以手中之竿，横扫星海。\n我有一竿，<em>钓</em>天，<em>钓</em>地，<em>钓</em>苍生！\n呸！什么星海禁地，星空墓场？\n<em>钓鱼</em>佬啊我，这不是我梦寐以求的巨物<em>钓</em>区？\n（本书纯属吹牛逼，勿与现实接轨）",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  47,
+                  2
+                ],
+                [
+                  58,
+                  2
+                ],
+                [
+                  65,
+                  2
+                ],
+                [
+                  83,
+                  2
+                ],
+                [
+                  146,
+                  2
+                ],
+                [
+                  337,
+                  2
+                ],
+                [
+                  374,
+                  2
+                ],
+                [
+                  401,
+                  2
+                ],
+                [
+                  455,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "最爽钓鱼佬，不爽来砍我！",
+              "rich_text": "最爽<em>钓鱼</em>佬，不爽来砍我！",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "农村小伙意外获得星际钓场系统，从此带领所有钓鱼佬走上人生巅峰。\n多种系统奇幻奖励，打造震惊世界的神话钓场，全民钓鱼时代来临，开启最强钓鱼佬培训。\n钓鱼呼吸法，解锁基因，开发人体潜力，钓鱼佬化身超级赛亚人，轻松拿捏亿万吨巨物。\n诸多异能觉醒，法天象地，百毒不侵，金刚不坏，意念操控……\n绝世钓者携不灭钓体，先天钓鱼圣体，吞天魔体，五行钓体，阴阳钓体频频现世。\n华夏古武传承现世，降龙十八钓，打鱼棒法，六脉神钓，独孤九钓，太极钓法，吞天魔钓，斩天拔竿斩…\n钓场鱼种进化，变异巨物横行，白龙王鱼（变异白鲟），赤焰龙鲤（变异鲤鱼），赤眼碧鳞鱼（变异草鱼）相继出现。\n基因生物研究，创造出青龙，龙型锦鲤，龙头罗非，吞天龙鲤，白虎破军鲨，朱雀焚天鲲，更有何罗鱼，赤儒鱼，冉遗鱼等神话生物现身钓区。\n建立钓鱼佬等级制度，钓者，钓师，钓宗，钓王，钓皇，钓尊，钓帝，钓圣，钓神，无数钓鱼佬彻底疯狂。\n那一日，星海暴动，星空摇摇欲坠，无数钓鱼佬自蓝星横空出世，以手中之竿，横扫星海。\n我有一竿，钓天，钓地，钓苍生！\n呸！什么星海禁地，星空墓场？\n钓鱼佬啊我，这不是我梦寐以求的巨物钓区？\n（本书纯属吹牛逼，勿与现实接轨）",
+              "author": "斗战八荒佛",
+              "book_id": "7358307848691911742",
+              "book_name": "最爽钓鱼佬，不爽来砍我！",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-04-16T11:52:32+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7358857252234609214",
+              "first_chapter_item_id": "7358857252234609214",
+              "first_chapter_title": "第一章 豪门大小姐爱上钓鱼佬",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7538861210469401113",
+              "last_chapter_item_id": "7538861210469401113",
+              "last_chapter_title": "第1139章 大结局！结束，亦是新的开始",
+              "last_chapter_update_time": "1755278823",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "8691",
+              "recommend_group_id": "7358307848691911742",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031816593843E4ABC6AA828A7E92DF\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "1138",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/f77638c62589812457c291e82024781e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=adPQUmTTuw%2FXuxFTcQaX8d9xZxU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "2299679",
+              "score": "8.8",
+              "exclusive": "1",
+              "role": "王空军",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":20,\"name\":\"神豪\",\"schema\":\"dragon1967://newCategoryDetail?id=20&name=神豪&genre_type=0&gender=1&source=detail\"},{\"category_id\":91,\"name\":\"多女主\",\"schema\":\"dragon1967://newCategoryDetail?id=91&name=多女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":69,\"name\":\"直播\",\"schema\":\"dragon1967://newCategoryDetail?id=69&name=直播&genre_type=0&gender=1&source=detail\"},{\"category_id\":453,\"name\":\"开局\",\"schema\":\"dragon1967://newCategoryDetail?id=453&name=开局&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7444186497072253977]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1788",
+              "sub_info": "8691人在读",
+              "last_publish_time": "1755278832",
+              "authorize_type": "1",
+              "media_id": "1725751534559232",
+              "original_book_name": "开局万亩水库，打造神话钓场",
+              "length_type": "0",
+              "op_tag": "245,853,888,531,535,536,873,889,966,984,1032,1164,1167",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/f77638c62589812457c291e82024781e",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/2d43a962a6b1bc75d3ba683eb80caa65",
+              "data_rate": "",
+              "all_bookshelf_count": "1051",
+              "pure_category_tags": "都市脑洞,开局",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#282820",
+              "read_count_all": "1542559",
+              "shelf_cnt_history": "217056",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"35\":1713367941,\"507427\":1741794437,\"1319\":1713756924,\"507386\":1741794437,\"1967\":1713367941,\"8704\":1747134990,\"510893\":1713367941,\"13\":1713367941,\"8662\":1713367941,\"6589\":1713799212,\"3040\":1713799212,\"2503\":1713367941,\"1128\":1713367941,\"2329\":1713367941,\"596084\":1715068937,\"638505\":1724796080,\"8661\":1713799212,\"8703\":1744962179}",
+              "category_v2_map": {
+                "20": true,
+                "69": true,
+                "91": true,
+                "262": true,
+                "1": true,
+                "19": true,
+                "453": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/f77638c62589812457c291e82024781e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=adPQUmTTuw%2FXuxFTcQaX8d9xZxU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7100060499332568351,
+                  "AuthorName": "斗战八荒佛"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/2d43a962a6b1bc75d3ba683eb80caa65~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008378&x-signature=lZQErMtZCAROddTJaEDCGLxkisQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "农村小伙意外获得星际钓场系统，从此带领所有钓鱼佬走上人生巅峰。\n多种系统奇幻奖励，打造震惊世界的神话钓场，全民钓鱼时代来临，开启最强钓鱼佬培训。\n钓鱼呼吸法，解锁基因，开发人体潜力，钓鱼佬化身超级赛亚人，轻松拿捏亿万吨巨物。\n诸多异能觉醒，法天象地，百毒不侵，金刚不坏，意念操控……\n绝世钓者携不灭钓体，先天钓鱼圣体，吞天魔体，五行钓体，阴阳钓体频频现世。\n华夏古武传承现世，降龙十八钓，打鱼棒法，六脉神钓，独孤九钓，太极钓法，吞天魔钓，斩天拔竿斩…\n钓场鱼种进化，变异巨物横行，白龙王鱼（变异白鲟），赤焰龙鲤（变异鲤鱼），赤眼碧鳞鱼（变异草鱼）相继出现。\n基因生物研究，创造出青龙，龙型锦鲤，龙头罗非，吞天龙鲤，白虎破军鲨，朱雀焚天鲲，更有何罗鱼，赤儒鱼，冉遗鱼等神话生物现身钓区。\n建立钓鱼佬等级制度，钓者，钓师，钓宗，钓王，钓皇，钓尊，钓帝，钓圣，钓神，无数钓鱼佬彻底疯狂。\n那一日，星海暴动，星空摇摇欲坠，无数钓鱼佬自蓝星横空出世，以手中之竿，横扫星海。\n我有一竿，钓天，钓地，钓苍生！\n呸！什么星海禁地，星空墓场？\n钓鱼佬啊我，这不是我梦寐以求的巨物钓区？\n（本书纯属吹牛逼，勿与现实接轨）",
+              "read_page_progress": "0",
+              "read_cnt_text": "8691人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/f77638c62589812457c291e82024781e~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=35199lg4F592y2TKiHGnQHo1LtI%3D",
+              "raw_book_name": "最爽钓鱼佬，不爽来砍我！",
+              "color_audio_dominate": "#8D7C7D"
+            }
+          ],
+          "search_attached_info": "8267779798625174881:13:0:683879056:clks####3@20260318165918AC8834C0F5636A28A701",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "230.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "8691人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：斗战八荒佛",
+                "rich_text": "作者：斗战八荒佛",
+                "high_light_position": []
+              },
+              {
+                "text": "...场系统，从此带领所有钓鱼佬走上人生巅峰。 多种系统奇幻奖励，打造震惊世界的神话钓场，全民钓鱼时代来临，开启最强钓鱼佬培训。 钓鱼呼吸法，解锁基因，开发人体潜力，钓鱼佬化身超级赛亚人，轻松拿捏亿万吨巨物。 诸多异能觉醒，法天象地，百毒不侵，金刚不坏，意念操控…… 绝世钓者携不灭钓体，先天钓鱼圣体，吞天魔体，五行钓体，阴阳钓体频频现世。 华夏古武传承现世，降龙十八钓，打鱼棒法，六脉神钓，独孤九钓，太极钓法，吞天魔钓，斩天拔竿斩… 钓场鱼种进化，变异巨物横行，白龙王鱼（变异白鲟），赤焰龙鲤（变异鲤鱼），赤眼碧鳞鱼（变异草鱼）相继出现。 基因生物研究，创造出青龙，龙型锦鲤，龙头罗非，吞天龙鲤，白虎破军鲨，朱雀焚天鲲，更有何罗鱼，赤儒鱼，冉遗鱼等神话生物现身钓区。 建立钓鱼佬等级制度，钓者，钓师，钓宗，钓王，钓皇，钓尊，钓帝，钓圣，钓神，无数钓鱼佬彻底疯狂。 那一日，星海暴动，星空摇摇欲坠，无数钓鱼佬自蓝星横空出世，以手中之竿，横扫星海。 我有一竿，钓天，钓地，钓苍生！ 呸！什么星海禁地，星空墓场？ 钓鱼佬啊我，这不是我梦寐以求的巨物钓区？ （本书纯属吹牛逼，勿与现实接轨）",
+                "rich_text": "农村小伙意外获得星际<em>钓</em>场系统，从此带领所有<em>钓鱼</em>佬走上人生巅峰。\n多种系统奇幻奖励，打造震惊世界的神话<em>钓</em>场，全民<em>钓鱼</em>时代来临，开启最强<em>钓鱼</em>佬培训。\n<em>钓鱼</em>呼吸法，解锁基因，开发人体潜力，<em>钓鱼</em>佬化身超级赛亚人，轻松拿捏亿万吨巨物。\n诸多异能觉醒，法天象地，百毒不侵，金刚不坏，意念操控……\n绝世<em>钓</em>者携不灭<em>钓</em>体，先天<em>钓鱼</em>圣体，吞天魔体，五行<em>钓</em>体，阴阳<em>钓</em>体频频现世。\n华夏古武传承现世，降龙十八<em>钓</em>，打<em>鱼</em>棒法，六脉神<em>钓</em>，独孤九<em>钓</em>，太极<em>钓</em>法，吞天魔<em>钓</em>，斩天拔竿斩…\n<em>钓</em>场<em>鱼</em>种进化，变异巨物横行，白龙王<em>鱼</em>（变异白鲟），赤焰龙鲤（变异鲤<em>鱼</em>），赤眼碧鳞<em>鱼</em>（变异草<em>鱼</em>）相继出现。\n基因生物研究，创造出青龙，龙型锦鲤，龙头罗非，吞天龙鲤，白虎破军鲨，朱雀焚天鲲，更有何罗<em>鱼</em>，赤儒<em>鱼</em>，冉遗<em>鱼</em>等神话生物现身<em>钓</em>区。\n建立<em>钓鱼</em>佬等级制度，<em>钓</em>者，<em>钓</em>师，<em>钓</em>宗，<em>钓</em>王，<em>钓</em>皇，<em>钓</em>尊，<em>钓</em>帝，<em>钓</em>圣，<em>钓</em>神，无数<em>钓鱼</em>佬彻底疯狂。\n那一日，星海暴动，星空摇摇欲坠，无数<em>钓鱼</em>佬自蓝星横空出世，以手中之竿，横扫星海。\n我有一竿，<em>钓</em>天，<em>钓</em>地，<em>钓</em>苍生！\n呸！什么星海禁地，星空墓场？\n<em>钓鱼</em>佬啊我，这不是我梦寐以求的巨物<em>钓</em>区？\n（本书纯属吹牛逼，勿与现实接轨）",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    47,
+                    2
+                  ],
+                  [
+                    58,
+                    2
+                  ],
+                  [
+                    65,
+                    2
+                  ],
+                  [
+                    83,
+                    2
+                  ],
+                  [
+                    146,
+                    2
+                  ],
+                  [
+                    337,
+                    2
+                  ],
+                  [
+                    374,
+                    2
+                  ],
+                  [
+                    401,
+                    2
+                  ],
+                  [
+                    455,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1014,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7470775263815535678",
+          "search_result_id": "7470775263815535678",
+          "search_high_light": {
+            "abstract": {
+              "text": "...不！  　　那仅是我钓鱼时挂在钩子上饵鱼的重量。  　　与价值三十万稀有鱼缠斗，与体长数米的典藏巨物拉扯，与吨级海洋霸主拼杀更是成了方圆的游钓日常。  　　——“大家好，我叫方圆，是一名极限钓鱼爱好者，今天,我将带大家一同探索那些隐藏在水下的神秘巨物。”  　　........",
+              "rich_text": "刚毕业的方圆工作无门，便选择回家休息一段时间，未曾想在一次野<em>钓</em>过程中绑定了气运垂<em>钓</em>系统。\n      ——叮，今日垂<em>钓</em>气运：上上（渔获连连！）\n\n　　系统一响，渔获万两，自此爆护不是梦。\n\n　　随手一抛就是诸多水族爱好者狂热追求极品观赏，\n\n　　单变异，双变异更是手到擒来！\n\n　　自此，\n\n　　从一方水塘到碧海云天，从野河暴连到深海巨怪，方圆开启了一段独属于他的传奇游<em>钓</em>之旅。\n\n\n　　啥？\n\n　　十斤就是大物？\n\n　　不，不不！\n\n　　那仅是我<em>钓鱼</em>时挂在钩子上饵<em>鱼</em>的重量。\n\n　　与价值三十万稀有<em>鱼</em>缠斗，与体长数米的典藏巨物拉扯，与吨级海洋霸主拼杀更是成了方圆的游<em>钓</em>日常。\n\n　　——“大家好，我叫方圆，是一名极限<em>钓鱼</em>爱好者，今天,我将带大家一同探索那些隐藏在水下的神秘巨物。”\n\n　　........",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  98,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "快乐垂钓，我钓的鱼全是ssr",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "刚毕业的方圆工作无门，便选择回家休息一段时间，未曾想在一次野钓过程中绑定了气运垂钓系统。\n      ——叮，今日垂钓气运：上上（渔获连连！）\n\n　　系统一响，渔获万两，自此爆护不是梦。\n\n　　随手一抛就是诸多水族爱好者狂热追求极品观赏，\n\n　　单变异，双变异更是手到擒来！\n\n　　自此，\n\n　　从一方水塘到碧海云天，从野河暴连到深海巨怪，方圆开启了一段独属于他的传奇游钓之旅。\n\n\n　　啥？\n\n　　十斤就是大物？\n\n　　不，不不！\n\n　　那仅是我钓鱼时挂在钩子上饵鱼的重量。\n\n　　与价值三十万稀有鱼缠斗，与体长数米的典藏巨物拉扯，与吨级海洋霸主拼杀更是成了方圆的游钓日常。\n\n　　——“大家好，我叫方圆，是一名极限钓鱼爱好者，今天,我将带大家一同探索那些隐藏在水下的神秘巨物。”\n\n　　........",
+              "author": "潮牌地锅鸡",
+              "book_id": "7470775263815535678",
+              "book_name": "快乐垂钓，我钓的鱼全是ssr",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-02-13T13:43:33+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7470778344301134398",
+              "first_chapter_item_id": "7470778344301134398",
+              "first_chapter_title": "第001章 气运垂钓",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7569183448477205017",
+              "last_chapter_item_id": "7569183448477205017",
+              "last_chapter_title": "第523章 婚礼（大结局）",
+              "last_chapter_update_time": "1762337898",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "7296",
+              "recommend_group_id": "7470775263815535678",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031816593843E4ABC6AA828A7E92DF\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "516",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/fdf29eb7683cf9e2892e53a385a1d3e5~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=LhvrgPD%2FCqnpbK6WBWWWSdlskiE%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1115055",
+              "score": "7.5",
+              "exclusive": "1",
+              "role": "方圆,方神",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":69,\"name\":\"直播\",\"schema\":\"dragon1967://newCategoryDetail?id=69&name=直播&genre_type=0&gender=1&source=detail\"},{\"category_id\":493,\"name\":\"钓鱼\",\"schema\":\"dragon1967://newCategoryDetail?id=493&name=钓鱼&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7510113997333466136]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1428",
+              "sub_info": "7296人在读",
+              "last_publish_time": "1762337935",
+              "authorize_type": "1",
+              "media_id": "1823914211975179",
+              "original_book_name": "悠闲人生从钓鱼开始",
+              "length_type": "0",
+              "op_tag": "305,535,536,1032,1167",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/fdf29eb7683cf9e2892e53a385a1d3e5",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oab9f63f0bda1f61fb639ac188709ea85~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008378&x-signature=csqyuYkpO1ZE1qGo9z%2B7nRjeI2A%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "636",
+              "pure_category_tags": "都市脑洞,钓鱼",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#282020",
+              "read_count_all": "479384",
+              "shelf_cnt_history": "55368",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8662\":1739427779,\"8703\":1744967111,\"8661\":1739521744,\"510893\":1739427779,\"6589\":1739521744,\"507386\":1741779624,\"1128\":1739427779,\"13\":1739427779,\"2329\":1739427779,\"596084\":1739521744,\"3040\":1739521744,\"507427\":1741779624,\"638505\":1739521744,\"1967\":1739427779,\"35\":1739427779,\"2503\":1739427779,\"8704\":1747118074}",
+              "category_v2_map": {
+                "262": true,
+                "1": true,
+                "19": true,
+                "493": true,
+                "69": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/fdf29eb7683cf9e2892e53a385a1d3e5~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=LhvrgPD%2FCqnpbK6WBWWWSdlskiE%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7470765307410257214,
+                  "AuthorName": "潮牌地锅鸡"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oab9f63f0bda1f61fb639ac188709ea85~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008378&x-signature=kRa4qeU4XxqDMkS7GBnqoqQokRQ%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "刚毕业的方圆工作无门，便选择回家休息一段时间，未曾想在一次野钓过程中绑定了气运垂钓系统。\n      ——叮，今日垂钓气运：上上（渔获连连！）\n\n　　系统一响，渔获万两，自此爆护不是梦。\n\n　　随手一抛就是诸多水族爱好者狂热追求极品观赏，\n\n　　单变异，双变异更是手到擒来！\n\n　　自此，\n\n　　从一方水塘到碧海云天，从野河暴连到深海巨怪，方圆开启了一段独属于他的传奇游钓之旅。\n\n\n　　啥？\n\n　　十斤就是大物？\n\n　　不，不不！\n\n　　那仅是我钓鱼时挂在钩子上饵鱼的重量。\n\n　　与价值三十万稀有鱼缠斗，与体长数米的典藏巨物拉扯，与吨级海洋霸主拼杀更是成了方圆的游钓日常。\n\n　　——“大家好，我叫方圆，是一名极限钓鱼爱好者，今天,我将带大家一同探索那些隐藏在水下的神秘巨物。”\n\n　　........",
+              "read_page_progress": "0",
+              "read_cnt_text": "7296人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/fdf29eb7683cf9e2892e53a385a1d3e5~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=orc7YDHWUZbyDXUycYE4G51v7NM%3D",
+              "raw_book_name": "快乐垂钓，我钓的鱼全是ssr",
+              "color_audio_dominate": "#B9E0D7"
+            }
+          ],
+          "search_attached_info": "8267779798625174881:14:0:2176488071:clks####3@20260318165918AC8834C0F5636A28A701",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "111.5万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "7296人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：潮牌地锅鸡",
+                "rich_text": "作者：潮牌地锅鸡",
+                "high_light_position": []
+              },
+              {
+                "text": "...不！  　　那仅是我钓鱼时挂在钩子上饵鱼的重量。  　　与价值三十万稀有鱼缠斗，与体长数米的典藏巨物拉扯，与吨级海洋霸主拼杀更是成了方圆的游钓日常。  　　——“大家好，我叫方圆，是一名极限钓鱼爱好者，今天,我将带大家一同探索那些隐藏在水下的神秘巨物。”  　　........",
+                "rich_text": "刚毕业的方圆工作无门，便选择回家休息一段时间，未曾想在一次野<em>钓</em>过程中绑定了气运垂<em>钓</em>系统。\n      ——叮，今日垂<em>钓</em>气运：上上（渔获连连！）\n\n　　系统一响，渔获万两，自此爆护不是梦。\n\n　　随手一抛就是诸多水族爱好者狂热追求极品观赏，\n\n　　单变异，双变异更是手到擒来！\n\n　　自此，\n\n　　从一方水塘到碧海云天，从野河暴连到深海巨怪，方圆开启了一段独属于他的传奇游<em>钓</em>之旅。\n\n\n　　啥？\n\n　　十斤就是大物？\n\n　　不，不不！\n\n　　那仅是我<em>钓鱼</em>时挂在钩子上饵<em>鱼</em>的重量。\n\n　　与价值三十万稀有<em>鱼</em>缠斗，与体长数米的典藏巨物拉扯，与吨级海洋霸主拼杀更是成了方圆的游<em>钓</em>日常。\n\n　　——“大家好，我叫方圆，是一名极限<em>钓鱼</em>爱好者，今天,我将带大家一同探索那些隐藏在水下的神秘巨物。”\n\n　　........",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    98,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1015,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7148690971826326540",
+          "search_result_id": "7148690971826326540",
+          "search_high_light": {
+            "abstract": {
+              "text": "【幻想过白雪皑皑的雪山，踏入寥无人烟的丛林深处】...勇往直前。 一本纯粹的慢节奏钓鱼文，分享钓鱼时候的趣事！单女主。 慢节奏，慢节奏，不是爽文！",
+              "rich_text": "我曾憧憬着一望无际的大海，也曾梦见过茫茫隔壁。\n幻想过白雪皑皑的雪山，踏入寥无人烟的丛林深处。\n失业后的林远拿起<em>鱼</em>竿找到了新的方向。\n从此丛林小溪，江河湖海。不论严寒酷暑，都将勇往直前。\n一本纯粹的慢节奏<em>钓鱼</em>文，分享<em>钓鱼</em>时候的趣事！单女主。\n慢节奏，慢节奏，不是爽文！",
+              "high_light_position": [
+                [
+                  41,
+                  2
+                ],
+                [
+                  47,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "游钓，从失业后开始",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "我曾憧憬着一望无际的大海，也曾梦见过茫茫隔壁。\n幻想过白雪皑皑的雪山，踏入寥无人烟的丛林深处。\n失业后的林远拿起鱼竿找到了新的方向。\n从此丛林小溪，江河湖海。不论严寒酷暑，都将勇往直前。\n一本纯粹的慢节奏钓鱼文，分享钓鱼时候的趣事！单女主。\n慢节奏，慢节奏，不是爽文！",
+              "author": "烟月吖",
+              "book_id": "7148690971826326540",
+              "book_name": "游钓，从失业后开始",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2022-09-29T14:52:00+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7148691065485296128",
+              "first_chapter_item_id": "7148691065485296128",
+              "first_chapter_title": "第1章 失业",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7277565031645086208",
+              "last_chapter_item_id": "7277565031645086208",
+              "last_chapter_title": "番外 哑光黑",
+              "last_chapter_update_time": "1694440202",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "3047",
+              "recommend_group_id": "7148690971826326540",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031816593843E4ABC6AA828A7E92DF\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "536",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d58e1184aa19447093f766b0380fdf8b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=z61YIWJrzIbDBNMvHULlEp9kpnk%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1516543",
+              "score": "8.8",
+              "exclusive": "1",
+              "role": "林远",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":493,\"name\":\"钓鱼\",\"schema\":\"dragon1967://newCategoryDetail?id=493&name=钓鱼&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "605",
+              "sub_info": "3047人在读",
+              "last_publish_time": "1694440209",
+              "authorize_type": "1",
+              "media_id": "1745285259757583",
+              "original_book_name": "我，游钓中国",
+              "length_type": "0",
+              "op_tag": "289,873,500,189,190,869,536,535,343,1167,1161",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/d58e1184aa19447093f766b0380fdf8b",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a43614213c34c780ac70b56718b697c4~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008378&x-signature=eOqbkv2zc4F0u5PSZfW76%2FPMREc%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "190",
+              "pure_category_tags": "都市脑洞,钓鱼",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#202020",
+              "read_count_all": "596864",
+              "shelf_cnt_history": "61905",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1112\":1693462266,\"2503\":1664434719,\"510893\":1689680751,\"8662\":1664434719,\"8661\":1681446212,\"3040\":1665988283,\"507427\":1744885700,\"426946\":1670835336,\"507386\":1744885700,\"2329\":1664434719,\"13\":1664434719,\"1967\":1664434719,\"638505\":1724835254,\"6589\":1677060073,\"8703\":1744885700,\"1128\":1664434719,\"35\":1664434719,\"596084\":1715146615,\"8704\":1747745524}",
+              "category_v2_map": {
+                "1": true,
+                "262": true,
+                "19": true,
+                "493": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d58e1184aa19447093f766b0380fdf8b~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=z61YIWJrzIbDBNMvHULlEp9kpnk%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7148690972442891524,
+                  "AuthorName": "烟月吖"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/a43614213c34c780ac70b56718b697c4~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008378&x-signature=lCJxd2OAgmMeYhJDATmzIrwhc08%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "我曾憧憬着一望无际的大海，也曾梦见过茫茫隔壁。\n幻想过白雪皑皑的雪山，踏入寥无人烟的丛林深处。\n失业后的林远拿起鱼竿找到了新的方向。\n从此丛林小溪，江河湖海。不论严寒酷暑，都将勇往直前。\n一本纯粹的慢节奏钓鱼文，分享钓鱼时候的趣事！单女主。\n慢节奏，慢节奏，不是爽文！",
+              "read_page_progress": "0",
+              "read_cnt_text": "3047人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/d58e1184aa19447093f766b0380fdf8b~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=%2FAM9uYp45dqF7bSEj1CA5Hq2R1E%3D",
+              "raw_book_name": "游钓，从失业后开始",
+              "color_audio_dominate": "#9D8E5E"
+            }
+          ],
+          "search_attached_info": "8267779798625174881:15:0:3483582184:clks####3@20260318165918AC8834C0F5636A28A701",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "151.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "3047人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：烟月吖",
+                "rich_text": "作者：烟月吖",
+                "high_light_position": []
+              },
+              {
+                "text": "【幻想过白雪皑皑的雪山，踏入寥无人烟的丛林深处】...勇往直前。 一本纯粹的慢节奏钓鱼文，分享钓鱼时候的趣事！单女主。 慢节奏，慢节奏，不是爽文！",
+                "rich_text": "我曾憧憬着一望无际的大海，也曾梦见过茫茫隔壁。\n幻想过白雪皑皑的雪山，踏入寥无人烟的丛林深处。\n失业后的林远拿起<em>鱼</em>竿找到了新的方向。\n从此丛林小溪，江河湖海。不论严寒酷暑，都将勇往直前。\n一本纯粹的慢节奏<em>钓鱼</em>文，分享<em>钓鱼</em>时候的趣事！单女主。\n慢节奏，慢节奏，不是爽文！",
+                "high_light_position": [
+                  [
+                    41,
+                    2
+                  ],
+                  [
+                    47,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1016,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7284969281710722082",
+          "search_result_id": "7284969281710722082",
+          "search_high_light": {
+            "title": {
+              "text": "赶海：退学回家，赶海让我暴富",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "（日常+轻松+赶海+神豪） 　　我从重点高校退了学，在老家渔村待了两年， 　　以前村里众人口中的天之骄子，变成了人见人厌的二溜子。 　　直到有一天我发现我能看到自己的运气值，而且还能从一个虚拟的屏幕中兑换赶海工具。 　　从此，我的人生就像开了挂。 　　一把沙铲，轻松日入数千； 　　一把铁锹，我居然挖到了一桶的黄油蟹； 　　一支鱼竿在手，我感觉我承包了大海，属于自己的大海，大黄花、大红斑… 　　简介无力，请看正文。",
+              "rich_text": "（日常+轻松+赶海+神豪）\n　　我从重点高校退了学，在老家渔村待了两年，\n　　以前村里众人口中的天之骄子，变成了人见人厌的二溜子。\n　　直到有一天我发现我能看到自己的运气值，而且还能从一个虚拟的屏幕中兑换赶海工具。\n　　从此，我的人生就像开了挂。\n　　一把沙铲，轻松日入数千；\n　　一把铁锹，我居然挖到了一桶的黄油蟹；\n　　一支<em>鱼</em>竿在手，我感觉我承包了大海，属于自己的大海，大黄花、大红斑…\n　　简介无力，请看正文。",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "（日常+轻松+赶海+神豪）\n　　我从重点高校退了学，在老家渔村待了两年，\n　　以前村里众人口中的天之骄子，变成了人见人厌的二溜子。\n　　直到有一天我发现我能看到自己的运气值，而且还能从一个虚拟的屏幕中兑换赶海工具。\n　　从此，我的人生就像开了挂。\n　　一把沙铲，轻松日入数千；\n　　一把铁锹，我居然挖到了一桶的黄油蟹；\n　　一支鱼竿在手，我感觉我承包了大海，属于自己的大海，大黄花、大红斑…\n　　简介无力，请看正文。",
+              "author": "山峰",
+              "book_id": "7284969281710722082",
+              "book_name": "赶海：退学回家，赶海让我暴富",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-10-01T20:41:26+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7284969361033724431",
+              "first_chapter_item_id": "7284969361033724431",
+              "first_chapter_title": "第1章 非常规开局",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7617682266092732952",
+              "last_chapter_item_id": "7617682266092732952",
+              "last_chapter_title": "第2019章 缺钱啊",
+              "last_chapter_update_time": "1773629896",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "265142",
+              "recommend_group_id": "7284969281710722082",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031816593843E4ABC6AA828A7E92DF\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "2019",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/50fa15c4b2d39c4d3df28b065df62f78~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=8Dvrx8fIfMRoEFIfuPpf5IbttN8%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "4465636",
+              "score": "9.5",
+              "exclusive": "1",
+              "role": "赵勤",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":453,\"name\":\"开局\",\"schema\":\"dragon1967://newCategoryDetail?id=453&name=开局&genre_type=0&gender=1&source=detail\"},{\"category_id\":778,\"name\":\"搞笑轻松\",\"schema\":\"dragon1967://newCategoryDetail?id=778&name=搞笑轻松&genre_type=0&gender=1&source=detail\"},{\"category_id\":840,\"name\":\"发家致富\",\"schema\":\"dragon1967://newCategoryDetail?id=840&name=发家致富&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7316397741301632062,7567579943211650110]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "96106",
+              "sub_info": "26.6万人在读",
+              "last_publish_time": "1773792044",
+              "authorize_type": "1",
+              "media_id": "1715850439299087",
+              "original_book_name": "赶海：开局一把沙铲承包整个沙滩",
+              "length_type": "0",
+              "op_tag": "535,1167,870,502,536,984,1165,1713,888,1403,873,531,964,860,245",
+              "keep_publish_days": "48",
+              "thumb_uri": "novel-pic/50fa15c4b2d39c4d3df28b065df62f78",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-novel.byteimg.com/origin/novel-static/db46a2a94ad355f4dab61c4b9ee7bd0b",
+              "data_rate": "",
+              "all_bookshelf_count": "24048",
+              "pure_category_tags": "都市脑洞,发家致富",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854775807,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":129151}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#285068",
+              "read_count_all": "10366278",
+              "shelf_cnt_history": "2136962",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"3040\":1696322673,\"1319\":1696320295,\"510893\":1696168312,\"1128\":1696168312,\"35\":1696168312,\"8704\":1747105400,\"6589\":1696322673,\"596084\":1714097943,\"13\":1696168312,\"2329\":1696168312,\"638505\":1724762344,\"1967\":1696168312,\"8662\":1696168312,\"507427\":1741784141,\"8703\":1744964435,\"507386\":1741784141,\"8661\":1696322673,\"2503\":1696168312}",
+              "category_v2_map": {
+                "37": true,
+                "19": true,
+                "778": true,
+                "453": true,
+                "840": true,
+                "262": true,
+                "1": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/50fa15c4b2d39c4d3df28b065df62f78~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=8Dvrx8fIfMRoEFIfuPpf5IbttN8%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7028164234525545732,
+                  "AuthorName": "山峰"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "海边的渔村",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/db46a2a94ad355f4dab61c4b9ee7bd0b~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008378&x-signature=mt4S7WSZKppvPKHcGy5yVzkoX8o%3D",
+              "reputation_thumb_uri": "novel-static/c95d2e8b77e14e02045475cd6160761d",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "（日常+轻松+赶海+神豪）\n　　我从重点高校退了学，在老家渔村待了两年，\n　　以前村里众人口中的天之骄子，变成了人见人厌的二溜子。\n　　直到有一天我发现我能看到自己的运气值，而且还能从一个虚拟的屏幕中兑换赶海工具。\n　　从此，我的人生就像开了挂。\n　　一把沙铲，轻松日入数千；\n　　一把铁锹，我居然挖到了一桶的黄油蟹；\n　　一支鱼竿在手，我感觉我承包了大海，属于自己的大海，大黄花、大红斑…\n　　简介无力，请看正文。",
+              "read_page_progress": "0",
+              "read_cnt_text": "26.6万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/50fa15c4b2d39c4d3df28b065df62f78~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=Pw%2BAUVrDkhsU6Z82TSiG5iHLnSI%3D",
+              "raw_book_name": "赶海：退学回家，赶海让我暴富",
+              "related_bookids": "{\"8662\":{\"205\":[7505302914760444953,7540953424926362686,7569145049728945176,7587987437691882520,7591857672559791129,7603633941718780952],\"203\":[7552836130605911102]},\"3040\":{\"205\":[7505302914760444953,7540953424926362686,7569145049728945176,7587987437691882520,7591857672559791129,7603633941718780952],\"203\":[7552836130605911102]},\"1967\":{\"205\":[7505302914760444953,7540953424926362686,7569145049728945176,7591435039116643390,7591857672559791129,7603633941718780952],\"203\":[7552836130605911102]},\"507386\":{\"203\":[7552836130605911102],\"205\":[7505302914760444953,7540953424926362686,7569145049728945176,7587987437691882520,7591857672559791129,7603633941718780952]},\"507427\":{\"203\":[7552836130605911102],\"205\":[7505302914760444953,7540953424926362686,7569145049728945176,7587987437691882520,7591857672559791129,7603633941718780952]}}",
+              "color_audio_dominate": "#DAE5EB"
+            }
+          ],
+          "search_attached_info": "8267779798625174881:16:0:542713807:clks####3@20260318165918AC8834C0F5636A28A701",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "番茄爆书",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "446.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "26万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：山峰",
+                "rich_text": "作者：山峰",
+                "high_light_position": []
+              },
+              {
+                "text": "（日常+轻松+赶海+神豪） 　　我从重点高校退了学，在老家渔村待了两年， 　　以前村里众人口中的天之骄子，变成了人见人厌的二溜子。 　　直到有一天我发现我能看到自己的运气值，而且还能从一个虚拟的屏幕中兑换赶海工具。 　　从此，我的人生就像开了挂。 　　一把沙铲，轻松日入数千； 　　一把铁锹，我居然挖到了一桶的黄油蟹； 　　一支鱼竿在手，我感觉我承包了大海，属于自己的大海，大黄花、大红斑… 　　简介无力，请看正文。",
+                "rich_text": "（日常+轻松+赶海+神豪）\n　　我从重点高校退了学，在老家渔村待了两年，\n　　以前村里众人口中的天之骄子，变成了人见人厌的二溜子。\n　　直到有一天我发现我能看到自己的运气值，而且还能从一个虚拟的屏幕中兑换赶海工具。\n　　从此，我的人生就像开了挂。\n　　一把沙铲，轻松日入数千；\n　　一把铁锹，我居然挖到了一桶的黄油蟹；\n　　一支<em>鱼</em>竿在手，我感觉我承包了大海，属于自己的大海，大黄花、大红斑…\n　　简介无力，请看正文。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1017,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7070866594057948199",
+          "search_result_id": "7070866594057948199",
+          "search_high_light": {
+            "abstract": {
+              "text": "【钓鱼穷三年？不，我跟别人不一样！】...书名《游钓四海：我靠钓鱼实现财富自由》 【海钓+单女主+无系统】    钓鱼穷三年？    不，我跟别人不一样！    不想当厂狗的于多多突然觉醒透视海水的能力，义无反顾的走上当一个钓鱼佬的不归路…………",
+              "rich_text": "原书名《游<em>钓</em>四海：我靠<em>钓鱼</em>实现财富自由》\n【海<em>钓</em>+单女主+无系统】\n   <em>钓鱼</em>穷三年？\n   不，我跟别人不一样！\n   不想当厂狗的于多多突然觉醒透视海水的能力，义无反顾的走上当一个<em>钓鱼</em>佬的不归路…………",
+              "high_light_position": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  31,
+                  2
+                ],
+                [
+                  57,
+                  2
+                ],
+                [
+                  112,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "让你钓鱼：你却给捞了艘潜艇",
+              "rich_text": "让你<em>钓鱼</em>：你却给捞了艘潜艇",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "原书名《游钓四海：我靠钓鱼实现财富自由》\n【海钓+单女主+无系统】\n   钓鱼穷三年？\n   不，我跟别人不一样！\n   不想当厂狗的于多多突然觉醒透视海水的能力，义无反顾的走上当一个钓鱼佬的不归路…………",
+              "author": "六个月",
+              "book_id": "7070866594057948199",
+              "book_name": "让你钓鱼：你却给捞了艘潜艇",
+              "category": "都市种田",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2022-03-03T21:33:40+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7070874386600985119",
+              "first_chapter_item_id": "7070874386600985119",
+              "first_chapter_title": "第1章 被表白了",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7288256109771506238",
+              "last_chapter_item_id": "7288256109771506238",
+              "last_chapter_title": "第700章 尾声",
+              "last_chapter_update_time": "1696929450",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "9403",
+              "recommend_group_id": "7070866594057948199",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031816593843E4ABC6AA828A7E92DF\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "700",
+              "source": "番茄小说",
+              "tags": "都市种田,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/61a5f10b29d7ccbec3e3252ba1878c1f~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=oOLo6iof4XV5V2%2F0yjhAMVW8WAs%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1423745",
+              "score": "9.0",
+              "exclusive": "1",
+              "role": "于多多",
+              "category_schema": "[{\"category_id\":263,\"name\":\"都市种田\",\"schema\":\"dragon1967://newCategoryDetail?id=263&name=都市种田&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":389,\"name\":\"单女主\",\"schema\":\"dragon1967://newCategoryDetail?id=389&name=单女主&genre_type=0&gender=1&source=detail\"},{\"category_id\":493,\"name\":\"钓鱼\",\"schema\":\"dragon1967://newCategoryDetail?id=493&name=钓鱼&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7257079573093944380]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "3100",
+              "sub_info": "9403人在读",
+              "last_publish_time": "1696929456",
+              "authorize_type": "1",
+              "media_id": "1725870814929951",
+              "original_book_name": "游钓四海：我靠钓鱼实现财富自由",
+              "length_type": "0",
+              "op_tag": "469,233,1104,245,321,873,900,966,183,535,184,853,237,1038,1102,190,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/61a5f10b29d7ccbec3e3252ba1878c1f",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/fc149fc4e3a4e38b5a083eabf7462e73",
+              "data_rate": "",
+              "all_bookshelf_count": "983",
+              "pure_category_tags": "都市种田,钓鱼",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#402020",
+              "read_count_all": "1476475",
+              "shelf_cnt_history": "192065",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8703\":1744948845,\"1967\":1646314864,\"638505\":1724843337,\"426946\":1736164925,\"183213\":1691648668,\"596084\":1715160527,\"8661\":1681449819,\"6589\":1665988140,\"507386\":1743219834,\"507427\":1743219834,\"1112\":1693461809,\"3040\":1655105743,\"510893\":1689673421,\"8704\":1747729360}",
+              "category_v2_map": {
+                "493": true,
+                "263": true,
+                "1": true,
+                "389": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/61a5f10b29d7ccbec3e3252ba1878c1f~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=oOLo6iof4XV5V2%2F0yjhAMVW8WAs%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7070748257294488840,
+                  "AuthorName": "六个月"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "sub_genre": "1",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/fc149fc4e3a4e38b5a083eabf7462e73~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008378&x-signature=Jy1SzJwXkCeeTQJMagvBkvqfBgU%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "原书名《游钓四海：我靠钓鱼实现财富自由》\n【海钓+单女主+无系统】\n   钓鱼穷三年？\n   不，我跟别人不一样！\n   不想当厂狗的于多多突然觉醒透视海水的能力，义无反顾的走上当一个钓鱼佬的不归路…………",
+              "read_page_progress": "0",
+              "read_cnt_text": "9403人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/61a5f10b29d7ccbec3e3252ba1878c1f~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=JhsfWdLQFY0oOG1x3j4pi%2Bm4NdU%3D",
+              "raw_book_name": "让你钓鱼：你却给捞了艘潜艇",
+              "related_bookids": "{\"507386\":{\"205\":[7563930538986195993]},\"507427\":{\"205\":[7563930538986195993]},\"8662\":{\"205\":[7563930538986195993]},\"3040\":{\"205\":[7563930538986195993]},\"1967\":{\"205\":[7563930538986195993]}}",
+              "color_audio_dominate": "#E0D9D8"
+            }
+          ],
+          "search_attached_info": "8267779798625174881:17:0:313214206:clks####3@20260318165918AC8834C0F5636A28A701",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短剧原著",
+              "Priority": 15,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "142.4万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "9403人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市种田",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：六个月",
+                "rich_text": "作者：六个月",
+                "high_light_position": []
+              },
+              {
+                "text": "【钓鱼穷三年？不，我跟别人不一样！】...书名《游钓四海：我靠钓鱼实现财富自由》 【海钓+单女主+无系统】    钓鱼穷三年？    不，我跟别人不一样！    不想当厂狗的于多多突然觉醒透视海水的能力，义无反顾的走上当一个钓鱼佬的不归路…………",
+                "rich_text": "原书名《游<em>钓</em>四海：我靠<em>钓鱼</em>实现财富自由》\n【海<em>钓</em>+单女主+无系统】\n   <em>钓鱼</em>穷三年？\n   不，我跟别人不一样！\n   不想当厂狗的于多多突然觉醒透视海水的能力，义无反顾的走上当一个<em>钓鱼</em>佬的不归路…………",
+                "high_light_position": [
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    31,
+                    2
+                  ],
+                  [
+                    57,
+                    2
+                  ],
+                  [
+                    112,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1018,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7358265182335798297",
+          "search_result_id": "7358265182335798297",
+          "search_high_light": {
+            "title": {
+              "text": "传奇渔夫：深海渔猎，寻宝探险",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "（日常+轻松+赶海+钓鱼+神壕） 张海穿越后绑定了最强赶海系统，成为了一名渔夫。 从此以后。 几百斤的大石斑。 最罕见的七彩龙虾。 上千斤的蓝鳍金枪鱼。 深藏在海底内的宝藏。 所有这些，通通都是他的。 只要是在海里，没有他找不到的，也没有他得不到的！、、、、、、、、、、、、、、、、、、、、、、",
+              "rich_text": "（日常+轻松+赶海+<em>钓鱼</em>+神壕）\n张海穿越后绑定了最强赶海系统，成为了一名渔夫。\n从此以后。\n几百斤的大石斑。\n最罕见的七彩龙虾。\n上千斤的蓝鳍金枪<em>鱼</em>。\n深藏在海底内的宝藏。\n所有这些，通通都是他的。\n只要是在海里，没有他找不到的，也没有他得不到的！、、、、、、、、、、、、、、、、、、、、、、",
+              "high_light_position": [
+                [
+                  10,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "（日常+轻松+赶海+钓鱼+神壕）\n张海穿越后绑定了最强赶海系统，成为了一名渔夫。\n从此以后。\n几百斤的大石斑。\n最罕见的七彩龙虾。\n上千斤的蓝鳍金枪鱼。\n深藏在海底内的宝藏。\n所有这些，通通都是他的。\n只要是在海里，没有他找不到的，也没有他得不到的！、、、、、、、、、、、、、、、、、、、、、、",
+              "author": "小沐羊",
+              "book_id": "7358265182335798297",
+              "book_name": "传奇渔夫：深海渔猎，寻宝探险",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-04-16T09:06:58+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7358265594174505497",
+              "first_chapter_item_id": "7358265594174505497",
+              "first_chapter_title": "第1章 赶海系统",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7523072187708736024",
+              "last_chapter_item_id": "7523072187708736024",
+              "last_chapter_title": "第626章 他成了！（完结）",
+              "last_chapter_update_time": "1751601851",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "15255",
+              "recommend_group_id": "7358265182335798297",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031816593843E4ABC6AA828A7E92DF\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "626",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/cfc459de860aa990fab2f371d3656a2e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=ujYWBaGFhnaURWriCmu5pNMWDtA%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "2053002",
+              "score": "8.4",
+              "exclusive": "1",
+              "role": "张海",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":20,\"name\":\"神豪\",\"schema\":\"dragon1967://newCategoryDetail?id=20&name=神豪&genre_type=0&gender=1&source=detail\"},{\"category_id\":40,\"name\":\"海岛\",\"schema\":\"dragon1967://newCategoryDetail?id=40&name=海岛&genre_type=0&gender=1&source=detail\"},{\"category_id\":493,\"name\":\"钓鱼\",\"schema\":\"dragon1967://newCategoryDetail?id=493&name=钓鱼&genre_type=0&gender=1&source=detail\"},{\"category_id\":778,\"name\":\"搞笑轻松\",\"schema\":\"dragon1967://newCategoryDetail?id=778&name=搞笑轻松&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7524021203091082265]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "6528",
+              "sub_info": "1.6万人在读",
+              "last_publish_time": "1751601859",
+              "authorize_type": "1",
+              "media_id": "1760247651317772",
+              "original_book_name": "最强赶海王",
+              "length_type": "0",
+              "op_tag": "535,1167,900,889,856,536,245,1162,873,888,531",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/cfc459de860aa990fab2f371d3656a2e",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/c35f065df25e7007c9e00240cbe93ea9",
+              "data_rate": "",
+              "all_bookshelf_count": "1791",
+              "pure_category_tags": "都市脑洞,搞笑轻松",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#106090",
+              "read_count_all": "915704",
+              "shelf_cnt_history": "131674",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8662\":1713229804,\"1128\":1713229804,\"8704\":1747109694,\"2329\":1713229804,\"13\":1713229804,\"8661\":1713236781,\"2503\":1713229804,\"3040\":1713236781,\"510893\":1713229804,\"507386\":1741860265,\"1967\":1713229804,\"6589\":1713236781,\"507427\":1741860265,\"8703\":1744967859,\"35\":1713229804,\"638505\":1724768248,\"596084\":1715130466}",
+              "category_v2_map": {
+                "37": true,
+                "778": true,
+                "262": true,
+                "20": true,
+                "40": true,
+                "493": true,
+                "1": true,
+                "19": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/cfc459de860aa990fab2f371d3656a2e~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=ujYWBaGFhnaURWriCmu5pNMWDtA%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7210249076246320445,
+                  "AuthorName": "小沐羊"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/c35f065df25e7007c9e00240cbe93ea9~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008378&x-signature=aCRaWPGAulopm8LD5Q%2BS%2BlrHuxg%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "（日常+轻松+赶海+钓鱼+神壕）\n张海穿越后绑定了最强赶海系统，成为了一名渔夫。\n从此以后。\n几百斤的大石斑。\n最罕见的七彩龙虾。\n上千斤的蓝鳍金枪鱼。\n深藏在海底内的宝藏。\n所有这些，通通都是他的。\n只要是在海里，没有他找不到的，也没有他得不到的！、、、、、、、、、、、、、、、、、、、、、、",
+              "read_page_progress": "0",
+              "read_cnt_text": "1.6万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/cfc459de860aa990fab2f371d3656a2e~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=x6X2GP1sdZXM7Hp0ACUH19JVUrg%3D",
+              "raw_book_name": "传奇渔夫：深海渔猎，寻宝探险",
+              "related_bookids": "{\"1967\":{\"205\":[7598118923749297177]},\"507386\":{\"205\":[7598118923749297177]},\"507427\":{\"205\":[7598118923749297177]},\"8662\":{\"205\":[7598118923749297177]},\"3040\":{\"205\":[7598118923749297177]}}",
+              "color_audio_dominate": "#D1E2E7"
+            }
+          ],
+          "search_attached_info": "8267779798625174881:18:0:1204361495:clks####3@20260318165918AC8834C0F5636A28A701",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短剧原著",
+              "Priority": 15,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "205.3万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "1万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：小沐羊",
+                "rich_text": "作者：小沐羊",
+                "high_light_position": []
+              },
+              {
+                "text": "（日常+轻松+赶海+钓鱼+神壕） 张海穿越后绑定了最强赶海系统，成为了一名渔夫。 从此以后。 几百斤的大石斑。 最罕见的七彩龙虾。 上千斤的蓝鳍金枪鱼。 深藏在海底内的宝藏。 所有这些，通通都是他的。 只要是在海里，没有他找不到的，也没有他得不到的！、、、、、、、、、、、、、、、、、、、、、、",
+                "rich_text": "（日常+轻松+赶海+<em>钓鱼</em>+神壕）\n张海穿越后绑定了最强赶海系统，成为了一名渔夫。\n从此以后。\n几百斤的大石斑。\n最罕见的七彩龙虾。\n上千斤的蓝鳍金枪<em>鱼</em>。\n深藏在海底内的宝藏。\n所有这些，通通都是他的。\n只要是在海里，没有他找不到的，也没有他得不到的！、、、、、、、、、、、、、、、、、、、、、、",
+                "high_light_position": [
+                  [
+                    10,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1019,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7254799851911646245",
+          "search_result_id": "7254799851911646245",
+          "search_high_light": {
+            "abstract": {
+              "text": "【厌倦了都市的打工生活，转身就跑回老家，南广省的渔村】...一枚山海珠，从此过上钓钓鱼，出出海，养鸡养鸭的悠闲生活。 逍遥渔夫，从此起航！！ （故事纯属虚构，看官老爷们当平行世界就好）",
+              "rich_text": "刚被新来的经理炒鱿<em>鱼</em>，转身进彩票店、就刮出四十万大奖。\n厌倦了城市的打工生活，陈骁云转身就跑回老家，南广省的沿海渔村。\n又幸运的在海边捡到一枚山海珠，从此过上<em>钓钓鱼</em>，出出海，养鸡养鸭的悠闲生活。\n逍遥渔夫，从此起航！！\n（故事纯属虚构，看官老爷们当平行世界就好）",
+              "high_light_position": [
+                [
+                  40,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "被辞退后，回家当渔民",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "刚被新来的经理炒鱿鱼，转身进彩票店、就刮出四十万大奖。\n厌倦了城市的打工生活，陈骁云转身就跑回老家，南广省的沿海渔村。\n又幸运的在海边捡到一枚山海珠，从此过上钓钓鱼，出出海，养鸡养鸭的悠闲生活。\n逍遥渔夫，从此起航！！\n（故事纯属虚构，看官老爷们当平行世界就好）",
+              "author": "梦唯鱼",
+              "book_id": "7254799851911646245",
+              "book_name": "被辞退后，回家当渔民",
+              "category": "都市修真",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2023-07-12T13:28:39+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7254799877278794244",
+              "first_chapter_item_id": "7254799877278794244",
+              "first_chapter_title": "第1章 被炒鱿鱼，刮奖中四十万",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7334740357214634558",
+              "last_chapter_item_id": "7334740357214634558",
+              "last_chapter_title": "第456章 大结局！",
+              "last_chapter_update_time": "1707752457",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "49484",
+              "recommend_group_id": "7254799851911646245",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031816593843E4ABC6AA828A7E92DF\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "456",
+              "source": "番茄小说",
+              "tags": "都市修真,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4d478fd1f0962529d5e21b95c3c92dc9~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=LUd7k3bAmV2VK0EqPJ9d%2B8fPPHU%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "1122305",
+              "score": "9.1",
+              "exclusive": "1",
+              "role": "陈骁云",
+              "category_schema": "[{\"category_id\":124,\"name\":\"都市修真\",\"schema\":\"dragon1967://newCategoryDetail?id=124&name=都市修真&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":44,\"name\":\"空间\",\"schema\":\"dragon1967://newCategoryDetail?id=44&name=空间&genre_type=0&gender=1&source=detail\"},{\"category_id\":493,\"name\":\"钓鱼\",\"schema\":\"dragon1967://newCategoryDetail?id=493&name=钓鱼&genre_type=0&gender=1&source=detail\"},{\"category_id\":11,\"name\":\"乡村\",\"schema\":\"dragon1967://newCategoryDetail?id=11&name=乡村&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "related_audio_bookids": "[7301344368269675558,7543912002813430846]",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "12347",
+              "sub_info": "5万人在读",
+              "last_publish_time": "1707752465",
+              "authorize_type": "1",
+              "media_id": "1736471767463943",
+              "original_book_name": "滨海小镇：逍遥渔夫",
+              "length_type": "0",
+              "op_tag": "1038,372,343,304,864,1095,473,302,536,1600,535,245,873,859,1586,373,966,1097,900,303",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/4d478fd1f0962529d5e21b95c3c92dc9",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p6-novel.byteimg.com/origin/novel-static/d2b8459b539e3d11bf137580c6b3c03f",
+              "data_rate": "",
+              "all_bookshelf_count": "4612",
+              "pure_category_tags": "都市修真,乡村",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#f0c878",
+              "read_count_all": "4158702",
+              "shelf_cnt_history": "619228",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8661\":1692675928,\"2503\":1689140238,\"13\":1689140238,\"8703\":1744967875,\"1112\":1693463846,\"507427\":1742533815,\"510893\":1689653274,\"596084\":1714098012,\"638505\":1724842366,\"1128\":1689140238,\"8704\":1747294876,\"3040\":1692675928,\"6589\":1689322756,\"426946\":1736165223,\"1967\":1689140238,\"35\":1689140238,\"2329\":1689140238,\"8662\":1689140238,\"507386\":1742533815}",
+              "category_v2_map": {
+                "493": true,
+                "124": true,
+                "1": true,
+                "44": true,
+                "11": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4d478fd1f0962529d5e21b95c3c92dc9~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=LUd7k3bAmV2VK0EqPJ9d%2B8fPPHU%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7133879629038753063,
+                  "AuthorName": "梦唯鱼"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "book_short_name": "牧海追风",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-static/d2b8459b539e3d11bf137580c6b3c03f~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008378&x-signature=PX81jqXM3ne3ndcl3ELxSpFqKPY%3D",
+              "reputation_thumb_uri": "novel-pic-r/782cbc4edfabac5d9b73eb9938ca8697",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "刚被新来的经理炒鱿鱼，转身进彩票店、就刮出四十万大奖。\n厌倦了城市的打工生活，陈骁云转身就跑回老家，南广省的沿海渔村。\n又幸运的在海边捡到一枚山海珠，从此过上钓钓鱼，出出海，养鸡养鸭的悠闲生活。\n逍遥渔夫，从此起航！！\n（故事纯属虚构，看官老爷们当平行世界就好）",
+              "read_page_progress": "0",
+              "read_cnt_text": "5万人在读",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/4d478fd1f0962529d5e21b95c3c92dc9~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008378&x-signature=1gvsn3YTNRVCj1ebCYH6c4%2FbpJo%3D",
+              "raw_book_name": "被辞退后，回家当渔民",
+              "related_bookids": "{\"507386\":{\"203\":[7527928160067800089]},\"507427\":{\"203\":[7527928160067800089]},\"8662\":{\"203\":[7527928160067800089]},\"3040\":{\"203\":[7527928160067800089]},\"1967\":{\"203\":[7527928160067800089]}}",
+              "color_audio_dominate": "#DAD6CE"
+            }
+          ],
+          "search_attached_info": "8267779798625174881:19:0:2708825246:clks####3@20260318165918AC8834C0F5636A28A701",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "“细糠”",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": true,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 0
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "112.2万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4万人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市修真",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：梦唯鱼",
+                "rich_text": "作者：梦唯<em>鱼</em>",
+                "high_light_position": [
+                  [
+                    5,
+                    1
+                  ]
+                ]
+              },
+              {
+                "text": "【厌倦了都市的打工生活，转身就跑回老家，南广省的渔村】...一枚山海珠，从此过上钓钓鱼，出出海，养鸡养鸭的悠闲生活。 逍遥渔夫，从此起航！！ （故事纯属虚构，看官老爷们当平行世界就好）",
+                "rich_text": "刚被新来的经理炒鱿<em>鱼</em>，转身进彩票店、就刮出四十万大奖。\n厌倦了城市的打工生活，陈骁云转身就跑回老家，南广省的沿海渔村。\n又幸运的在海边捡到一枚山海珠，从此过上<em>钓钓鱼</em>，出出海，养鸡养鸭的悠闲生活。\n逍遥渔夫，从此起航！！\n（故事纯属虚构，看官老爷们当平行世界就好）",
+                "high_light_position": [
+                  [
+                    40,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "20",
+      "search_id": "clks####3@20260318165918AC8834C0F5636A28A701",
+      "query": "钓鱼",
+      "next_offset": 20,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@20260318165918AC8834C0F5636A28A701",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"2026031816593843E4ABC6AA828A7E92DF\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@20260318165918AC8834C0F5636A28A701",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@20260318165918AC8834C0F5636A28A701",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "2026031816593843E4ABC6AA828A7E92DF"
+}

@@ -1,0 +1,2944 @@
+{
+  "code": 0,
+  "message": "SUCCESS",
+  "search_tabs": [
+    {
+      "tab_type": 1,
+      "title": "综合",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####1@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "selector": {
+        "rows": [
+          {
+            "items": [
+              {
+                "show_name": "完结",
+                "selector_item_id": "creation_status_end",
+                "is_default_selected": false,
+                "value": "完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "半年内完结",
+                "selector_item_id": "creation_status_half_year_end",
+                "is_default_selected": false,
+                "value": "半年内完结",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "连载中",
+                "selector_item_id": "creation_status_loading",
+                "is_default_selected": false,
+                "value": "连载中",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "3日内更新",
+                "selector_item_id": "creation_status_3day_update",
+                "is_default_selected": false,
+                "value": "3日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "7日内更新",
+                "selector_item_id": "creation_status_7day_update",
+                "is_default_selected": false,
+                "value": "7日内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "1月内更新",
+                "selector_item_id": "creation_status_1month_update",
+                "is_default_selected": false,
+                "value": "1月内更新",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "更新状态",
+            "type": "creation_status",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "10万字以内",
+                "selector_item_id": "word_num_lte10",
+                "is_default_selected": false,
+                "value": "10万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以内",
+                "selector_item_id": "word_num_lte30",
+                "is_default_selected": false,
+                "value": "30万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以内",
+                "selector_item_id": "word_num_lte50",
+                "is_default_selected": false,
+                "value": "50万字以内",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "30万字以上",
+                "selector_item_id": "word_num_gte30",
+                "is_default_selected": false,
+                "value": "30万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "50万字以上",
+                "selector_item_id": "word_num_gte50",
+                "is_default_selected": false,
+                "value": "50万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "100万字以上",
+                "selector_item_id": "word_num_gte100",
+                "is_default_selected": false,
+                "value": "100万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "200万字以上",
+                "selector_item_id": "word_num_gte200",
+                "is_default_selected": false,
+                "value": "200万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "300万字以上",
+                "selector_item_id": "word_num_gte300",
+                "is_default_selected": false,
+                "value": "300万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "500万字以上",
+                "selector_item_id": "word_num_gte500",
+                "is_default_selected": false,
+                "value": "500万字以上",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "字数篇幅",
+            "type": "word_num",
+            "selection_type": 2
+          },
+          {
+            "items": [
+              {
+                "show_name": "新书推荐",
+                "selector_item_id": "sort_new_book",
+                "is_default_selected": false,
+                "value": "新书推荐",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "高分优先",
+                "selector_item_id": "sort_score",
+                "is_default_selected": false,
+                "value": "高分优先",
+                "is_recommended": false,
+                "sub_selector": null
+              },
+              {
+                "show_name": "字数优先",
+                "selector_item_id": "sort_word_number",
+                "is_default_selected": false,
+                "value": "字数优先",
+                "is_recommended": false,
+                "sub_selector": null
+              }
+            ],
+            "row_name": "排序",
+            "type": "order",
+            "selection_type": 2
+          }
+        ],
+        "type": 1,
+        "BookShelfToast": null
+      },
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 4,
+      "title": "社区",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####4@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 19,
+      "title": "漫剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####19@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 17,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 11,
+      "title": "短剧",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####11@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 8,
+      "title": "漫画",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####8@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "client_template": 5,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 2,
+      "title": "听书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####2@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 3,
+      "title": "书籍",
+      "data": [
+        {
+          "cell_id": 1030,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7602847349345373246",
+          "search_result_id": "7602847349345373246",
+          "search_high_light": {
+            "abstract": {
+              "text": "...学博士林辰意外绑定“黑科技系统”。 从室温超导到可控核聚变，从碳纳米管太空电梯到曲率引擎星际飞船，林辰一步步垄断科技树，将一个个遥远的科幻概念变为现实。 他不求个人无敌，只为让国家摆脱封锁，让人类走出摇篮。 能源革命、材料突破、芯片自主、航天崛起、火星移民、星际舰队……在系统的加持下，林辰带领团队肝科技、破封锁、建太空站、殖民银河。 当暗森林的阴影笼罩宇宙，人类已然准备好迎接挑战。 这是一部硬核黑科技文，没有后宫，没有种田，只有科技垄断与文明飞升。 让科幻，不再遥远。",
+              "rich_text": "一场实验室爆炸，让材料学博士林辰意外绑定“<em>黑科技</em>系统”。\n从室温超导到可控核聚变，从碳纳米管太空电梯到曲率引擎星际飞船，林辰一步步垄断<em>科技</em>树，将一个个遥远的<em>科</em>幻概念变为现实。\n他不求个人无敌，只为让国家摆脱封锁，让人类走出摇篮。\n能源革命、材料突破、芯片自主、航天崛起、火星移民、星际舰队……在系统的加持下，林辰带领团队肝<em>科技</em>、破封锁、建太空站、殖民银河。\n当暗森林的阴影笼罩宇宙，人类已然准备好迎接挑战。\n这是一部硬核<em>黑科技</em>文，没有后宫，没有种田，只有<em>科技</em>垄断与文明飞升。\n让<em>科</em>幻，不再遥远。",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ],
+                [
+                  59,
+                  2
+                ],
+                [
+                  153,
+                  2
+                ],
+                [
+                  202,
+                  3
+                ],
+                [
+                  219,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "黑科技垄断者",
+              "rich_text": "<em>黑科技</em>垄断者",
+              "high_light_position": [
+                [
+                  0,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "一场实验室爆炸，让材料学博士林辰意外绑定“黑科技系统”。\n从室温超导到可控核聚变，从碳纳米管太空电梯到曲率引擎星际飞船，林辰一步步垄断科技树，将一个个遥远的科幻概念变为现实。\n他不求个人无敌，只为让国家摆脱封锁，让人类走出摇篮。\n能源革命、材料突破、芯片自主、航天崛起、火星移民、星际舰队……在系统的加持下，林辰带领团队肝科技、破封锁、建太空站、殖民银河。\n当暗森林的阴影笼罩宇宙，人类已然准备好迎接挑战。\n这是一部硬核黑科技文，没有后宫，没有种田，只有科技垄断与文明飞升。\n让科幻，不再遥远。",
+              "author": "给我一把锄头",
+              "book_id": "7602847349345373246",
+              "book_name": "黑科技垄断者",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-02-04T11:30:42+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7602850063504654910",
+              "first_chapter_item_id": "7602850063504654910",
+              "first_chapter_title": "第1章 爆炸",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7612201382728172094",
+              "last_chapter_item_id": "7612201382728172094",
+              "last_chapter_title": "第31章 尾声·星辰的孩子们",
+              "last_chapter_update_time": "1772354068",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "29",
+              "recommend_group_id": "7602847349345373246",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817032629AAA79F4E3335E535E4\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "31",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7780946a858f7c7f3588a21052367c38~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=XUNDPVE0U2UnRqNzJBJ9BXs1%2ByA%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "266665",
+              "score": "0",
+              "exclusive": "1",
+              "role": "林辰",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":77,\"name\":\"星际\",\"schema\":\"dragon1967://newCategoryDetail?id=77&name=星际&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"},{\"category_id\":838,\"name\":\"无后宫\",\"schema\":\"dragon1967://newCategoryDetail?id=838&name=无后宫&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "5",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1772354078",
+              "authorize_type": "1",
+              "media_id": "1855361055354891",
+              "original_book_name": "黑科技垄断者",
+              "length_type": "1",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/7780946a858f7c7f3588a21052367c38",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7780946a858f7c7f3588a21052367c38~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008607&x-signature=XFeh5DXShCldI50bXaJrtWgCPdM%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市脑洞,无后宫",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#581810",
+              "read_count_all": "791",
+              "shelf_cnt_history": "986",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2503\":1770177758,\"507427\":1770177820,\"1967\":1770177758,\"8703\":1770177758,\"638505\":1770189751,\"8661\":1770189751,\"35\":1770177758,\"507386\":1770177820,\"1128\":1770177758,\"510893\":1770177758,\"8662\":1770177758,\"2329\":1770177758,\"6589\":1770189751,\"596084\":1770189751,\"13\":1770177758,\"3040\":1770189751,\"8704\":1770177758}",
+              "category_v2_map": {
+                "19": true,
+                "838": true,
+                "262": true,
+                "1": true,
+                "854": true,
+                "77": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7780946a858f7c7f3588a21052367c38~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=XUNDPVE0U2UnRqNzJBJ9BXs1%2ByA%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7599578572461724952,
+                  "AuthorName": "给我一把锄头"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7780946a858f7c7f3588a21052367c38~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008607&x-signature=UxMjfsVZiD9rEB%2BB7IJS%2BeXKb6w%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "一场实验室爆炸，让材料学博士林辰意外绑定“黑科技系统”。\n从室温超导到可控核聚变，从碳纳米管太空电梯到曲率引擎星际飞船，林辰一步步垄断科技树，将一个个遥远的科幻概念变为现实。\n他不求个人无敌，只为让国家摆脱封锁，让人类走出摇篮。\n能源革命、材料突破、芯片自主、航天崛起、火星移民、星际舰队……在系统的加持下，林辰带领团队肝科技、破封锁、建太空站、殖民银河。\n当暗森林的阴影笼罩宇宙，人类已然准备好迎接挑战。\n这是一部硬核黑科技文，没有后宫，没有种田，只有科技垄断与文明飞升。\n让科幻，不再遥远。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/7780946a858f7c7f3588a21052367c38~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=H5TTvC3%2BtOVbbuJgOqb6hCLsL0A%3D",
+              "raw_book_name": "黑科技垄断者",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:30:0:3598353425:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "26.7万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "29人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：给我一把锄头",
+                "rich_text": "作者：给我一把锄头",
+                "high_light_position": []
+              },
+              {
+                "text": "...学博士林辰意外绑定“黑科技系统”。 从室温超导到可控核聚变，从碳纳米管太空电梯到曲率引擎星际飞船，林辰一步步垄断科技树，将一个个遥远的科幻概念变为现实。 他不求个人无敌，只为让国家摆脱封锁，让人类走出摇篮。 能源革命、材料突破、芯片自主、航天崛起、火星移民、星际舰队……在系统的加持下，林辰带领团队肝科技、破封锁、建太空站、殖民银河。 当暗森林的阴影笼罩宇宙，人类已然准备好迎接挑战。 这是一部硬核黑科技文，没有后宫，没有种田，只有科技垄断与文明飞升。 让科幻，不再遥远。",
+                "rich_text": "一场实验室爆炸，让材料学博士林辰意外绑定“<em>黑科技</em>系统”。\n从室温超导到可控核聚变，从碳纳米管太空电梯到曲率引擎星际飞船，林辰一步步垄断<em>科技</em>树，将一个个遥远的<em>科</em>幻概念变为现实。\n他不求个人无敌，只为让国家摆脱封锁，让人类走出摇篮。\n能源革命、材料突破、芯片自主、航天崛起、火星移民、星际舰队……在系统的加持下，林辰带领团队肝<em>科技</em>、破封锁、建太空站、殖民银河。\n当暗森林的阴影笼罩宇宙，人类已然准备好迎接挑战。\n这是一部硬核<em>黑科技</em>文，没有后宫，没有种田，只有<em>科技</em>垄断与文明飞升。\n让<em>科</em>幻，不再遥远。",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ],
+                  [
+                    59,
+                    2
+                  ],
+                  [
+                    153,
+                    2
+                  ],
+                  [
+                    202,
+                    3
+                  ],
+                  [
+                    219,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1031,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7437099788971016729",
+          "search_result_id": "7437099788971016729",
+          "search_high_light": {
+            "abstract": {
+              "text": "...个伟大的梦想——利用黑科技改变世界。这一天，如同往常一样，我早早来到了实验室。实验室里弥漫着一股淡淡的化学药剂味道，各种仪器设备安静地摆放着，仿佛在等待着被",
+              "rich_text": "我叫陈洛，生活在一个看似普通却又暗藏玄机的时代。我性格内敛，但内心充满了对未知的渴望和对<em>科技</em>的狂热。在繁华喧嚣的都市中，我只是一个不起眼的<em>科技</em>研究员，每天过着按部就班的生活。然而，我的内心深处一直怀揣着一个伟大的梦想——利用<em>黑科技</em>改变世界。这一天，如同往常一样，我早早来到了实验室。实验室里弥漫着一股淡淡的化学药剂味道，各种仪器设备安静地摆放着，仿佛在等待着被",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ]
+              ]
+            },
+            "title": {
+              "text": "黑科技之巅",
+              "rich_text": "<em>黑科技</em>之巅",
+              "high_light_position": [
+                [
+                  0,
+                  3
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "我叫陈洛，生活在一个看似普通却又暗藏玄机的时代。我性格内敛，但内心充满了对未知的渴望和对科技的狂热。在繁华喧嚣的都市中，我只是一个不起眼的科技研究员，每天过着按部就班的生活。然而，我的内心深处一直怀揣着一个伟大的梦想——利用黑科技改变世界。这一天，如同往常一样，我早早来到了实验室。实验室里弥漫着一股淡淡的化学药剂味道，各种仪器设备安静地摆放着，仿佛在等待着被",
+              "author": "蒙面圣僧",
+              "book_id": "7437099788971016729",
+              "book_name": "黑科技之巅",
+              "category": "脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2024-11-14T19:45:31+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7437076854478995993",
+              "first_chapter_item_id": "7437076854478995993",
+              "first_chapter_title": "黑科技之巅",
+              "genre": "8",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7437076854478995993",
+              "last_chapter_item_id": "7437076854478995993",
+              "last_chapter_title": "黑科技之巅",
+              "last_chapter_update_time": "1731584731",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "8",
+              "recommend_group_id": "7437099788971016729",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817032629AAA79F4E3335E535E4\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "1",
+              "source": "番茄小说",
+              "tags": "脑洞,现代",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/tos-cn-i-1yzifmftcy/524308d29c93488caab79f4a01940515~tplv-snk2bdmkp8-story-watermark:300:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=DbYnm%2B6geIBY4TIfDb5HF9gFt%2BE%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "180",
+              "update_status": "0",
+              "word_number": "12702",
+              "score": "0",
+              "exclusive": "1",
+              "role": "",
+              "category_schema": "[{\"category_id\":755,\"name\":\"脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=755&name=脑洞&genre_type=180&gender=2&source=detail\"},{\"category_id\":757,\"name\":\"现代\",\"schema\":\"dragon1967://newCategoryDetail?id=757&name=现代&genre_type=180&gender=2&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "2",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1731584757",
+              "authorize_type": "1",
+              "media_id": "1597438814350340",
+              "original_book_name": "黑科技之巅",
+              "length_type": "2",
+              "op_tag": "1597,1598,531,920",
+              "keep_publish_days": "0",
+              "thumb_uri": "tos-cn-i-1yzifmftcy/9a13982ca69c44e88e32c41209fc4e4f",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5aeb40df39ea49e499e74dd4211d8918~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008607&x-signature=VU698m%2F0qGfX0aAocxk6KQ%2BXMXc%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "脑洞,现代",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": true,
+              "color_dominate": "#283840",
+              "read_count_all": "41",
+              "shelf_cnt_history": "1019",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"638505\":1731590568,\"2329\":1731590568,\"6589\":1751346888,\"2503\":1731584793,\"507427\":1731584793,\"13\":1731584793,\"1967\":1731584793,\"596084\":1751346888,\"564505\":1731590568,\"3040\":1750067916,\"35\":1731584793,\"565945\":1731590568,\"507386\":1742210567,\"1128\":1731590568}",
+              "category_v2_map": {
+                "755": true,
+                "757": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/tos-cn-i-1yzifmftcy/9a13982ca69c44e88e32c41209fc4e4f~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=BOfNopn0Eo%2Fn8kAxqUSE2UwzQ5w%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7120623337591543071,
+                  "AuthorName": "蒙面圣僧"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "7437090082504561470",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5aeb40df39ea49e499e74dd4211d8918~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008607&x-signature=7iLCb4i58g2eilOJEN89tWHgZUM%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "relate_post_schema": "dragon1967://ugcPostDetails?originType=7&pageStyle=ugc_story&postId=7437099821636440894&postType=13&relativeId=0&relativeType=5&url=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrweb_community%2Fpage%2Fugc-post-detail.html%3Fpage_style%3Dugc_story%26post_id%3D7437099821636440894&sourceType=15",
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "黑科技之巅",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/tos-cn-i-1yzifmftcy/9a13982ca69c44e88e32c41209fc4e4f~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=%2Fkv%2FnAC0bSVyeiOf%2BcEar9hFk9A%3D",
+              "relate_post_id": "7437099821636440894",
+              "post_data": {
+                "post_id": "7437099821636440894",
+                "relative_id": "7437099821636440894",
+                "content": "{\"materials\":[],\"skeleton\":{\"data\":\"\",\"type\":\"\"}}",
+                "post_type": 13,
+                "book_card": [],
+                "tags": [],
+                "reply_cnt": 0,
+                "digg_cnt": 0,
+                "has_digg": false,
+                "create_time": 1731584793,
+                "title": "黑科技之巅",
+                "user_info": {
+                  "user_id": "6706514015",
+                  "user_type": 12,
+                  "user_name": "蒙面圣僧",
+                  "user_avatar": "https://p3-reading-sign.fqnovelpic.com/tos-cn-i-1yzifmftcy/8185f0d791c04fb9a1195c3681a4a677~tplv-s85hriknmn-jpeg-v1:144:0.heic?lk3s=ae45642e&x-expires=1776355692&x-signature=mMMKJGxCW901zX38VAuXB8Ay72s%3D",
+                  "is_author": true,
+                  "gender": 2,
+                  "description": "单刀赴会，勇闯天涯!",
+                  "is_vip": false,
+                  "is_official_cert": false,
+                  "has_medal": false,
+                  "relation_type": 1,
+                  "can_follow": true,
+                  "is_cancelled": false,
+                  "fans_schema": "dragon1967://webview?loadingButHideByFront=1&hideNavigationBar=1&bounceDisable=1&hideStatusBar=1&url=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrweb_community%2Fpage%2Fuser-social.html%3Ftab%3Dfans%26user_id%3D%252523c1967_95QzMFjOCRPXUwG8821auBr7tQ5S%25252BKJkxk19xw8pVwo%25253D",
+                  "follow_schema": "dragon1967://webview?loadingButHideByFront=1&hideNavigationBar=1&bounceDisable=1&hideStatusBar=1&url=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrweb_community%2Fpage%2Fuser-social.html%3Ftab%3Dfollow%26user_id%3D%252523c1967_95QzMFjOCRPXUwG8821auBr7tQ5S%25252BKJkxk19xw8pVwo%25253D",
+                  "encode_user_id": "#c1967_MTk2NzE5NjcxOTY3MTk2N1VhHFhusQ/HG+Y/aOFUswc=",
+                  "ugc_read_book_count": 0,
+                  "profile_gender": 1,
+                  "user_sticker": {
+                    "sticker": null,
+                    "expire_time": 0,
+                    "is_worn": false
+                  },
+                  "expand_user_avatar": "https://p3-reading-sign.fqnovelpic.com/tos-cn-i-1yzifmftcy/8185f0d791c04fb9a1195c3681a4a677~tplv-s85hriknmn-jpeg.heic?lk3s=ae45642e&x-expires=1776355692&x-signature=yrsLK7s0wMR%2BJqvMnRI%2BbeBC9yc%3D",
+                  "is_pub_vip": false,
+                  "is_story_vip": false,
+                  "is_adFree_vip": false
+                },
+                "ugc_privacy": 0,
+                "relative_type": 5,
+                "book_id": "0",
+                "pure_content": "我叫陈洛，生活在一个看似普通却又暗藏玄机的时代。我性格内敛，但内心充满了对未知的渴望和对科技的狂热。在繁华喧嚣的都市中，我只是一个不起眼的科技研究员，每天过着按部就班的生活。然而，我的内心深处一直怀揣着一个伟大的梦想——利用黑科技改变世界。这一天，如同往常一样，我早早来到了实验室。实验室里弥漫着一股淡淡的化学药剂味道，各种仪器设备安静地摆放着，仿佛在等待着被唤醒。我启动了电脑，开始查看最新的研究数据。就在这时，我的目光被一组异常的数据吸引住了。这组数据来自于我们团队正在进行的一项关于能源转化的实验，结果显示出了一种前所未有的能量波动模式。我的心跳瞬间加速，直觉告诉我，这可能是一个重大的发现。我",
+                "status": 1,
+                "ContentType": 4,
+                "origin_type": 7,
+                "post_schema": "dragon1967://ugcPostDetails?originType=7&pageStyle=ugc_story&postId=7437099821636440894&postType=13&relativeId=7437099821636440894&relativeType=5&url=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrweb_community%2Fpage%2Fugc-post-detail.html%3Fpage_style%3Dugc_story%26post_id%3D7437099821636440894",
+                "favorite_cnt": 0,
+                "has_favorite": false,
+                "can_favorite": false,
+                "show_pv": 1516,
+                "read_book_count": 0,
+                "related_topic_data": {},
+                "bg_style": {},
+                "relate_book_schema": "dragon1967://reading?bookId=7437099788971016729&key_force_no_show_book_cover=1&genre_type=180&is_force_pgc_container=1",
+                "total_word_num": 13005,
+                "truncate_flag": 3,
+                "read_cnt": 144,
+                "relate_book_id": "7437099788971016729",
+                "relate_item_id": "7437076854478995993",
+                "html_content": "<p idx=\"0\" p_idx=\"40000\"><blk p_idx=\"0\" e_idx=\"0\" e_order=\"0\">我叫陈洛，生活在一个看似普通却又暗藏玄机的时代。我性格内敛，但内心充满了对未知的渴望和对科技的狂热。</blk></p><p p_idx=\"40000\"></p><p idx=\"1\" p_idx=\"40000\"><blk p_idx=\"1\" e_idx=\"0\" e_order=\"1\">在繁华喧嚣的都市中，我只是一个不起眼的科技研究员，每天过着按部就班的生活。然而，我的内心深处一直怀揣着一个伟大的梦想——利用黑科技改变世界。</blk></p><p p_idx=\"40000\"></p><p idx=\"2\" p_idx=\"40000\"><blk p_idx=\"2\" e_idx=\"0\" e_order=\"2\">这一天，如同往常一样，我早早来到了实验室。实验室里弥漫着一股淡淡的化学药剂味道，各种仪器设备安静地摆放着，仿佛在等待着被唤醒。</blk></p><p p_idx=\"40000\"></p><p idx=\"3\" p_idx=\"40000\"><blk p_idx=\"3\" e_idx=\"0\" e_order=\"3\">我启动了电脑，开始查看最新的研究数据。就在这时，我的目光被一组异常的数据吸引住了。这组数据来自于我们团队正在进行的一项关于能源转化的实验，结果显示出了一种前所未有的能量波动模式。</blk></p><p p_idx=\"40000\"></p><p idx=\"4\" p_idx=\"40000\"><blk p_idx=\"4\" e_idx=\"0\" e_order=\"4\">我的心跳瞬间加速，直觉告诉我，这可能是一个重大的发现。我</blk></p>",
+                "cover_vertical": false,
+                "extra": {
+                  "hot_value": "1000",
+                  "book_card_len": "0"
+                },
+                "text_exts": [
+                  {
+                    "tp": 0,
+                    "text": "我叫陈洛，生活在一个看似普通却又暗藏玄机的时代。我性格内敛，但内心充满了对未知的渴望和对科技的狂热。在繁华喧嚣的都市中，我只是一个不起眼的科技研究员，每天过着按部就班的生活。然而，我的内心深处一直怀揣着一个伟大的梦想——利用黑科技改变世界。这一天，如同往常一样，我早早来到了实验室。实验室里弥漫着一股淡淡的化学药剂味道，各种仪器设备安静地摆放着，仿佛在等待着被唤醒。我启动了电脑，开始查看最新的研究数据。就在这时，我的目光被一组异常的数据吸引住了。这组数据来自于我们团队正在进行的一项关于能源转化的实验，结果显示出了一种前所未有的能量波动模式。我的心跳瞬间加速，直觉告诉我，这可能是一个重大的发现。我"
+                  }
+                ]
+              },
+              "raw_book_name": "黑科技之巅"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:31:0:4071044381:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短篇",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 1
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "1.3万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "144人读过",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：蒙面圣僧",
+                "rich_text": "作者：蒙面圣僧",
+                "high_light_position": []
+              },
+              {
+                "text": "...个伟大的梦想——利用黑科技改变世界。这一天，如同往常一样，我早早来到了实验室。实验室里弥漫着一股淡淡的化学药剂味道，各种仪器设备安静地摆放着，仿佛在等待着被",
+                "rich_text": "我叫陈洛，生活在一个看似普通却又暗藏玄机的时代。我性格内敛，但内心充满了对未知的渴望和对<em>科技</em>的狂热。在繁华喧嚣的都市中，我只是一个不起眼的<em>科技</em>研究员，每天过着按部就班的生活。然而，我的内心深处一直怀揣着一个伟大的梦想——利用<em>黑科技</em>改变世界。这一天，如同往常一样，我早早来到了实验室。实验室里弥漫着一股淡淡的化学药剂味道，各种仪器设备安静地摆放着，仿佛在等待着被",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1032,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7523568122113035326",
+          "search_result_id": "7523568122113035326",
+          "search_high_light": {
+            "title": {
+              "text": "震惊！制裁前夕掏出了7纳米芯片",
+              "high_light_position": []
+            },
+            "abstract": {
+              "text": "【重生+商战+科技突围+世界科技争霸+系统】 重生2018年，国产科技进入巅峰期，手机大战白热化。 凭借着强悍的研发能力，菊厂也进入巅峰期，国内市场占有率高达38%，巅峰之下必有危机…… 美利坚的制裁即将到来，紧接着系统断供、芯片断供…… 整个公司进入致暗时刻，为了活下去，产品质量大幅度下降，从国产机皇变成国产圾皇。 但在这背后，沈飞作为2012实验室核心工程师，和其他同僚拼尽全力，带领团队用命研发，突破这道封锁。 后来…… 退休后他成为了一个讲解员，讲述这背后的故事。 一些小朋友询问他:“沈叔叔，咱们的光刻机、芯片明明那么先进，真的经历过那些艰辛吗？” 他本想回答，但再次睁眼，他重生到了制裁前夕，这一世……他要阻止……",
+              "rich_text": "【重生+商战+<em>科技</em>突围+世界<em>科技</em>争霸+系统】\n重生2018年，国产<em>科技</em>进入巅峰期，手机大战白热化。\n凭借着强悍的研发能力，菊厂也进入巅峰期，国内市场占有率高达38%，巅峰之下必有危机……\n美利坚的制裁即将到来，紧接着系统断供、芯片断供……\n整个公司进入致暗时刻，为了活下去，产品质量大幅度下降，从国产机皇变成国产圾皇。\n但在这背后，沈飞作为2012实验室核心工程师，和其他同僚拼尽全力，带领团队用命研发，突破这道封锁。\n后来……\n退休后他成为了一个讲解员，讲述这背后的故事。\n一些小朋友询问他:“沈叔叔，咱们的光刻机、芯片明明那么先进，真的经历过那些艰辛吗？”\n他本想回答，但再次睁眼，他重生到了制裁前夕，这一世……他要阻止……",
+              "high_light_position": [
+                [
+                  7,
+                  2
+                ],
+                [
+                  14,
+                  2
+                ],
+                [
+                  33,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【重生+商战+科技突围+世界科技争霸+系统】\n重生2018年，国产科技进入巅峰期，手机大战白热化。\n凭借着强悍的研发能力，菊厂也进入巅峰期，国内市场占有率高达38%，巅峰之下必有危机……\n美利坚的制裁即将到来，紧接着系统断供、芯片断供……\n整个公司进入致暗时刻，为了活下去，产品质量大幅度下降，从国产机皇变成国产圾皇。\n但在这背后，沈飞作为2012实验室核心工程师，和其他同僚拼尽全力，带领团队用命研发，突破这道封锁。\n后来……\n退休后他成为了一个讲解员，讲述这背后的故事。\n一些小朋友询问他:“沈叔叔，咱们的光刻机、芯片明明那么先进，真的经历过那些艰辛吗？”\n他本想回答，但再次睁眼，他重生到了制裁前夕，这一世……他要阻止……",
+              "author": "数码先知",
+              "book_id": "7523568122113035326",
+              "book_name": "震惊！制裁前夕掏出了7纳米芯片",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-07-05T20:06:48+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7615982479962292798",
+              "first_chapter_item_id": "7615982479962292798",
+              "first_chapter_title": "第1章 2018制裁前夕",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7618245507671933502",
+              "last_chapter_item_id": "7618245507671933502",
+              "last_chapter_title": "第20章 台坤电的紧急通知",
+              "last_chapter_update_time": "1773762589",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "23",
+              "recommend_group_id": "7523568122113035326",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817032629AAA79F4E3335E535E4\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "20",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9d152e84f4913871f42c432809ebdca8~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=dW6ZZIjYh2YJDzzMssxmY9iCqjg%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "1",
+              "word_number": "44078",
+              "score": "0",
+              "exclusive": "1",
+              "role": "沈飞",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":37,\"name\":\"穿越\",\"schema\":\"dragon1967://newCategoryDetail?id=37&name=穿越&genre_type=0&gender=1&source=detail\"},{\"category_id\":36,\"name\":\"重生\",\"schema\":\"dragon1967://newCategoryDetail?id=36&name=重生&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":52,\"name\":\"科技\",\"schema\":\"dragon1967://newCategoryDetail?id=52&name=科技&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"},{\"category_id\":837,\"name\":\"争霸\",\"schema\":\"dragon1967://newCategoryDetail?id=837&name=争霸&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773762601",
+              "authorize_type": "1",
+              "media_id": "1711696228244483",
+              "original_book_name": "震惊！制裁前夕掏出了7纳米芯片",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "6",
+              "thumb_uri": "novel-pic/9d152e84f4913871f42c432809ebdca8",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9d152e84f4913871f42c432809ebdca8~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008607&x-signature=ZVWNM7Q86GeMlsiQz%2FiOHzR2U9s%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市脑洞,争霸",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#281818",
+              "read_count_all": "23",
+              "shelf_cnt_history": "1000",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8704\":1773272491,\"596084\":1773492115,\"3040\":1773492115,\"638505\":1773492115,\"1128\":1773272491,\"507427\":1773272554,\"8703\":1773272491,\"2329\":1773272491,\"13\":1773272491,\"510893\":1773272491,\"35\":1773272491,\"2503\":1773272491,\"8661\":1773492115,\"6589\":1773492115,\"1967\":1773272491,\"8662\":1773272491,\"507386\":1773272554}",
+              "category_v2_map": {
+                "37": true,
+                "19": true,
+                "854": true,
+                "1": true,
+                "262": true,
+                "36": true,
+                "837": true,
+                "52": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9d152e84f4913871f42c432809ebdca8~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=dW6ZZIjYh2YJDzzMssxmY9iCqjg%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7523568123216139582,
+                  "AuthorName": "数码先知"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9d152e84f4913871f42c432809ebdca8~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008607&x-signature=X9wBa%2BwYZMpPXnpL83mRZbxFjzM%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【重生+商战+科技突围+世界科技争霸+系统】\n重生2018年，国产科技进入巅峰期，手机大战白热化。\n凭借着强悍的研发能力，菊厂也进入巅峰期，国内市场占有率高达38%，巅峰之下必有危机……\n美利坚的制裁即将到来，紧接着系统断供、芯片断供……\n整个公司进入致暗时刻，为了活下去，产品质量大幅度下降，从国产机皇变成国产圾皇。\n但在这背后，沈飞作为2012实验室核心工程师，和其他同僚拼尽全力，带领团队用命研发，突破这道封锁。\n后来……\n退休后他成为了一个讲解员，讲述这背后的故事。\n一些小朋友询问他:“沈叔叔，咱们的光刻机、芯片明明那么先进，真的经历过那些艰辛吗？”\n他本想回答，但再次睁眼，他重生到了制裁前夕，这一世……他要阻止……",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/9d152e84f4913871f42c432809ebdca8~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=FMrvmH00G8yMiZ97Bw%2FKmKGlrBk%3D",
+              "raw_book_name": "震惊！制裁前夕掏出了7纳米芯片",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:32:0:3741433143:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "4.4万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "23人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：数码先知",
+                "rich_text": "作者：数码先知",
+                "high_light_position": []
+              },
+              {
+                "text": "【重生+商战+科技突围+世界科技争霸+系统】 重生2018年，国产科技进入巅峰期，手机大战白热化。 凭借着强悍的研发能力，菊厂也进入巅峰期，国内市场占有率高达38%，巅峰之下必有危机…… 美利坚的制裁即将到来，紧接着系统断供、芯片断供…… 整个公司进入致暗时刻，为了活下去，产品质量大幅度下降，从国产机皇变成国产圾皇。 但在这背后，沈飞作为2012实验室核心工程师，和其他同僚拼尽全力，带领团队用命研发，突破这道封锁。 后来…… 退休后他成为了一个讲解员，讲述这背后的故事。 一些小朋友询问他:“沈叔叔，咱们的光刻机、芯片明明那么先进，真的经历过那些艰辛吗？” 他本想回答，但再次睁眼，他重生到了制裁前夕，这一世……他要阻止……",
+                "rich_text": "【重生+商战+<em>科技</em>突围+世界<em>科技</em>争霸+系统】\n重生2018年，国产<em>科技</em>进入巅峰期，手机大战白热化。\n凭借着强悍的研发能力，菊厂也进入巅峰期，国内市场占有率高达38%，巅峰之下必有危机……\n美利坚的制裁即将到来，紧接着系统断供、芯片断供……\n整个公司进入致暗时刻，为了活下去，产品质量大幅度下降，从国产机皇变成国产圾皇。\n但在这背后，沈飞作为2012实验室核心工程师，和其他同僚拼尽全力，带领团队用命研发，突破这道封锁。\n后来……\n退休后他成为了一个讲解员，讲述这背后的故事。\n一些小朋友询问他:“沈叔叔，咱们的光刻机、芯片明明那么先进，真的经历过那些艰辛吗？”\n他本想回答，但再次睁眼，他重生到了制裁前夕，这一世……他要阻止……",
+                "high_light_position": [
+                  [
+                    7,
+                    2
+                  ],
+                  [
+                    14,
+                    2
+                  ],
+                  [
+                    33,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1033,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7514733289614101529",
+          "search_result_id": "7514733289614101529",
+          "search_high_light": {
+            "title": {
+              "text": "都市之未来科技模拟器",
+              "rich_text": "都市之未来<em>科技</em>模拟器",
+              "high_light_position": [
+                [
+                  5,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...得了一个来自未来的“科技模拟器”系统。这个系统不仅能模拟推演未来的科技发展路径，更能将模拟成熟的技术以有限形式“具现”到现实！ 从一块划时代的超级电池，到改变材料科学的纳米涂层；从颠覆信息产业的量子算法，到窥探生命奥秘的基因编辑器……林舟的人生，从获得模拟器的这一刻起，彻底驶入了超高速的快车道。 昔日欺辱他的上司，如今只能仰望他的背影；曾经遥不可及的财富和地位，现在唾手可得。但他渐渐发现，这个系统并非简单的金手指，每一次模拟都可能引发未知的时空涟漪，每一次技术的具现都可能招来潜藏在世界阴影中的觊觎者——跨国科技巨头、神秘的政府机构，甚至……来自更高维度的观察者。 当科技的光芒撕裂现实的帷幕，林舟不仅要面对商业场上的尔虞我诈，更要应对因技术跃迁带来的社会变革和未知风险。他将如何利用未来科技，在这波澜壮阔的新时代，书写属于自己的传奇？是成为科技霸主，还是揭开系统背后更深层次的秘密？",
+              "rich_text": "在钢铁丛林般的都市挣扎求存的普通社畜林舟，意外获得了一个来自未来的“<em>科技</em>模拟器”系统。这个系统不仅能模拟推演未来的<em>科技</em>发展路径，更能将模拟成熟的<em>技</em>术以有限形式“具现”到现实！\n从一块划时代的超级电池，到改变材料<em>科</em>学的纳米涂层；从颠覆信息产业的量子算法，到窥探生命奥秘的基因编辑器……林舟的人生，从获得模拟器的这一刻起，彻底驶入了超高速的快车道。\n昔日欺辱他的上司，如今只能仰望他的背影；曾经遥不可及的财富和地位，现在唾手可得。但他渐渐发现，这个系统并非简单的金手指，每一次模拟都可能引发未知的时空涟漪，每一次<em>技</em>术的具现都可能招来潜藏在世界阴影中的觊觎者——跨国<em>科技</em>巨头、神秘的政府机构，甚至……来自更高维度的观察者。\n当<em>科技</em>的光芒撕裂现实的帷幕，林舟不仅要面对商业场上的尔虞我诈，更要应对因<em>技</em>术跃迁带来的社会变革和未知风险。他将如何利用未来<em>科技</em>，在这波澜壮阔的新时代，书写属于自己的传奇？是成为<em>科技</em>霸主，还是揭开系统背后更深层次的秘密？",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ],
+                [
+                  36,
+                  2
+                ],
+                [
+                  259,
+                  2
+                ],
+                [
+                  289,
+                  2
+                ],
+                [
+                  349,
+                  2
+                ],
+                [
+                  376,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "在钢铁丛林般的都市挣扎求存的普通社畜林舟，意外获得了一个来自未来的“科技模拟器”系统。这个系统不仅能模拟推演未来的科技发展路径，更能将模拟成熟的技术以有限形式“具现”到现实！\n从一块划时代的超级电池，到改变材料科学的纳米涂层；从颠覆信息产业的量子算法，到窥探生命奥秘的基因编辑器……林舟的人生，从获得模拟器的这一刻起，彻底驶入了超高速的快车道。\n昔日欺辱他的上司，如今只能仰望他的背影；曾经遥不可及的财富和地位，现在唾手可得。但他渐渐发现，这个系统并非简单的金手指，每一次模拟都可能引发未知的时空涟漪，每一次技术的具现都可能招来潜藏在世界阴影中的觊觎者——跨国科技巨头、神秘的政府机构，甚至……来自更高维度的观察者。\n当科技的光芒撕裂现实的帷幕，林舟不仅要面对商业场上的尔虞我诈，更要应对因技术跃迁带来的社会变革和未知风险。他将如何利用未来科技，在这波澜壮阔的新时代，书写属于自己的传奇？是成为科技霸主，还是揭开系统背后更深层次的秘密？",
+              "author": "上岸金刚",
+              "book_id": "7514733289614101529",
+              "book_name": "都市之未来科技模拟器",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-06-12T00:43:08+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7515752087926358590",
+              "first_chapter_item_id": "7515752087926358590",
+              "first_chapter_title": "第1章 灰暗日子里的一线“奇”光",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7583715344385065534",
+              "last_chapter_item_id": "7583715344385065534",
+              "last_chapter_title": "第40章 与女警的初次交锋",
+              "last_chapter_update_time": "1765721407",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "23",
+              "recommend_group_id": "7514733289614101529",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817032629AAA79F4E3335E535E4\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "40",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od91931160e8cc89d1cc882580e1c26a1~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=KohgUDcg3V2vEceF7mvkwDClCYc%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "128872",
+              "score": "0",
+              "exclusive": "1",
+              "role": "林舟",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":840,\"name\":\"发家致富\",\"schema\":\"dragon1967://newCategoryDetail?id=840&name=发家致富&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773180010",
+              "authorize_type": "1",
+              "media_id": "1817071715659779",
+              "original_book_name": "都市之未来科技模拟器",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "1",
+              "thumb_uri": "novel-pic/p2od91931160e8cc89d1cc882580e1c26a1",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od91931160e8cc89d1cc882580e1c26a1~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008607&x-signature=9fAaxr6PpVd7bH%2BSTbNz0WiOy1o%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市脑洞,打脸",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#102858",
+              "read_count_all": "333",
+              "shelf_cnt_history": "957",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1128\":1749897562,\"13\":1749897562,\"2329\":1749897562,\"1967\":1749897562,\"8704\":1749897562,\"8661\":1751105577,\"35\":1749897562,\"507386\":1749897624,\"507427\":1749897624,\"2503\":1749897562,\"510893\":1749897562,\"8662\":1749897562,\"596084\":1751105577,\"638505\":1751105577,\"6589\":1751105577,\"8703\":1749897562,\"3040\":1751105577}",
+              "category_v2_map": {
+                "262": true,
+                "1": true,
+                "840": true,
+                "854": true,
+                "19": true,
+                "522": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od91931160e8cc89d1cc882580e1c26a1~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=KohgUDcg3V2vEceF7mvkwDClCYc%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7491564563159078206,
+                  "AuthorName": "上岸金刚"
+                }
+              ],
+              "reading_gift_permission": "0",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od91931160e8cc89d1cc882580e1c26a1~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008607&x-signature=2CWXX9vAlgQ07zMHGgJupOt72ZI%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "在钢铁丛林般的都市挣扎求存的普通社畜林舟，意外获得了一个来自未来的“科技模拟器”系统。这个系统不仅能模拟推演未来的科技发展路径，更能将模拟成熟的技术以有限形式“具现”到现实！\n从一块划时代的超级电池，到改变材料科学的纳米涂层；从颠覆信息产业的量子算法，到窥探生命奥秘的基因编辑器……林舟的人生，从获得模拟器的这一刻起，彻底驶入了超高速的快车道。\n昔日欺辱他的上司，如今只能仰望他的背影；曾经遥不可及的财富和地位，现在唾手可得。但他渐渐发现，这个系统并非简单的金手指，每一次模拟都可能引发未知的时空涟漪，每一次技术的具现都可能招来潜藏在世界阴影中的觊觎者——跨国科技巨头、神秘的政府机构，甚至……来自更高维度的观察者。\n当科技的光芒撕裂现实的帷幕，林舟不仅要面对商业场上的尔虞我诈，更要应对因技术跃迁带来的社会变革和未知风险。他将如何利用未来科技，在这波澜壮阔的新时代，书写属于自己的传奇？是成为科技霸主，还是揭开系统背后更深层次的秘密？",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2od91931160e8cc89d1cc882580e1c26a1~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=tlV4BJkOs%2B%2FXl3nwzmTZEoOzhZ4%3D",
+              "raw_book_name": "都市之未来科技模拟器",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:33:0:1433388740:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "12.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "23人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：上岸金刚",
+                "rich_text": "作者：上岸金刚",
+                "high_light_position": []
+              },
+              {
+                "text": "...得了一个来自未来的“科技模拟器”系统。这个系统不仅能模拟推演未来的科技发展路径，更能将模拟成熟的技术以有限形式“具现”到现实！ 从一块划时代的超级电池，到改变材料科学的纳米涂层；从颠覆信息产业的量子算法，到窥探生命奥秘的基因编辑器……林舟的人生，从获得模拟器的这一刻起，彻底驶入了超高速的快车道。 昔日欺辱他的上司，如今只能仰望他的背影；曾经遥不可及的财富和地位，现在唾手可得。但他渐渐发现，这个系统并非简单的金手指，每一次模拟都可能引发未知的时空涟漪，每一次技术的具现都可能招来潜藏在世界阴影中的觊觎者——跨国科技巨头、神秘的政府机构，甚至……来自更高维度的观察者。 当科技的光芒撕裂现实的帷幕，林舟不仅要面对商业场上的尔虞我诈，更要应对因技术跃迁带来的社会变革和未知风险。他将如何利用未来科技，在这波澜壮阔的新时代，书写属于自己的传奇？是成为科技霸主，还是揭开系统背后更深层次的秘密？",
+                "rich_text": "在钢铁丛林般的都市挣扎求存的普通社畜林舟，意外获得了一个来自未来的“<em>科技</em>模拟器”系统。这个系统不仅能模拟推演未来的<em>科技</em>发展路径，更能将模拟成熟的<em>技</em>术以有限形式“具现”到现实！\n从一块划时代的超级电池，到改变材料<em>科</em>学的纳米涂层；从颠覆信息产业的量子算法，到窥探生命奥秘的基因编辑器……林舟的人生，从获得模拟器的这一刻起，彻底驶入了超高速的快车道。\n昔日欺辱他的上司，如今只能仰望他的背影；曾经遥不可及的财富和地位，现在唾手可得。但他渐渐发现，这个系统并非简单的金手指，每一次模拟都可能引发未知的时空涟漪，每一次<em>技</em>术的具现都可能招来潜藏在世界阴影中的觊觎者——跨国<em>科技</em>巨头、神秘的政府机构，甚至……来自更高维度的观察者。\n当<em>科技</em>的光芒撕裂现实的帷幕，林舟不仅要面对商业场上的尔虞我诈，更要应对因<em>技</em>术跃迁带来的社会变革和未知风险。他将如何利用未来<em>科技</em>，在这波澜壮阔的新时代，书写属于自己的传奇？是成为<em>科技</em>霸主，还是揭开系统背后更深层次的秘密？",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ],
+                  [
+                    36,
+                    2
+                  ],
+                  [
+                    259,
+                    2
+                  ],
+                  [
+                    289,
+                    2
+                  ],
+                  [
+                    349,
+                    2
+                  ],
+                  [
+                    376,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1034,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7520451320583572505",
+          "search_result_id": "7520451320583572505",
+          "search_high_light": {
+            "abstract": {
+              "text": "...。 这款来自超维度的科技，让他拥有了洞悉万物本质的恐怖能力—— 他能看见，竞争对手强大的“品牌效应”在现实空间中凝聚成一座坚不可摧的摩天大楼；能看见，消费者的“购买欲望”是流淌在城市上空的金色河流；而“市场恐慌”，则如无形的病毒般扩散，侵蚀着一切。 当商战的武器不再是资本与人脉，而是可以被解析、篡改、甚至摧毁的“概念武装”时，一场颠覆性的战争开始了。 【解析“天穹集团”品牌模型……发现结构性漏洞“傲慢”！】 【构筑“匠心”概念武装，注入“情怀”能量，对敌方“性价比”壁垒进行精准打击！】 【捕获逸散的“消费欲望”洪流，将其引导至我方品牌阵地！】 从一个濒临失业的小设计师，到执掌概念武器、在无形战场上纵横捭阖的超维操盘手。林澈发现，这个世界，远比他想象的更加精彩和危险。他要做的，不仅是守护自己珍视的一切，更是要在这场超维商战中，建立属于自己的商业帝国，加冕为王。",
+              "rich_text": "在钢筋水泥的都市丛林里，商业竞争的残酷远超想象。普通设计师林澈，在公司即将被行业巨头“天穹集团”吞并的绝望时刻，意外唤醒了一款名为【概念武装】的神秘手机应用。\n这款来自超维度的<em>科技</em>，让他拥有了洞悉万物本质的恐怖能力——\n他能看见，竞争对手强大的“品牌效应”在现实空间中凝聚成一座坚不可摧的摩天大楼；能看见，消费者的“购买欲望”是流淌在城市上空的金色河流；而“市场恐慌”，则如无形的病毒般扩散，侵蚀着一切。\n当商战的武器不再是资本与人脉，而是可以被解析、篡改、甚至摧毁的“概念武装”时，一场颠覆性的战争开始了。\n【解析“天穹集团”品牌模型……发现结构性漏洞“傲慢”！】\n【构筑“匠心”概念武装，注入“情怀”能量，对敌方“性价比”壁垒进行精准打击！】\n【捕获逸散的“消费欲望”洪流，将其引导至我方品牌阵地！】\n从一个濒临失业的小设计师，到执掌概念武器、在无形战场上纵横捭阖的超维操盘手。林澈发现，这个世界，远比他想象的更加精彩和危险。他要做的，不仅是守护自己珍视的一切，更是要在这场超维商战中，建立属于自己的商业帝国，加冕为王。",
+              "high_light_position": [
+                [
+                  13,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "超维商战：我能给品牌建模",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "在钢筋水泥的都市丛林里，商业竞争的残酷远超想象。普通设计师林澈，在公司即将被行业巨头“天穹集团”吞并的绝望时刻，意外唤醒了一款名为【概念武装】的神秘手机应用。\n这款来自超维度的科技，让他拥有了洞悉万物本质的恐怖能力——\n他能看见，竞争对手强大的“品牌效应”在现实空间中凝聚成一座坚不可摧的摩天大楼；能看见，消费者的“购买欲望”是流淌在城市上空的金色河流；而“市场恐慌”，则如无形的病毒般扩散，侵蚀着一切。\n当商战的武器不再是资本与人脉，而是可以被解析、篡改、甚至摧毁的“概念武装”时，一场颠覆性的战争开始了。\n【解析“天穹集团”品牌模型……发现结构性漏洞“傲慢”！】\n【构筑“匠心”概念武装，注入“情怀”能量，对敌方“性价比”壁垒进行精准打击！】\n【捕获逸散的“消费欲望”洪流，将其引导至我方品牌阵地！】\n从一个濒临失业的小设计师，到执掌概念武器、在无形战场上纵横捭阖的超维操盘手。林澈发现，这个世界，远比他想象的更加精彩和危险。他要做的，不仅是守护自己珍视的一切，更是要在这场超维商战中，建立属于自己的商业帝国，加冕为王。",
+              "author": "上岸金刚",
+              "book_id": "7520451320583572505",
+              "book_name": "超维商战：我能给品牌建模",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-06-27T10:32:01+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7520451446295249433",
+              "first_chapter_item_id": "7520451446295249433",
+              "first_chapter_title": "第1章 弹指间，瓦解霸总的自信壁垒",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7583679230353867326",
+              "last_chapter_item_id": "7583679230353867326",
+              "last_chapter_title": "第47章 信任的裂痕",
+              "last_chapter_update_time": "1765712964",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "17",
+              "recommend_group_id": "7520451320583572505",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817032629AAA79F4E3335E535E4\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "47",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5027d36074059dfe5361b0d314f156c0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=6FahRDaSSPKovKoOWHGE%2BdHyMOg%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "127509",
+              "score": "0",
+              "exclusive": "1",
+              "role": "林澈",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=1&source=detail\"},{\"category_id\":522,\"name\":\"打脸\",\"schema\":\"dragon1967://newCategoryDetail?id=522&name=打脸&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773180008",
+              "authorize_type": "1",
+              "media_id": "1817071715659779",
+              "original_book_name": "超维商战：我能给品牌建模",
+              "length_type": "0",
+              "op_tag": "535,536",
+              "keep_publish_days": "1",
+              "thumb_uri": "novel-pic/p2o5027d36074059dfe5361b0d314f156c0",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5027d36074059dfe5361b0d314f156c0~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008607&x-signature=wU0axJ8sN22SeRfz5FPlrI4ZTjU%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市脑洞,黑科技",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#201830",
+              "read_count_all": "304",
+              "shelf_cnt_history": "969",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"1967\":1750991949,\"35\":1750991949,\"3040\":1751104922,\"1128\":1750991949,\"2503\":1750991949,\"13\":1750991949,\"510893\":1750991949,\"2329\":1750991949,\"507427\":1750991997,\"8662\":1750991949,\"638505\":1751104922,\"8661\":1751104922,\"8704\":1750991949,\"8703\":1750991949,\"6589\":1751104922,\"507386\":1750991997,\"596084\":1751104922}",
+              "category_v2_map": {
+                "19": true,
+                "522": true,
+                "1": true,
+                "854": true,
+                "262": true,
+                "516": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5027d36074059dfe5361b0d314f156c0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=6FahRDaSSPKovKoOWHGE%2BdHyMOg%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7491564563159078206,
+                  "AuthorName": "上岸金刚"
+                }
+              ],
+              "reading_gift_permission": "0",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5027d36074059dfe5361b0d314f156c0~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008607&x-signature=ZMhND3BrexLy2JHR97PWKsCiGbE%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "在钢筋水泥的都市丛林里，商业竞争的残酷远超想象。普通设计师林澈，在公司即将被行业巨头“天穹集团”吞并的绝望时刻，意外唤醒了一款名为【概念武装】的神秘手机应用。\n这款来自超维度的科技，让他拥有了洞悉万物本质的恐怖能力——\n他能看见，竞争对手强大的“品牌效应”在现实空间中凝聚成一座坚不可摧的摩天大楼；能看见，消费者的“购买欲望”是流淌在城市上空的金色河流；而“市场恐慌”，则如无形的病毒般扩散，侵蚀着一切。\n当商战的武器不再是资本与人脉，而是可以被解析、篡改、甚至摧毁的“概念武装”时，一场颠覆性的战争开始了。\n【解析“天穹集团”品牌模型……发现结构性漏洞“傲慢”！】\n【构筑“匠心”概念武装，注入“情怀”能量，对敌方“性价比”壁垒进行精准打击！】\n【捕获逸散的“消费欲望”洪流，将其引导至我方品牌阵地！】\n从一个濒临失业的小设计师，到执掌概念武器、在无形战场上纵横捭阖的超维操盘手。林澈发现，这个世界，远比他想象的更加精彩和危险。他要做的，不仅是守护自己珍视的一切，更是要在这场超维商战中，建立属于自己的商业帝国，加冕为王。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o5027d36074059dfe5361b0d314f156c0~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=iQbXoCwAsI%2FWd3LLFLnX5C5xSs0%3D",
+              "raw_book_name": "超维商战：我能给品牌建模",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:34:0:3023401708:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "12.8万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "17人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：上岸金刚",
+                "rich_text": "作者：上岸金刚",
+                "high_light_position": []
+              },
+              {
+                "text": "...。 这款来自超维度的科技，让他拥有了洞悉万物本质的恐怖能力—— 他能看见，竞争对手强大的“品牌效应”在现实空间中凝聚成一座坚不可摧的摩天大楼；能看见，消费者的“购买欲望”是流淌在城市上空的金色河流；而“市场恐慌”，则如无形的病毒般扩散，侵蚀着一切。 当商战的武器不再是资本与人脉，而是可以被解析、篡改、甚至摧毁的“概念武装”时，一场颠覆性的战争开始了。 【解析“天穹集团”品牌模型……发现结构性漏洞“傲慢”！】 【构筑“匠心”概念武装，注入“情怀”能量，对敌方“性价比”壁垒进行精准打击！】 【捕获逸散的“消费欲望”洪流，将其引导至我方品牌阵地！】 从一个濒临失业的小设计师，到执掌概念武器、在无形战场上纵横捭阖的超维操盘手。林澈发现，这个世界，远比他想象的更加精彩和危险。他要做的，不仅是守护自己珍视的一切，更是要在这场超维商战中，建立属于自己的商业帝国，加冕为王。",
+                "rich_text": "在钢筋水泥的都市丛林里，商业竞争的残酷远超想象。普通设计师林澈，在公司即将被行业巨头“天穹集团”吞并的绝望时刻，意外唤醒了一款名为【概念武装】的神秘手机应用。\n这款来自超维度的<em>科技</em>，让他拥有了洞悉万物本质的恐怖能力——\n他能看见，竞争对手强大的“品牌效应”在现实空间中凝聚成一座坚不可摧的摩天大楼；能看见，消费者的“购买欲望”是流淌在城市上空的金色河流；而“市场恐慌”，则如无形的病毒般扩散，侵蚀着一切。\n当商战的武器不再是资本与人脉，而是可以被解析、篡改、甚至摧毁的“概念武装”时，一场颠覆性的战争开始了。\n【解析“天穹集团”品牌模型……发现结构性漏洞“傲慢”！】\n【构筑“匠心”概念武装，注入“情怀”能量，对敌方“性价比”壁垒进行精准打击！】\n【捕获逸散的“消费欲望”洪流，将其引导至我方品牌阵地！】\n从一个濒临失业的小设计师，到执掌概念武器、在无形战场上纵横捭阖的超维操盘手。林澈发现，这个世界，远比他想象的更加精彩和危险。他要做的，不仅是守护自己珍视的一切，更是要在这场超维商战中，建立属于自己的商业帝国，加冕为王。",
+                "high_light_position": [
+                  [
+                    13,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1035,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7598528476232043544",
+          "search_result_id": "7598528476232043544",
+          "search_high_light": {
+            "title": {
+              "text": "制裁？未来科技！",
+              "rich_text": "制裁？未来<em>科技</em>！",
+              "high_light_position": [
+                [
+                  5,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "【上交科技】【大国崛起】【民族复兴】【核平大 使】秦枫是华夏国防科研大学的一名学生 在研究生毕业时，意外获得（未来科研系统】。 国家举全国之力支持秦枫科研。 开局研发碳基芯片，颠覆整个芯片行业，突破封锁，反制裁! 碳基芯片只是开始！ 电磁步枪、电磁轨道炮、超能激光炮，反重力磁暴坦克! 反重力电浆发动机、玄女空天战机、昊天机甲、鸾鸟空天航母!让空军成蓝星霸主。 打造南天门计划!近地太空是大夏国禁地!完成奔月工程!宣布月球归大夏国所有! 研发初级基因药剂，让所有百姓免受病痛之灾。",
+              "rich_text": "【上交<em>科技</em>】【大国崛起】【民族复兴】【核平大\n使】秦枫是华夏国防<em>科</em>研大学的一名学生\n在研究生毕业时，意外获得（未来<em>科</em>研系统】。\n国家举全国之力支持秦枫<em>科</em>研。\n开局研发碳基芯片，颠覆整个芯片行业，突破封锁，反制裁!\n碳基芯片只是开始！\n电磁步枪、电磁轨道炮、超能激光炮，反重力磁暴坦克!\n反重力电浆发动机、玄女空天战机、昊天机甲、鸾鸟空天航母!让空军成蓝星霸主。\n打造南天门计划!近地太空是大夏国禁地!完成奔月工程!宣布月球归大夏国所有!\n研发初级基因药剂，让所有百姓免受病痛之灾。",
+              "high_light_position": [
+                [
+                  3,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "【上交科技】【大国崛起】【民族复兴】【核平大\n使】秦枫是华夏国防科研大学的一名学生\n在研究生毕业时，意外获得（未来科研系统】。\n国家举全国之力支持秦枫科研。\n开局研发碳基芯片，颠覆整个芯片行业，突破封锁，反制裁!\n碳基芯片只是开始！\n电磁步枪、电磁轨道炮、超能激光炮，反重力磁暴坦克!\n反重力电浆发动机、玄女空天战机、昊天机甲、鸾鸟空天航母!让空军成蓝星霸主。\n打造南天门计划!近地太空是大夏国禁地!完成奔月工程!宣布月球归大夏国所有!\n研发初级基因药剂，让所有百姓免受病痛之灾。",
+              "author": "爱吃羊肉的狼",
+              "book_id": "7598528476232043544",
+              "book_name": "制裁？未来科技！",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-23T20:11:16+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7598530665931358744",
+              "first_chapter_item_id": "7598530665931358744",
+              "first_chapter_title": "第1章 未来科技",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7610258769481581081",
+              "last_chapter_item_id": "7610258769481581081",
+              "last_chapter_title": "第86章 第一次对视",
+              "last_chapter_update_time": "1771901491",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "237",
+              "recommend_group_id": "7598528476232043544",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817032629AAA79F4E3335E535E4\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "86",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/728f265934cba4813390401a50cff7c0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=XEGuEoaYAZSTEPniL3FNq0PeraM%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "378923",
+              "score": "0",
+              "exclusive": "1",
+              "role": "秦枫",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":516,\"name\":\"都市异能\",\"schema\":\"dragon1967://newCategoryDetail?id=516&name=都市异能&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "82",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1771901513",
+              "authorize_type": "1",
+              "media_id": "1790724555847692",
+              "original_book_name": "制裁？未来科技！",
+              "length_type": "1",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/728f265934cba4813390401a50cff7c0",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/728f265934cba4813390401a50cff7c0~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008607&x-signature=IH53X2hSYRWbQzWF%2Fz%2BjuFSydr4%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市脑洞,黑科技",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#201810",
+              "read_count_all": "2054",
+              "shelf_cnt_history": "1042",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8703\":1769257208,\"35\":1769257208,\"8662\":1769257208,\"510893\":1769257208,\"8704\":1769257208,\"8661\":1769817360,\"6589\":1769817360,\"638505\":1769817360,\"1128\":1769257208,\"13\":1769257208,\"507427\":1769257269,\"3040\":1769817360,\"596084\":1769817360,\"1967\":1769257208,\"2503\":1769257208,\"507386\":1769257269,\"2329\":1769257208}",
+              "category_v2_map": {
+                "262": true,
+                "19": true,
+                "1": true,
+                "516": true,
+                "854": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/728f265934cba4813390401a50cff7c0~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=XEGuEoaYAZSTEPniL3FNq0PeraM%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7596918557326185753,
+                  "AuthorName": "爱吃羊肉的狼"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/728f265934cba4813390401a50cff7c0~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008607&x-signature=trCdsFwYZWcLuuYhbJpfquayEL0%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "【上交科技】【大国崛起】【民族复兴】【核平大\n使】秦枫是华夏国防科研大学的一名学生\n在研究生毕业时，意外获得（未来科研系统】。\n国家举全国之力支持秦枫科研。\n开局研发碳基芯片，颠覆整个芯片行业，突破封锁，反制裁!\n碳基芯片只是开始！\n电磁步枪、电磁轨道炮、超能激光炮，反重力磁暴坦克!\n反重力电浆发动机、玄女空天战机、昊天机甲、鸾鸟空天航母!让空军成蓝星霸主。\n打造南天门计划!近地太空是大夏国禁地!完成奔月工程!宣布月球归大夏国所有!\n研发初级基因药剂，让所有百姓免受病痛之灾。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/728f265934cba4813390401a50cff7c0~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=0whuh9QVVnFKU1c8%2B8pAk8loQX0%3D",
+              "raw_book_name": "制裁？未来科技！",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:35:0:81943558:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "37.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "237人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：爱吃羊肉的狼",
+                "rich_text": "作者：爱吃羊肉的狼",
+                "high_light_position": []
+              },
+              {
+                "text": "【上交科技】【大国崛起】【民族复兴】【核平大 使】秦枫是华夏国防科研大学的一名学生 在研究生毕业时，意外获得（未来科研系统】。 国家举全国之力支持秦枫科研。 开局研发碳基芯片，颠覆整个芯片行业，突破封锁，反制裁! 碳基芯片只是开始！ 电磁步枪、电磁轨道炮、超能激光炮，反重力磁暴坦克! 反重力电浆发动机、玄女空天战机、昊天机甲、鸾鸟空天航母!让空军成蓝星霸主。 打造南天门计划!近地太空是大夏国禁地!完成奔月工程!宣布月球归大夏国所有! 研发初级基因药剂，让所有百姓免受病痛之灾。",
+                "rich_text": "【上交<em>科技</em>】【大国崛起】【民族复兴】【核平大\n使】秦枫是华夏国防<em>科</em>研大学的一名学生\n在研究生毕业时，意外获得（未来<em>科</em>研系统】。\n国家举全国之力支持秦枫<em>科</em>研。\n开局研发碳基芯片，颠覆整个芯片行业，突破封锁，反制裁!\n碳基芯片只是开始！\n电磁步枪、电磁轨道炮、超能激光炮，反重力磁暴坦克!\n反重力电浆发动机、玄女空天战机、昊天机甲、鸾鸟空天航母!让空军成蓝星霸主。\n打造南天门计划!近地太空是大夏国禁地!完成奔月工程!宣布月球归大夏国所有!\n研发初级基因药剂，让所有百姓免受病痛之灾。",
+                "high_light_position": [
+                  [
+                    3,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1036,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7557727391771003928",
+          "search_result_id": "7557727391771003928",
+          "search_high_light": {
+            "title": {
+              "text": "爆改黑科技男主",
+              "rich_text": "爆改<em>黑科技</em>男主",
+              "high_light_position": [
+                [
+                  2,
+                  3
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "剧痛。像是每一寸骨头都被拆开，又粗暴地塞回一个不匹配的模具里，酸软、无力，还带着一种令人作呕的绵麻。意识从一片血腥厮杀的混沌中挣扎着上浮，猛地撞进了一片柔软的黑暗。鼻尖萦绕的不再是硝烟、腐臭和铁锈味，而是一种…甜腻的花香，夹杂着陌生的、干净的皂角气息。他猛地睁开眼。入目是朦胧的纱幔，淡粉色，缀着细碎的蕾丝边。光线被柔和地过滤，洒在身下异常柔软的床铺上。这不是",
+              "rich_text": "剧痛。像是每一寸骨头都被拆开，又粗暴地塞回一个不匹配的模具里，酸软、无力，还带着一种令人作呕的绵麻。意识从一片血腥厮杀的混沌中挣扎着上浮，猛地撞进了一片柔软的<em>黑</em>暗。鼻尖萦绕的不再是硝烟、腐臭和铁锈味，而是一种…甜腻的花香，夹杂着陌生的、干净的皂角气息。他猛地睁开眼。入目是朦胧的纱幔，淡粉色，缀着细碎的蕾丝边。光线被柔和地过滤，洒在身下异常柔软的床铺上。这不是",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "剧痛。像是每一寸骨头都被拆开，又粗暴地塞回一个不匹配的模具里，酸软、无力，还带着一种令人作呕的绵麻。意识从一片血腥厮杀的混沌中挣扎着上浮，猛地撞进了一片柔软的黑暗。鼻尖萦绕的不再是硝烟、腐臭和铁锈味，而是一种…甜腻的花香，夹杂着陌生的、干净的皂角气息。他猛地睁开眼。入目是朦胧的纱幔，淡粉色，缀着细碎的蕾丝边。光线被柔和地过滤，洒在身下异常柔软的床铺上。这不是",
+              "author": "珑枍",
+              "book_id": "7557727391771003928",
+              "book_name": "爆改黑科技男主",
+              "category": "男生生活",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-10-05T21:22:13+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7557683751916929598",
+              "first_chapter_item_id": "7557683751916929598",
+              "first_chapter_title": "爆改黑科技男主",
+              "genre": "8",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7557683751916929598",
+              "last_chapter_item_id": "7557683751916929598",
+              "last_chapter_title": "爆改黑科技男主",
+              "last_chapter_update_time": "1759670534",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "6",
+              "recommend_group_id": "7557727391771003928",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817032629AAA79F4E3335E535E4\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "1",
+              "source": "番茄小说",
+              "tags": "男生生活,爽文",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/tos-cn-i-1yzifmftcy/e8be003cd11e45bd83f3daae8c913805~tplv-snk2bdmkp8-story-watermark:300:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=RDcnFvZZ38ZicZmQAsfkefX67i4%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "180",
+              "update_status": "0",
+              "word_number": "15861",
+              "score": "0",
+              "exclusive": "1",
+              "role": "",
+              "category_schema": "[{\"category_id\":1381,\"name\":\"男生生活\",\"schema\":\"dragon1967://newCategoryDetail?id=1381&name=男生生活&genre_type=180&gender=2&source=detail\"},{\"category_id\":597,\"name\":\"爽文\",\"schema\":\"dragon1967://newCategoryDetail?id=597&name=爽文&genre_type=180&gender=2&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "2",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1759670604",
+              "authorize_type": "1",
+              "media_id": "1769679464292365",
+              "original_book_name": "爆改黑科技男主",
+              "length_type": "2",
+              "op_tag": "1597,1598,531",
+              "keep_publish_days": "0",
+              "thumb_uri": "tos-cn-i-1yzifmftcy/cdd01329c46d41359cee06b43efde03d",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/272c6d63cc295f6984101059987de102~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008607&x-signature=H8luwnyjFGtgjtdLPXvVUK%2FoP5w%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "男生生活,爽文",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": true,
+              "color_dominate": "#405058",
+              "read_count_all": "36",
+              "shelf_cnt_history": "1046",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2503\":1759670595,\"564505\":1760428231,\"1128\":1760428231,\"2329\":1760428231,\"565945\":1760428231,\"596084\":1760428231,\"1967\":1759670595,\"35\":1759670595,\"507386\":1759670595,\"13\":1759670595,\"507427\":1759670595,\"638505\":1760428231}",
+              "category_v2_map": {
+                "597": true,
+                "1381": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/tos-cn-i-1yzifmftcy/cdd01329c46d41359cee06b43efde03d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=ICtsddN5L9HoFdccjERCcbOki2k%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7248610028087678208,
+                  "AuthorName": "珑枍"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "7557725925258089278",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/272c6d63cc295f6984101059987de102~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008607&x-signature=%2FlFILfIi3B41ZOGM26dvVUniLgg%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "relate_post_schema": "dragon1967://ugcPostDetails?originType=7&pageStyle=ugc_story&postId=7557727546494849854&postType=13&relativeId=0&relativeType=5&url=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrweb_community%2Fpage%2Fugc-post-detail.html%3Fpage_style%3Dugc_story%26post_id%3D7557727546494849854&sourceType=15",
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "爆改黑科技男主",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/tos-cn-i-1yzifmftcy/cdd01329c46d41359cee06b43efde03d~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=nzgwrwQe8cuaDIek3IyuMMo1Rqs%3D",
+              "relate_post_id": "7557727546494849854",
+              "post_data": {
+                "post_id": "7557727546494849854",
+                "relative_id": "0",
+                "content": "{\"materials\":[],\"skeleton\":{\"data\":\"\",\"type\":\"\"}}",
+                "post_type": 13,
+                "book_card": [],
+                "tags": [],
+                "reply_cnt": 0,
+                "digg_cnt": 1,
+                "has_digg": false,
+                "create_time": 1759670595,
+                "title": "爆改黑科技男主",
+                "user_info": {
+                  "user_id": "3017478083191245",
+                  "user_type": 12,
+                  "user_name": "珑枍",
+                  "user_avatar": "https://p3-reading-sign.fqnovelpic.com/tos-cn-i-0000/7b92beed15144f519898bfe689051d51~tplv-s85hriknmn-jpeg-v1:144:0.heic?lk3s=ae45642e&x-expires=1776358605&x-signature=UDAhTK8FBH%2BNU6MOiNOUH1SulVU%3D",
+                  "is_author": true,
+                  "gender": 2,
+                  "description": "叹笔无趣，意惊雷无声，赏落花流水，听雨不觉眠。",
+                  "is_vip": false,
+                  "is_official_cert": false,
+                  "has_medal": false,
+                  "relation_type": 1,
+                  "can_follow": true,
+                  "is_cancelled": false,
+                  "fans_schema": "dragon1967://webview?loadingButHideByFront=1&hideNavigationBar=1&bounceDisable=1&hideStatusBar=1&url=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrweb_community%2Fpage%2Fuser-social.html%3Ftab%3Dfans%26user_id%3D%252523c1967_Fqr3mLQyr9pivS2BJcliC8ZBJVFGrUSZs2oiSWTmz59FYQYU0Fv3Bee5foL1%25252Fvgt",
+                  "follow_schema": "dragon1967://webview?loadingButHideByFront=1&hideNavigationBar=1&bounceDisable=1&hideStatusBar=1&url=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrweb_community%2Fpage%2Fuser-social.html%3Ftab%3Dfollow%26user_id%3D%252523c1967_Fqr3mLQyr9pivS2BJcliC8ZBJVFGrUSZs2oiSWTmz59FYQYU0Fv3Bee5foL1%25252Fvgt",
+                  "encode_user_id": "#c1967_MTk2NzE5NjcxOTY3MTk2N4xeUILl7xUIpXv6bK/N3WVlOQ1k0gEPNu6WYFS86AIt",
+                  "ugc_read_book_count": 0,
+                  "profile_gender": 1,
+                  "user_sticker": {
+                    "sticker": null,
+                    "expire_time": 0,
+                    "is_worn": false
+                  },
+                  "expand_user_avatar": "https://p3-reading-sign.fqnovelpic.com/tos-cn-i-0000/7b92beed15144f519898bfe689051d51~tplv-s85hriknmn-jpeg.heic?lk3s=ae45642e&x-expires=1776358605&x-signature=xyqvC69B70v2QMPTie4qqXYtU6M%3D",
+                  "is_pub_vip": false,
+                  "is_story_vip": false,
+                  "is_adFree_vip": false
+                },
+                "ugc_privacy": 0,
+                "relative_type": 5,
+                "book_id": "0",
+                "pure_content": "1 重生之躯剧痛。像是每一寸骨头都被拆开，又粗暴地塞回一个不匹配的模具里，酸软、无力，还带着一种令人作呕的绵麻。意识从一片血腥厮杀的混沌中挣扎着上浮，猛地撞进了一片柔软的黑暗。鼻尖萦绕的不再是硝烟、腐臭和铁锈味，而是一种…甜腻的花香，夹杂着陌生的、干净的皂角气息。他猛地睁开眼。入目是朦胧的纱幔，淡粉色，缀着细碎的蕾丝边。光线被柔和地过滤，洒在身下异常柔软的床铺上。这不是他失去意识前那个坍塌的军火库，不是任何一处能够提供基本防护的掩体。这里安全得令人窒息，也…娘炮得令人头皮发麻。他尝试撑起身体，手臂却传来一阵虚脱般的颤抖。这不对劲。他的身体，那个在末世废土徒手撕过变异体、能负重百公里急行军的身体",
+                "status": 1,
+                "ContentType": 4,
+                "origin_type": 7,
+                "post_schema": "dragon1967://ugcPostDetails?originType=7&pageStyle=ugc_story&postId=7557727546494849854&postType=13&relativeId=0&relativeType=5&url=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrweb_community%2Fpage%2Fugc-post-detail.html%3Fpage_style%3Dugc_story%26post_id%3D7557727546494849854",
+                "favorite_cnt": 0,
+                "has_favorite": false,
+                "can_favorite": false,
+                "show_pv": 0,
+                "read_book_count": 0,
+                "related_topic_data": {},
+                "bg_style": {},
+                "relate_book_schema": "dragon1967://reading?bookId=7557727391771003928&key_force_no_show_book_cover=1&genre_type=180&is_force_pgc_container=1",
+                "total_word_num": 16159,
+                "truncate_flag": 3,
+                "read_cnt": 38,
+                "relate_book_id": "7557727391771003928",
+                "relate_item_id": "7557683751916929598",
+                "html_content": "<h1 idx=\"10000\" p_idx=\"40000\"><blk p_idx=\"10000\" e_idx=\"0\" e_order=\"0\">1 重生之躯</blk></h1><p idx=\"0\" p_idx=\"40000\"><blk p_idx=\"0\" e_idx=\"0\" e_order=\"1\">剧痛。</blk></p><p idx=\"1\" p_idx=\"40000\"><blk p_idx=\"1\" e_idx=\"0\" e_order=\"2\">像是每一寸骨头都被拆开，又粗暴地塞回一个不匹配的模具里，酸软、无力，还带着一种令人作呕的绵麻。意识从一片血腥厮杀的混沌中挣扎着上浮，猛地撞进了一片柔软的黑暗。</blk></p><p idx=\"2\" p_idx=\"40000\"><blk p_idx=\"2\" e_idx=\"0\" e_order=\"3\">鼻尖萦绕的不再是硝烟、腐臭和铁锈味，而是一种…甜腻的花香，夹杂着陌生的、干净的皂角气息。</blk></p><p idx=\"3\" p_idx=\"40000\"><blk p_idx=\"3\" e_idx=\"0\" e_order=\"4\">他猛地睁开眼。</blk></p><p idx=\"4\" p_idx=\"40000\"><blk p_idx=\"4\" e_idx=\"0\" e_order=\"5\">入目是朦胧的纱幔，淡粉色，缀着细碎的蕾丝边。光线被柔和地过滤，洒在身下异常柔软的床铺上。这不是他失去意识前那个坍塌的军火库，不是任何一处能够提供基本防护的掩体。这里安全得令人窒息，也…娘炮得令人头皮发麻。</blk></p><p idx=\"5\" p_idx=\"40000\"><blk p_idx=\"5\" e_idx=\"0\" e_order=\"6\">他尝试撑起身体，手臂却传来一阵虚脱般的颤抖。这不对劲。他的身体，那个在末世废土徒手撕过变异体、能负重百公里急行军的身体</blk></p>",
+                "cover_vertical": false,
+                "extra": {
+                  "hot_value": "1251",
+                  "book_card_len": "0"
+                },
+                "text_exts": [
+                  {
+                    "tp": 0,
+                    "text": "1 重生之躯剧痛。像是每一寸骨头都被拆开，又粗暴地塞回一个不匹配的模具里，酸软、无力，还带着一种令人作呕的绵麻。意识从一片血腥厮杀的混沌中挣扎着上浮，猛地撞进了一片柔软的黑暗。鼻尖萦绕的不再是硝烟、腐臭和铁锈味，而是一种…甜腻的花香，夹杂着陌生的、干净的皂角气息。他猛地睁开眼。入目是朦胧的纱幔，淡粉色，缀着细碎的蕾丝边。光线被柔和地过滤，洒在身下异常柔软的床铺上。这不是他失去意识前那个坍塌的军火库，不是任何一处能够提供基本防护的掩体。这里安全得令人窒息，也…娘炮得令人头皮发麻。他尝试撑起身体，手臂却传来一阵虚脱般的颤抖。这不对劲。他的身体，那个在末世废土徒手撕过变异体、能负重百公里急行军的身体"
+                  }
+                ]
+              },
+              "raw_book_name": "爆改黑科技男主"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:36:0:2623392393:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "短篇",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 1
+            },
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "1.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "38人读过",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "男生生活",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：珑枍",
+                "rich_text": "作者：珑枍",
+                "high_light_position": []
+              },
+              {
+                "text": "剧痛。像是每一寸骨头都被拆开，又粗暴地塞回一个不匹配的模具里，酸软、无力，还带着一种令人作呕的绵麻。意识从一片血腥厮杀的混沌中挣扎着上浮，猛地撞进了一片柔软的黑暗。鼻尖萦绕的不再是硝烟、腐臭和铁锈味，而是一种…甜腻的花香，夹杂着陌生的、干净的皂角气息。他猛地睁开眼。入目是朦胧的纱幔，淡粉色，缀着细碎的蕾丝边。光线被柔和地过滤，洒在身下异常柔软的床铺上。这不是",
+                "rich_text": "剧痛。像是每一寸骨头都被拆开，又粗暴地塞回一个不匹配的模具里，酸软、无力，还带着一种令人作呕的绵麻。意识从一片血腥厮杀的混沌中挣扎着上浮，猛地撞进了一片柔软的<em>黑</em>暗。鼻尖萦绕的不再是硝烟、腐臭和铁锈味，而是一种…甜腻的花香，夹杂着陌生的、干净的皂角气息。他猛地睁开眼。入目是朦胧的纱幔，淡粉色，缀着细碎的蕾丝边。光线被柔和地过滤，洒在身下异常柔软的床铺上。这不是",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1037,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7599948759207775294",
+          "search_result_id": "7599948759207775294",
+          "search_high_light": {
+            "title": {
+              "text": "科技霸主？不，我只是个普通人",
+              "rich_text": "<em>科技</em>霸主？不，我只是个普通人",
+              "high_light_position": [
+                [
+                  0,
+                  2
+                ]
+              ]
+            },
+            "abstract": {
+              "text": "...海外白手起家，凭逆天黑科技系统碾压欧美巨头、打脸歧视者，暗中助力祖国科技崛起，从校园学霸到地球科技霸主，最终冲出星球开启星际探险，一路爽点拉满、装逼不停、成长不止。",
+              "rich_text": "华裔天才林辰在海外白手起家，凭逆天<em>黑科技</em>系统碾压欧美巨头、打脸歧视者，暗中助力祖国<em>科技</em>崛起，从校园学霸到地球<em>科技</em>霸主，最终冲出星球开启星际探险，一路爽点拉满、装逼不停、成长不止。",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ],
+                [
+                  37,
+                  2
+                ],
+                [
+                  50,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "华裔天才林辰在海外白手起家，凭逆天黑科技系统碾压欧美巨头、打脸歧视者，暗中助力祖国科技崛起，从校园学霸到地球科技霸主，最终冲出星球开启星际探险，一路爽点拉满、装逼不停、成长不止。",
+              "author": "路可路可",
+              "book_id": "7599948759207775294",
+              "book_name": "科技霸主？不，我只是个普通人",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-01-27T16:02:41+08:00",
+              "creation_status": "0",
+              "first_chapter_group_id": "7599954364442083902",
+              "first_chapter_item_id": "7599954364442083902",
+              "first_chapter_title": "第1章 绝境：华裔的尊严与星核之光",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7609192718324990526",
+              "last_chapter_item_id": "7609192718324990526",
+              "last_chapter_title": "第94章 世代安居：从此烟火寻常，岁岁平安（大结局）",
+              "last_chapter_update_time": "1771653269",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "4",
+              "recommend_group_id": "7599948759207775294",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817032629AAA79F4E3335E535E4\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "96",
+              "source": "番茄小说",
+              "tags": "都市脑洞,都市",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai-mark/38c526eebdfcc42977f6aec8e4f03c65~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=n5ZaaPJ3JXBJl2LRzFvvP%2FIajUo%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "298648",
+              "score": "0",
+              "exclusive": "1",
+              "role": "林辰",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":1,\"name\":\"都市\",\"schema\":\"dragon1967://newCategoryDetail?id=1&name=都市&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":90,\"name\":\"天才\",\"schema\":\"dragon1967://newCategoryDetail?id=90&name=天才&genre_type=0&gender=1&source=detail\"},{\"category_id\":82,\"name\":\"学霸\",\"schema\":\"dragon1967://newCategoryDetail?id=82&name=学霸&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "1",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1771653277",
+              "authorize_type": "1",
+              "media_id": "1710003519316996",
+              "original_book_name": "科技霸主？不，我只是个普通人",
+              "length_type": "1",
+              "op_tag": "535,536",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/ai-mark/38c526eebdfcc42977f6aec8e4f03c65",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai-mark/38c526eebdfcc42977f6aec8e4f03c65~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008607&x-signature=O9cg23kirVuwksdxU1uex2iEXUI%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市脑洞,黑科技",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":104575}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#304048",
+              "read_count_all": "536",
+              "shelf_cnt_history": "979",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8662\":1769501085,\"8703\":1769501085,\"596084\":1769591474,\"8704\":1769501085,\"35\":1769501085,\"3040\":1769591474,\"510893\":1769501085,\"6589\":1769591474,\"507427\":1769501134,\"507386\":1769501134,\"1128\":1769501085,\"1967\":1769501085,\"8661\":1769591474,\"638505\":1769591474,\"2503\":1769501085,\"2329\":1769501085,\"13\":1769501085}",
+              "category_v2_map": {
+                "90": true,
+                "1": true,
+                "19": true,
+                "82": true,
+                "262": true,
+                "854": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai-mark/38c526eebdfcc42977f6aec8e4f03c65~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=n5ZaaPJ3JXBJl2LRzFvvP%2FIajUo%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7090110464754980107,
+                  "AuthorName": "路可路可"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai-mark/38c526eebdfcc42977f6aec8e4f03c65~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008607&x-signature=eJCXNWtdWKSrTJS5NfM%2F6MjQ%2B1I%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "华裔天才林辰在海外白手起家，凭逆天黑科技系统碾压欧美巨头、打脸歧视者，暗中助力祖国科技崛起，从校园学霸到地球科技霸主，最终冲出星球开启星际探险，一路爽点拉满、装逼不停、成长不止。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/ai-mark/38c526eebdfcc42977f6aec8e4f03c65~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=GzZyJ8%2FOO7xYHi%2BqWmeMavLGNU8%3D",
+              "raw_book_name": "科技霸主？不，我只是个普通人",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:37:0:2461733325:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "已完结",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "29.9万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "4人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：路可路可",
+                "rich_text": "作者：路可路可",
+                "high_light_position": []
+              },
+              {
+                "text": "...海外白手起家，凭逆天黑科技系统碾压欧美巨头、打脸歧视者，暗中助力祖国科技崛起，从校园学霸到地球科技霸主，最终冲出星球开启星际探险，一路爽点拉满、装逼不停、成长不止。",
+                "rich_text": "华裔天才林辰在海外白手起家，凭逆天<em>黑科技</em>系统碾压欧美巨头、打脸歧视者，暗中助力祖国<em>科技</em>崛起，从校园学霸到地球<em>科技</em>霸主，最终冲出星球开启星际探险，一路爽点拉满、装逼不停、成长不止。",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ],
+                  [
+                    37,
+                    2
+                  ],
+                  [
+                    50,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1038,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7528803721036188734",
+          "search_result_id": "7528803721036188734",
+          "search_high_light": {
+            "abstract": {
+              "text": "地球程序员林凡，一觉醒来发现自己竟穿越到名为奥秘界的奇幻世界，成为衰败贵族之子艾伦·德雷克。这个世界源力昌盛，魔法与斗气共存，却被僵化的传统与刻板的教条所桎梏。而林凡得到的，是一个名为“万物解析系统”的金手指。 它不直接赋予力量，却能解析万物本源，洞悉源力流转，甚至推演出前所未有的魔法公式与修炼路径。 从解析一颗石子开始，到改良家族古老斗技，再到重构失落的魔法符文……林凡凭借前世的科学思维，以解析之力打破奥秘界的固有认知，推翻旧有体系，一步步揭开这个世界的隐藏真相。 他从一个孱弱的贵族少年，成长为颠覆奥秘界的“源力重构者”，用知识与创新，在这片被传统束缚的土地上，书写属于他的传奇。",
+              "rich_text": "地球程序员林凡，一觉醒来发现自己竟穿越到名为奥秘界的奇幻世界，成为衰败贵族之子艾伦·德雷克。这个世界源力昌盛，魔法与斗气共存，却被僵化的传统与刻板的教条所桎梏。而林凡得到的，是一个名为“万物解析系统”的金手指。\n它不直接赋予力量，却能解析万物本源，洞悉源力流转，甚至推演出前所未有的魔法公式与修炼路径。\n从解析一颗石子开始，到改良家族古老斗<em>技</em>，再到重构失落的魔法符文……林凡凭借前世的<em>科</em>学思维，以解析之力打破奥秘界的固有认知，推翻旧有体系，一步步揭开这个世界的隐藏真相。\n他从一个孱弱的贵族少年，成长为颠覆奥秘界的“源力重构者”，用知识与创新，在这片被传统束缚的土地上，书写属于他的传奇。",
+              "high_light_position": []
+            },
+            "title": {
+              "text": "从零开始的异界科研",
+              "high_light_position": []
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "地球程序员林凡，一觉醒来发现自己竟穿越到名为奥秘界的奇幻世界，成为衰败贵族之子艾伦·德雷克。这个世界源力昌盛，魔法与斗气共存，却被僵化的传统与刻板的教条所桎梏。而林凡得到的，是一个名为“万物解析系统”的金手指。\n它不直接赋予力量，却能解析万物本源，洞悉源力流转，甚至推演出前所未有的魔法公式与修炼路径。\n从解析一颗石子开始，到改良家族古老斗技，再到重构失落的魔法符文……林凡凭借前世的科学思维，以解析之力打破奥秘界的固有认知，推翻旧有体系，一步步揭开这个世界的隐藏真相。\n他从一个孱弱的贵族少年，成长为颠覆奥秘界的“源力重构者”，用知识与创新，在这片被传统束缚的土地上，书写属于他的传奇。",
+              "author": "w先生4188",
+              "book_id": "7528803721036188734",
+              "book_name": "从零开始的异界科研",
+              "category": "西方奇幻",
+              "copyright_info": "版权信息：本书的数字版权由 番茄小说 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2025-07-19T22:43:36+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7528803742494245438",
+              "first_chapter_item_id": "7528803742494245438",
+              "first_chapter_title": "第1章 异界初醒：万物解析之始",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7608942957068042776",
+              "last_chapter_item_id": "7608942957068042776",
+              "last_chapter_title": "第50章 冬季旅客",
+              "last_chapter_update_time": "1771595120",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "7",
+              "recommend_group_id": "7528803721036188734",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817032629AAA79F4E3335E535E4\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "50",
+              "source": "番茄小说",
+              "tags": "西方奇幻,玄幻",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1ac76f70702a612795c00d5e7e7da1c1~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=65TlBIxty%2FFR1A5nj2aW16Oed3I%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "119616",
+              "score": "7.7",
+              "exclusive": "1",
+              "role": "林凡",
+              "category_schema": "[{\"category_id\":1141,\"name\":\"西方奇幻\",\"schema\":\"dragon1967://newCategoryDetail?id=1141&name=西方奇幻&genre_type=0&gender=1&source=detail\"},{\"category_id\":7,\"name\":\"玄幻\",\"schema\":\"dragon1967://newCategoryDetail?id=7&name=玄幻&genre_type=0&gender=1&source=detail\"},{\"category_id\":19,\"name\":\"系统\",\"schema\":\"dragon1967://newCategoryDetail?id=19&name=系统&genre_type=0&gender=1&source=detail\"},{\"category_id\":259,\"name\":\"奇幻仙侠\",\"schema\":\"dragon1967://newCategoryDetail?id=259&name=奇幻仙侠&genre_type=0&gender=1&source=detail\"},{\"category_id\":852,\"name\":\"魂穿\",\"schema\":\"dragon1967://newCategoryDetail?id=852&name=魂穿&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1773594034",
+              "authorize_type": "1",
+              "media_id": "1823846674011145",
+              "original_book_name": "从零开始的异界科研",
+              "length_type": "0",
+              "op_tag": "535,536,1699",
+              "keep_publish_days": "1",
+              "thumb_uri": "novel-pic/p2o1ac76f70702a612795c00d5e7e7da1c1",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1ac76f70702a612795c00d5e7e7da1c1~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008607&x-signature=XGrwksHCnY%2BE5fX92BxzGecSJKo%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "西方奇幻,魂穿",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854767615,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":120959}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e8e8e8",
+              "read_count_all": "6767",
+              "shelf_cnt_history": "979",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"2503\":1752936402,\"35\":1752936402,\"8704\":1752936402,\"510893\":1752936402,\"1128\":1752936402,\"2329\":1752936402,\"8662\":1752936402,\"6589\":1752989904,\"13\":1752936402,\"507386\":1752936449,\"1967\":1752936402,\"3040\":1752989904,\"8661\":1752989904,\"596084\":1752989904,\"8703\":1752936402,\"507427\":1752936449,\"638505\":1752989904}",
+              "category_v2_map": {
+                "19": true,
+                "259": true,
+                "852": true,
+                "1141": true,
+                "7": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1ac76f70702a612795c00d5e7e7da1c1~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=65TlBIxty%2FFR1A5nj2aW16Oed3I%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7470484906607383870,
+                  "AuthorName": "w先生4188"
+                }
+              ],
+              "reading_gift_permission": "1",
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1ac76f70702a612795c00d5e7e7da1c1~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008607&x-signature=TPINO%2FYlaVZ2QXy6z%2BJcSVd8INw%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "地球程序员林凡，一觉醒来发现自己竟穿越到名为奥秘界的奇幻世界，成为衰败贵族之子艾伦·德雷克。这个世界源力昌盛，魔法与斗气共存，却被僵化的传统与刻板的教条所桎梏。而林凡得到的，是一个名为“万物解析系统”的金手指。\n它不直接赋予力量，却能解析万物本源，洞悉源力流转，甚至推演出前所未有的魔法公式与修炼路径。\n从解析一颗石子开始，到改良家族古老斗技，再到重构失落的魔法符文……林凡凭借前世的科学思维，以解析之力打破奥秘界的固有认知，推翻旧有体系，一步步揭开这个世界的隐藏真相。\n他从一个孱弱的贵族少年，成长为颠覆奥秘界的“源力重构者”，用知识与创新，在这片被传统束缚的土地上，书写属于他的传奇。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o1ac76f70702a612795c00d5e7e7da1c1~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=9eg1kUjrsogklPY0D%2F6B8ivspHg%3D",
+              "raw_book_name": "从零开始的异界科研",
+              "color_audio_dominate": "#DCDDDD",
+              "quality_rate": "60"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:38:0:982618421:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "12.0万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "7人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "西方奇幻",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：w先生4188",
+                "rich_text": "作者：w先生4188",
+                "high_light_position": []
+              },
+              {
+                "text": "地球程序员林凡，一觉醒来发现自己竟穿越到名为奥秘界的奇幻世界，成为衰败贵族之子艾伦·德雷克。这个世界源力昌盛，魔法与斗气共存，却被僵化的传统与刻板的教条所桎梏。而林凡得到的，是一个名为“万物解析系统”的金手指。 它不直接赋予力量，却能解析万物本源，洞悉源力流转，甚至推演出前所未有的魔法公式与修炼路径。 从解析一颗石子开始，到改良家族古老斗技，再到重构失落的魔法符文……林凡凭借前世的科学思维，以解析之力打破奥秘界的固有认知，推翻旧有体系，一步步揭开这个世界的隐藏真相。 他从一个孱弱的贵族少年，成长为颠覆奥秘界的“源力重构者”，用知识与创新，在这片被传统束缚的土地上，书写属于他的传奇。",
+                "rich_text": "地球程序员林凡，一觉醒来发现自己竟穿越到名为奥秘界的奇幻世界，成为衰败贵族之子艾伦·德雷克。这个世界源力昌盛，魔法与斗气共存，却被僵化的传统与刻板的教条所桎梏。而林凡得到的，是一个名为“万物解析系统”的金手指。\n它不直接赋予力量，却能解析万物本源，洞悉源力流转，甚至推演出前所未有的魔法公式与修炼路径。\n从解析一颗石子开始，到改良家族古老斗<em>技</em>，再到重构失落的魔法符文……林凡凭借前世的<em>科</em>学思维，以解析之力打破奥秘界的固有认知，推翻旧有体系，一步步揭开这个世界的隐藏真相。\n他从一个孱弱的贵族少年，成长为颠覆奥秘界的“源力重构者”，用知识与创新，在这片被传统束缚的土地上，书写属于他的传奇。",
+                "high_light_position": []
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        },
+        {
+          "cell_id": 1039,
+          "show_type": 110,
+          "cell_name": "",
+          "cell_operation_type": 0,
+          "use_recommend": true,
+          "book_id": "7613353388192844824",
+          "search_result_id": "7613353388192844824",
+          "search_high_light": {
+            "abstract": {
+              "text": "...屏、空天引擎等上万项黑科技，他从一间宿舍起步，掀起一场颠覆世界的科技革命。   超级快充碾压行业，柔性屏手机引爆市场，新能源技术改写能源格局，AI启明重塑社会结构，可控核聚变点亮人类未来…… 昔日资本巨头围追堵截，他以技术降维反杀；国际势力封锁制裁，他凭硬实力强势破局。   从校园创客到科技新贵，从国内巨头到全球霸主，林辰一手缔造破晓科技帝国，引领人类走出地球，迈向星辰大海。 这是属于他的时代，也是人类文明全新的黎明。",
+              "rich_text": "张辰重生回到大学时代，意外绑定来自2100年的未来<em>科技</em>数据库。\n手握可控低温电池、通用人工智能、柔性原子屏、空天引擎等上万项<em>黑科技</em>，他从一间宿舍起步，掀起一场颠覆世界的<em>科技</em>革命。\n \n超级快充碾压行业，柔性屏手机引爆市场，新能源<em>技</em>术改写能源格局，AI启明重塑社会结构，可控核聚变点亮人类未来……\n昔日资本巨头围追堵截，他以<em>技</em>术降维反杀；国际势力封锁制裁，他凭硬实力强势破局。\n \n从校园创客到<em>科技</em>新贵，从国内巨头到全球霸主，林辰一手缔造破晓<em>科技</em>帝国，引领人类走出地球，迈向星辰大海。\n这是属于他的时代，也是人类文明全新的黎明。",
+              "high_light_position": [
+                [
+                  13,
+                  3
+                ],
+                [
+                  35,
+                  2
+                ],
+                [
+                  147,
+                  2
+                ],
+                [
+                  171,
+                  2
+                ]
+              ]
+            },
+            "title": {
+              "text": "都市科技革命：我重启了未来文明",
+              "rich_text": "都市<em>科技</em>革命：我重启了未来文明",
+              "high_light_position": [
+                [
+                  2,
+                  2
+                ]
+              ]
+            }
+          },
+          "book_data": [
+            {
+              "abstract": "张辰重生回到大学时代，意外绑定来自2100年的未来科技数据库。\n手握可控低温电池、通用人工智能、柔性原子屏、空天引擎等上万项黑科技，他从一间宿舍起步，掀起一场颠覆世界的科技革命。\n \n超级快充碾压行业，柔性屏手机引爆市场，新能源技术改写能源格局，AI启明重塑社会结构，可控核聚变点亮人类未来……\n昔日资本巨头围追堵截，他以技术降维反杀；国际势力封锁制裁，他凭硬实力强势破局。\n \n从校园创客到科技新贵，从国内巨头到全球霸主，林辰一手缔造破晓科技帝国，引领人类走出地球，迈向星辰大海。\n这是属于他的时代，也是人类文明全新的黎明。",
+              "author": "青空澈",
+              "book_id": "7613353388192844824",
+              "book_name": "都市科技革命：我重启了未来文明",
+              "category": "都市脑洞",
+              "copyright_info": "版权信息：本书的数字版权由 青空澈 提供并授权发行，如有任何疑问，请通过“我的-意见反馈”告知我们",
+              "create_time": "2026-03-04T18:59:30+08:00",
+              "creation_status": "1",
+              "first_chapter_group_id": "7613367666102780440",
+              "first_chapter_item_id": "7613367666102780440",
+              "first_chapter_title": "第1章 重生，与未来科技数据库",
+              "genre": "0",
+              "in_bookshelf": "0",
+              "last_chapter_group_id": "7613976232828338712",
+              "last_chapter_item_id": "7613976232828338712",
+              "last_chapter_title": "第7章 常温超导落地！实验室细节炸裂，举国震动",
+              "last_chapter_update_time": "1772767077",
+              "latest_read_item_id": "0",
+              "platform": "2",
+              "read_count": "2",
+              "recommend_group_id": "7613353388192844824",
+              "recommend_info": "{\"channel_id\":\"94349567752\",\"request_id\":\"2026031817032629AAA79F4E3335E535E4\",\"rank\":\"1\",\"normal_session_id\":\"489ba91c-db41-4691-b23f-c62caf88b1da\",\"cold_start_session_id\":\"3edaa3f6-07fa-474f-805f-7826dbed7ca5\"}",
+              "read_progress": "0",
+              "serial_count": "8",
+              "source": "青空澈",
+              "tags": "都市脑洞,黑科技",
+              "thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0e2f26da754d360ce3c30a1f27ccda9d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=GGzw%2FkoxBquT7VztemN%2Byt7F0j0%3D",
+              "total_price": "0",
+              "type": "0",
+              "tts_status": "1",
+              "genre_type": "0",
+              "update_status": "0",
+              "word_number": "25747",
+              "score": "0",
+              "role": "张辰",
+              "category_schema": "[{\"category_id\":262,\"name\":\"都市脑洞\",\"schema\":\"dragon1967://newCategoryDetail?id=262&name=都市脑洞&genre_type=0&gender=1&source=detail\"},{\"category_id\":854,\"name\":\"黑科技\",\"schema\":\"dragon1967://newCategoryDetail?id=854&name=黑科技&genre_type=0&gender=1&source=detail\"},{\"category_id\":850,\"name\":\"无脑爽\",\"schema\":\"dragon1967://newCategoryDetail?id=850&name=无脑爽&genre_type=0&gender=1&source=detail\"}]",
+              "tomato_book_status": "1",
+              "book_type": "0",
+              "gender": "1",
+              "is_ebook": "1",
+              "listen_count": "0",
+              "sub_info": "潜力好书",
+              "last_publish_time": "1772767088",
+              "authorize_type": "0",
+              "media_id": "1858476457156619",
+              "original_book_name": "都市科技革命：我重启了未来文明",
+              "length_type": "0",
+              "keep_publish_days": "0",
+              "thumb_uri": "novel-pic/0e2f26da754d360ce3c30a1f27ccda9d",
+              "horiz_thumb_url": "https://p6-tt.bytecdn.cn/~tplv-shrink:640:0.image",
+              "audio_thumb_uri": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0e2f26da754d360ce3c30a1f27ccda9d~tplv-tt-cs0:440:440.heic?lk3s=64477e16&x-expires=1779008607&x-signature=OkWK4jy62flqx%2F1T7Ya1GT%2BeFbo%3D",
+              "data_rate": "",
+              "all_bookshelf_count": "0",
+              "pure_category_tags": "都市脑洞,无脑爽",
+              "visibility_info": "{\"1967\":{\"op_platform_visibility\":9223372036854751231,\"op_status\":1,\"copyright_status\":2,\"final_platform_visibility\":100454}}",
+              "is_laobai": "-1",
+              "show_vip_tag": null,
+              "color_dominate": "#e0e0e0",
+              "read_count_all": "2",
+              "shelf_cnt_history": "1035",
+              "long_press_action": {
+                "type": 0
+              },
+              "first_online_time": "{\"8704\":1772626044,\"1967\":1772626044,\"510893\":1772626044,\"8662\":1772626044,\"507427\":1772626106,\"8703\":1772626044,\"35\":1772626044,\"2503\":1772626044,\"13\":1772626044,\"2329\":1772626044,\"1128\":1772626044,\"507386\":1772626106}",
+              "category_v2_map": {
+                "262": true,
+                "854": true,
+                "850": true
+              },
+              "expand_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0e2f26da754d360ce3c30a1f27ccda9d~tplv-snk2bdmkp8-superreso-double-rz:1200:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=GGzw%2FkoxBquT7VztemN%2Byt7F0j0%3D",
+              "original_author_infos": [
+                {
+                  "AuthorId": 7612327407969637656,
+                  "AuthorName": "青空澈"
+                }
+              ],
+              "platform_book_id": "",
+              "poster_id": "0",
+              "latest_read_time": "0",
+              "audio_thumb_url_hd": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0e2f26da754d360ce3c30a1f27ccda9d~tplv-tt-cs0:620:620.heic?lk3s=64477e16&x-expires=1779008607&x-signature=eVXqKHXzQd5KyldsrmEL%2FJK%2Fwkw%3D",
+              "flight_user_selected": "0",
+              "coin_price": 0,
+              "extra": {
+                "fold_card_new_layout": "1"
+              },
+              "top_right_icon": null,
+              "sub_title_extra_list": null,
+              "sub_title": "",
+              "read_count_show_strategy": {
+                "read_count_value": "0",
+                "fallback_data": {
+                  "read_cnt_fallback_threshold": 1000,
+                  "read_cnt_fallback_text": "潜力好书",
+                  "read_cnt_fallback_sub_text": "在读人数不足"
+                }
+              },
+              "read_cnt_fallback_threshold": "1000",
+              "read_cnt_fallback_text": "潜力好书",
+              "read_cnt_fallback_sub_text": "在读人数不足",
+              "read_cnt_v2": "0",
+              "read_cnt_sub_text": "",
+              "read_cnt_short_sub_text": "",
+              "book_abstract_v2": "张辰重生回到大学时代，意外绑定来自2100年的未来科技数据库。\n手握可控低温电池、通用人工智能、柔性原子屏、空天引擎等上万项黑科技，他从一间宿舍起步，掀起一场颠覆世界的科技革命。\n \n超级快充碾压行业，柔性屏手机引爆市场，新能源技术改写能源格局，AI启明重塑社会结构，可控核聚变点亮人类未来……\n昔日资本巨头围追堵截，他以技术降维反杀；国际势力封锁制裁，他凭硬实力强势破局。\n \n从校园创客到科技新贵，从国内巨头到全球霸主，林辰一手缔造破晓科技帝国，引领人类走出地球，迈向星辰大海。\n这是属于他的时代，也是人类文明全新的黎明。",
+              "read_page_progress": "0",
+              "read_cnt_text": "潜力好书",
+              "detail_page_thumb_url": "https://p3-reading-sign.fqnovelpic.com/novel-pic/0e2f26da754d360ce3c30a1f27ccda9d~tplv-snk2bdmkp8-superreso-double-rz:1080:0.heic?lk3s=64477e16&x-expires=1779008607&x-signature=mzme%2FYPFlnOdUl9yWLuT2QeMRgw%3D",
+              "raw_book_name": "都市科技革命：我重启了未来文明"
+            }
+          ],
+          "search_attached_info": "5854718698179036814:39:0:2132053541:clks####3@20260318170243EEE0829DE02219CFE489",
+          "sub_title_type": 0,
+          "more_button_position": 0,
+          "category_tag_ids": null,
+          "style": {
+            "cover_size": 0,
+            "interval_type": 0,
+            "use_wide_item_space": false,
+            "use_new_booklist_style": false,
+            "with_favorite_button": false,
+            "show_more_book_abstract": false,
+            "candidate_postion": 0,
+            "jump_to_page": 0,
+            "topic_square_with_book": false,
+            "use_aweme_sdk": false,
+            "use_new_one_to_one_point_four_ratio_style": false,
+            "hide_tab_selector": false,
+            "audio_both_jump_player": false,
+            "show_username": false,
+            "use_selector_v2": false,
+            "search_cell_showed_style": 1
+          },
+          "recommend_reason_line": 1,
+          "cell_source": 1,
+          "recommend_reason_tags": [
+            {
+              "Content": "连载中",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 3
+            },
+            {
+              "Content": "2.6万字",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 4
+            },
+            {
+              "Content": "2人在读",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 5
+            },
+            {
+              "Content": "都市脑洞",
+              "Priority": 0,
+              "CanClick": false,
+              "Highlight": false,
+              "RecommendType": 0,
+              "RecommendTagTypeNew": 2
+            }
+          ],
+          "sub_title_new": {
+            "highligh_item_list": [
+              {
+                "text": "作者：青空澈",
+                "rich_text": "作者：青空澈",
+                "high_light_position": []
+              },
+              {
+                "text": "...屏、空天引擎等上万项黑科技，他从一间宿舍起步，掀起一场颠覆世界的科技革命。   超级快充碾压行业，柔性屏手机引爆市场，新能源技术改写能源格局，AI启明重塑社会结构，可控核聚变点亮人类未来…… 昔日资本巨头围追堵截，他以技术降维反杀；国际势力封锁制裁，他凭硬实力强势破局。   从校园创客到科技新贵，从国内巨头到全球霸主，林辰一手缔造破晓科技帝国，引领人类走出地球，迈向星辰大海。 这是属于他的时代，也是人类文明全新的黎明。",
+                "rich_text": "张辰重生回到大学时代，意外绑定来自2100年的未来<em>科技</em>数据库。\n手握可控低温电池、通用人工智能、柔性原子屏、空天引擎等上万项<em>黑科技</em>，他从一间宿舍起步，掀起一场颠覆世界的<em>科技</em>革命。\n \n超级快充碾压行业，柔性屏手机引爆市场，新能源<em>技</em>术改写能源格局，AI启明重塑社会结构，可控核聚变点亮人类未来……\n昔日资本巨头围追堵截，他以<em>技</em>术降维反杀；国际势力封锁制裁，他凭硬实力强势破局。\n \n从校园创客到<em>科技</em>新贵，从国内巨头到全球霸主，林辰一手缔造破晓<em>科技</em>帝国，引领人类走出地球，迈向星辰大海。\n这是属于他的时代，也是人类文明全新的黎明。",
+                "high_light_position": [
+                  [
+                    13,
+                    3
+                  ],
+                  [
+                    35,
+                    2
+                  ],
+                  [
+                    147,
+                    2
+                  ],
+                  [
+                    171,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "metric_param": 1
+          },
+          "daren_search": false,
+          "cache_page_key": "",
+          "common_report_params": {
+            "related_book_id": "{}"
+          }
+        }
+      ],
+      "plan_id": 7154279908435296269,
+      "search_target_channel": "xs_novel",
+      "has_more": true,
+      "passback": "40",
+      "search_id": "clks####3@20260318170243EEE0829DE02219CFE489",
+      "query": "黑科技",
+      "next_offset": 40,
+      "search_scene": 1,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 13,
+      "title": "买书",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####13@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "client_template": 11,
+      "log_pb": "{\"impr_id\":\"2026031817032629AAA79F4E3335E535E4\"}",
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 5,
+      "title": "全文",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####5@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_full_text_new_style_v553",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-full-text%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    },
+    {
+      "tab_type": 6,
+      "title": "用户",
+      "data": null,
+      "plan_id": 0,
+      "search_target_channel": "",
+      "has_more": false,
+      "passback": "",
+      "search_id": "clks####6@20260318170243EEE0829DE02219CFE489",
+      "query": "",
+      "next_offset": 0,
+      "search_scene": 0,
+      "lynx_config": {
+        "phone_height": null,
+        "pad_height": null,
+        "client_ab_key": [
+          "search_adapt_emoji_v527_config",
+          "search_result_skeleton_config_593"
+        ],
+        "phone_width": null,
+        "pad_width": null
+      },
+      "lynx_url": "sslocal://lynxview/?surl=https%3A%2F%2Freading.snssdk.com%2Freading_offline%2Fdrlynx%2Fsearch-tab-user%2Ftemplate.js&prefix=reading_offline",
+      "client_template": 3,
+      "search_tab_view_style": {
+        "search_tab_cell_style": 1
+      }
+    }
+  ],
+  "selected_tab_idx": 6,
+  "server_ab_params": "{\"ai_search_button_display_text\":\"没找到满意的书？试试用AI帮你\",\"ai_search_button_text_display_user_stay_duration\": 20,\"ai_search_button_text_disappear_duration\": 15}",
+  "log_id": "2026031817032629AAA79F4E3335E535E4"
+}

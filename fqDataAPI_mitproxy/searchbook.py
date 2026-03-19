@@ -343,7 +343,7 @@ def main(book_name):
     # 执行自动化操作
     logger.info("\n[3] 执行自动化操作...")
     logger.info("(假设番茄小说 App 已经打开)")
-    
+
     try:
         # 操作 1: 点击搜索框
         logger.info("\n--- 操作 1: 点击搜索框 ---")
