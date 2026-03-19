@@ -1,0 +1,67 @@
+// 大屏专用深色样式
+$dark-bg: #0d1b2a;
+$dark-bg-secondary: #1b2838;
+$dark-card-bg: rgba(6, 30, 65, 0.85);
+$dark-border: rgba(64, 158, 255, 0.3);
+$dark-text: #e0e6ed;
+$dark-text-secondary: #8a9bb5;
+$dark-highlight: #409eff;
+$dark-glow: rgba(64, 158, 255, 0.5);
+
+.big-screen {
+  width: 100vw;
+  height: 100vh;
+  background: $dark-bg;
+  color: $dark-text;
+  overflow: hidden;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+
+  .screen-header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(6, 30, 65, 0.9) 0%, transparent 100%);
+    border-bottom: 1px solid $dark-border;
+
+    .title {
+      font-size: 28px;
+      font-weight: 700;
+      background: linear-gradient(90deg, #66b1ff, #409eff, #66b1ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 4px;
+    }
+  }
+
+  .screen-body {
+    height: calc(100vh - 64px);
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .screen-card {
+    background: $dark-card-bg;
+    border: 1px solid $dark-border;
+    border-radius: 4px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+
+    .card-title {
+      font-size: 14px;
+      color: $dark-highlight;
+      padding-bottom: 8px;
+      border-bottom: 1px solid $dark-border;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .card-content {
+      flex: 1;
+      overflow: hidden;
+    }
+  }
+}
