@@ -147,6 +147,68 @@ def _wait_for_comment_capture(logger, timeout: float = 15, interval: float = 0.5
     logger.warning("等待 comment/list 请求超时（%.0fs），继续尝试导出", timeout)
 
 
+def _click_first_search_result(device, logger, max_rounds: int = 3) -> bool:
+    """点击首条搜索结果（跨版本兼容策略）。
+
+    不同设备/版本的 resourceId 可能变化，采用多选择器+页面变化校验，
+    并提供比例坐标兜底，尽量保证可点击性。
+    """
+    result_selectors = [
+        {"resourceId": "com.dragon.read:id/it"},
+        {"resourceId": "com.dragon.read:id/akn"},
+        {"resourceId": "com.dragon.read:id/cover"},
+        {"resourceId": "com.dragon.read:id/book_img"},
+        {"resourceId": "com.dragon.read:id/book_cover"},
+        {"resourceId": "com.dragon.read:id/iv_cover"},
+        {"resourceId": "com.dragon.read:id/title"},
+        {"resourceId": "com.dragon.read:id/book_name"},
+    ]
+
+    for round_idx in range(max_rounds):
+        logger.info("尝试点击首条结果（第 %d/%d 轮）", round_idx + 1, max_rounds)
+
+        for sel in result_selectors:
+            try:
+                if not device(**sel).exists(timeout=1):
+                    continue
+                before_click = ui_signature(device)
+                device(**sel).click()
+                if wait_for_ui_change(device, before_click, timeout=4):
+                    logger.info("✓ 已点击首条搜索结果: %s", sel)
+                    return True
+            except Exception:
+                continue
+
+        # 兜底：比例坐标点击首条区域（横竖屏均可）
+        try:
+            sw, sh = device.window_size()
+            fallback_points = [
+                (int(sw * 0.20), int(sh * 0.30)),
+                (int(sw * 0.50), int(sh * 0.30)),
+                (int(sw * 0.20), int(sh * 0.40)),
+            ]
+            for x, y in fallback_points:
+                before_click = ui_signature(device)
+                device.click(x, y)
+                if wait_for_ui_change(device, before_click, timeout=3):
+                    logger.info("✓ 已通过坐标兜底点击首条结果: (%d, %d)", x, y)
+                    return True
+        except Exception:
+            pass
+
+        # 下一轮前轻微上滑，兼容首条被吸顶/广告占位的情况
+        if round_idx < max_rounds - 1:
+            try:
+                sw, sh = device.window_size()
+                device.swipe(int(sw * 0.50), int(sh * 0.78), int(sw * 0.50), int(sh * 0.52), 0.2)
+                time.sleep(0.4)
+            except Exception:
+                pass
+
+    logger.error("✗ 未能点击首条搜索结果（已尝试 %d 轮）", max_rounds)
+    return False
+
+
 def export_and_extract_comment_files(logger, book_name: str) -> bool:
     """Export captured flows and save comment-list related files to data/comtJson/{book_name}/."""
     output_dir = Path("data")
@@ -447,28 +509,31 @@ def main(book_name):
             timeout=12,
         )
 
-        # 操作 4: 切换到“书籍”标签，避免综合页误触作者入口
+        # 操作 4: 切换到“书籍/小说”标签，避免综合页误触作者入口
         logger.info("\n--- 操作 4: 切换到书籍标签 ---")
-        if controller.device(text="书籍").exists(timeout=2):
-            controller.device(text="书籍").click()
-            logger.info("✓ 已切换到书籍标签")
-            time.sleep(0.8)
-        else:
-            logger.warning("未找到书籍标签，继续尝试点击首条结果")
+        _book_tab_selectors = [
+            {"text": "书籍"},
+            {"text": "小说"},
+            {"resourceId": "com.dragon.read:id/tab_book"},
+            {"resourceId": "com.dragon.read:id/tab_novel"},
+        ]
+        _book_tab_clicked = False
+        for _tab_sel in _book_tab_selectors:
+            try:
+                if controller.device(**_tab_sel).exists(timeout=1):
+                    controller.device(**_tab_sel).click()
+                    _book_tab_clicked = True
+                    logger.info("✓ 已切换结果标签: %s", _tab_sel)
+                    time.sleep(0.8)
+                    break
+            except Exception:
+                continue
+        if not _book_tab_clicked:
+            logger.warning("未找到书籍/小说标签，继续尝试点击首条结果")
 
-        # 操作 5: 点击第一条小说结果（优先点击左侧封面区域）
+        # 操作 5: 点击第一条小说结果（多策略兼容不同设备/版本）
         logger.info("\n--- 操作 5: 点击第一条小说结果 ---")
-        if controller.device(resourceId="com.dragon.read:id/it").exists(timeout=2):
-            before_result_click = ui_signature(controller.device)
-            controller.device(resourceId="com.dragon.read:id/it").click()
-            logger.info("✓ 已点击第一条小说封面")
-            wait_for_ui_change(controller.device, before_result_click, timeout=8)
-        elif controller.device(resourceId="com.dragon.read:id/akn").exists(timeout=2):
-            before_result_click = ui_signature(controller.device)
-            controller.device(resourceId="com.dragon.read:id/akn").click()
-            logger.info("✓ 已点击第一条搜索结果容器")
-            wait_for_ui_change(controller.device, before_result_click, timeout=8)
-        else:
+        if not _click_first_search_result(controller.device, logger, max_rounds=3):
             logger.error("✗ 未找到第一条搜索结果")
             return False
 

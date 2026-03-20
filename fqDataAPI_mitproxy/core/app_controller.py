@@ -181,35 +181,45 @@ class AppController:
         """点击搜索结果第一条"""
         try:
             self.logger.info("点击搜索结果第一条")
-            
+
             # 等待搜索结果加载
             time.sleep(1)
-            
-            # 查找书籍列表项
+
             selectors = [
+                {"resourceId": "com.dragon.read:id/it"},
+                {"resourceId": "com.dragon.read:id/akn"},
                 {"resourceId": "com.dragon.read:id/cover"},
                 {"resourceId": "com.dragon.read:id/book_img"},
-                {"className": "android.widget.ImageView"},
+                {"resourceId": "com.dragon.read:id/book_cover"},
+                {"resourceId": "com.dragon.read:id/iv_cover"},
+                {"resourceId": "com.dragon.read:id/title"},
+                {"resourceId": "com.dragon.read:id/book_name"},
             ]
-            
+
             for selector in selectors:
                 try:
-                    if self.device(**selector).exists(timeout=1):
-                        self.logger.debug(f"找到书籍封面: {selector}")
-                        items = self.device(**selector)
-                        if items:
-                            items.click()
-                            time.sleep(2)
-                            self.logger.info("✓ 已打开书籍详情")
-                            return True
+                    if not self.device(**selector).exists(timeout=1):
+                        continue
+                    self.logger.debug(f"找到候选结果: {selector}")
+                    self.device(**selector).click()
+                    time.sleep(1.5)
+                    self.logger.info("✓ 已点击搜索结果")
+                    return True
                 except Exception:
                     continue
-            
-            # 如果找不到，尝试点击任何 ListView 项
-            self.device(className="android.widget.ListView").child_by_index(0).click()
-            time.sleep(2)
-            self.logger.info("✓ 已打开书籍")
-            return True
+
+            # 最终兜底：按比例坐标点击首条区域（横竖屏兼容）
+            try:
+                w, h = self.device.window_size()
+                self.device.click(int(w * 0.20), int(h * 0.30))
+                time.sleep(1.5)
+                self.logger.info("✓ 已通过坐标兜底点击首条结果")
+                return True
+            except Exception:
+                pass
+
+            self.logger.warning("未找到可点击的搜索结果")
+            return False
         
         except Exception as e:
             self.logger.error(f"点击搜索结果失败: {e}")
