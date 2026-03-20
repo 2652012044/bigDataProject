@@ -1,9 +1,10 @@
-"""总控面板 — 显示 mitmproxy 代理和逍遥模拟器的运行状态及连接关系
+﻿"""总控面板 — 显示 mitmproxy 代理和逍遥模拟器的运行状态及连接关系
 
 运行方式:
     python control.py
 """
 
+import concurrent.futures
 import json
 import os
 import socket
@@ -21,7 +22,6 @@ from datetime import datetime
 # ─────────────────────────── 通用配置 ───────────────────────────
 
 REFRESH_INTERVAL_MS = 5000          # 自动刷新间隔（毫秒）
-HOST_IP             = "172.19.32.1" # 宿主机对模拟器可见的 IP
 BASE_PROXY_PORT     = 8080          # 分配代理时的默认起始端口
 ADDON_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
@@ -66,7 +66,7 @@ def _detect_via_memuc() -> list:
     try:
         r = subprocess.run(
             ["memuc", "list", "-r"],
-            capture_output=True, text=True, timeout=5,
+            capture_output=True, encoding="utf-8", errors="ignore", timeout=5,
         )
         if r.returncode != 0 or not r.stdout.strip():
             return []
@@ -90,17 +90,38 @@ def _detect_via_memuc() -> list:
 
 
 def _detect_via_adb() -> list:
-    """通过 adb devices 端口号推断逍遥模拟器实例（MEmu 端口范围 21503~22000）。"""
+    """扫描逍遥模拟器 TCP 端口并自动 connect，再从 adb devices 推断实例列表。
+
+    逍遥模拟器每个实例的 ADB 端口：实例 N → 21503 + N*10
+    由于 TCP 设备不会自动出现在 adb devices，必须先 adb connect。
+    """
+    # 并发 connect 常见端口范围（最多10个实例），本机回环 1s 已足够
+    def _try_connect(port: int):
+        try:
+            subprocess.run(
+                ["adb", "connect", f"127.0.0.1:{port}"],
+                capture_output=True, encoding="utf-8", errors="ignore", timeout=1,
+            )
+        except Exception:
+            pass
+
+    ports = [21503 + n * 10 for n in range(10)]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
+        list(pool.map(_try_connect, ports))
+
+    # 再读 adb devices
     try:
         r = subprocess.run(
-            ["adb", "devices"], capture_output=True, text=True, timeout=5
+            ["adb", "devices"], capture_output=True, encoding="utf-8", errors="ignore", timeout=5
         )
         result = []
         for line in r.stdout.strip().splitlines()[1:]:
             if "\t" not in line:
                 continue
-            serial, _ = line.split("\t", 1)
+            serial, status = line.split("\t", 1)
             serial = serial.strip()
+            if status.strip() != "device":
+                continue
             if not serial.startswith("127.0.0.1:"):
                 continue
             try:
@@ -176,7 +197,7 @@ def _adb_devices() -> dict:
     """返回 {serial: status} 的已连接 ADB 设备字典。"""
     try:
         r = subprocess.run(
-            ["adb", "devices"], capture_output=True, text=True, timeout=5
+            ["adb", "devices"], capture_output=True, encoding="utf-8", errors="ignore", timeout=5
         )
         out = {}
         for line in r.stdout.strip().splitlines()[1:]:
@@ -194,7 +215,7 @@ def _emu_proxy(serial: str) -> str:
         r = subprocess.run(
             ["adb", "-s", serial, "shell",
              "settings", "get", "global", "http_proxy"],
-            capture_output=True, text=True, timeout=5,
+            capture_output=True, encoding="utf-8", errors="ignore", timeout=5,
         )
         return r.stdout.strip()
     except Exception:
@@ -244,7 +265,7 @@ def _kill_on_port(port: int) -> None:
     try:
         r = subprocess.run(
             ["netstat", "-ano"],
-            capture_output=True, text=True, timeout=5,
+            capture_output=True, encoding="utf-8", errors="ignore", timeout=5,
         )
         for line in r.stdout.splitlines():
             if f":{port} " in line and "LISTENING" in line:
@@ -1116,6 +1137,7 @@ class ControlPanel(tk.Tk):
 
         def worker():
             try:
+                # 清除模拟器代理设置
                 for cmd in (
                     ["adb", "-s", serial, "shell",
                      "settings", "put", "global", "http_proxy", ":0"],
@@ -1126,6 +1148,18 @@ class ControlPanel(tk.Tk):
                         subprocess.run(cmd, timeout=5, capture_output=True)
                     except Exception:
                         pass
+                # 清理 adb reverse 隧道
+                port = SLOTS[idx]["proxy_port"]
+                if port is not None:
+                    try:
+                        subprocess.run(
+                            ["adb", "-s", serial, "reverse",
+                             "--remove", f"tcp:{port}"],
+                            timeout=5, capture_output=True,
+                        )
+                    except Exception:
+                        pass
+                # 终止 mitmdump 进程
                 proc = self._procs.pop(idx, None)
                 if proc and proc.poll() is None:
                     proc.terminate()
@@ -1181,17 +1215,25 @@ class ControlPanel(tk.Tk):
 
                 # 更新 SLOTS 内存配置
                 SLOTS[idx]["proxy_port"]     = port
-                SLOTS[idx]["expected_proxy"] = f"{HOST_IP}:{port}"
+                SLOTS[idx]["expected_proxy"] = f"127.0.0.1:{port}"
 
                 # 更新端口标签（回到主线程）
                 self.after(0,
                     lambda p=port: self._cards[idx]["p_port"].config(text=f":{p}"))
 
-                # 配置模拟器代理
+                # 建立 adb reverse 隧道：模拟器内 127.0.0.1:<PORT> → 宿主机 127.0.0.1:<PORT>
+                # 不依赖宿主机 IP，可绕过虚拟网卡访问限制
                 serial = SLOTS[idx]["emulator_serial"]
                 subprocess.run(
+                    ["adb", "-s", serial, "reverse",
+                     f"tcp:{port}", f"tcp:{port}"],
+                    timeout=5, capture_output=True,
+                )
+
+                # 配置模拟器代理指向自身 127.0.0.1（经隧道转发到宿主机）
+                subprocess.run(
                     ["adb", "-s", serial, "shell", "settings", "put",
-                     "global", "http_proxy", f"{HOST_IP}:{port}"],
+                     "global", "http_proxy", f"127.0.0.1:{port}"],
                     timeout=5, capture_output=True,
                 )
             except Exception as e:
@@ -1250,7 +1292,7 @@ class ControlPanel(tk.Tk):
                 # step 1: 用 openssl 计算 subject_hash_old
                 r = subprocess.run(
                     ["openssl", "x509", "-subject_hash_old", "-noout", "-in", pem_path],
-                    capture_output=True, text=True, timeout=10,
+                    capture_output=True, encoding="utf-8", errors="ignore", timeout=10,
                 )
                 if r.returncode != 0:
                     raise RuntimeError(
@@ -1272,7 +1314,7 @@ class ControlPanel(tk.Tk):
                 # step 3: adb root
                 r = subprocess.run(
                     ["adb", "-s", serial, "root"],
-                    capture_output=True, text=True, timeout=15,
+                    capture_output=True, encoding="utf-8", errors="ignore", timeout=15,
                 )
                 if r.returncode != 0:
                     raise RuntimeError(f"adb root 失败: {r.stderr.strip() or r.stdout.strip()}")
@@ -1280,26 +1322,26 @@ class ControlPanel(tk.Tk):
                 # step 4: adb remount（尝试，逍遥模拟器虚拟磁盘可能报 I/O error，忽略）
                 subprocess.run(
                     ["adb", "-s", serial, "remount"],
-                    capture_output=True, text=True, timeout=15,
+                    capture_output=True, encoding="utf-8", errors="ignore", timeout=15,
                 )
 
                 # step 5: 优先直接 push 到系统证书目录
                 r = subprocess.run(
                     ["adb", "-s", serial, "push", tmp_cert_path, system_path],
-                    capture_output=True, text=True, timeout=15,
+                    capture_output=True, encoding="utf-8", errors="ignore", timeout=15,
                 )
                 if r.returncode != 0:
                     # 回退：push 到 /tmp 再 su cp
                     r2 = subprocess.run(
                         ["adb", "-s", serial, "push", tmp_cert_path, tmp_path],
-                        capture_output=True, text=True, timeout=15,
+                        capture_output=True, encoding="utf-8", errors="ignore", timeout=15,
                     )
                     if r2.returncode != 0:
                         raise RuntimeError(f"push 失败: {r2.stderr.strip()}")
                     r3 = subprocess.run(
                         ["adb", "-s", serial, "shell",
                          f"su -c 'cp {tmp_path} {system_path}'"],
-                        capture_output=True, text=True, timeout=15,
+                        capture_output=True, encoding="utf-8", errors="ignore", timeout=15,
                     )
                     if r3.returncode != 0:
                         raise RuntimeError(f"cp 失败: {r3.stderr.strip()}")

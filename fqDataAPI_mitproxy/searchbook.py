@@ -124,6 +124,29 @@ def _repair_json_mojibake(node):
     return node
 
 
+def _wait_for_comment_capture(logger, timeout: float = 15, interval: float = 0.5):
+    """轮询 mitmproxy，直到捕获到 comment/list 请求或超时。
+
+    比固定 sleep 更可靠：慢速网络/懒加载书籍不会因等待不足而漏抓。
+    """
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        try:
+            export_json = export_capture_json()
+            entries = normalize_entries(export_json)
+            if any(
+                isinstance(e.get("path"), str)
+                and e["path"].startswith("/novel/commentapi/comment/list/")
+                for e in entries
+            ):
+                logger.info("✓ 已检测到 comment/list 请求，开始导出")
+                return
+        except Exception:
+            pass
+        time.sleep(interval)
+    logger.warning("等待 comment/list 请求超时（%.0fs），继续尝试导出", timeout)
+
+
 def export_and_extract_comment_files(logger, book_name: str) -> bool:
     """Export captured flows and save comment-list related files to data/comtJson/{book_name}/."""
     output_dir = Path("data")
@@ -339,7 +362,7 @@ def main(book_name):
     # 初始化 App 控制器
     logger.info("\n[2] 初始化 App 控制器...")
     controller = AppController(device_mgr)
-    
+
     # 执行自动化操作
     logger.info("\n[3] 执行自动化操作...")
     logger.info("(假设番茄小说 App 已经打开)")
@@ -358,19 +381,25 @@ def main(book_name):
         logger.info("等待搜索框激活...")
         if not wait_for_ui_change(controller.device, before_search_click, timeout=8):
             time.sleep(1)
-        
+        # 额外稳定等待，确保输入法已弹出
+        time.sleep(1.0)
+
         # 操作 2: 输入书籍名称
         logger.info(f"\n--- 操作 2: 输入书籍名称 '{book_name}' ---")
-        
-        # 使用 uiautomator2 输入文本
+
+        # 先清空搜索框，再输入，避免残留内容导致校验失败
+        controller.device.clear_text()
+        time.sleep(0.3)
         controller.device.send_keys(book_name)
         if not wait_for_text_in_any_selector(
             controller.device,
             SEARCH_INPUT_SELECTORS,
             expected_text=book_name,
-            timeout=5,
+            timeout=6,
         ):
             logger.warning("首次输入未校验通过，重试输入一次...")
+            controller.device.clear_text()
+            time.sleep(0.3)
             controller.device.send_keys(book_name)
 
         if not wait_for_text_in_any_selector(
@@ -387,13 +416,29 @@ def main(book_name):
         # 操作 3: 点击搜索按钮
         logger.info("\n--- 操作 3: 点击搜索按钮 ---")
         time.sleep(0.3)  # 输入已校验，仅做短暂稳定等待
-        
-        # 搜索按钮坐标: [1479,55][1555,107]
-        # 中心点: x=(1479+1555)/2=1517, y=(55+107)/2=81
-        search_button_x = 1517
-        search_button_y = 81
-        
-        controller.device.click(search_button_x, search_button_y)
+
+        # 优先用 resourceId 或描述符查找搜索按鈕，套字符方屏方向
+        _search_btn_selectors = [
+            {"resourceId": "com.dragon.read:id/search_btn"},
+            {"resourceId": "com.dragon.read:id/btn_search"},
+            {"resourceId": "com.dragon.read:id/iv_search"},
+            {"text": "搜索", "className": "android.widget.TextView"},
+            {"description": "搜索"},
+        ]
+        _btn_clicked = False
+        for _sel in _search_btn_selectors:
+            try:
+                if controller.device(**_sel).exists(timeout=1):
+                    controller.device(**_sel).click()
+                    _btn_clicked = True
+                    break
+            except Exception:
+                pass
+        if not _btn_clicked:
+            # 回退：按屏幕宽度比例点击（搜索按鈕在右侧边缘约 98%，上方约 10%处）
+            _info = controller.device.window_size()
+            _sw, _sh = _info[0], _info[1]
+            controller.device.click(int(_sw * 0.97), int(_sh * 0.09))
         logger.info("✓ 搜索按钮已点击")
         # 等待搜索结果加载，优先等到“书籍”标签出现
         wait_for_any_selector(
@@ -429,7 +474,8 @@ def main(book_name):
 
         # 操作 6: 等待评论接口触发并导出提取
         logger.info("\n--- 操作 6: 导出 mitmproxy 并提取评论接口文件 ---")
-        time.sleep(3)
+        # 轮询等待 comment/list 请求出现，避免固定等待时间不足导致漏抓
+        _wait_for_comment_capture(logger, timeout=15, interval=0.5)
         if not export_and_extract_comment_files(logger, book_name):
             logger.error("导出或提取评论文件失败")
             return False

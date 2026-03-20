@@ -91,26 +91,34 @@ class AppController:
     def click_search_box(self) -> bool:
         """
         点击搜索框
-        
-        Returns:
-            是否成功
+
+        优先用 resourceId 查找，找不到时按屏幕宽度比例点击，屏幕方向不影响结果。
         """
         try:
             self.logger.info("点击搜索框")
-            
-            # 直接使用坐标点击搜索框
-            # 搜索框坐标范围: [98,66][516,96]
-            # 计算中心点: x=(98+516)/2=307, y=(66+96)/2=81
-            search_x = 307
-            search_y = 81
-            
-            self.logger.debug(f"使用坐标点击搜索框: ({search_x}, {search_y})")
-            self.device.click(search_x, search_y)
+            selectors = [
+                {"resourceId": "com.dragon.read:id/search_input"},
+                {"resourceId": "com.dragon.read:id/edt_search"},
+                {"resourceId": "com.dragon.read:id/search_src_text"},
+                {"resourceId": "com.dragon.read:id/search_text"},
+                {"text": "搜索", "className": "android.widget.TextView"},
+                {"hint": "搜索"},
+            ]
+            for sel in selectors:
+                try:
+                    if self.device(**sel).exists(timeout=1):
+                        self.device(**sel).click()
+                        time.sleep(0.5)
+                        self.logger.info("✓ 搜索框已点击")
+                        return True
+                except Exception:
+                    continue
+            # 回退：按屏幕宽度比例点击（搜索框在中间左侧，约 20% 宽的位置，上方约 10% 处）
+            w, h = self.device.window_size()
+            self.device.click(int(w * 0.22), int(h * 0.09))
             time.sleep(0.5)
-            
-            self.logger.info("✓ 搜索框已点击")
+            self.logger.info("✓ 搜索框已点击（比例坐标回退）")
             return True
-        
         except Exception as e:
             self.logger.error(f"点击搜索框失败: {e}")
             return False
