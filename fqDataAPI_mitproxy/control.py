@@ -1873,11 +1873,44 @@ class JobDialog(tk.Toplevel):
                     values = next((v for v in data.values() if isinstance(v, list)), list(data.values()))
             else:
                 values = [data]
+
+            # ── 起始任务选择 ──
+            total = len(values)
+            start_idx = 0
+            if total > 1:
+                ans = tkinter.simpledialog.askstring(
+                    "选择起始位置",
+                    f"共 {total} 个任务，从第几个开始？\n（输入 1 表示从头开始，输入 101 则跳过前 100 个）",
+                    initialvalue="1",
+                    parent=self,
+                )
+                if ans is None:          # 用户点取消 → 中止导入
+                    return
+                try:
+                    n = int(ans)
+                    if n < 1:
+                        n = 1
+                    elif n > total:
+                        n = total
+                    start_idx = n - 1    # 转换为 0-based 索引
+                except ValueError:
+                    tkinter.messagebox.showerror("输入错误", "请输入有效的整数", parent=self)
+                    return
+                if start_idx > 0:
+                    values = values[start_idx:]
+
             self._param_text.config(state="normal")
             self._param_text.delete("1.0", "end")
             self._param_text.insert("1.0", json.dumps(values, ensure_ascii=False))
             if not param_key:
                 self._param_text.config(state="disabled")
+
+            if start_idx > 0:
+                tkinter.messagebox.showinfo(
+                    "导入成功",
+                    f"已导入 {len(values)} 个任务（跳过前 {start_idx} 个，共 {total} 个）",
+                    parent=self,
+                )
         except Exception as e:
             tkinter.messagebox.showerror("导入失败", str(e), parent=self)
 
