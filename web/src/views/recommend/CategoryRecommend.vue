@@ -124,7 +124,7 @@ function initRiverChart() {
   riverChart = echarts.init(riverChartRef.value)
 
   const topCats = categoryRankData.value.slice(0, 10)
-  const timeSteps = ['萌芽', '起步', '发展', '成长', '高潮', '繁荣', '鼎盛', '延续']
+  const timeSteps = ['2024-01-01', '2024-03-01', '2024-05-01', '2024-07-01', '2024-09-01', '2024-11-01', '2025-01-01', '2025-03-01']
   const riverData = []
 
   topCats.forEach(cat => {
@@ -136,20 +136,29 @@ function initRiverChart() {
     })
   })
 
+  const colors = ['#5470c6', '#91cc75', '#fac858', '#ee6666', '#73c0de', '#3ba272', '#fc8452', '#9a60b4', '#ea7ccc', '#409eff']
+
   riverChart.setOption({
     tooltip: {
       trigger: 'item',
-      formatter: params => `<strong>${params.name}</strong><br/>阶段: ${params.data[0]}<br/>热度: ${params.data[1]}`
+      formatter: params => {
+        if (params.data) {
+          return `<strong>${params.data[2]}</strong><br/>时间: ${params.data[0]}<br/>热度: ${params.data[1]}`
+        }
+        return ''
+      }
     },
     singleAxis: {
-      top: 40, bottom: 40, type: 'category', data: timeSteps,
-      axisLabel: { fontSize: 13, color: '#606266' },
-      axisTick: { show: false }
+      top: 50, bottom: 50, type: 'time',
+      axisLabel: { fontSize: 13, color: '#606266', formatter: '{yyyy}/{MM}' },
+      axisTick: { show: false },
+      axisPointer: { animation: true, label: { show: true } }
     },
+    color: colors,
     series: [{
       type: 'themeRiver',
       emphasis: { itemStyle: { shadowBlur: 20, shadowColor: 'rgba(0,0,0,0.3)' } },
-      label: { show: true, fontSize: 12 },
+      label: { show: true, fontSize: 11 },
       data: riverData
     }]
   })
