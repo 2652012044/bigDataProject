@@ -41,6 +41,7 @@
               <div class="card-name" :title="novel.bookName">{{ novel.bookName }}</div>
               <div class="card-author">{{ novel.author }}</div>
             </div>
+            <el-button :icon="Star" :type="isFav(novel.bookId) ? 'warning' : ''" size="small" circle class="fav-btn" @click.stop="toggleFav(novel)" />
             <div class="card-score">{{ novel.score }}</div>
           </div>
           <div class="card-bottom">
@@ -61,7 +62,8 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue'
 import * as echarts from 'echarts'
-import { Connection } from '@element-plus/icons-vue'
+import { Connection, Star } from '@element-plus/icons-vue'
+import { ElMessage } from 'element-plus'
 import request from '@/api/index'
 
 const avatarColors = [
@@ -136,11 +138,14 @@ function initRiverChart() {
     })
   })
 
-  const colors = ['#5470c6', '#91cc75', '#fac858', '#ee6666', '#73c0de', '#3ba272', '#fc8452', '#9a60b4', '#ea7ccc', '#409eff']
+  const colors = ['#667eea', '#764ba2', '#f093fb', '#43e97b', '#4facfe', '#fa709a', '#fccb90', '#a18cd1', '#38f9d7', '#fee140']
 
   riverChart.setOption({
     tooltip: {
       trigger: 'item',
+      backgroundColor: 'rgba(50, 50, 50, 0.9)',
+      borderColor: 'rgba(255,255,255,0.1)',
+      textStyle: { color: '#fff' },
       formatter: params => {
         if (params.data) {
           return `<strong>${params.data[2]}</strong><br/>时间: ${params.data[0]}<br/>热度: ${params.data[1]}`
@@ -152,13 +157,15 @@ function initRiverChart() {
       top: 50, bottom: 50, type: 'time',
       axisLabel: { fontSize: 13, color: '#606266', formatter: '{yyyy}/{MM}' },
       axisTick: { show: false },
-      axisPointer: { animation: true, label: { show: true } }
+      axisPointer: { animation: true, label: { show: true } },
+      axisLine: { lineStyle: { color: '#e4e7ed' } }
     },
     color: colors,
     series: [{
       type: 'themeRiver',
-      emphasis: { itemStyle: { shadowBlur: 20, shadowColor: 'rgba(0,0,0,0.3)' } },
-      label: { show: true, fontSize: 11 },
+      emphasis: { itemStyle: { shadowBlur: 20, shadowColor: 'rgba(0,0,0,0.2)' } },
+      label: { show: true, fontSize: 11, color: '#fff', textShadowBlur: 2, textShadowColor: 'rgba(0,0,0,0.3)' },
+      itemStyle: { borderColor: '#fff', borderWidth: 0.5 },
       data: riverData
     }]
   })
@@ -168,11 +175,35 @@ function handleCategoryChange() {
   loadCategory(activeCategory.value)
 }
 
+const favSet = ref(new Set())
+function isFav(bookId) { return favSet.value.has(String(bookId)) }
+async function toggleFav(novel) {
+  const bid = String(novel.bookId)
+  try {
+    if (isFav(bid)) {
+      await request.delete(`/favorites/${bid}`)
+      favSet.value.delete(bid)
+      ElMessage.success(`已取消收藏《${novel.bookName}》`)
+    } else {
+      await request.post(`/favorites/${bid}`)
+      favSet.value.add(bid)
+      ElMessage.success(`已收藏《${novel.bookName}》`)
+    }
+  } catch (e) { ElMessage.warning('请先登录后再收藏') }
+}
+async function loadFavStatus() {
+  try {
+    const res = await request.get('/favorites')
+    favSet.value = new Set((res.data || []).map(b => String(b.bookId)))
+  } catch (e) { /* 未登录 */ }
+}
+
 const handleResize = () => { riverChart?.resize() }
 
 onMounted(() => {
   loadCategory()
   loadCategoryRank()
+  loadFavStatus()
   window.addEventListener('resize', handleResize)
 })
 
@@ -264,6 +295,7 @@ onUnmounted(() => {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
   .card-info { flex: 1; min-width: 0; }
+  .fav-btn { flex-shrink: 0; }
   .card-name {
     font-size: 15px; font-weight: 600; color: $text-primary;
     overflow: hidden; text-overflow: ellipsis; white-space: nowrap;

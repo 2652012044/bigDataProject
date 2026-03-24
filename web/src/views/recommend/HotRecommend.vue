@@ -45,6 +45,16 @@
               </div>
               <span class="score-label">评分</span>
             </div>
+
+            <!-- 收藏 -->
+            <el-button
+              :icon="Star"
+              :type="isFav(novel.id) ? 'warning' : ''"
+              size="small"
+              circle
+              class="fav-btn"
+              @click.stop="toggleFav(novel)"
+            />
           </div>
         </div>
       </el-tab-pane>
@@ -54,6 +64,8 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { Star } from '@element-plus/icons-vue'
+import { ElMessage } from 'element-plus'
 import request from '@/api/index'
 
 const avatarColors = [
@@ -125,7 +137,33 @@ async function loadHotRecommend() {
   } catch (e) { /* keep empty */ }
 }
 
-onMounted(() => { loadHotRecommend() })
+const favSet = ref(new Set())
+
+function isFav(bookId) { return favSet.value.has(String(bookId)) }
+
+async function toggleFav(novel) {
+  const bid = String(novel.id)
+  try {
+    if (isFav(bid)) {
+      await request.delete(`/favorites/${bid}`)
+      favSet.value.delete(bid)
+      ElMessage.success(`已取消收藏《${novel.title}》`)
+    } else {
+      await request.post(`/favorites/${bid}`)
+      favSet.value.add(bid)
+      ElMessage.success(`已收藏《${novel.title}》`)
+    }
+  } catch (e) { ElMessage.warning('请先登录后再收藏') }
+}
+
+async function loadFavStatus() {
+  try {
+    const res = await request.get('/favorites')
+    favSet.value = new Set((res.data || []).map(b => String(b.bookId)))
+  } catch (e) { /* 未登录 */ }
+}
+
+onMounted(() => { loadHotRecommend(); loadFavStatus() })
 </script>
 
 <style lang="scss" scoped>
@@ -210,6 +248,8 @@ onMounted(() => { loadHotRecommend() })
   }
   .score-label { font-size: 11px; color: $text-secondary; }
 }
+
+.fav-btn { flex-shrink: 0; }
 
 @media (max-width: 768px) {
   .rank-heat { display: none; }

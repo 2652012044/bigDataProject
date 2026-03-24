@@ -132,6 +132,12 @@ async function loadKeywords() {
       tagType: ['', 'success', 'warning', 'danger'][i % 4]
     }))
     initWordCloud()
+    // 初始加载第一个关键词的联动小说
+    if (keywordTableData.value.length > 0) {
+      const firstKeyword = keywordTableData.value[0].keyword
+      selectedKeyword.value = firstKeyword
+      loadBooksByTag(firstKeyword)
+    }
   } catch (e) { /* 保持空 */ }
 }
 
@@ -226,6 +232,7 @@ function initWordCloud() {
   wordCloudChart.setOption(option)
   wordCloudChart.on('click', (params) => {
     selectedKeyword.value = params.name
+    loadBooksByTag(params.name)
   })
 }
 
