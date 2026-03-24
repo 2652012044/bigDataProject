@@ -28,8 +28,6 @@ from core.wait_utils import (
 )
 
 
-SEARCH_BUTTON_X = 1517
-SEARCH_BUTTON_Y = 81
 SEARCH_INPUT_SELECTORS = [
     {"resourceId": "com.dragon.read:id/search_input"},
     {"resourceId": "com.dragon.read:id/edt_search"},
@@ -58,6 +56,76 @@ def _save_json(path: Path, data) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def _click_first_user_result(device, logger, author_name: str, max_rounds: int = 3) -> bool:
+    """点击首条用户搜索结果（跨版本兼容策略）。
+
+    优先按 content-desc 精确匹配用户名，其次尝试常见 resourceId，
+    最后以比例坐标兜底，并在每轮失败后轻微上滑重试。
+    """
+    user_selectors = [
+        {"resourceId": "com.dragon.read:id/it"},
+        {"resourceId": "com.dragon.read:id/akn"},
+        {"resourceId": "com.dragon.read:id/user_item"},
+        {"resourceId": "com.dragon.read:id/search_user_item"},
+    ]
+
+    for round_idx in range(max_rounds):
+        logger.info("尝试点击首条用户结果（第 %d/%d 轮）", round_idx + 1, max_rounds)
+
+        # 优先：按 content-desc 精确匹配用户名
+        try:
+            if device(description=author_name).exists(timeout=2):
+                before_click = ui_signature(device)
+                device(description=author_name).click()
+                if wait_for_ui_change(device, before_click, timeout=4):
+                    logger.info("✓ 已点击用户条目 (description=%s)", author_name)
+                    return True
+        except Exception:
+            pass
+
+        # 备用：尝试常见 resourceId
+        for sel in user_selectors:
+            try:
+                if not device(**sel).exists(timeout=1):
+                    continue
+                before_click = ui_signature(device)
+                device(**sel).click()
+                if wait_for_ui_change(device, before_click, timeout=4):
+                    logger.info("✓ 已点击首条用户条目: %s", sel)
+                    return True
+            except Exception:
+                continue
+
+        # 兜底：比例坐标点击首条区域
+        try:
+            sw, sh = device.window_size()
+            fallback_points = [
+                (int(sw * 0.20), int(sh * 0.30)),
+                (int(sw * 0.50), int(sh * 0.30)),
+                (int(sw * 0.20), int(sh * 0.40)),
+            ]
+            for x, y in fallback_points:
+                before_click = ui_signature(device)
+                device.click(x, y)
+                if wait_for_ui_change(device, before_click, timeout=3):
+                    logger.info("✓ 已通过坐标兜底点击首条用户结果: (%d, %d)", x, y)
+                    return True
+        except Exception:
+            pass
+
+        # 下一轮前轻微上滑，兼容首条被吸顶/广告占位的情况
+        if round_idx < max_rounds - 1:
+            try:
+                sw, sh = device.window_size()
+                device.swipe(int(sw * 0.50), int(sh * 0.78), int(sw * 0.50), int(sh * 0.52), 0.2)
+                time.sleep(0.4)
+            except Exception:
+                pass
+
+    logger.error("✗ 未能点击首条用户搜索结果（已尝试 %d 轮）", max_rounds)
+    return False
 
 
 def export_and_extract_user_info(logger, author_name: str) -> bool:
@@ -154,17 +222,24 @@ def main(author_name: str) -> bool:
         # 等待搜索框激活
         if not wait_for_ui_change(controller.device, before_search_click, timeout=8):
             time.sleep(1)
+        # 额外稳定等待，确保输入法已弹出
+        time.sleep(1.0)
 
         # 操作 2: 输入作者名称
         logger.info("\n--- 操作 2: 输入作者名称 '%s' ---", author_name)
+        # 先清空搜索框，再输入，避免残留内容导致校验失败
+        controller.device.clear_text()
+        time.sleep(0.3)
         controller.device.send_keys(author_name)
         if not wait_for_text_in_any_selector(
             controller.device,
             SEARCH_INPUT_SELECTORS,
             expected_text=author_name,
-            timeout=5,
+            timeout=6,
         ):
             logger.warning("首次输入未校验通过，重试输入一次...")
+            controller.device.clear_text()
+            time.sleep(0.3)
             controller.device.send_keys(author_name)
 
         if not wait_for_text_in_any_selector(
@@ -180,14 +255,31 @@ def main(author_name: str) -> bool:
         # 操作 3: 点击搜索按钮
         logger.info("\n--- 操作 3: 点击搜索按钮 ---")
         time.sleep(0.3)
-        before_search_submit = ui_signature(controller.device)
-        controller.device.click(SEARCH_BUTTON_X, SEARCH_BUTTON_Y)
-        logger.info("✓ 已点击搜索按钮")
-        wait_for_ui_change(controller.device, before_search_submit, timeout=10)
+        _search_btn_selectors = [
+            {"resourceId": "com.dragon.read:id/search_btn"},
+            {"resourceId": "com.dragon.read:id/btn_search"},
+            {"resourceId": "com.dragon.read:id/iv_search"},
+            {"text": "搜索", "className": "android.widget.TextView"},
+            {"description": "搜索"},
+        ]
+        _btn_clicked = False
+        for _sel in _search_btn_selectors:
+            try:
+                if controller.device(**_sel).exists(timeout=1):
+                    controller.device(**_sel).click()
+                    _btn_clicked = True
+                    break
+            except Exception:
+                pass
+        if not _btn_clicked:
+            # 回退：按屏幕宽度比例点击（搜索按钮在右侧边缘约 98%，上方约 10% 处）
+            _sw, _sh = controller.device.window_size()
+            controller.device.click(int(_sw * 0.97), int(_sh * 0.09))
+        logger.info("✓ 搜索按钮已点击")
         wait_for_any_selector(
             controller.device,
             selectors=[{"text": "用户"}, {"text": "书籍"}, {"resourceId": "com.dragon.read:id/it"}],
-            timeout=10,
+            timeout=12,
         )
 
         # 操作 4: 切换到"用户"标签
@@ -203,33 +295,7 @@ def main(author_name: str) -> bool:
 
         # 操作 5: 点击第一条用户条目
         logger.info("\n--- 操作 5: 点击第一条用户条目 ---")
-        clicked = False
-
-        # 优先：用户列表条目以 content-desc 存储用户名，直接按名称点击
-        if controller.device(description=author_name).exists(timeout=3):
-            before_item_click = ui_signature(controller.device)
-            controller.device(description=author_name).click()
-            logger.info("✓ 已点击用户条目 (description=%s)", author_name)
-            wait_for_ui_change(controller.device, before_item_click, timeout=8)
-            clicked = True
-
-        # 备用：尝试常见的列表条目 resourceId
-        if not clicked:
-            for rid in [
-                "com.dragon.read:id/it",
-                "com.dragon.read:id/akn",
-                "com.dragon.read:id/user_item",
-                "com.dragon.read:id/search_user_item",
-            ]:
-                if controller.device(resourceId=rid).exists(timeout=2):
-                    before_item_click = ui_signature(controller.device)
-                    controller.device(resourceId=rid).click()
-                    logger.info("✓ 已点击第一条用户条目 (resourceId=%s)", rid)
-                    wait_for_ui_change(controller.device, before_item_click, timeout=8)
-                    clicked = True
-                    break
-
-        if not clicked:
+        if not _click_first_user_result(controller.device, logger, author_name, max_rounds=3):
             logger.error("✗ 未找到用户列表条目，终止操作")
             return False
 

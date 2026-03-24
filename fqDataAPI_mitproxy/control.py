@@ -1,9 +1,10 @@
-"""总控面板 — 显示 mitmproxy 代理和逍遥模拟器的运行状态及连接关系
+﻿"""总控面板 — 显示 mitmproxy 代理和逍遥模拟器的运行状态及连接关系
 
 运行方式:
     python control.py
 """
 
+import concurrent.futures
 import json
 import os
 import socket
@@ -21,7 +22,6 @@ from datetime import datetime
 # ─────────────────────────── 通用配置 ───────────────────────────
 
 REFRESH_INTERVAL_MS = 5000          # 自动刷新间隔（毫秒）
-HOST_IP             = "172.19.32.1" # 宿主机对模拟器可见的 IP
 BASE_PROXY_PORT     = 8080          # 分配代理时的默认起始端口
 ADDON_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
@@ -66,7 +66,7 @@ def _detect_via_memuc() -> list:
     try:
         r = subprocess.run(
             ["memuc", "list", "-r"],
-            capture_output=True, text=True, timeout=5,
+            capture_output=True, encoding="utf-8", errors="ignore", timeout=5,
         )
         if r.returncode != 0 or not r.stdout.strip():
             return []
@@ -90,17 +90,38 @@ def _detect_via_memuc() -> list:
 
 
 def _detect_via_adb() -> list:
-    """通过 adb devices 端口号推断逍遥模拟器实例（MEmu 端口范围 21503~22000）。"""
+    """扫描逍遥模拟器 TCP 端口并自动 connect，再从 adb devices 推断实例列表。
+
+    逍遥模拟器每个实例的 ADB 端口：实例 N → 21503 + N*10
+    由于 TCP 设备不会自动出现在 adb devices，必须先 adb connect。
+    """
+    # 并发 connect 常见端口范围（最多10个实例），本机回环 1s 已足够
+    def _try_connect(port: int):
+        try:
+            subprocess.run(
+                ["adb", "connect", f"127.0.0.1:{port}"],
+                capture_output=True, encoding="utf-8", errors="ignore", timeout=1,
+            )
+        except Exception:
+            pass
+
+    ports = [21503 + n * 10 for n in range(10)]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
+        list(pool.map(_try_connect, ports))
+
+    # 再读 adb devices
     try:
         r = subprocess.run(
-            ["adb", "devices"], capture_output=True, text=True, timeout=5
+            ["adb", "devices"], capture_output=True, encoding="utf-8", errors="ignore", timeout=5
         )
         result = []
         for line in r.stdout.strip().splitlines()[1:]:
             if "\t" not in line:
                 continue
-            serial, _ = line.split("\t", 1)
+            serial, status = line.split("\t", 1)
             serial = serial.strip()
+            if status.strip() != "device":
+                continue
             if not serial.startswith("127.0.0.1:"):
                 continue
             try:
@@ -176,7 +197,7 @@ def _adb_devices() -> dict:
     """返回 {serial: status} 的已连接 ADB 设备字典。"""
     try:
         r = subprocess.run(
-            ["adb", "devices"], capture_output=True, text=True, timeout=5
+            ["adb", "devices"], capture_output=True, encoding="utf-8", errors="ignore", timeout=5
         )
         out = {}
         for line in r.stdout.strip().splitlines()[1:]:
@@ -194,7 +215,7 @@ def _emu_proxy(serial: str) -> str:
         r = subprocess.run(
             ["adb", "-s", serial, "shell",
              "settings", "get", "global", "http_proxy"],
-            capture_output=True, text=True, timeout=5,
+            capture_output=True, encoding="utf-8", errors="ignore", timeout=5,
         )
         return r.stdout.strip()
     except Exception:
@@ -244,7 +265,7 @@ def _kill_on_port(port: int) -> None:
     try:
         r = subprocess.run(
             ["netstat", "-ano"],
-            capture_output=True, text=True, timeout=5,
+            capture_output=True, encoding="utf-8", errors="ignore", timeout=5,
         )
         for line in r.stdout.splitlines():
             if f":{port} " in line and "LISTENING" in line:
@@ -843,6 +864,9 @@ class ControlPanel(tk.Tk):
         )
         job_start_btn.pack(side="right", padx=(2, 0))
 
+        # 证书按鈕绑定 idx（此处 emu_w 已包含 e_cert_btn）
+        emu_w["e_cert_btn"].config(command=lambda i=idx: self._push_cert(i))
+
         return {
             "outer":        outer,
             "badge":        badge,
@@ -915,7 +939,16 @@ class ControlPanel(tk.Tk):
             bg=ITEM, fg=SUB,
         )
         e_pr.pack(anchor="w", pady=(3, 0))
-        return box, {"e_st": e_st, "e_pr": e_pr}
+        # 推送证书按钮（idx 在 _make_card 中通过 config 绑定）
+        e_cert_btn = tk.Button(
+            box, text="🛡 推送证书",
+            font=("Microsoft YaHei UI", 7),
+            bg=ITEM, fg=YELLOW,
+            activebackground=BORDER, activeforeground=TEXT,
+            relief="flat", padx=6, pady=1, cursor="hand2",
+        )
+        e_cert_btn.pack(anchor="w", pady=(4, 0))
+        return box, {"e_st": e_st, "e_pr": e_pr, "e_cert_btn": e_cert_btn}
 
     # ────── 状态应用 ──────
 
@@ -1104,6 +1137,7 @@ class ControlPanel(tk.Tk):
 
         def worker():
             try:
+                # 清除模拟器代理设置
                 for cmd in (
                     ["adb", "-s", serial, "shell",
                      "settings", "put", "global", "http_proxy", ":0"],
@@ -1114,6 +1148,18 @@ class ControlPanel(tk.Tk):
                         subprocess.run(cmd, timeout=5, capture_output=True)
                     except Exception:
                         pass
+                # 清理 adb reverse 隧道
+                port = SLOTS[idx]["proxy_port"]
+                if port is not None:
+                    try:
+                        subprocess.run(
+                            ["adb", "-s", serial, "reverse",
+                             "--remove", f"tcp:{port}"],
+                            timeout=5, capture_output=True,
+                        )
+                    except Exception:
+                        pass
+                # 终止 mitmdump 进程
                 proc = self._procs.pop(idx, None)
                 if proc and proc.poll() is None:
                     proc.terminate()
@@ -1169,23 +1215,171 @@ class ControlPanel(tk.Tk):
 
                 # 更新 SLOTS 内存配置
                 SLOTS[idx]["proxy_port"]     = port
-                SLOTS[idx]["expected_proxy"] = f"{HOST_IP}:{port}"
+                SLOTS[idx]["expected_proxy"] = f"127.0.0.1:{port}"
 
                 # 更新端口标签（回到主线程）
                 self.after(0,
                     lambda p=port: self._cards[idx]["p_port"].config(text=f":{p}"))
 
-                # 配置模拟器代理
+                # 建立 adb reverse 隧道：模拟器内 127.0.0.1:<PORT> → 宿主机 127.0.0.1:<PORT>
+                # 不依赖宿主机 IP，可绕过虚拟网卡访问限制
                 serial = SLOTS[idx]["emulator_serial"]
                 subprocess.run(
+                    ["adb", "-s", serial, "reverse",
+                     f"tcp:{port}", f"tcp:{port}"],
+                    timeout=5, capture_output=True,
+                )
+
+                # 配置模拟器代理指向自身 127.0.0.1（经隧道转发到宿主机）
+                subprocess.run(
                     ["adb", "-s", serial, "shell", "settings", "put",
-                     "global", "http_proxy", f"{HOST_IP}:{port}"],
+                     "global", "http_proxy", f"127.0.0.1:{port}"],
                     timeout=5, capture_output=True,
                 )
             except Exception as e:
                 print(f"[enable_proxy idx={idx}] 异常: {e}")
             finally:
                 self.after(0, self._trigger_refresh)
+
+        threading.Thread(target=worker, daemon=True).start()
+
+    def _push_cert(self, idx: int):
+        """将本机 mitmproxy CA 证书推送并安装到指定模拟器。
+
+        流程：
+          1. 查找本机 mitmproxy PEM 证书（~/.mitmproxy/ 或 Docker 目录或用户手选）
+          2. 用 openssl 计算 subject_hash_old，生成 <hash>.0 文件（Android 格式）
+          3. adb root + adb remount（尝试）
+          4. push 到 /system/etc/security/cacerts/<hash>.0
+          5. chmod 644 + 重启 installd
+        """
+        serial = SLOTS[idx]["emulator_serial"]
+
+        # 查找 PEM 证书优先级：本机 ~/.mitmproxy/ → Docker 目录 → 用户手选
+        mitmproxy_dir = os.path.join(os.path.expanduser("~"), ".mitmproxy")
+        docker_dir    = os.path.join(BASE_DIR, "Docker")
+        pem_candidates = [
+            os.path.join(mitmproxy_dir, "mitmproxy-ca-cert.pem"),
+            os.path.join(docker_dir,    "mitmproxy-ca-cert.pem"),
+            os.path.join(docker_dir,    "mitmproxy-ca-cert.cer"),
+        ]
+        pem_path = None
+        for p in pem_candidates:
+            if os.path.isfile(p):
+                pem_path = p
+                break
+
+        if pem_path is None:
+            pem_path = tkinter.filedialog.askopenfilename(
+                parent=self,
+                title="选择 mitmproxy CA 证书（PEM 格式）",
+                filetypes=[("PEM/CRT 文件", "*.pem *.crt *.cer"), ("所有文件", "*.*")],
+                initialdir=BASE_DIR,
+            )
+            if not pem_path:
+                return
+
+        btn = self._cards[idx].get("e_cert_btn")
+        if btn:
+            btn.config(state="disabled", text="推送中…")
+
+        def worker():
+            ok  = True
+            tmp_cert_path = None
+            try:
+                import tempfile
+
+                # step 1: 用 openssl 计算 subject_hash_old
+                r = subprocess.run(
+                    ["openssl", "x509", "-subject_hash_old", "-noout", "-in", pem_path],
+                    capture_output=True, encoding="utf-8", errors="ignore", timeout=10,
+                )
+                if r.returncode != 0:
+                    raise RuntimeError(
+                        f"openssl 计算证书 hash 失败: {r.stderr.strip()}\n"
+                        "请确认 openssl 已安装并加入 PATH。"
+                    )
+                cert_hash  = r.stdout.strip()
+                remote_name = f"{cert_hash}.0"
+
+                # step 2: 生成 <hash>.0 临时文件（Android 系统证书格式，内容同 PEM）
+                tmp_dir = tempfile.mkdtemp()
+                tmp_cert_path = os.path.join(tmp_dir, remote_name)
+                import shutil
+                shutil.copy2(pem_path, tmp_cert_path)
+
+                tmp_path    = f"/data/local/tmp/{remote_name}"
+                system_path = f"/system/etc/security/cacerts/{remote_name}"
+
+                # step 3: adb root
+                r = subprocess.run(
+                    ["adb", "-s", serial, "root"],
+                    capture_output=True, encoding="utf-8", errors="ignore", timeout=15,
+                )
+                if r.returncode != 0:
+                    raise RuntimeError(f"adb root 失败: {r.stderr.strip() or r.stdout.strip()}")
+
+                # step 4: adb remount（尝试，逍遥模拟器虚拟磁盘可能报 I/O error，忽略）
+                subprocess.run(
+                    ["adb", "-s", serial, "remount"],
+                    capture_output=True, encoding="utf-8", errors="ignore", timeout=15,
+                )
+
+                # step 5: 优先直接 push 到系统证书目录
+                r = subprocess.run(
+                    ["adb", "-s", serial, "push", tmp_cert_path, system_path],
+                    capture_output=True, encoding="utf-8", errors="ignore", timeout=15,
+                )
+                if r.returncode != 0:
+                    # 回退：push 到 /tmp 再 su cp
+                    r2 = subprocess.run(
+                        ["adb", "-s", serial, "push", tmp_cert_path, tmp_path],
+                        capture_output=True, encoding="utf-8", errors="ignore", timeout=15,
+                    )
+                    if r2.returncode != 0:
+                        raise RuntimeError(f"push 失败: {r2.stderr.strip()}")
+                    r3 = subprocess.run(
+                        ["adb", "-s", serial, "shell",
+                         f"su -c 'cp {tmp_path} {system_path}'"],
+                        capture_output=True, encoding="utf-8", errors="ignore", timeout=15,
+                    )
+                    if r3.returncode != 0:
+                        raise RuntimeError(f"cp 失败: {r3.stderr.strip()}")
+
+                # step 6: chmod
+                subprocess.run(
+                    ["adb", "-s", serial, "shell", f"chmod 644 {system_path}"],
+                    capture_output=True, timeout=10,
+                )
+
+                # step 7: 重启安全存储服务使证书立即生效
+                subprocess.run(
+                    ["adb", "-s", serial, "shell", "stop installd; start installd"],
+                    capture_output=True, timeout=15,
+                )
+
+                msg = f"证书已成功安装到 {serial}\n{system_path}\n(hash: {cert_hash})"
+            except Exception as e:
+                ok  = False
+                msg = f"证书安装失败\n{e}\n请确认模拟器已 root 且 adb 已连接。"
+            finally:
+                # 清理临时文件
+                if tmp_cert_path and os.path.isfile(tmp_cert_path):
+                    try:
+                        os.remove(tmp_cert_path)
+                        os.rmdir(os.path.dirname(tmp_cert_path))
+                    except OSError:
+                        pass
+
+            def done():
+                if btn:
+                    btn.config(state="normal", text="🛡 推送证书")
+                if ok:
+                    tkinter.messagebox.showinfo("证书安装成功", msg)
+                else:
+                    tkinter.messagebox.showerror("证书安装失败", msg)
+
+            self.after(0, done)
 
         threading.Thread(target=worker, daemon=True).start()
 
@@ -1679,11 +1873,44 @@ class JobDialog(tk.Toplevel):
                     values = next((v for v in data.values() if isinstance(v, list)), list(data.values()))
             else:
                 values = [data]
+
+            # ── 起始任务选择 ──
+            total = len(values)
+            start_idx = 0
+            if total > 1:
+                ans = tkinter.simpledialog.askstring(
+                    "选择起始位置",
+                    f"共 {total} 个任务，从第几个开始？\n（输入 1 表示从头开始，输入 101 则跳过前 100 个）",
+                    initialvalue="1",
+                    parent=self,
+                )
+                if ans is None:          # 用户点取消 → 中止导入
+                    return
+                try:
+                    n = int(ans)
+                    if n < 1:
+                        n = 1
+                    elif n > total:
+                        n = total
+                    start_idx = n - 1    # 转换为 0-based 索引
+                except ValueError:
+                    tkinter.messagebox.showerror("输入错误", "请输入有效的整数", parent=self)
+                    return
+                if start_idx > 0:
+                    values = values[start_idx:]
+
             self._param_text.config(state="normal")
             self._param_text.delete("1.0", "end")
             self._param_text.insert("1.0", json.dumps(values, ensure_ascii=False))
             if not param_key:
                 self._param_text.config(state="disabled")
+
+            if start_idx > 0:
+                tkinter.messagebox.showinfo(
+                    "导入成功",
+                    f"已导入 {len(values)} 个任务（跳过前 {start_idx} 个，共 {total} 个）",
+                    parent=self,
+                )
         except Exception as e:
             tkinter.messagebox.showerror("导入失败", str(e), parent=self)
 
@@ -1864,7 +2091,8 @@ class ParamExtractDialog(tk.Toplevel):
 
         self._mode = mode
         self._items: list[str] = []
-        self._check_vars: list[tk.BooleanVar] = []
+        self._check_vars: list[tk.BooleanVar] = []   # 不再使用，保留以兼容旧接口
+        self._listbox: "tk.Listbox | None" = None     # 高性能列表控件
 
         # ── 文件选择行 ──
         file_row = tk.Frame(self, bg=BG)
@@ -1971,24 +2199,30 @@ class ParamExtractDialog(tk.Toplevel):
             command=self._select_range,
         ).pack(side="left", padx=(8, 0))
 
-        # ── 列表区域（带滚动） ──
+        # ── 列表区域（tk.Listbox 天生支持万级条目，性能远超 Checkbutton） ──
         list_outer = tk.Frame(self, bg=BORDER, padx=1, pady=1)
         list_outer.pack(fill="both", expand=True, padx=14, pady=(2, 6))
-        canvas = tk.Canvas(list_outer, bg=ITEM, bd=0, highlightthickness=0)
-        scrollbar = tk.Scrollbar(list_outer, orient="vertical", command=canvas.yview)
-        self._list_frame = tk.Frame(canvas, bg=ITEM)
-        self._list_frame.bind(
-            "<Configure>",
-            lambda e: canvas.configure(scrollregion=canvas.bbox("all")),
+        lb_scroll_y = tk.Scrollbar(list_outer, orient="vertical", bg=ITEM, troughcolor=HDR)
+        lb_scroll_x = tk.Scrollbar(list_outer, orient="horizontal", bg=ITEM, troughcolor=HDR)
+        self._listbox = tk.Listbox(
+            list_outer,
+            selectmode="extended",
+            font=("Microsoft YaHei UI", 9),
+            bg=ITEM, fg=TEXT,
+            selectbackground=BORDER, selectforeground=GREEN,
+            activestyle="none", highlightthickness=0, bd=0,
+            yscrollcommand=lb_scroll_y.set,
+            xscrollcommand=lb_scroll_x.set,
+            exportselection=False,
         )
-        canvas.create_window((0, 0), window=self._list_frame, anchor="nw")
-        canvas.configure(yscrollcommand=scrollbar.set)
-        scrollbar.pack(side="right", fill="y")
-        canvas.pack(fill="both", expand=True)
-        # 鼠标滚轮
-        canvas.bind_all("<MouseWheel>",
-            lambda e: canvas.yview_scroll(-1 * (e.delta // 120), "units"))
-        self._canvas = canvas
+        lb_scroll_y.config(command=self._listbox.yview)
+        lb_scroll_x.config(command=self._listbox.xview)
+        lb_scroll_y.pack(side="right", fill="y")
+        lb_scroll_x.pack(side="bottom", fill="x")
+        self._listbox.pack(fill="both", expand=True)
+        self._listbox.bind("<<ListboxSelect>>", lambda _: self._update_count())
+        self._listbox.bind("<MouseWheel>",
+            lambda e: self._listbox.yview_scroll(-1 * (e.delta // 120), "units"))
 
         # ── 底部按钮 ──
         footer = tk.Frame(self, bg=HDR, pady=8)
@@ -2089,63 +2323,62 @@ class ParamExtractDialog(tk.Toplevel):
     # ── 列表构建 ──
 
     def _rebuild_checklist(self):
-        for w in self._list_frame.winfo_children():
-            w.destroy()
-        self._check_vars.clear()
-        for name in self._items:
-            var = tk.BooleanVar(value=True)
-            var.trace_add("write", lambda *_: self._update_count())
-            self._check_vars.append(var)
-            tk.Checkbutton(
-                self._list_frame, text=name,
-                variable=var,
-                font=("Microsoft YaHei UI", 9),
-                bg=ITEM, fg=TEXT,
-                selectcolor=CARD, activebackground=ITEM, activeforeground=TEXT,
-                anchor="w", padx=8, pady=2,
-            ).pack(fill="x")
+        """Listbox 方案：一次性将所有条目插入，默认全选。"""
+        lb = self._listbox
+        lb.delete(0, "end")
+        if self._items:
+            lb.insert("end", *self._items)
+            lb.selection_set(0, "end")
         self._update_count()
 
     def _update_count(self):
-        sel = sum(1 for v in self._check_vars if v.get())
-        self._count_lbl.config(text=f"{sel} / {len(self._items)}")
+        sel   = len(self._listbox.curselection())
+        total = self._listbox.size()
+        self._count_lbl.config(text=f"{sel} / {total}")
 
     def _sel_all(self):
-        for v in self._check_vars:
-            v.set(True)
+        self._listbox.selection_set(0, "end")
+        self._update_count()
 
     def _desel_all(self):
-        for v in self._check_vars:
-            v.set(False)
+        self._listbox.selection_clear(0, "end")
+        self._update_count()
 
     def _invert_sel(self):
-        for v in self._check_vars:
-            v.set(not v.get())
+        lb    = self._listbox
+        sel   = set(lb.curselection())
+        total = lb.size()
+        lb.selection_clear(0, "end")
+        for i in range(total):
+            if i not in sel:
+                lb.selection_set(i)
+        self._update_count()
 
     def _select_range(self):
-        """According to the range inputs, deselect all then select items in [start, end]."""
         try:
             start = int(self._range_start_var.get().strip())
             end   = int(self._range_end_var.get().strip())
         except ValueError:
             tkinter.messagebox.showerror("参数错误", "请输入整数范围", parent=self)
             return
-        total = len(self._check_vars)
+        total = self._listbox.size()
         if total == 0:
             return
-        # 将 1-indexed 用户输入限制到实际范围
         start = max(1, start)
         end   = min(total, end)
         if start > end:
             tkinter.messagebox.showerror("参数错误", f"起始序号不能大于结束序号，当前共 {total} 条", parent=self)
             return
-        for i, v in enumerate(self._check_vars):
-            v.set(start - 1 <= i <= end - 1)
+        self._listbox.selection_clear(0, "end")
+        self._listbox.selection_set(start - 1, end - 1)
+        self._listbox.see(start - 1)
+        self._update_count()
 
     # ── 导出 ──
 
     def _export(self):
-        selected = [name for name, var in zip(self._items, self._check_vars) if var.get()]
+        sel_indices = self._listbox.curselection()
+        selected    = [self._listbox.get(i) for i in sel_indices]
         if not selected:
             tkinter.messagebox.showwarning("未选择", "请至少选择一项", parent=self)
             return

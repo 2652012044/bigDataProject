@@ -91,26 +91,34 @@ class AppController:
     def click_search_box(self) -> bool:
         """
         点击搜索框
-        
-        Returns:
-            是否成功
+
+        优先用 resourceId 查找，找不到时按屏幕宽度比例点击，屏幕方向不影响结果。
         """
         try:
             self.logger.info("点击搜索框")
-            
-            # 直接使用坐标点击搜索框
-            # 搜索框坐标范围: [98,66][516,96]
-            # 计算中心点: x=(98+516)/2=307, y=(66+96)/2=81
-            search_x = 307
-            search_y = 81
-            
-            self.logger.debug(f"使用坐标点击搜索框: ({search_x}, {search_y})")
-            self.device.click(search_x, search_y)
+            selectors = [
+                {"resourceId": "com.dragon.read:id/search_input"},
+                {"resourceId": "com.dragon.read:id/edt_search"},
+                {"resourceId": "com.dragon.read:id/search_src_text"},
+                {"resourceId": "com.dragon.read:id/search_text"},
+                {"text": "搜索", "className": "android.widget.TextView"},
+                {"hint": "搜索"},
+            ]
+            for sel in selectors:
+                try:
+                    if self.device(**sel).exists(timeout=1):
+                        self.device(**sel).click()
+                        time.sleep(0.5)
+                        self.logger.info("✓ 搜索框已点击")
+                        return True
+                except Exception:
+                    continue
+            # 回退：按屏幕宽度比例点击（搜索框在中间左侧，约 20% 宽的位置，上方约 10% 处）
+            w, h = self.device.window_size()
+            self.device.click(int(w * 0.22), int(h * 0.09))
             time.sleep(0.5)
-            
-            self.logger.info("✓ 搜索框已点击")
+            self.logger.info("✓ 搜索框已点击（比例坐标回退）")
             return True
-        
         except Exception as e:
             self.logger.error(f"点击搜索框失败: {e}")
             return False
@@ -173,35 +181,45 @@ class AppController:
         """点击搜索结果第一条"""
         try:
             self.logger.info("点击搜索结果第一条")
-            
+
             # 等待搜索结果加载
             time.sleep(1)
-            
-            # 查找书籍列表项
+
             selectors = [
+                {"resourceId": "com.dragon.read:id/it"},
+                {"resourceId": "com.dragon.read:id/akn"},
                 {"resourceId": "com.dragon.read:id/cover"},
                 {"resourceId": "com.dragon.read:id/book_img"},
-                {"className": "android.widget.ImageView"},
+                {"resourceId": "com.dragon.read:id/book_cover"},
+                {"resourceId": "com.dragon.read:id/iv_cover"},
+                {"resourceId": "com.dragon.read:id/title"},
+                {"resourceId": "com.dragon.read:id/book_name"},
             ]
-            
+
             for selector in selectors:
                 try:
-                    if self.device(**selector).exists(timeout=1):
-                        self.logger.debug(f"找到书籍封面: {selector}")
-                        items = self.device(**selector)
-                        if items:
-                            items.click()
-                            time.sleep(2)
-                            self.logger.info("✓ 已打开书籍详情")
-                            return True
+                    if not self.device(**selector).exists(timeout=1):
+                        continue
+                    self.logger.debug(f"找到候选结果: {selector}")
+                    self.device(**selector).click()
+                    time.sleep(1.5)
+                    self.logger.info("✓ 已点击搜索结果")
+                    return True
                 except Exception:
                     continue
-            
-            # 如果找不到，尝试点击任何 ListView 项
-            self.device(className="android.widget.ListView").child_by_index(0).click()
-            time.sleep(2)
-            self.logger.info("✓ 已打开书籍")
-            return True
+
+            # 最终兜底：按比例坐标点击首条区域（横竖屏兼容）
+            try:
+                w, h = self.device.window_size()
+                self.device.click(int(w * 0.20), int(h * 0.30))
+                time.sleep(1.5)
+                self.logger.info("✓ 已通过坐标兜底点击首条结果")
+                return True
+            except Exception:
+                pass
+
+            self.logger.warning("未找到可点击的搜索结果")
+            return False
         
         except Exception as e:
             self.logger.error(f"点击搜索结果失败: {e}")
