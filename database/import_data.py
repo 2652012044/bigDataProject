@@ -14,16 +14,27 @@
 import json
 import os
 import sys
+import configparser
 import pymysql
+import logging
 from datetime import datetime
 
-# ============ 数据库配置 ============
+# ============ 数据库配置（从 db_config.ini 读取，避免密码入 Git） ============
+_config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'db_config.ini')
+if not os.path.exists(_config_path):
+    print(f"[错误] 找不到配置文件: {_config_path}")
+    print("请复制 db_config.example.ini 为 db_config.ini，填写你的 MySQL 密码")
+    sys.exit(1)
+
+_cfg = configparser.ConfigParser()
+_cfg.read(_config_path, encoding='utf-8')
+
 DB_CONFIG = {
-    'host': '127.0.0.1',
-    'port': 3306,
-    'user': 'root',
-    'password': 'root',       # 请修改为你的 MySQL 密码
-    'database': 'novel_db',
+    'host': _cfg.get('mysql', 'host', fallback='127.0.0.1'),
+    'port': _cfg.getint('mysql', 'port', fallback=3306),
+    'user': _cfg.get('mysql', 'user', fallback='root'),
+    'password': _cfg.get('mysql', 'password'),
+    'database': _cfg.get('mysql', 'database', fallback='novel_db'),
     'charset': 'utf8mb4',
 }
 
@@ -559,6 +570,27 @@ def _import_tags_for_book(cursor, book_id, tags_str):
             )
 
 
+# ============ 日志配置 ============
+LOG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cleaning_logs.json')
+
+
+def _load_logs():
+    """加载已有日志"""
+    if os.path.exists(LOG_FILE):
+        try:
+            with open(LOG_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except:
+            pass
+    return []
+
+
+def _save_logs(logs):
+    """保存日志"""
+    with open(LOG_FILE, 'w', encoding='utf-8') as f:
+        json.dump(logs, f, ensure_ascii=False, indent=2)
+
+
 # ============ 主流程 ============
 
 def main():
@@ -568,40 +600,88 @@ def main():
     print(f"开始时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 50)
 
+    # 初始化本次运行的日志记录
+    run_log = {
+        'start_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        'end_time': '',
+        'status': 'running',
+        'data_dir': DATA_DIR,
+        'steps': [],
+        'summary': {},
+        'errors': []
+    }
+
     # 检查数据目录
     if not os.path.isdir(DATA_DIR):
         print(f"[错误] 数据目录不存在: {DATA_DIR}")
+        run_log['status'] = 'failed'
+        run_log['errors'].append(f"数据目录不存在: {DATA_DIR}")
+        run_log['end_time'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        logs = _load_logs()
+        logs.append(run_log)
+        _save_logs(logs)
         sys.exit(1)
 
     # 连接数据库
     try:
         conn = get_connection()
         print("[成功] 数据库连接成功")
+        run_log['steps'].append({'step': '数据库连接', 'status': '成功', 'detail': f"{DB_CONFIG['host']}:{DB_CONFIG['port']}/{DB_CONFIG['database']}"})
     except Exception as e:
         print(f"[错误] 数据库连接失败: {e}")
-        print("请检查 DB_CONFIG 配置（用户名、密码等）")
+        run_log['status'] = 'failed'
+        run_log['errors'].append(f"数据库连接失败: {str(e)}")
+        run_log['end_time'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        logs = _load_logs()
+        logs.append(run_log)
+        _save_logs(logs)
         sys.exit(1)
 
     try:
-        # 按顺序导入各类数据
-        import_categories(conn)      # 1. 分类
-        import_booklist(conn)        # 2. 书籍列表
-        import_bookinfo(conn)        # 3. 书籍详情 + 内嵌评论
-        import_userinfo(conn)        # 4. 作者信息 + 作者作品
-        import_comments(conn)        # 5. 详细评论（comtJson）
-        import_booklist_tabs(conn)   # 6. 分类书单
+        # 按顺序导入各类数据，记录每步结果
+        steps_funcs = [
+            ('分类数据', import_categories),
+            ('书籍列表', import_booklist),
+            ('书籍详情', import_bookinfo),
+            ('作者信息', import_userinfo),
+            ('评论数据', import_comments),
+            ('分类书单', import_booklist_tabs),
+        ]
+
+        for step_name, func in steps_funcs:
+            step_start = datetime.now()
+            try:
+                func(conn)
+                step_info = {
+                    'step': step_name,
+                    'status': '成功',
+                    'duration_ms': int((datetime.now() - step_start).total_seconds() * 1000)
+                }
+            except Exception as e:
+                step_info = {
+                    'step': step_name,
+                    'status': '失败',
+                    'error': str(e),
+                    'duration_ms': int((datetime.now() - step_start).total_seconds() * 1000)
+                }
+                run_log['errors'].append(f"{step_name}: {str(e)}")
+            run_log['steps'].append(step_info)
 
         print("\n" + "=" * 50)
         print("导入完成！")
 
-        # 打印统计
+        # 打印统计并记录
         cursor = conn.cursor()
         tables = ['category', 'author', 'book', 'tag', 'book_tag', 'comment']
+        table_stats = {}
         for t in tables:
             cursor.execute(f"SELECT COUNT(*) FROM {t}")
             cnt = cursor.fetchone()[0]
             print(f"  {t}: {cnt} 条记录")
+            table_stats[t] = cnt
 
+        run_log['summary'] = table_stats
+        run_log['status'] = 'success' if not run_log['errors'] else 'partial'
         print(f"结束时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         print("=" * 50)
 
@@ -610,8 +690,16 @@ def main():
         import traceback
         traceback.print_exc()
         conn.rollback()
+        run_log['status'] = 'failed'
+        run_log['errors'].append(str(e))
     finally:
         conn.close()
+        run_log['end_time'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        # 保存日志
+        logs = _load_logs()
+        logs.append(run_log)
+        _save_logs(logs)
+        print(f"\n日志已保存到: {LOG_FILE}")
 
 
 if __name__ == '__main__':

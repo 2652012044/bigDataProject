@@ -17,6 +17,8 @@
         <el-menu-item index="sentiment">情感分析</el-menu-item>
         <el-menu-item index="recommend">智能推荐</el-menu-item>
         <el-menu-item index="trend">市场趋势</el-menu-item>
+        <el-menu-item index="data">数据管理</el-menu-item>
+        <el-menu-item index="export">报告导出</el-menu-item>
         <el-menu-item index="bigscreen">数据大屏</el-menu-item>
       </el-menu>
     </div>
@@ -76,6 +78,8 @@ const moduleDefaultRoute = {
   sentiment: '/sentiment/classify',
   recommend: '/recommend/hot',
   trend: '/trend/type',
+  data: '/data/cleaning',
+  export: '/export',
   bigscreen: '/bigscreen'
 }
 

@@ -5,298 +5,214 @@
       <p class="page-desc">根据全站用户阅读数据，为你精选最受欢迎的小说</p>
     </div>
 
-    <div class="category-row" v-for="category in categories" :key="category.name">
-      <div class="row-header">
-        <h3 class="row-title">
-          <el-icon><Pointer /></el-icon>
-          {{ category.name }}
-        </h3>
-        <el-button text type="primary" class="view-all-btn">
-          查看全部
-          <el-icon class="el-icon--right"><ArrowRight /></el-icon>
-        </el-button>
-      </div>
-      <div class="scroll-container">
-        <div class="scroll-track">
-          <div
-            class="novel-card"
-            v-for="novel in category.novels"
-            :key="novel.id"
-          >
-            <div class="cover-area" :style="{ background: novel.coverColor }">
-              <div class="cover-gradient">
-                <span class="cover-score">{{ novel.score }}</span>
-                <div class="cover-info">
-                  <span class="cover-title">{{ novel.title }}</span>
-                  <span class="cover-author">{{ novel.author }}</span>
-                </div>
+    <!-- 排行榜标签页 -->
+    <el-tabs v-model="activeTab" class="rank-tabs" type="card">
+      <el-tab-pane v-for="cat in categories" :key="cat.key" :label="cat.name" :name="cat.key">
+        <div class="rank-list">
+          <div v-for="(novel, idx) in cat.novels" :key="novel.id" class="rank-item"
+            :class="{ 'rank-gold': idx === 0, 'rank-silver': idx === 1, 'rank-bronze': idx === 2 }">
+            <!-- 排名 -->
+            <div class="rank-badge" :class="'rank-' + (idx + 1)">
+              <span class="rank-num">{{ idx + 1 }}</span>
+            </div>
+
+            <!-- 书名首字头像 -->
+            <div class="rank-avatar" :style="{ background: avatarColors[idx % avatarColors.length] }">
+              {{ novel.title.charAt(0) }}
+            </div>
+
+            <!-- 信息区 -->
+            <div class="rank-info">
+              <div class="rank-title">{{ novel.title }}</div>
+              <div class="rank-meta">
+                <span class="rank-author">{{ novel.author }}</span>
+                <el-tag size="small" effect="plain" round>{{ novel.tag }}</el-tag>
               </div>
             </div>
-            <div class="card-meta">
-              <div class="meta-title" :title="novel.title">{{ novel.title }}</div>
-              <div class="meta-bottom">
-                <span class="meta-author">{{ novel.author }}</span>
-                <el-tag size="small" type="warning" effect="plain">{{ novel.tag }}</el-tag>
+
+            <!-- 热度条 -->
+            <div class="rank-heat">
+              <div class="heat-bar">
+                <div class="heat-fill" :style="{ width: novel.heatPercent + '%', background: heatGradients[idx % heatGradients.length] }"></div>
               </div>
+              <span class="heat-reads">{{ formatReads(novel.readCount) }} 阅读</span>
+            </div>
+
+            <!-- 评分 -->
+            <div class="rank-score-area">
+              <div class="score-ring" :style="{ '--score-color': getScoreColor(novel.score) }">
+                {{ novel.score }}
+              </div>
+              <span class="score-label">评分</span>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </el-tab-pane>
+    </el-tabs>
   </div>
 </template>
 
 <script setup>
-import { reactive } from 'vue'
-import { Pointer, ArrowRight } from '@element-plus/icons-vue'
+import { ref, onMounted } from 'vue'
+import request from '@/api/index'
 
-const coverColors = [
-  'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-  'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-  'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-  'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
-  'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
-  'linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)',
-  'linear-gradient(135deg, #fccb90 0%, #d57eeb 100%)',
-  'linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)'
+const avatarColors = [
+  'linear-gradient(135deg, #ff6b6b, #ee5a24)',
+  'linear-gradient(135deg, #ffa502, #ff6348)',
+  'linear-gradient(135deg, #3742fa, #1e90ff)',
+  'linear-gradient(135deg, #2ed573, #05c46b)',
+  'linear-gradient(135deg, #a55eea, #8854d0)',
+  'linear-gradient(135deg, #1e90ff, #0652DD)',
+  'linear-gradient(135deg, #ff4757, #c44569)',
+  'linear-gradient(135deg, #ffa502, #eccc68)'
 ]
 
-const generateNovels = (list) => {
-  return list.map((item, index) => ({
-    id: item.id,
-    title: item.title,
-    author: item.author,
-    score: item.score,
-    tag: item.tag,
-    coverColor: coverColors[index % coverColors.length]
-  }))
+const heatGradients = [
+  'linear-gradient(90deg, #ff6b6b, #ee5a24)',
+  'linear-gradient(90deg, #ffa502, #ff6348)',
+  'linear-gradient(90deg, #3742fa, #70a1ff)',
+  'linear-gradient(90deg, #2ed573, #7bed9f)',
+  'linear-gradient(90deg, #a55eea, #d2b4fc)',
+  'linear-gradient(90deg, #1e90ff, #74b9ff)',
+  'linear-gradient(90deg, #ff4757, #ff6b81)',
+  'linear-gradient(90deg, #ffa502, #ffeaa7)'
+]
+
+const activeTab = ref('hot')
+const categories = ref([])
+
+function getScoreColor(score) {
+  if (score >= 8) return '#67c23a'
+  if (score >= 6) return '#409eff'
+  if (score >= 4) return '#e6a23c'
+  return '#f56c6c'
 }
 
-const categories = reactive([
-  {
-    name: '本周最热',
-    novels: generateNovels([
-      { id: 1, title: '斗破苍穹', author: '天蚕土豆', score: 9.6, tag: '玄幻' },
-      { id: 2, title: '完美世界', author: '辰东', score: 9.4, tag: '玄幻' },
-      { id: 3, title: '凡人修仙传', author: '忘语', score: 9.5, tag: '仙侠' },
-      { id: 4, title: '诡秘之主', author: '爱潜水的乌贼', score: 9.7, tag: '奇幻' },
-      { id: 5, title: '大奉打更人', author: '卖报小郎君', score: 9.3, tag: '仙侠' },
-      { id: 6, title: '神印王座', author: '唐家三少', score: 8.9, tag: '玄幻' },
-      { id: 7, title: '雪中悍刀行', author: '烽火戏诸侯', score: 9.2, tag: '武侠' },
-      { id: 8, title: '庆余年', author: '猫腻', score: 9.5, tag: '架空' }
-    ])
-  },
-  {
-    name: '新书速递',
-    novels: generateNovels([
-      { id: 9, title: '道诡异仙', author: '狐尾的笔', score: 9.1, tag: '仙侠' },
-      { id: 10, title: '深空彼岸', author: '辰东', score: 8.8, tag: '科幻' },
-      { id: 11, title: '宿命之环', author: '爱潜水的乌贼', score: 9.3, tag: '奇幻' },
-      { id: 12, title: '万相之王', author: '天蚕土豆', score: 8.7, tag: '玄幻' },
-      { id: 13, title: '长夜余火', author: '爱潜水的乌贼', score: 8.9, tag: '科幻' },
-      { id: 14, title: '星门', author: '辰东', score: 8.6, tag: '科幻' },
-      { id: 15, title: '我师兄实在太稳健了', author: '言归正传', score: 9.0, tag: '仙侠' },
-      { id: 16, title: '烂柯棋缘', author: '真费事', score: 8.8, tag: '仙侠' }
-    ])
-  },
-  {
-    name: '口碑佳作',
-    novels: generateNovels([
-      { id: 17, title: '遮天', author: '辰东', score: 9.6, tag: '玄幻' },
-      { id: 18, title: '一世之尊', author: '爱潜水的乌贼', score: 9.4, tag: '仙侠' },
-      { id: 19, title: '牧神记', author: '宅猪', score: 9.3, tag: '玄幻' },
-      { id: 20, title: '剑来', author: '烽火戏诸侯', score: 9.5, tag: '仙侠' },
-      { id: 21, title: '绍宋', author: '榴弹怕水', score: 9.2, tag: '历史' },
-      { id: 22, title: '超神机械师', author: '齐佩甲', score: 9.0, tag: '科幻' },
-      { id: 23, title: '赤心巡天', author: '情何以甚', score: 9.1, tag: '仙侠' },
-      { id: 24, title: '夜的命名术', author: '会说话的肘子', score: 8.9, tag: '都市' }
-    ])
-  }
-])
+function formatReads(count) {
+  if (!count) return '0'
+  if (count >= 10000) return (count / 10000).toFixed(1) + '万'
+  if (count >= 1000) return (count / 1000).toFixed(1) + 'k'
+  return count.toString()
+}
+
+async function loadHotRecommend() {
+  try {
+    const res = await request.get('/recommend/hot')
+    const books = res.data || []
+
+    // 找到最大阅读量用于计算热度百分比
+    const maxReads = Math.max(...books.map(b => b.readCount || 0), 1)
+
+    const mapBooks = (list) => list.map((b, i) => ({
+      id: b.bookId, title: b.bookName, author: b.author || '未知',
+      score: Number(b.score) || 0, tag: b.category || '其他',
+      readCount: b.readCount || 0,
+      heatPercent: Math.round(((b.readCount || 0) / maxReads) * 100)
+    }))
+
+    // 按阅读量排序
+    const byReads = [...books].sort((a, b) => (b.readCount || 0) - (a.readCount || 0))
+    // 按评分排序
+    const byScore = [...books].sort((a, b) => (b.score || 0) - (a.score || 0))
+    // 按评论量排序 (热度飙升)
+    const byComments = [...books].sort((a, b) => (b.commentTotal || 0) - (a.commentTotal || 0))
+
+    categories.value = [
+      { key: 'hot', name: '本周最热', novels: mapBooks(byReads.slice(0, 10)) },
+      { key: 'score', name: '高分推荐', novels: mapBooks(byScore.slice(0, 10)) },
+      { key: 'rising', name: '热度飙升', novels: mapBooks(byComments.slice(0, 10)) }
+    ]
+  } catch (e) { /* keep empty */ }
+}
+
+onMounted(() => { loadHotRecommend() })
 </script>
 
 <style lang="scss" scoped>
 @use '@/assets/styles/variables' as *;
 
-.hot-recommend-page {
-  padding: $spacing-lg;
-  background: $bg-page;
-  min-height: calc(100vh - $top-nav-height);
-}
-
+.hot-recommend-page { padding: $spacing-lg; background: $bg-page; min-height: calc(100vh - $top-nav-height); }
 .page-header {
   margin-bottom: $spacing-xl;
+  .page-title { font-size: 24px; font-weight: 700; color: $text-primary; margin-bottom: $spacing-xs; }
+  .page-desc { font-size: 14px; color: $text-secondary; }
+}
 
-  .page-title {
-    font-size: 24px;
-    font-weight: 700;
-    color: $text-primary;
-    margin-bottom: $spacing-xs;
+.rank-tabs {
+  :deep(.el-tabs__header) {
+    background: $bg-white; border-radius: 12px 12px 0 0; padding: 4px;
+    .el-tabs__item { font-size: 15px; font-weight: 600; padding: 12px 32px; border-radius: 8px; }
+    .el-tabs__item.is-active { background: $primary-color; color: #fff; }
   }
-
-  .page-desc {
-    font-size: 14px;
-    color: $text-secondary;
+  :deep(.el-tabs__content) {
+    background: $bg-white; border-radius: 0 0 12px 12px; padding: 20px;
+    box-shadow: $box-shadow-light;
   }
 }
 
-.category-row {
-  margin-bottom: $spacing-xl;
-  background: $bg-white;
-  border-radius: $border-radius-lg;
-  padding: $spacing-lg;
-  box-shadow: $box-shadow-light;
+.rank-list { display: flex; flex-direction: column; gap: 8px; }
+
+.rank-item {
+  display: flex; align-items: center; gap: 16px;
+  padding: 16px 20px; border-radius: 12px; background: #fafbfc;
+  transition: all 0.3s ease; cursor: pointer;
+  &:hover { background: #eef1f6; transform: translateX(6px); }
+  &.rank-gold { background: linear-gradient(90deg, #fff9e6 0%, #fafbfc 100%); border-left: 4px solid #ffd700; }
+  &.rank-silver { background: linear-gradient(90deg, #f5f5f5 0%, #fafbfc 100%); border-left: 4px solid #c0c0c0; }
+  &.rank-bronze { background: linear-gradient(90deg, #fef0e5 0%, #fafbfc 100%); border-left: 4px solid #cd7f32; }
 }
 
-.row-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: $spacing-md;
-
-  .row-title {
-    font-size: 18px;
-    font-weight: 600;
-    color: $text-primary;
-    display: flex;
-    align-items: center;
-    gap: $spacing-sm;
-
-    .el-icon {
-      color: $warning-color;
-    }
-  }
-
-  .view-all-btn {
-    font-size: 14px;
-  }
+.rank-badge {
+  width: 36px; height: 36px; border-radius: 50%; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; font-weight: 800; color: #fff;
+  background: #c0c4cc;
+  &.rank-1 { background: linear-gradient(135deg, #ffd700, #ffaa00); box-shadow: 0 4px 12px rgba(255, 170, 0, 0.4); }
+  &.rank-2 { background: linear-gradient(135deg, #c0c0c0, #a0a0a0); box-shadow: 0 4px 12px rgba(160, 160, 160, 0.4); }
+  &.rank-3 { background: linear-gradient(135deg, #cd7f32, #b8690e); box-shadow: 0 4px 12px rgba(184, 105, 14, 0.4); }
 }
 
-.scroll-container {
-  overflow-x: auto;
-  overflow-y: hidden;
-  padding-bottom: $spacing-sm;
+.rank-avatar {
+  width: 48px; height: 48px; border-radius: 12px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px; font-weight: 800; color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
 
-  &::-webkit-scrollbar {
-    height: 6px;
+.rank-info {
+  flex: 1; min-width: 0;
+  .rank-title {
+    font-size: 16px; font-weight: 600; color: $text-primary; margin-bottom: 4px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
-
-  &::-webkit-scrollbar-track {
-    background: $bg-color;
-    border-radius: 3px;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: $border-color;
-    border-radius: 3px;
-
-    &:hover {
-      background: $text-secondary;
-    }
+  .rank-meta {
+    display: flex; align-items: center; gap: 8px;
+    .rank-author { font-size: 13px; color: $text-secondary; }
   }
 }
 
-.scroll-track {
-  display: flex;
-  gap: $spacing-md;
-  padding: $spacing-xs;
-}
-
-.novel-card {
-  flex: 0 0 180px;
-  width: 180px;
-  border-radius: $border-radius-md;
-  overflow: hidden;
-  cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background: $bg-white;
-  box-shadow: $box-shadow-light;
-
-  &:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+.rank-heat {
+  width: 180px; flex-shrink: 0;
+  .heat-bar {
+    height: 8px; background: #eef0f4; border-radius: 4px; overflow: hidden; margin-bottom: 4px;
+    .heat-fill { height: 100%; border-radius: 4px; transition: width 0.8s ease; }
   }
+  .heat-reads { font-size: 12px; color: $text-secondary; }
 }
 
-.cover-area {
-  width: 100%;
-  height: 240px;
-  position: relative;
-  overflow: hidden;
-}
-
-.cover-gradient {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.85) 0%,
-    rgba(0, 0, 0, 0.2) 50%,
-    transparent 100%
-  );
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: $spacing-md;
-}
-
-.cover-score {
-  align-self: flex-end;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(8px);
-  padding: 2px 10px;
-  border-radius: 12px;
-  font-size: 14px;
-  font-weight: 700;
-  color: #fff;
-}
-
-.cover-info {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-
-  .cover-title {
-    font-size: 15px;
-    font-weight: 600;
-    color: #fff;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+.rank-score-area {
+  flex-shrink: 0; display: flex; flex-direction: column; align-items: center; gap: 2px;
+  .score-ring {
+    width: 44px; height: 44px; border-radius: 50%;
+    border: 3px solid var(--score-color, #409eff);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; font-weight: 700; color: var(--score-color, #409eff);
   }
-
-  .cover-author {
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.75);
-  }
+  .score-label { font-size: 11px; color: $text-secondary; }
 }
 
-.card-meta {
-  padding: $spacing-sm $spacing-md;
-
-  .meta-title {
-    font-size: 14px;
-    font-weight: 600;
-    color: $text-primary;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    margin-bottom: $spacing-xs;
-  }
-
-  .meta-bottom {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    .meta-author {
-      font-size: 12px;
-      color: $text-secondary;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      max-width: 90px;
-    }
-  }
+@media (max-width: 768px) {
+  .rank-heat { display: none; }
+  .rank-item { padding: 12px; gap: 10px; }
 }
 </style>

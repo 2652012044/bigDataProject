@@ -81,44 +81,65 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { UserFilled } from '@element-plus/icons-vue'
+import request from '@/api/index'
 
 const route = useRoute()
 const keyword = computed(() => route.query.q || '')
 const activeTab = ref('all')
-const totalResults = ref(86)
+const totalResults = ref(0)
 
-const allResults = ref([
-  { id: 1, category: '小说', tagType: '', title: '斗破苍穹', desc: '三十年河东，三十年河西，莫欺少年穷！天才少年萧炎在创造了家族空前绝后的修炼纪录后突然成了废人...' },
-  { id: 2, category: '作者', tagType: 'success', title: '天蚕土豆', desc: '知名网络小说作家，代表作品《斗破苍穹》《武动乾坤》《大主宰》《元尊》...' },
-  { id: 3, category: '小说', tagType: '', title: '完美世界', desc: '一粒尘可填海，一根草斩断日月星辰。荒域中走出一个少年，他注定要成为这个世界的主角...' },
-  { id: 4, category: '标签', tagType: 'warning', title: '玄幻修仙', desc: '包含穿越、重生、升级、修仙等元素的小说集合，共收录 3,200 部作品...' },
-  { id: 5, category: '小说', tagType: '', title: '遮天', desc: '九龙拉棺，一位大帝的陨落与重生。百年之后，一位少年从乱世中崛起...' }
-])
+const allResults = ref([])
+const novelResults = ref([])
+const authorResults = ref([])
+const tagResults = ref([])
 
-const novelResults = ref([
-  { id: 1, title: '斗破苍穹', author: '天蚕土豆', type: '玄幻', score: 4.5, gradient: 'linear-gradient(135deg, #667eea, #764ba2)', desc: '三十年河东，三十年河西，莫欺少年穷！' },
-  { id: 2, title: '完美世界', author: '辰东', type: '玄幻', score: 4.3, gradient: 'linear-gradient(135deg, #43e97b, #38f9d7)', desc: '一粒尘可填海，一根草斩断日月星辰。' },
-  { id: 3, title: '遮天', author: '辰东', type: '仙侠', score: 4.6, gradient: 'linear-gradient(135deg, #fa709a, #fee140)', desc: '冰冷与黑暗并存的宇宙深处，九具庞大的龙尸拉着一口青铜棺。' },
-  { id: 4, title: '诡秘之主', author: '爱潜水的乌贼', type: '悬疑', score: 4.8, gradient: 'linear-gradient(135deg, #434343, #000)', desc: '蒸汽与机械的浪潮中，谁能触及非凡？' }
-])
+async function doSearch() {
+  if (!keyword.value) return
+  try {
+    const res = await request.get('/search', { params: { keyword: keyword.value } })
+    const books = res.data || []
+    totalResults.value = books.length
+    // 全部结果
+    allResults.value = books.map(b => ({
+      id: b.bookId, category: b.category || '小说', tagType: '', title: b.bookName,
+      desc: b.bookAbstract || `作者: ${b.author || '未知'} | 评分: ${b.score || 0} | ${b.tags || ''}`
+    }))
+    // 小说tab
+    novelResults.value = books.map(b => ({
+      id: b.bookId, title: b.bookName, author: b.author || '未知', type: b.category || '其他',
+      score: Math.min((b.score || 0) / 2, 5), gradient: 'linear-gradient(135deg, #667eea, #764ba2)',
+      desc: b.bookAbstract || ''
+    }))
+    // 作者tab（去重聚合）
+    const authorMap = {}
+    books.forEach(b => {
+      if (!b.author) return
+      if (!authorMap[b.author]) authorMap[b.author] = { name: b.author, works: [] }
+      if (authorMap[b.author].works.length < 3) authorMap[b.author].works.push(b.bookName)
+    })
+    authorResults.value = Object.values(authorMap).map((a, i) => ({
+      id: i, name: a.name, novelCount: a.works.length, works: a.works
+    }))
+    // 标签tab
+    const tagMap = {}
+    books.forEach(b => {
+      if (!b.tags) return
+      b.tags.split(',').forEach(t => {
+        t = t.trim()
+        if (t) tagMap[t] = (tagMap[t] || 0) + 1
+      })
+    })
+    tagResults.value = Object.entries(tagMap)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 20)
+      .map(([name, count]) => ({ name, count, size: Math.min(12 + count * 2, 24) }))
+  } catch (e) { /* 拦截器已处理 */ }
+}
 
-const authorResults = ref([
-  { id: 1, name: '天蚕土豆', novelCount: 6, works: ['斗破苍穹', '武动乾坤', '大主宰'] },
-  { id: 2, name: '辰东', novelCount: 5, works: ['完美世界', '遮天', '神墓'] },
-  { id: 3, name: '爱潜水的乌贼', novelCount: 4, works: ['诡秘之主', '一世之尊', '奥术神座'] }
-])
-
-const tagResults = ref([
-  { name: '穿越', count: 1200, size: 22 }, { name: '重生', count: 1100, size: 20 },
-  { name: '修仙', count: 950, size: 19 }, { name: '系统', count: 980, size: 19 },
-  { name: '异能', count: 880, size: 17 }, { name: '热血', count: 650, size: 15 },
-  { name: '冒险', count: 620, size: 15 }, { name: '末日', count: 550, size: 14 },
-  { name: '宫斗', count: 500, size: 14 }, { name: '校园', count: 440, size: 13 },
-  { name: '星际', count: 380, size: 13 }, { name: '甜宠', count: 360, size: 12 }
-])
+watch(keyword, () => doSearch(), { immediate: true })
 </script>
 
 <style lang="scss" scoped>

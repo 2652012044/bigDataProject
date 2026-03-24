@@ -66,6 +66,7 @@ import { ref, reactive } from 'vue'
 import { useRouter } from 'vue-router'
 import { User, Lock, Reading } from '@element-plus/icons-vue'
 import { ElMessage } from 'element-plus'
+import request from '@/api/index'
 
 const router = useRouter()
 
@@ -105,14 +106,21 @@ const rules = {
 
 const handleRegister = async () => {
   if (!formRef.value) return
-  await formRef.value.validate((valid) => {
+  await formRef.value.validate(async (valid) => {
     if (valid) {
       loading.value = true
-      setTimeout(() => {
+      try {
+        await request.post('/auth/register', {
+          username: form.username,
+          password: form.password
+        })
         ElMessage.success('注册成功，请登录')
         router.push('/login')
+      } catch (e) {
+        // 拦截器已处理
+      } finally {
         loading.value = false
-      }, 800)
+      }
     }
   })
 }

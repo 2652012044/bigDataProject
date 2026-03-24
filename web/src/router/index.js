@@ -120,6 +120,27 @@ const routes = [
         name: 'SearchResult',
         component: () => import('@/views/search/SearchResult.vue'),
         meta: { title: '搜索结果', module: 'search' }
+      },
+      // 数据管理
+      {
+        path: 'data/cleaning',
+        name: 'CleaningLog',
+        component: () => import('@/views/data/CleaningLog.vue'),
+        meta: { title: '数据清洗日志', module: 'data' }
+      },
+      // 情感预测
+      {
+        path: 'sentiment/predict',
+        name: 'SentimentPredict',
+        component: () => import('@/views/sentiment/SentimentPredict.vue'),
+        meta: { title: '情感预测', module: 'sentiment' }
+      },
+      // 导出报告
+      {
+        path: 'export',
+        name: 'ExportReport',
+        component: () => import('@/views/export/ExportReport.vue'),
+        meta: { title: '导出报告', module: 'export' }
       }
     ]
   }

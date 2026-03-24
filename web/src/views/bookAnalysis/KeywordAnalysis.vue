@@ -116,40 +116,39 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import * as echarts from 'echarts'
 import 'echarts-wordcloud'
+import request from '@/api/index'
 
-// ==================== Mock Data ====================
-const keywordTableData = ref([
-  { keyword: '修仙', count: 18520, novelCount: 3240, tagType: '' },
-  { keyword: '重生', count: 16890, novelCount: 2980, tagType: 'success' },
-  { keyword: '穿越', count: 15430, novelCount: 2750, tagType: 'warning' },
-  { keyword: '系统', count: 13870, novelCount: 2430, tagType: 'danger' },
-  { keyword: '异能', count: 12650, novelCount: 2180, tagType: '' },
-  { keyword: '都市', count: 11230, novelCount: 1960, tagType: 'success' },
-  { keyword: '末日', count: 9870, novelCount: 1540, tagType: 'warning' },
-  { keyword: '宫斗', count: 8940, novelCount: 1320, tagType: 'danger' },
-  { keyword: '星际', count: 7860, novelCount: 1180, tagType: '' },
-  { keyword: '校园', count: 7230, novelCount: 1050, tagType: 'success' },
-  { keyword: '灵气复苏', count: 6580, novelCount: 920, tagType: 'warning' },
-  { keyword: '无限流', count: 5940, novelCount: 860, tagType: 'danger' },
-  { keyword: '快穿', count: 5320, novelCount: 780, tagType: '' },
-  { keyword: '悬疑', count: 4870, novelCount: 710, tagType: 'success' },
-  { keyword: '种田', count: 4350, novelCount: 640, tagType: 'warning' }
-])
+// ==================== Data ====================
+const keywordTableData = ref([])
+const novelList = ref([])
 
-const novelList = ref([
-  { id: 1, title: '凡人修仙传', author: '忘语', desc: '一个普通山村少年的修仙之旅，从凡人一步步走向仙途巅峰。', keywords: ['修仙', '系统', '灵气复苏'], type: '仙侠', wordCount: 780 },
-  { id: 2, title: '重生之都市修仙', author: '十月流年', desc: '重生回到高中时代，开启了一段全新的修仙人生。', keywords: ['重生', '修仙', '都市'], type: '都市', wordCount: 450 },
-  { id: 3, title: '穿越星际之路', author: '星河万里', desc: '穿越到星际时代，凭借前世记忆在星际中闯出一片天地。', keywords: ['穿越', '星际', '异能'], type: '科幻', wordCount: 380 },
-  { id: 4, title: '末日系统降临', author: '暗夜行者', desc: '末日来临，获得神秘系统，在废土世界中挣扎求生。', keywords: ['末日', '系统', '异能'], type: '末世', wordCount: 520 },
-  { id: 5, title: '宫斗之凤谋天下', author: '月落星沉', desc: '重生后的她不再隐忍，以智谋和手段步步为营，登上权力巅峰。', keywords: ['宫斗', '重生', '穿越'], type: '古言', wordCount: 310 },
-  { id: 6, title: '校园异能王', author: '青春无悔', desc: '一觉醒来获得超能力的高中生，在校园中开启奇妙冒险。', keywords: ['校园', '异能', '系统'], type: '都市', wordCount: 280 },
-  { id: 7, title: '无限流之万界归来', author: '无尽幻想', desc: '穿梭于不同副本世界，收集力量，揭开无限空间的终极秘密。', keywords: ['无限流', '穿越', '系统'], type: '科幻', wordCount: 610 },
-  { id: 8, title: '灵气复苏之巅峰', author: '东方不败', desc: '当灵气席卷全球，普通人也有机会踏上修仙之路。', keywords: ['灵气复苏', '修仙', '都市'], type: '玄幻', wordCount: 430 },
-  { id: 9, title: '快穿之炮灰逆袭', author: '糖果甜心', desc: '绑定系统穿梭各个小世界，完成任务逆袭人生。', keywords: ['快穿', '穿越', '系统'], type: '言情', wordCount: 350 },
-  { id: 10, title: '悬疑之迷雾追踪', author: '冷面书生', desc: '天才侦探携手法医，抽丝剥茧揭开一桩桩惊天大案。', keywords: ['悬疑', '都市'], type: '悬疑', wordCount: 270 },
-  { id: 11, title: '种田之悠然南山', author: '田园牧歌', desc: '穿越到古代乡村，靠种田发家致富，过上悠闲田园生活。', keywords: ['种田', '穿越', '重生'], type: '古言', wordCount: 220 },
-  { id: 12, title: '星际机甲风暴', author: '钢铁洪流', desc: '在星际联邦时代，驾驶机甲征战星海，守护人类文明。', keywords: ['星际', '异能', '系统'], type: '科幻', wordCount: 490 }
-])
+async function loadKeywords() {
+  try {
+    const res = await request.get('/analysis/keywords')
+    keywordTableData.value = (res.data || []).map((item, i) => ({
+      keyword: item.name,
+      count: item.value,
+      novelCount: item.value,
+      tagType: ['', 'success', 'warning', 'danger'][i % 4]
+    }))
+    initWordCloud()
+  } catch (e) { /* 保持空 */ }
+}
+
+async function loadBooksByTag(tag) {
+  try {
+    const res = await request.get('/analysis/keywords/books', { params: { tag } })
+    novelList.value = (res.data || []).map(b => ({
+      id: b.bookId,
+      title: b.bookName,
+      author: b.author || '未知',
+      desc: b.bookAbstract || b.tags || '',
+      keywords: b.tags ? b.tags.split(',').map(t => t.trim()) : [],
+      type: b.category || '其他',
+      wordCount: b.wordNumber ? Math.round(b.wordNumber / 10000) : 0
+    }))
+  } catch (e) { /* 保持空 */ }
+}
 
 // ==================== State ====================
 const wordCloudRef = ref(null)
@@ -166,6 +165,7 @@ const filteredNovels = computed(() => {
 // ==================== Methods ====================
 function handleKeywordClick(row) {
   selectedKeyword.value = row.keyword
+  loadBooksByTag(row.keyword)
 }
 
 function clearSelection() {
@@ -235,7 +235,7 @@ function handleResize() {
 
 // ==================== Lifecycle ====================
 onMounted(() => {
-  initWordCloud()
+  loadKeywords()
   window.addEventListener('resize', handleResize)
 })
 

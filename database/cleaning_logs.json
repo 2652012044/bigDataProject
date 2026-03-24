@@ -1,0 +1,54 @@
+[
+  {
+    "start_time": "2026-03-20 12:52:49",
+    "end_time": "2026-03-20 12:53:09",
+    "status": "success",
+    "data_dir": "D:\\bigDataProject\\fqDataAPI_mitproxy\\data",
+    "steps": [
+      {
+        "step": "数据库连接",
+        "status": "成功",
+        "detail": "127.0.0.1:3306/novel_db"
+      },
+      {
+        "step": "分类数据",
+        "status": "成功",
+        "duration_ms": 49
+      },
+      {
+        "step": "书籍列表",
+        "status": "成功",
+        "duration_ms": 3666
+      },
+      {
+        "step": "书籍详情",
+        "status": "成功",
+        "duration_ms": 56
+      },
+      {
+        "step": "作者信息",
+        "status": "成功",
+        "duration_ms": 46
+      },
+      {
+        "step": "评论数据",
+        "status": "成功",
+        "duration_ms": 98
+      },
+      {
+        "step": "分类书单",
+        "status": "成功",
+        "duration_ms": 15827
+      }
+    ],
+    "summary": {
+      "category": 171,
+      "author": 5,
+      "book": 4044,
+      "tag": 198,
+      "book_tag": 7922,
+      "comment": 50
+    },
+    "errors": []
+  }
+]
