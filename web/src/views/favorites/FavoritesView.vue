@@ -79,17 +79,19 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useUserStore } from '@/stores/user'
 import { Search, Delete, Clock, Reading } from '@element-plus/icons-vue'
 import { ElMessage, ElMessageBox } from 'element-plus'
+import request from '@/api/index'
 
 const router = useRouter()
 const userStore = useUserStore()
 
 const searchText = ref('')
 const sortBy = ref('collectDate')
+const favoriteList = ref([])
 
 const coverColors = [
   'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
@@ -102,26 +104,22 @@ const coverColors = [
   'linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)'
 ]
 
-const mockFavorites = [
-  { id: 1, title: '斗破苍穹', author: '天蚕土豆', score: 9.6, collectDate: '2026-03-15', coverColor: coverColors[0] },
-  { id: 2, title: '诡秘之主', author: '爱潜水的乌贼', score: 9.7, collectDate: '2026-03-14', coverColor: coverColors[1] },
-  { id: 3, title: '凡人修仙传', author: '忘语', score: 9.5, collectDate: '2026-03-12', coverColor: coverColors[2] },
-  { id: 4, title: '完美世界', author: '辰东', score: 9.4, collectDate: '2026-03-10', coverColor: coverColors[3] },
-  { id: 5, title: '庆余年', author: '猫腻', score: 9.5, collectDate: '2026-03-08', coverColor: coverColors[4] },
-  { id: 6, title: '雪中悍刀行', author: '烽火戏诸侯', score: 9.2, collectDate: '2026-03-05', coverColor: coverColors[5] },
-  { id: 7, title: '大王饶命', author: '会说话的肘子', score: 9.3, collectDate: '2026-03-03', coverColor: coverColors[6] },
-  { id: 8, title: '遮天', author: '辰东', score: 9.6, collectDate: '2026-03-01', coverColor: coverColors[7] }
-]
+async function loadFavorites() {
+  try {
+    const res = await request.get('/favorites')
+    favoriteList.value = (res.data || []).map((b, i) => ({
+      id: b.bookId,
+      title: b.bookName || '未知',
+      author: b.author || '未知',
+      score: Number(b.score) || 0,
+      collectDate: new Date().toISOString().slice(0, 10),
+      coverColor: coverColors[i % coverColors.length]
+    }))
+  } catch (e) { /* 未登录或其他错误 */ }
+}
 
 const displayNovels = computed(() => {
-  const storeFavorites = userStore.favorites
-  if (storeFavorites && storeFavorites.length > 0) {
-    return storeFavorites.map((novel, index) => ({
-      ...novel,
-      coverColor: novel.coverColor || coverColors[index % coverColors.length]
-    }))
-  }
-  return mockFavorites
+  return favoriteList.value.length > 0 ? favoriteList.value : []
 })
 
 const filteredNovels = computed(() => {
@@ -160,7 +158,8 @@ const handleRemove = async (novel) => {
         type: 'warning'
       }
     )
-    userStore.removeFavorite(novel.id)
+    await request.delete(`/favorites/${novel.id}`)
+    favoriteList.value = favoriteList.value.filter(f => f.id !== novel.id)
     ElMessage.success(`已取消收藏《${novel.title}》`)
   } catch {
     // User cancelled
@@ -170,6 +169,10 @@ const handleRemove = async (novel) => {
 const goToRecommend = () => {
   router.push('/recommend/hot')
 }
+
+onMounted(() => {
+  loadFavorites()
+})
 </script>
 
 <style lang="scss" scoped>

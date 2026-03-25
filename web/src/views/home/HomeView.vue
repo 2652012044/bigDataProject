@@ -52,8 +52,8 @@
           <div class="hot-list">
             <div v-for="(item, i) in hotNovels" :key="i" class="hot-item">
               <span class="hot-rank" :class="'rank-' + (i + 1)">{{ i + 1 }}</span>
-              <span class="hot-name">{{ item.name }}</span>
-              <span class="hot-heat">{{ item.heat }}</span>
+              <span class="hot-name">{{ item.bookName }}</span>
+              <span class="hot-heat">{{ item.readCount ? Number(item.readCount).toLocaleString() : '0' }}</span>
             </div>
           </div>
         </div>
@@ -63,9 +63,9 @@
           <div class="card-header"><span class="card-title">最近更新</span></div>
           <div class="update-list">
             <div v-for="(item, i) in recentUpdates" :key="i" class="update-item">
-              <el-tag size="small" :type="item.tagType">{{ item.type }}</el-tag>
-              <span class="update-name">{{ item.name }}</span>
-              <span class="update-time">{{ item.time }}</span>
+              <el-tag size="small">{{ item.category || '其他' }}</el-tag>
+              <span class="update-name">{{ item.bookName }}</span>
+              <span class="update-time">{{ item.wordNumber ? (item.wordNumber / 10000).toFixed(1) + '万字' : '' }}</span>
             </div>
           </div>
         </div>
@@ -78,18 +78,19 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import * as echarts from 'echarts'
 import 'echarts-wordcloud'
+import request from '@/api/index'
 
 const barChartRef = ref(null)
 const wordCloudRef = ref(null)
 let barChart = null
 let wordCloud = null
 
-const metrics = [
-  { label: '总小说数', value: '12,580', icon: 'Reading', color: 'linear-gradient(135deg, #667eea, #764ba2)' },
-  { label: '今日更新', value: '328', icon: 'DocumentAdd', color: 'linear-gradient(135deg, #43e97b, #38f9d7)' },
-  { label: '活跃用户', value: '5,621', icon: 'User', color: 'linear-gradient(135deg, #fa709a, #fee140)' },
-  { label: '平均评分', value: '8.2', icon: 'Star', color: 'linear-gradient(135deg, #a18cd1, #fbc2eb)' }
-]
+const metrics = ref([
+  { label: '总小说数', value: '...', icon: 'Reading', color: 'linear-gradient(135deg, #667eea, #764ba2)' },
+  { label: '今日更新', value: '...', icon: 'DocumentAdd', color: 'linear-gradient(135deg, #43e97b, #38f9d7)' },
+  { label: '活跃用户', value: '...', icon: 'User', color: 'linear-gradient(135deg, #fa709a, #fee140)' },
+  { label: '平均评分', value: '...', icon: 'Star', color: 'linear-gradient(135deg, #a18cd1, #fbc2eb)' }
+])
 
 const quickEntries = [
   { title: '书籍分析', icon: 'DataAnalysis', color: '#409eff', path: '/book/keyword' },
@@ -98,64 +99,103 @@ const quickEntries = [
   { title: '市场趋势', icon: 'TrendCharts', color: '#f56c6c', path: '/trend/type' }
 ]
 
-const hotNovels = [
-  { name: '斗破苍穹', heat: '98,523' },
-  { name: '完美世界', heat: '87,412' },
-  { name: '遮天', heat: '76,891' },
-  { name: '诡秘之主', heat: '65,234' },
-  { name: '大奉打更人', heat: '54,876' }
-]
+const hotNovels = ref([])
+const recentUpdates = ref([])
 
-const recentUpdates = [
-  { name: '深海余烬 更新至第892章', type: '玄幻', tagType: '', time: '5分钟前' },
-  { name: '道诡异仙 更新至第1203章', type: '仙侠', tagType: 'success', time: '12分钟前' },
-  { name: '夜的命名术 更新至第756章', type: '都市', tagType: 'warning', time: '30分钟前' },
-  { name: '家族修仙 更新至第445章', type: '仙侠', tagType: 'success', time: '1小时前' },
-  { name: '星门 更新至第621章', type: '科幻', tagType: 'danger', time: '2小时前' }
-]
+async function loadOverview() {
+  try {
+    const res = await request.get('/stats/overview')
+    const d = res.data
+    metrics.value[0].value = Number(d.totalNovel).toLocaleString()
+    metrics.value[1].value = String(d.todayUpdates)
+    metrics.value[2].value = Number(d.activeUsers).toLocaleString()
+    metrics.value[3].value = String(d.averageScore)
+  } catch (e) { /* 保持默认值 */ }
+}
 
-function initBarChart() {
+async function loadCategoryRank() {
+  try {
+    const res = await request.get('/stats/category-rank')
+    const data = (res.data || []).slice(0, 15)
+    // 反转使最大值在顶部
+    const names = data.map(i => i.categoryName).reverse()
+    const values = data.map(i => i.bookCount).reverse()
+    initBarChart(names, values)
+  } catch (e) {
+    initBarChart([], [])
+  }
+}
+
+async function loadTagCloud() {
+  try {
+    const res = await request.get('/home/tag-cloud')
+    const data = res.data || []
+    initWordCloud(data)
+  } catch (e) {
+    initWordCloud([])
+  }
+}
+
+async function loadHotBooks() {
+  try {
+    const res = await request.get('/home/hot-books', { params: { limit: 5 } })
+    hotNovels.value = res.data || []
+  } catch (e) { /* 空列表 */ }
+}
+
+async function loadRecentBooks() {
+  try {
+    const res = await request.get('/home/recent-books', { params: { limit: 5 } })
+    recentUpdates.value = res.data || []
+  } catch (e) { /* 空列表 */ }
+}
+
+function initBarChart(names, values) {
   if (!barChartRef.value) return
   barChart = echarts.init(barChartRef.value)
+  const maxVal = Math.max(...values, 1)
   barChart.setOption({
-    tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
-    grid: { left: 80, right: 30, top: 20, bottom: 30 },
-    xAxis: { type: 'value' },
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: { type: 'shadow' },
+      formatter: params => `${params[0].name}：${params[0].value} 部`
+    },
+    grid: { left: 100, right: 60, top: 10, bottom: 10 },
+    xAxis: { type: 'value', show: false },
     yAxis: {
       type: 'category',
-      data: ['武侠', '言情', '悬疑', '历史', '科幻', '仙侠', '都市', '玄幻'],
-      axisLabel: { fontSize: 13 }
+      data: names,
+      axisLine: { show: false },
+      axisTick: { show: false },
+      axisLabel: { fontSize: 13, color: '#606266' }
     },
     series: [{
       type: 'bar',
-      data: [420, 680, 750, 890, 1250, 1580, 2100, 3200],
-      barWidth: 18,
-      itemStyle: {
-        borderRadius: [0, 4, 4, 0],
-        color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
-          { offset: 0, color: '#409eff' },
-          { offset: 1, color: '#66b1ff' }
-        ])
+      data: values.map((v, i) => ({
+        value: v,
+        itemStyle: {
+          borderRadius: [0, 4, 4, 0],
+          color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
+            { offset: 0, color: i >= values.length - 3 ? '#667eea' : '#409eff' },
+            { offset: 1, color: i >= values.length - 3 ? '#764ba2' : '#79bbff' }
+          ])
+        }
+      })),
+      barWidth: 16,
+      label: {
+        show: true,
+        position: 'right',
+        fontSize: 12,
+        color: '#909399',
+        formatter: '{c}'
       }
     }]
   })
 }
 
-function initWordCloud() {
+function initWordCloud(words) {
   if (!wordCloudRef.value) return
   wordCloud = echarts.init(wordCloudRef.value)
-  const words = [
-    { name: '穿越', value: 1200 }, { name: '重生', value: 1100 },
-    { name: '系统', value: 980 }, { name: '修仙', value: 950 },
-    { name: '异能', value: 880 }, { name: '豪门', value: 760 },
-    { name: '末日', value: 720 }, { name: '宫斗', value: 680 },
-    { name: '热血', value: 650 }, { name: '冒险', value: 620 },
-    { name: '校园', value: 580 }, { name: '都市', value: 560 },
-    { name: '升级', value: 540 }, { name: '复仇', value: 500 },
-    { name: '星际', value: 480 }, { name: '灵异', value: 450 },
-    { name: '甜宠', value: 430 }, { name: '权谋', value: 410 },
-    { name: '战争', value: 390 }, { name: '商战', value: 370 }
-  ]
   wordCloud.setOption({
     series: [{
       type: 'wordCloud',
@@ -182,8 +222,11 @@ const handleResize = () => {
 }
 
 onMounted(() => {
-  initBarChart()
-  initWordCloud()
+  loadOverview()
+  loadCategoryRank()
+  loadTagCloud()
+  loadHotBooks()
+  loadRecentBooks()
   window.addEventListener('resize', handleResize)
 })
 
@@ -256,7 +299,7 @@ onUnmounted(() => {
 
 .chart-container {
   width: 100%;
-  height: 320px;
+  height: 400px;
 }
 
 .quick-entry {

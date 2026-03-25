@@ -60,6 +60,7 @@ import { useRouter, useRoute } from 'vue-router'
 import { useUserStore } from '@/stores/user'
 import { User, Lock, Reading } from '@element-plus/icons-vue'
 import { ElMessage } from 'element-plus'
+import request from '@/api/index'
 
 const router = useRouter()
 const route = useRoute()
@@ -87,23 +88,31 @@ const rules = {
 
 const handleLogin = async () => {
   if (!formRef.value) return
-  await formRef.value.validate((valid) => {
+  await formRef.value.validate(async (valid) => {
     if (valid) {
       loading.value = true
-      setTimeout(() => {
-        const mockData = {
-          token: 'mock-token-123',
+      try {
+        const res = await request.post('/auth/login', {
+          username: form.username,
+          password: form.password
+        })
+        const data = res.data
+        userStore.login({
+          token: data.token,
           user: {
-            username: form.username,
-            avatar: ''
+            userId: data.userId,
+            username: data.username,
+            avatar: data.avatar || ''
           }
-        }
-        userStore.login(mockData)
+        })
         ElMessage.success('登录成功')
         const redirect = route.query.redirect || '/home'
         router.push(redirect)
+      } catch (e) {
+        // 拦截器已处理错误提示
+      } finally {
         loading.value = false
-      }, 800)
+      }
     }
   })
 }

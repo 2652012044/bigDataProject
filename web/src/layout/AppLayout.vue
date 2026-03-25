@@ -28,7 +28,7 @@ const sideMenuCollapsed = computed(() => appStore.sideMenuCollapsed)
 // 首页和搜索页不显示侧边栏
 const showSideMenu = computed(() => {
   const module = route.meta.module
-  return module && !['home', 'search', 'favorites'].includes(module)
+  return module && !['home', 'search', 'favorites', 'export'].includes(module)
 })
 </script>
 
