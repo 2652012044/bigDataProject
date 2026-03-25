@@ -1,0 +1,42 @@
+# ============================================================
+#  Docker 构建忽略文件
+#  作用：减少发送给 Docker Daemon 的构建上下文，加快构建速度
+# ============================================================
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 虚拟环境（容器内会重新安装依赖）
+venv/
+env/
+.venv/
+
+# 日志文件（运行时挂载卷，无需打包进镜像）
+logs/
+*.log
+
+# 采集数据（运行时挂载卷，无需打包进镜像）
+data/
+
+# 调试产生的文件
+hierarchy_debug.xml
+*.png
+*.jpg
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Windows 特有
+Thumbs.db
+desktop.ini

@@ -1,0 +1,73 @@
+@startuml
+' MySQL Deployment View for fqNovel Database
+
+skinparam backgroundColor #FAFAFA
+skinparam node {
+  BackgroundColor #EEF4FB
+  BorderColor #2B5D8A
+  FontStyle bold
+}
+skinparam component {
+  BackgroundColor #FFFDE7
+  BorderColor #F9A825
+}
+skinparam database {
+  BackgroundColor #E8F5E9
+  BorderColor #388E3C
+}
+skinparam artifact {
+  BackgroundColor #F3E5F5
+  BorderColor #7B1FA2
+}
+skinparam linetype ortho
+
+' ─── 数据采集端 ───
+node "数据采集客户端\n(Windows / Android)" as collector {
+  component "fqDataAPI\nPython 脚本" as pyScript
+  artifact "CategoryList.json\nBookList.json\ncomtJson/*.json" as rawData
+}
+
+' ─── 数据库服务器 ───
+node "数据库服务器\n(Linux / Windows Server)" as dbServer {
+
+  component "MySQL 8.x\nServer" as mysqlServer {
+
+    database "fqnovel_db\n(Schema)" as schema {
+      component "category" as tCategory   #E8F5E9
+      component "user"     as tUser       #E8F5E9
+      component "book"     as tBook       #E8F5E9
+      component "comment"  as tComment    #E8F5E9
+      component "tag"      as tTag        #E8F5E9
+    }
+  }
+}
+
+' ─── 应用端 ───
+node "应用服务器\n(后端 / 数据分析)" as appServer {
+  component "数据导入服务" as etl
+  component "查询 / 分析服务" as apiService
+}
+
+' ─── 客户端 ───
+node "客户端\n(浏览器 / 数据看板)" as client {
+  component "前端\n/ 可视化面板" as webUI
+}
+
+' ─── 连接关系 ───
+pyScript      ..>  rawData      : 抓取并导出 JSON
+rawData       -->  etl          : 文件传输 / 读取
+etl           -->  mysqlServer  : INSERT 导入
+
+apiService    -->  mysqlServer  : SQL 查询
+webUI         -->  apiService   : HTTP / REST
+appServer     -[hidden]- dbServer
+
+' 表间依赖提示
+tBook    ..> tCategory : FK category_id
+tBook    ..> tUser     : FK author_id
+tComment ..> tBook     : FK book_id
+tComment ..> tUser     : FK user_id
+tTag     ..> tBook     : FK book_id
+tTag     ..> tCategory : FK category_id
+
+@enduml

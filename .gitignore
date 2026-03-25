@@ -1,0 +1,14 @@
+# 大文件排除
+*.zip
+
+# 爬虫数据目录（数据量大，通过压缩包单独分发）
+fqDataAPI_mitproxy/data/
+
+# 本地配置文件（含密码，不入Git）
+database/db_config.ini
+**/application-local.yml
+历史项目文件/项目模板文件/原文件/第1组_项目工件_bilibili网站数据分析 (1)/12.项目答辩.pptx
+
+# 采集数据目录
+fqDataAPI_mitproxy/data/
+fqDataAPI_mitproxy/progress/

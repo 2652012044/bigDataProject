@@ -1,0 +1,79 @@
+# ============================================================
+#  番茄小说数据采集 - Docker Compose 编排
+#
+#  服务说明:
+#    android-emulator : 运行 Android 14 的模拟器容器
+#                       需要宿主机支持 KVM 硬件虚拟化
+#    fq-app           : 番茄小说采集 Python 应用
+#
+#  使用方式:
+#    docker compose up -d android-emulator   # 先启动模拟器
+#    docker compose run --rm fq-app          # 交互式进入采集容器
+#
+#  注意:
+#    Charles Proxy 建议在宿主机运行，容器通过 CHARLES_PROXY 环境变量指定地址
+# ============================================================
+
+services:
+
+  # ──────────────────────────────────────────────
+  #  Android 模拟器
+  #  镜像文档: https://github.com/budtmo/docker-android
+  #  需要宿主机开启 KVM:  ls /dev/kvm
+  # ──────────────────────────────────────────────
+  android-emulator:
+    image: budtmo/docker-android:emulator_11.0
+    privileged: true
+    environment:
+      - EMULATOR_DEVICE=Samsung Galaxy S10
+      - WEB_VNC=true            # 开启 noVNC Web 界面，可在浏览器观察模拟器
+      - APPIUM=false
+    ports:
+      - "6080:6080"             # noVNC Web 界面: http://localhost:6080
+      - "5554:5554"             # Android 模拟器控制台端口
+      - "5555:5555"             # ADB TCP 端口
+    devices:
+      - /dev/kvm:/dev/kvm       # KVM 硬件加速（宿主机必须支持，否则删除此行但会非常慢）
+    volumes:
+      - android-data:/root      # 模拟器数据持久化
+    healthcheck:
+      test: ["CMD-SHELL", "adb -s localhost:5555 get-state 2>/dev/null | grep -q device"]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+      start_period: 120s        # 模拟器启动较慢，给足等待时间
+
+  # ──────────────────────────────────────────────
+  #  番茄小说采集 Python 应用
+  # ──────────────────────────────────────────────
+  fq-app:
+    build:
+      context: ..               # 构建上下文为 fqDataAPI/ 目录
+      dockerfile: Docker/Dockerfile
+    environment:
+      # Android 模拟器地址，entrypoint 脚本会自动执行 adb connect
+      - ANDROID_DEVICE=android-emulator:5555
+      # Charles Proxy 地址
+      # !! Linux 宿主机没有 host.docker.internal，必须通过环境变量传入宿主机 IP:
+      #    CHARLES_PROXY=192.168.1.100:8888 docker compose ... run --rm fq-app
+      # !! Windows/Mac Docker Desktop 可用默认值 host.docker.internal:8888
+      - CHARLES_PROXY=${CHARLES_PROXY:-host.docker.internal:8888}
+      # HTTP_PROXY / HTTPS_PROXY：requests 库自动读取，使 control.charles 控制请求经由 Charles 处理
+      # 同时 entrypoint.sh 也会读取 CHARLES_PROXY 将 Android 系统代理指向 Charles
+      - HTTP_PROXY=http://${CHARLES_PROXY:-host.docker.internal:8888}
+      - HTTPS_PROXY=http://${CHARLES_PROXY:-host.docker.internal:8888}
+      # 不代理本地容器内地址
+      - NO_PROXY=localhost,127.0.0.1,android-emulator
+    volumes:
+      - ../data:/app/data       # 采集数据挂载到宿主机，方便查看
+      - ../logs:/app/logs       # 日志挂载到宿主机
+    depends_on:
+      android-emulator:
+        condition: service_healthy
+    stdin_open: true
+    tty: true
+    # 默认进入交互式 bash，手动运行采集脚本
+    # 如需自动运行，可改为: command: python searchbook.py
+
+volumes:
+  android-data:
