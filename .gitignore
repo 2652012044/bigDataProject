@@ -12,3 +12,13 @@ database/db_config.ini
 # 采集数据目录
 fqDataAPI_mitproxy/data/
 fqDataAPI_mitproxy/progress/
+
+# 情感模型训练数据与产物
+emotion_detect_model/novel_comment_data/
+emotion_detect_model/train/part.0_expanded
+emotion_detect_model/best_model.pth
+emotion_detect_model/vocab.json
+emotion_detect_model/expand_vocab.json
+emotion_detect_model/novel_comment_vocab.json
+emotion_detect_model/label_progress.json
+emotion_detect_model/novel_comment_expend_progress.json
