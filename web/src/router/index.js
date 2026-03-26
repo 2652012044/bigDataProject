@@ -63,12 +63,6 @@ const routes = [
         component: () => import('@/views/sentiment/ReputationScore.vue'),
         meta: { title: '口碑评分', module: 'sentiment' }
       },
-      {
-        path: 'sentiment/hotspot',
-        name: 'HotspotAnalysis',
-        component: () => import('@/views/sentiment/HotspotAnalysis.vue'),
-        meta: { title: '热点分析', module: 'sentiment' }
-      },
       // 推荐模块
       {
         path: 'recommend/hot',
@@ -96,12 +90,6 @@ const routes = [
         meta: { title: '我的收藏', module: 'favorites' }
       },
       // 市场趋势
-      {
-        path: 'trend/type',
-        name: 'TypeTrend',
-        component: () => import('@/views/trend/TypeTrend.vue'),
-        meta: { title: '类型趋势', module: 'trend' }
-      },
       {
         path: 'trend/heat',
         name: 'HeatTrend',

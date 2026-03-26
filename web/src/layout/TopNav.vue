@@ -77,7 +77,7 @@ const moduleDefaultRoute = {
   book: '/book/keyword',
   sentiment: '/sentiment/classify',
   recommend: '/recommend/hot',
-  trend: '/trend/type',
+  trend: '/trend/heat',
   data: '/data/cleaning',
   export: '/export',
   bigscreen: '/bigscreen'
