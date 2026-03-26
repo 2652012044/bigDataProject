@@ -1,0 +1,69 @@
+{
+  "scheme": "https",
+  "host": "api5-normal-sinfonlineb.fqnovel.com",
+  "port": 443,
+  "method": "POST",
+  "path": "/novel/commentapi/comment/list/7595067270041193496/v1?aid=1967&compliance_status=0&iid=3264913083468252&device_id=3264913084266956&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774213657344&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=cb4c79e1-5a50-4e50-b61f-cb6a0a88b8ae",
+  "url": "https://api5-normal-sinfonlineb.fqnovel.com/novel/commentapi/comment/list/7595067270041193496/v1?aid=1967&compliance_status=0&iid=3264913083468252&device_id=3264913084266956&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774213657344&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=cb4c79e1-5a50-4e50-b61f-cb6a0a88b8ae",
+  "request": {
+    "headers": {
+      "x-ss-stub": "0F9CD8AAE75131F03F31FD3F7F2A0791",
+      "accept-encoding": "gzip",
+      "accept": "application/json; charset=utf-8,application/x-protobuf",
+      "content-encoding": "gzip",
+      "x-xs-from-web": "0",
+      "x-ss-req-ticket": "1774213657352",
+      "x-reading-request": "1774213657352-854539109",
+      "x-vc-bdturing-sdk-version": "4.0.3.cn",
+      "comment-source": "1",
+      "server-channel": "4",
+      "lc": "101",
+      "sdk-version": "2",
+      "passport-sdk-version": "5051451",
+      "x-tt-store-region": "cn-sc",
+      "x-tt-store-region-src": "did",
+      "user-agent": "com.dragon.read/71132 (Linux; U; Android 9; zh_CN; ASUS_I005DA; Build/PI;tt-ok/3.12.13.20)",
+      "x-ladon": "o2H4IA==",
+      "x-khronos": "1774213657",
+      "x-argus": "GVrAaQ==",
+      "x-gorgon": "8404c03a400175520b02ba1144fe212269c895725cbac10e6e11",
+      "x-helios": "k3KaQunV/c1IAvIWmLHjagchRK7rYgEzqJ+pIC12JKWCEjgL",
+      "x-medusa": "HFrAaTQRj6NQL80qJu9uRTs3DD9HSAABp5muK6NZgREKWKCMlej1H/fWVHYgXcBAmVOHGdYtWlZ+vET5Rxipi78e6ygdrMIbbCP1ITBNgxNw3PnS9iEHVE99CGJJSVktPMJx8UTYZ46YND3DcHylD1G9num+1TnlxvbDRQgK0EiTl0VAmz3PtERFuWTkz782zSfiYDgKz6mrbxgOl66dCtvqtbKgyMVgcPGhqkwqg9QHWFQYIn/fleqWIekMQw5TY+9ef9WKc0w/l/Hz8iDKQVt9eLrKp/H0wuuj6swvjOerjlUQ8fbMMw4fZYdsPueWPPUjw4Gu3DDiPnPJQubCGN4Z+fon2YNN1L1HILhOKHVrbqkKHAOhPQR7S5sIJiAGGoS13VnsdC8Sh/Zl8PDBgkhLNeb5CXtAEVbjjLDd+K/XQhaq86BT+P6WMB2bA+qbid9smWVI9+9ol5+qqlLgP4OOPaN9opaOYsjHECy1lJYyRnWPZN1jRLr+DbvzK5uHHN6irAoIB/+iAQCOEBd4Mlw7pqNVgQicLmSZJa+QunyeblFIh4SGiD5wleV1Oio9QhjqiYP9DKwT1nCQwt8Rmc+KFtebGWP/8Rz6dcn2XlEVGBAlBtClD+hZnyB7Lxrah8zOnAuSgePV9bT9DJCNiR4AhWTgs7vTeyxZUGWmmEQsE/uXI/JdxgW0V/Kxa1ppd564HiSe5JQUNFvaot5Z+2M0vYwVUcRUEk4zr/afy4He+pY0S8tK7k2tC2C+FmEYPbvs0dZ8egvXpMRt+99HsLrvF6zSLFuk3ZnDTDpAplANq0zc0dT+apmL+W55asVIQ+cKc4B1VaB7VwqJruC4Hm1MwMkcZFYwvmfq7qNJf+hiWguE6IXrVVp/jpp0V2Exm6eBTSgYOWxzITvF5eb30YJKGzjzIaydhddFj4uDqumZ/W4thoUqJTISxiSlf4Oc6zEPmxV+lAvJwNwWgiRrUtLfiq9MVHxah1c5gul+kReewIuaLB7rvFrtxgtgJMERaZlyspd7FWVoQ7QLb5A41CNmuwVgeq2Pjj0PkQ6peybhy2SUVfkhVUE+2B0RMCq8qpO4Pfx2hEUokkoBcN+mdtShDVzMC6+f20gjfIin+CBr6kqjnbfKlp9491YXJ63/JJmXPQXILD12JZD1Wex0rSYoIeTv2lbvgMtm2k0nhxHIaYMsmLb9i/fiypTt8vJLcf8hO/tuEJsLgOdIGX3V4bO85MwXCdqMyLhVdO6+dFTEYKwbOSbSfuOryfgWHYnF1IfeXRxa//j/Wv/5v+BC",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "220",
+      "cookie": "store-region=cn-sc; store-region-src=did; install_id=3264913083468252; ttreq=1$4c1bbbbab17ea594a5f536e6687bb15282df69c1; odin_tt=b9dbb62db4ad77c5d7bc1194a7e3d745fd105e0d7f9ad2b03f0d439939cc20ec2d45b08d2edc40748c47977a3e8455d6b203f32057de865f73045f0c8888d943d725ef0eeb923bf9c76034c962c8caa6; passport_csrf_token=03878a22e0efcf4f9cbd6650414d6edc; passport_csrf_token_default=03878a22e0efcf4f9cbd6650414d6edc"
+    },
+    "body": {
+      "text": "{\"business_param\":{\"book_id\":\"7595067270041193496\",\"comment_sort_debug\":false,\"end_offset_time\":0,\"item_count\":0,\"max_item_count\":0,\"need_count\":false,\"para_index\":0,\"read_item_count\":0,\"req_type\":0,\"start_offset_time\":0,\"playlet_item_duration\":0},\"comment_source\":1,\"comment_type\":2,\"count\":3,\"group_id\":\"7595067270041193496\",\"group_type\":1,\"server_channel\":4,\"sort\":1}"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "reason": "",
+    "headers": {
+      "server": "volc-dcdn",
+      "content-type": "application/json",
+      "date": "Sun, 22 Mar 2026 21:07:36 GMT",
+      "vary": "Accept-Encoding",
+      "x-tt-agw-login": "0",
+      "x-tt-logid": "20260323050736EA0F766995B5F8F6DDB5",
+      "server-timing": "inner; dur=87, cdn-cache;desc=MISS, origin;dur=133, edge;dur=0, tt_agw; dur=75",
+      "tt-idc-switch": "10000@20260204111459",
+      "x-tt-trace-host": "0153fa259baf8ba17820e51416f5289148488c403f9b4e320c782fa23edb5b8fed9f053ca56ba6b1077fdc1c47b0320008b23d80d1e7f2e061cfaacc40efa0805d7b79f5cb2cae4a2163aed5c1a76def2383a9bc49555921f9ce5fdfe6b74a0f3c53b17a21f7e999b3f62f6d5e6a453c533321c44b7e51b3766d4ea4fea9e9444c00a08e734217825246e0bfd882db9cbac60a0e458357149bd36e9fbe251e0fc406f91ead476702d1a24883ab099f841a",
+      "x-tt-trace-tag": "id=5",
+      "x-tt-trace-id": "00-175ff26c03010df9d8249864e93c07af-175ff26c03010df9-01",
+      "content-encoding": "gzip",
+      "via": "n223-086-122-174.sccdcm07-container.Creative",
+      "x-request-ip": "2409:8a62:f12:4e30:70ce:8d00:2307:ca62",
+      "x-dsa-trace-id": "17742136566c8a38ff5929e61c78e482867879ebb9",
+      "x-dsa-origin-status": "200"
+    },
+    "body": {
+      "text": "{\"BaseResp\":{\"StatusCode\":0,\"StatusMessage\":\"success\"},\"code\":0,\"data\":{\"common_list_info\":{\"cursor\":\"\",\"has_more\":false,\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260323050736EA0F766995B5F8F6DDB5\\\"}\"},\"total\":2},\"data_list\":[{\"comment\":{\"comment_id\":\"7619350363401634585\",\"common\":{\"comment_type\":0,\"content\":{\"image_data_list\":{},\"text\":\"事业型 不怎么在乎女儿的柳如烟\"},\"content_type\":0,\"create_timestamp\":1774018652,\"group_id\":\"7595067270041193496\",\"service_id\":2,\"status\":1,\"user_info\":{\"base_info\":{\"description\":\"\",\"encode_user_id\":\"#c1967_MTk2NzE5NjcxOTY3MTk2Nx3s2G9IBcxEosDQCgYp5OI=\",\"gender\":1,\"is_cancelled\":false,\"profile_gender\":1,\"user_avatar\":\"http://p3-reading-sign.fqnovelpic.com/tos-cn-i-1yzifmftcy/6597c9c61e1947bba4b4df416ed340dc~tplv-s85hriknmn-jpeg-v1:144:0.jpeg?lk3s=9b9bd2b1\\u0026x-expires=1776790624\\u0026x-signature=fBS6o4BOFRDawUVTDR6pnp7rmO8%3D\",\"user_id\":\"723958716445795\",\"user_name\":\"思思点点@\"},\"expand_extra\":{},\"user_id\":\"723958716445795\",\"user_relation\":{\"can_follow\":true,\"relation_type\":1},\"user_tag\":{\"fan_rank_num\":0,\"fan_ranklist_title\":\"\",\"is_author\":false,\"is_blue_vip\":false,\"is_cp\":false,\"is_official_cert\":false,\"is_vip\":false,\"user_title_info\":[]}}},\"expand\":{\"book_id\":\"7595067270041193496\",\"book_info\":{\"abstract\":\"【日常】+【多女】+【温馨】+【不是绿帽文】+【系统】+【奶爸】\\n离婚三年的陆晨，在女儿陆小可第一天上幼儿园之时，觉醒了宠女狂魔系统，只要满足女儿各种要求就能获得各种奖励。\\n从那以后，陆晨化身宠女狂魔，只要女儿想要啥，陆晨都会一一满足。\\n随着陆晨越来越优秀，身边的女人都对陆晨产生感情。\\n学校校长：“小可家长，今天有没有时间，我想跟你谈一下小可的事情！\\n美女前房东：“陆晨，今晚不要弄晚饭，来我这吃就可以！\\n………\\n随着周围的女生越来越热情，与陆晨离婚多年的妻子立马不乐意，并向陆晨求复婚。\\n“陆晨要不我们复婚吧，毕竟小可不能没有母亲，这样对她的童年不好！”\\n…………\",\"audio_thumb_uri\":\"https://p3-novel.byteimg.com/img/novel-pic/1df9f4a2dd3ecbed9f0e40ef13e71fae~tplv-tt-cs0:440:440.image\",\"author\":\"蒜香排骨我爱\",\"author_id\":\"\",\"book_id\":\"7595067270041193496\",\"book_name\":\"女儿别提了？你爸已成神豪啦！\",\"book_short_name\":\"\",\"book_type\":\"0\",\"color_dominate\":\"#403030\",\"creation_status\":\"1\",\"genre\":\"0\",\"genre_type\":\"0\",\"read_count_text\":\"4374人在读\",\"reader_schema\":{\"authorize_type\":\"1\",\"category_schema\":\"[{\\\"category_id\\\":262,\\\"name\\\":\\\"都市脑洞\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=262\\u0026name=都市脑洞\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":1,\\\"name\\\":\\\"都市\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=1\\u0026name=都市\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":19,\\\"name\\\":\\\"系统\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=19\\u0026name=系统\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":20,\\\"name\\\":\\\"神豪\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=20\\u0026name=神豪\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":91,\\\"name\\\":\\\"多女主\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=91\\u0026name=多女主\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":42,\\\"name\\\":\\\"奶爸\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=42\\u0026name=奶爸\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":516,\\\"name\\\":\\\"都市异能\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=516\\u0026name=都市异能\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":850,\\\"name\\\":\\\"无脑爽\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=850\\u0026name=无脑爽\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"}]\",\"first_chapter_item_id\":\"7595067296029098520\",\"read_count\":\"4374\",\"title_page_tags\":\"\",\"word_number\":\"157802\"},\"relate_post_id\":\"\",\"relate_post_schema\":\"\",\"score\":\"0\",\"serial_count\":\"74\",\"tags\":\"都市脑洞,都市,都市异能,奶爸,系统,神豪,多女主,无脑爽\",\"thumb_url\":\"https://p3-reading-sign.fqnovelpic.com/novel-pic/1df9f4a2dd3ecbed9f0e40ef13e71fae~tplv-noop.image?lk3s=9b9bd2b1\\u0026x-expires=1779397656\\u0026x-signature=xseViPCH%2FZHv2695HvjAJA8oiyM%3D\",\"tomato_book_status\":\"1\"},\"book_info_list\":[],\"common_stat\":{},\"creator_id\":\"1610132978668487\",\"extra\":{\"comment_jump_schema\":\"\",\"novelapp_read_item_cnt\":\"22\"},\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260323050736EA0F766995B5F8F6DDB5\\\"}\"},\"relate_info_list\":[],\"reply_show_count\":0,\"reply_show_row\":0,\"score\":\"8\",\"score_suffix_text\":\"阅读不足30分钟后点评\"},\"stat\":{\"digg_count\":0,\"forwarded_count\":0,\"listen_duration\":0,\"read_book_count\":0,\"read_duration\":1799,\"reply_count\":0,\"show_pv\":0},\"user_action\":{\"author\":0,\"is_author_stick\":false,\"stick_position\":0,\"user_digg\":false,\"user_disagree\":false}},\"data_type\":4}],\"extra\":{\"book_info\":{\"abstract\":\"\",\"audio_thumb_uri\":\"\",\"author\":\"\",\"author_id\":\"\",\"book_id\":\"7595067270041193496\",\"book_name\":\"\",\"book_type\":\"\",\"color_dominate\":\"\",\"creation_status\":\"\",\"genre\":\"\",\"genre_type\":\"\",\"score\":\"\",\"serial_count\":\"\",\"tags\":\"\",\"thumb_url\":\"\",\"tomato_book_status\":\"\"},\"filter_tag\":[],\"hot_word_search\":[],\"score_cnt\":12,\"score_text\":\"12人点评\"}},\"debug_info\":\"\",\"log_id\":\"20260323050736EA0F766995B5F8F6DDB5\",\"message\":\"请求成功\"}"
+    }
+  },
+  "times": {
+    "start": 1774213648.963382,
+    "end": 1774213649.1082954
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "scheme": "https",
+  "host": "api5-normal-sinfonlinea.fqnovel.com",
+  "port": 443,
+  "method": "POST",
+  "path": "/novel/commentapi/comment/list/7089385065150417951/v1?aid=1967&compliance_status=0&iid=4021377082615307&device_id=4021377082611211&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774251745176&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=0cf308a0-82ee-4ae2-9a98-ac9cc86a7c9b",
+  "url": "https://api5-normal-sinfonlinea.fqnovel.com/novel/commentapi/comment/list/7089385065150417951/v1?aid=1967&compliance_status=0&iid=4021377082615307&device_id=4021377082611211&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774251745176&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=0cf308a0-82ee-4ae2-9a98-ac9cc86a7c9b",
+  "request": {
+    "headers": {
+      "x-ss-stub": "0204EA247800B3E18A12AE61D9482F96",
+      "accept-encoding": "gzip",
+      "accept": "application/json; charset=utf-8,application/x-protobuf",
+      "content-encoding": "gzip",
+      "x-xs-from-web": "0",
+      "x-ss-req-ticket": "1774251745181",
+      "x-reading-request": "1774251745181-129178198",
+      "x-vc-bdturing-sdk-version": "4.0.3.cn",
+      "comment-source": "1",
+      "server-channel": "4",
+      "lc": "101",
+      "sdk-version": "2",
+      "passport-sdk-version": "5051451",
+      "x-tt-store-region": "cn-sc",
+      "x-tt-store-region-src": "did",
+      "user-agent": "com.dragon.read/71132 (Linux; U; Android 9; zh_CN; ASUS_I005DA; Build/PI;tt-ok/3.12.13.20)",
+      "x-ladon": "iSuJMA==",
+      "x-khronos": "1774251745",
+      "x-argus": "4e7AaQ==",
+      "x-gorgon": "8404404240011e3e34cb9d6353f70e547d3d16af72218ebc9d08",
+      "x-helios": "WHU9aKIyxTr63adi57Il9APgMGj2E4nM5RJTFpWs0l3blPYj",
+      "x-medusa": "5O7Aacylj6Oom80q3ltuRcODDD9ONgABadmt8YUngbkNWNgAixYGwPcEWzCLzPFjx7gTnD7ibqtxASQFC5KpsuznzJUsHhn//txZ2ZBPuQK6yy/d37jcDCxixSkjfwbILa8DzSJZ72i5zwexRNdUEP377md/FjyYvl+MJL+BfaC8U1yPyR++QvaiKMTNKJv7fY5+FDERKHyyYcBG6yE1/yWJSAhL7Sp1vLCRJpIXDKF10ZvokMEsU7T7bYJ2GtJnAih7FiBXahMjZtXY1pumlpbr7XmEhrO4TJM5linYIZYmmJViUITXH/iRUbL0y/ijgWE8QdK4pv/SXpl1ICKsmvygqfuXZ/YBiRtBdZFlgtQc2JYmrSXDkJn0mqc3DOxhoboUGDKUkCXEEKFPr8CFmE9dj96GK1heP+hJ8KqPIuuhDXPAkKajpKKvgQ33IYFEViw2Ym/jCO52oR6K/neGUIYvapb6KtYi+qe+XWN9TEdf+VrfSCfulXXV1nUMbyLrg4FcUPHyhoLRM//Yp2BwjMQIEWvrniCrr+yR6gu49JIs4Rm+JDHm7NP8IcxeP6O/MXUQR/btGdRGzsGe8mg+frunRyCuFhLSebE7/1LgskIiptYDtbibmF+CYg4sDKxhlklDzCvQ0rEOoypSq2HnJL9HKN+up380u2904cKopuF4tGjVrtHRi6wAZjigbFZS7fsnrTFc3GS8Jj9FLkJtQL7WaUGtCNgwiVLftb5isV6XyRu6MNvLe3jS04pvkVRl/luFeHIfQOQZSVyjUUaVe194848BRE45K3v7skg3JkgDviG6zc5B3ufSVBopxDB7xQsfXMJws8KSsK1Y2dwx+6cwb3kvSsxT/+l8pPiZb+qJwIHwYTPZaDtags+na3Ptiwgv/D7HvzlkDsD5v9dKe2lmOB9g75MOaGgVF3u//qvGDDVQKfSUL25L8vkhq+DHd/AM4zzZHmjPFH9xgTH2QGjYwrFsPw2lbGcbU+xsL3/aHwpp4YZ795fdTxm2/69AbrW/vheD8j3h7BtUVKZhKvsD5dMoQpHhO/Ct+yRuh3fhhtPxGqlGBfCFAEuuxfwjuJjHzt/Ivtb8BvoP5EpZ3UZEGVqdVDxY/OYNIAXYHF6TH95jZmfUn7uDeOIXG5oRKAwkDLxnxiyY30qj/D5V0uvkF9lX0LmmtNf/FpcGeRqaUK23LsGESZHausiqwQetQfotHYswISd0Sk9ENSUzR2nUVavL9norxuI3DfFihO8GXPSqiU/S338fHbwjNfwVQEnq5smE//ivPv/4rn7qLA==",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "219",
+      "cookie": "store-region=cn-sc; store-region-src=did; install_id=4021377082615307; ttreq=1$8d264b699f2c6211360a77230559b55ee4cd6018; odin_tt=d516628481b59710d58a65ce65fcc95cf9c56bde7ab5cb89de9676ab8e496874c1b0320198da8d09414b21522b8a4941f13926ff8ae1bce0d395b25db3d3d38cc14556b5c90d41c0c6d09f00387e7e8a; passport_csrf_token=0ce3518b3ff5a4a8011639a176fe24a7; passport_csrf_token_default=0ce3518b3ff5a4a8011639a176fe24a7"
+    },
+    "body": {
+      "text": "{\"business_param\":{\"book_id\":\"7089385065150417951\",\"comment_sort_debug\":false,\"end_offset_time\":0,\"item_count\":0,\"max_item_count\":0,\"need_count\":false,\"para_index\":0,\"read_item_count\":0,\"req_type\":0,\"start_offset_time\":0,\"playlet_item_duration\":0},\"comment_source\":1,\"comment_type\":2,\"count\":3,\"group_id\":\"7089385065150417951\",\"group_type\":1,\"server_channel\":4,\"sort\":1}"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "reason": "",
+    "headers": {
+      "content-type": "application/json",
+      "x-dynamic-status": "MISS from KS-CLOUD-HA-CM-015-03-L",
+      "alt-svc": "h3-29=\":443\";ma=2592000,h3-Q043=\":443\";ma=2592000,quic=\":443\";ma=2592000;v=\"43\"",
+      "date": "Mon, 23 Mar 2026 07:42:25 GMT",
+      "vary": "Accept-Encoding",
+      "x-tt-agw-login": "0",
+      "x-tt-logid": "20260323154225FDA734D16FE859B4E8B2",
+      "server-timing": "cdn-cache;desc=miss,edge;dur=0,origin;dur=153",
+      "tt-idc-switch": "10000@20260204111459",
+      "x-tt-trace-host": "01d0aee9864ce4702cc4da470005f71f8d7749109e2db1cf08442d057b189d85c42a9df8dc936b205ef02dce75af6099dc04630fc5c8e1598598f71cc7d0ca4663bdf8b81a421da865d8ae7420f6af087f9fea5d45a47677f47ef994b1e783461f7f334297e2a80a2728497081452e5b551c932fdb81ec16e604acd15af7e81772f5f2f5ef126c834c469c24da9a1b8f79",
+      "x-tt-trace-tag": "id=06;cdn-cache=miss;type=dyn",
+      "x-tt-trace-id": "00-260323154225FDA734D16FE859B4E8B2-33DB1C959A47D24E-00",
+      "server": "TLB",
+      "content-encoding": "gzip",
+      "x-cdn-request-id": "8dd92aedd254811e0eb5cd4e7acea34d",
+      "x-link-via": "hacm015:443;"
+    },
+    "body": {
+      "text": "{\"BaseResp\":{\"StatusCode\":0,\"StatusMessage\":\"success\"},\"code\":0,\"data\":{\"common_list_info\":{\"cursor\":\"\",\"has_more\":false,\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260323154225FDA734D16FE859B4E8B2\\\"}\"},\"total\":3},\"data_list\":[{\"comment\":{\"comment_id\":\"7127154755163734792\",\"common\":{\"comment_type\":31,\"content\":{\"image_data_list\":{},\"text\":\"tnnd，小黑子，露出鸡脚了吧[奸笑]\"},\"content_type\":0,\"create_timestamp\":1659420058,\"group_id\":\"7089385065150417951\",\"service_id\":2,\"status\":1,\"user_info\":{\"base_info\":{\"description\":\"一个简单又平凡的年轻人\",\"encode_user_id\":\"#c1967_MTk2NzE5NjcxOTY3MTk2N7C5m46Dak+F7d7hZCL6xF/+1Si4ZL4LlTlzERIv/4cw\",\"gender\":1,\"is_cancelled\":false,\"profile_gender\":1,\"user_avatar\":\"http://p3-reading-sign.fqnovelpic.com/tos-cn-i-0000/3abe6a50e39b4bf1ba7c29f33074e1a8~tplv-s85hriknmn-jpeg-v1:144:0.jpeg?lk3s=9b9bd2b1\\u0026x-expires=1776788850\\u0026x-signature=sYCOa%2F9ZxoTl7Yne0kWtutXwoT0%3D\",\"user_id\":\"3228617998077464\",\"user_name\":\"今不在2021\"},\"expand_extra\":{},\"user_id\":\"3228617998077464\",\"user_relation\":{\"can_follow\":true,\"relation_type\":1},\"user_tag\":{\"fan_rank_num\":0,\"fan_ranklist_title\":\"\",\"is_author\":false,\"is_blue_vip\":false,\"is_cp\":false,\"is_official_cert\":false,\"is_vip\":false,\"sticker\":{\"expire_time\":1748625302,\"is_worn\":true,\"sticker\":{\"add_context\":\"活动专属\",\"bg_color\":\"#FFFFFF\",\"can_worn\":false,\"id\":17,\"name\":\"击穿次元\",\"small_url\":\"https://p6-novel.byteimg.com/origin/novel-static/47c082300352c1a9e6e7669d207df6fb\",\"sticker_type\":2,\"url\":\"https://p6-novel.byteimg.com/origin/novel-static/57235e9992067573933a8f743e5f9044\"}},\"user_title_info\":[{\"en_title\":\"author\",\"intro\":\"{\\\"title_name\\\":\\\"作家\\\",\\\"title_id\\\":\\\"author\\\"}\",\"is_author_title\":true,\"is_vip_title\":false,\"label\":\"{\\\"title_text\\\":\\\"作家\\\",\\\"title_default_color\\\":\\\"#FFFFFF\\\",\\\"title_dark_color\\\":\\\"#FFFFFF\\\",\\\"bg_default_color\\\":\\\"{\\\\\\\"start\\\\\\\":\\\\\\\"#FF9F31\\\\\\\",\\\\\\\"end\\\\\\\":\\\\\\\"#FFB95C\\\\\\\"}\\\",\\\"bg_dark_color\\\":\\\"{\\\\\\\"start\\\\\\\":\\\\\\\"#CC8029\\\\\\\",\\\\\\\"end\\\\\\\":\\\\\\\"#CC9349\\\\\\\"}\\\",\\\"title_dark_diaphaneity\\\":\\\"CC\\\"}\",\"zh_title\":\"作家\"}]}}},\"expand\":{\"book_id\":\"7089385065150417951\",\"book_info\":{\"abstract\":\"【游戏流】【成神流】【职业流】\\n游戏的世界，模拟成神，一切都有无限的可能。\\n——\\n杜白，《幻想》游戏中臭名昭著的黑装备狗，一次意外后重生穿越到了《幻想》游戏中，在获得《神偷》副职业后，彻底走上了一条不归的黑心路，黑装备？黑金币？太low了！\\n杜白表示，我不禁要黑你的装备，黑你的属性，还要黑你的技能！\\n杜白：“我要成为让整个浩瀚星系惧怕的男人！”\",\"audio_thumb_uri\":\"https://p6-novel.byteimg.com/img/novel-pic/de5ba41649f675bc673e5bbe28387b99~tplv-tt-cs0:440:440.image\",\"author\":\"破防怪\",\"author_id\":\"\",\"book_id\":\"7089385065150417951\",\"book_name\":\"欢迎来到成为神明的游戏\",\"book_short_name\":\"\",\"book_type\":\"0\",\"color_dominate\":\"#003068\",\"creation_status\":\"0\",\"genre\":\"0\",\"genre_type\":\"0\",\"read_count_text\":\"潜力好书\",\"reader_schema\":{\"authorize_type\":\"0\",\"category_schema\":\"[{\\\"category_id\\\":746,\\\"name\\\":\\\"游戏体育\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=746\\u0026name=游戏体育\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":37,\\\"name\\\":\\\"穿越\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=37\\u0026name=穿越\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":19,\\\"name\\\":\\\"系统\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=19\\u0026name=系统\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":372,\\\"name\\\":\\\"网游\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=372\\u0026name=网游\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"}]\",\"first_chapter_item_id\":\"7094439797900608031\",\"read_count\":\"1\",\"title_page_tags\":\"\",\"word_number\":\"577655\"},\"relate_post_id\":\"\",\"relate_post_schema\":\"\",\"score\":\"0\",\"serial_count\":\"283\",\"tags\":\"游戏体育,系统,穿越,网游\",\"thumb_url\":\"https://p3-reading-sign.fqnovelpic.com/novel-pic/de5ba41649f675bc673e5bbe28387b99~tplv-noop.image?lk3s=9b9bd2b1\\u0026x-expires=1779435745\\u0026x-signature=GN4n7jSR1Ja5iwLpWvpokQud6HM%3D\",\"tomato_book_status\":\"1\"},\"book_info_list\":[],\"common_stat\":{},\"creator_id\":\"0\",\"extra\":{\"comment_jump_schema\":\"\",\"novelapp_read_item_cnt\":\"5.115661e+06\"},\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260323154225FDA734D16FE859B4E8B2\\\"}\"},\"relate_info_list\":[],\"reply_show_count\":0,\"reply_show_row\":0,\"score\":\"10\",\"score_suffix_text\":\"阅读1小时后点评\"},\"stat\":{\"digg_count\":0,\"forwarded_count\":0,\"listen_duration\":0,\"read_book_count\":0,\"read_duration\":5115,\"reply_count\":0,\"show_pv\":41},\"user_action\":{\"author\":0,\"is_author_stick\":false,\"stick_position\":0,\"user_digg\":false,\"user_disagree\":false}},\"data_type\":4}],\"extra\":{\"book_info\":{\"abstract\":\"\",\"audio_thumb_uri\":\"\",\"author\":\"\",\"author_id\":\"\",\"book_id\":\"7089385065150417951\",\"book_name\":\"\",\"book_type\":\"\",\"color_dominate\":\"\",\"creation_status\":\"\",\"genre\":\"\",\"genre_type\":\"\",\"score\":\"\",\"serial_count\":\"\",\"tags\":\"\",\"thumb_url\":\"\",\"tomato_book_status\":\"\"},\"filter_tag\":[],\"hot_word_search\":[],\"score_cnt\":6,\"score_text\":\"6人点评\"}},\"debug_info\":\"\",\"log_id\":\"20260323154225FDA734D16FE859B4E8B2\",\"message\":\"请求成功\"}"
+    }
+  },
+  "times": {
+    "start": 1774251737.8863282,
+    "end": 1774251738.0873578
+  }
+}

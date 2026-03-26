@@ -1,0 +1,69 @@
+{
+  "scheme": "https",
+  "host": "api5-normal-sinfonlinea.fqnovel.com",
+  "port": 443,
+  "method": "POST",
+  "path": "/novel/commentapi/comment/list/7241963213993020455/v1?aid=1967&compliance_status=0&iid=4021377082615307&device_id=4021377082611211&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774284923857&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=0cf308a0-82ee-4ae2-9a98-ac9cc86a7c9b",
+  "url": "https://api5-normal-sinfonlinea.fqnovel.com/novel/commentapi/comment/list/7241963213993020455/v1?aid=1967&compliance_status=0&iid=4021377082615307&device_id=4021377082611211&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774284923857&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=0cf308a0-82ee-4ae2-9a98-ac9cc86a7c9b",
+  "request": {
+    "headers": {
+      "x-ss-stub": "E1B6ECE973BF1EE3176BBDE018CFEFFE",
+      "accept-encoding": "gzip",
+      "accept": "application/json; charset=utf-8,application/x-protobuf",
+      "content-encoding": "gzip",
+      "x-xs-from-web": "0",
+      "x-ss-req-ticket": "1774284924082",
+      "x-reading-request": "1774284924082-447336161",
+      "x-vc-bdturing-sdk-version": "4.0.3.cn",
+      "comment-source": "1",
+      "server-channel": "4",
+      "lc": "101",
+      "sdk-version": "2",
+      "passport-sdk-version": "5051451",
+      "x-tt-store-region": "cn-sc",
+      "x-tt-store-region-src": "did",
+      "user-agent": "com.dragon.read/71132 (Linux; U; Android 9; zh_CN; ASUS_I005DA; Build/PI;tt-ok/3.12.13.20)",
+      "x-ladon": "Hvi60A==",
+      "x-khronos": "1774284924",
+      "x-argus": "fHDBaQ==",
+      "x-gorgon": "8404c0d840013944985d4284b8e907327625848d962bef351003",
+      "x-helios": "iXqSIhu+0Td4YKa5x0X/4ZRLdBGzWC/G/v9R4VGzbSiznrSO",
+      "x-medusa": "eXDBaVE7jqM1BcwqQ8VvRV4dDT9SNwAB2dmNNwBOAeoDGOfPYbdB8Y3Pkh+DWulI0OMw0ifVmeCHqIVrk/5LSP0kGwj7nsVE996igyahb/E6DeKdlYUSAh4eY56o93Z8StyKTRD/JtV0ws6E5FTyi9BRWAD0ppwtS25BFOcQdVnf6IZcgQw5qdUawxGAHsBe7wYpJiiBz5N0S6o92T4nvUKZmMSVnBMWVQjHas/DaAJ79JbbY622WmbAA2hfPxGoPYD9bOBYvLBJjwxlST4eIWhbR/UfAKjlw/DQiQyLZN/NS4oz5Dw/bu+LuaxKR+djXR754pY27GG/aMq3jXuH650UJRQYI4xTv/JG3zvP0NU/OicP/TdfpDI0FPqAKt0PqjOJ7y3syTz7oHc3eR6V+DR46VPPHrCp/opfQCpjnSz52s6UEWM+NkLPNrowQ9t2bcXBpcb9jen/XmbkU/LogzNHFg65U5K+7U5SrAk5qxA9ltV4pzHyigPLTJxnrF5WSQtILk+VbOID7xdLOPpGCmv9eiBXnX/tHm/ibnZ28XmRGdQe3paj7QiU457orhjicrCMrxqqLGzqPIfByhfDkboZTsLhGWNpg4idGTWcYJyxgsFhLMR6paRN6jNiXBYfRfxkWrXPxcomaArpjGG+t0Uw6kJ0GbjX4qmdeDm9W10b5AYDxjsz4NZ5JxGKVPWDB2Zm2L6pZflKTFV3nbRQV6FD8FmnkMnnPtoC5ItOxVSMfz2o6Gul0/s6XIWHy4PEBbx7q1KDVJHROgm0mQxzlLDm4s8Kfhi68JGbqYVZgn77QSZ+PzCKGATDwHWNF1gN/h9dCwlQ72IBpJoypdestd/uGlz3n+ERtKlmzwDHZK+RduwUduS+xH1ABrxvkmbaParSXhbpVKDmS0zXgErL+QzFfB2lzXghzNWppU67Iue+lgckihRrMKdv0SiKGIs1MeyyMy/JPv8cYgUMwh2YshsnjaXilomBsYkmPuEDp02hqEJeq5dpl1mSaw1wB7EGZcht28+svd74cjlNTHNVKmG0+uNUkSQaZ7QRIN0KH/HLMrDbxJ173y3/Ty7dvBs0X01fuPcLqG14K0MFJEjyflqQPczkj/ZkGVxlPL679KeCUhUDn2/O1uQ02UuIjDX5Gps3HJ8sbgIT++cgcoefj7zr1co8HBJEDD5wRbfLXEvPIPXkv6OVDisgl5FOoFmEvnwXQcYvv9ERLLK4Jjgw01FWNdOp/mr+N+NCbke7+UTDli3HIh5QNhcW1o80rDOWO0Kr2RcN//gXDf64/Qg=",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "219",
+      "cookie": "store-region=cn-sc; store-region-src=did; install_id=4021377082615307; ttreq=1$8d264b699f2c6211360a77230559b55ee4cd6018; odin_tt=d516628481b59710d58a65ce65fcc95cf9c56bde7ab5cb89de9676ab8e496874c1b0320198da8d09414b21522b8a4941f13926ff8ae1bce0d395b25db3d3d38cc14556b5c90d41c0c6d09f00387e7e8a; passport_csrf_token=0ce3518b3ff5a4a8011639a176fe24a7; passport_csrf_token_default=0ce3518b3ff5a4a8011639a176fe24a7"
+    },
+    "body": {
+      "text": "{\"business_param\":{\"book_id\":\"7241963213993020455\",\"comment_sort_debug\":false,\"end_offset_time\":0,\"item_count\":0,\"max_item_count\":0,\"need_count\":false,\"para_index\":0,\"read_item_count\":0,\"req_type\":0,\"start_offset_time\":0,\"playlet_item_duration\":0},\"comment_source\":1,\"comment_type\":2,\"count\":3,\"group_id\":\"7241963213993020455\",\"group_type\":1,\"server_channel\":4,\"sort\":1}"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "reason": "",
+    "headers": {
+      "server": "volc-dcdn",
+      "content-type": "application/json",
+      "date": "Mon, 23 Mar 2026 16:55:24 GMT",
+      "vary": "Accept-Encoding",
+      "x-tt-agw-login": "0",
+      "x-tt-logid": "20260324005524A434971C6E29CC736F76",
+      "server-timing": "inner; dur=66, cdn-cache;desc=MISS, origin;dur=117, edge;dur=0, tt_agw; dur=51",
+      "tt-idc-switch": "10000@20260204111459",
+      "x-tt-trace-host": "0153fa259baf8ba17820e51416f52891484a2ae9471a8310abea0a3c00fc4633029234725e1176ec2f8075681fa9e9a169107881b8091d9e73ac8d7e2a54d7c199d80fd10bb29d44667fd4151b0f87b74b73d232faed46a58bb827c32b51bfac97e1f51d54099c00e2da98c12df9f5bfe8b6ccc6321d88ada4d2e72b601cf589c8c136a854240fda07ff72f32d36392fd026b906292f173b7c4d99fe3045b858f2b3564b673bb70e8d2c963d4d96e94f2f",
+      "x-tt-trace-tag": "id=5",
+      "x-tt-trace-id": "00-1b9f65f20301085eaa1f379159f307af-1b9f65f20301085e-01",
+      "content-encoding": "gzip",
+      "via": "n223-085-105-165.scchengdu-cm1208-container.Creative",
+      "x-request-ip": "2409:8a62:f12:4e30:21b9:27f6:21fd:91ff",
+      "x-dsa-trace-id": "17742849235ed77da745cc72157d6cea6248f36fca",
+      "x-dsa-origin-status": "200"
+    },
+    "body": {
+      "text": "{\"BaseResp\":{\"StatusCode\":0,\"StatusMessage\":\"success\"},\"code\":0,\"data\":{\"common_list_info\":{\"cursor\":\"\",\"has_more\":false,\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260324005524A434971C6E29CC736F76\\\"}\"},\"total\":0},\"data_list\":[],\"extra\":{\"book_info\":{\"abstract\":\"\",\"audio_thumb_uri\":\"\",\"author\":\"\",\"author_id\":\"\",\"book_id\":\"7241963213993020455\",\"book_name\":\"\",\"book_type\":\"\",\"color_dominate\":\"\",\"creation_status\":\"\",\"genre\":\"\",\"genre_type\":\"\",\"score\":\"\",\"serial_count\":\"\",\"tags\":\"\",\"thumb_url\":\"\",\"tomato_book_status\":\"\"},\"filter_tag\":[],\"score_cnt\":0,\"score_text\":\"评分人数不足\"}},\"debug_info\":\"\",\"log_id\":\"20260324005524A434971C6E29CC736F76\",\"message\":\"请求成功\"}"
+    }
+  },
+  "times": {
+    "start": 1774284914.6757045,
+    "end": 1774284914.8074038
+  }
+}

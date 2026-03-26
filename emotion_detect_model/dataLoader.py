@@ -41,10 +41,23 @@ class Vocabulary:
 class SentimentDataset(Dataset):
     """读取 tab 分隔的情感数据集，格式：文本\t标签(0/1)"""
 
-    def __init__(self, data_path, vocab, max_len=256):
+    # 补充短文本样本，覆盖模型未见过的极短负/正面表达
+    _EXTRA_SAMPLES = [
+        ('恶心', 0), ('恶心透了', 0), ('垃圾', 0), ('太差了', 0), ('差劲', 0),
+        ('糟透了', 0), ('失望', 0), ('后悔', 0), ('不推荐', 0), ('很差', 0),
+        ('服务很差', 0), ('质量差', 0), ('太烂了', 0), ('坑人', 0), ('骗人', 0),
+        ('差评', 0), ('不值', 0), ('一般般', 0), ('很一般', 0), ('不好', 0),
+        ('棒', 1), ('很棒', 1), ('太棒了', 1), ('非常好', 1), ('超赞', 1),
+        ('推荐', 1), ('满意', 1), ('值得', 1), ('好评', 1), ('不错', 1),
+        ('服务很好', 1), ('质量好', 1), ('喜欢', 1), ('完美', 1), ('超值', 1),
+    ]
+
+    def __init__(self, data_path, vocab, max_len=256, augment=False):
         self.vocab = vocab
         self.max_len = max_len
         self.data = self._load(data_path)
+        if augment:
+            self.data.extend(self._EXTRA_SAMPLES * 10)  # 每条重复10次使权重适当
 
     def _load(self, path):
         data = []

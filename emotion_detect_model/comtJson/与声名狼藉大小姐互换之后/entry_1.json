@@ -1,0 +1,69 @@
+{
+  "scheme": "https",
+  "host": "api5-normal-sinfonlinea.fqnovel.com",
+  "port": 443,
+  "method": "POST",
+  "path": "/novel/commentapi/comment/list/7433045028127116313/v1?aid=1967&compliance_status=0&iid=80727408419191&device_id=80727408415095&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1773996891388&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=1d782b0e-e598-452e-9843-00cc23ec3b55",
+  "url": "https://api5-normal-sinfonlinea.fqnovel.com/novel/commentapi/comment/list/7433045028127116313/v1?aid=1967&compliance_status=0&iid=80727408419191&device_id=80727408415095&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1773996891388&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=1d782b0e-e598-452e-9843-00cc23ec3b55",
+  "request": {
+    "headers": {
+      "x-ss-stub": "0FC6B54B959AB32542BE2F8D7A6AC628",
+      "accept-encoding": "gzip",
+      "accept": "application/json; charset=utf-8,application/x-protobuf",
+      "content-encoding": "gzip",
+      "x-xs-from-web": "0",
+      "x-ss-req-ticket": "1773996891389",
+      "x-reading-request": "1773996891389-1156943874",
+      "x-vc-bdturing-sdk-version": "4.0.3.cn",
+      "comment-source": "1",
+      "server-channel": "1",
+      "lc": "101",
+      "sdk-version": "2",
+      "passport-sdk-version": "5051451",
+      "x-tt-store-region": "cn-sc",
+      "x-tt-store-region-src": "did",
+      "user-agent": "com.dragon.read/71132 (Linux; U; Android 9; zh_CN; ASUS_I005DA; Build/PI;tt-ok/3.12.13.20)",
+      "x-ladon": "hN4vjw==",
+      "x-khronos": "1773996891",
+      "x-argus": "Wwu9aQ==",
+      "x-gorgon": "840400f3400148e7ba9bf05fbc939cdc2217d44e3fba85ee7606",
+      "x-helios": "0NkCcheAt4oKjR7FX3t5CjG2oQ0xGy8ORjCKcSU9jyGYpCfP",
+      "x-medusa": "Xgu9aXZA8qMSfrAqZL4TRXlmcT+I0AAB5NnZzJh9geIAGCPQAJg9dLlxJFiWSqJvRwBm3BS0IuX0uAgui9g/3AZMN+5cVfmAVrZY4agoXBw2cGM4ChvVvJOFP3s0Oji+2YsLG9tC3rJuBx5TVKVECwVXfis9eQIhnaE8IOvnIo4uLkx2GCjmH+ORA0ZmMQAfylOSl7LQyY6QoE2YlThYx2rbAd+oAA4Qg2AqEarKYGFyFHqawmy56qjFQwiIVPhAdbE4P0scK6ehE09WARMx/hYs3Jjd7DShY+zd503DbJaCGNJrFa3TLBQpQgtwuYaeK2aGhwkVZx/HQtUEnRjcBOYY6CXZEvcUoXR84JnpvRaDW4iOIo5lCL/CIs1lX/Ngw1Qa99dpQ09iQY803/y/qTACQwx/iewCr4yljhIGaCJKvahinhGjlL0V82nATiSbslBjzND10RHNeUbCyb4sGWy+8eA+MpwyyhNVhLUst/3OiqfxH4CysS0ZbuS8kw/X/nEcMbFr4VUMh1FWtxuFB2uczMjcaX6Wc0hLUGb1R+/qsiSdezsP2zy0vM/XDMGYwG1b3lo8wJKcuaKdmNgnIPBHwd6RsC/DD0qWBcGINtFrA4QCkoEPFjJv1gZy34AaOHT/8YDu7KVZGX4VXIwNHbRl5JX/D48cMlqTK95mAEMjj6hdHormqI5Tx+IIsI4/MxHj7rNARrpxHKNsSLh+ZFbTKLW53gZuIHMQ0HChrulLgGB+xKhkOQXrYIDSyEG9i5/4pokAInrMQS64m0qrO1YXb2pqXhyw0fxs1EYSEn/QC0+Zz5Lq0+D6BDxYcLxkYJXmzRz7x3UtfqX+tMARKxiytojPD9Dsu1I6joHHWKhzgKDyZ6cTQT/BXNDKzSiQdIoMLUtZm2W7iqISG6+cfyLob3G/WD9JxqBrW4fFw4Pues8W1JRELgY3531CNxBjrkgP9SpENOrCKgoCrFut1YIHZWRCwJkrYUIa54uq3b8R5B9dQadFYXWlsWcKtpV23qW7IL2JB+DtDDSE4q0cwtMCjd+5duPlzBJUqUd6TRKU4eRGmdFUFjQ1rex4/FuWEhB5bjF1VPptB+aSsEyNQa+V89NR/b/YvbZLf6JWP7feN/9El5lxk0x9svcvt6X0HD3d6ag9zKb4jPvntVv41NpXW+dfKSf1Dl7N9l5MMfmPymoELGEybCRyhEZQSGavdjs7TFMTPNxKn+5vExJ8s8h57O1FlRcvH3963yKXP5p/DonrgZkbS1AXlLe/Pv/9Z////Wa/U1E=",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "219",
+      "cookie": "odin_tt=eeed7adb3ddf35e05a6e9e3b3eb302ec0a3f4eaae8d4d3c25b03ef22a97341612dd2514f6687edd72a5ff857970c239d9a900c42b15cdc8592d7b11276a5397d1513c5b728e6f76dcaab4e8caf92c56d"
+    },
+    "body": {
+      "text": "{\"business_param\":{\"book_id\":\"7433045028127116313\",\"comment_sort_debug\":false,\"end_offset_time\":0,\"item_count\":0,\"max_item_count\":0,\"need_count\":false,\"para_index\":0,\"read_item_count\":0,\"req_type\":0,\"start_offset_time\":0,\"playlet_item_duration\":0},\"comment_source\":1,\"comment_type\":2,\"count\":1,\"group_id\":\"7433045028127116313\",\"group_type\":1,\"server_channel\":1,\"sort\":1}"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "reason": "",
+    "headers": {
+      "content-type": "application/json",
+      "x-dynamic-status": "MISS from KS-CLOUD-KM-CM-82-09",
+      "alt-svc": "h3-29=\":443\";ma=2592000,h3-Q043=\":443\";ma=2592000,quic=\":443\";ma=2592000;v=\"43\"",
+      "date": "Fri, 20 Mar 2026 08:54:51 GMT",
+      "vary": "Accept-Encoding",
+      "x-tt-agw-login": "0",
+      "x-tt-logid": "20260320165451F55AB1B87A11887EBCBD",
+      "server-timing": "cdn-cache;desc=miss,edge;dur=0,origin;dur=271",
+      "tt-idc-switch": "10000@20260204111459",
+      "x-tt-trace-host": "01dfd4fbc1941c9f13b53e245861e0788a87ec12e77017361b00f922dcbe11826b27df0cb2fa80afeece3137a80f52f722a94a217c0de9020f7acef45178a080828482e4975806d24b94dc8c21d16eec48a3b1d3a9dbeff4996a10c7a64fb97e24eff75f082bd801bed1f7d6acaaa40cc98b4258293ace2033ea8a47e511394b7fd715ce4a4add3fe9072662fb46ae936a",
+      "x-tt-trace-tag": "id=06;cdn-cache=miss;type=dyn",
+      "x-tt-trace-id": "00-260320165451F55AB1B87A11887EBCBD-1B1D7F8F4C19439B-00",
+      "server": "TLB",
+      "content-encoding": "gzip",
+      "x-cdn-request-id": "bd9b709bf0c5c6dec690d7e0112d7050",
+      "x-link-via": "kmcm82:443;"
+    },
+    "body": {
+      "text": "{\"BaseResp\":{\"StatusCode\":0,\"StatusMessage\":\"success\"},\"code\":0,\"data\":{\"common_list_info\":{\"cursor\":\"{\\\"session_id\\\":\\\"20260320165451F55AB1B87A11887EBCBD\\\",\\\"offset\\\":1}\",\"has_more\":true,\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"94349564816\\\",\\\"request_id\\\":\\\"20260320165451F55AB1B87A11887EBCBD\\\"}\"},\"total\":39},\"data_list\":[{\"comment\":{\"comment_id\":\"7455591408238625561\",\"common\":{\"comment_type\":0,\"content\":{\"image_data_list\":{},\"text\":\"棒棒哒！非常好看喜欢\"},\"content_type\":0,\"create_timestamp\":1735890542,\"group_id\":\"7433045028127116313\",\"service_id\":2,\"status\":1,\"user_info\":{\"base_info\":{\"description\":\"每天开心啊，宝宝们，阴天总会过去的\",\"encode_user_id\":\"#c1967_MTk2NzE5NjcxOTY3MTk2N/LH/vsWNTcaQ1fgqDqVk1DjX52+5O1IO8ae8gJEK0PW\",\"gender\":2,\"is_cancelled\":false,\"profile_gender\":0,\"user_avatar\":\"http://p3-reading-sign.fqnovelpic.com/tos-cn-i-1yzifmftcy/d24a9cca7998488d82bf04fc3e698692~tplv-s85hriknmn-jpeg-v1:144:0.jpeg?lk3s=9b9bd2b1\\u0026x-expires=1776537063\\u0026x-signature=IHij2ob9M8PF0Wvf32jZSnS9PKg%3D\",\"user_id\":\"1235497974245543\",\"user_name\":\"肥侠不胖\"},\"expand_extra\":{},\"user_id\":\"1235497974245543\",\"user_relation\":{\"can_follow\":true,\"relation_type\":1},\"user_tag\":{\"fan_rank_num\":0,\"fan_ranklist_title\":\"\",\"is_author\":false,\"is_blue_vip\":false,\"is_cp\":false,\"is_official_cert\":false,\"is_vip\":false,\"user_title_info\":[]}}},\"expand\":{\"book_id\":\"7433045028127116313\",\"book_info\":{\"abstract\":\"（双男主×学霸×学渣×双洁×校园×男作者）\\n不是哥们，一觉醒来互换身体了？\\n不是哥们，互换的方式还这么别致？\\n不是哥们……\\n怎么感觉有点香？\\n室友之间因为意外互换身体而导致的一系列搞笑轻松日常，也因为这一变故，原本都不太的合群的两人，慢慢影响，互相改变……\",\"audio_thumb_uri\":\"https://p6-novel.byteimg.com/img/novel-pic/p2oaa3c8153f40679ca032cf317d34050d9~tplv-tt-cs0:440:440.image\",\"author\":\"荒非\",\"author_id\":\"\",\"book_id\":\"7433045028127116313\",\"book_name\":\"不是哥们，互换身体了？\",\"book_short_name\":\"\",\"book_type\":\"0\",\"color_dominate\":\"#e0b880\",\"creation_status\":\"0\",\"genre\":\"0\",\"genre_type\":\"0\",\"read_count_text\":\"潜力好书\",\"reader_schema\":{\"authorize_type\":\"1\",\"category_schema\":\"[{\\\"category_id\\\":275,\\\"name\\\":\\\"双男主\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=275\\u0026name=双男主\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":4,\\\"name\\\":\\\"校园\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=4\\u0026name=校园\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":82,\\\"name\\\":\\\"学霸\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=82\\u0026name=学霸\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":702,\\\"name\\\":\\\"双洁\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=702\\u0026name=双洁\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":757,\\\"name\\\":\\\"现代\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=757\\u0026name=现代\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":831,\\\"name\\\":\\\"灵魂互换\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=831\\u0026name=灵魂互换\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":1012,\\\"name\\\":\\\"纯爱\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=1012\\u0026name=纯爱\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"}]\",\"first_chapter_item_id\":\"7433045162311287321\",\"read_count\":\"221\",\"title_page_tags\":\"\",\"word_number\":\"313551\"},\"relate_post_id\":\"\",\"relate_post_schema\":\"\",\"score\":\"6.5\",\"serial_count\":\"147\",\"tags\":\"双男主,校园,学霸,双洁,现代,灵魂互换,纯爱\",\"thumb_url\":\"https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oaa3c8153f40679ca032cf317d34050d9~tplv-noop.image?lk3s=9b9bd2b1\\u0026x-expires=1779180891\\u0026x-signature=Ubomq5p5M9Zl9%2Fl5pdTVnRGlL64%3D\",\"tomato_book_status\":\"1\"},\"book_info_list\":[],\"common_stat\":{},\"creator_id\":\"2075484204576647\",\"extra\":{\"comment_jump_schema\":\"\",\"novelapp_read_item_cnt\":\"96\"},\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"94349564816\\\",\\\"request_id\\\":\\\"20260320165451F55AB1B87A11887EBCBD\\\"}\"},\"relate_info_list\":[],\"reply_show_count\":1,\"reply_show_row\":3,\"score\":\"10\",\"score_suffix_text\":\"阅读8小时后点评\"},\"stat\":{\"digg_count\":0,\"forwarded_count\":0,\"listen_duration\":13813,\"read_book_count\":0,\"read_duration\":27030,\"reply_count\":0,\"show_pv\":639},\"user_action\":{\"author\":0,\"is_author_stick\":false,\"stick_position\":0,\"user_digg\":false,\"user_disagree\":false}},\"data_type\":4}],\"extra\":{\"book_info\":{\"abstract\":\"（双男主×学霸×学渣×双洁×校园×男作者）\\n不是哥们，一觉醒来互换身体了？\\n不是哥们，互换的方式还这么别致？\\n不是哥们……\\n怎么感觉有点香？\\n室友之间因为意外互换身体而导致的一系列搞笑轻松日常，也因为这一变故，原本都不太的合群的两人，慢慢影响，互相改变……\",\"audio_thumb_uri\":\"https://p6-novel.byteimg.com/img/novel-pic/p2oaa3c8153f40679ca032cf317d34050d9~tplv-tt-cs0:440:440.image\",\"author\":\"荒非\",\"author_id\":\"\",\"book_id\":\"7433045028127116313\",\"book_name\":\"不是哥们，互换身体了？\",\"book_short_name\":\"\",\"book_type\":\"0\",\"color_dominate\":\"#e0b880\",\"creation_status\":\"0\",\"genre\":\"0\",\"genre_type\":\"0\",\"read_count_text\":\"潜力好书\",\"reader_schema\":{\"authorize_type\":\"1\",\"category_schema\":\"[{\\\"category_id\\\":275,\\\"name\\\":\\\"双男主\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=275\\u0026name=双男主\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":4,\\\"name\\\":\\\"校园\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=4\\u0026name=校园\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":82,\\\"name\\\":\\\"学霸\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=82\\u0026name=学霸\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":702,\\\"name\\\":\\\"双洁\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=702\\u0026name=双洁\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":757,\\\"name\\\":\\\"现代\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=757\\u0026name=现代\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":831,\\\"name\\\":\\\"灵魂互换\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=831\\u0026name=灵魂互换\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":1012,\\\"name\\\":\\\"纯爱\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=1012\\u0026name=纯爱\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"}]\",\"first_chapter_item_id\":\"7433045162311287321\",\"read_count\":\"221\",\"title_page_tags\":\"\",\"word_number\":\"313551\"},\"relate_post_id\":\"\",\"relate_post_schema\":\"\",\"score\":\"6.5\",\"serial_count\":\"147\",\"tags\":\"双男主,校园,学霸,双洁,现代,灵魂互换,纯爱\",\"thumb_url\":\"https://p3-reading-sign.fqnovelpic.com/novel-pic/p2oaa3c8153f40679ca032cf317d34050d9~tplv-noop.image?lk3s=9b9bd2b1\\u0026x-expires=1779180891\\u0026x-signature=Ubomq5p5M9Zl9%2Fl5pdTVnRGlL64%3D\",\"tomato_book_status\":\"1\"},\"score_cnt\":101,\"score_text\":\"101人点评\"}},\"debug_info\":\"\",\"log_id\":\"20260320165451F55AB1B87A11887EBCBD\",\"message\":\"请求成功\"}"
+    }
+  },
+  "times": {
+    "start": 1773996889.6335697,
+    "end": 1773996891.7745175
+  }
+}

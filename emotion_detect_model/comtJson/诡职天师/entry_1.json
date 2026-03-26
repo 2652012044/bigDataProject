@@ -1,0 +1,69 @@
+{
+  "scheme": "https",
+  "host": "api5-normal-sinfonlinea.fqnovel.com",
+  "port": 443,
+  "method": "POST",
+  "path": "/novel/commentapi/comment/list/7616728960247811096/v1?aid=1967&compliance_status=0&iid=80727408419191&device_id=80727408415095&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774001201850&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=1d782b0e-e598-452e-9843-00cc23ec3b55",
+  "url": "https://api5-normal-sinfonlinea.fqnovel.com/novel/commentapi/comment/list/7616728960247811096/v1?aid=1967&compliance_status=0&iid=80727408419191&device_id=80727408415095&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774001201850&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=1d782b0e-e598-452e-9843-00cc23ec3b55",
+  "request": {
+    "headers": {
+      "x-ss-stub": "CBD9A10E3DE443BA7CE5E42407C9BDD7",
+      "accept-encoding": "gzip",
+      "accept": "application/json; charset=utf-8,application/x-protobuf",
+      "content-encoding": "gzip",
+      "x-xs-from-web": "0",
+      "x-ss-req-ticket": "1774001201851",
+      "x-reading-request": "1774001201851-1270281049",
+      "x-vc-bdturing-sdk-version": "4.0.3.cn",
+      "comment-source": "1",
+      "server-channel": "4",
+      "lc": "101",
+      "sdk-version": "2",
+      "passport-sdk-version": "5051451",
+      "x-tt-store-region": "cn-sc",
+      "x-tt-store-region-src": "did",
+      "user-agent": "com.dragon.read/71132 (Linux; U; Android 9; zh_CN; ASUS_I005DA; Build/PI;tt-ok/3.12.13.20)",
+      "x-ladon": "bBLNIA==",
+      "x-khronos": "1774001201",
+      "x-argus": "MRy9aQ==",
+      "x-gorgon": "8404c01f4001793f1438c49f9bb87fa2539d440ba0790fcc41e1",
+      "x-helios": "KJIFWdfUibYnFW5VGfHqKNcR25dRwV+4LPiffQTg2m0a8BXH",
+      "x-medusa": "NBy9aRxX8qN4abAqDqkTRRNxcT8WdgABptlZubtVgeoOGDcB4a710bD9d1Vq7De4dbPLdo+lNbG730i+VIs4NLTvnaTWAf2QthqfZrmhIaOlUv4NGBzDwFOUEcpdSqrCrRXAXGEUWoVjgYI13ycjI0AByZEEht5ig7Y/FxGTQ4eYRwMKboxRHK/TCaERRQAdnWXkT+9u8RZy5BPl3yd52zuEv1RT39tP3Kd2BcptFWUFMTI1++6E4W7DPelgEF98J5aQdVFm3VmVZ4YsDAJoKKPG5PVMgn2ZPAZFarnsi9kynILeLxe++dzRGi4THUA43OpFmrobEZKCN+D2Nh6NaJna2LsHabik+0iJV4sfMAdUsb2VphQY+w7LcQ6TD5sXijdPEw47oPVBKMK2gn4+KB5Nbye0ANdR38iNgPBJOHP1Zhl5rTG5RMA2hyxrKhZFz4d8PnyjI1A8xxYZe1ztdlEHlV9JyFhhQdioTShzaNRL3CBSmWPzeHk5CjFqW0suXAt94e21m3K2ycZDo2Z1a9nSWW5HzVDLTsMyTvDVSKccLkZeb4TWjRbRhXoMS/LtrbRnRyAerwSk091LSgeg+iNLOsPMWjaqfo9dKnESSlrpBoYCwSxYoIHskQkJQqFYtHd0aPxQ1cjsjgOExj2iGV7swlRs4P8vSn6OqEAB7R+hCTb4t10rBicsYRFMjdP5H7wj3P26q72Xv7E/Xa9iPviETigDJFqku61lU/2qWrxUw3IUNcO2tH7yz+kN/15fSkXbXFp6Ochz3+YZE/+arAx2baZbwetrK49QCn/RZ4ZjvGG3ieL3SI4RLXgsAChy4tMvGQoELje8INhUWl/nq7k2AIpPrYBpaMo7QZRqa0xCK423dPFa6NGGoblKpgHwwKlXq55xTT1pA+UEe4rDwmcSk8RZRvnIHeu5biy6bmoHfFAnGzI3i0cixadqDa26fHQWzb5JNKt91DhA+BeNrPAhRONHh/6vc7CFZesqdB7y2yXP0cxCxRTRHTM9TW0Y3MPYCKJyBiVfksdgn6FdD/lcsH9J+OE0pd3HzEo3BlV1bj+uy8tj+G5dK7CgiX6uSNJ5DWRAZYX3XdGRuY+yZbJOmUiowExi48T5xIxWN6BYbNc7z1o+94b3OkJtx+Q8gz7tRYr/TpqfQO5O11R8HWhzX4Ft8rcjyx9UNVHawmr9fjN0D+Jp1iSxG/lgpygquGqG/KwoYwj7Gle1dI2bcvhbXxE06gsZYn9//7+L//+/ir8IfA==",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "219",
+      "cookie": "odin_tt=eeed7adb3ddf35e05a6e9e3b3eb302ec0a3f4eaae8d4d3c25b03ef22a97341612dd2514f6687edd72a5ff857970c239d9a900c42b15cdc8592d7b11276a5397d1513c5b728e6f76dcaab4e8caf92c56d; install_id=80727408419191; ttreq=1$1c781748f41f9e29d201a8f2eb6bb8cd1e307a52"
+    },
+    "body": {
+      "text": "{\"business_param\":{\"book_id\":\"7616728960247811096\",\"comment_sort_debug\":false,\"end_offset_time\":0,\"item_count\":0,\"max_item_count\":0,\"need_count\":false,\"para_index\":0,\"read_item_count\":0,\"req_type\":0,\"start_offset_time\":0,\"playlet_item_duration\":0},\"comment_source\":1,\"comment_type\":2,\"count\":3,\"group_id\":\"7616728960247811096\",\"group_type\":1,\"server_channel\":4,\"sort\":1}"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "reason": "",
+    "headers": {
+      "server": "volc-dcdn",
+      "content-type": "application/json",
+      "date": "Fri, 20 Mar 2026 10:06:41 GMT",
+      "vary": "Accept-Encoding",
+      "x-tt-agw-login": "0",
+      "x-tt-logid": "20260320180641D7502838C99BA6C56A2B",
+      "server-timing": "inner; dur=125, cdn-cache;desc=MISS, origin;dur=168, edge;dur=0, tt_agw; dur=104",
+      "tt-idc-switch": "10000@20260204111459",
+      "x-tt-trace-host": "01d0aee9864ce4702cc4da470005f71f8d5cfa1118c06d8a09a9f3149d56b36a7e729a16d73541fd1a870e943db323c6164904391bd869921eee61bd9c46fb3daed67f2ccb04d2c55e7575573881fe82870dee7838c34c990ea48aa713a598bddfe317cb77611f25426845e78d3c6c4c6d77fa557b6cde4fc1f2e0a8329ad691cb148e2dd0ed9143bd2daccab79533b35c",
+      "x-tt-trace-tag": "id=5",
+      "x-tt-trace-id": "00-0ab6241a03010df45d615f13bb0a07af-0ab6241a03010df4-01",
+      "content-encoding": "gzip",
+      "via": "n223-086-122-183.sccdcm07-container.Creative",
+      "x-request-ip": "112.54.89.107",
+      "x-dsa-trace-id": "1774001201e084f9d0346d08e9052b260bbd6782d0",
+      "x-dsa-origin-status": "200"
+    },
+    "body": {
+      "text": "{\"BaseResp\":{\"StatusCode\":0,\"StatusMessage\":\"success\"},\"code\":0,\"data\":{\"common_list_info\":{\"cursor\":\"\",\"has_more\":false,\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260320180641D7502838C99BA6C56A2B\\\"}\"},\"total\":1},\"data_list\":[{\"comment\":{\"comment_id\":\"7616744087086711614\",\"common\":{\"comment_type\":0,\"content\":{\"image_data_list\":{},\"text\":\"先给自己点个赞，千难万险都得看\"},\"content_type\":0,\"create_timestamp\":1773413880,\"group_id\":\"7616728960247811096\",\"service_id\":2,\"status\":1,\"user_info\":{\"base_info\":{\"description\":\"文能提笔安天下，武能上马定乾坤！\",\"encode_user_id\":\"#c1967_MTk2NzE5NjcxOTY3MTk2N2Idwg1t6Y/VYhZEwvSadLs=\",\"gender\":2,\"is_cancelled\":false,\"profile_gender\":1,\"user_avatar\":\"http://p3-reading-sign.fqnovelpic.com/tos-cn-i-1yzifmftcy/4fe2ab10805c493e9df85ca0b975b0db~tplv-s85hriknmn-jpeg-v1:144:0.jpeg?lk3s=9b9bd2b1\\u0026x-expires=1776536755\\u0026x-signature=A08tjyePQTbjpcYrlhTNoXgBcp4%3D\",\"user_id\":\"3078063516\",\"user_name\":\"Ashbell\"},\"expand_extra\":{},\"user_id\":\"3078063516\",\"user_relation\":{\"can_follow\":true,\"relation_type\":1},\"user_tag\":{\"fan_rank_num\":0,\"fan_ranklist_title\":\"\",\"is_author\":true,\"is_blue_vip\":false,\"is_cp\":false,\"is_official_cert\":false,\"is_vip\":false,\"user_title_info\":[{\"en_title\":\"author_level_1\",\"intro\":\"{\\\"title_name\\\":\\\"作家Lv.1\\\",\\\"title_id\\\":\\\"author_level_1\\\"}\",\"is_author_title\":true,\"is_vip_title\":false,\"label\":\"{\\\"title_text\\\":\\\"作家Lv.1\\\",\\\"title_default_color\\\":\\\"#FFFFFF\\\",\\\"title_dark_color\\\":\\\"#FFFFFF\\\",\\\"bg_default_color\\\":\\\"{\\\\\\\"start\\\\\\\":\\\\\\\"#FF9F31\\\\\\\",\\\\\\\"end\\\\\\\":\\\\\\\"#FFB95C\\\\\\\"}\\\",\\\"bg_dark_color\\\":\\\"{\\\\\\\"start\\\\\\\":\\\\\\\"#CC8029\\\\\\\",\\\\\\\"end\\\\\\\":\\\\\\\"#CC9349\\\\\\\"}\\\",\\\"title_dark_diaphaneity\\\":\\\"CC\\\"}\",\"zh_title\":\"作家Lv.1\"}]}}},\"expand\":{\"book_id\":\"7616728960247811096\",\"book_info\":{\"abstract\":\"三个月前，青江市开始出现一种名为“诡职邀请函”的黑色工牌。\\n拿到工牌的人，会在某个深夜被强制拉进一个对应职业的诡异场景。\\n活下来，就能获得那个职业的一部分能力。\\n死了，就会变成这个职业链条上的“耗材”。\\n有人觉醒了鬼教师，有人觉醒了守夜人，有人觉醒了入梦师。\\n而主角拿到的，不是一个职业，而是一整本被血浸透的《阴职名录》。\\n名录第一页只写着一句话：\\n“活人做阴职，死人领阳寿。”\",\"audio_thumb_uri\":\"https://p6-novel.byteimg.com/img/novel-pic/p2o3d1187d83dd40b1fa7cb080ddec219c0~tplv-tt-cs0:440:440.image\",\"author\":\"Ashbell\",\"author_id\":\"\",\"book_id\":\"7616728960247811096\",\"book_name\":\"诡职天师\",\"book_short_name\":\"\",\"book_type\":\"0\",\"color_dominate\":\"#081818\",\"creation_status\":\"1\",\"genre\":\"0\",\"genre_type\":\"0\",\"read_count_text\":\"潜力好书\",\"reader_schema\":{\"authorize_type\":\"1\",\"category_schema\":\"[{\\\"category_id\\\":751,\\\"name\\\":\\\"悬疑灵异\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=751\\u0026name=悬疑灵异\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":10,\\\"name\\\":\\\"悬疑\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=10\\u0026name=悬疑\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":100,\\\"name\\\":\\\"灵异\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=100\\u0026name=灵异\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":871,\\\"name\\\":\\\"第一人称\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=871\\u0026name=第一人称\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":867,\\\"name\\\":\\\"捉鬼\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=867\\u0026name=捉鬼\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":537,\\\"name\\\":\\\"惊悚游戏\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=537\\u0026name=惊悚游戏\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":851,\\\"name\\\":\\\"规则怪谈\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=851\\u0026name=规则怪谈\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":1455,\\\"name\\\":\\\"风水秘术\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=1455\\u0026name=风水秘术\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"}]\",\"first_chapter_item_id\":\"7616729178762658328\",\"read_count\":\"2\",\"title_page_tags\":\"\",\"word_number\":\"119354\"},\"relate_post_id\":\"\",\"relate_post_schema\":\"\",\"score\":\"0\",\"serial_count\":\"33\",\"tags\":\"悬疑灵异,悬疑,灵异,第一人称,捉鬼,惊悚游戏,规则怪谈,风水秘术\",\"thumb_url\":\"https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o3d1187d83dd40b1fa7cb080ddec219c0~tplv-noop.image?lk3s=9b9bd2b1\\u0026x-expires=1779185201\\u0026x-signature=zOhSFhceOxesSFxQIxDj6CSVPso%3D\",\"tomato_book_status\":\"1\"},\"book_info_list\":[],\"common_stat\":{},\"creator_id\":\"3078063516\",\"extra\":{\"comment_jump_schema\":\"\",\"novelapp_read_item_cnt\":\"4\"},\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260320180641D7502838C99BA6C56A2B\\\"}\"},\"relate_info_list\":[],\"reply_show_count\":0,\"reply_show_row\":0,\"score\":\"10\",\"score_suffix_text\":\"\"},\"stat\":{\"digg_count\":2,\"forwarded_count\":0,\"listen_duration\":2862,\"read_book_count\":0,\"reply_count\":0,\"show_pv\":4},\"user_action\":{\"author\":1,\"author_digg_time\":1773417680,\"is_author_stick\":false,\"stick_position\":0,\"user_digg\":false,\"user_disagree\":false}},\"data_type\":4}],\"extra\":{\"book_info\":{\"abstract\":\"\",\"audio_thumb_uri\":\"\",\"author\":\"\",\"author_id\":\"\",\"book_id\":\"7616728960247811096\",\"book_name\":\"\",\"book_type\":\"\",\"color_dominate\":\"\",\"creation_status\":\"\",\"genre\":\"\",\"genre_type\":\"\",\"score\":\"\",\"serial_count\":\"\",\"tags\":\"\",\"thumb_url\":\"\",\"tomato_book_status\":\"\"},\"filter_tag\":[],\"hot_word_search\":[],\"score_cnt\":1,\"score_text\":\"1人点评\"}},\"debug_info\":\"\",\"log_id\":\"20260320180641D7502838C99BA6C56A2B\",\"message\":\"请求成功\"}"
+    }
+  },
+  "times": {
+    "start": 1774001200.1319678,
+    "end": 1774001200.3232687
+  }
+}

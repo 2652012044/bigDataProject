@@ -1,0 +1,69 @@
+{
+  "scheme": "https",
+  "host": "api5-normal-sinfonlinea.fqnovel.com",
+  "port": 443,
+  "method": "POST",
+  "path": "/novel/commentapi/comment/list/7231483820438981664/v1?aid=1967&compliance_status=0&iid=4021377082615307&device_id=4021377082611211&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774249096953&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=0cf308a0-82ee-4ae2-9a98-ac9cc86a7c9b",
+  "url": "https://api5-normal-sinfonlinea.fqnovel.com/novel/commentapi/comment/list/7231483820438981664/v1?aid=1967&compliance_status=0&iid=4021377082615307&device_id=4021377082611211&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774249096953&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=0cf308a0-82ee-4ae2-9a98-ac9cc86a7c9b",
+  "request": {
+    "headers": {
+      "x-ss-stub": "DFE3771461A81FA67332BF8618D04BCD",
+      "accept-encoding": "gzip",
+      "accept": "application/json; charset=utf-8,application/x-protobuf",
+      "content-encoding": "gzip",
+      "x-xs-from-web": "0",
+      "x-ss-req-ticket": "1774249096954",
+      "x-reading-request": "1774249096954-1778176834",
+      "x-vc-bdturing-sdk-version": "4.0.3.cn",
+      "comment-source": "1",
+      "server-channel": "4",
+      "lc": "101",
+      "sdk-version": "2",
+      "passport-sdk-version": "5051451",
+      "x-tt-store-region": "cn-sc",
+      "x-tt-store-region-src": "did",
+      "user-agent": "com.dragon.read/71132 (Linux; U; Android 9; zh_CN; ASUS_I005DA; Build/PI;tt-ok/3.12.13.20)",
+      "x-ladon": "O8ycPw==",
+      "x-khronos": "1774249096",
+      "x-argus": "iOTAaQ==",
+      "x-gorgon": "8404208b4001fe9c59df8f42cb363987f3929c203e8143d02dcd",
+      "x-helios": "+9LyFvc9PsPH/bALPaB8+nSsdmJUnJ/o0p6fN7OnsTr0RVst",
+      "x-medusa": "jeTAaaWvj6PBkc0qt1FuRaqJDD83QwABoZkTJ6ZrAa0OWOadIhQCNSn9DO7kZmJJ8mXhTQawSXmNN8WjDN6RnjZjlJAGQgjAQ25rKn6LfPHkGED6+keTFGgS6nT8eVT3j/k3/GQO7mBMGNFOKc8QtVkTHbcspn/nnGoq21RfHUzJnaRhjEFUblGNcfYl9TDU7WCZxDjpg4YfvoOTAiEVbn37kf9F2OvK3EzS4m7OJf79l0D1JIfdRxaLcI3N0rIVZBiUZWWiQbYb3qIzqrkchnC1n23QKEo2EmCgZLSUrVeyiDOG5FZ3eaDDMrXfstl2ZDPZyjlFRpC1ffuy+O8//C96UvtmjkUgTXBHgVDRI9ZLThiJwEPomrmjDQU7JCRVNhDPSKKB1KI26dauPmKoZGzKlxaVoOFLTxGVPHvqOwIp9hIG0x/UvGPgn3bnB4qPt5qX3s3ItcbgNwsCZS7TqEJtz96ujfewIbscm5LP3hjM7YlhdraVRh1PE24jh4nZhc6PL9hBmNRswufjJdbKo26dDkWc+jW/QdY/Dzl4RBdQRWo/wJAmuX6dul0OXjpWoRI1ygUhLG/NxVJ2aO+ND69Nr4GfmFzTuQKt4+Ao2fK8nCN6wHqZmASLanHN4gVbTg12ElxXbeBwBSitonwDUPbx8XNutxb7b5RbfoPYkh2k6D8OYILF5TwImGoEh5kct5fjGSGU0B7s/R5cEu5ffhzYk3OtulFqDvfwFoOaWakxkzp6F0SIRkbj3WyF7Lqdl6WFYUcVItXhyVvIoNf5/zqaj+gdsxEpIz2bB7g13CfobZpc1e41QqjsrEZn9Rj5SsBc2mNOZFFU1jr839lzRkeAuZaqyc33iDskh99Xf4jVk+LdM6AsY56x6755Q8cO4vcknq2xgYIGn5yDqr1N6ry0YjfaVJgh9eTZMvIemNXg3fWCEo9+wx9t/RdP5hp2ZIlMK/+b3qc/YkELVd5GgJYuNk7/jlr1DGFbDkKrYMK7pbYfjNbdojPJVhrF/pXTEJhMSjmknr5iJ+XZG7eD8To+EJ7P2GxRRI8ZJ4LV6MEUjlUfOlprpTH44ObFZgGSg2MaXMmUf4WwQ8q0beFzsWFmLnd0Ct795B38BzWj2DrIsRgDaEf2L8joYn9zCPP7cAXlaH9tWMcYEF4p+otiILSIVEuBaG1y3HI/Ux5nd/Km2dq/m9E6Q/7VCLj8bTUaLrCPY30EwR7pF4Wa86LBTrGgzRb4TsLQtx+wKvt1bUid7s1rA+Rocv63ScUOK//4hyv/+cfvPA==",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "219",
+      "cookie": "store-region=cn-sc; store-region-src=did; install_id=4021377082615307; ttreq=1$8d264b699f2c6211360a77230559b55ee4cd6018; odin_tt=d516628481b59710d58a65ce65fcc95cf9c56bde7ab5cb89de9676ab8e496874c1b0320198da8d09414b21522b8a4941f13926ff8ae1bce0d395b25db3d3d38cc14556b5c90d41c0c6d09f00387e7e8a; passport_csrf_token=0ce3518b3ff5a4a8011639a176fe24a7; passport_csrf_token_default=0ce3518b3ff5a4a8011639a176fe24a7"
+    },
+    "body": {
+      "text": "{\"business_param\":{\"book_id\":\"7231483820438981664\",\"comment_sort_debug\":false,\"end_offset_time\":0,\"item_count\":0,\"max_item_count\":0,\"need_count\":false,\"para_index\":0,\"read_item_count\":0,\"req_type\":0,\"start_offset_time\":0,\"playlet_item_duration\":0},\"comment_source\":1,\"comment_type\":2,\"count\":3,\"group_id\":\"7231483820438981664\",\"group_type\":1,\"server_channel\":4,\"sort\":1}"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "reason": "",
+    "headers": {
+      "server": "volc-dcdn",
+      "content-type": "application/json",
+      "date": "Mon, 23 Mar 2026 06:58:17 GMT",
+      "vary": "Accept-Encoding",
+      "x-tt-agw-login": "0",
+      "x-tt-logid": "20260323145816AE8A7B05AAB02AE98B57",
+      "server-timing": "inner; dur=145, cdn-cache;desc=MISS, origin;dur=191, edge;dur=0, tt_agw; dur=131",
+      "tt-idc-switch": "10000@20260204111459",
+      "x-tt-trace-host": "01900eef05d981bbf413c02a4eb7a77cb79c59f615dc75e316ddd384fd99b2a3498a3d21df03c598d6546c2d8e0ddbf311be208fa0637a1ea03266f2ac769cf195eedfa131b0ee6d98cdaf28437007523eb681bf0d05e9afe0de0bc2147f10081da1fe0691e653cded680a68fae2a0c4dcc826c933bf68badc7622c343b7a77712a0a3252870bdf17a97a8b6941b85b41c",
+      "x-tt-trace-tag": "id=5",
+      "x-tt-trace-id": "00-197cb89803010ed04c24741797fb07af-197cb89803010ed0-01",
+      "content-encoding": "gzip",
+      "via": "p8-168-031.jslianyungang-cm145-bm.Creative",
+      "x-request-ip": "112.54.89.154",
+      "x-dsa-trace-id": "177424909685b70f9fc260fe978e2430b7b8337b23",
+      "x-dsa-origin-status": "200"
+    },
+    "body": {
+      "text": "{\"BaseResp\":{\"StatusCode\":0,\"StatusMessage\":\"success\"},\"code\":0,\"data\":{\"common_list_info\":{\"cursor\":\"\",\"has_more\":false,\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260323145816AE8A7B05AAB02AE98B57\\\"}\"},\"total\":1},\"data_list\":[{\"comment\":{\"comment_id\":\"7353421636945003279\",\"common\":{\"comment_type\":0,\"content\":{\"image_data_list\":{},\"text\":\"这本书的内容好全面呀！它对中国动漫游戏产业的各个领域都进行了深入分析，结构清晰，让我对这个行业有了更深入的了解。而且写作风格很务实，文笔简洁明了，我特别喜欢里面的案例分析，很有启发性。推荐给对动漫游戏感兴趣的朋友们！\"},\"content_type\":0,\"create_timestamp\":1708575244,\"group_id\":\"7231483820438981664\",\"service_id\":2,\"status\":1,\"user_info\":{\"base_info\":{\"description\":\"\",\"encode_user_id\":\"#c1967_MTk2NzE5NjcxOTY3MTk2N35UZqbgR4Ff8/Qnv820QcOSsrqPKkCyLPXZgUmvIQrv\",\"gender\":0,\"is_cancelled\":false,\"profile_gender\":0,\"user_avatar\":\"https://p3-novel.byteimg.com/img/novel-static/3abe6a50e39b4bf1ba7c29f33074e1a8~tplv-1yzifmftcy-expand:200:0:0.png\",\"user_id\":\"3635458034635305\",\"user_name\":\"爱吃辣白菜饼的姜载桐\"},\"expand_extra\":{},\"user_id\":\"3635458034635305\",\"user_relation\":{\"can_follow\":true,\"relation_type\":1},\"user_tag\":{\"fan_rank_num\":0,\"fan_ranklist_title\":\"\",\"is_author\":false,\"is_blue_vip\":false,\"is_cp\":false,\"is_official_cert\":false,\"is_vip\":false,\"user_title_info\":[]}}},\"expand\":{\"book_id\":\"7231483820438981664\",\"book_info\":{\"abstract\":\"本书在结构上分为：主报告、分报告、专题报告、区域报告、案例分析和附录6个部分。分别对动漫图书、电视动画、动画电影、动漫游戏类玩具、移动游戏行业、电竞行业等领域进行了全面梳理和深入分析，对行业的发展趋势进行了预测。\",\"audio_thumb_uri\":\"https://p3-novel.byteimg.com/img/novel-pic/8a04b67db8af232df7244ef7886a3bec~tplv-tt-cs0:440:440.image\",\"author\":\"魏玉山\",\"author_id\":\"\",\"book_id\":\"7231483820438981664\",\"book_name\":\"2016年中国动漫游戏产业年度报告\",\"book_short_name\":\"\",\"book_type\":\"0\",\"color_dominate\":\"#004090\",\"creation_status\":\"0\",\"genre\":\"6\",\"genre_type\":\"160\",\"read_count_text\":\"27人读过\",\"reader_schema\":{\"authorize_type\":\"0\",\"category_schema\":\"[{\\\"category_id\\\":405,\\\"name\\\":\\\"人文社科\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=405\\u0026name=人文社科\\u0026genre_type=160\\u0026gender=2\\u0026source=detail\\\"},{\\\"category_id\\\":50,\\\"name\\\":\\\"社会科学\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=50\\u0026name=社会科学\\u0026genre_type=160\\u0026gender=2\\u0026source=detail\\\"}]\",\"first_chapter_item_id\":\"7491967518261660734\",\"read_count\":\"0\",\"title_page_tags\":\"\",\"word_number\":\"189369\"},\"relate_post_id\":\"\",\"relate_post_schema\":\"\",\"score\":\"8.0\",\"serial_count\":\"37\",\"tags\":\"人文社科,社会科学\",\"thumb_url\":\"https://p3-reading-sign.fqnovelpic.com/novel-pic/8a04b67db8af232df7244ef7886a3bec~tplv-noop.image?lk3s=9b9bd2b1\\u0026x-expires=1779433097\\u0026x-signature=Xti6X8a1qQsxugW6jQgBTVJ%2BqsQ%3D\",\"tomato_book_status\":\"1\"},\"book_info_list\":[],\"common_stat\":{},\"creator_id\":\"0\",\"extra\":{\"comment_jump_schema\":\"\",\"novelapp_read_item_cnt\":\"\"},\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260323145816AE8A7B05AAB02AE98B57\\\"}\"},\"relate_info_list\":[],\"reply_show_count\":0,\"reply_show_row\":0,\"score\":\"8\",\"score_suffix_text\":\"阅读5小时后点评\"},\"stat\":{\"digg_count\":3,\"forwarded_count\":0,\"read_book_count\":0,\"read_duration\":19080,\"reply_count\":0,\"show_pv\":2},\"user_action\":{\"author\":0,\"is_author_stick\":false,\"stick_position\":0,\"user_digg\":false,\"user_disagree\":false}},\"data_type\":4}],\"extra\":{\"book_info\":{\"abstract\":\"\",\"audio_thumb_uri\":\"\",\"author\":\"\",\"author_id\":\"\",\"book_id\":\"7231483820438981664\",\"book_name\":\"\",\"book_type\":\"\",\"color_dominate\":\"\",\"creation_status\":\"\",\"genre\":\"\",\"genre_type\":\"\",\"score\":\"\",\"serial_count\":\"\",\"tags\":\"\",\"thumb_url\":\"\",\"tomato_book_status\":\"\"},\"filter_tag\":[],\"hot_word_search\":[],\"score_cnt\":1,\"score_text\":\"1人点评\"}},\"debug_info\":\"\",\"log_id\":\"20260323145816AE8A7B05AAB02AE98B57\",\"message\":\"请求成功\"}"
+    }
+  },
+  "times": {
+    "start": 1774249089.670732,
+    "end": 1774249089.9038646
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "scheme": "https",
+  "host": "api5-normal-sinfonlinea.fqnovel.com",
+  "port": 443,
+  "method": "POST",
+  "path": "/novel/commentapi/comment/list/6992173076771245070/v1?aid=1967&compliance_status=0&iid=80727408419191&device_id=80727408415095&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774262897862&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=1d782b0e-e598-452e-9843-00cc23ec3b55",
+  "url": "https://api5-normal-sinfonlinea.fqnovel.com/novel/commentapi/comment/list/6992173076771245070/v1?aid=1967&compliance_status=0&iid=80727408419191&device_id=80727408415095&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774262897862&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=1d782b0e-e598-452e-9843-00cc23ec3b55",
+  "request": {
+    "headers": {
+      "x-ss-stub": "9E220F9599FE4D54ED6926CAE4825B56",
+      "accept-encoding": "gzip",
+      "accept": "application/json; charset=utf-8,application/x-protobuf",
+      "content-encoding": "gzip",
+      "x-xs-from-web": "0",
+      "x-ss-req-ticket": "1774262897871",
+      "x-reading-request": "1774262897871-383840579",
+      "x-vc-bdturing-sdk-version": "4.0.3.cn",
+      "comment-source": "1",
+      "server-channel": "4",
+      "lc": "101",
+      "sdk-version": "2",
+      "passport-sdk-version": "5051451",
+      "x-tt-store-region": "cn-sc",
+      "x-tt-store-region-src": "did",
+      "user-agent": "com.dragon.read/71132 (Linux; U; Android 9; zh_CN; ASUS_I005DA; Build/PI;tt-ok/3.12.13.20)",
+      "x-ladon": "VFuEXw==",
+      "x-khronos": "1774262897",
+      "x-argus": "cRrBaQ==",
+      "x-gorgon": "840460bb4001fa39cd9b7a2bfeeca35b842711fa4ae3d679d985",
+      "x-helios": "5SKfQiBD2tzQiRBpYACEAWkXo3ZJlYp/y3Hj4CjSrP7dUX8g",
+      "x-medusa": "dBrBaVxRjqM4b8wqTq9vRVN3DT/nIgABy9kTuexVAf0GWHqPBgPsQYxN8HLs8oj+PX0EMZo+mIyb0cbaglp0pMinSCTI10m4Kbo6n5Cfvdysc/OQvhIK8TS+jbAtRQghlPPMuBRtj+W+kynerJMppMQV9dVK6W833EaAtyhJng7wulEOlRk434zVKuOLPw+mp1QbvUFWJLk9R5yn8Vfl51KUKdwM/uPr99e8RF0VIr2wwhYbqE57II5JqBkN65+Zzmq7XgtioM8+AIHX0Ueu20E22eKlbkXO76Q77FMks4BvugdamDjjjZP/mwikw8aQmKriDjqQCW06nhH1rQaRQQhqRDnkhpLs0Kds8eziL413EZhad2PD8QzkHQ/NP5zdg4AxGzyNNsoSW+40lcX9BzRpjFa7q6msEm1PV3m9JhNEOwbLGGO8e5bCwqOcmkw0fNyIRV/L04TPiZs8hymYQCICng1dppzq2ob0I/OMuQ1irUEg1YCpTqMrtDNLoeIfM6SEpgfI5sk0M+Zo9IC82YBp7Qx6flnI+icVvVvS1Utx4UQohLAx7usVPTHZqcXCBs/w2oCmC8kB56xZUCuHKLkDynPmZJobUC5VF7k+3ecp+ey/4DA3ehNoU86qeybts4Nyg++gChMatJWX+LwFQxz/Llh2Y3GX1BnIUoDCHkLaVYVMz9plXHnH+3WUbR+evkqzZJqqyjNqjqzOlrqa0cC0Pk+0s2G88nx3EySirOtWRl/yWuVVRKdqdAKgPIycEBeDaN0ulUCxdGfzSqnq2mAVW7qXpW/+NOYiFNuyJFqWstpkHWgGj3xtFwLVVC8pE4f8dEKLarjr1iu2F971hzXJAi/CQRl6mTDKY9c5+vhMDxT2Zj0Os0tVdalFrXu+k9b7QhYVPB4lWwX0j4M3p/lHElUhV+azdVe9OqKEAxbuGO1PWmo2GIjdBI2gyYj1LbIJMsWwnLrr+VFZ7sRZSkS+eFm7rN1OUSARpPUEXQJU/aPyovlBtVzfqfrQepv2Itumrtb74sGpsNzaTA48bzS02piknBBkTmIxl9PxWB0RTtN9MZTYF7KRXFkTJfYjeDeryaFYIhFd9tj3D/b9AuW0w2EDxWVQGJP8t2UooOr4CiXfhgw4GB/xpTVBFJPMzCvvDReTDO7qOG3Htrrl9Gs571uxbkMMKwZX+EwQNT6c5M0GI6knHfHWg/1tVB3QZlfthaE4PnaiY4uu7oMulzfzjXCcSAVP5nCOib9z4OaGEzrk7cajk0vBiCAZT6fv/UD//AeR//wG0X8S",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "220",
+      "cookie": "odin_tt=eeed7adb3ddf35e05a6e9e3b3eb302ec0a3f4eaae8d4d3c25b03ef22a97341612dd2514f6687edd72a5ff857970c239d9a900c42b15cdc8592d7b11276a5397d1513c5b728e6f76dcaab4e8caf92c56d; install_id=80727408419191; ttreq=1$1c781748f41f9e29d201a8f2eb6bb8cd1e307a52; store-region=cn-sc; store-region-src=did; passport_csrf_token=32478fc498ec62f5ad8e5dde199c08cd; passport_csrf_token_default=32478fc498ec62f5ad8e5dde199c08cd"
+    },
+    "body": {
+      "text": "{\"business_param\":{\"book_id\":\"6992173076771245070\",\"comment_sort_debug\":false,\"end_offset_time\":0,\"item_count\":0,\"max_item_count\":0,\"need_count\":false,\"para_index\":0,\"read_item_count\":0,\"req_type\":0,\"start_offset_time\":0,\"playlet_item_duration\":0},\"comment_source\":1,\"comment_type\":2,\"count\":3,\"group_id\":\"6992173076771245070\",\"group_type\":1,\"server_channel\":4,\"sort\":1}"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "reason": "",
+    "headers": {
+      "server": "volc-dcdn",
+      "content-type": "application/json",
+      "date": "Mon, 23 Mar 2026 10:48:17 GMT",
+      "vary": "Accept-Encoding",
+      "x-tt-agw-login": "0",
+      "x-tt-logid": "2026032318481771A1A2697F3162499164",
+      "server-timing": "inner; dur=113, cdn-cache;desc=MISS, origin;dur=155, edge;dur=0, tt_agw; dur=101",
+      "tt-idc-switch": "10000@20260204111459",
+      "x-tt-trace-host": "018db716a8f33dc54a99f2589b4db24447902ee50ce0e3a6c849e6ec7508154832f2d0753c51d59636b8599b9d309b0550646cb6895bc67ba6812e03c8c00293b8d9fc8d13c193981f3cc0f115c21d4d1be59f2917e4a1b0b862bc39d03154824d989db9a681c2c00549dd6d8fb4a3d33d85231cab92ebd702f912cb515dd3c98b2943b89cfbbefd9016968b14f34cc844",
+      "x-tt-trace-tag": "id=5",
+      "x-tt-trace-id": "00-1a4f4d7c03010f3f0923f8d1e34307af-1a4f4d7c03010f3f-01",
+      "content-encoding": "gzip",
+      "via": "n223-085-105-084.scchengdu-cm1208-container.Creative",
+      "x-request-ip": "112.54.89.90",
+      "x-dsa-trace-id": "1774262897f5600d3f225655b2c4bce641ee5398e3",
+      "x-dsa-origin-status": "200"
+    },
+    "body": {
+      "text": "{\"BaseResp\":{\"StatusCode\":0,\"StatusMessage\":\"success\"},\"code\":0,\"data\":{\"common_list_info\":{\"cursor\":\"\",\"has_more\":false,\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"2026032318481771A1A2697F3162499164\\\"}\"},\"total\":6},\"data_list\":[{\"comment\":{\"comment_id\":\"7418566133029077822\",\"common\":{\"comment_type\":0,\"content\":{\"image_data_list\":{},\"text\":\"好好好好好好好\"},\"content_type\":0,\"create_timestamp\":1727275856,\"group_id\":\"6992173076771245070\",\"service_id\":2,\"status\":1,\"user_info\":{\"base_info\":{\"description\":\"\",\"encode_user_id\":\"#c1967_MTk2NzE5NjcxOTY3MTk2NzO9FpQdyHKXjiTEyzyhslk=\",\"gender\":1,\"is_cancelled\":false,\"profile_gender\":2,\"user_avatar\":\"https://p3-novel.byteimg.com/img/novel-static/3abe6a50e39b4bf1ba7c29f33074e1a8~tplv-1yzifmftcy-expand:200:0:0.png\",\"user_id\":\"50008925932\",\"user_name\":\"段十一子\"},\"expand_extra\":{},\"user_id\":\"50008925932\",\"user_relation\":{\"can_follow\":true,\"relation_type\":1},\"user_tag\":{\"fan_rank_num\":0,\"fan_ranklist_title\":\"\",\"is_author\":false,\"is_blue_vip\":false,\"is_cp\":false,\"is_official_cert\":false,\"is_vip\":false,\"user_title_info\":[]}}},\"expand\":{\"book_id\":\"6992173076771245070\",\"book_info\":{\"abstract\":\"一觉醒来，刘梦变成了赵桓，大宋的皇太子，宋徽宗的儿子，未来的宋钦宗……上有醉心书画，不理政事的便宜老爹，下有权奸蔡京童贯，祸乱朝纲，外面还有辽金铁骑，虎视眈眈……既然这样，没什么好说的，我命由我不由天！未来，既然还没发生，一切都有可能！我赵桓，就是要改变，这大宋百年的羸弱之局！\",\"audio_thumb_uri\":\"https://p6-novel.byteimg.com/origin/novel-static/76d497c99ae7af86dce38e7558e6fc2e\",\"author\":\"小龙家水哥\",\"author_id\":\"\",\"book_id\":\"6992173076771245070\",\"book_name\":\"回到宋朝当皇帝\",\"book_short_name\":\"\",\"book_type\":\"0\",\"color_dominate\":\"#402818\",\"creation_status\":\"0\",\"genre\":\"0\",\"genre_type\":\"0\",\"read_count_text\":\"潜力好书\",\"reader_schema\":{\"authorize_type\":\"0\",\"category_schema\":\"[{\\\"category_id\\\":273,\\\"name\\\":\\\"历史古代\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=273\\u0026name=历史古代\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":37,\\\"name\\\":\\\"穿越\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=37\\u0026name=穿越\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":12,\\\"name\\\":\\\"历史\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=12\\u0026name=历史\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"}]\",\"first_chapter_item_id\":\"6992251324217691150\",\"read_count\":\"126\",\"title_page_tags\":\"\",\"word_number\":\"758418\"},\"relate_post_id\":\"\",\"relate_post_schema\":\"\",\"score\":\"0\",\"serial_count\":\"338\",\"tags\":\"历史古代,历史,穿越\",\"thumb_url\":\"https://p3-reading-sign.fqnovelpic.com/novel-images/c2e8b206eb85494b23b157f1378e9b7a~tplv-noop.image?lk3s=9b9bd2b1\\u0026x-expires=1779446897\\u0026x-signature=ZgIx7kYyeWh4sClmdsG%2F6LK%2B2oI%3D\",\"tomato_book_status\":\"1\"},\"book_info_list\":[],\"common_stat\":{},\"creator_id\":\"0\",\"extra\":{\"comment_jump_schema\":\"\",\"novelapp_read_item_cnt\":\"309\"},\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"2026032318481771A1A2697F3162499164\\\"}\"},\"relate_info_list\":[],\"reply_show_count\":0,\"reply_show_row\":0,\"score\":\"10\",\"score_suffix_text\":\"阅读21小时后点评\"},\"stat\":{\"digg_count\":0,\"forwarded_count\":0,\"listen_duration\":54100,\"read_book_count\":0,\"read_duration\":75276,\"reply_count\":0,\"show_pv\":75},\"user_action\":{\"author\":0,\"is_author_stick\":false,\"stick_position\":0,\"user_digg\":false,\"user_disagree\":false}},\"data_type\":4}],\"extra\":{\"book_info\":{\"abstract\":\"\",\"audio_thumb_uri\":\"\",\"author\":\"\",\"author_id\":\"\",\"book_id\":\"6992173076771245070\",\"book_name\":\"\",\"book_type\":\"\",\"color_dominate\":\"\",\"creation_status\":\"\",\"genre\":\"\",\"genre_type\":\"\",\"score\":\"\",\"serial_count\":\"\",\"tags\":\"\",\"thumb_url\":\"\",\"tomato_book_status\":\"\"},\"filter_tag\":[],\"hot_word_search\":[],\"score_cnt\":35,\"score_text\":\"35人点评\"}},\"debug_info\":\"\",\"log_id\":\"2026032318481771A1A2697F3162499164\",\"message\":\"请求成功\"}"
+    }
+  },
+  "times": {
+    "start": 1774262888.2959085,
+    "end": 1774262888.4612024
+  }
+}

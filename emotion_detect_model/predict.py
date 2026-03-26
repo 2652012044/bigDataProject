@@ -2,8 +2,16 @@ import sys
 import json
 import csv
 import argparse
+import warnings
 import torch
 from pathlib import Path
+
+warnings.filterwarnings(
+    'ignore',
+    message='.*nested tensor.*',
+    category=UserWarning,
+    module='torch',
+)
 
 from dataLoader import Vocabulary
 from model import TransformerClassifier
@@ -20,8 +28,52 @@ DIM_FFN      = 256
 LABELS = {0: '消极 😞 (Negative)', 1: '积极 😊 (Positive)'}
 
 
+def build_runtime_vocab():
+    vocab = Vocabulary()
+    vocab_sources = [
+        BASE_DIR / 'train' / 'part.0',
+        BASE_DIR / 'train' / 'part.0_expanded',
+        BASE_DIR / 'novel_comment_data' / 'train.txt',
+        BASE_DIR / 'novel_comment_data' / 'train_expend.txt',
+    ]
+    texts = []
+    for path in vocab_sources:
+        if not path.exists():
+            continue
+        with open(path, 'r', encoding='utf-8') as f:
+            for line in f:
+                parts = line.strip().split('\t')
+                if len(parts) == 2:
+                    texts.append(parts[0])
+    vocab.build(texts)
+    return vocab
+
+
 def load_model(device='cpu'):
-    vocab = Vocabulary.load(BASE_DIR / 'vocab.json')
+    checkpoint = torch.load(BASE_DIR / 'best_model.pth', map_location=device)
+
+    vocab_path = BASE_DIR / 'vocab.json'
+    if vocab_path.exists():
+        vocab = Vocabulary.load(vocab_path)
+    else:
+        vocab = build_runtime_vocab()
+        vocab.save(vocab_path)
+
+    checkpoint_vocab_size = checkpoint['embedding.weight'].size(0)
+    if len(vocab) != checkpoint_vocab_size:
+        print(
+            f'检测到词表与模型不匹配：checkpoint={checkpoint_vocab_size}, '
+            f'local_vocab={len(vocab)}，正在按当前训练数据重建词表...'
+        )
+        vocab = build_runtime_vocab()
+        vocab.save(vocab_path)
+        if len(vocab) != checkpoint_vocab_size:
+            raise RuntimeError(
+                '重建词表后仍与模型不匹配。'
+                f' checkpoint={checkpoint_vocab_size}, rebuilt_vocab={len(vocab)}。'
+                '请重新运行 train.py 后再预测。'
+            )
+
     model = TransformerClassifier(
         vocab_size      = len(vocab),
         d_model         = D_MODEL,
@@ -31,9 +83,7 @@ def load_model(device='cpu'):
         num_classes     = 2,
         max_len         = MAX_LEN,
     )
-    model.load_state_dict(
-        torch.load(BASE_DIR / 'best_model.pth', map_location=device)
-    )
+    model.load_state_dict(checkpoint)
     model.to(device)
     model.eval()
     return model, vocab

@@ -1,0 +1,69 @@
+{
+  "scheme": "https",
+  "host": "api5-normal-sinfonlinea.fqnovel.com",
+  "port": 443,
+  "method": "POST",
+  "path": "/novel/commentapi/comment/list/7400312485934287896/v1?aid=1967&compliance_status=0&iid=80727408419191&device_id=80727408415095&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774264058109&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=1d782b0e-e598-452e-9843-00cc23ec3b55",
+  "url": "https://api5-normal-sinfonlinea.fqnovel.com/novel/commentapi/comment/list/7400312485934287896/v1?aid=1967&compliance_status=0&iid=80727408419191&device_id=80727408415095&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774264058109&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=1d782b0e-e598-452e-9843-00cc23ec3b55",
+  "request": {
+    "headers": {
+      "x-ss-stub": "18EC7F32C1971CD14FB0E115CA201CDA",
+      "accept-encoding": "gzip",
+      "accept": "application/json; charset=utf-8,application/x-protobuf",
+      "content-encoding": "gzip",
+      "x-xs-from-web": "0",
+      "x-ss-req-ticket": "1774264058112",
+      "x-reading-request": "1774264058112-174681237",
+      "x-vc-bdturing-sdk-version": "4.0.3.cn",
+      "comment-source": "1",
+      "server-channel": "4",
+      "lc": "101",
+      "sdk-version": "2",
+      "passport-sdk-version": "5051451",
+      "x-tt-store-region": "cn-sc",
+      "x-tt-store-region-src": "did",
+      "user-agent": "com.dragon.read/71132 (Linux; U; Android 9; zh_CN; ASUS_I005DA; Build/PI;tt-ok/3.12.13.20)",
+      "x-ladon": "U1OaHw==",
+      "x-khronos": "1774264058",
+      "x-argus": "+h7BaQ==",
+      "x-gorgon": "8404808240013bdddf8516a2e33fea834a2b8a50d55f9eab9b2e",
+      "x-helios": "AilOTyAXCGOeLOimeS+XJgDcH2eZyuvPbxlin2BYjqg4GygY",
+      "x-medusa": "/x7BaddVjqOza8wqxatvRdhzDT+/hQABr9lANodZARMKGJhtYS1c375PsYk6Pea0KuDNTrg57ADUVtOCU2NWpiJh3EWJ+R2EZvScmO7ktq5cDIvcyMqEHh2yJsjbpTNyFJG9C5SnE6dP/liJUaihKTJa2aIRsJBvqGbs/BCbOhvel81YGdTMq3wh9eHU9BaDNLcHSLK5YL4obzQIOHW20UhwVOHRzPAcNQtADVVWxPP64GGsyukgJTwO0SbBGZJetc0iKSfzEvpj4lbM2e60v9RYt40zKofeUCbs4I/hBAJMwojPkSYk3VemCdmg1ECB8Df+9fuQCGbHcUVbpGvRFOqpcBc/sT6ALM5ykSsPUeHVezCtrthmPILhKWN40FdrlFUTlxLUdFqT5GjDrJEAPuYjx4ZWa+JCT+q01yDYGk05XSvfcUvACvRpVt+h0DnIC9ml1Zp6fcp0HK4UoRdZ4pPLhwN0/uU1iChhI75RbLhr0TY/VJidvQy/VFiAY8G+/GSXKNBTQWZ074sUDgEM4F5Jme1pzbThu6ttkCoVC0kw/TdX3NJPid80Wi+Q5lp8FRvnBJEASatXoWItJdODosRrAGeyBcsOHrRlha8jGRZrP/ol7IUQrO9sZX3BXHgSK6hbOId4/uZTBruBJls6s52s9wHVEHfFu6UQvGe8NEXuUn1kFMPYuJPSdqQRD6PXlF/BrYyVG8GR/T3m+g3psyHeQpTC0oJcl8Ti8ryw7kPHaRlTI5U9PV9pIWD6R6O/F7H/6Tl/PYmcpR4tWylXPAdXZSH9W0jye2PyEFEHV2WaIvaDcsPpQrPHD+Bk3CABACPpdOPK2TlM4c0/6ddy3MBohfmXpO66q2eRkvMgBJEC/o+YT+n+bf5YFFkehsvIEMp1Pf3kdNYkWuuuQzCSp1++iDDa3pYvOeuJPEFG0yuKwf5x/0j3htwmR5NvaWow9PgbjClnAKHYMAFR41uXAf4NxkNLnAmsMmdV4lbMqNkwKCUgNuH+wbkdfv7jfM5jc8wxX6ora83amP/ug38mHT787cGSpE8idQfQPuYdsbmE5c1xh3eGt4LPU/nB1T939LREcZw5HNT/+U0cljlhqFzcH3jNSNWUN+0wExAN55AcNKUXFDgRkVddoChplyL3wldagFzdKvx9toU8/LrqWBxSja3jfFj8lQJq21o/1V242lb6Y/+yqDFhBZMV/H7WgkjH+HLn9MQ7rE7UOH1Y8so2P72XMPhoJsOkyT5WLJMEhOJZ3PP//6/z//7vCgY=",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "220",
+      "cookie": "odin_tt=eeed7adb3ddf35e05a6e9e3b3eb302ec0a3f4eaae8d4d3c25b03ef22a97341612dd2514f6687edd72a5ff857970c239d9a900c42b15cdc8592d7b11276a5397d1513c5b728e6f76dcaab4e8caf92c56d; install_id=80727408419191; ttreq=1$1c781748f41f9e29d201a8f2eb6bb8cd1e307a52; store-region=cn-sc; store-region-src=did; passport_csrf_token=32478fc498ec62f5ad8e5dde199c08cd; passport_csrf_token_default=32478fc498ec62f5ad8e5dde199c08cd"
+    },
+    "body": {
+      "text": "{\"business_param\":{\"book_id\":\"7400312485934287896\",\"comment_sort_debug\":false,\"end_offset_time\":0,\"item_count\":0,\"max_item_count\":0,\"need_count\":false,\"para_index\":0,\"read_item_count\":0,\"req_type\":0,\"start_offset_time\":0,\"playlet_item_duration\":0},\"comment_source\":1,\"comment_type\":2,\"count\":3,\"group_id\":\"7400312485934287896\",\"group_type\":1,\"server_channel\":4,\"sort\":1}"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "reason": "",
+    "headers": {
+      "server": "volc-dcdn",
+      "content-type": "application/json",
+      "date": "Mon, 23 Mar 2026 11:07:37 GMT",
+      "vary": "Accept-Encoding",
+      "x-tt-agw-login": "0",
+      "x-tt-logid": "20260323190737BFDF738FE36864D24317",
+      "server-timing": "inner; dur=109, cdn-cache;desc=MISS, origin;dur=158, edge;dur=0, tt_agw; dur=96",
+      "tt-idc-switch": "10000@20260204111459",
+      "x-tt-trace-host": "018db716a8f33dc54a99f2589b4db24447d8e0a939bda3e0527f168d86afd3bc6be75c6624b3783f87ad386d3acfc22de615d8015f2328c0bfecde0ed62dc7da87d399c1dcf355a0dae03a30b4828d4e2926a935ce1cd040f7d7462dc08c4f47b67a161ca801dfa676058302621d46e3ea87674dece819a682c90c7b8a832e11b6f55a1e5549cb5e000a84e3c50aaba1fd",
+      "x-tt-trace-tag": "id=5",
+      "x-tt-trace-id": "00-1a61017e0301052a638af148459f07af-1a61017e0301052a-01",
+      "content-encoding": "gzip",
+      "via": "n223-086-122-157.sccdcm07-container.Creative",
+      "x-request-ip": "112.54.89.90",
+      "x-dsa-trace-id": "17742640579ffc9a31122086643d82ac6d457cd99c",
+      "x-dsa-origin-status": "200"
+    },
+    "body": {
+      "text": "{\"BaseResp\":{\"StatusCode\":0,\"StatusMessage\":\"success\"},\"code\":0,\"data\":{\"common_list_info\":{\"cursor\":\"\",\"has_more\":false,\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260323190737BFDF738FE36864D24317\\\"}\"},\"total\":1},\"data_list\":[{\"comment\":{\"comment_id\":\"7408928523561026366\",\"common\":{\"comment_type\":-90,\"content\":{\"image_data_list\":{},\"text\":\"毒点太多了\"},\"content_type\":0,\"create_timestamp\":1725029048,\"group_id\":\"7400312485934287896\",\"service_id\":2,\"status\":1,\"user_info\":{\"base_info\":{\"description\":\"\",\"encode_user_id\":\"#c1967_MTk2NzE5NjcxOTY3MTk2N5pDMd56xjt9rwbgPaGTjxU=\",\"gender\":1,\"is_cancelled\":false,\"profile_gender\":1,\"user_avatar\":\"https://p3-novel.byteimg.com/img/novel-static/3abe6a50e39b4bf1ba7c29f33074e1a8~tplv-1yzifmftcy-expand:200:0:0.png\",\"user_id\":\"110911794556\",\"user_name\":\"爱吃糖拌草莓的韩伟\"},\"expand_extra\":{},\"user_id\":\"110911794556\",\"user_relation\":{\"can_follow\":true,\"relation_type\":1},\"user_tag\":{\"fan_rank_num\":0,\"fan_ranklist_title\":\"\",\"is_author\":false,\"is_blue_vip\":false,\"is_cp\":false,\"is_official_cert\":false,\"is_vip\":true,\"sticker\":{\"expire_time\":1782612670,\"is_worn\":true,\"sticker\":{\"add_context\":\"\",\"bg_color\":\"#FFF3DD\",\"can_worn\":false,\"id\":2,\"name\":\"永不书荒\",\"small_url\":\"https://p6-novel.byteimg.com/origin/novel-static/2c704b96a929a7a8b3461ddbf49a8d01\",\"sticker_type\":1,\"url\":\"https://p3-novel.byteimg.com/origin/novel-static/b93ef223f8131d9ee8e8312f642d9681\"}},\"user_title_info\":[{\"en_title\":\"svip\",\"icon\":\"{\\\"icon_default_url\\\":\\\"https://p6-novel.byteimg.com/origin/novel-static/07d37b2c30d271228698f77f4f7f7daf\\\",\\\"icon_dark_url\\\":\\\"https://p6-novel.byteimg.com/origin/novel-static/d67f15fefbb4470bb54c773eb84e90d8\\\",\\\"icon_width\\\":26,\\\"icon_height\\\":16}\",\"intro\":\"{\\\"title_name\\\":\\\"svip\\\",\\\"title_id\\\":\\\"svip\\\",\\\"icon_type\\\":1}\",\"is_author_title\":false,\"is_vip_title\":true,\"zh_title\":\"svip\"}]}}},\"expand\":{\"book_id\":\"7400312485934287896\",\"book_info\":{\"abstract\":\"年入上亿的集团老总赵宇一夜醒来，竟穿越到了宋朝，还摇身一变，成了皇太子。\\n在这个式微的朝代，当皇太子简直就是要老命啊！\\n但知道历史的赵宇，开启逆天改命模式，夺下皇位，不仅让宋朝迅速崛起，还开疆拓土，甚至版图都超过了大元……让万国来朝！\",\"audio_thumb_uri\":\"https://p3-novel.byteimg.com/img/novel-pic/f654d2d2d99792cbf22e6cbfa88eaa2d~tplv-tt-cs0:440:440.image\",\"author\":\"宋人头\",\"author_id\":\"\",\"book_id\":\"7400312485934287896\",\"book_name\":\"我在宋朝当皇太子\",\"book_short_name\":\"\",\"book_type\":\"0\",\"color_dominate\":\"#201810\",\"creation_status\":\"1\",\"genre\":\"0\",\"genre_type\":\"0\",\"read_count_text\":\"潜力好书\",\"reader_schema\":{\"authorize_type\":\"0\",\"category_schema\":\"[{\\\"category_id\\\":273,\\\"name\\\":\\\"历史古代\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=273\\u0026name=历史古代\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":37,\\\"name\\\":\\\"穿越\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=37\\u0026name=穿越\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":12,\\\"name\\\":\\\"历史\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=12\\u0026name=历史\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":501,\\\"name\\\":\\\"宋朝\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=501\\u0026name=宋朝\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"}]\",\"first_chapter_item_id\":\"7402134221818432537\",\"read_count\":\"662\",\"title_page_tags\":\"\",\"word_number\":\"744697\"},\"relate_post_id\":\"\",\"relate_post_schema\":\"\",\"score\":\"0\",\"serial_count\":\"362\",\"tags\":\"历史古代,历史,穿越,宋朝\",\"thumb_url\":\"https://p3-reading-sign.fqnovelpic.com/novel-pic/f654d2d2d99792cbf22e6cbfa88eaa2d~tplv-noop.image?lk3s=9b9bd2b1\\u0026x-expires=1779448057\\u0026x-signature=g5oz%2Bc%2BgUFWrONlW5ZFgurC98x8%3D\",\"tomato_book_status\":\"1\"},\"book_info_list\":[],\"common_stat\":{},\"creator_id\":\"0\",\"extra\":{\"comment_jump_schema\":\"\",\"novelapp_read_item_cnt\":\"21\"},\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260323190737BFDF738FE36864D24317\\\"}\"},\"relate_info_list\":[],\"reply_show_count\":0,\"reply_show_row\":0,\"score\":\"2\",\"score_suffix_text\":\"阅读不足30分钟后点评\"},\"stat\":{\"digg_count\":3,\"forwarded_count\":0,\"listen_duration\":0,\"read_book_count\":0,\"read_duration\":1799,\"reply_count\":0,\"show_pv\":289},\"user_action\":{\"author\":0,\"is_author_stick\":false,\"stick_position\":0,\"user_digg\":false,\"user_disagree\":false}},\"data_type\":4}],\"extra\":{\"book_info\":{\"abstract\":\"\",\"audio_thumb_uri\":\"\",\"author\":\"\",\"author_id\":\"\",\"book_id\":\"7400312485934287896\",\"book_name\":\"\",\"book_type\":\"\",\"color_dominate\":\"\",\"creation_status\":\"\",\"genre\":\"\",\"genre_type\":\"\",\"score\":\"\",\"serial_count\":\"\",\"tags\":\"\",\"thumb_url\":\"\",\"tomato_book_status\":\"\"},\"filter_tag\":[],\"hot_word_search\":[],\"score_cnt\":12,\"score_text\":\"12人点评\"}},\"debug_info\":\"\",\"log_id\":\"20260323190737BFDF738FE36864D24317\",\"message\":\"请求成功\"}"
+    }
+  },
+  "times": {
+    "start": 1774264048.5375593,
+    "end": 1774264048.7030878
+  }
+}

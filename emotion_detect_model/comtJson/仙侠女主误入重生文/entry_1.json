@@ -1,0 +1,69 @@
+{
+  "scheme": "https",
+  "host": "api5-normal-sinfonlinea.fqnovel.com",
+  "port": 443,
+  "method": "POST",
+  "path": "/novel/commentapi/comment/list/7574279348853672984/v1?aid=1967&compliance_status=0&iid=80727408419191&device_id=80727408415095&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774197800198&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=1d782b0e-e598-452e-9843-00cc23ec3b55",
+  "url": "https://api5-normal-sinfonlinea.fqnovel.com/novel/commentapi/comment/list/7574279348853672984/v1?aid=1967&compliance_status=0&iid=80727408419191&device_id=80727408415095&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774197800198&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=1d782b0e-e598-452e-9843-00cc23ec3b55",
+  "request": {
+    "headers": {
+      "x-ss-stub": "3C2BDAF610223389D2434216F62FE8CE",
+      "accept-encoding": "gzip",
+      "accept": "application/json; charset=utf-8,application/x-protobuf",
+      "content-encoding": "gzip",
+      "x-xs-from-web": "0",
+      "x-ss-req-ticket": "1774197800200",
+      "x-reading-request": "1774197800200-347815291",
+      "x-vc-bdturing-sdk-version": "4.0.3.cn",
+      "comment-source": "1",
+      "server-channel": "4",
+      "lc": "101",
+      "sdk-version": "2",
+      "passport-sdk-version": "5051451",
+      "x-tt-store-region": "cn-sc",
+      "x-tt-store-region-src": "did",
+      "user-agent": "com.dragon.read/71132 (Linux; U; Android 9; zh_CN; ASUS_I005DA; Build/PI;tt-ok/3.12.13.20)",
+      "x-ladon": "nDOd3w==",
+      "x-khronos": "1774197799",
+      "x-argus": "JxzAaQ==",
+      "x-gorgon": "840480a840015c3e6a438120eee3062d9f05961e15468a113183",
+      "x-helios": "Wf8tDkea9Rr+Gd5jm9QqJKXP6hPu/FLCXnuIlgzktBmSGhL5",
+      "x-medusa": "IhzAaQpXj6Nuac0qGKluRQVxDD/qGwABNZkHjJ0oAWAMGFQNBNF9jaMf7QTlltXeaR8jRhVxa8oyfUBNm8DPz8cmbWBMzUu84NJTcUlzsbxg0fu8qNRjrvw5QxKNkGqr1mmi6HOgB5o2IvklrDiOVm6Y/o0o+nA8e3waENTMC8t6fkx7QBwhQPTjMI6TFEJ9i2IaFi4KdTCLx8BnFi6uFj58DJ5GoqYmnOYtqWyhpGwvehvRNHhVIv9IeWbsoWjW7UGOcOvteTIVyUFMIt6xRgMvIvyeazerSYSMUyBOa/VuV2R5uNqhtytuKwU/q9cJ6e7Qq++xn9W90tSuhWKQEQo1nk7e4t82mxfbwzkSuBkLZP/IZz/Ez7z54wNetHrzBkH2gPlECnEcpNu6L+zbJj1mqV32/KXO/PxJlqsIjkmShCmwma6HehV+WI1uZjz/ZBUGizn5+RFs8gWddVBcFUqsNyUgfBtAb8KibK4aRpK/FxRyFhjvYzFQopbxO+8IoYQuLja3SByhEMLtLLk00xIxu8hIoEgSbFFraTIofSwlEeokAHIyt2tx/ZBezAA0pY6HqUQI4boP8yPv7W/D58IqFuKnB6SUcbgO+wKER5y8jTbFj+KR2CFOIkeuwLvrG4p9MnY3lrGubs06Fghz+egJFIyuF4oBP9ZEi6pSPhZTpGPoSjzNdPxjvtf6lH8Q0LABhsGw8BeaXRpGTrly50D1nYIPw+3VQnEMyq3a2V8MD44V6fLjNBs+kOxBs6E/vRJmhu0rX8CeMSebZQJm9tXx68AOtuxplrZDAvDSk6tau0az6IYzHs6/oITzdZo2qmo5oCa7EtTRNgoSqeaUqyYMEie4humiJV8tKjKDqDxwRtwyHUvtsJ+/4xhNc4SvXhTvnZDWivK05qG3rf1YE0cdZfVapn/dMjVBr32Di++lBi97CKdkFIkxp4lLhw3ODG/epg1BUmEM5Lg474fwcerLKczZ5LfaZvOTQWseTNQk41kv6jlzNaQX7S7a+LjWf7mWW8aTcRCOcW3cWA4b7UsDmWl449t4gSVz698xW98ph0NwD7AI396hMdmRe1mSTaIaCdn7lIRajCJ6Qa/d5J1aVBavM9Lt0zsOzrpMqg0KFF3fxSSetRhvtcRyzE25y/iT6VMikOgYSWnDe5oQeobGu6jH7pHVbh7sWOmRT30DeTKIL4MYrdt7QhWfdbNrvY/J/xP49uaVdMGEyrPsmMKve6KwS+5ddu/VhMbDa21fugb05ov//keL//8HN0I=",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "220",
+      "cookie": "odin_tt=eeed7adb3ddf35e05a6e9e3b3eb302ec0a3f4eaae8d4d3c25b03ef22a97341612dd2514f6687edd72a5ff857970c239d9a900c42b15cdc8592d7b11276a5397d1513c5b728e6f76dcaab4e8caf92c56d; install_id=80727408419191; ttreq=1$1c781748f41f9e29d201a8f2eb6bb8cd1e307a52; store-region=cn-sc; store-region-src=did; passport_csrf_token=32478fc498ec62f5ad8e5dde199c08cd; passport_csrf_token_default=32478fc498ec62f5ad8e5dde199c08cd"
+    },
+    "body": {
+      "text": "{\"business_param\":{\"book_id\":\"7574279348853672984\",\"comment_sort_debug\":false,\"end_offset_time\":0,\"item_count\":0,\"max_item_count\":0,\"need_count\":false,\"para_index\":0,\"read_item_count\":0,\"req_type\":0,\"start_offset_time\":0,\"playlet_item_duration\":0},\"comment_source\":1,\"comment_type\":2,\"count\":3,\"group_id\":\"7574279348853672984\",\"group_type\":1,\"server_channel\":4,\"sort\":1}"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "reason": "",
+    "headers": {
+      "server": "volc-dcdn",
+      "content-type": "application/json",
+      "date": "Sun, 22 Mar 2026 16:43:20 GMT",
+      "vary": "Accept-Encoding",
+      "x-tt-agw-login": "0",
+      "x-tt-logid": "202603230043204CCB0752FA930C1AEA8D",
+      "server-timing": "inner; dur=256, cdn-cache;desc=MISS, origin;dur=304, edge;dur=0, tt_agw; dur=239",
+      "tt-idc-switch": "10000@20260204111459",
+      "x-tt-trace-host": "0153fa259baf8ba17820e51416f52891481d1fd89ea70d0c2065d97fbdc8c3f457864e0db220ac6b7ea0e93a3c279e87db182b8323a5e83c11c2ae2b8196d1a1922234fe42a85b93f64df729fb20ffeafcde6061bf9d8054c8bb74ed949eae698e4dc04f8267e4a22cd65d44258acfd3c5b0eef0b3a294a6c23da5bec88c886b818dd50f8d3253db8aca0fe0daefab11c0a14652cc176cd652b47f3701a0024f9607d1aaae4b49e6482863c4e9103c847f",
+      "x-tt-trace-tag": "id=5",
+      "x-tt-trace-id": "00-166dfeb6030107fc711e5037b8e907af-166dfeb6030107fc-01",
+      "content-encoding": "gzip",
+      "via": "n6-241-018.scchengdu-cm336-bm.Creative",
+      "x-request-ip": "2409:8a62:f12:4e30:9a2:7281:6689:c794",
+      "x-dsa-trace-id": "17741978003072b715d1c36a8d049102edf0b40c3b",
+      "x-dsa-origin-status": "200"
+    },
+    "body": {
+      "text": "{\"BaseResp\":{\"StatusCode\":0,\"StatusMessage\":\"success\"},\"code\":0,\"data\":{\"common_list_info\":{\"cursor\":\"\",\"has_more\":false,\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"202603230043204CCB0752FA930C1AEA8D\\\"}\"},\"total\":2},\"data_list\":[{\"comment\":{\"comment_id\":\"7610797520987374398\",\"common\":{\"comment_type\":0,\"content\":{\"image_data_list\":{},\"text\":\"好看好看，已经重头再来一次了，大大能不能快快点更新\"},\"content_type\":0,\"create_timestamp\":1772029108,\"group_id\":\"7574279348853672984\",\"service_id\":2,\"status\":1,\"user_info\":{\"base_info\":{\"description\":\"一个穷鬼五彩斑斓的幻想世界\",\"encode_user_id\":\"#c1967_MTk2NzE5NjcxOTY3MTk2N/B8pv6+a/T7OB7KUpRxH/AcFNVnkYOug63mKAU6u8O3\",\"gender\":0,\"is_cancelled\":false,\"profile_gender\":0,\"user_avatar\":\"http://p3-reading-sign.fqnovelpic.com/tos-cn-i-1yzifmftcy/643c497d686e42fd901d7ed9e4e01879~tplv-s85hriknmn-jpeg-v1:144:0.jpeg?lk3s=9b9bd2b1\\u0026x-expires=1776794231\\u0026x-signature=zdu8%2FoSco02I8hBKE%2FmWbJT0CQo%3D\",\"user_id\":\"2740409975710752\",\"user_name\":\"白衣谢了风流花\"},\"expand_extra\":{},\"user_id\":\"2740409975710752\",\"user_relation\":{\"can_follow\":true,\"relation_type\":1},\"user_tag\":{\"fan_rank_num\":0,\"fan_ranklist_title\":\"\",\"is_author\":false,\"is_blue_vip\":false,\"is_cp\":false,\"is_official_cert\":false,\"is_vip\":false,\"user_title_info\":[{\"en_title\":\"author\",\"intro\":\"{\\\"title_name\\\":\\\"作家\\\",\\\"title_id\\\":\\\"author\\\"}\",\"is_author_title\":true,\"is_vip_title\":false,\"label\":\"{\\\"title_text\\\":\\\"作家\\\",\\\"title_default_color\\\":\\\"#FFFFFF\\\",\\\"title_dark_color\\\":\\\"#FFFFFF\\\",\\\"bg_default_color\\\":\\\"{\\\\\\\"start\\\\\\\":\\\\\\\"#FF9F31\\\\\\\",\\\\\\\"end\\\\\\\":\\\\\\\"#FFB95C\\\\\\\"}\\\",\\\"bg_dark_color\\\":\\\"{\\\\\\\"start\\\\\\\":\\\\\\\"#CC8029\\\\\\\",\\\\\\\"end\\\\\\\":\\\\\\\"#CC9349\\\\\\\"}\\\",\\\"title_dark_diaphaneity\\\":\\\"CC\\\"}\",\"zh_title\":\"作家\"}]}}},\"expand\":{\"book_id\":\"7574279348853672984\",\"book_info\":{\"abstract\":\"双强，1v1，先婚后……非传统意义的重生，暗藏反转。\\n双方各怀目的靠近，女主绝非圣母。 \\n她曾说：“这世间，若真有的选，谁不想当个道貌岸然的好人呢？” \\n起初，宿云微只想待在气运之女身边积攒功德，填补落桐渊的累累孽债。\\n可她万万没想到，自己竟跟着气运之女一同重生了……\\n呵，不愧是气运加身的女子。\\n只是，怎么刚刚来就成了气运之女的头号复仇对象？\\n那点手段全往她身上使了，刚刚来就让她被一个蠢得不能再蠢的鬼脑袋缠住。\\n这以后楼家的日子可还好过？\\n …………\\n \\n“你看，那是谁的头颅啊，寻不到身躯，归不得故里。”\\n“你听，是谁在低唱歌谣。”\\n \\n摇啊摇，过阴桥，桥头新娘咧嘴笑。\\n纸衣染血，静候新郎。\\n \\n“嘘——”\\n“小声些，听见棺木之中的惨叫了吗？”\\n“是谁家的新娘，尚未断气便被生生锁入棺中？”\\n“你听！”\\n“那片湖水之下，全是婴孩的啼哭之声……”\\n 在怨灵的嘶吼声中，一双大手捂着了她耳朵。\\n低声告诉她：“别害怕。”\\n是他在冰天雪地中，抱着她穿梭罡风，将她带回家。\\n也是他，事事为她考虑，院子里种满了她最爱的梧桐树。\\n清醒过来的宿云微只有一个念头：快逃，这人惦记她的功德金光。\",\"audio_thumb_uri\":\"https://p3-novel.byteimg.com/img/novel-pic/p2o9008becffaaf3d9faddd8159c42dbcf1~tplv-tt-cs0:440:440.image\",\"author\":\"余俚\",\"author_id\":\"\",\"book_id\":\"7574279348853672984\",\"book_name\":\"仙侠女主误入重生文\",\"book_short_name\":\"\",\"book_type\":\"0\",\"color_dominate\":\"#702828\",\"creation_status\":\"1\",\"genre\":\"0\",\"genre_type\":\"0\",\"read_count_text\":\"潜力好书\",\"reader_schema\":{\"authorize_type\":\"1\",\"category_schema\":\"[{\\\"category_id\\\":248,\\\"name\\\":\\\"玄幻言情\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=248\\u0026name=玄幻言情\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":5,\\\"name\\\":\\\"古代言情\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=5\\u0026name=古代言情\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":877,\\\"name\\\":\\\"古色古香\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=877\\u0026name=古色古香\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":852,\\\"name\\\":\\\"魂穿\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=852\\u0026name=魂穿\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":867,\\\"name\\\":\\\"捉鬼\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=867\\u0026name=捉鬼\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":478,\\\"name\\\":\\\"强强\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=478\\u0026name=强强\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"},{\\\"category_id\\\":834,\\\"name\\\":\\\"1v1\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=834\\u0026name=1v1\\u0026genre_type=0\\u0026gender=0\\u0026source=detail\\\"}]\",\"first_chapter_item_id\":\"7574279507075416600\",\"read_count\":\"665\",\"title_page_tags\":\"\",\"word_number\":\"167474\"},\"relate_post_id\":\"\",\"relate_post_schema\":\"\",\"score\":\"0\",\"serial_count\":\"78\",\"tags\":\"玄幻言情,古代言情,古色古香,魂穿,捉鬼,强强,1v1\",\"thumb_url\":\"https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o9008becffaaf3d9faddd8159c42dbcf1~tplv-noop.image?lk3s=9b9bd2b1\\u0026x-expires=1779381800\\u0026x-signature=c507N27dX5lDC8IlPh9jg%2B3U6YI%3D\",\"tomato_book_status\":\"1\"},\"book_info_list\":[],\"common_stat\":{},\"creator_id\":\"75205091531583\",\"extra\":{\"comment_jump_schema\":\"\",\"novelapp_read_item_cnt\":\"57\"},\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"202603230043204CCB0752FA930C1AEA8D\\\"}\"},\"relate_info_list\":[],\"reply_show_count\":0,\"reply_show_row\":0,\"score\":\"10\",\"score_suffix_text\":\"阅读4小时后点评\"},\"stat\":{\"digg_count\":0,\"forwarded_count\":0,\"listen_duration\":10807,\"read_book_count\":0,\"read_duration\":13885,\"reply_count\":0,\"show_pv\":32},\"user_action\":{\"author\":0,\"is_author_stick\":false,\"stick_position\":0,\"user_digg\":false,\"user_disagree\":false}},\"data_type\":4}],\"extra\":{\"book_info\":{\"abstract\":\"\",\"audio_thumb_uri\":\"\",\"author\":\"\",\"author_id\":\"\",\"book_id\":\"7574279348853672984\",\"book_name\":\"\",\"book_type\":\"\",\"color_dominate\":\"\",\"creation_status\":\"\",\"genre\":\"\",\"genre_type\":\"\",\"score\":\"\",\"serial_count\":\"\",\"tags\":\"\",\"thumb_url\":\"\",\"tomato_book_status\":\"\"},\"filter_tag\":[],\"hot_word_search\":[],\"score_cnt\":4,\"score_text\":\"4人点评\"}},\"debug_info\":\"\",\"log_id\":\"202603230043204CCB0752FA930C1AEA8D\",\"message\":\"请求成功\"}"
+    }
+  },
+  "times": {
+    "start": 1774197794.2748537,
+    "end": 1774197794.5941217
+  }
+}

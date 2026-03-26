@@ -1,0 +1,69 @@
+{
+  "scheme": "https",
+  "host": "api5-normal-sinfonlinea.fqnovel.com",
+  "port": 443,
+  "method": "POST",
+  "path": "/novel/commentapi/comment/list/7596314418728684568/v1?aid=1967&compliance_status=0&iid=80727408419191&device_id=80727408415095&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774245143827&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=1d782b0e-e598-452e-9843-00cc23ec3b55",
+  "url": "https://api5-normal-sinfonlinea.fqnovel.com/novel/commentapi/comment/list/7596314418728684568/v1?aid=1967&compliance_status=0&iid=80727408419191&device_id=80727408415095&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774245143827&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=1d782b0e-e598-452e-9843-00cc23ec3b55",
+  "request": {
+    "headers": {
+      "x-ss-stub": "99A05B00D41FBB0D9D8EA16756E0F1A4",
+      "accept-encoding": "gzip",
+      "accept": "application/json; charset=utf-8,application/x-protobuf",
+      "content-encoding": "gzip",
+      "x-xs-from-web": "0",
+      "x-ss-req-ticket": "1774245143829",
+      "x-reading-request": "1774245143829-1850148131",
+      "x-vc-bdturing-sdk-version": "4.0.3.cn",
+      "comment-source": "1",
+      "server-channel": "4",
+      "lc": "101",
+      "sdk-version": "2",
+      "passport-sdk-version": "5051451",
+      "x-tt-store-region": "cn-sc",
+      "x-tt-store-region-src": "did",
+      "user-agent": "com.dragon.read/71132 (Linux; U; Android 9; zh_CN; ASUS_I005DA; Build/PI;tt-ok/3.12.13.20)",
+      "x-ladon": "Yl+ujw==",
+      "x-khronos": "1774245143",
+      "x-argus": "F9XAaQ==",
+      "x-gorgon": "8404204b400110a7b4320e8556b8de7956645d6c350708c5ecf1",
+      "x-helios": "QiMaRUPuJxMUe1qv6KckzZckizsPX43iDACKTUDHbfBRdDNB",
+      "x-medusa": "EtXAaTqej6NeoM0qKGBuRTW4DD+JhQABbNmNpUYZAb8AGNaBgTqFqccGJPUxKVIRbIw13ynSPRl/rBgH58KugFqunQnKO5FcEEGSl67xYW5rhWV4fXltoT4a1xm8R2aGBgOMIZlxIUyG5ZszU1I5aU1dZzdaaVaYXErqYVB05iDcXsN4EIqqppfTH6vKTtZjytXsnZLXXDh9srBHmucquBsFveOw0nrBdW4+Eynq5mSFKUxKtXZQzXgYfam7WbOsFc86EUPF7jjQpmsN0qxWpRA6y6/TO9Zodel1/t/OMcAocTDG2b+hxP0O5Vbm3R09N9Fclm+aKc4J070Vx5nZaGmJvmz0HPKkd6xex8OabN2saG+OotpuH+usIuDsHyHI5Aoool4WS2gKuSw6MFaDizwFmYCjxw5hfzeOZzXpuV1Pp+C+Ifscm4vOx1XG9zBZ58rRbJoESXkN1gfCcuUCsUw+g1vCItpMZsccOm7P0mTQHKKbLsfCrqFiuKfkvyBsZcW8ly4Avpir9s415PuuSktN+092GSSAk2PaDXv+O2bEBTaghjMyxQUbd+aXCP5V4gIRvBAlCAg+WUCO4/hVFEDOq+jHVJyWnh4FELyfQbpD8ED/cOuB67Neal7ZnoUwP90jORjb77h9l7uzU3gi74+TnbWxIDDKzNAg+QHCr0AXeNq90Tox1C3JWYYeWKjLijFewzxRnAeYk9WIP1tVt0Sgg9v2rLmCzDR08opwIS0kjyYGXqgrX5EDQiSihVainn57jiFBn5FjItnXCeEVamUmOTC8t+KVtxq4gDLGBhBC/+T2tCyWJX/ONwssPZtfCqjhPAueDI8tshIYgykFg2UpXksf4LOT9Vp20TJnKNgtyuqSJj2AsaLUiaSI0WfVYsNs5TaiCh74JL6s66dSqY/rU5S0FzXoaAbPteLmsQlw+UQ/aNY/TkJhXxkEq+ibfP00hKsLgFry8kBkXaQXp1ng5GZ16yZ9POWxhg5quQgKz9jst068PIh1dDxfPKkiOxArLBbzAL3eV6luNKAYN8xEp4TomJtSP/f7aOzNEsnpTkN/41N2Tu/pS8QccN9hd4IBPKtY+0s8hhRkIz61DDv3GozCM/kYP33fN/a+1+K93YwASX9/WSyaxUDRKP/trhj203yTuT5qmxPoRrX6yJR4c0YnYXOtvKL23IavmF9/Bhztvl5262OArfdw73Tp5LaW+ZH0JtSaXYQczjD0zZ3UQLuwYwIUvILJ8mQXY18q/xlyrXX/+w91//pPnhA=",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "220",
+      "cookie": "odin_tt=eeed7adb3ddf35e05a6e9e3b3eb302ec0a3f4eaae8d4d3c25b03ef22a97341612dd2514f6687edd72a5ff857970c239d9a900c42b15cdc8592d7b11276a5397d1513c5b728e6f76dcaab4e8caf92c56d; install_id=80727408419191; ttreq=1$1c781748f41f9e29d201a8f2eb6bb8cd1e307a52; store-region=cn-sc; store-region-src=did; passport_csrf_token=32478fc498ec62f5ad8e5dde199c08cd; passport_csrf_token_default=32478fc498ec62f5ad8e5dde199c08cd"
+    },
+    "body": {
+      "text": "{\"business_param\":{\"book_id\":\"7596314418728684568\",\"comment_sort_debug\":false,\"end_offset_time\":0,\"item_count\":0,\"max_item_count\":0,\"need_count\":false,\"para_index\":0,\"read_item_count\":0,\"req_type\":0,\"start_offset_time\":0,\"playlet_item_duration\":0},\"comment_source\":1,\"comment_type\":2,\"count\":3,\"group_id\":\"7596314418728684568\",\"group_type\":1,\"server_channel\":4,\"sort\":1}"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "reason": "",
+    "headers": {
+      "server": "volc-dcdn",
+      "content-type": "application/json",
+      "date": "Mon, 23 Mar 2026 05:52:23 GMT",
+      "vary": "Accept-Encoding",
+      "x-tt-agw-login": "0",
+      "x-tt-logid": "202603231352231FCA42B1E5CAC1C92424",
+      "server-timing": "inner; dur=109, cdn-cache;desc=MISS, origin;dur=149, edge;dur=0, tt_agw; dur=98",
+      "tt-idc-switch": "10000@20260204111459",
+      "x-tt-trace-host": "01890234a82fb7e9140e589b2bd82228d6e7edbbf2beb51da33e5448acf5903c72744a51ce1d5ce6fb623c60a25fb6c28b8d2c44534649d9857cdc5997a1205bd306d6cdbc2f31ee296ca59a6b6bf10cd1ba5a4781a9f64c4d0026c4dab8462b835fe5acfd742fce45f1750b0bbb84d3152e75165e794f1e9ae0f6b84a84b4bcde3669e9d6df5dede3baa20810c4c6d620",
+      "x-tt-trace-tag": "id=5",
+      "x-tt-trace-id": "00-194066b90301005442b5a044a17207af-194066b903010054-01",
+      "content-encoding": "gzip",
+      "via": "n6-241-017.scchengdu-cm336-bm.Creative",
+      "x-request-ip": "112.54.89.154",
+      "x-dsa-trace-id": "17742451436b2355974ec1919df57d2f4a8cd3d0ea",
+      "x-dsa-origin-status": "200"
+    },
+    "body": {
+      "text": "{\"BaseResp\":{\"StatusCode\":0,\"StatusMessage\":\"success\"},\"code\":0,\"data\":{\"common_list_info\":{\"cursor\":\"\",\"has_more\":false,\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"202603231352231FCA42B1E5CAC1C92424\\\"}\"},\"total\":1},\"data_list\":[{\"comment\":{\"comment_id\":\"7598020947440173848\",\"common\":{\"comment_type\":0,\"content\":{\"image_data_list\":{},\"text\":\"哎呀，怎么这么好看呢~\"},\"content_type\":0,\"create_timestamp\":1769056587,\"group_id\":\"7596314418728684568\",\"service_id\":2,\"status\":1,\"user_info\":{\"base_info\":{\"description\":\"\",\"encode_user_id\":\"#c1967_MTk2NzE5NjcxOTY3MTk2N/LKdso664uESGI7LcwNcd+d6Hcb7IseBh93NCcBWaDv\",\"gender\":1,\"is_cancelled\":false,\"profile_gender\":1,\"user_avatar\":\"https://p3-novel.byteimg.com/img/novel-static/7b92beed15144f519898bfe689051d51~tplv-1yzifmftcy-expand:200:0:0.png\",\"user_id\":\"2921860449713033\",\"user_name\":\"喜欢小桐子的徐林\"},\"expand_extra\":{},\"user_id\":\"2921860449713033\",\"user_relation\":{\"can_follow\":true,\"relation_type\":1},\"user_tag\":{\"fan_rank_num\":0,\"fan_ranklist_title\":\"\",\"is_author\":false,\"is_blue_vip\":false,\"is_cp\":false,\"is_official_cert\":false,\"is_vip\":false,\"user_title_info\":[]}}},\"expand\":{\"book_id\":\"7596314418728684568\",\"book_info\":{\"abstract\":\"林辰觉醒鉴宝神眼，每天只能看3次，却一眼看穿真假价值与隐藏潜力！\\n从底层搬运工起步，捡漏暴富，打脸嚣张富少，建古玩帝国！\\n兄弟背叛濒死、冷艳女王追妻火葬场、全球宝藏阴谋……看他如何一步步登顶教父，掌控万亿财富与人心！\\n兄弟情深转刀、甜虐追妻、捡漏爽点、格局炸裂，前期日进斗金，中期虐心逆转，后期全球碾压！\",\"audio_thumb_uri\":\"https://p6-novel.byteimg.com/img/novel-pic/p2o51664fb5b2464012bebf93c26827f3e3~tplv-tt-cs0:440:440.image\",\"author\":\"刚刚打了个盹\",\"author_id\":\"\",\"book_id\":\"7596314418728684568\",\"book_name\":\"鉴宝神眼：我成了全球教父\",\"book_short_name\":\"\",\"book_type\":\"0\",\"color_dominate\":\"#181818\",\"creation_status\":\"0\",\"genre\":\"0\",\"genre_type\":\"0\",\"read_count_text\":\"潜力好书\",\"reader_schema\":{\"authorize_type\":\"1\",\"category_schema\":\"[{\\\"category_id\\\":262,\\\"name\\\":\\\"都市脑洞\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=262\\u0026name=都市脑洞\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":1,\\\"name\\\":\\\"都市\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=1\\u0026name=都市\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":17,\\\"name\\\":\\\"鉴宝\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=17\\u0026name=鉴宝\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"}]\",\"first_chapter_item_id\":\"7596314423233348120\",\"read_count\":\"2\",\"title_page_tags\":\"\",\"word_number\":\"412529\"},\"relate_post_id\":\"\",\"relate_post_schema\":\"\",\"score\":\"0\",\"serial_count\":\"119\",\"tags\":\"都市脑洞,都市,鉴宝\",\"thumb_url\":\"https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o51664fb5b2464012bebf93c26827f3e3~tplv-noop.image?lk3s=9b9bd2b1\\u0026x-expires=1779429143\\u0026x-signature=l0WpQs2gKM0co2AjpcX1vH%2FlIpk%3D\",\"tomato_book_status\":\"1\"},\"book_info_list\":[],\"common_stat\":{},\"creator_id\":\"1427596535672030\",\"extra\":{\"comment_jump_schema\":\"\",\"novelapp_read_item_cnt\":\"53\"},\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"202603231352231FCA42B1E5CAC1C92424\\\"}\"},\"relate_info_list\":[],\"reply_show_count\":0,\"reply_show_row\":0,\"score\":\"10\",\"score_suffix_text\":\"阅读7小时后点评\"},\"stat\":{\"digg_count\":0,\"forwarded_count\":0,\"listen_duration\":13867,\"read_book_count\":0,\"read_duration\":24267,\"reply_count\":1,\"show_pv\":0},\"user_action\":{\"author\":0,\"author_reply_time\":1769315007,\"is_author_stick\":false,\"stick_position\":0,\"user_digg\":false,\"user_disagree\":false}},\"data_type\":4}],\"extra\":{\"book_info\":{\"abstract\":\"\",\"audio_thumb_uri\":\"\",\"author\":\"\",\"author_id\":\"\",\"book_id\":\"7596314418728684568\",\"book_name\":\"\",\"book_type\":\"\",\"color_dominate\":\"\",\"creation_status\":\"\",\"genre\":\"\",\"genre_type\":\"\",\"score\":\"\",\"serial_count\":\"\",\"tags\":\"\",\"thumb_url\":\"\",\"tomato_book_status\":\"\"},\"filter_tag\":[],\"hot_word_search\":[],\"score_cnt\":2,\"score_text\":\"2人点评\"}},\"debug_info\":\"\",\"log_id\":\"202603231352231FCA42B1E5CAC1C92424\",\"message\":\"请求成功\"}"
+    }
+  },
+  "times": {
+    "start": 1774245136.4017167,
+    "end": 1774245136.5619297
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "scheme": "https",
+  "host": "api5-normal-sinfonlineb.fqnovel.com",
+  "port": 443,
+  "method": "POST",
+  "path": "/novel/commentapi/comment/list/7566234973884124222/v1?aid=1967&compliance_status=0&iid=4320438601941737&device_id=4320438601663209&ac=wifi&channel=fqxsfp_baidu_and_htl_2&app_name=novelapp&version_code=70932&version_name=7.0.9.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=70932&resolution=1600*1000&dpi=300&update_version_code=70932&_rticket=1774130308224&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=70932&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=e92d365f-9d84-43ba-a8ec-ff5c951d42e0",
+  "url": "https://api5-normal-sinfonlineb.fqnovel.com/novel/commentapi/comment/list/7566234973884124222/v1?aid=1967&compliance_status=0&iid=4320438601941737&device_id=4320438601663209&ac=wifi&channel=fqxsfp_baidu_and_htl_2&app_name=novelapp&version_code=70932&version_name=7.0.9.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=70932&resolution=1600*1000&dpi=300&update_version_code=70932&_rticket=1774130308224&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=70932&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=e92d365f-9d84-43ba-a8ec-ff5c951d42e0",
+  "request": {
+    "headers": {
+      "x-ss-stub": "2EFEF0429FC1AD3F2876C2CB88D458A6",
+      "accept-encoding": "gzip",
+      "accept": "application/json; charset=utf-8,application/x-protobuf",
+      "content-encoding": "gzip",
+      "x-xs-from-web": "0",
+      "x-ss-req-ticket": "1774130308229",
+      "x-reading-request": "1774130308229-1449058895",
+      "x-vc-bdturing-sdk-version": "4.0.3.cn",
+      "comment-source": "1",
+      "server-channel": "4",
+      "lc": "101",
+      "sdk-version": "2",
+      "passport-sdk-version": "5051451",
+      "x-tt-store-region": "cn-sc",
+      "x-tt-store-region-src": "did",
+      "user-agent": "com.dragon.read/70932 (Linux; U; Android 9; zh_CN; ASUS_I005DA; Build/PI;tt-ok/3.12.13.20)",
+      "x-ladon": "SwVWfw==",
+      "x-khronos": "1774130308",
+      "x-argus": "hBS/aQ==",
+      "x-gorgon": "8404c0cd4001fce791dddf8988b5a580751844c4d431af15483b",
+      "x-helios": "/q9yYLMYgKiJ6YtSXTT37m7ds4zxX0fjmdsxW9iyc9AEdRYl",
+      "x-medusa": "gRS/aalf8KPNYbIqu6ERRaZ5cz9FzAABTJlesMAcgV8KGChE/cwiFgFrhMilIEAMfkv7jkZrQZ+hxvv/AejZ1ZeNgTPeLElFmnnlM/PhaIB3WjNO7gF7hsdJJ+UTOZmu5xRFevKfYiwP4R2J07geI7adzf+Sjw/76yzX05FdubdYqRYv+MjKQv9nIGAqBra6QVgzeWvplc0xVpVvFjPZM8IAg98iRh6UOL+hMpovtCRRlETfrWmvXer2Jf599hX7N1tD4D0MimiZk7TWriyzHzwT5B+q7dQBxjBG67VnJs2ovv4w8f8g8P/fhzjhoKH5xhXRHpLng3Y3jUcCIFn8LK9F2fZPKE6QGzPx8ks+vsfD+0+a7D0CnRD4r7hhv37XUECiBJ+hMoX1jROA0rxDrMyULfGfSyleu+LCFAQjT6HN1xVo8qczlRBKx/J2DVEqEDERZRjttvStkUtcjwQNSECM8/01s24pEwesc1B/ekEuydaVC0jNk8MeT0mO4PSgniRB3DBsj02t0pXu+coTmbg60jG1qb/HJfal1YzZLpGdDZshEXLvuzdLeEtzMfiHo7YEcLn0mZdE5kVVy+igt1f1m1tuOAPlCk3KK5/0eRWFMh5/YRRNXw1/KhPLyhJrh7eI12LnHjP7gzEfw9kWxUx3u6/BYVE36ByehOVYL8sh7X14ArG3SN3hTC/5K9Dhp0zD+yhxS2cAz60/Eifl5pG9muesROShVBt3RfjQfDF1D2iHSSZdlWYhDICjV/cJkz0Z4jNTH49IFUMQnuN4mSNeJHpxid9PGr3QOqPWxusaLb3ZsywBkeOnURCO8QPgEwPZYctCR/FYfLq30SFXoB6QfQwu9aTguVFDRUtKPrmTinUb5LRkTb8QruZ4vZIdgEHJnXaAWF7iUL+cMIWaiYfvLivlJJFZpkkCAFZX0bK6vqGWi1LMEc8qAIeYVOfjajGi7b9YtcxJyIgZ+sIkxKL2SE84uRlu2ikETcwYdoFC266KTGVsBlBUTQ9hg7hKTlHjf00NCrYEV1/pbmLKRkywEqFyvQgbgg2ZgKz9zpfSmuWKg+Y0jK/NP9hGFvP2ogsIKYKd80MXa6PBhIIEH3vscTZckpAyEDE+CSAUqG9nTG2gisd10OhGIP3dSi6ZxvgEwiv5EoxZuKkcGnwBuwc76L3HavyIA/EFoBpskWnvOYDvYoawh17Vr+Gb1a1nVZjbaYyPzJXMf1g7JoIpoUQ91KxChnqf54s6r/D0W/QIVWC2P4G39HznJGvEComYluVi/d+///3fvr9EBg==",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "220",
+      "cookie": "store-region=cn-sc; store-region-src=did; install_id=4320438601941737; ttreq=1$d25039b85dea38780f5d4258d336541755cc5fcb; odin_tt=169727464b14ea2bc1afd1aa2afabd033af00faea9b547db4a4e5f506d268c00d9d433d9a0a77544ba42452bed3ffe39b3bed4dcd153e40950ccbd7b89230c32b8b977099545c135a7402690afab796e"
+    },
+    "body": {
+      "text": "{\"business_param\":{\"book_id\":\"7566234973884124222\",\"comment_sort_debug\":false,\"end_offset_time\":0,\"item_count\":0,\"max_item_count\":0,\"need_count\":false,\"para_index\":0,\"read_item_count\":0,\"req_type\":0,\"start_offset_time\":0,\"playlet_item_duration\":0},\"comment_source\":1,\"comment_type\":2,\"count\":3,\"group_id\":\"7566234973884124222\",\"group_type\":1,\"server_channel\":4,\"sort\":1}"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "reason": "",
+    "headers": {
+      "server": "volc-dcdn",
+      "content-type": "application/json",
+      "date": "Sat, 21 Mar 2026 21:58:28 GMT",
+      "vary": "Accept-Encoding",
+      "x-tt-agw-login": "0",
+      "x-tt-logid": "2026032205582896AC21F887BBC59C8D22",
+      "server-timing": "inner; dur=102, cdn-cache;desc=MISS, origin;dur=137, edge;dur=0, tt_agw; dur=91",
+      "tt-idc-switch": "10000@20260204111459",
+      "x-tt-trace-host": "010ee561de83e44e3bcd8b80bcb34937684a65b70cee86642c891b2ba099ff7870c4fee0bf117d2bf187d97f7e42a1d1e78cfd861a704f2b6d562beffd8877022cfc2defb4f08f903fd58bec37461d249b2e02d06fc9071dabf9232f92c8b7d436861a32d809b8394ce270634745f0369927c08e1bdcbabdbe5aa52f112ccda4d6d7634130ba649bbbf1504c2da4feb1ca",
+      "x-tt-trace-tag": "id=5",
+      "x-tt-trace-id": "00-126826430301013f87d15a37cfeb07af-126826430301013f-01",
+      "content-encoding": "gzip",
+      "via": "n223-086-122-180.sccdcm07-container.Creative",
+      "x-request-ip": "183.221.109.153",
+      "x-dsa-trace-id": "1774130308531191c9ad52c02efefb714ec9c52583",
+      "x-dsa-origin-status": "200"
+    },
+    "body": {
+      "text": "{\"BaseResp\":{\"StatusCode\":0,\"StatusMessage\":\"success\"},\"code\":0,\"data\":{\"common_list_info\":{\"cursor\":\"\",\"has_more\":false,\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"2026032205582896AC21F887BBC59C8D22\\\"}\"},\"total\":1},\"data_list\":[{\"comment\":{\"comment_id\":\"7568885322946560830\",\"common\":{\"comment_type\":0,\"content\":{\"image_data_list\":{},\"text\":\"有点逻辑，但不多，只要一细究就会发现小说有许多漏洞，不过也比大多数爽文好点了[赞][赞][赞]\"},\"content_type\":0,\"create_timestamp\":1762271734,\"group_id\":\"7566234973884124222\",\"service_id\":2,\"status\":1,\"user_info\":{\"base_info\":{\"description\":\"单机日更30000字，不会作诗也会吟\",\"encode_user_id\":\"#c1967_MTk2NzE5NjcxOTY3MTk2N14XdkdMYnnfmcOEBlqoC2E=\",\"gender\":2,\"is_cancelled\":false,\"profile_gender\":1,\"user_avatar\":\"https://p3-novel.byteimg.com/img/novel-static/7b92beed15144f519898bfe689051d51~tplv-1yzifmftcy-expand:200:0:0.png\",\"user_id\":\"66817329809\",\"user_name\":\"用户22769930\"},\"expand_extra\":{},\"user_id\":\"66817329809\",\"user_relation\":{\"can_follow\":true,\"relation_type\":1},\"user_tag\":{\"fan_rank_num\":0,\"fan_ranklist_title\":\"\",\"is_author\":false,\"is_blue_vip\":false,\"is_cp\":false,\"is_official_cert\":false,\"is_vip\":false,\"user_title_info\":[]}}},\"expand\":{\"book_id\":\"7566234973884124222\",\"book_info\":{\"abstract\":\"一条神秘短信，让超市经理陈默提前嗅到末日气息：“三日内，物资即生命。”\\n他躲进防空洞，却遭女友背叛，物资尽失。\\n逃出生天后，他带着小孩豆豆与退休教师周桂芬，在感染者横行的城市中挣扎求生。\\n\\n从背叛到信任，从绝望到微光，\\n他们突破尸潮、穿越废土，在山谷村落建立临时家园，\\n却揭开更黑暗的真相——第七庇护所的辐射悲剧、北方残骸中的“场效应”起源……\\n\\n当幸存者营地沦为权力猎场，当变异鼠群吞噬同伴，\\n陈默遇到坚韧冷静的女大学生沈冰，组成“微光小队”，\\n渡江东迁，结识森林部落，最终抵达沿海的“望潮”营地。\\n\\n然而，这一切只是开始。\\n他们觉醒特殊能力，直面星空来客的警示：\\n人类不过是“摇篮”中待宰的羔羊，而猎手，已然苏醒……\\n这是末世中普通人成为守护者的史诗，\\n也是废墟之上，爱与人性的最后微光。\",\"audio_thumb_uri\":\"https://p6-novel.byteimg.com/img/novel-pic/p2o2ec23bb3d05cd8ea7a78a88b892b0517~tplv-tt-cs0:440:440.image\",\"author\":\"临川一梦\",\"author_id\":\"\",\"book_id\":\"7566234973884124222\",\"book_name\":\"末日求生：从囤货者到人类救世主\",\"book_short_name\":\"\",\"book_type\":\"0\",\"color_dominate\":\"#201818\",\"creation_status\":\"0\",\"genre\":\"0\",\"genre_type\":\"0\",\"read_count_text\":\"潜力好书\",\"reader_schema\":{\"authorize_type\":\"1\",\"category_schema\":\"[{\\\"category_id\\\":8,\\\"name\\\":\\\"科幻末世\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=8\\u0026name=科幻末世\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":68,\\\"name\\\":\\\"末世\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=68\\u0026name=末世\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":379,\\\"name\\\":\\\"求生\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=379\\u0026name=求生\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"}]\",\"first_chapter_item_id\":\"7566235202196881982\",\"read_count\":\"0\",\"title_page_tags\":\"\",\"word_number\":\"302308\"},\"relate_post_id\":\"\",\"relate_post_schema\":\"\",\"score\":\"0\",\"serial_count\":\"148\",\"tags\":\"科幻末世,末世,求生\",\"thumb_url\":\"https://p3-reading-sign.fqnovelpic.com/novel-pic/p2o2ec23bb3d05cd8ea7a78a88b892b0517~tplv-noop.image?lk3s=9b9bd2b1\\u0026x-expires=1779314308\\u0026x-signature=feJhxOU31ONJ7hP4jIyNQAApXas%3D\",\"tomato_book_status\":\"1\"},\"book_info_list\":[],\"common_stat\":{},\"creator_id\":\"111197152628\",\"extra\":{\"comment_jump_schema\":\"\",\"novelapp_read_item_cnt\":\"13\"},\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"2026032205582896AC21F887BBC59C8D22\\\"}\"},\"relate_info_list\":[],\"reply_show_count\":0,\"reply_show_row\":0,\"score\":\"8\",\"score_suffix_text\":\"阅读不足30分钟后点评\"},\"stat\":{\"digg_count\":0,\"forwarded_count\":0,\"listen_duration\":0,\"read_book_count\":0,\"read_duration\":1799,\"reply_count\":0,\"show_pv\":8},\"user_action\":{\"author\":0,\"is_author_stick\":false,\"stick_position\":0,\"user_digg\":false,\"user_disagree\":false}},\"data_type\":4}],\"extra\":{\"book_info\":{\"abstract\":\"\",\"audio_thumb_uri\":\"\",\"author\":\"\",\"author_id\":\"\",\"book_id\":\"7566234973884124222\",\"book_name\":\"\",\"book_type\":\"\",\"color_dominate\":\"\",\"creation_status\":\"\",\"genre\":\"\",\"genre_type\":\"\",\"score\":\"\",\"serial_count\":\"\",\"tags\":\"\",\"thumb_url\":\"\",\"tomato_book_status\":\"\"},\"filter_tag\":[],\"hot_word_search\":[],\"score_cnt\":2,\"score_text\":\"2人点评\"}},\"debug_info\":\"\",\"log_id\":\"2026032205582896AC21F887BBC59C8D22\",\"message\":\"请求成功\"}"
+    }
+  },
+  "times": {
+    "start": 1774130302.3107827,
+    "end": 1774130302.4679124
+  }
+}

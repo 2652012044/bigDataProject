@@ -1,0 +1,69 @@
+{
+  "scheme": "https",
+  "host": "api5-normal-sinfonlineb.fqnovel.com",
+  "port": 443,
+  "method": "POST",
+  "path": "/novel/commentapi/comment/list/7515052111143373886/v1?aid=1967&compliance_status=0&iid=3264913083468252&device_id=3264913084266956&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774325207008&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=cb4c79e1-5a50-4e50-b61f-cb6a0a88b8ae",
+  "url": "https://api5-normal-sinfonlineb.fqnovel.com/novel/commentapi/comment/list/7515052111143373886/v1?aid=1967&compliance_status=0&iid=3264913083468252&device_id=3264913084266956&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774325207008&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=cb4c79e1-5a50-4e50-b61f-cb6a0a88b8ae",
+  "request": {
+    "headers": {
+      "x-ss-stub": "B2166A68A4DCC477B5A35FA6D9128978",
+      "accept-encoding": "gzip",
+      "accept": "application/json; charset=utf-8,application/x-protobuf",
+      "content-encoding": "gzip",
+      "x-xs-from-web": "0",
+      "x-ss-req-ticket": "1774325207010",
+      "x-reading-request": "1774325207010-229072552",
+      "x-vc-bdturing-sdk-version": "4.0.3.cn",
+      "comment-source": "1",
+      "server-channel": "4",
+      "lc": "101",
+      "sdk-version": "2",
+      "passport-sdk-version": "5051451",
+      "x-tt-store-region": "cn-sc",
+      "x-tt-store-region-src": "did",
+      "user-agent": "com.dragon.read/71132 (Linux; U; Android 9; zh_CN; ASUS_I005DA; Build/PI;tt-ok/3.12.13.20)",
+      "x-ladon": "9yAFoA==",
+      "x-khronos": "1774325207",
+      "x-argus": "1w3CaQ==",
+      "x-gorgon": "8404402f400163765295f3291da095320635ba16102aeae7fde1",
+      "x-helios": "jKVEFYV/zAAhELywp+ow9rXxK7svbGuiFb/rLfJzTRwRQYTP",
+      "x-medusa": "0g3CafpGjaOeeM8q6LhsRfVgDj/ROgAB2Jma4kYXAd8FGEw/erAQodUBXwI3VXvMcCpOYm3eyLHwgVGLmZJdVMDdaLtOPZdyTLvbP2uYbB/q7B35co/ezG2dm0aj1s1IsmtD8SthdxGJ4b5Pg628iIYY+nJAIARWhD2Ga8zr2/4umkpdTLQwinioOqnp4r1zwEK4t0vj6bfQln5FuEMU8oVLbyyXh22lM799XrbWWjPuk/TYd87HvCB6CpI0f9/7ujSS71oK8j1afMiVjZsXwN0rSmrzzy5uy7uvaFOzAs525GvHXo1jSMS0t09+tHV39LGOi0GSc+jOZihC+U0Sr51OX6hmGRK9ekysN8vPs3rK9GMjsb73vTQ/OPJtXTA3aC5FHo/1KJ+r34L5J8kbppYXmTEFUVfDeBbb/EbR6oPbN0b5dcF4Z5pm7pVXxpIyK/3cGcOXJR4rPVqJwjQrhevC5pBCbWVyyENBFuS1yJTc0SxiK5J0x2P7A04/HYznuhseKDxBn/qsktuS44xHwb7OgP6yfZRZPhguWYYnOuOyGLJ81lld97i3yUDBWC/UDrnyMTFbhertlpcfUSmTJZUcuxHLNK40HFfbZNIfyI0FtDeMK1Cu+aNh+gTKw8OUCxfwZeldQ0eGxhiKaGgqN3G5YMpLSFu09oh2T3nx9VvrCX+Yt5oZo3i5ERVycXjH8sVgJF7TzBEyq5gaWuD0+xyqbq33pVMRvZaNNHEUTuMOqpiqRhFlvOaHKmOH+snKYfMXsbvN3HySA9NZzVBDb/nZmn3efHXjDUEsbNG/HusXadE/ntXVWmWef1M7KN9Au06tJMniKHRCQlwqclAdUvmu0AmSotMcdMxnx7C6SI3cmiTNy08UHaVVENAxvRmFkhZJhrNl8yrvewrBOzZtbrgFjHarWiHO0NRbo7nBvLc6jDlvXwonXqInJhebvIHTrvQjh2x4F7mdJOSVFtsgq4PEfOdyFMw37wHeBfmkPQDPRPljDMCRIZJW1AjqVcDopRx5O14Xp/5pGNIYWIDMoB5ijcKdcaZyENWwRlt2aKGkpsFsT8wQQaMtHwRV25PDxgxYkPMaOcrKgPmHvfcKFWxjMo9hkhZK4zJJf7qohgC7RgY5CJibIVHQGN2h/2tNATqMVjE/jZcIlDXaxLrou2m6TnSLaL9LjXWpD+uir4+sPlnZ6caGplST1TqK1qTTlTjA4hVXFiP5UDd+NHeE3zmdkR42D2SoJAD3jxOoT3jADHj/4Mr+PQPXfQm5Y5NCp5EBG0Xp//0f6f/8X1xI",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "219",
+      "cookie": "store-region=cn-sc; store-region-src=did; install_id=3264913083468252; ttreq=1$4c1bbbbab17ea594a5f536e6687bb15282df69c1; odin_tt=b9dbb62db4ad77c5d7bc1194a7e3d745fd105e0d7f9ad2b03f0d439939cc20ec2d45b08d2edc40748c47977a3e8455d6b203f32057de865f73045f0c8888d943d725ef0eeb923bf9c76034c962c8caa6; passport_csrf_token=03878a22e0efcf4f9cbd6650414d6edc; passport_csrf_token_default=03878a22e0efcf4f9cbd6650414d6edc"
+    },
+    "body": {
+      "text": "{\"business_param\":{\"book_id\":\"7515052111143373886\",\"comment_sort_debug\":false,\"end_offset_time\":0,\"item_count\":0,\"max_item_count\":0,\"need_count\":false,\"para_index\":0,\"read_item_count\":0,\"req_type\":0,\"start_offset_time\":0,\"playlet_item_duration\":0},\"comment_source\":1,\"comment_type\":2,\"count\":3,\"group_id\":\"7515052111143373886\",\"group_type\":1,\"server_channel\":4,\"sort\":1}"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "reason": "",
+    "headers": {
+      "content-type": "application/json",
+      "x-dynamic-status": "MISS from KS-CLOUD-KM-CM-84-04",
+      "alt-svc": "h3-29=\":443\";ma=2592000,h3-Q043=\":443\";ma=2592000,quic=\":443\";ma=2592000;v=\"43\"",
+      "date": "Tue, 24 Mar 2026 04:06:46 GMT",
+      "vary": "Accept-Encoding",
+      "x-tt-agw-login": "0",
+      "x-tt-logid": "20260324120646D6C153C5455391432053",
+      "server-timing": "cdn-cache;desc=miss,edge;dur=0,origin;dur=176",
+      "tt-idc-switch": "10000@20260204111459",
+      "x-tt-trace-host": "01dfd4fbc1941c9f13b53e245861e0788a98b61518a121c269d6358b21668451495e9472460c26aa721207a5649d0bd5f6a120e26ea64b568be4b770aa36a7d0385d2fd46f06c2ba8ae403d6ae652f62e54dd7504e502e19824fd0f84a57312235a71153eaba7079765acb730dc94c7d48e4d643980bbc35d6ce0eb156fa54096f2ff2215f0aab10d3dfdeea878e44d262",
+      "x-tt-trace-tag": "id=06;cdn-cache=miss;type=dyn",
+      "x-tt-trace-id": "00-260324120646D6C153C5455391432053-499F6BD16D47EE6C-00",
+      "server": "TLB",
+      "content-encoding": "gzip",
+      "x-cdn-request-id": "3fd4b1a6bce986f8ae745948d63b4202",
+      "x-link-via": "kmcm84:443;"
+    },
+    "body": {
+      "text": "{\"BaseResp\":{\"StatusCode\":0,\"StatusMessage\":\"success\"},\"code\":0,\"data\":{\"common_list_info\":{\"cursor\":\"\",\"has_more\":false,\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260324120646D6C153C5455391432053\\\"}\"},\"total\":1},\"data_list\":[{\"comment\":{\"comment_id\":\"7568149193970484030\",\"common\":{\"comment_type\":0,\"content\":{\"image_data_list\":{},\"text\":\"客观实用，写得好👍\"},\"content_type\":0,\"create_timestamp\":1762098919,\"group_id\":\"7515052111143373886\",\"service_id\":2,\"status\":1,\"user_info\":{\"base_info\":{\"description\":\"\",\"encode_user_id\":\"#c1967_MTk2NzE5NjcxOTY3MTk2N5n6BU8wcE5HLBUHYjpNQx0=\",\"gender\":1,\"is_cancelled\":false,\"profile_gender\":1,\"user_avatar\":\"https://p3-novel.byteimg.com/img/novel-static/8b91e01a7b0242389b43128fe854e4b7~tplv-1yzifmftcy-expand:200:0:0.png\",\"user_id\":\"99419447891146\",\"user_name\":\"斯瓦巴群岛的刘云权\"},\"expand_extra\":{},\"user_id\":\"99419447891146\",\"user_relation\":{\"can_follow\":true,\"relation_type\":1},\"user_tag\":{\"fan_rank_num\":0,\"fan_ranklist_title\":\"\",\"is_author\":false,\"is_blue_vip\":false,\"is_cp\":false,\"is_official_cert\":false,\"is_vip\":false,\"user_title_info\":[]}}},\"expand\":{\"book_id\":\"7515052111143373886\",\"book_info\":{\"abstract\":\"职场不是童话乐园，而是没有硝烟的战场。在晋升名额的激烈争夺中、跨部门利益的交锋里、领导与下属的微妙关系间，一场场权力博弈时刻上演。《权谋职场》撕破职场表面的风平浪静，直击权力斗争的本质，为你揭开职场生存的底层逻辑，助你在复杂的职场生态中突破重围，掌控主动权。\",\"audio_thumb_uri\":\"https://p3-novel.byteimg.com/img/novel-pic/ai/p2o4133a51f660d80365646ef7ff54ee19c~tplv-tt-cs0:440:440.image\",\"author\":\"浩炜\",\"author_id\":\"\",\"book_id\":\"7515052111143373886\",\"book_name\":\"权谋职场\",\"book_short_name\":\"\",\"book_type\":\"0\",\"color_dominate\":\"#404850\",\"creation_status\":\"0\",\"genre\":\"0\",\"genre_type\":\"0\",\"read_count_text\":\"潜力好书\",\"reader_schema\":{\"authorize_type\":\"1\",\"category_schema\":\"[{\\\"category_id\\\":261,\\\"name\\\":\\\"都市日常\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=261\\u0026name=都市日常\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":1,\\\"name\\\":\\\"都市\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=1\\u0026name=都市\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"},{\\\"category_id\\\":871,\\\"name\\\":\\\"第一人称\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=871\\u0026name=第一人称\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"}]\",\"first_chapter_item_id\":\"7515052307252249150\",\"read_count\":\"6\",\"title_page_tags\":\"\",\"word_number\":\"158024\"},\"relate_post_id\":\"\",\"relate_post_schema\":\"\",\"score\":\"0\",\"serial_count\":\"71\",\"tags\":\"都市日常,都市,第一人称\",\"thumb_url\":\"https://p3-reading-sign.fqnovelpic.com/novel-pic/ai/p2o4133a51f660d80365646ef7ff54ee19c~tplv-noop.image?lk3s=9b9bd2b1\\u0026x-expires=1779509206\\u0026x-signature=iP7L9NJ2gAgAz0WkLJLt%2F9fGMnE%3D\",\"tomato_book_status\":\"1\"},\"book_info_list\":[],\"common_stat\":{},\"creator_id\":\"3545303863003022\",\"extra\":{\"comment_jump_schema\":\"\",\"novelapp_read_item_cnt\":\"11\"},\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260324120646D6C153C5455391432053\\\"}\"},\"relate_info_list\":[],\"reply_show_count\":0,\"reply_show_row\":0,\"score\":\"10\",\"score_suffix_text\":\"阅读43分钟后点评\"},\"stat\":{\"digg_count\":0,\"forwarded_count\":0,\"listen_duration\":0,\"read_book_count\":0,\"read_duration\":2593,\"reply_count\":0,\"show_pv\":0},\"user_action\":{\"author\":0,\"is_author_stick\":false,\"stick_position\":0,\"user_digg\":false,\"user_disagree\":false}},\"data_type\":4}],\"extra\":{\"book_info\":{\"abstract\":\"\",\"audio_thumb_uri\":\"\",\"author\":\"\",\"author_id\":\"\",\"book_id\":\"7515052111143373886\",\"book_name\":\"\",\"book_type\":\"\",\"color_dominate\":\"\",\"creation_status\":\"\",\"genre\":\"\",\"genre_type\":\"\",\"score\":\"\",\"serial_count\":\"\",\"tags\":\"\",\"thumb_url\":\"\",\"tomato_book_status\":\"\"},\"filter_tag\":[],\"hot_word_search\":[],\"score_cnt\":3,\"score_text\":\"3人点评\"}},\"debug_info\":\"\",\"log_id\":\"20260324120646D6C153C5455391432053\",\"message\":\"请求成功\"}"
+    }
+  },
+  "times": {
+    "start": 1774325195.4610813,
+    "end": 1774325195.665602
+  }
+}

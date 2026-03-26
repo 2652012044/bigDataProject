@@ -1,0 +1,69 @@
+{
+  "scheme": "https",
+  "host": "api5-normal-sinfonlineb.fqnovel.com",
+  "port": 443,
+  "method": "POST",
+  "path": "/novel/commentapi/comment/list/7609460450446543896/v1?aid=1967&compliance_status=0&iid=3264913083468252&device_id=3264913084266956&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774282663710&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=cb4c79e1-5a50-4e50-b61f-cb6a0a88b8ae",
+  "url": "https://api5-normal-sinfonlineb.fqnovel.com/novel/commentapi/comment/list/7609460450446543896/v1?aid=1967&compliance_status=0&iid=3264913083468252&device_id=3264913084266956&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774282663710&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=cb4c79e1-5a50-4e50-b61f-cb6a0a88b8ae",
+  "request": {
+    "headers": {
+      "x-ss-stub": "F715763DCA778F980CBA5F293BFC7B09",
+      "accept-encoding": "gzip",
+      "accept": "application/json; charset=utf-8,application/x-protobuf",
+      "content-encoding": "gzip",
+      "x-xs-from-web": "0",
+      "x-ss-req-ticket": "1774282663721",
+      "x-reading-request": "1774282663721-364645456",
+      "x-vc-bdturing-sdk-version": "4.0.3.cn",
+      "comment-source": "1",
+      "server-channel": "4",
+      "lc": "101",
+      "sdk-version": "2",
+      "passport-sdk-version": "5051451",
+      "x-tt-store-region": "cn-sc",
+      "x-tt-store-region-src": "did",
+      "user-agent": "com.dragon.read/71132 (Linux; U; Android 9; zh_CN; ASUS_I005DA; Build/PI;tt-ok/3.12.13.20)",
+      "x-ladon": "iHknEA==",
+      "x-khronos": "1774282663",
+      "x-argus": "p2fBaQ==",
+      "x-gorgon": "8404c0734001fcc4596fe13db8bc5b3b2d145cb3428c7a88771c",
+      "x-helios": "+QAeSNAYJMrMbYRr0UcfPbUCQ7CcRGl8bX19aXvKQc7MqqCn",
+      "x-medusa": "omfBaYosjqPuEswqmNJvRYUKDT+zcAAB7pmyE7RJATAFGIQr6z87wdUXfeXP7vb9g1eYDvQ4BEjqKoDpF6ueINdJFIS3yNVukuojZqbJ2XyIZfaJQ/TA9C5feaws80uQgUH5wx+vxT3PusiLv887NZ1wbKKMyO8DFgmByiKLsv8p9pq+fzMJhxHVLrzd58ScgSoJ67i+Ei4VBS3vLdmK5cWj4sE2xxHiihmA8xjyBK10t739+u9LxPcmLu4rFmx6QoK4ubxPjjdyLf54UGgLlPEEt06gV6MRrngMR5r/+O2qGaXC9qAjxEzSqakBpiI5F8wydsr+5tI1SP5GNzEzEXjeRaDqwJXTGtKuEvBNLOvfzCvccIU17sjJmOnwcI6WrQB+IM3eJNB4lNbXS2I64GM/GXkBbt1zbdWfTt5ZTqOKL1qBzmFA5K63Azmr6z+QByfoW6lh+Ju3JulIwSiglB0Cw0Rs0i/05sWBU1gWYUuivIiSISFbqj/XwxkXHWRpVpHQitMd1LnAU/ZdHNeS4o2GDoOcWmPBBf/su45+vJdCOKWFO5/gnXi4t5zQDV1QPTG+nslLAieammF8lpZ/doUoodixPlwU4qBWPJQCX2DVmOwyINnXkxBRLb/2AabcOiYiBXGPVY3z26tFmwPEnWx3beDez8qRQy5QZxhj0RZM2/gmKKdf5j1cjY2316O5kxxp8jT5t1QCwRwZ253I9XxLx648jXA4+rx22GAn9Gv1BnJwHfKK7BqWq65KGEEq8jaudnWRCSBWOP3w4HVX788Id1xTIRUWp0NPbACGoiBb+EB1Ta7izce9AGhnt9OQELp3j2zzAdXVSE1CjfkBPyJUKn2jImXLGurKDcB2HVmu3ZrNwf6zPXtDAKOTFbo5SyAFy/ApPKh/VGCSnEl33BdkN8/ctBHgLNwtIdRe/6v5vaj9fHcfI7CJk4mfHNBkRP3UI3em/k20brk39AXkOr3fu8REvG/fO6yagi6X3rEvbPd5e4S2+Qotik8mR+jiiCZEJq5P0PmVHGC7CdEoB0hoAyWDUGuzP5TVe7yvQSrhXkT6KFOZF3iyEE9Vl6GSqzzeDQH8EbNID5wAKs/mb3UWU+HDLznrXBALXzI2ru5AdSXASGLCb2RFVOYT5IXoZvNosm5Ts4ccp1YuaVc40zZFQH18OK/ADXbdO9cFYyFfTd6EI8WK3P/45q0rphXDDjcoKUqZUq1YlftvtKJYkbTpzVwWpHb3Hn7U59AtVEUutfIQjh51Hs+H2WTB2oPOf72ZU2/c//5v3P6+MhA=",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "219",
+      "cookie": "store-region=cn-sc; store-region-src=did; install_id=3264913083468252; ttreq=1$4c1bbbbab17ea594a5f536e6687bb15282df69c1; odin_tt=b9dbb62db4ad77c5d7bc1194a7e3d745fd105e0d7f9ad2b03f0d439939cc20ec2d45b08d2edc40748c47977a3e8455d6b203f32057de865f73045f0c8888d943d725ef0eeb923bf9c76034c962c8caa6; passport_csrf_token=03878a22e0efcf4f9cbd6650414d6edc; passport_csrf_token_default=03878a22e0efcf4f9cbd6650414d6edc"
+    },
+    "body": {
+      "text": "{\"business_param\":{\"book_id\":\"7609460450446543896\",\"comment_sort_debug\":false,\"end_offset_time\":0,\"item_count\":0,\"max_item_count\":0,\"need_count\":false,\"para_index\":0,\"read_item_count\":0,\"req_type\":0,\"start_offset_time\":0,\"playlet_item_duration\":0},\"comment_source\":1,\"comment_type\":2,\"count\":3,\"group_id\":\"7609460450446543896\",\"group_type\":1,\"server_channel\":4,\"sort\":1}"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "reason": "",
+    "headers": {
+      "server": "volc-dcdn",
+      "content-type": "application/json",
+      "date": "Mon, 23 Mar 2026 16:17:43 GMT",
+      "vary": "Accept-Encoding",
+      "x-tt-agw-login": "0",
+      "x-tt-logid": "20260324001743B81BAD4F079D8220DCAA",
+      "server-timing": "inner; dur=146, cdn-cache;desc=MISS, origin;dur=188, edge;dur=0, tt_agw; dur=134",
+      "tt-idc-switch": "10000@20260204111459",
+      "x-tt-trace-host": "0153fa259baf8ba17820e51416f52891484a2ae9471a8310abea0a3c00fc463302e43ff344243c7b6b5cafdeef80da2461b91f1a7c1d1279670157cf803e9eff1410272b441605a898eb7e9182a1a23858245c9ce5b8e140c83a8c100b1af4e60393ea59fdbbf68ece69eb781a9bf67c9b43b4ead7240264e5830f18aeb76c11cfd403eb95e24849fb4f45946bc7e97d090f61adfcae46eef5312666422fef4eb240beed5b4990c7999ad107268c905db7",
+      "x-tt-trace-tag": "id=5",
+      "x-tt-trace-id": "00-1b7ce8b803010dc892f3075bb3db07af-1b7ce8b803010dc8-01",
+      "content-encoding": "gzip",
+      "via": "n223-086-122-160.sccdcm07-container.Creative",
+      "x-request-ip": "2409:8a62:f12:4e30:21b9:27f6:21fd:91ff",
+      "x-dsa-trace-id": "1774282663cc3cdbe65b610eea70aae36237468026",
+      "x-dsa-origin-status": "200"
+    },
+    "body": {
+      "text": "{\"BaseResp\":{\"StatusCode\":0,\"StatusMessage\":\"success\"},\"code\":0,\"data\":{\"common_list_info\":{\"cursor\":\"\",\"has_more\":false,\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260324001743B81BAD4F079D8220DCAA\\\"}\"},\"total\":1},\"data_list\":[{\"comment\":{\"comment_id\":\"7611801061799641918\",\"common\":{\"comment_type\":0,\"content\":{\"image_data_list\":{},\"text\":\"还是挺不错的\"},\"content_type\":0,\"create_timestamp\":1772262392,\"group_id\":\"7609460450446543896\",\"service_id\":2,\"status\":1,\"user_info\":{\"base_info\":{\"description\":\"日积月累终成圣，一朝踏雪至山巅。\",\"encode_user_id\":\"#c1967_MTk2NzE5NjcxOTY3MTk2N0tE3g6m6aiSBC5RNgsDga/FlL6avSYIMA+hYw33N1Yt\",\"gender\":1,\"is_cancelled\":false,\"profile_gender\":0,\"user_avatar\":\"http://p3-reading-sign.fqnovelpic.com/tos-cn-i-1yzifmftcy/d65c40f5b23e417b902abacd2550d38f~tplv-s85hriknmn-jpeg-v1:144:0.jpeg?lk3s=9b9bd2b1\\u0026x-expires=1776879834\\u0026x-signature=csFt0TSy1CyYHCcUaZSsKCxwngE%3D\",\"user_id\":\"3966633942191411\",\"user_name\":\"太宇的不动如来\"},\"expand_extra\":{},\"user_id\":\"3966633942191411\",\"user_relation\":{\"can_follow\":true,\"relation_type\":1},\"user_tag\":{\"fan_rank_num\":0,\"fan_ranklist_title\":\"\",\"is_author\":true,\"is_blue_vip\":false,\"is_cp\":false,\"is_official_cert\":false,\"is_vip\":false,\"user_title_info\":[{\"en_title\":\"author_level_1\",\"intro\":\"{\\\"title_name\\\":\\\"作家Lv.1\\\",\\\"title_id\\\":\\\"author_level_1\\\"}\",\"is_author_title\":true,\"is_vip_title\":false,\"label\":\"{\\\"title_text\\\":\\\"作家Lv.1\\\",\\\"title_default_color\\\":\\\"#FFFFFF\\\",\\\"title_dark_color\\\":\\\"#FFFFFF\\\",\\\"bg_default_color\\\":\\\"{\\\\\\\"start\\\\\\\":\\\\\\\"#FF9F31\\\\\\\",\\\\\\\"end\\\\\\\":\\\\\\\"#FFB95C\\\\\\\"}\\\",\\\"bg_dark_color\\\":\\\"{\\\\\\\"start\\\\\\\":\\\\\\\"#CC8029\\\\\\\",\\\\\\\"end\\\\\\\":\\\\\\\"#CC9349\\\\\\\"}\\\",\\\"title_dark_diaphaneity\\\":\\\"CC\\\"}\",\"zh_title\":\"作家Lv.1\"}]}}},\"expand\":{\"book_id\":\"7609460450446543896\",\"book_info\":{\"abstract\":\"一部包拯、狄杰、宋慈同朝破案的推理长篇，剧情紧促，情节严禁，带领读者进入神探天团的推理世界，一起烧脑吧。\",\"audio_thumb_uri\":\"https://p3-novel.byteimg.com/img/novel-pic/15974b3cb85048363d059b28e8829e96~tplv-tt-cs0:440:440.image\",\"author\":\"太宇的不动如来\",\"author_id\":\"\",\"book_id\":\"7609460450446543896\",\"book_name\":\"神探同朝\",\"book_short_name\":\"\",\"book_type\":\"0\",\"color_dominate\":\"#401818\",\"creation_status\":\"0\",\"genre\":\"0\",\"genre_type\":\"0\",\"read_count_text\":\"潜力好书\",\"reader_schema\":{\"authorize_type\":\"1\",\"category_schema\":\"[{\\\"category_id\\\":539,\\\"name\\\":\\\"悬疑脑洞\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=539\\u0026name=悬疑脑洞\\u0026genre_type=0\\u0026gender=1\\u0026source=detail\\\"}]\",\"first_chapter_item_id\":\"7609465136197157401\",\"read_count\":\"1\",\"title_page_tags\":\"\",\"word_number\":\"34095\"},\"relate_post_id\":\"\",\"relate_post_schema\":\"\",\"score\":\"0\",\"serial_count\":\"10\",\"tags\":\"悬疑脑洞\",\"thumb_url\":\"https://p3-reading-sign.fqnovelpic.com/novel-pic/15974b3cb85048363d059b28e8829e96~tplv-noop.image?lk3s=9b9bd2b1\\u0026x-expires=1779466663\\u0026x-signature=pP%2FG%2F%2FMJBoNiunmtiyv0oJlMrxQ%3D\",\"tomato_book_status\":\"1\"},\"book_info_list\":[],\"common_stat\":{},\"creator_id\":\"3966633942191411\",\"extra\":{\"comment_jump_schema\":\"\",\"novelapp_read_item_cnt\":\"1\"},\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260324001743B81BAD4F079D8220DCAA\\\"}\"},\"relate_info_list\":[],\"reply_show_count\":0,\"reply_show_row\":0,\"score\":\"10\",\"score_suffix_text\":\"\"},\"stat\":{\"digg_count\":1,\"forwarded_count\":0,\"listen_duration\":59,\"read_book_count\":0,\"reply_count\":0,\"show_pv\":0},\"user_action\":{\"author\":1,\"author_digg_time\":1772262401,\"is_author_stick\":false,\"stick_position\":0,\"user_digg\":false,\"user_disagree\":false}},\"data_type\":4}],\"extra\":{\"book_info\":{\"abstract\":\"\",\"audio_thumb_uri\":\"\",\"author\":\"\",\"author_id\":\"\",\"book_id\":\"7609460450446543896\",\"book_name\":\"\",\"book_type\":\"\",\"color_dominate\":\"\",\"creation_status\":\"\",\"genre\":\"\",\"genre_type\":\"\",\"score\":\"\",\"serial_count\":\"\",\"tags\":\"\",\"thumb_url\":\"\",\"tomato_book_status\":\"\"},\"filter_tag\":[],\"hot_word_search\":[],\"score_cnt\":1,\"score_text\":\"1人点评\"}},\"debug_info\":\"\",\"log_id\":\"20260324001743B81BAD4F079D8220DCAA\",\"message\":\"请求成功\"}"
+    }
+  },
+  "times": {
+    "start": 1774282654.3040614,
+    "end": 1774282654.513219
+  }
+}

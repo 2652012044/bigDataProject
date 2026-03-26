@@ -1,0 +1,69 @@
+{
+  "scheme": "https",
+  "host": "api5-normal-sinfonlinea.fqnovel.com",
+  "port": 443,
+  "method": "POST",
+  "path": "/novel/commentapi/comment/list/7432172878562331673/v1?aid=1967&compliance_status=0&iid=4021377082615307&device_id=4021377082611211&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774249729369&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=0cf308a0-82ee-4ae2-9a98-ac9cc86a7c9b",
+  "url": "https://api5-normal-sinfonlinea.fqnovel.com/novel/commentapi/comment/list/7432172878562331673/v1?aid=1967&compliance_status=0&iid=4021377082615307&device_id=4021377082611211&ac=wifi&channel=huawei_1967_64&app_name=novelapp&version_code=71132&version_name=7.1.1.32&device_platform=android&os=android&ssmix=a&device_type=ASUS_I005DA&device_brand=Asus&language=zh&os_api=28&os_version=9&manifest_version_code=71132&resolution=1600*1000&dpi=300&update_version_code=71132&_rticket=1774249729369&&host_abi=arm64-v8a&dragon_device_type=pad&pv_player=71132&need_personal_recommend=1&player_so_load=1&is_android_pad_screen=1&rom_version=Asus-user+9.0.0+20171130.276299+release-keys&cdid=0cf308a0-82ee-4ae2-9a98-ac9cc86a7c9b",
+  "request": {
+    "headers": {
+      "x-ss-stub": "3174081AD5044608C717F0CAE27627D4",
+      "accept-encoding": "gzip",
+      "accept": "application/json; charset=utf-8,application/x-protobuf",
+      "content-encoding": "gzip",
+      "x-xs-from-web": "0",
+      "x-ss-req-ticket": "1774249729369",
+      "x-reading-request": "1774249729370-1847391474",
+      "x-vc-bdturing-sdk-version": "4.0.3.cn",
+      "comment-source": "1",
+      "server-channel": "4",
+      "lc": "101",
+      "sdk-version": "2",
+      "passport-sdk-version": "5051451",
+      "x-tt-store-region": "cn-sc",
+      "x-tt-store-region-src": "did",
+      "user-agent": "com.dragon.read/71132 (Linux; U; Android 9; zh_CN; ASUS_I005DA; Build/PI;tt-ok/3.12.13.20)",
+      "x-ladon": "7pAZsA==",
+      "x-khronos": "1774249729",
+      "x-argus": "AefAaQ==",
+      "x-gorgon": "8404e0de4001251f888b36fb0314ee941664d39ec6afd08c64da",
+      "x-helios": "3tN8ZxXt58AcYdto+PJMIi5ur8xYCrjnwxs93l8eqFhMRTgD",
+      "x-medusa": "BOfAaSysj6NIks0qPlJuRSOKDD90twABAdnGsnovgacPWDOU48SMuioOYK8uIR3Hugw8X91g3qKMcuuCl8wCvQbGowl3yxQ88Agxrq4Uwby7mJXY4s9oEn1Rnx42t/exeftAjNhEQcRDT70WeeSy/P2iJtPMGItZGkXKd/U+Cv+5uDdbUpUd8/7G9gaLKZaEyNzfG23i1yC9QPmOdYqMiPJY38AURWy3mmPjBwqQY0PE7e33Sm77BMvFZ//RtG8CBufGvvEQTys6p+hrj6ARr3TaYH4cuP5SyiI7q/Ep9jih3G3EVyz2KPUse3OmN+1UJuQPEdtnLYbFdwgeGro6joJs8HkECvvm91iaijNeMLTMzaxIZqBAQ/b1a8CsXUk3fKRYjHmpR/6vXk3gB2a0fzCmdAky5V4ObojeonKDUGMRi9kR0GzF6gosTgh7xxs+83TEFljakWbH2U8uCiKVHUZ9XUKKWlZUrNgg/ZlckNwki1O11fdNXMLGUoOLUdZ0RJgWoRkUSiqxn2u2SXjc6t6sGujxirq1TTX0/kbtFidY2rQQqrY09MsYmxOKAH0+aSEs6w7YPfMyKWATQcGsfbUWTstIZJI2yFl6Btw0DO8eMYQsttWqcMVIdNjmiDQHN42lzHLicdaK56+L4CDq9JCSWgPOsR1/2nrPxBvRKkMm3f7moI6SZxdEHSVZrPN2MEIc1dQvQdTVYQDoKjr4ALz8BrdkePeXEZQ8u9+LfKKW5PCnt+Y24lnyK+wBwgbFGFrHmFPUk4zixcL1UtO01Pai999ZKruqT2CU9ppmCPEiuDJM4Q5d2p24yzlgmMEtipeQl1Kg8VNOhByWVphNtG2BJQ0wsAxbU5J+2av7JEdMG6ImgGE+rzLF7bXUqez39nWsimmUCqd0CzOuxh1Nsg1W/vQyIGDhCnACPzOaxGQfXdvJBY0idgApApSebOYLshVZ9TDcZc2Oez+43yPIXz+O2WSIlL53SBd0yMwwlXI3W3icDVS9n3eslwgSuVSLMJIlqwkPVpcy3wl/GDDt0Z5diXEzXdSGqkLN1tITKiDYQMtukH7WPUbR4gXn0nrL3RqBd2X4JBwtMCRPUCxSHimeWQdgcHQA40XvH37jgM7qRLs2y629G2Az4plzbDt0aZRfqubZW8TxD6/GU/RcG7n/aF9NEXMJmrV9S9ste5X9AMtImaMlG4bYyuOjYxCG+l+I5wZTsTNs0ZK54qyE4UmXixp+xU1RsptlfVq4NFwHqwdThWs8IELUqUFqfdrIYDKEI7t3//knLf/5Jm3bDw==",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "219",
+      "cookie": "store-region=cn-sc; store-region-src=did; install_id=4021377082615307; ttreq=1$8d264b699f2c6211360a77230559b55ee4cd6018; odin_tt=d516628481b59710d58a65ce65fcc95cf9c56bde7ab5cb89de9676ab8e496874c1b0320198da8d09414b21522b8a4941f13926ff8ae1bce0d395b25db3d3d38cc14556b5c90d41c0c6d09f00387e7e8a; passport_csrf_token=0ce3518b3ff5a4a8011639a176fe24a7; passport_csrf_token_default=0ce3518b3ff5a4a8011639a176fe24a7"
+    },
+    "body": {
+      "text": "{\"business_param\":{\"book_id\":\"7432172878562331673\",\"comment_sort_debug\":false,\"end_offset_time\":0,\"item_count\":0,\"max_item_count\":0,\"need_count\":false,\"para_index\":0,\"read_item_count\":0,\"req_type\":0,\"start_offset_time\":0,\"playlet_item_duration\":0},\"comment_source\":1,\"comment_type\":2,\"count\":3,\"group_id\":\"7432172878562331673\",\"group_type\":1,\"server_channel\":4,\"sort\":1}"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "reason": "",
+    "headers": {
+      "server": "volc-dcdn",
+      "content-type": "application/json",
+      "date": "Mon, 23 Mar 2026 07:08:49 GMT",
+      "vary": "Accept-Encoding",
+      "x-tt-agw-login": "0",
+      "x-tt-logid": "20260323150849160E0F8C0867BFAED806",
+      "server-timing": "inner; dur=124, cdn-cache;desc=MISS, origin;dur=165, edge;dur=0, tt_agw; dur=112",
+      "tt-idc-switch": "10000@20260204111459",
+      "x-tt-trace-host": "01d0aee9864ce4702cc4da470005f71f8d48259c75b007a7a3c61329da93b4f2a22e8033fc4920c275ad2087000c80f5a2383a54e1a8498f63a3238d637d7b344f26e2accbbc9fe755f5b87dea22f8dbb01a5467b7311f19960d58941b35108fafd377bc60d1b865dd30cc1e9180b3bd7df2bf974ea409e114ae6c7051f1dbb121932aed83894319398d19d9502367221e",
+      "x-tt-trace-tag": "id=5",
+      "x-tt-trace-id": "00-1986607603010dbd2e88213a2b7a07af-1986607603010dbd-01",
+      "content-encoding": "gzip",
+      "via": "n223-086-122-173.sccdcm07-container.Creative",
+      "x-request-ip": "112.54.89.107",
+      "x-dsa-trace-id": "17742497299712b968413007b4797ad5c5feeacbb5",
+      "x-dsa-origin-status": "200"
+    },
+    "body": {
+      "text": "{\"BaseResp\":{\"StatusCode\":0,\"StatusMessage\":\"success\"},\"code\":0,\"data\":{\"common_list_info\":{\"cursor\":\"\",\"has_more\":false,\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260323150849160E0F8C0867BFAED806\\\"}\"},\"total\":1},\"data_list\":[{\"comment\":{\"comment_id\":\"7443682103122182948\",\"common\":{\"comment_type\":0,\"content\":{\"image_data_list\":{},\"text\":\"书中内容通俗易懂，还介绍了很多实用的技巧，让我对动漫游戏角色设计有了更全面的了解。想起我在大学时参加的动漫社，当时对角色设计特别感兴趣，这本书简直就是我的梦想之书！我相信它会对我未来的职业发展有很大的帮助。\"},\"content_type\":0,\"create_timestamp\":1731531597,\"group_id\":\"7432172878562331673\",\"service_id\":2,\"status\":1,\"user_info\":{\"base_info\":{\"description\":\"\",\"encode_user_id\":\"#c1967_MTk2NzE5NjcxOTY3MTk2NxBp9u6SIRsHyHHEwasG571hF4dwvnG4wzpdQL/S0wDO\",\"gender\":2,\"is_cancelled\":false,\"profile_gender\":2,\"user_avatar\":\"https://p3-novel.byteimg.com/img/novel-static/3abe6a50e39b4bf1ba7c29f33074e1a8~tplv-1yzifmftcy-expand:200:0:0.png\",\"user_id\":\"1330878793392393\",\"user_name\":\"诛天殿的道飞宇\"},\"expand_extra\":{},\"user_id\":\"1330878793392393\",\"user_relation\":{\"can_follow\":true,\"relation_type\":1},\"user_tag\":{\"fan_rank_num\":0,\"fan_ranklist_title\":\"\",\"is_author\":false,\"is_blue_vip\":false,\"is_cp\":false,\"is_official_cert\":false,\"is_vip\":false,\"user_title_info\":[]}}},\"expand\":{\"book_id\":\"7432172878562331673\",\"book_info\":{\"abstract\":\"《动漫游戏角色设计》介绍了写实角色的创建过程，高面人体模型的布线及高面模型在各行各业的应用。还介绍了Bones骨骼和Character Studio对象的一些基础功能，以及通过控制该类型的物体创建角色动画的方法。在角色模型创建完毕后，可以通过设置顶点关键帧来创建动画，从而对角色的制作流程有全面系统的了解和认识。《动漫游戏角色设计》语言通俗易懂，内容丰富翔实，突出了以实用为中心的特点，可以作为本科及高职高专学生学习动漫游戏色彩相关专业的教科书，也可以作为从事动漫游戏方面开发的爱好者的入门参考书。\",\"audio_thumb_uri\":\"https://p6-novel.byteimg.com/img/novel-pic/3ff02511cb0188b73e6e0c1642464fa3~tplv-tt-cs0:440:440.image\",\"author\":\"袁琳\",\"author_id\":\"\",\"book_id\":\"7432172878562331673\",\"book_name\":\"动漫游戏角色设计\",\"book_short_name\":\"\",\"book_type\":\"0\",\"color_dominate\":\"#d0c0a0\",\"creation_status\":\"0\",\"genre\":\"6\",\"genre_type\":\"160\",\"read_count_text\":\"1013人读过\",\"reader_schema\":{\"authorize_type\":\"0\",\"category_schema\":\"[{\\\"category_id\\\":978,\\\"name\\\":\\\"教育学习\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=978\\u0026name=教育学习\\u0026genre_type=160\\u0026gender=2\\u0026source=detail\\\"},{\\\"category_id\\\":345,\\\"name\\\":\\\"高等教育\\\",\\\"schema\\\":\\\"dragon1967://newCategoryDetail?id=345\\u0026name=高等教育\\u0026genre_type=160\\u0026gender=2\\u0026source=detail\\\"}]\",\"first_chapter_item_id\":\"7432172943272070206\",\"read_count\":\"37\",\"title_page_tags\":\"\",\"word_number\":\"8\"},\"relate_post_id\":\"\",\"relate_post_schema\":\"\",\"score\":\"8.0\",\"serial_count\":\"1\",\"tags\":\"教育学习,高等教育\",\"thumb_url\":\"https://p3-reading-sign.fqnovelpic.com/novel-pic/3ff02511cb0188b73e6e0c1642464fa3~tplv-noop.image?lk3s=9b9bd2b1\\u0026x-expires=1779433729\\u0026x-signature=827w5cQhP18OaPyXgqtFAqtcS3U%3D\",\"tomato_book_status\":\"1\"},\"book_info_list\":[],\"common_stat\":{},\"creator_id\":\"0\",\"extra\":{\"comment_jump_schema\":\"\",\"novelapp_read_item_cnt\":\"\"},\"log_extra\":{\"recommend_info\":\"{\\\"channel_id\\\":\\\"\\\",\\\"request_id\\\":\\\"20260323150849160E0F8C0867BFAED806\\\"}\"},\"relate_info_list\":[],\"reply_show_count\":0,\"reply_show_row\":0,\"score\":\"8\",\"score_suffix_text\":\"阅读6小时后点评\"},\"stat\":{\"digg_count\":0,\"forwarded_count\":0,\"read_book_count\":0,\"read_duration\":21300,\"reply_count\":0,\"show_pv\":52},\"user_action\":{\"author\":0,\"is_author_stick\":false,\"stick_position\":0,\"user_digg\":false,\"user_disagree\":false}},\"data_type\":4}],\"extra\":{\"book_info\":{\"abstract\":\"\",\"audio_thumb_uri\":\"\",\"author\":\"\",\"author_id\":\"\",\"book_id\":\"7432172878562331673\",\"book_name\":\"\",\"book_type\":\"\",\"color_dominate\":\"\",\"creation_status\":\"\",\"genre\":\"\",\"genre_type\":\"\",\"score\":\"\",\"serial_count\":\"\",\"tags\":\"\",\"thumb_url\":\"\",\"tomato_book_status\":\"\"},\"filter_tag\":[],\"hot_word_search\":[],\"score_cnt\":1,\"score_text\":\"1人点评\"}},\"debug_info\":\"\",\"log_id\":\"20260323150849160E0F8C0867BFAED806\",\"message\":\"请求成功\"}"
+    }
+  },
+  "times": {
+    "start": 1774249722.5133348,
+    "end": 1774249722.6861188
+  }
+}
