@@ -275,7 +275,6 @@ def import_bookinfo(conn):
             ))
             count_comment += 1
 
-        print(f"  书籍: {data.get('book_name', fname)} - {len(comments)} 条评论")
 
     conn.commit()
     print(f"  共处理 {count_book} 本书详情，{count_comment} 条评论")
@@ -379,7 +378,6 @@ def import_userinfo(conn):
                 safe_int(ab.get('platform')),
             ))
 
-        print(f"  作者: {info.get('user_name', fname)} - {len(author_books)} 部作品")
 
     conn.commit()
     print(f"  共处理 {count} 位作者")

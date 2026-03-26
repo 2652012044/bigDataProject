@@ -71,14 +71,16 @@
           <h3 class="card-title">模型信息</h3>
           <div v-if="modelInfo" class="model-info">
             <el-descriptions :column="1" border size="small">
-              <el-descriptions-item label="算法">{{ modelInfo.algorithm }}</el-descriptions-item>
-              <el-descriptions-item label="词汇量">{{ modelInfo.vocabularySize }} 词</el-descriptions-item>
-              <el-descriptions-item label="正面种子词">{{ modelInfo.positiveSeedWords }} 个</el-descriptions-item>
-              <el-descriptions-item label="负面种子词">{{ modelInfo.negativeSeedWords }} 个</el-descriptions-item>
-              <el-descriptions-item label="训练样本数">{{ modelInfo.totalTrainSamples }}</el-descriptions-item>
-              <el-descriptions-item label="特征方法">{{ modelInfo.features }}</el-descriptions-item>
-              <el-descriptions-item label="正面先验概率">{{ modelInfo.priorPositive }}%</el-descriptions-item>
-              <el-descriptions-item label="负面先验概率">{{ modelInfo.priorNegative }}%</el-descriptions-item>
+              <el-descriptions-item label="模型架构">{{ modelInfo.algorithm || modelInfo.model_name || '-' }}</el-descriptions-item>
+              <el-descriptions-item label="隐藏维度">{{ modelInfo.d_model || '-' }}</el-descriptions-item>
+              <el-descriptions-item label="注意力头数">{{ modelInfo.nhead || '-' }}</el-descriptions-item>
+              <el-descriptions-item label="编码层数">{{ modelInfo.num_layers || '-' }}</el-descriptions-item>
+              <el-descriptions-item label="前馈维度">{{ modelInfo.dim_feedforward || '-' }}</el-descriptions-item>
+              <el-descriptions-item label="词汇表大小">{{ modelInfo.vocab_size || '-' }}</el-descriptions-item>
+              <el-descriptions-item label="最大长度">{{ modelInfo.max_len || '-' }}</el-descriptions-item>
+              <el-descriptions-item label="分类数">{{ modelInfo.num_classes || '-' }}</el-descriptions-item>
+              <el-descriptions-item label="中性阈值">{{ modelInfo.neutral_threshold || '-' }}</el-descriptions-item>
+              <el-descriptions-item label="运行设备">{{ modelInfo.device || '-' }}</el-descriptions-item>
             </el-descriptions>
           </div>
         </div>

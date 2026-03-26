@@ -33,7 +33,6 @@ const menuConfig = {
   sentiment: [
     { path: '/sentiment/classify', title: '情感分类', icon: 'ChatLineSquare' },
     { path: '/sentiment/reputation', title: '口碑评分', icon: 'Star' },
-    { path: '/sentiment/hotspot', title: '热点分析', icon: 'Sunny' },
     { path: '/sentiment/predict', title: '情感预测', icon: 'MagicStick' }
   ],
   recommend: [
@@ -42,9 +41,8 @@ const menuConfig = {
     { path: '/recommend/similar', title: '相似推荐', icon: 'Connection' }
   ],
   trend: [
-    { path: '/trend/type', title: '类型趋势', icon: 'TrendCharts' },
     { path: '/trend/heat', title: '热度趋势', icon: 'DataLine' },
-    { path: '/trend/keyword', title: '关键词趋势', icon: 'Promotion' }
+    { path: '/trend/keyword', title: '关键词洞察', icon: 'Promotion' }
   ],
   data: [
     { path: '/data/cleaning', title: '清洗日志', icon: 'Document' }
