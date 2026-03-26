@@ -5,6 +5,8 @@ import argparse
 import warnings
 import torch
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from openai import OpenAI
 
 warnings.filterwarnings(
     'ignore',
@@ -26,6 +28,60 @@ DIM_FFN      = 256
 # ─────────────────────────────────────────────────────────
 
 LABELS = {0: '消极 😞 (Negative)', 1: '积极 😊 (Positive)'}
+
+# ── DeepSeek 配置 ─────────────────────────────────────────
+DEEPSEEK_API_KEY  = 'sk-5307ffa372b0443c990d5ea92a9d2496'
+DEEPSEEK_BASE_URL = 'https://api.deepseek.com'
+DEEPSEEK_MODEL    = 'deepseek-chat'
+DEEPSEEK_WORKERS  = 50
+# ─────────────────────────────────────────────────────────
+
+_DEEPSEEK_SYSTEM = (
+    '你是一个中文情感分类器。对于用户输入的文本，判断其情感倾向。'
+    '只能返回 JSON，格式为 {"label": 0} 或 {"label": 1}，'
+    '其中 1 代表积极，0 代表消极，不要输出任何其他内容。'
+)
+
+
+def _deepseek_single(client, text):
+    """调用 DeepSeek API 对单条文本分类，返回 (text, label, confidence)"""
+    response = client.chat.completions.create(
+        model=DEEPSEEK_MODEL,
+        messages=[
+            {'role': 'system', 'content': _DEEPSEEK_SYSTEM},
+            {'role': 'user',   'content': text},
+        ],
+        temperature=0,
+        response_format={'type': 'json_object'},
+    )
+    raw = response.choices[0].message.content.strip()
+    label = int(json.loads(raw).get('label', 0))
+    return text, label
+
+
+def predict_deepseek(texts, workers=DEEPSEEK_WORKERS):
+    """并发调用 DeepSeek API，返回与 texts 顺序一致的 results 列表"""
+    client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=DEEPSEEK_BASE_URL)
+    results_map = {}
+    futures = {}
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        for text in texts:
+            future = executor.submit(_deepseek_single, client, text)
+            futures[future] = text
+        for future in as_completed(futures):
+            try:
+                t, label = future.result()
+                results_map[t] = label
+            except Exception as e:
+                # 调用失败时标记为消极并打印警告
+                t = futures[future]
+                print(f'[警告] DeepSeek 调用失败: {e}', file=sys.stderr)
+                results_map[t] = 0
+    # 按原始顺序返回
+    return [
+        {'text': t, 'label': results_map[t], 'confidence': 1.0}
+        for t in texts
+    ]
 
 
 def build_runtime_vocab():
@@ -123,6 +179,8 @@ if __name__ == '__main__':
   python predict.py --text "服务很好" "太差了" --format json
   python predict.py --file input.txt --format csv
   python predict.py --text "服务很好" --format simple
+  python predict.py --deepseek --text "这本书不错" "写得真烂"
+  python predict.py --deepseek --file input.txt --format json
 """,
     )
     parser.add_argument(
@@ -137,6 +195,10 @@ if __name__ == '__main__':
         '--format', choices=['human', 'simple', 'json', 'csv'],
         default='human', dest='fmt',
         help='输出格式：human | simple | json | csv（默认 human）',
+    )
+    parser.add_argument(
+        '--deepseek', action='store_true',
+        help='使用 DeepSeek API 进行预测（默认 50 线程并发），不加载本地模型',
     )
     args = parser.parse_args()
 
@@ -156,17 +218,22 @@ if __name__ == '__main__':
         parser.print_help()
         sys.exit(0)
 
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    if args.fmt == 'human':
-        print('加载模型...')
-    model, vocab = load_model(device)
-
-    # 批量推理
-    results = []
-    for text in texts:
-        label, conf = predict(text, model, vocab, device)
-        flag = 1 if '积极' in label else 0
-        results.append({'text': text, 'label': flag, 'confidence': round(conf, 4)})
+    if args.deepseek:
+        # ── DeepSeek API 预测 ──────────────────────────────
+        if args.fmt == 'human':
+            print(f'使用 DeepSeek API 预测（最多 {DEEPSEEK_WORKERS} 线程并发）...')
+        results = predict_deepseek(texts, workers=DEEPSEEK_WORKERS)
+    else:
+        # ── 本地 Transformer 模型预测 ──────────────────────
+        device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        if args.fmt == 'human':
+            print('加载模型...')
+        model, vocab = load_model(device)
+        results = []
+        for text in texts:
+            label, conf = predict(text, model, vocab, device)
+            flag = 1 if '积极' in label else 0
+            results.append({'text': text, 'label': flag, 'confidence': round(conf, 4)})
 
     # 按格式输出
     if args.fmt == 'simple':

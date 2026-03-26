@@ -1,0 +1,34 @@
+@startuml TransformerClassifier
+
+skinparam backgroundColor #FAFAFA
+skinparam defaultFontName "Microsoft YaHei"
+skinparam defaultFontSize 13
+skinparam rectangle {
+    BackgroundColor #EAF4FB
+    BorderColor     #2E86C1
+    RoundCorner     10
+}
+skinparam arrow {
+    Color     #2E4057
+    FontColor #555555
+    FontSize  11
+}
+
+title TransformerClassifier\n字符级情感二分类模型
+
+rectangle "Input\n字符 ID 序列\n(batch, max_len=256)" as INPUT
+rectangle "Embedding\nvocab_size=5076, d_model=128" as EMB
+rectangle "Positional Encoding\nSin/Cos, dropout=0.2" as PE
+rectangle "TransformerEncoderLayer × 2\nnhead=4, d_model=128\ndim_ffn=256, dropout=0.2" as ENC
+rectangle "Masked Mean Pooling\n对非 PAD 位置均值\n(batch, 128)" as POOL
+rectangle "Linear Classifier\n128 → 2 (消极 / 积极)" as CLS
+rectangle "Output\nSoftmax → label {0,1} + confidence" as OUTPUT
+
+INPUT --> EMB
+EMB   --> PE
+PE    --> ENC
+ENC   --> POOL
+POOL  --> CLS  : dropout=0.2
+CLS   --> OUTPUT
+
+@enduml
