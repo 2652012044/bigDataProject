@@ -119,6 +119,8 @@ CREATE TABLE IF NOT EXISTS comment (
     reply_count INT DEFAULT 0 COMMENT '回复数',
     show_pv INT DEFAULT 0 COMMENT '浏览量',
     status TINYINT DEFAULT 1 COMMENT '状态',
+    sentiment_label VARCHAR(20) DEFAULT NULL COMMENT '情感标签：positive/neutral/negative',
+    sentiment_score DOUBLE DEFAULT NULL COMMENT '情感置信度分数',
 
     INDEX idx_book_id (book_id),
     INDEX idx_create_timestamp (create_timestamp)

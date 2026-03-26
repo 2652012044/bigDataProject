@@ -50,7 +50,7 @@
         <div class="card-box">
           <div class="card-header"><span class="card-title">今日热门 TOP 5</span></div>
           <div class="hot-list">
-            <div v-for="(item, i) in hotNovels" :key="i" class="hot-item">
+            <div v-for="(item, i) in hotNovels" :key="i" class="hot-item" @click="openNovel(item.bookId)">
               <span class="hot-rank" :class="'rank-' + (i + 1)">{{ i + 1 }}</span>
               <span class="hot-name">{{ item.bookName }}</span>
               <span class="hot-heat">{{ item.readCount ? Number(item.readCount).toLocaleString() : '0' }}</span>
@@ -62,7 +62,7 @@
         <div class="card-box">
           <div class="card-header"><span class="card-title">最近更新</span></div>
           <div class="update-list">
-            <div v-for="(item, i) in recentUpdates" :key="i" class="update-item">
+            <div v-for="(item, i) in recentUpdates" :key="i" class="update-item" @click="openNovel(item.bookId)">
               <el-tag size="small">{{ item.category || '其他' }}</el-tag>
               <span class="update-name">{{ item.bookName }}</span>
               <span class="update-time">{{ item.wordNumber ? (item.wordNumber / 10000).toFixed(1) + '万字' : '' }}</span>
@@ -71,6 +71,9 @@
         </div>
       </el-col>
     </el-row>
+
+    <!-- 小说详情弹窗 -->
+    <NovelDialog v-model:visible="novelDialogVisible" :novel-id="selectedNovelId" />
   </div>
 </template>
 
@@ -79,6 +82,15 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import * as echarts from 'echarts'
 import 'echarts-wordcloud'
 import request from '@/api/index'
+import NovelDialog from '@/components/NovelDialog.vue'
+
+const novelDialogVisible = ref(false)
+const selectedNovelId = ref(null)
+
+function openNovel(bookId) {
+  selectedNovelId.value = bookId
+  novelDialogVisible.value = true
+}
 
 const barChartRef = ref(null)
 const wordCloudRef = ref(null)
