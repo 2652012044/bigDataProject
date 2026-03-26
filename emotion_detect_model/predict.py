@@ -1,4 +1,6 @@
 import sys
+import json
+import csv
 import argparse
 import torch
 from pathlib import Path
@@ -60,31 +62,31 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description='情感分类命令行工具（1=积极，0=消极）',
         formatter_class=argparse.RawTextHelpFormatter,
-        epilog="""使用示例：
-  # 直接输入单条文本
+        epilog="""输出格式 (--format) 说明：
+  human  默认，人类可读的多行格式
+  simple 每行仅输出 0 或 1，最简洁
+  json   JSON 数组，每项含 text/label/confidence 字段
+  csv    CSV 格式，含 text,label,confidence 表头
+
+使用示例：
   python predict.py --text "这家酒店非常棒，强烈推荐！"
-
-  # 输入多条文本
-  python predict.py --text "服务很好" "太差了"
-
-  # 从文件读取（每行一条文本）
-  python predict.py --file input.txt
-
-  # 只输出 0/1（适合脚本调用）
-  python predict.py --text "服务很好" --simple
+  python predict.py --text "服务很好" "太差了" --format json
+  python predict.py --file input.txt --format csv
+  python predict.py --text "服务很好" --format simple
 """,
     )
     parser.add_argument(
         '--text', nargs='+', metavar='TEXT',
-        help='待分析的文本，可提供多条（空格分隔，含空格的文本用引号括起）',
+        help='待分析的文本，可提供多条（含空格的文本用引号括起）',
     )
     parser.add_argument(
         '--file', metavar='FILE',
         help='文本文件路径，每行一条文本',
     )
     parser.add_argument(
-        '--simple', action='store_true',
-        help='简洁输出模式：每行只输出 0 或 1，适合脚本调用',
+        '--format', choices=['human', 'simple', 'json', 'csv'],
+        default='human', dest='fmt',
+        help='输出格式：human | simple | json | csv（默认 human）',
     )
     args = parser.parse_args()
 
@@ -105,20 +107,34 @@ if __name__ == '__main__':
         sys.exit(0)
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    if not args.simple:
+    if args.fmt == 'human':
         print('加载模型...')
     model, vocab = load_model(device)
 
-    if args.simple:
-        # 简洁模式：每行只输出 0/1
-        for text in texts:
-            label, _ = predict(text, model, vocab, device)
-            flag = 1 if '积极' in label else 0
-            print(flag)
-    else:
+    # 批量推理
+    results = []
+    for text in texts:
+        label, conf = predict(text, model, vocab, device)
+        flag = 1 if '积极' in label else 0
+        results.append({'text': text, 'label': flag, 'confidence': round(conf, 4)})
+
+    # 按格式输出
+    if args.fmt == 'simple':
+        for r in results:
+            print(r['label'])
+
+    elif args.fmt == 'json':
+        print(json.dumps(results, ensure_ascii=False, indent=2))
+
+    elif args.fmt == 'csv':
+        writer = csv.DictWriter(sys.stdout, fieldnames=['text', 'label', 'confidence'],
+                                lineterminator='\n')
+        writer.writeheader()
+        writer.writerows(results)
+
+    else:  # human
         print('\n──── 情感分析结果 ────')
-        for text in texts:
-            label, conf = predict(text, model, vocab, device)
-            flag = 1 if '积极' in label else 0
-            print(f'【输入】{text}')
-            print(f'【预测】{label}  置信度: {conf:.2%}  结果: {flag}\n')
+        for r in results:
+            sentiment = '积极 😊 (Positive)' if r['label'] == 1 else '消极 😞 (Negative)'
+            print(f'【输入】{r["text"]}')
+            print(f'【预测】{sentiment}  置信度: {r["confidence"]:.2%}  结果: {r["label"]}\n')
