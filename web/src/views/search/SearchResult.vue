@@ -5,96 +5,120 @@
       <p class="result-count">共找到 <strong>{{ totalResults }}</strong> 条相关结果</p>
     </div>
 
-    <el-tabs v-model="activeTab">
-      <el-tab-pane label="全部" name="all">
-        <div class="result-list">
-          <el-card v-for="item in allResults" :key="item.id" shadow="hover" class="result-item">
-            <div class="result-content">
-              <el-tag size="small" :type="item.tagType">{{ item.category }}</el-tag>
-              <h3 class="result-title">{{ item.title }}</h3>
-              <p class="result-desc">{{ item.desc }}</p>
-            </div>
-          </el-card>
-        </div>
-      </el-tab-pane>
-
-      <el-tab-pane label="小说" name="novel">
-        <div class="novel-list">
-          <div v-for="item in novelResults" :key="item.id" class="novel-item">
-            <div class="novel-cover" :style="{ background: item.gradient }"></div>
-            <div class="novel-info">
-              <h3>{{ item.title }}</h3>
-              <p>作者：{{ item.author }}</p>
-              <div class="novel-meta">
-                <el-tag size="small">{{ item.type }}</el-tag>
-                <el-rate :model-value="item.score" disabled show-score size="small" />
-              </div>
-              <p class="novel-desc">{{ item.desc }}</p>
-            </div>
-          </div>
-        </div>
-      </el-tab-pane>
-
-      <el-tab-pane label="作者" name="author">
-        <el-row :gutter="16">
-          <el-col :span="8" v-for="item in authorResults" :key="item.id">
-            <el-card shadow="hover" class="author-card">
-              <div class="author-info">
-                <el-avatar :size="48" :icon="UserFilled" />
-                <div>
-                  <h4>{{ item.name }}</h4>
-                  <p>{{ item.novelCount }} 部作品</p>
-                </div>
-              </div>
-              <div class="author-works">
-                <el-tag v-for="w in item.works" :key="w" size="small" effect="plain">{{ w }}</el-tag>
-              </div>
-            </el-card>
-          </el-col>
-        </el-row>
-      </el-tab-pane>
-
-      <el-tab-pane label="标签" name="tag">
-        <div class="tag-cloud">
-          <el-tag
-            v-for="tag in tagResults"
-            :key="tag.name"
-            :style="{ fontSize: tag.size + 'px' }"
-            class="tag-item"
-            effect="plain"
-          >
-            {{ tag.name }} ({{ tag.count }})
-          </el-tag>
-        </div>
-      </el-tab-pane>
-    </el-tabs>
-
-    <div class="pagination-wrapper">
-      <el-pagination
-        background
-        layout="prev, pager, next"
-        :total="totalResults"
-        :page-size="10"
-      />
+    <div v-if="totalResults === 0 && keyword" class="empty-wrapper">
+      <el-empty description="没有找到相关小说" />
     </div>
+
+    <div v-else class="novel-list">
+      <div v-for="(item, index) in novelResults" :key="item.id" class="novel-item" @click="openNovel(item.id)">
+        <div class="novel-avatar" :style="{ background: avatarColors[index % avatarColors.length] }">
+          {{ item.title.charAt(0) }}
+        </div>
+        <div class="novel-info">
+          <div class="novel-title">{{ item.title }}</div>
+          <div class="novel-meta">
+            <span class="meta-author">{{ item.author }}</span>
+            <span class="meta-dot">·</span>
+            <span class="meta-category">{{ item.category }}</span>
+            <span class="meta-dot" v-if="item.wordNumber">·</span>
+            <span class="meta-words" v-if="item.wordNumber">{{ formatWords(item.wordNumber) }}</span>
+          </div>
+          <div class="novel-tags" v-if="item.tags">
+            <el-tag v-for="tag in item.tags.split(',').slice(0, 4)" :key="tag" size="small" effect="plain" round>{{ tag.trim() }}</el-tag>
+          </div>
+          <p class="novel-desc" v-if="item.desc">{{ item.desc }}</p>
+        </div>
+        <div class="novel-score" :style="{ borderColor: scoreColor(item.score) }">
+          <span class="score-num" :style="{ color: scoreColor(item.score) }">{{ item.score }}</span>
+          <span class="score-label">评分</span>
+        </div>
+        <el-button
+          class="fav-btn"
+          :type="isFav(item.id) ? 'warning' : 'default'"
+          :icon="Star"
+          circle
+          size="small"
+          @click.stop="toggleFav(item.id)"
+        />
+      </div>
+    </div>
+
+    <NovelDialog v-model:visible="novelDialogVisible" :novel-id="selectedNovelId" />
   </div>
 </template>
 
 <script setup>
-import { ref, computed, watch, onMounted } from 'vue'
+import { ref, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import { UserFilled } from '@element-plus/icons-vue'
+import { Star } from '@element-plus/icons-vue'
+import { ElMessage } from 'element-plus'
 import request from '@/api/index'
+import NovelDialog from '@/components/NovelDialog.vue'
 
 const route = useRoute()
 const keyword = computed(() => route.query.q || '')
-const activeTab = ref('all')
 const totalResults = ref(0)
-
-const allResults = ref([])
 const novelResults = ref([])
-const authorResults = ref([])
-const tagResults = ref([])
+
+const novelDialogVisible = ref(false)
+const selectedNovelId = ref(null)
+const favSet = ref(new Set())
+
+const avatarColors = [
+  'linear-gradient(135deg, #667eea, #764ba2)',
+  'linear-gradient(135deg, #f093fb, #f5576c)',
+  'linear-gradient(135deg, #4facfe, #00f2fe)',
+  'linear-gradient(135deg, #43e97b, #38f9d7)',
+  'linear-gradient(135deg, #fa709a, #fee140)',
+  'linear-gradient(135deg, #a18cd1, #fbc2eb)',
+  'linear-gradient(135deg, #fccb90, #d57eeb)',
+  'linear-gradient(135deg, #e0c3fc, #8ec5fc)'
+]
+
+function openNovel(bookId) {
+  selectedNovelId.value = bookId
+  novelDialogVisible.value = true
+}
+
+function scoreColor(s) {
+  if (s >= 8) return '#67c23a'
+  if (s >= 6) return '#409eff'
+  if (s >= 4) return '#e6a23c'
+  return '#f56c6c'
+}
+
+function formatWords(num) {
+  if (!num) return ''
+  if (num >= 10000) return (num / 10000).toFixed(1) + '万字'
+  return num + '字'
+}
+
+function isFav(id) { return favSet.value.has(String(id)) }
+
+async function toggleFav(id) {
+  const sid = String(id)
+  try {
+    if (isFav(id)) {
+      await request.delete(`/favorites/${sid}`)
+      favSet.value.delete(sid)
+      favSet.value = new Set(favSet.value)
+      ElMessage.success('已取消收藏')
+    } else {
+      await request.post(`/favorites/${sid}`)
+      favSet.value.add(sid)
+      favSet.value = new Set(favSet.value)
+      ElMessage.success('收藏成功')
+    }
+  } catch { /* auth error handled by interceptor */ }
+}
+
+async function loadFavStatus() {
+  try {
+    const res = await request.get('/favorites')
+    const ids = (res.data || []).map(b => String(b.bookId))
+    favSet.value = new Set(ids)
+  } catch { /* not logged in */ }
+}
 
 async function doSearch() {
   if (!keyword.value) return
@@ -102,169 +126,72 @@ async function doSearch() {
     const res = await request.get('/search', { params: { keyword: keyword.value } })
     const books = res.data || []
     totalResults.value = books.length
-    // 全部结果
-    allResults.value = books.map(b => ({
-      id: b.bookId, category: b.category || '小说', tagType: '', title: b.bookName,
-      desc: b.bookAbstract || `作者: ${b.author || '未知'} | 评分: ${b.score || 0} | ${b.tags || ''}`
-    }))
-    // 小说tab
     novelResults.value = books.map(b => ({
-      id: b.bookId, title: b.bookName, author: b.author || '未知', type: b.category || '其他',
-      score: Math.min((b.score || 0) / 2, 5), gradient: 'linear-gradient(135deg, #667eea, #764ba2)',
+      id: b.bookId,
+      title: b.bookName || '未知',
+      author: b.author || '未知',
+      category: b.category || '其他',
+      score: Number(b.score) || 0,
+      wordNumber: b.wordNumber || 0,
+      tags: b.tags || '',
       desc: b.bookAbstract || ''
     }))
-    // 作者tab（去重聚合）
-    const authorMap = {}
-    books.forEach(b => {
-      if (!b.author) return
-      if (!authorMap[b.author]) authorMap[b.author] = { name: b.author, works: [] }
-      if (authorMap[b.author].works.length < 3) authorMap[b.author].works.push(b.bookName)
-    })
-    authorResults.value = Object.values(authorMap).map((a, i) => ({
-      id: i, name: a.name, novelCount: a.works.length, works: a.works
-    }))
-    // 标签tab
-    const tagMap = {}
-    books.forEach(b => {
-      if (!b.tags) return
-      b.tags.split(',').forEach(t => {
-        t = t.trim()
-        if (t) tagMap[t] = (tagMap[t] || 0) + 1
-      })
-    })
-    tagResults.value = Object.entries(tagMap)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 20)
-      .map(([name, count]) => ({ name, count, size: Math.min(12 + count * 2, 24) }))
-  } catch (e) { /* 拦截器已处理 */ }
+  } catch (e) { /* interceptor handles */ }
 }
 
-watch(keyword, () => doSearch(), { immediate: true })
+watch(keyword, () => { doSearch() }, { immediate: true })
+loadFavStatus()
 </script>
 
 <style lang="scss" scoped>
 @use '@/assets/styles/variables' as *;
 
-.search-page {
-  padding: $spacing-lg;
-  min-height: 100%;
-}
+.search-page { padding: $spacing-lg; min-height: 100%; }
 
 .search-header {
   margin-bottom: $spacing-lg;
-
-  h2 {
-    font-size: 20px;
-    color: $text-primary;
-    margin: 0 0 $spacing-xs 0;
-
-    .keyword { color: $primary-color; }
-  }
-
-  .result-count {
-    font-size: 13px;
-    color: $text-secondary;
-    margin: 0;
-  }
+  h2 { font-size: 20px; color: $text-primary; margin: 0 0 $spacing-xs 0; .keyword { color: $primary-color; } }
+  .result-count { font-size: 13px; color: $text-secondary; margin: 0; }
 }
 
-.result-list {
-  .result-item {
-    margin-bottom: $spacing-md;
-    cursor: pointer;
-  }
-
-  .result-title {
-    font-size: 16px;
-    color: $text-primary;
-    margin: $spacing-sm 0 $spacing-xs;
-  }
-
-  .result-desc {
-    font-size: 13px;
-    color: $text-secondary;
-    margin: 0;
-    line-height: 1.6;
-  }
+.empty-wrapper {
+  display: flex; justify-content: center; align-items: center; min-height: 400px;
+  background: $bg-white; border-radius: $border-radius-lg; box-shadow: $box-shadow-light;
 }
 
-.novel-list {
-  .novel-item {
-    display: flex;
-    gap: $spacing-md;
-    padding: $spacing-md;
-    background: $bg-white;
-    border-radius: $border-radius-md;
-    box-shadow: $box-shadow-light;
-    margin-bottom: $spacing-md;
-    cursor: pointer;
+.novel-list { display: flex; flex-direction: column; gap: 10px; }
 
-    &:hover { box-shadow: $box-shadow; }
-  }
-
-  .novel-cover {
-    width: 100px;
-    height: 140px;
-    border-radius: $border-radius-sm;
-    flex-shrink: 0;
-  }
-
-  .novel-info {
-    flex: 1;
-
-    h3 { margin: 0 0 $spacing-xs; font-size: 16px; color: $text-primary; }
-    p { margin: 0 0 $spacing-xs; font-size: 13px; color: $text-secondary; }
-  }
-
-  .novel-meta {
-    display: flex;
-    align-items: center;
-    gap: $spacing-sm;
-    margin-bottom: $spacing-xs;
-  }
-
-  .novel-desc {
-    line-height: 1.6;
-  }
+.novel-item {
+  display: flex; align-items: center; gap: 16px;
+  background: $bg-white; padding: 18px 24px; border-radius: 14px;
+  box-shadow: $box-shadow-light; cursor: pointer; transition: all 0.3s ease;
+  &:hover { transform: translateX(6px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
 }
 
-.author-card {
-  margin-bottom: $spacing-md;
-
-  .author-info {
-    display: flex;
-    align-items: center;
-    gap: $spacing-md;
-    margin-bottom: $spacing-md;
-
-    h4 { margin: 0; font-size: 15px; }
-    p { margin: 4px 0 0; font-size: 13px; color: $text-secondary; }
-  }
-
-  .author-works {
-    display: flex;
-    gap: $spacing-xs;
-    flex-wrap: wrap;
-  }
+.novel-avatar {
+  width: 52px; height: 52px; border-radius: 14px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 24px; font-weight: 800; color: #fff;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
 }
 
-.tag-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: $spacing-md;
-  padding: $spacing-lg;
-
-  .tag-item {
-    cursor: pointer;
-    transition: all 0.3s;
-
-    &:hover { transform: scale(1.1); }
+.novel-info {
+  flex: 1; min-width: 0;
+  .novel-title { font-size: 16px; font-weight: 600; color: $text-primary; margin-bottom: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .novel-meta { font-size: 13px; color: $text-secondary; margin-bottom: 6px; display: flex; align-items: center; gap: 4px; flex-wrap: wrap;
+    .meta-dot { color: $border-color; }
+    .meta-words { color: $primary-color; font-weight: 500; }
   }
+  .novel-tags { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 4px; .el-tag { font-size: 11px; } }
+  .novel-desc { font-size: 12px; color: $text-secondary; margin: 0; line-height: 1.5; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 }
 
-.pagination-wrapper {
-  display: flex;
-  justify-content: center;
-  padding: $spacing-lg 0;
+.novel-score {
+  width: 48px; height: 48px; border-radius: 50%; border: 3px solid;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; flex-shrink: 0;
+  .score-num { font-size: 16px; font-weight: 700; line-height: 1; }
+  .score-label { font-size: 9px; color: $text-secondary; line-height: 1; margin-top: 1px; }
 }
+
+.fav-btn { flex-shrink: 0; }
 </style>

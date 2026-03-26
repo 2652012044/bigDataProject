@@ -20,7 +20,7 @@ NHEAD      = 4
 NUM_LAYERS = 2
 DIM_FFN    = 256
 
-NEUTRAL_THRESHOLD = 0.60  # 置信度低于此值 → 中性
+NEUTRAL_THRESHOLD = 0.50  # 与模型一致：二分类模型置信度始终 >= 0.5，不再人为添加中性类别
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 model  = None
@@ -51,9 +51,8 @@ def _encode(text):
 
 
 def _to_result(pred, conf, pos_prob, neg_prob):
-    if conf < NEUTRAL_THRESHOLD:
-        label = 'neutral'
-    elif pred == 1:
+    """严格按照模型原始输出，不做任何修改"""
+    if pred == 1:
         label = 'positive'
     else:
         label = 'negative'

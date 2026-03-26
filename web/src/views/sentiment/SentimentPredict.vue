@@ -86,13 +86,24 @@
         </div>
 
         <div class="card-box">
-          <h3 class="card-title">批量分析</h3>
-          <p class="batch-desc">对数据库中所有评论进行情感分析并持久化结果</p>
-          <el-button type="warning" @click="handleBatchAnalyze" :loading="batchLoading">
-            <el-icon><Operation /></el-icon> 执行批量分析
-          </el-button>
+          <h3 class="card-title">模型管理</h3>
+          <p class="batch-desc">更新模型后，先重置旧标签再批量重新分析，确保所有结果严格来自最新模型</p>
+          <div class="manage-btns">
+            <el-button type="danger" @click="handleResetLabels" :loading="resetLoading" plain>
+              <el-icon><RefreshRight /></el-icon> 1. 重置旧标签
+            </el-button>
+            <el-button type="warning" @click="handleBatchAnalyze" :loading="batchLoading">
+              <el-icon><Operation /></el-icon> 2. 批量重新分析
+            </el-button>
+            <el-button type="success" @click="handleResetAndAnalyze" :loading="resetAndAnalyzeLoading">
+              <el-icon><Promotion /></el-icon> 一键重置+分析
+            </el-button>
+          </div>
+          <div v-if="resetResult" class="batch-result">
+            <el-alert :title="resetResult.message" type="warning" show-icon :closable="false" />
+          </div>
           <div v-if="batchResult" class="batch-result">
-            <el-alert :title="batchResult.message" type="success" show-icon :closable="false" />
+            <el-alert :title="batchResult.message" :type="batchResult.error ? 'error' : 'success'" show-icon :closable="false" />
           </div>
         </div>
 
@@ -113,6 +124,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted, nextTick } from 'vue'
 import * as echarts from 'echarts'
+import { ElMessage, ElMessageBox } from 'element-plus'
 import request from '@/api/index'
 
 const inputText = ref('')
@@ -121,6 +133,9 @@ const predicting = ref(false)
 const modelInfo = ref(null)
 const batchLoading = ref(false)
 const batchResult = ref(null)
+const resetLoading = ref(false)
+const resetResult = ref(null)
+const resetAndAnalyzeLoading = ref(false)
 const contribChartRef = ref(null)
 let contribChart = null
 
@@ -202,6 +217,38 @@ async function handleBatchAnalyze() {
   batchLoading.value = false
 }
 
+async function handleResetLabels() {
+  try {
+    await ElMessageBox.confirm('确认清除所有评论的情感标签缓存？清除后需重新批量分析。', '重置确认', { type: 'warning' })
+  } catch { return }
+  resetLoading.value = true
+  resetResult.value = null
+  batchResult.value = null
+  try {
+    const res = await request.post('/sentiment/reset-labels')
+    resetResult.value = res.data
+    ElMessage.success(`已清除 ${res.data.cleared} 条旧标签`)
+  } catch (e) { /* keep empty */ }
+  resetLoading.value = false
+}
+
+async function handleResetAndAnalyze() {
+  try {
+    await ElMessageBox.confirm('将清除所有旧标签并用最新Transformer模型重新分析全部评论，耗时较长，确认执行？', '一键重置+分析', { type: 'warning' })
+  } catch { return }
+  resetAndAnalyzeLoading.value = true
+  resetResult.value = null
+  batchResult.value = null
+  try {
+    const resetRes = await request.post('/sentiment/reset-labels')
+    resetResult.value = resetRes.data
+    const batchRes = await request.post('/sentiment/batch-analyze')
+    batchResult.value = batchRes.data
+    ElMessage.success('全部评论已用最新模型重新分析完成！')
+  } catch (e) { /* keep empty */ }
+  resetAndAnalyzeLoading.value = false
+}
+
 onMounted(() => { loadModelInfo() })
 onUnmounted(() => { contribChart?.dispose() })
 </script>
@@ -230,6 +277,7 @@ onUnmounted(() => { contribChart?.dispose() })
 
 .batch-desc { font-size: 13px; color: $text-secondary; margin-bottom: $spacing-md; }
 .batch-result { margin-top: $spacing-md; }
+.manage-btns { display: flex; gap: $spacing-sm; flex-wrap: wrap; margin-bottom: $spacing-sm; }
 
 .quick-tests { display: flex; flex-direction: column; gap: $spacing-sm; }
 .test-item {
